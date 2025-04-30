@@ -9,6 +9,9 @@ on:
 jobs:
   update-bibliography:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly request write permission
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
