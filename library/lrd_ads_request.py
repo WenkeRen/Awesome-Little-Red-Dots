@@ -3,6 +3,46 @@ import re
 import requests
 from pybtex.database import parse_string, BibliographyData
 
+# Only load environment variables from .env when running locally (skip in GitHub Actions)
+if not os.getenv("GITHUB_ACTIONS"):
+    from dotenv import load_dotenv
+
+    load_dotenv()
+
+
+def add_dimensions_altmetric(bib_database):
+    """
+    Add dimensions and altmetric fields to entries that are missing them
+    """
+    updated_count = 0
+
+    for key, entry in bib_database.entries.items():
+        # Add dimensions field if missing
+        if "dimensions" not in entry.fields:
+            entry.fields["dimensions"] = "true"
+            updated_count += 1
+
+        # Add altmetric field if missing and DOI is available
+        if "altmetric" not in entry.fields and "doi" in entry.fields:
+            try:
+                # Build Altmetric API URL
+                altmetric_api_url = f"https://api.altmetric.com/v1/doi/{entry.fields['doi']}"
+                altmetric_response = requests.get(altmetric_api_url)
+
+                # Check response status
+                if altmetric_response.status_code == 200:
+                    altmetric_data = altmetric_response.json()
+                    if "altmetric_id" in altmetric_data:
+                        entry.fields["altmetric"] = str(altmetric_data["altmetric_id"])
+                        print(f"  Added Altmetric ID: {altmetric_data['altmetric_id']} for {key}")
+                        updated_count += 1
+                else:
+                    print(f"  Cannot get Altmetric data for {key}, status code: {altmetric_response.status_code}")
+            except Exception as e:
+                print(f"  Error getting Altmetric data for {key}: {e}")
+
+    return updated_count
+
 
 def search_ads(query, token, output_article, output_proposal):
     """
@@ -89,67 +129,105 @@ def search_ads(query, token, output_article, output_proposal):
     new_article_count = 0
     new_proposal_count = 0
 
+    # Keep track of current bibcodes in search results
+    current_article_keys = set()
+    current_proposal_keys = set()
+
     for key, entry in new_bib_database.entries.items():
         # Check if it's a proposal (MISC with jwst.prop in key)
         if ("jwst.prop" in key) or (entry.type == "misc" and ".prop." in key):
+            current_proposal_keys.add(key)
             if key not in existing_proposal_bib.entries:
                 proposal_bib.add_entry(key, entry)
                 new_proposal_count += 1
         # Check if it's an article
         elif entry.type == "article":
+            current_article_keys.add(key)
             if key not in existing_article_bib.entries:
                 article_bib.add_entry(key, entry)
                 new_article_count += 1
+
+    # Remove entries that are no longer in search results
+    removed_article_count = 0
+    removed_proposal_count = 0
+
+    # Create new databases for updated content
+    updated_article_bib = BibliographyData()
+    updated_proposal_bib = BibliographyData()
+
+    # Process article entries
+    for key, entry in existing_article_bib.entries.items():
+        if key in current_article_keys:
+            # Keep entries that are still in search results
+            updated_article_bib.add_entry(key, entry)
+        else:
+            removed_article_count += 1
+            print(f"Removing article entry: {key}")
+
+    # Process proposal entries
+    for key, entry in existing_proposal_bib.entries.items():
+        if key in current_proposal_keys:
+            # Keep entries that are still in search results
+            updated_proposal_bib.add_entry(key, entry)
+        else:
+            removed_proposal_count += 1
+            print(f"Removing proposal entry: {key}")
+
+    # Add new entries to updated databases
+    for key, entry in article_bib.entries.items():
+        updated_article_bib.add_entry(key, entry)
+
+    for key, entry in proposal_bib.entries.items():
+        updated_proposal_bib.add_entry(key, entry)
+
+    # Add dimensions and altmetric fields
+    print("Adding dimensions and altmetric fields to articles...")
+    article_fields_added = add_dimensions_altmetric(updated_article_bib)
+
+    print("Adding dimensions and altmetric fields to proposals...")
+    proposal_fields_added = add_dimensions_altmetric(updated_proposal_bib)
 
     # Update existing databases with new entries
     article_success = True
     proposal_success = True
 
-    if new_article_count > 0:
-        # Merge with existing entries
-        for key, entry in article_bib.entries.items():
-            existing_article_bib.add_entry(key, entry)
+    # Save the updated article database
+    try:
+        # Write processed BibTeX back to file
+        with open(output_article, "w", encoding="utf-8") as f:
+            # Generate BibTeX string
+            bibtex_str = updated_article_bib.to_string("bibtex")
 
-        try:
-            # Write processed BibTeX back to file
-            with open(output_article, "w", encoding="utf-8") as f:
-                # Generate BibTeX string
-                bibtex_str = existing_article_bib.to_string("bibtex")
+            # Use regex to replace double quotes with braces, preserving title field formatting
+            bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
+            bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
 
-                # Use regex to replace double quotes with braces, preserving title field formatting
-                bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
-                bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
+            f.write(bibtex_str)
+        print(f"Added {new_article_count} new article entries to {output_article}")
+        print(f"Removed {removed_article_count} outdated article entries")
+        print(f"Added/updated fields in {article_fields_added} article entries")
+    except Exception as e:
+        print(f"Error writing article entries: {e}")
+        article_success = False
 
-                f.write(bibtex_str)
-            print(f"Added {new_article_count} new article entries to {output_article}")
-        except Exception as e:
-            print(f"Error writing article entries: {e}")
-            article_success = False
-    else:
-        print("No new article entries found.")
+    # Save the updated proposal database
+    try:
+        # Write processed BibTeX back to file
+        with open(output_proposal, "w", encoding="utf-8") as f:
+            # Generate BibTeX string
+            bibtex_str = updated_proposal_bib.to_string("bibtex")
 
-    if new_proposal_count > 0:
-        # Merge with existing entries
-        for key, entry in proposal_bib.entries.items():
-            existing_proposal_bib.add_entry(key, entry)
+            # Use regex to replace double quotes with braces, preserving title field formatting
+            bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
+            bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
 
-        try:
-            # Write processed BibTeX back to file
-            with open(output_proposal, "w", encoding="utf-8") as f:
-                # Generate BibTeX string
-                bibtex_str = existing_proposal_bib.to_string("bibtex")
-
-                # Use regex to replace double quotes with braces, preserving title field formatting
-                bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
-                bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
-
-                f.write(bibtex_str)
-            print(f"Added {new_proposal_count} new proposal entries to {output_proposal}")
-        except Exception as e:
-            print(f"Error writing proposal entries: {e}")
-            proposal_success = False
-    else:
-        print("No new proposal entries found.")
+            f.write(bibtex_str)
+        print(f"Added {new_proposal_count} new proposal entries to {output_proposal}")
+        print(f"Removed {removed_proposal_count} outdated proposal entries")
+        print(f"Added/updated fields in {proposal_fields_added} proposal entries")
+    except Exception as e:
+        print(f"Error writing proposal entries: {e}")
+        proposal_success = False
 
     return article_success and proposal_success
 

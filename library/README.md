@@ -14,12 +14,18 @@ Requirements:
 - Python 3
 - `requests` library
 - `pybtex` library
+- `python-dotenv` library
 
 To use:
 
 1. Set your ADS API token as an environment variable:
    ```
    export ADS_TOKEN="your_ads_api_token"
+   ```
+   
+   Or create a `.env` file in the same directory with:
+   ```
+   ADS_TOKEN=your_ads_api_token
    ```
 
 2. Run the script:
@@ -31,9 +37,11 @@ The script will:
 1. Search for papers with "Little Red Dots" in their abstracts
 2. Export all matching papers as BibTeX entries with abstracts included
 3. Parse and manage BibTeX entries using the pybtex library
-4. Check for existing entries to avoid duplicates (using BibTeX keys as identifiers)
-5. Separate articles and proposals into different files
-6. Add only new entries to `aslrd.bib` and `aslrd_prop.bib` respectively
+4. Remove outdated entries (entries in the existing file but no longer in search results)
+5. Add/update dimensions and altmetric fields for entries with DOIs
+6. Check for existing entries to avoid duplicates (using BibTeX keys as identifiers)
+7. Separate articles and proposals into different files
+8. Format and save the updated entries to `aslrd.bib` and `aslrd_prop.bib`
 
 ## Files
 
