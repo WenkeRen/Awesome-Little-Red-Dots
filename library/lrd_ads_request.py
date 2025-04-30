@@ -156,13 +156,11 @@ def search_ads(query, token, output_article, output_proposal):
 
 if __name__ == "__main__":
     # Get API token from environment variable
-    # ads_token = os.environ.get("ADS_TOKEN")
+    ads_token = os.environ.get("ADS_TOKEN")
 
-    # if not ads_token:
-    #     print("Error: ADS_TOKEN environment variable not set")
-    #     exit(1)
-
-    ads_token = "iXyZ85MqpyEiwN8EgAk0tfESD9HeXdT6iR9rbIqN"
+    if not ads_token:
+        print("Error: ADS_TOKEN environment variable not set")
+        exit(1)
 
     # Set the search query and output file
     query = "Little Red Dots"
