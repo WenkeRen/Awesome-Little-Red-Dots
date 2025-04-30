@@ -44,6 +44,18 @@ def add_dimensions_altmetric(bib_database):
     return updated_count
 
 
+def fix_back_slashes(text):
+    """
+    Fix repeated backslashes in BibTeX strings
+    This prevents the accumulation of escape characters when reading and writing files
+    """
+    # Replace multiple backslashes with a single backslash
+    # (this catches cases where previous runs have already stacked backslashes)
+    text = re.sub(r"\\{2,}", r"\\", text)
+
+    return text
+
+
 def search_ads(query, token, output_article, output_proposal):
     """
     Search the NASA ADS API for papers matching the query and save bibtex to separate files:
@@ -108,7 +120,10 @@ def search_ads(query, token, output_article, output_proposal):
     if os.path.exists(output_article):
         try:
             with open(output_article, "r", encoding="utf-8") as f:
-                existing_article_bib = parse_string(f.read(), "bibtex")
+                content = f.read()
+                # Fix backslashes before parsing to prevent accumulation
+                content = fix_back_slashes(content)
+                existing_article_bib = parse_string(content, "bibtex")
             print(f"Loaded {len(existing_article_bib.entries)} existing article entries")
         except Exception as e:
             print(f"Warning: Could not read existing article entries: {e}")
@@ -116,7 +131,10 @@ def search_ads(query, token, output_article, output_proposal):
     if os.path.exists(output_proposal):
         try:
             with open(output_proposal, "r", encoding="utf-8") as f:
-                existing_proposal_bib = parse_string(f.read(), "bibtex")
+                content = f.read()
+                # Fix backslashes before parsing to prevent accumulation
+                content = fix_back_slashes(content)
+                existing_proposal_bib = parse_string(content, "bibtex")
             print(f"Loaded {len(existing_proposal_bib.entries)} existing proposal entries")
         except Exception as e:
             print(f"Warning: Could not read existing proposal entries: {e}")
@@ -198,6 +216,9 @@ def search_ads(query, token, output_article, output_proposal):
             # Generate BibTeX string
             bibtex_str = updated_article_bib.to_string("bibtex")
 
+            # Fix backslashes to prevent duplication
+            bibtex_str = fix_back_slashes(bibtex_str)
+
             # Use regex to replace double quotes with braces, preserving title field formatting
             bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
             bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
@@ -216,6 +237,9 @@ def search_ads(query, token, output_article, output_proposal):
         with open(output_proposal, "w", encoding="utf-8") as f:
             # Generate BibTeX string
             bibtex_str = updated_proposal_bib.to_string("bibtex")
+
+            # Fix backslashes to prevent duplication
+            bibtex_str = fix_back_slashes(bibtex_str)
 
             # Use regex to replace double quotes with braces, preserving title field formatting
             bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
