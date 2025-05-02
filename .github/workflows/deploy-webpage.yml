@@ -42,20 +42,49 @@ jobs:
           cp library/LRD\ Literature\ Tags.yml webpage/assets/data/
           echo "Copied LRD Literature Tags file to webpage assets directory"
           
+      - name: Verify BibTeX file accessibility
+        run: |
+          echo "Checking if BibTeX file exists"
+          ls -la ./library/
+          if [ -f "./library/aslrd.bib" ]; then
+            echo "BibTeX file exists at ./library/aslrd.bib"
+            head -n 5 ./library/aslrd.bib
+          else
+            echo "ERROR: BibTeX file not found at ./library/aslrd.bib"
+            exit 1
+          fi
+          
       - name: Bundle install
         working-directory: ./webpage
         run: bundle install
         
       - name: Build Jekyll site
         working-directory: ./webpage
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
         env:
           JEKYLL_ENV: production
+          
+      - name: Debug _site directory
+        run: |
+          echo "Checking if _site directory exists"
+          ls -la ./webpage/
+          echo "Contents of _site directory:"
+          ls -la ./webpage/_site || echo "_site directory not found!"
+          
+      - name: Prepare artifact
+        run: |
+          if [ -d "./webpage/_site" ]; then
+            echo "Creating artifact from _site directory"
+            cp -r ./webpage/_site ./site
+          else
+            echo "ERROR: _site directory not found!"
+            exit 1
+          fi
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./webpage/_site
+          path: ./site
 
   deploy:
     environment:

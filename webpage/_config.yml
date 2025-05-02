@@ -16,6 +16,9 @@ more_authors_animation_delay: 10
 enable_altmetric_badge: true
 enable_dimensions_badge: true
 
+# Enable debugging for builds
+verbose: true
+
 # Make library directory accessible via /library URL
 include:
   - "../library"
