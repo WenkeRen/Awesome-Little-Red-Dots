@@ -38,9 +38,9 @@ jobs:
       
       - name: Copy LRD Literature Tags file to webpage assets
         run: |
-          mkdir -p webpage/assets/data
-          cp library/LRD\ Literature\ Tags.yml webpage/assets/data/
-          echo "Copied LRD Literature Tags file to webpage assets directory"
+          mkdir -p webpage/_data
+          cp library/LRD\ Literature\ Tags.yml webpage/_data/lrd_tags.yml
+          echo "Copied tag data to Jekyll _data directory"
           
       - name: Verify BibTeX file accessibility
         run: |

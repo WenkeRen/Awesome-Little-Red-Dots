@@ -61,35 +61,37 @@ document.addEventListener('DOMContentLoaded', function () {
       tagDescriptions = htmlTags;
       loadBibtexFile();
     } else {
-      // Fallback to hardcoded descriptions if HTML tags not found
-      console.log("No tags found in HTML, using fallback tags");
-      tagDescriptions = {
-        "case study": "In-depth analysis of specific LRD sources",
-        "simulation": "Computational models for LRD properties",
-        "jwst": "JWST observational data",
-        "dust": "Role of dust in LRD properties",
-        "sed": "Spectral Energy Distribution analysis",
-        "black hole mass": "SMBH mass estimation or growth",
-        "spectroscopy": "Spectral analysis",
-        "photometry": "Source brightness measurements",
-        "sample selection": "Methods for identifying LRD candidates",
-        "catalog": "List of LRD sources with properties",
-        "theory": "Theoretical models for LRD phenomena",
-        "non-agn": "Non-AGN explanations for LRDs",
-        "starburst": "Star formation in LRDs",
-        "variability": "Changes in LRD brightness over time",
-        "x-ray": "X-ray observations of LRDs",
-        "non-jwst": "Non-JWST telescope observations",
-        "radio": "Radio observations of LRDs",
-        "multi-wavelength": "Multi-spectral region analysis",
-        "early universe": "High redshift cosmic epochs",
-        "local counterpart": "Local universe analogs to LRDs",
-        "clustering": "Spatial distribution analysis",
-        "emission lines": "Spectral line analysis",
-        "host galaxy": "Properties of LRD host galaxies",
-        "kinematics": "Motion of gas/stars in LRDs",
-        "morphology": "Shape and structure of LRDs"
-      };
+      // Show error instead of using fallback tags
+      console.error("ERROR: No tags found in HTML. Make sure _data/lrd_tags.yml exists and _includes/tag_list.html is included in the page.");
+
+      // Display a visible error message on the page
+      const mainContent = document.querySelector('main');
+      if (mainContent) {
+        const errorMessage = document.createElement('div');
+        errorMessage.className = 'tag-error-message';
+        errorMessage.style.backgroundColor = '#ffeeee';
+        errorMessage.style.color = '#cc0000';
+        errorMessage.style.padding = '1rem';
+        errorMessage.style.margin = '1rem 0';
+        errorMessage.style.borderRadius = '4px';
+        errorMessage.style.border = '1px solid #cc0000';
+
+        errorMessage.innerHTML = `
+          <h3>Tag System Error</h3>
+          <p>No tags could be loaded from the HTML. This could indicate a problem with:</p>
+          <ul>
+            <li>Missing <code>_data/lrd_tags.yml</code> file</li>
+            <li>Missing <code>{% include tag_list.html %}</code> in the page</li>
+            <li>Jekyll build error</li>
+          </ul>
+          <p>Please check the site configuration.</p>
+        `;
+
+        mainContent.insertBefore(errorMessage, mainContent.firstChild);
+      }
+
+      // Still try to continue with bibtex file but with empty tags
+      tagDescriptions = {};
       loadBibtexFile();
     }
   };

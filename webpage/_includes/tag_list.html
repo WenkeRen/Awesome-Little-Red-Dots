@@ -1,0 +1,6 @@
+<!-- Dynamic tag list generated from _data/lrd_tags.yml -->
+<div id="available-tags" style="display: none;">
+  {% for tag_item in site.data.lrd_tags.tags %}
+  <span data-tag="{{ tag_item.tag }}">{{ tag_item.description }}</span>
+  {% endfor %}
+</div> 
