@@ -1,0 +1,501 @@
+/* Base styles with Material Design-inspired colors */
+:root {
+  --primary-color: #6200ee;       /* Deep purple (primary) */
+  --primary-light: #9e47ff;       /* Light variant of primary */
+  --primary-dark: #0400ba;        /* Dark variant of primary */
+  
+  --secondary-color: #03dac6;     /* Teal (secondary) */
+  --secondary-light: #66fff9;     /* Light variant of secondary */
+  --secondary-dark: #00a896;      /* Dark variant of secondary */
+  
+  --error-color: #b00020;         /* Red for errors/caution */
+  
+  --background: #ffffff;          /* White background */
+  --surface: #f5f5f5;             /* Light gray for cards/surfaces */
+  --on-primary: #ffffff;          /* White text on primary */
+  --on-secondary: #000000;        /* Black text on secondary */
+  --on-background: #121212;       /* Dark gray for text on background */
+  --on-surface: #121212;          /* Dark gray for text on surface */
+  
+  --border-color: #e0e0e0;        /* Light gray for borders */
+  --hover-color: #f0f0f0;         /* Hover state background */
+  
+  /* Tag colors */
+  --tag-bg: rgba(98, 0, 238, 0.1);
+  --tag-border: rgba(98, 0, 238, 0.3);
+  --tag-text: var(--primary-color);
+  --tooltip-bg: rgba(0, 0, 0, 0.8);
+  --tooltip-text: white;
+}
+
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--on-background);
+  background-color: var(--background);
+  margin: 0;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--primary-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/* Bibliography styles */
+.bibliography {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bibliography li {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--surface);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bibliography li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bibliography .title {
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: var(--primary-dark);
+}
+
+.bibliography .author {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.bibliography .periodical {
+  font-style: italic;
+  margin-bottom: 8px;
+  color: var(--on-surface);
+  font-size: 0.95rem;
+}
+
+.bibliography .links {
+  margin-top: 10px;
+}
+
+.bibliography .links a {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 4px 12px;
+  background-color: var(--primary-color);
+  color: var(--on-primary);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.bibliography .links a:hover {
+  background-color: var(--primary-light);
+  text-decoration: none;
+}
+
+/* Tag filtering styles */
+.tag-filter-container {
+  background-color: var(--surface);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tag-filter-container h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.tag-filter-explanation {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: var(--on-surface);
+  background-color: rgba(3, 218, 198, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 3px solid var(--secondary-color);
+}
+
+.tag-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tag-checkbox {
+  display: flex;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.tag-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.tag-checkbox label {
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  transition: all 0.2s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.tag-checkbox label:hover {
+  background-color: rgba(98, 0, 238, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tag-checkbox input[type="checkbox"]:checked + label {
+  background-color: var(--primary-color);
+  color: var(--on-primary);
+  border-color: var(--primary-color);
+}
+
+.clear-filters-btn {
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--on-background);
+  font-weight: 500;
+}
+
+.clear-filters-btn:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Entry tags */
+.entry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.entry-tag {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background-color: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  color: var(--tag-text);
+  position: relative;
+}
+
+/* Tooltip styles */
+.tag-tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 100;
+  width: 250px;
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Triangle pointer for tooltip */
+.tag-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--tooltip-bg) transparent transparent transparent;
+}
+
+/* Show tooltip on hover */
+.entry-tag:hover .tag-tooltip,
+.tag-checkbox label:hover .tag-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Citation badge styles */
+.badges {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.badges > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Fix Altmetric badge alignment */
+.badges > .altmetric-embed {
+  position: relative;
+  top: 2px; /* Adjust to align with Dimensions badge */
+}
+
+/* Ensure Dimensions badge alignment */
+.badges > .__dimensions_badge_embed__ {
+  line-height: 0;
+}
+
+/* Search styles */
+.search {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 25px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 10px rgba(98, 0, 238, 0.15);
+}
+
+/* Hide elements with unloaded class */
+.unloaded {
+  display: none;
+}
+
+/* Hidden content that shows on click */
+.hidden {
+  display: none;
+}
+
+.abstract.btn,
+.bibtex.btn,
+.award.btn {
+  cursor: pointer;
+}
+
+/* Make abstract visible when clicked */
+.abstract.hidden,
+.bibtex.hidden {
+  padding: 15px;
+  margin-top: 12px;
+  background-color: var(--primary-dark);
+  color: var(--on-primary);
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Navigation styles */
+header {
+  margin: 20px 0 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--primary-light);
+}
+
+header h1 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+header p {
+  color: var(--on-surface);
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+nav a {
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  color: var(--on-secondary);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  background-color: var(--secondary-light);
+  color: var(--on-secondary);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Footer styles */
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 2px solid var(--primary-light);
+  text-align: center;
+  color: var(--on-surface);
+  font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+  
+  .bibliography .links a {
+    margin-bottom: 8px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  .tag-checkboxes {
+    gap: 5px;
+  }
+  
+  .tag-checkbox label {
+    font-size: 0.8rem;
+    padding: 2px 6px;
+  }
+  
+  .tag-tooltip {
+    width: 200px;
+  }
+  
+  .tag-filter-explanation {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
+
+/* Proposal styles */
+.proposal-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--surface);
+  border-left: 4px solid var(--secondary-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proposal-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.proposal-item .title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  color: var(--primary-dark);
+}
+
+.proposal-item .author {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.proposal-info {
+  margin: 12px 0;
+  font-style: italic;
+  color: var(--on-surface);
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  background-color: rgba(3, 218, 198, 0.1);
+  border-radius: 4px;
+}
+
+/* Add CSS for tag categories */
+.tag-category {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+
+.tag-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+} 

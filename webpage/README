@@ -1,0 +1,37 @@
+ # Awesome Little Red Dots Bibliography Webpage
+
+This directory contains the Jekyll-based bibliography website for the Awesome Little Red Dots (ASLRD) project. The website is automatically built and deployed to GitHub Pages whenever changes are made to the `webpage` or `library` directories.
+
+## Structure
+
+- The website uses Jekyll and the Jekyll-Scholar plugin to generate a bibliography from the BibTeX file in the `../library/` directory.
+- The tag filtering system allows users to filter papers by tags defined in the LRD Literature Tags.yml file.
+
+## Development
+
+To run this website locally:
+
+1. Install Ruby and Bundler
+2. Run `bundle install` in this directory
+3. Run `bundle exec jekyll serve` to start a local server
+
+## Deployment
+
+The website is automatically deployed to GitHub Pages using GitHub Actions. The workflow:
+
+1. Copies the latest LRD Literature Tags.yml file from the library directory
+2. Builds the Jekyll site
+3. Deploys to GitHub Pages
+
+## How It Works
+
+- The bibliography is generated from the `aslrd.bib` file in the `../library/` directory
+- The Jekyll-Scholar plugin processes this file and generates HTML for each bibliography entry
+- The tag filtering system extracts tag information from the BibTeX entries and allows users to filter based on these tags
+
+## Files
+
+- `_config.yml`: Configuration for Jekyll and Jekyll-Scholar
+- `index.md`: Main landing page
+- `_layouts/`: Contains template files for the site
+- `assets/`: Contains CSS, JavaScript, and data files

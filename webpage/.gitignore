@@ -1,0 +1,18 @@
+# Jekyll generated files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Ruby
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+
+# System files
+*.log
+*.swp
+*~ 

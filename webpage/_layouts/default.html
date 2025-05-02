@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+        <nav>
+            <a href="{{ site.baseurl }}/">Main Bibliography</a>
+            <a href="{{ site.baseurl }}/kick_off/">Citation Network</a>
+            <a href="{{ site.baseurl }}/proposals/">JWST Proposals</a>
+            <a href="https://github.com/wenkeren/Awesome-Little-Red-Dots">GitHub Repository</a>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>Generated with Jekyll and <a href="https://github.com/wenkeren/Awesome-Little-Red-Dots">Awesome Little Red Dots</a>.</p>
+    </footer>
+    <script src="{{ "/assets/js/bib-interactions.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/tag-filter.js" | relative_url }}"></script>
+    
+    <!-- Altmetric badges -->
+    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script>
+    <!-- Dimensions badges -->
+    <script async src="https://badge.dimensions.ai/badge.js"></script>
+</body>
+</html> 

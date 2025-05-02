@@ -1,0 +1,49 @@
+title: Awesome Little Red Dots Bibliography
+description: A collection of papers related to Little Red Dots.
+url: "" 
+baseurl: "/Awesome-Little-Red-Dots"
+plugins:
+  - jekyll-scholar
+
+# Enable bibliography search
+bib_search: true
+
+# Add max author limit
+max_author_limit: 3
+more_authors_animation_delay: 10
+
+# Enable citation badges
+enable_altmetric_badge: true
+enable_dimensions_badge: true
+
+# Make library directory accessible via /library URL
+include:
+  - "../library"
+
+defaults:
+  - scope:
+      path: "../library"
+    values:
+      permalink: "/library/:path"
+
+scholar:
+  last_name: []
+  first_name: []
+  style: apa
+  locale: en
+  source: ../library
+  bibliography: aslrd.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  bibtex_skip_fields: [abstract]
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  repository: bibliography
+  bibtex_filters: 
+    - superscript
+    - latex
+  replace_strings: true 
