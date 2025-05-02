@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pybtex
+          pip install requests pybtex pyyaml
       
       - name: Run ADS query
         env:
@@ -36,17 +36,46 @@ jobs:
           cd library
           python lrd_ads_request.py
       
-      - name: Commit and push if changed
+      - name: Check for aslrd.bib changes
+        id: check_aslrd
+        run: |
+          git add library/aslrd.bib library/aslrd_prop.bib
+          if git diff --staged --quiet; then
+            echo "No changes to aslrd.bib"
+            echo "aslrd_changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "aslrd.bib has changed"
+            echo "aslrd_changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Update keywords for new papers
+        if: steps.check_aslrd.outputs.aslrd_changed == 'true'
+        env:
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          GITHUB_ACTIONS: true
+        run: |
+          cd library
+          python paper_kwd.py aslrd.bib
+          
+      - name: Run kick_off_papers.py to update kick_off.bib
+        env:
+          ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
+          GITHUB_ACTIONS: true
+        run: |
+          cd library
+          python kick_off_papers.py
+      
+      - name: Commit and push all changes
         id: commit
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add library/aslrd.bib library/aslrd_prop.bib
+          git add library/aslrd.bib library/aslrd_prop.bib library/kick_off.bib
           if git diff --staged --quiet; then
             echo "No changes to commit"
             echo "changes_made=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "Update bibliography with latest papers"
+            git commit -m "Update bibliography with latest papers and keywords"
             git push
             echo "changes_made=true" >> $GITHUB_OUTPUT
           fi

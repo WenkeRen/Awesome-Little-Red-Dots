@@ -4,11 +4,13 @@ import yaml
 import requests
 import logging
 from pybtex.database import parse_file, BibliographyData, Entry
-from pybtex.database.output.bibtex import Writer
 import time  # Add time for retry delay
-from dotenv import load_dotenv
+import re
 
-load_dotenv()
+if not os.getenv("GITHUB_ACTIONS"):
+    from dotenv import load_dotenv
+
+    load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -56,14 +58,32 @@ def load_bibtex(bib_path: str) -> BibliographyData | None:
         return None
 
 
+def fix_back_slashes(text):
+    """
+    Fix repeated backslashes in BibTeX strings
+    This prevents the accumulation of escape characters when reading and writing files
+    """
+    # Replace multiple backslashes with a single backslash
+    # (this catches cases where previous runs have already stacked backslashes)
+    text = re.sub(r"\\{2,}", r"\\", text)
+
+    return text
+
+
 def save_bibtex(bib_data: BibliographyData, output_path: str) -> None:
     """Saves BibTeX data to a file using BibTeX format."""
-    writer = Writer()
-    # Customize writer settings if needed, e.g., for encoding
-    # writer.encoding = 'utf8'
     try:
         with open(output_path, "w", encoding="utf-8") as f:
-            writer.write_file(bib_data, f)
+            # Generate BibTeX string
+            bibtex_str = bib_data.to_string("bibtex")
+
+            # Fix backslashes to prevent duplication
+            bibtex_str = fix_back_slashes(bibtex_str)
+
+            # Use regex to replace double quotes with braces, preserving title field formatting
+            bibtex_str = re.sub(r'(\w+) = "(?!\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
+            bibtex_str = re.sub(r'(\w+) = "(?=\{)(.*?)(?!\})"(,|\n)', r"\1 = {\2}\3", bibtex_str)
+            f.write(bibtex_str)
         logging.info(f"BibTeX data successfully saved to {output_path}")
     except IOError as e:
         logging.error(f"Error writing BibTeX file to {output_path}: {e}")
@@ -171,12 +191,10 @@ def generate_keywords_for_entry(entry: Entry, tags_data: dict, api_key: str) -> 
     return None
 
 
-def main():
+def main(bib_file_path):
     """Main function to process the BibTeX file and add keywords."""
-    # Define file paths (adjust if needed)
-    bib_file_path = "./aslrd.bib"
+    # Define YAML tags file path
     yaml_file_path = "./LRD Literature Tags.yml"
-    output_bib_path = "./aslrd_updated.bib"  # Save to a new file initially
 
     # Get API Key
     api_key = os.getenv(ALIYUN_API_KEY_ENV_VAR)
@@ -229,8 +247,8 @@ def main():
 
     # Save the updated BibTeX data if any entries were modified
     if updated_entries_count > 0:
-        logging.info(f"Saving updated BibTeX data to {output_bib_path}...")
-        save_bibtex(bib_data, output_bib_path)
+        logging.info(f"Saving updated BibTeX data to {bib_file_path}...")
+        save_bibtex(bib_data, bib_file_path)
         logging.info(f"Successfully updated {updated_entries_count} entries.")
     else:
         logging.info("No entries were updated.")
@@ -239,4 +257,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        default_bib_path = "./aslrd.bib"
+        logging.info(f"No bibliography file path provided. Using default: {default_bib_path}")
+        sys.argv.append(default_bib_path)
+
+    main(sys.argv[1])

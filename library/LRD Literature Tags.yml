@@ -11,8 +11,8 @@ tags:
   - tag: theory
     description: Primarily discusses theoretical models, physical mechanisms, or interpretations of LRD phenomena.
 # How they believe the intrinsic nature of LRDs
-  - tag: agn
-    description: Focuses on Active Galactic Nuclei activity, accretion onto supermassive black holes (SMBHs), or AGN signatures.
+  - tag: non-agn
+    description: Discusses or proposes scenarios other than AGN (e.g., compact starburst, mixed models) as the primary explanation for LRD properties.
   - tag: starburst
     description: Investigates intense star formation activity as a primary or contributing factor to LRD properties.
   - tag: dust
