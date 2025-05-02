@@ -1,7 +1,7 @@
 // Tag filtering functionality for LRD bibliography
 
 document.addEventListener('DOMContentLoaded', function () {
-  // We'll load tag descriptions from the available tags in the HTML
+  // We'll primarily load tag descriptions from the available tags in the HTML
   let tagDescriptions = {};
   let bibtexEntries = [];
 
@@ -51,108 +51,45 @@ document.addEventListener('DOMContentLoaded', function () {
     return tagNames;
   };
 
-  // Function to load and parse the YAML file
-  const loadTagDescriptions = async () => {
-    try {
-      // First try to get tags from HTML
-      const htmlTags = getTagsFromHTML();
-      if (Object.keys(htmlTags).length > 0) {
-        console.log("Using tags from HTML");
-        for (const [tag, description] of Object.entries(htmlTags)) {
-          tagDescriptions[tag] = description;
-        }
-        loadBibtexFile();
-        return;
-      }
+  // Initialize by loading tags directly from the HTML
+  const initializeTags = () => {
+    // First try to get tags from HTML (which we now added directly to index.md)
+    const htmlTags = getTagsFromHTML();
 
-      console.log("No tags found in HTML, attempting to load from YAML file");
-
-      // Try to load YAML file from assets/data directory
-      // Get baseUrl from meta tag
-      const baseUrl = document.querySelector('meta[name="baseurl"]')?.getAttribute('content') || '';
-      console.log("Base URL from meta tag:", baseUrl);
-
-      let yamlText = null;
-      let fetchSuccessful = false;
-
-      // Try multiple potential paths
-      const potentialPaths = [
-        `${baseUrl}/assets/data/LRD Literature Tags.yml`,
-        `/assets/data/LRD Literature Tags.yml`,
-        `/Awesome-Little-Red-Dots/assets/data/LRD Literature Tags.yml`,
-        `./assets/data/LRD Literature Tags.yml`
-      ];
-
-      for (const path of potentialPaths) {
-        if (fetchSuccessful) break;
-
-        try {
-          console.log(`Attempting to fetch from: ${path}`);
-          const response = await fetch(path);
-          if (response.ok) {
-            yamlText = await response.text();
-            console.log(`Successfully loaded YAML from: ${path}`);
-            fetchSuccessful = true;
-          }
-        } catch (e) {
-          console.log(`Failed to fetch from ${path}:`, e);
-        }
-      }
-
-      if (!yamlText) {
-        throw new Error("Could not load YAML file from any potential path");
-      }
-
-      // Simple YAML parser for our specific format
-      const lines = yamlText.split('\n');
-      let currentTag = null;
-
-      console.log("Successfully loaded YAML file, parsing tags...");
-
-      lines.forEach(line => {
-        // Look for tag definition
-        const tagMatch = line.match(/^\s*-\s+tag:\s+(.+)$/);
-        if (tagMatch) {
-          currentTag = tagMatch[1].trim();
-        }
-
-        // Look for description that corresponds to the current tag
-        const descMatch = line.match(/^\s*description:\s+(.+)$/);
-        if (descMatch && currentTag) {
-          tagDescriptions[currentTag] = descMatch[1].trim();
-          currentTag = null;
-        }
-      });
-
-      console.log(`Parsed ${Object.keys(tagDescriptions).length} tags from YAML`);
-
-      // After loading descriptions, load BibTeX file
+    if (Object.keys(htmlTags).length > 0) {
+      console.log("Using tags from HTML");
+      tagDescriptions = htmlTags;
       loadBibtexFile();
-    } catch (error) {
-      console.log("Error loading tag descriptions:", error);
-
-      // Fallback to tags in #available-tags or basic descriptions
-      const htmlTags = getTagsFromHTML();
-      if (Object.keys(htmlTags).length > 0) {
-        console.log("Falling back to HTML tags");
-        tagDescriptions = htmlTags;
-      } else {
-        console.log("Using hardcoded fallback tags");
-        // Fallback to some basic descriptions if YAML loading fails
-        tagDescriptions = {
-          "case study": "In-depth analysis of specific LRD sources",
-          "simulation": "Computational models for LRD properties",
-          "jwst": "JWST observational data",
-          "dust": "Role of dust in LRD properties",
-          "sed": "Spectral Energy Distribution analysis",
-          "black hole mass": "SMBH mass estimation or growth",
-          "spectroscopy": "Spectral analysis",
-          "photometry": "Source brightness measurements",
-          "sample selection": "Methods for identifying LRD candidates"
-        };
-      }
-
-      // Still try to load BibTeX file
+    } else {
+      // Fallback to hardcoded descriptions if HTML tags not found
+      console.log("No tags found in HTML, using fallback tags");
+      tagDescriptions = {
+        "case study": "In-depth analysis of specific LRD sources",
+        "simulation": "Computational models for LRD properties",
+        "jwst": "JWST observational data",
+        "dust": "Role of dust in LRD properties",
+        "sed": "Spectral Energy Distribution analysis",
+        "black hole mass": "SMBH mass estimation or growth",
+        "spectroscopy": "Spectral analysis",
+        "photometry": "Source brightness measurements",
+        "sample selection": "Methods for identifying LRD candidates",
+        "catalog": "List of LRD sources with properties",
+        "theory": "Theoretical models for LRD phenomena",
+        "non-agn": "Non-AGN explanations for LRDs",
+        "starburst": "Star formation in LRDs",
+        "variability": "Changes in LRD brightness over time",
+        "x-ray": "X-ray observations of LRDs",
+        "non-jwst": "Non-JWST telescope observations",
+        "radio": "Radio observations of LRDs",
+        "multi-wavelength": "Multi-spectral region analysis",
+        "early universe": "High redshift cosmic epochs",
+        "local counterpart": "Local universe analogs to LRDs",
+        "clustering": "Spatial distribution analysis",
+        "emission lines": "Spectral line analysis",
+        "host galaxy": "Properties of LRD host galaxies",
+        "kinematics": "Motion of gas/stars in LRDs",
+        "morphology": "Shape and structure of LRDs"
+      };
       loadBibtexFile();
     }
   };
@@ -574,6 +511,6 @@ document.addEventListener('DOMContentLoaded', function () {
     createTagFilter();
   };
 
-  // Start by loading the tag descriptions
-  loadTagDescriptions();
+  // Start by initializing tags directly from HTML
+  initializeTags();
 }); 

@@ -1,7 +1,6 @@
 title: Awesome Little Red Dots Bibliography
 description: A collection of papers related to Little Red Dots.
 url: "" 
-baseurl: "/Awesome-Little-Red-Dots"
 plugins:
   - jekyll-scholar
 
