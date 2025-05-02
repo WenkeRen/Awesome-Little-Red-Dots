@@ -7,10 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Get available tags from HTML
   const getTagsFromHTML = () => {
-    console.log("Getting tags from HTML");
+    // Get the available-tags element
     const availableTags = document.getElementById('available-tags');
     if (!availableTags) {
-      console.log("available-tags element not found");
       return {};
     }
 
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    console.log(`Found ${Object.keys(tags).length} tags from HTML`);
     return tags;
   };
 
@@ -32,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const extractTagsFromAvailableTagsDiv = () => {
     const availableTags = document.getElementById('available-tags');
     if (!availableTags) {
-      console.log("available-tags element not found for extraction");
       return [];
     }
 
@@ -47,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    console.log(`Extracted ${tagNames.length} tag names from available-tags div`);
     return tagNames;
   };
 
@@ -57,7 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const htmlTags = getTagsFromHTML();
 
     if (Object.keys(htmlTags).length > 0) {
-      console.log("Using tags from HTML");
       tagDescriptions = htmlTags;
       loadBibtexFile();
     } else {
@@ -103,20 +98,15 @@ document.addEventListener('DOMContentLoaded', function () {
       // If it is, we can get tags directly from the HTML without fetching the BibTeX file
       const bibliographyElements = document.querySelectorAll('.bibliography li');
       if (bibliographyElements.length > 0) {
-        console.log("Bibliography already loaded in HTML, skipping BibTeX fetch");
         initializeTagFilters();
         return;
       }
 
       // If bibliography is not in HTML, we need to try to load the BibTeX file
-      console.log("Attempting to fetch bibtex data...");
-
       // In Jekyll, we can't easily access files outside the website root directly with fetch
       // However, Jekyll-Scholar has already processed the BibTeX file, so let's use that info
       const bib_items = document.querySelectorAll('.bibtex.hidden');
       if (bib_items && bib_items.length > 0) {
-        console.log(`Found ${bib_items.length} bibliography items with bibtex data in HTML`);
-
         // Extract and parse bibtex data from HTML elements
         bib_items.forEach(item => {
           const bibtexContent = item.textContent;
@@ -130,11 +120,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      console.log("No bibliography or bibtex data found in the HTML");
       initializeTagFilters();
     } catch (error) {
-      console.log("Error loading BibTeX content:", error);
-
       // If we couldn't load the BibTeX file, just initialize with what we have
       initializeTagFilters();
     }
@@ -192,12 +179,8 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    console.log("Creating tag filter with", Object.keys(tagDescriptions).length, "tags");
-
     // If we don't have tag descriptions yet, try to get them from bibliography entries
     if (Object.keys(tagDescriptions).length === 0) {
-      console.log("No tag descriptions found, extracting from bibliography entries");
-
       // First try to get tag names from the available-tags div
       const availableTagNames = extractTagsFromAvailableTagsDiv();
       availableTagNames.forEach(tag => {
@@ -241,8 +224,6 @@ document.addEventListener('DOMContentLoaded', function () {
           tagDescriptions[tag] = `Tag: ${tag}`;
         }
       });
-
-      console.log("Extracted", Object.keys(tagDescriptions).length, "tags from bibliography entries");
     }
 
     // Create the tag filter container regardless of whether items have been tagged yet
