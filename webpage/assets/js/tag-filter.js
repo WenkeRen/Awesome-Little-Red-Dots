@@ -47,6 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
     return tagNames;
   };
 
+  // Check if current page is main bibliography or not
+  const isMainBibliographyPage = () => {
+    return !window.location.pathname.includes('kick_off') &&
+      !window.location.pathname.includes('proposals');
+  };
+
   // Initialize by loading tags directly from the HTML
   const initializeTags = () => {
     // First try to get tags from HTML (which we now added directly to index.md)
@@ -56,33 +62,36 @@ document.addEventListener('DOMContentLoaded', function () {
       tagDescriptions = htmlTags;
       loadBibtexFile();
     } else {
-      // Show error instead of using fallback tags
-      console.error("ERROR: No tags found in HTML. Make sure _data/lrd_tags.yml exists and _includes/tag_list.html is included in the page.");
+      // Only show error message on the main bibliography page
+      if (isMainBibliographyPage()) {
+        // Show error instead of using fallback tags
+        console.error("ERROR: No tags found in HTML. Make sure _data/lrd_tags.yml exists and _includes/tag_list.html is included in the page.");
 
-      // Display a visible error message on the page
-      const mainContent = document.querySelector('main');
-      if (mainContent) {
-        const errorMessage = document.createElement('div');
-        errorMessage.className = 'tag-error-message';
-        errorMessage.style.backgroundColor = '#ffeeee';
-        errorMessage.style.color = '#cc0000';
-        errorMessage.style.padding = '1rem';
-        errorMessage.style.margin = '1rem 0';
-        errorMessage.style.borderRadius = '4px';
-        errorMessage.style.border = '1px solid #cc0000';
+        // Display a visible error message on the page
+        const mainContent = document.querySelector('main');
+        if (mainContent) {
+          const errorMessage = document.createElement('div');
+          errorMessage.className = 'tag-error-message';
+          errorMessage.style.backgroundColor = '#ffeeee';
+          errorMessage.style.color = '#cc0000';
+          errorMessage.style.padding = '1rem';
+          errorMessage.style.margin = '1rem 0';
+          errorMessage.style.borderRadius = '4px';
+          errorMessage.style.border = '1px solid #cc0000';
 
-        errorMessage.innerHTML = `
-          <h3>Tag System Error</h3>
-          <p>No tags could be loaded from the HTML. This could indicate a problem with:</p>
-          <ul>
-            <li>Missing <code>_data/lrd_tags.yml</code> file</li>
-            <li>Missing <code>{% include tag_list.html %}</code> in the page</li>
-            <li>Jekyll build error</li>
-          </ul>
-          <p>Please check the site configuration.</p>
-        `;
+          errorMessage.innerHTML = `
+            <h3>Tag System Error</h3>
+            <p>No tags could be loaded from the HTML. This could indicate a problem with:</p>
+            <ul>
+              <li>Missing <code>_data/lrd_tags.yml</code> file</li>
+              <li>Missing <code>{% include tag_list.html %}</code> in the page</li>
+              <li>Jekyll build error</li>
+            </ul>
+            <p>Please check the site configuration.</p>
+          `;
 
-        mainContent.insertBefore(errorMessage, mainContent.firstChild);
+          mainContent.insertBefore(errorMessage, mainContent.firstChild);
+        }
       }
 
       // Still try to continue with bibtex file but with empty tags
@@ -172,10 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Create tag filter container
   const createTagFilter = () => {
     // Check if we're on the main bibliography page
-    const isMainBibliographyPage = !window.location.pathname.includes('kick_off') &&
-      !window.location.pathname.includes('proposals');
-
-    if (!isMainBibliographyPage) {
+    if (!isMainBibliographyPage()) {
       return;
     }
 
@@ -375,6 +381,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Process each bibliography item to add tags
   const processBibliographyItems = () => {
+    // Skip tag processing for non-main bibliography pages
+    if (!isMainBibliographyPage()) {
+      return;
+    }
+
     // If we have parsed BibTeX entries, use them to add tags to HTML items
     if (bibtexEntries.length > 0) {
       bibliographyItems.forEach(item => {
