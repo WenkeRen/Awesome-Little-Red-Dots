@@ -36,8 +36,8 @@ scholar:
   source: ../library
   bibliography: aslrd.bib
   bibliography_template: bib
-  sort_by: year
-  order: descending
+  sort_by: year,month,author
+  order: descending,descending,ascending
   group_by: year
   group_order: descending
   bibtex_skip_fields: [abstract]
