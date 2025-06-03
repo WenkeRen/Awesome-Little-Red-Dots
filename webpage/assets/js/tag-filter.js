@@ -299,6 +299,89 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  // Create tag checkboxes only (for use in the new layout)
+  const createTagCheckboxes = (checkboxContainer) => {
+    // If we don't have tag descriptions yet, try to get them from bibliography entries
+    if (Object.keys(tagDescriptions).length === 0) {
+      // First try to get tag names from the available-tags div
+      const availableTagNames = extractTagsFromAvailableTagsDiv();
+      availableTagNames.forEach(tag => {
+        if (!tagDescriptions[tag]) {
+          tagDescriptions[tag] = `Tag: ${tag}`;
+        }
+      });
+
+      // Then try to extract from bibliography entries
+      const bibliographyItems = document.querySelectorAll('.bibliography li');
+      bibliographyItems.forEach(item => {
+        const tagsAttr = item.getAttribute('data-lrd-keys');
+        if (tagsAttr) {
+          const tags = tagsAttr.split(',').map(tag => tag.trim()).filter(tag => tag !== '');
+          tags.forEach(tag => {
+            if (!tagDescriptions[tag]) {
+              tagDescriptions[tag] = `Tag: ${tag}`;
+            }
+          });
+        }
+
+        // Also try to find tags in bibtex content
+        const bibtexElement = item.querySelector('.bibtex.hidden');
+        if (bibtexElement) {
+          const bibtexContent = bibtexElement.textContent || '';
+          const lrdKeysMatch = bibtexContent.match(/lrdKeys\s*=\s*{([^}]*)}/i);
+          if (lrdKeysMatch && lrdKeysMatch[1]) {
+            const tags = lrdKeysMatch[1].split(',').map(tag => tag.trim()).filter(tag => tag !== '');
+            tags.forEach(tag => {
+              if (!tagDescriptions[tag]) {
+                tagDescriptions[tag] = `Tag: ${tag}`;
+              }
+            });
+          }
+        }
+      });
+
+      // Also look for tags in the visible tags on the page
+      document.querySelectorAll('.entry-tag').forEach(tagElement => {
+        const tag = tagElement.textContent.trim();
+        if (tag && !tagDescriptions[tag]) {
+          tagDescriptions[tag] = `Tag: ${tag}`;
+        }
+      });
+    }
+
+    // Sort all tags alphabetically
+    const sortedTags = Object.keys(tagDescriptions).sort();
+
+    sortedTags.forEach(tag => {
+      const checkboxDiv = document.createElement('div');
+      checkboxDiv.className = 'tag-checkbox';
+
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.id = `tag-${tag.replace(/\s+/g, '-')}`;
+      checkbox.value = tag;
+
+      const label = document.createElement('label');
+      label.htmlFor = checkbox.id;
+      label.textContent = tag;
+
+      // Add tooltip with tag description
+      if (tagDescriptions[tag]) {
+        const tooltip = document.createElement('span');
+        tooltip.className = 'tag-tooltip';
+        tooltip.textContent = tagDescriptions[tag];
+        label.appendChild(tooltip);
+      }
+
+      checkboxDiv.appendChild(checkbox);
+      checkboxDiv.appendChild(label);
+      checkboxContainer.appendChild(checkboxDiv);
+
+      // Add event listener to filter items when checkbox is changed
+      checkbox.addEventListener('change', filterItems);
+    });
+  };
+
   // Filter bibliography items based on selected tags
   const filterItems = () => {
     const selectedTags = Array.from(document.querySelectorAll('.tag-checkbox input:checked'))
@@ -501,8 +584,90 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Function to initialize everything after tag descriptions are loaded
   const initializeTagFilters = () => {
+    // Skip if we're not on the main bibliography page
+    if (!isMainBibliographyPage()) {
+      return;
+    }
+
+    // Process bibliography items first
     processBibliographyItems();
-    createTagFilter();
+
+    // Create the main container with both filter and chart
+    const mainContent = document.querySelector('main');
+    if (!mainContent) return;
+
+    // Find the position to insert (after bib search, before bibliography)
+    const bibSearch = document.querySelector('.search');
+    const bibliography = document.querySelector('.bibliography, h2.bibliography');
+
+    if (!bibSearch && !bibliography) return;
+
+    // Create main filter container
+    const filterMainContainer = document.createElement('div');
+    filterMainContainer.className = 'filter-main-container';
+
+    // Create left panel for tag filtering
+    const leftPanel = document.createElement('div');
+    leftPanel.className = 'filter-left-panel';
+
+    // Create the tag filter container
+    const tagFilterContainer = document.createElement('div');
+    tagFilterContainer.className = 'tag-filter-container';
+
+    const filterTitle = document.createElement('h3');
+    filterTitle.textContent = 'Filter by Tags';
+    tagFilterContainer.appendChild(filterTitle);
+
+    // Create the explanation
+    const explanation = document.createElement('div');
+    explanation.className = 'tag-filter-explanation';
+    explanation.innerHTML = 'Select one or more tags to filter the bibliography. Multiple tags will show papers that have <strong>all</strong> selected tags.';
+    tagFilterContainer.appendChild(explanation);
+
+    // Create checkboxes container
+    const checkboxContainer = document.createElement('div');
+    checkboxContainer.className = 'tag-checkboxes';
+    tagFilterContainer.appendChild(checkboxContainer);
+
+    // Create clear filters button
+    const clearButton = document.createElement('button');
+    clearButton.textContent = 'Clear All Filters';
+    clearButton.className = 'clear-filters-btn';
+    clearButton.addEventListener('click', clearFilters);
+    tagFilterContainer.appendChild(clearButton);
+
+    leftPanel.appendChild(tagFilterContainer);
+
+    // Create right panel for chart
+    const rightPanel = document.createElement('div');
+    rightPanel.className = 'filter-right-panel';
+
+    const chartContainer = document.createElement('div');
+    chartContainer.className = 'publication-chart-container';
+
+    const chartTitle = document.createElement('h3');
+    chartTitle.textContent = 'Monthly Publications';
+    chartContainer.appendChild(chartTitle);
+
+    const chartDiv = document.createElement('div');
+    chartDiv.id = 'publication-chart';
+    chartContainer.appendChild(chartDiv);
+
+    rightPanel.appendChild(chartContainer);
+
+    // Add both panels to main container
+    filterMainContainer.appendChild(leftPanel);
+    filterMainContainer.appendChild(rightPanel);
+
+    // Insert the main container
+    if (bibSearch) {
+      bibSearch.parentNode.insertBefore(filterMainContainer, bibSearch.nextSibling);
+    } else if (bibliography) {
+      bibliography.parentNode.insertBefore(filterMainContainer, bibliography);
+    }
+
+    // Create tag checkboxes
+    createTagCheckboxes(checkboxContainer);
   };
 
   // Start by initializing tags directly from HTML
