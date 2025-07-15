@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # Fetch all history to ensure we have previous versions of the files
+          token: ${{ secrets.PAT_TOKEN }}  # Use PAT to enable triggering other workflows
       
       - name: Set up Python
         uses: actions/setup-python@v4
