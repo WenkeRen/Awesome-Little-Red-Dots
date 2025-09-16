@@ -18,9 +18,27 @@ Awesome-Little-Red-Dots is an open-science initiative to centralize and analyze 
 
 **Browse the bibliography: [https://www.wenkeren.com/Awesome-Little-Red-Dots/](https://www.wenkeren.com/Awesome-Little-Red-Dots/)**
 
-## 🤖 How We Use AI for Paper Tagging
+## 🤖 AI-Enhanced Research Tools
 
-One of the unique aspects of this project is the use of AI to automatically categorize papers with relevant tags:
+This project leverages artificial intelligence in two key ways to enhance the research experience and make the LRD literature more accessible:
+
+### Interactive Research Assistant with Google NotebookLM
+
+We've created an innovative AI research assistant using Google's NotebookLM that contains all the papers from our collection. NotebookLM is an AI-first notebook, grounded in your own documents, designed to help you gain insights faster. This interactive tool allows you to:
+
+- **Ask questions** about the entire LRD literature collection
+- **Generate summaries** of research trends and findings
+- **Explore connections** between different papers and concepts
+- **Get instant answers** about specific LRD phenomena, observations, or theories
+- **Create custom research briefings** tailored to your interests
+
+The notebook has been pre-loaded with PDF versions of all papers in this repository, making it a comprehensive knowledge base for LRD research. Whether you're a seasoned researcher or new to the field, this tool can help you quickly understand the state of the literature and identify relevant studies.
+
+**Access the NotebookLM: [https://notebooklm.google.com/notebook/717c4d8c-ba0f-496f-9e51-e603ee7ef10f](https://notebooklm.google.com/notebook/717c4d8c-ba0f-496f-9e51-e603ee7ef10f)**
+
+### Automated Paper Categorization and Tagging
+
+Behind the scenes, we use AI to automatically categorize papers with relevant tags, making the bibliography more searchable and organized:
 
 1. We maintain a structured taxonomy of LRD research areas in `library/LRD Literature Tags.yml`
 2. Our `paper_kwd.py` script processes papers through the Qwen-Max API (Aliyun's large language model)
@@ -29,6 +47,14 @@ One of the unique aspects of this project is the use of AI to automatically cate
 5. Tags help researchers quickly identify papers focusing on specific aspects (e.g., spectroscopy, black hole mass, dust)
 
 This approach ensures consistent categorization across the growing literature and makes the bibliography more useful for filtering and finding relevant research.
+
+### Privacy and Responsible Use
+
+**Important Privacy Notice**: Your data may be used by Google to enhance the NotebookLM product, so please use this tool responsibly. We, the creators of this collection, have no access to your personal information or queries, and your interactions will not be used to modify this notebook's content. All interactions are between you and Google's NotebookLM service.
+
+### We Value Your Feedback
+
+Your feedback is invaluable for making this resource better. If you have any ideas or suggestions about the NotebookLM integration, the AI tagging system, or any other aspect of this project, please open an issue on our GitHub page. Your insights help us improve this resource for the entire astronomy community.
 
 ## 🔄 How We Collect and Update Data
 
