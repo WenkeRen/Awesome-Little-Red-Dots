@@ -116,3 +116,5 @@ yarn-error.log*
 config.ini
 secrets.json
 CLAUDE.md
+
+temp/

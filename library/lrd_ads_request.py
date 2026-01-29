@@ -65,11 +65,11 @@ def search_ads(query, token, output_article, output_proposal):
     base_url = "https://api.adsabs.harvard.edu/v1"
     headers = {"Authorization": f"Bearer {token}"}
 
-    # First search for papers with the query in abstract
+    # First search for papers with the query in title OR abstract
     search_url = f"{base_url}/search/query"
-    search_params = {"q": f'abs:"{query}"', "fl": "bibcode", "rows": 200, "sort": "date desc"}
+    search_params = {"q": f'title:"{query}" OR abs:"{query}"', "fl": "bibcode", "rows": 1000, "sort": "date desc"}
 
-    print(f"Searching for papers with '{query}' in abstract...")
+    print(f"Searching for papers with '{query}' in title or abstract...")
     response = requests.get(search_url, headers=headers, params=search_params)
 
     if response.status_code != 200:
