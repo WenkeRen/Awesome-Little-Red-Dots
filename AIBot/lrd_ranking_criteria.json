@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "description": "Scoring criteria for evaluating LRD (Little Red Dot) paper relevance on a 0-10 scale",
+  "last_updated": "2025-01-29",
+  "scoring_categories": [
+    {
+      "name": "Core LRD Focus",
+      "weight": 0.40,
+      "description": "How directly the paper studies Little Red Dots as the primary research object",
+      "evaluation_criteria": [
+        {
+          "indicator": "Primary research focus is LRDs (appears in title, central hypothesis)",
+          "points": 10
+        },
+        {
+          "indicator": "LRDs are major component of analysis (multi-object study, large LRD sample)",
+          "points": 8
+        },
+        {
+          "indicator": "LRDs mentioned as part of broader context (comparative study, few LRDs in sample)",
+          "points": 5
+        },
+        {
+          "indicator": "LRDs only mentioned tangentially or in passing",
+          "points": 2
+        },
+        {
+          "indicator": "No mention of LRDs or closely related phenomena",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "Observational Techniques",
+      "weight": 0.20,
+      "description": "Relevance and quality of observational data used to study LRDs",
+      "evaluation_criteria": [
+        {
+          "indicator": "Direct JWST observations (NIRSpec spectroscopy, NIRCam imaging)",
+          "points": 10
+        },
+        {
+          "indicator": "Multi-wavelength data including JWST + X-ray/Radio/ALMA",
+          "points": 9
+        },
+        {
+          "indicator": "JWST photometry or non-JWST spectroscopy",
+          "points": 7
+        },
+        {
+          "indicator": "Ground-based or archival data (HST, Spitzer)",
+          "points": 5
+        },
+        {
+          "indicator": "Purely theoretical or simulation study (no observational data)",
+          "points": 3
+        },
+        {
+          "indicator": "No observational connection to LRDs",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "Physical Properties Investigated",
+      "weight": 0.15,
+      "description": "Depth of analysis on key LRD physical properties",
+      "key_properties": [
+        "black hole mass",
+        "accretion rates / Eddington ratio",
+        "redshift (z > 4 characteristic)",
+        "emission lines (H-alpha, H-beta, [OIII])",
+        "dust content and obscuration",
+        "host galaxy properties",
+        "morphology and compactness",
+        "variability and time-domain behavior"
+      ],
+      "evaluation_criteria": [
+        {
+          "indicator": "Analyzes 4+ key properties with detailed measurements/constraints",
+          "points": 10
+        },
+        {
+          "indicator": "Investigates 2-3 key properties",
+          "points": 7
+        },
+        {
+          "indicator": "Discusses 1 key property",
+          "points": 4
+        },
+        {
+          "indicator": "Properties mentioned but not analyzed",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Scientific Impact & Novelty",
+      "weight": 0.15,
+      "description": "Contribution to advancing LRD understanding",
+      "evaluation_criteria": [
+        {
+          "indicator": "Major discovery or paradigm-shifting result (first detection, new population)",
+          "points": 10
+        },
+        {
+          "indicator": "Significant advancement (resolves debate, new constraints, large sample study)",
+          "points": 8
+        },
+        {
+          "indicator": "Moderate contribution (confirms previous findings, incremental progress)",
+          "points": 5
+        },
+        {
+          "indicator": "Minor contribution (methodological, observational report)",
+          "points": 3
+        },
+        {
+          "indicator": "No clear scientific advance related to LRDs",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "Methodological Rigor",
+      "weight": 0.10,
+      "description": "Quality and robustness of the research methodology",
+      "evaluation_criteria": [
+        {
+          "indicator": "Large sample (N > 100) with rigorous statistical analysis",
+          "points": 10
+        },
+        {
+          "indicator": "Moderate sample (10 < N < 100) with careful analysis",
+          "points": 8
+        },
+        {
+          "indicator": "Small sample (N < 10) but detailed case study",
+          "points": 6
+        },
+        {
+          "indicator": "Single object or theoretical work",
+          "points": 4
+        },
+        {
+          "indicator": "Methodology unclear or not applicable to LRDs",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "score_interpretation": {
+    "0-3": {
+      "label": "Peripheral / Low Relevance",
+      "description": "Paper mentions LRDs tangentially or focuses on unrelated topics. Not suitable for detailed LRD study.",
+      "notebooklm_action": "Exclude from NotebookLM"
+    },
+    "4-6": {
+      "label": "Moderate Relevance",
+      "description": "Paper discusses LRDs but not as primary focus, or provides contextual information. Useful for background.",
+      "notebooklm_action": "Include if space permits"
+    },
+    "7-8": {
+      "label": "High Relevance",
+      "description": "Paper is dedicated to LRD research with significant findings. Core literature for understanding LRDs.",
+      "notebooklm_action": "High priority for NotebookLM"
+    },
+    "9-10": {
+      "label": "Central / Seminal",
+      "description": "Landmark LRD paper with major discoveries or definitive studies. Essential reading.",
+      "notebooklm_action": "Must include in NotebookLM (top priority)"
+    }
+  },
+  "quality_indicators": {
+    "boost_factors": [
+      "Uses JWST NIRSpec spectroscopy (primary data)",
+      "Presents large, well-defined LRD sample (N > 50)",
+      "Resolves key debates in LRD nature (AGN vs starburst)",
+      "Measures black hole masses and Eddington ratios",
+      "Discovers new LRD population or extreme objects",
+      "Provides comprehensive multi-wavelength analysis",
+      "Published in high-impact journal (Nature, Science, ApJL)"
+    ],
+    "reduce_factors": [
+      "Only mentions LRDs in literature review",
+      "No original LRD data or analysis",
+      "Focuses on different galaxy types with brief LRD comparison",
+      "Review/survey paper without original analysis",
+      "Redshift mismatch (studies z < 2 when LRDs are z > 4)",
+      "No clear connection to LRD properties or formation"
+    ]
+  },
+  "usage_instructions": {
+    "prompt_template": "You are an expert astrophysics reviewer specializing in high-redshift galaxy evolution and Little Red Dot (LRD) research. Score the provided paper's relevance to LRD research on a scale of 0-10 based on the criteria in lrd_ranking_criteria.json.\n\nFor each scoring category:\n1. Evaluate the paper against the evaluation criteria\n2. Assign a score (0-10) for that category\n3. Weight the category score according to its importance\n4. Calculate final weighted average\n\nReturn ONLY a valid JSON object with this exact structure:\n{\n  \"category_scores\": {\n    \"core_lrd_focus\": {\"score\": 8.5, \"reasoning\": \"...\"},\n    \"observational_techniques\": {\"score\": 9.0, \"reasoning\": \"...\"},\n    \"physical_properties\": {\"score\": 7.0, \"reasoning\": \"...\"},\n    \"scientific_impact\": {\"score\": 8.0, \"reasoning\": \"...\"},\n    \"methodological_rigor\": {\"score\": 7.5, \"reasoning\": \"...\"}\n  },\n  \"final_score\": 8.2,\n  \"justification\": \"2-3 sentence summary of why this paper received this score\",\n  \"key_factors\": [\"JWST NIRSpec data\", \"Large sample size\", \"BH mass measurements\", \"Resolves AGN vs starburst debate\"],\n  \"notebooklm_recommendation\": \"High priority for NotebookLM\"\n}\n\nBe objective, specific, and ground your evaluation in the paper's title and abstract.",
+    "special_considerations": [
+      "Papers published before JWST launch (2022) may have lower observational scores unless predicting/analyzing future observations",
+      "Review papers can have high impact scores even with no original data",
+      "Case studies of single objects can score highly if they reveal new physics or extreme properties",
+      "Theoretical papers should be evaluated on their predictive power and connection to observable LRD properties"
+    ]
+  }
+}
