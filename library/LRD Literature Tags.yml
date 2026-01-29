@@ -1,57 +1,88 @@
 # List of tags and descriptions for classifying Little Red Dot (LRD) research papers.
 # Intended for use with an AI model to automatically tag papers based on their abstracts.
 tags:
-# How this works related to LRDs
+# -----------------------------------------------------------------------------
+# Research Methodology: How the study interacts with the LRD topic
+# -----------------------------------------------------------------------------
   - tag: case study
-    description: Provides an in-depth analysis of one or a few specific LRD sources.
+    description: Provides an in-depth analysis of one or a few specific LRD sources (e.g., spectral decomposition of a single object).
   - tag: catalog
-    description: Presents a list or table of LRD sources, candidates, or related objects with measured/derived properties.
+    description: Presents a list or table of LRD sources, candidates, or related objects with measured/derived properties from a survey.
   - tag: simulation
     description: Uses computational models (hydrodynamical, cosmological, radiative transfer) to predict or interpret LRD properties.
   - tag: theory
-    description: Primarily discusses theoretical models, physical mechanisms, or interpretations of LRD phenomena.
-# How they believe the intrinsic nature of LRDs
+    description: Primarily discusses theoretical models, physical mechanisms (e.g., seeding mechanisms, accretion modes), or interpretations of LRD phenomena.
+  - tag: review
+    description: Summarizes the current state of LRD research, comparing results across multiple surveys and methodologies.
+
+# -----------------------------------------------------------------------------
+# Hypothesized Nature: What the paper argues the LRD actually is
+# -----------------------------------------------------------------------------
+  - tag: agn-dominated
+    description: Argues that the primary power source and spectral features are driven by an Active Galactic Nucleus (Type 1 or obscured).
   - tag: non-agn
-    description: Discusses or proposes scenarios other than AGN (e.g., compact starburst, mixed models) as the primary explanation for LRD properties.
+    description: Discusses or proposes scenarios where AGN activity is sub-dominant or absent (e.g., pure stellar models).
   - tag: starburst
-    description: Investigates intense star formation activity as a primary or contributing factor to LRD properties.
-  - tag: dust
-    description: Investigates the role of dust extinction, reddening, or obscuration in shaping LRD properties or identification.
-# What key observation they leverage to study LRDs
+    description: Investigates intense, compact star formation activity as a primary or contributing factor to LRD properties.
+  - tag: composite
+    description: Proposes a hybrid model where both AGN activity and star formation contribute significantly to the observed properties.
+  - tag: super-eddington
+    description: Specifically investigates super-Eddington accretion regimes to explain the high luminosity and lack of X-rays.
+  - tag: heavy seed
+    description: Links LRDs to "Heavy Seed" black holes, Direct Collapse Black Holes (DCBH), or over-massive black holes relative to host galaxies.
+  - tag: exotic physics
+    description: Explores non-standard explanations such as Supermassive Stars, Quasi-stars, Dark Stars, or Dark Matter interactions.
+  - tag: dust-reddened
+    description: Attributes the red color primarily to dust extinction (e.g., dusty torus or host galaxy dust) rather than intrinsic emission color.
+
+# -----------------------------------------------------------------------------
+# Key Observations: What data/wavelengths are leveraged
+# -----------------------------------------------------------------------------
   - tag: variability
-    description: Studies changes in brightness or spectral features of LRDs over time.
+    description: Studies time-domain changes in brightness or spectral features (or lack thereof) to distinguish between AGN and stellar origins.
   - tag: x-ray
-    description: Discusses observations or properties in the X-ray part of the electromagnetic spectrum.
-  - tag: sed
-    description: Focuses on the Spectral Energy Distribution (flux vs. wavelength), its shape (e.g., 'V-shape'), or modeling.
-  - tag: spectroscopy
-    description: Obtains or analyzes spectra (flux vs. wavelength at high resolution) to determine redshift, composition, kinematics.
-  - tag: jwst
-    description: Utilizes observational data primarily from the James Webb Space Telescope or discusses JWST's role in LRD discovery/study.
-  - tag: non-jwst
-    description: Utilizes observational data primarily from telescopes or surveys *other than* the James Webb Space Telescope (e.g., HST, Spitzer, ALMA, ground-based).
-  - tag: photometry
-    description: Derives or analyzes source brightness measurements from images taken through different filters (e.g., SED fitting).
+    description: Discusses observations in the X-ray spectrum (e.g., Chandra), focusing on detections or stacking upper limits.
   - tag: radio
-    description: Discusses observations or properties in the radio part of the electromagnetic spectrum.
+    description: Discusses observations in the radio spectrum (e.g., VLA, LOFAR) to constrain jet activity or star formation rates.
+  - tag: alma
+    description: Utilizes sub-millimeter/millimeter observations (e.g., ALMA) to constrain dust mass, temperature, and gas content.
+  - tag: sed
+    description: Focuses on the Spectral Energy Distribution (e.g., the characteristic 'V-shape', UV-turnover, or Balmer break modeling).
+  - tag: spectroscopy
+    description: Analyzes spectra to identify lines (H-alpha, H-beta), measure line widths (FWHM), or detect outflows.
+  - tag: photometry
+    description: Derives properties from imaging/colors (e.g., selecting 'V-shaped' candidates via filter cuts).
+  - tag: jwst
+    description: Utilizes observational data primarily from JWST (NIRCam, NIRSpec, MIRI).
+  - tag: non-jwst
+    description: Utilizes data from HST, Spitzer, or ground-based telescopes, often for pre-selection or archival comparison.
   - tag: multi-wavelength
-    description: Combines data from significantly different spectral regions (e.g., Optical/IR + X-ray/Radio) for analysis.
+    description: Combines data from significantly different spectral regions (e.g., Optical/IR + X-ray/Radio/ALMA) for a panchromatic view.
   - tag: early universe
-    description: Pertains to cosmic epochs at high redshift (z > 4), the typical era where LRDs are found.
+    description: Pertains to cosmic epochs at high redshift (z > 4), the peak era of the LRD population.
   - tag: local counterpart
-    description: Discusses potential counterparts or analogs to high-redshift LRDs found in the local or lower-redshift universe (e.g., z < 1).    
-# Which kind of physical properties they mainly focus on
+    description: Discusses potential analogs to high-z LRDs found in the local or lower-redshift universe (z < 1), such as Green Peas or Blueberries.
+
+# -----------------------------------------------------------------------------
+# Physical Properties: What specific parameters are being analyzed
+# -----------------------------------------------------------------------------
   - tag: black hole mass
-    description: Discusses estimation or implications of the central supermassive black hole's mass, including SMBH growth.
+    description: Discusses estimation of the central SMBH mass, often using virial scaling relations or exploring the M_BH-M_star relation.
+  - tag: abundance
+    description: Focuses on the number density, luminosity function, or cosmic evolution of the LRD population.
   - tag: clustering
-    description: Analyzes the spatial distribution of LRDs or related objects to infer properties, environment, or connections.
+    description: Analyzes the spatial distribution/environment of LRDs (e.g., halo mass, satellite fraction) to infer their cosmological context.
   - tag: emission lines
-    description: Analyzes spectral emission lines (e.g., Balmer, forbidden lines), their widths, ratios, or diagnostic power.
+    description: Analyzes spectral emission lines (e.g., Broad vs Narrow Balmer lines, [OIII], [NII]), ratios, or BPT diagnostics.
+  - tag: absorption features
+    description: Specifically investigates absorption lines (e.g., Balmer absorption) indicative of dense gas reservoirs or specific stellar populations.
   - tag: host galaxy
-    description: Studies the properties (stellar mass, size, star formation rate, morphology) of the galaxy hosting the LRD.
+    description: Studies properties of the host galaxy (stellar mass, size, morphology) after decomposing the central point source.
   - tag: kinematics
-    description: Examines the motion of gas or stars within the LRD or host galaxy, often derived from spectral line profiles.
+    description: Examines gas/star motion, velocity dispersion, or outflows derived from line profiles.
   - tag: morphology
-    description: Focuses on the shape, size (e.g., effective radius), structure, or compactness of LRDs, usually from imaging.
+    description: Focuses on the compactness (unresolved vs resolved), size (effective radius), or structural decomposition of the source.
+  - tag: obscuration
+    description: Investigates column densities (N_H), dust attenuation (Av), or gas density responsible for the spectral shape.
   - tag: sample selection
-    description: Describes the methods, criteria, or biases involved in identifying and selecting LRD candidates for study.
+    description: Describes or critiques the specific color cuts, magnitude limits, or biases used to define the LRD sample.
