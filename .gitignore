@@ -39,6 +39,10 @@ ENV/
 .venv/
 .env/
 
+# Poetry
+# Note: poetry.lock should be committed to ensure reproducible installs
+# Only .venv/ needs to be ignored (already covered above)
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -111,3 +115,4 @@ yarn-error.log*
 .env
 config.ini
 secrets.json
+CLAUDE.md

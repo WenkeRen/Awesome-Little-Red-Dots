@@ -22,20 +22,23 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-      
+          python-version: '3.11'
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests pybtex pyyaml
+          poetry install --no-interaction --no-root
       
       - name: Run ADS query
         env:
           ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
           GITHUB_ACTIONS: true
         run: |
-          cd library
-          python lrd_ads_request.py
+          cd library && poetry run python lrd_ads_request.py
       
       - name: Check for aslrd.bib changes
         id: check_aslrd
@@ -55,16 +58,14 @@ jobs:
           ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
-          cd library
-          python paper_kwd.py aslrd.bib
+          cd library && poetry run python paper_kwd.py aslrd.bib
           
       - name: Run kick_off_papers.py to update kick_off.bib
         env:
           ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
           GITHUB_ACTIONS: true
         run: |
-          cd library
-          python kick_off_papers.py
+          cd library && poetry run python kick_off_papers.py
       
       - name: Commit and push all changes
         id: commit

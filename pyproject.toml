@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "awesome-little-red-dots"
+version = "0.1.0"
+description = "Comprehensive bibliography of Little Red Dots (LRDs) - high-redshift compact galaxies revealed by JWST"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "library"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.0"
+pybtex = "^0.24.0"
+pyyaml = "^6.0.2"
+python-dotenv = "^1.0.1"
+tqdm = "^4.67.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+ruff = "^0.9.0"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "C90"]
+ignore = ["F821", "F841"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 30
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "double"
+line-ending = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
