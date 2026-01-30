@@ -4,15 +4,25 @@ LRD Paper Relevance Ranking Script
 This script processes the LRD bibliography (aslrd.bib) and ranks each paper's
 relevance to Little Red Dot research using AI backends (Volcengine ARK or Google Gemini).
 
-Usage:
-    # Test on first 10 papers with Volcengine
-    python paper_ranker.py --backend volcengine --test-mode --limit 10
+⚡ Resume Support: By default, the script will skip papers that are already ranked
+in the existing ranking_report.json file. Use --no-resume to process all papers from scratch.
 
-    # Process all papers with Gemini
-    python paper_ranker.py --backend gemini --full
+Usage:
+    # Resume ranking (default - skips already-ranked papers)
+    python paper_ranker.py --backend volcengine
+
+    # Resume with limit (processes N NEW papers)
+    python paper_ranker.py --backend volcengine --limit 20
+
+    # Process all papers from scratch (do not skip)
+    python paper_ranker.py --backend volcengine --no-resume
+
+    # Test on first 10 NEW papers
+    python paper_ranker.py --backend volcengine --test-mode --limit 10
 
 Output:
     Creates AIBot/ranking_report.json with relevance scores and justifications.
+    Incrementally saves after each paper, so you can safely interrupt and resume.
 
 Author: Awesome-Little-Red-Dots Project
 Date: 2025-01-29
@@ -93,11 +103,32 @@ def parse_bibtex(bib_path: str) -> Dict[str, Any]:
     return papers
 
 
+def load_existing_report(output_path: str) -> Optional[Dict[str, Any]]:
+    """
+    Load existing ranking report if available.
+
+    Args:
+        output_path: Path to output JSON file
+
+    Returns:
+        Existing report dict or None if not exists
+    """
+    output_file = Path(output_path)
+    if output_file.exists():
+        try:
+            with open(output_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️  Warning: Could not load existing report: {e}")
+    return None
+
+
 def rank_papers(
     papers: Dict[str, Any],
     client: Union[GeminiRankingClient, VolcengineRankingClient],
     output_path: str,
     limit: Optional[int] = None,
+    resume: bool = True,
 ) -> List[Dict[str, Any]]:
     """
     Rank papers using AI backend (Volcengine or Gemini) with incremental saving.
@@ -106,18 +137,45 @@ def rank_papers(
         papers: Dictionary of paper information
         client: RankingClient instance (Gemini or Volcengine)
         output_path: Path to output JSON file (for incremental saving)
-        limit: Maximum number of papers to process (None for all)
+        limit: Maximum number of NEW papers to process (None for all)
+        resume: If True, skip papers already in existing report (default: True)
 
     Returns:
         List of ranked papers with scores
     """
-    # Apply limit if specified
-    paper_items = list(papers.items())
+    # Load existing report to support resume
+    existing_report = load_existing_report(output_path) if resume else None
+    existing_papers = {}
+    if existing_report and "papers" in existing_report:
+        # Create a map of bibtex_key -> ranked paper data
+        for paper in existing_report["papers"]:
+            existing_papers[paper["bibtex_key"]] = paper
+        print(f"📋 Loaded {len(existing_papers)} previously ranked papers")
+
+    # Filter out already-ranked papers
+    paper_items = []
+    skipped = 0
+    for bibtex_key, paper_info in papers.items():
+        if bibtex_key in existing_papers and resume:
+            skipped += 1
+        else:
+            paper_items.append((bibtex_key, paper_info))
+
+    if skipped > 0:
+        print(f"⏩ Skipping {skipped} already-ranked papers")
+
+    # Apply limit to NEW papers only
     if limit:
         paper_items = paper_items[:limit]
+        print(f"ℹ Limiting to {len(paper_items)} NEW papers")
 
-    results = []
-    failed = 0
+    if not paper_items:
+        print("\n✅ All papers are already ranked!")
+        return list(existing_papers.values())
+
+    # Start with existing results
+    results = list(existing_papers.values())
+    failed = existing_report.get("failed", 0) if existing_report else 0
 
     # Create output directory if needed
     output_file = Path(output_path)
@@ -126,14 +184,14 @@ def rank_papers(
     # Initialize report structure
     report = {
         "generated_at": datetime.now().isoformat(),
-        "total_papers": len(paper_items),
-        "successfully_scored": 0,
-        "failed": 0,
-        "papers": [],
+        "total_papers": len(papers),  # Total papers in bib file
+        "successfully_scored": len(results),
+        "failed": failed,
+        "papers": results,
         "status": "in_progress"
     }
 
-    print(f"\n🔬 Ranking {len(paper_items)} papers...")
+    print(f"\n🔬 Ranking {len(paper_items)} NEW papers...")
     print(f"💾 Saving results incrementally to: {output_path}\n")
 
     for idx, (bibtex_key, paper_info) in enumerate(tqdm(paper_items, desc="Processing papers"), 1):
@@ -323,6 +381,11 @@ def main():
         default=None,
         help="Model to use (backend-dependent default if not specified)",
     )
+    parser.add_argument(
+        "--no-resume",
+        action="store_true",
+        help="Do not skip already-ranked papers (process all papers from scratch)",
+    )
 
     args = parser.parse_args()
 
@@ -377,8 +440,9 @@ def main():
         if args.limit:
             print(f"ℹ Limiting to first {args.limit} papers")
 
-        # Rank papers (with incremental saving)
-        results = rank_papers(papers, client, output_path=args.output, limit=args.limit)
+        # Rank papers (with incremental saving and resume support)
+        resume = not args.no_resume
+        results = rank_papers(papers, client, output_path=args.output, limit=args.limit, resume=resume)
 
         if not results:
             print("❌ No papers were successfully ranked")
