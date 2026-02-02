@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-02-02T15:04:18.138576",
+  "generated_at": "2026-02-02T16:23:08.413760",
   "total_papers": 243,
   "successfully_scored": 243,
-  "failed": 0,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -9840,7 +9839,6 @@
       "notebooklm_recommendation": "Low priority - Not relevant for LRD research"
     }
   ],
-  "status": "completed",
   "statistics": {
     "average_score": 8.280452674897138,
     "median_score": 8.5,

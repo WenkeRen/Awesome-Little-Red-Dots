@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-02-02T15:04:18.147423",
-  "total_papers": 112,
-  "successfully_scored": 112,
-  "failed": 0,
+  "generated_at": "2026-02-02T16:19:41.816919",
+  "total_papers": 129,
+  "successfully_scored": 129,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -954,6 +953,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2022ApJS..259...20H",
+      "title": "{GOLDRUSH. IV. Luminosity Functions and Clustering Revealed with 4,000,000 Galaxies at z 2-7: Galaxy-AGN Transition, Star Formation Efficiency, and Implication for Evolution at z > 10}",
+      "abstract": "{We present new measurements of rest-UV luminosity functions and angular correlation functions from 4,100,221 galaxies at z \\raisebox{-0.5ex}\\textasciitilde 2-7 identified in the Subaru/Hyper Suprime-Cam survey and CFHT Large Area U-band Survey. The obtained luminosity functions at z \\raisebox{-0.5ex}\\textasciitilde 4-7 cover a very wide UV luminosity range of \\raisebox{-0.5ex}\\textasciitilde $0.002\\mbox{--}2000{L}\\_{\\mathrm{UV}}^{* }$ combined with previous studies, confirming that the dropout luminosity function is a superposition of the active galactic nucleus (AGN) luminosity function dominant at M $\\_{UV}$ {\\ensuremath{\\lesssim}} -24 mag and the galaxy luminosity function dominant at M $\\_{UV}$ {\\ensuremath{\\gtrsim}} -22 mag, consistent with galaxy fractions based on 1037 spectroscopically identified sources. Galaxy luminosity functions estimated from the spectroscopic galaxy fractions show the bright-end excess beyond the Schechter function at {\\ensuremath{\\gtrsim}}2{\\ensuremath{\\sigma}} levels, possibly made by inefficient mass quenching, low dust obscuration, and/or hidden AGN activity. By analyzing the correlation functions at z \\raisebox{-0.5ex}\\textasciitilde 2-6 with HOD models, we find a weak redshift evolution (within 0.3 dex) of the ratio of the star formation rate (SFR) to the dark matter accretion rate, $\\mathrm{SFR}/{\\dot{M}}\\_{{\\rm{h}}}$ , indicating the almost constant star formation efficiency at z \\raisebox{-0.5ex}\\textasciitilde 2-6, as suggested by our earlier work at z \\raisebox{-0.5ex}\\textasciitilde 4-7. Meanwhile, the ratio gradually increases with decreasing redshift at z < 5 within 0.3 dex, which quantitatively reproduces the cosmic SFR density evolution, suggesting that the redshift evolution is primarily driven by the increase of the halo number density due to the structure formation, and the decrease of the accretion rate due to the cosmic expansion. Extrapolating this calculation to higher redshifts assuming the constant efficiency suggests a rapid decrease of the SFR density at z > 10 with {\\ensuremath{\\propto}} 10$^{-0.5(1+z)}$, which will be directly tested with the James Webb Space Telescope.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Harikane}, Yuichi'), Person('{Ono}, Yoshiaki'), Person('{Ouchi}, Masami'), Person('{Liu}, Chengze'), Person('{Sawicki}, Marcin'), Person('{Shibuya}, Takatoshi'), Person('{Behroozi}, Peter S.'), Person('{He}, Wanqiu'), Person('{Shimasaku}, Kazuhiro'), Person('{Arnouts}, Stephane'), Person('{Coupon}, Jean'), Person('{Fujimoto}, Seiji'), Person('{Gwyn}, Stephen'), Person('{Huang}, Jiasheng'), Person('{Inoue}, Akio K.'), Person('{Kashikawa}, Nobunari'), Person('{Komiyama}, Yutaka'), Person('{Matsuoka}, Yoshiki'), Person('{Willott}, Chris J.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper scores highly due to its direct relevance to the galaxy-AGN transition central to LRD science, strong community adoption (lrdIndex=11), and provision of large-scale statistical frameworks for luminosity function decomposition. Its predictions for z>10 evolution are particularly valuable for contextualizing recent LRD discoveries.",
+      "key_factors": [
+        "lrdIndex=11",
+        "Galaxy-AGN transition framework",
+        "4.1 million galaxy statistical sample",
+        "Luminosity function decomposition methodology",
+        "z>10 evolution predictions"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "While the paper doesn't explicitly mention 'Little Red Dots,' it directly addresses the galaxy-AGN transition region where LRDs reside. Its statistical decomposition of luminosity functions into AGN and galaxy components, identification of hidden AGN activity, and analysis of bright-end excess provide the critical framework for LRD classification challenges. The lrdIndex=11 confirms LRD researchers recognize this direct applicability."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=11, this paper is in the top tier of LRD community citations, indicating strong consensus on its relevance. This citation frequency reflects that LRD researchers routinely use its results as foundational context for their work, particularly the luminosity function decomposition and evolutionary predictions."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "The paper's analysis of 4.1 million galaxies provides unprecedented statistical power for understanding the overlap between AGN and galaxy populations at z~2-7, the core redshift range for LRDs. Its empirical constraints on the galaxy-AGN transition go far beyond textbook AGN physics, offering LRD researchers quantitative benchmarks for separating AGN-dominated from galaxy-dominated systems."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "While employing established HOD modeling and luminosity function techniques, the paper innovates by applying them at massive scale to disentangle AGN and galaxy contributions in the transition region. Its methodology for combining photometric surveys with spectroscopic calibration (1037 sources) provides a template for LRD researchers developing classification schemes for these ambiguous sources."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "The paper's quantitative predictions for SFR density evolution at z>10 and its analysis of star formation efficiency provide crucial evolutionary context for LRDs, which may represent an early phase of black hole-galaxy coevolution. Its framework for understanding how AGN and galaxy populations evolve together is essential for interpreting LRDs as potential missing links in this evolution."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2024A&A...691A.145M",
       "title": "{JADES: The diverse population of infant black holes at 4 < z < 11: Merging, tiny, poor, but mighty}",
       "abstract": "{Spectroscopy with the James Webb Space Telescope has opened the possibility of identifying moderate-luminosity active galactic nuclei (AGNs) in the early Universe, at and beyond the epoch of re-ionisation, complementing previous surveys of much more luminous (and much rarer) quasars. We present 12 new AGNs at 4 < z < 7 in the JADES survey (in addition to the previously identified AGN in GN-z11 at z = 10.6) revealed through the detection of a broad-line region (BLR) seen in the Balmer emission lines. The depth of JADES, together with the use of three different spectral resolutions, enables us to probe a lower-mass regime relative to previous studies. In a few cases, we find evidence for two broad components of H{\\ensuremath{\\alpha}}, which suggests that these could be candidate merging black holes (BHs), although a complex BLR geometry cannot be excluded. The inferred BH masses range from 8 {\\texttimes} {}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ down to 4 {\\texttimes} {}10$^{5}$ M$\\_{{\\ensuremath{\\odot}}}$, interestingly probing the regime expected for direct collapse BHs. The inferred AGN bolometric luminosities ({\\ensuremath{\\sim}}{}10$^{44}$ ‑ {}10$^{45}$ erg/s) imply accretion rates that are < 0.5 times the Eddington rate in most cases. However, small BHs, with M$\\_{BH}$ {\\ensuremath{\\sim}} {}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$, tend to accrete at Eddington or super-Eddington rates. These BHs at z {\\ensuremath{\\sim}} 4{\\textendash}11 are over-massive relative to their host galaxies' stellar masses when compared to the local M$\\_{BH}$ ‑ M$\\_{star}$ relation, even approaching M$\\_{BH}$ {\\ensuremath{\\sim}} M$\\_{star}$, as was expected from heavy BH seeds and/or super-Eddington accretion scenarios. However, we find that these early BHs tend to be more consistent with the local relation between M$\\_{BH}$ and velocity dispersion, as well as between M$\\_{BH}$ and dynamical mass, suggesting that these are more fundamental and universal relations. On the classical, optical narrow-line excitation-diagnostic diagrams, these AGNs are located in the region that is locally occupied by star- forming galaxies, implying that they would be missed by the standard classification techniques if they did not display broad lines. Their location on the diagram is consistent with what is expected for AGNs hosted in metal-poor galaxies (Z {\\ensuremath{\\sim}} 0.1 ‑ 0.2 Z$\\_{{\\ensuremath{\\odot}}}$). The fraction of broad-line AGNs with L$\\_{AGN}$ > {}10$^{44}$ erg/s among galaxies in the redshift range of 4 < z < 6 is about 10\\%, suggesting that the contribution of AGNs and their hosts to the re-ionisation of the Universe is > 10\\%.}",
@@ -1035,6 +1075,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2022Natur.607...48L",
+      "title": "{Turbulent cold flows gave birth to the first quasars}",
+      "abstract": "{How quasars powered by supermassive black holes formed less than a billion years after the Big Bang is still one of the outstanding problems in astrophysics, 20 years after their discovery$^{1-4}$. Cosmological simulations suggest that rare cold flows converging on primordial haloes in low-shear environments could have created these quasars if they were {}10$^{4}$-{}10$^{5}$ solar masses at birth, but could not resolve their formation$^{5-8}$. Semi-analytical studies of the progenitor halo of a primordial quasar found that it favours the formation of such seeds, but could not verify if one actually appeared$^{9}$. Here we show that a halo at the rare convergence of strong, cold accretion flows creates massive black holes seeds without the need for ultraviolet backgrounds, supersonic streaming motions or even atomic cooling. Cold flows drive violent, supersonic turbulence in the halo, which prevents star formation until it reaches a mass that triggers sudden, catastrophic baryon collapse that forms 31,000 and 40,000 solar- mass stars. This simple, robust process ensures that haloes capable of forming quasars by a redshift of z > 6 produce massive seeds. The first quasars were thus a natural consequence of structure formation in cold dark matter cosmologies, and not exotic, finely tuned environments as previously thought$^{10-14}$.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Latif}, M. A.'), Person('{Whalen}, D. J.'), Person('{Khochfar}, S.'), Person('{Herrington}, N. P.'), Person('{Woods}, T. E.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper receives a high score because it provides a direct theoretical mechanism for massive BH seed formation that is fundamental to LRD interpretation. Its substantial citation frequency (lrdIndex=10) confirms the LRD community values it as a key reference, while its simulation-based model of turbulent cold flows offers a robust, non-exotic explanation for early BH formation that goes well beyond standard accretion theory.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct massive seed formation mechanism",
+        "Turbulent cold flow collapse model",
+        "Simulation methodology for early halo environments",
+        "Connects cosmic structure to BH formation"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "Directly addresses massive black hole seed formation in early halos through turbulent cold flows—the core physics underlying LRD progenitors. While predating the LRD terminology, the mechanism is immediately applicable to understanding early BH growth phases observed in JWST LRD samples."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 demonstrates strong recognition within the LRD community. In this nascent field (post-2022), 10 citations indicates canonical reference status, showing LRD researchers consistently rely on this work when modeling early AGN formation."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides essential theoretical framework beyond textbook knowledge. The turbulent cold flow collapse model offers a specific, testable solution to the BH seed problem that is not standard curriculum but is critical for interpreting LRD observations and distinguishing seed formation scenarios."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "Introduces sophisticated hydrodynamic simulation methodology focused on resolving cold accretion flows and supersonic turbulence. While not an observational technique, it establishes a simulation template for modeling early BH environments that LRD researchers can adapt and build upon."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Exceptionally places BH formation within cosmic structure evolution, connecting large-scale cold flows to halo-scale collapse. This provides LRD researchers the necessary narrative framework to position their z>6 observations within the broader story of cosmic dawn and BH-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - essential theoretical framework for early black hole formation that underpins interpretation of JWST LRD observations"
     },
     {
       "bibtex_key": "2025PASJ...77..811I",
@@ -1158,6 +1239,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential observational framework, physical context, and population benchmarks that LRD researchers require to interpret their discoveries within the broader landscape of early low-luminosity AGN."
+    },
+    {
+      "bibtex_key": "2024MNRAS.534.2633C",
+      "title": "{[Ne v] emission from a faint epoch of reionization-era galaxy: evidence for a narrow-line intermediate-mass black hole}",
+      "abstract": "{Here, we present high spectral resolution NIRSpec observations of GN 42437, a low-mass (log(M), compact (pc), extreme starburst galaxy at with 13 emission-line detections. GN 42437 has a low metallicity (5-10 per cent Z) and its rest-frame H equivalent width suggests nearly all of the observed stellar mass formed within the last 3 Myr. GN 42437 has an extraordinary 7 significant [Ne V] 3427 {\\r{A}} detection. The [Ne V] line has a rest-frame equivalent width of {\\r{A}}, [Ne V]/H, [Ne V]/[Ne III] 3870{\\r{A}} , and [Ne V]/He II 4687{\\r{A}} . Ionization from massive stars, shocks, or high-mass X-ray binaries cannot simultaneously produce these [Ne V] and other low-ionization line ratios. Reproducing the complete nebular structure requires both massive stars and accretion on to a black hole. We do not detect broad lines nor do the traditional diagnostics indicate that GN 42437 has an accreting black hole. Thus, the very high- ionization emission lines powerfully diagnose faint narrow-line black holes at high redshift. We approximate the black hole mass in a variety of ways as log(M. This black hole mass is consistent with local relations between the black hole mass and the observed velocity dispersion, but significantly more massive than the stellar mass would predict. Very high-ionization emission lines may reveal samples to probe the formation and growth of the first black holes in the universe.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Chisholm}, J.'), Person('{Berg}, D. A.'), Person('{Endsley}, R.'), Person('{Gazagnes}, S.'), Person('{Richardson}, C. T.'), Person('{Lambrides}, E.'), Person('{Greene}, J.'), Person('{Finkelstein}, S.'), Person('{Flury}, S.'), Person('{Guseva}, N. G.'), Person('{Henry}, A.'), Person('{Hutchison}, T. A.'), Person('{Izotov}, Y. I.'), Person('{Marques-Chaves}, R.'), Person('{Oesch}, P.'), Person('{Papovich}, C.'), Person('{Saldana-Lopez}, A.'), Person('{Schaerer}, D.'), Person('{Stephenson}, M. G.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper scores highly due to its direct methodological relevance to LRD identification via innovative [Ne V] diagnostics, strong empirical citation record (lrdIndex=10), and establishment of an observational framework for finding narrow-line AGN missed by traditional techniques. While focused on a single object, it provides critical tools now central to LRD research.",
+      "key_factors": [
+        "lrdIndex=10",
+        "[Ne V] diagnostic for narrow-line AGN",
+        "JWST NIRSpec methodology",
+        "Intermediate-mass BH in compact high-z galaxy",
+        "Deviation from standard scaling relations"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "While not explicitly naming LRDs, this paper directly addresses the core LRD challenge: identifying narrow-line AGN at high-z without traditional broad-line signatures. The [Ne V] diagnostic and compact, dusty host galaxy properties are immediately applicable to LRD classification, making it highly relevant despite the terminology gap."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=10, this paper demonstrates strong, empirically-verified impact within LRD literature. This citation frequency places it among the more influential works in the field, indicating that LRD researchers consistently find it valuable for their work."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Goes beyond textbook AGN physics by establishing a practical, observationally-tested framework for detecting faint narrow-line BHs using very high-ionization lines where standard diagnostics fail. Provides the first JWST NIRSpec proof-of-concept for this method in the EoR, filling a critical methodological gap."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Introduces [Ne V] as a powerful new diagnostic specifically for LRD-like narrow-line AGN. Demonstrates innovative combined stellar+AGN photoionization modeling to disentangle composite systems, and showcases JWST NIRSpec's capability for faint high-z emission-line spectroscopy—a technique now central to LRD follow-up."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Places intermediate-mass BHs in early galaxies, addressing BH seeding scenarios and deviations from local scaling relations. Provides a potential progenitor population for more massive BHs, though limited by single-object focus rather than population statistics."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM—provides essential observational techniques and diagnostics specifically relevant to LRD classification that go beyond standard AGN textbooks."
     },
     {
       "bibtex_key": "2025ApJ...989...75N",
@@ -1651,6 +1773,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for understanding DCBH diagnostics and early black hole formation context in LRD research"
     },
     {
+      "bibtex_key": "2022MNRAS.511..616T",
+      "title": "{The low-end of the black hole mass function at cosmic dawn}",
+      "abstract": "{Understanding the formation and growth of supermassive black holes (SMBHs) at high redshift represents a major challenge for theoretical models. In this work, we investigate the early evolution of the first SMBHs by constraining their distribution in mass and luminosity at z > 4. In particular, we focus on the poorly explored low-mass end of the nuclear black hole (BH) distribution down to z ≃ 4, and explore its connection with the nature of the first BH seeds and the processes governing their mass growth. To this aim, we have developed CAT (Cosmic Archaeology Tool), a new semi-analytic model that describes the formation of the first stars and BHs in a self-consistent way and follows the co-evolution of nuclear BHs and their host galaxies for a representative population at z > 4. We find that current observational constraints favour models where the growth of BH seeds is Eddington limited and occurs at the Bondi-Hoyle- Lyttleton rate or where super-Eddington accretion occurs via a slim disc during gas-rich galaxy mergers. The main difference between these two model variants lies at the low end of the predicted mass and luminosity functions at 4 {\\ensuremath{\\leq}} z {\\ensuremath{\\leq}} 6, where a clear gap appears in the first model, reflecting the stunted growth of light BH seeds formed as remnants of the first stars. Detecting this signature will be extremely challenging even for the future generation of space observatories, such as JWST, Athena, and Lynx.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Trinca}, Alessandro'), Person('{Schneider}, Raffaella'), Person('{Valiante}, Rosa'), Person('{Graziani}, Luca'), Person('{Zappacosta}, Luca'), Person('{Shankar}, Francesco')]",
+      "relevance_score": 8.2,
+      "justification": "This paper scores highly due to its direct relevance to low-mass high-z BHs (the LRD regime), exceptional citation frequency (lrdIndex=10), and provision of a self-consistent theoretical framework with testable predictions. While semi-analytic modeling is established, the specific application to cosmic dawn low-mass end and explicit JWST connection provides unique value beyond textbook knowledge.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct low-mass high-z BH focus",
+        "CAT semi-analytic model",
+        "JWST observability predictions",
+        "Seed-growth mechanism comparison"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "Directly addresses low-mass BH population at z>4, overlapping completely with LRD parameter space. Discusses JWST observability, seeding mechanisms, and growth physics (Eddington vs super-Eddington) essential for interpreting LRD observations. While not explicitly naming 'LRDs,' the paper provides the fundamental theoretical framework for understanding these objects."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 represents strong validation from the LRD community. For a theoretical semi-analytic model paper, this citation frequency indicates it has become a foundational reference work that LRD researchers routinely cite when discussing low-mass AGN at cosmic dawn, suggesting broad acceptance of its predictions."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Provides quantitative predictions for the low-mass end of BH mass function using the CAT semi-analytic model. The predicted 'gap' signature from stunted light seed growth offers a testable hypothesis that goes beyond generic textbook AGN physics. However, semi-analytic modeling is an established methodology, limiting its novelty factor."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "Introduces CAT (Cosmic Archaeology Tool) with self-consistent treatment of first star formation and BH seeding. The innovation lies in specifically targeting the unexplored low-mass regime at high-z and generating observable predictions for next-generation telescopes. Represents significant technical advancement for this niche, though not a revolutionary methodological breakthrough."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Places low-mass high-z AGN in complete cosmic dawn evolutionary context, connecting Population III star remnants, BH seeding mechanisms, merger-driven growth, and observational signatures across z=4-6. Provides essential narrative for how LRDs fit into broader SMBH co-evolution story, filling critical gap between seed formation and observed luminous quasars."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2025MNRAS.538.1921M",
       "title": "{JWST meets Chandra: a large population of Compton thick, feedback-free, and intrinsically X-ray weak AGN, with a sprinkle of SNe}",
       "abstract": "{We investigate the X-ray properties of a sample of 71 broad- and narrow- line active galactic nucleus (AGN) at 2<inline-formula><tex-math id=``TM0001'' notation=``LaTeX''>$$</tex-math></inline- formula>z<inline-formula><tex-math id=``TM0002'' notation=``LaTeX''>$$</tex-math></inline-formula>11 discovered by JWST in the GOODS (Great Observatory Origins Deep Survey) fields, which have the deepest Chandra observations ever obtained. Despite the widespread presence of AGN signatures in their rest-optical and -ultraviolet spectra, the vast majority of them is X-ray undetected. The stacked X-ray data of the non- detected sources also results in a non-detection. The upper limit on the X-ray emission for many of these AGN is one or even two orders of magnitude lower than expected from a standard AGN Spectral Energy Distribution (SED). X-ray absorption by clouds with large (Compton-thick) column density and low dust content, such as the broad-line region (BLR) clouds, can explain the X-ray weakness. In this scenario, the BLR covering factor should be much larger than in low-z AGN or luminous quasars; this is supported by the larger equivalent width of the broad component of H<inline-formula><tex-math id=``TM0003'' notation=``LaTeX''>$\\alpha$</tex-math></inline-formula> in JWST- selected AGN. We also find that the JWST-discovered AGN lack prominent, fast outflows, suggesting that, in JWST-selected AGN, dense gas lingers in the nuclear region, resulting in large covering factors. We also note that a large fraction of JWST- selected AGN matches the definition of narrow-line Seyfert 1, typically accreting at high rates and characterized by a steep X-ray spectrum - this can further contribute to their observed weakness at high-z. Finally, we discuss that the broad Balmer lines used to identify type 1 AGN cannot be ascribed to very massive stars or supernovae, although we show that some of the faintest broad lines could potentially be associated with superluminous SNe.}",
@@ -2057,6 +2220,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2024ApJ...969L...2F",
+      "title": "{The Complete CEERS Early Universe Galaxy Sample: A Surprisingly Slow Evolution of the Space Density of Bright Galaxies at z {\\ensuremath{\\sim}} 8.5{\\textendash}14.5}",
+      "abstract": "{We present a sample of 88 candidate z {\\ensuremath{\\sim}} 8.5{\\textendash}14.5 galaxies selected from the completed NIRCam imaging from the Cosmic Evolution Early Release Science survey. These data cover {\\ensuremath{\\sim}}90 arcmin$^{2}$ (10 NIRCam pointings) in six broadband imaging filters and one medium-band imaging filter. With this sample we confirm at higher confidence early JWST conclusions that bright galaxies in this epoch are more abundant than predicted by most theoretical models. We construct the rest-frame ultraviolet luminosity functions at z {\\ensuremath{\\sim}} 9, 11, and 14 and show that the space density of bright (M $\\_{UV}$ = ‑20) galaxies changes only modestly from z {\\ensuremath{\\sim}} 14 to z {\\ensuremath{\\sim}} 9, compared to a steeper increase from z {\\ensuremath{\\sim}} 8 to z {\\ensuremath{\\sim}} 4. While our candidates are photometrically selected, spectroscopic follow-up has now confirmed 13 of them, with only one significant interloper, implying that the fidelity of this sample is high. Successfully explaining the evidence for a flatter evolution in the number densities of UV-bright z > 10 galaxies may thus require changes to the dominant physical processes regulating star formation. While our results indicate that significant variations of dust attenuation with redshift are unlikely to be the dominant factor at these high redshifts, they are consistent with predictions from models that naturally have enhanced star formation efficiency and/or stochasticity. An evolving stellar initial mass function could also bring model predictions into better agreement with our results. Deep spectroscopic follow-up of a large sample of early galaxies can distinguish between these competing scenarios.}",
+      "lrdIndex": 12,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Finkelstein}, Steven L.'), Person('{Leung}, Gene C. K.'), Person('{Bagley}, Micaela B.'), Person('{Dickinson}, Mark'), Person('{Ferguson}, Henry C.'), Person('{Papovich}, Casey'), Person('{Akins}, Hollis B.'), Person('{Arrabal Haro}, Pablo'), Person(\"{Dav{\\\\'e}}, Romeel\"), Person('{Dekel}, Avishai'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kocevski}, Dale D.'), Person('{Koekemoer}, Anton M.'), Person('{Pirzkal}, Nor'), Person('{Somerville}, Rachel S.'), Person('{Yung}, L. Y. Aaron'), Person(\"{Amor{\\\\'\\\\i}n}, Ricardo O.\"), Person('{Backhaus}, Bren E.'), Person('{Behroozi}, Peter'), Person('{Bisigello}, Laura'), Person('{Bromm}, Volker'), Person('{Casey}, Caitlin M.'), Person(\"{Ch{\\\\'a}vez Ortiz}, {\\\\'O}scar A.\"), Person('{Cheng}, Yingjie'), Person('{Chworowsky}, Katherine'), Person('{Cleri}, Nikko J.'), Person('{Cooper}, M. C.'), Person('{Davis}, Kelcey'), Person('{de la Vega}, Alexander'), Person('{Elbaz}, David'), Person('{Franco}, Maximilien'), Person('{Fontana}, Adriano'), Person('{Fujimoto}, Seiji'), Person('{Giavalisco}, Mauro'), Person('{Grogin}, Norman A.'), Person('{Holwerda}, Benne W.'), Person('{Huertas-Company}, Marc'), Person('{Hirschmann}, Michaela'), Person('{Iyer}, Kartheik G.'), Person('{Jogee}, Shardha'), Person('{Jung}, Intae'), Person('{Larson}, Rebecca L.'), Person('{Lucas}, Ray A.'), Person('{Mobasher}, Bahram'), Person('{Morales}, Alexa M.'), Person('{Morley}, Caroline V.'), Person('{Mukherjee}, Sagnick'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Ravindranath}, Swara'), Person('{Rodighiero}, Giulia'), Person('{Rowland}, Melanie J.'), Person('{Tacchella}, Sandro'), Person('{Taylor}, Anthony J.'), Person('{Trump}, Jonathan R.'), Person('{Wilkins}, Stephen M.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper scores highly due to its foundational role in establishing the high-redshift galaxy population at z>10, despite lacking explicit LRD focus. Its strong citation frequency (lrdIndex=12) and critical evolutionary context for BH-galaxy coevolution make it essential supporting literature, though its indirect connection to LRDs prevents a higher score.",
+      "key_factors": [
+        "lrdIndex=12",
+        "z>10 galaxy evolution benchmark",
+        "BH-galaxy coevolution context",
+        "JWST CEERS dataset",
+        "Spectroscopic confirmation framework"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "While not explicitly studying LRDs, this paper directly addresses the high-redshift galaxy population that serves as the host environment for LRDs. The CEERS survey and z>10 galaxy demographics are fundamental context for any LRD formation scenario, making this work directly relevant to LRD research questions."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=12 indicates robust adoption by the LRD community, substantially exceeding the kick-off threshold. This citation frequency reflects the paper's role as a key observational benchmark for early galaxy evolution that LRD studies must incorporate."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Delivers state-of-the-art JWST constraints on z>10 galaxy evolution that extend far beyond textbook knowledge. The demonstrated slow evolution of bright galaxy number densities provides a critical boundary condition for models of early BH-galaxy coevolution, establishing the baseline host population for LRDs."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Demonstrates successful spectroscopic confirmation of photometrically-selected high-z galaxies with high fidelity (13/14 confirmed, minimal interlopers). While not introducing novel LRD-specific techniques, this validation framework is directly applicable to spectroscopic campaigns targeting rare LRD populations."
+        },
+        "evolutionary_context": {
+          "score": 9.0,
+          "reasoning": "Provides essential galaxy evolution backdrop for understanding LRD formation and evolution. The paper's constraints on star formation efficiency, stochasticity, and IMF variations directly inform models of BH seeding, fueling, and coevolution in the early universe, making it indispensable for LRD evolutionary studies."
+        }
+      },
+      "notebooklm_recommendation": "Essential foundation for NotebookLM - provides critical high-z galaxy evolution context that LRDs must be understood within"
     },
     {
       "bibtex_key": "2024NatAs...8..126B",
@@ -2634,6 +2838,48 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - contains empirical JWST performance metrics and practical methodology not in textbooks"
     },
     {
+      "bibtex_key": "2024Natur.635..311X",
+      "title": "{Accelerated formation of ultra-massive galaxies in the first billion years}",
+      "abstract": "{Recent James Webb Space Telescope (JWST) observations have revealed an unexpected abundance of massive-galaxy candidates in the early Universe, extending further in redshift and to lower luminosity than what had previously been found by submillimetre surveys$^{1{\\textendash}6}$. These JWST candidates have been interpreted as challenging the {\\ensuremath{\\Lambda}} cold dark- matter cosmology (where {\\ensuremath{\\Lambda}} is the cosmological constant)$^{7{\\textendash}9}$, but, so far, these studies have mostly relied on only rest-frame ultraviolet data and have lacked spectroscopic confirmation of their redshifts$^{10{\\textendash}16}$. Here we report a systematic study of 36 massive dust-obscured galaxies with spectroscopic redshifts between 5 and 9 from the JWST FRESCO survey. We find no tension with the {\\ensuremath{\\Lambda}} cold dark-matter model in our sample. However, three ultra-massive galaxies (logM$\\_{★}$/M$\\_{{\\ensuremath{\\odot}}}$ {\\ensuremath{\\gtrsim}} 11.0, where M$\\_{★}$ is the stellar mass and M$\\_{{\\ensuremath{\\odot}}}$ is the mass of the Sun) require an exceptional fraction of 50 per cent of baryons converted into stars{\\textemdash}two to three times higher than the most efficient galaxies at later epochs. The contribution from an active galactic nucleus is unlikely because of their extended emission. Ultra-massive galaxies account for as much as 17 per cent of the total cosmic star-formation-rate density$^{17}$ at redshifts between about five and six.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Xiao}, Mengyuan'), Person('{Oesch}, Pascal A.'), Person('{Elbaz}, David'), Person('{Bing}, Longji'), Person('{Nelson}, Erica J.'), Person('{Weibel}, Andrea'), Person('{Illingworth}, Garth D.'), Person('{van Dokkum}, Pieter'), Person('{Naidu}, Rohan P.'), Person('{Daddi}, Emanuele'), Person('{Bouwens}, Rychard J.'), Person('{Matthee}, Jorryt'), Person('{Wuyts}, Stijn'), Person('{Chisholm}, John'), Person('{Brammer}, Gabriel'), Person('{Dickinson}, Mark'), Person('{Magnelli}, Benjamin'), Person('{Leroy}, Lucas'), Person('{Schaerer}, Daniel'), Person('{Herard-Demanche}, Thomas'), Person('{Lim}, Seunghwan'), Person('{Barrufet}, Laia'), Person('{Endsley}, Ryan'), Person('{Fudamoto}, Yoshinobu'), Person(\"{G{\\\\'o}mez-Guijarro}, Carlos\"), Person('{Gottumukkala}, Rashmi'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Magee}, Dan'), Person('{Marchesini}, Danilo'), Person('{Maseda}, Michael'), Person('{Qin}, Yuxiang'), Person('{Reddy}, Naveen A.'), Person('{Shapley}, Alice'), Person('{Shivaei}, Irene'), Person('{Shuntov}, Marko'), Person('{Stefanon}, Mauro'), Person('{Whitaker}, Katherine E.'), Person('{Wyithe}, J. Stuart B.')]",
+      "relevance_score": 8.1,
+      "justification": "This paper scores highly due to its strong citation frequency (lrdIndex=11) and exceptional foundational value for understanding the high-z galaxy ecosystem where LRDs reside. It provides critical evolutionary context by demonstrating AGN-free pathways to ultra-massive galaxies, directly informing BH-galaxy coevolution models central to LRD research while serving as a robust JWST comparison sample.",
+      "key_factors": [
+        "lrdIndex=11",
+        "Direct AGN contribution analysis",
+        "Ultra-massive galaxies at z=5-9",
+        "JWST FRESCO spectroscopic sample",
+        "BH-galaxy coevolution framework",
+        "AGN-free growth pathways"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper directly addresses AGN contribution in ultra-massive high-z galaxies, explicitly ruling out AGN for these objects based on extended emission. This provides critical negative examples that help define the LRD phenomenon and informs BH-galaxy coevolution frameworks. However, it lacks LRD-specific physics like accretion disk properties or BH growth mechanisms."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=11 demonstrates strong and consistent citation by the LRD community, exceeding the kick_off.bib inclusion threshold. This indicates the paper provides valuable context, comparison samples, and methods that LRD researchers regularly reference in their work."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Provides essential context about the high-z galaxy ecosystem at z=5-9, establishing the existence of ultra-massive galaxies with exceptional star formation efficiency (50% baryon conversion). The JWST FRESCO spectroscopic sample serves as a robust comparison set for LRD host galaxy studies, and the findings on AGN-free growth pathways are crucial for understanding the diversity of BH-galaxy coevolution."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Employs state-of-the-art JWST FRESCO spectroscopy and systematic sample selection, providing a replicable template for high-z galaxy studies. The methodology for ruling out AGN based on morphological analysis is useful but not fundamentally novel. Lacks LRD-specific methodological breakthroughs for AGN identification or characterization."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Excellent evolutionary context mapping ultra-massive galaxy populations during the LRD epoch (z~5-9). Demonstrates that extreme star formation can build massive galaxies without AGN feedback, providing critical constraints on coevolution models and helping LRD researchers understand whether LRDs represent a distinct evolutionary channel or part of a continuum."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2024Natur.636..332M",
       "title": "{Formation of a low-mass galaxy from star clusters in a 600-million-year-old Universe}",
       "abstract": "{The most distant galaxies detected were seen when the Universe was a scant 5\\% of its current age. At these times, progenitors of galaxies such as the Milky Way were about 10,000 times less massive. Using the James Webb Space Telescope (JWST) combined with magnification from gravitational lensing, these low-mass galaxies can not only be detected but also be studied in detail. Here we present JWST observations of a strongly lensed galaxy at z$\\_{spec}$ = 8.296 {\\ensuremath{\\pm}} 0.001, showing massive star clusters (the Firefly Sparkle) cocooned in a diffuse arc in the Canadian Unbiased Cluster Survey (CANUCS)$^{1}$. The Firefly Sparkle exhibits traits of a young, gas-rich galaxy in its early formation stage. The mass of the galaxy is concentrated in 10 star clusters (49{\\textendash}57\\% of total mass), with individual masses ranging from {}10$^{5}$M$\\_{{\\ensuremath{\\odot}}}$ to {}10$^{6}$M$\\_{{\\ensuremath{\\odot}}}$. These unresolved clusters have high surface densities (>{}10$^{3}$M$\\_{{\\ensuremath{\\odot}}}$ pc$^{‑}$$^{2}$), exceeding those of Milky Way globular clusters and young star clusters in nearby galaxies. The central cluster shows a nebular-dominated spectrum, low metallicity, high gas density and high electron temperature, hinting at a top-heavy initial mass function. These observations provide our first spectrophotometric view of a typical galaxy in its early stages, in a 600-million-year-old Universe.}",
@@ -2922,6 +3168,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential JWST-era AGN selection methods and characterizes key LRD properties (X-ray weakness, obscuration) that define this population."
     },
     {
+      "bibtex_key": "2024ApJ...962..152H",
+      "title": "{Black Hole Mass and Eddington-ratio Distributions of Less-luminous Quasars at z {\\ensuremath{\\sim}} 4 in the Subaru Hyper Suprime-Cam Wide Field}",
+      "abstract": "{We investigate the black hole mass function (BHMF) and Eddington-ratio distribution function (ERDF) of broad-line active galactic nuclei (AGNs) at z = 4, based on a sample of 52 quasars with i < 23.2 at 3.50 {\\ensuremath{\\leq}} z {\\ensuremath{\\leq}} 4.25 from the Hyper Suprime-Cam Subaru Strategic Program S16A-Wide2 data set, and 1462 quasars with i < 20.2 in the same redshift range from the Sloan Digital Sky Survey data release 7 quasar catalog. Virial black hole (BH) masses of quasars are estimated using the width of the C$\\_{IV}$ 1549 {\\r{A}} line and the continuum luminosity at 1350 {\\r{A}}. To obtain the intrinsic broad-line AGN BHMF and ERDF, we correct for the incompleteness in the low- mass and/or low-Eddington-ratio ranges caused by the flux- limited selection. The resulting BHMF is constrained down to $\\mathrm{log}{M}\\_{\\mathrm{BH}}/{M}\\_{\\odot }\\sim 7.5$ . In comparison with broad-line AGN BHMFs at z {\\ensuremath{\\sim}} 2 in the literature, we find that the number density of massive SMBHs peaks at higher redshifts, consistent with the downsizing evolutionary scenario. Additionally, the resulting ERDF shows a negative dependence on BH mass, suggesting more massive SMBHs tend to accrete at lower-Eddington ratios at z = 4. With the derived intrinsic broad-line AGN BHMF, we also evaluate the active fraction of broad-line AGNs among the entire SMBH population at z = 4. The resulting active fraction may suggest a positive dependence on BH mass. Finally, we examine the time evolution of broad-line AGN BHMF between z = 4 and 6 through solving the continuity equation. The results suggest that the broad-line AGN BHMFs at z = 4{\\textendash}6 only show evolution in their normalization, but with no significant changes in their shape.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{He}, Wanqiu'), Person('{Akiyama}, Masayuki'), Person('{Enoki}, Motohiro'), Person('{Ichikawa}, Kohei'), Person('{Inayoshi}, Kohei'), Person('{Kashikawa}, Nobunari'), Person('{Kawaguchi}, Toshihiro'), Person('{Matsuoka}, Yoshiki'), Person('{Nagao}, Tohru'), Person('{Onoue}, Masafusa'), Person('{Oogi}, Taira'), Person('{Schulze}, Andreas'), Person('{Toba}, Yoshiki'), Person('{Ueda}, Yoshihiro')]",
+      "relevance_score": 8.0,
+      "justification": "This paper provides essential demographic constraints for faint high-z AGN that serve as the primary comparison baseline for LRD studies. With strong citation frequency (lrdIndex=10) and direct relevance to the LRD population, it offers critical evolutionary context across z=4-6. While methodologically standard, its systematic treatment of incompleteness and selection effects makes it indispensable for contextualizing LRDs within cosmic BH growth.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct less-luminous quasar sample at z~4",
+        "BHMF/ERDF down to log(M_BH)~7.5",
+        "Continuity equation evolution z=4-6",
+        "Incompleteness corrections for faint populations"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "Directly studies 'less-luminous quasars' at z~4, the exact demographic overlap with LRDs. Provides BHMF and ERDF constraints down to log(M_BH/M_sun)~7.5, establishing critical comparison baseline for LRD population statistics. Addresses incompleteness corrections at low masses/low Eddington ratios, which is essential for interpreting faint LRD samples."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates strong, repeated utility across LRD literature. This citation frequency demonstrates the paper serves as a standard reference for faint AGN demographics at high redshift, suggesting persistent methodological or comparative value beyond initial discovery papers."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "Provides essential reference BHMF and ERDF for faint AGN that LRD researchers must compare against. However, the virial mass estimation and incompleteness correction techniques are standard in the field. Value lies in systematic application to faint sample rather than novel theoretical framework."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "Employs standard CIV virial mass estimation and well-established incompleteness correction methods. No fundamental technique innovation, but demonstrates careful application to push magnitude limits (i<23.2) using HSC-SSP. The method combination is solid but not transformative for LRD-specific analysis pipelines."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Exceptional evolutionary context through continuity equation analysis spanning z=4-6, directly addressing how faint AGN populations evolve across the epoch where LRDs are discovered. Shows downsizing evolution and mass-dependent Eddington ratios, providing critical framework for interpreting LRDs within cosmic BH growth scenarios."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2024ApJ...969...69L",
       "title": "{Reconstruction of Cosmic Black Hole Growth and Mass Distribution from Quasar Luminosity Functions at z > 4: Implications for Faint and Low-mass Populations in JWST}",
       "abstract": "{The evolution of the quasar luminosity function (QLF) is fundamental to understanding the cosmic evolution of black holes (BHs) through their accretion phases. In the era of the James Webb Space Telescope (JWST), Euclid, and Nancy Grace Roman Space Telescope, their unprecedented detection sensitivity and wide survey area can unveil the low-luminosity quasar and low-mass BH population, and provide new insights into quasar host galaxies. We present a theoretical model describing BH growth from initial seeding at z {\\ensuremath{\\gtrsim}} 20 to {\\ensuremath{\\sim}} 4, incorporating the duration of accretion episodes, the distribution of Eddington ratios, and the mass dependency of BH accretion rates. By constraining the model parameters with the observed QLFs at 4 {\\ensuremath{\\leq}} z {\\ensuremath{\\leq}} 6 across a wide UV luminosity range, we find that the high- redshift BH population grows rapidly at z {\\ensuremath{\\gtrsim}} 6, and decelerates the pace in subsequent epochs. Toward lower redshifts (z < 6), mass-dependent accretion inhibits the growth of high-mass BHs with M $\\_{{\\textbullet}}$ > {}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$, leading to mass saturation at M $\\_{{\\textbullet}}$ {\\ensuremath{\\gtrsim}} {}10$^{10}$ M $\\_{{\\ensuremath{\\odot}}}$. We predict the BH mass function down to M $\\_{{\\textbullet}}$ {\\ensuremath{\\sim}} {}10$^{6}$ M $\\_{{\\ensuremath{\\odot}}}$ for both unobscured and obscured quasar populations at 4 {\\ensuremath{\\leq}} z {\\ensuremath{\\leq}} 11, offering a benchmark for future observational tests. Our model accounts for the presence of both bright and faint quasars at z > 4, including those discovered by JWST. Furthermore, our findings suggest two distinct pathways for the early assembly of the BH{\\textendash}galaxy mass correlation: the population with a BH-to-stellar-mass ratio near the local value of M $\\_{{\\textbullet}}$/M $\\_{{\\ensuremath{\\star}}}$ ≃ 5 {\\texttimes} 10$^{‑3}$ maintains proximity to the relation via moderate growth, while the population that begins to grow above the local relation becomes as overmassive as M $\\_{{\\textbullet}}$/M $\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\sim}} 0.01{\\textendash}0.1 by z {\\ensuremath{\\sim}} 6 via rapid mass accretion.}",
@@ -2999,6 +3286,88 @@
         "evolutionary_context": {
           "score": 8.5,
           "reasoning": "Exceptional cosmic dawn context framing the 'seed problem' that LRDs may help solve. Directly addresses BH-galaxy coevolution at z≈10, providing concrete observational constraints on early SMBH abundance and suggesting an overabundant population. This high-redshift evolutionary scaffolding is crucial for interpreting LRD number densities and their role in early structure formation."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2023ApJ...950...67M",
+      "title": "{EIGER. II. First Spectroscopic Characterization of the Young Stars and Ionized Gas Associated with Strong H{\\ensuremath{\\beta}} and [O III] Line Emission in Galaxies at z = 5-7 with JWST}",
+      "abstract": "{We present emission-line measurements and physical interpretations for a sample of 117 [O III] emitting galaxies at z = 5.33-6.93, using the first deep JWST/NIRCam wide-field slitless spectroscopic observations. Our 9.7 hr integration is centered upon the z = 6.3 quasar J0100+2802-the first of six fields targeted by the EIGER survey-and covers {\\ensuremath{\\lambda}} = 3-4 {\\ensuremath{\\mu}}m. We detect 133 [O III] doublets, but close pairs motivated by their small scale clustering excess. The galaxies are characterized by a UV luminosity M $\\_{UV}$ \\raisebox{-0.5ex}\\textasciitilde -19.6 (-17.7 to -22.3), stellar mass \\raisebox{-0.5ex}\\textasciitilde{}10$^{8}$ (10$^{6.8-10.1}$) M $\\_{{\\ensuremath{\\odot}}}$, H{\\ensuremath{\\beta}} and [O III]$\\_{4960+5008}$ EWs {\\ensuremath{\\approx}} 850 {\\r{A}} (up to 3000 {\\r{A}}), young ages, a highly excited interstellar medium, and low dust attenuations. These high EWs are very rare in the local universe, but we show they are ubiquitous at z \\raisebox{-0.5ex}\\textasciitilde 6 based on the measured number densities. The stacked spectrum reveals H{\\ensuremath{\\gamma}} and [O III]$\\_{4364}$, which shows that the galaxies are typically dust- and metal-poor (E (B - V) = 0.1, $12+\\mathrm{log}({\\rm{O}}/{\\rm{H}})=7.4$ ) with a high electron temperature (2 {\\texttimes} {}10$^{4}$ K) and a production efficiency of ionizing photons ({\\ensuremath{\\xi}} $\\_{ion}$ = 10$^{25.3}$ Hz erg$^{-1}$). We further show the existence of a strong mass-metallicity relation. The properties of the stars and gas in z \\raisebox{-0.5ex}\\textasciitilde 6 galaxies conspire to maximize the [O III] output from galaxies, yielding an [O III] luminosity density at z {\\ensuremath{\\approx}} 6 that is significantly higher than that at z {\\ensuremath{\\approx}} 2. Thus, [O III] emission-line surveys with JWST prove a highly efficient method to trace the galaxy density in the Epoch of Reionization.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Matthee}, Jorryt'), Person('{Mackenzie}, Ruari'), Person('{Simcoe}, Robert A.'), Person('{Kashino}, Daichi'), Person('{Lilly}, Simon J.'), Person('{Bordoloi}, Rongmon'), Person('{Eilers}, Anna-Christina')]",
+      "relevance_score": 8.0,
+      "justification": "This paper receives a high score (8.0) due to its strong methodological innovation in JWST spectroscopy and foundational characterization of extreme [O III] emitters at z~6, despite lacking direct LRD mention. The high citation frequency (lrdIndex=11) confirms its practical value to LRD researchers studying high-z host galaxies and emission line diagnostics.",
+      "key_factors": [
+        "lrdIndex=11",
+        "High-EW [O III] emitter characterization",
+        "JWST NIRCam slitless spectroscopy technique",
+        "z~6 galaxy physical properties baseline",
+        "Extreme emission line demographics"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "Paper does not explicitly mention Little Red Dots, but characterizes the high-z galaxy population with extreme [O III] emission (EW~850Å) that overlaps with LRD phenomena. Provides essential context on the nature of strong emission line galaxies at z~6, though the connection is indirect rather than targeted."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=11 indicates strong recognition by LRD researchers, placing it in the top tier of kick_off papers. This high citation frequency demonstrates the community values its results for interpreting LRD host properties and high-z emitter demographics."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Establishes that high-EW [O III] emitters are ubiquitous at z~6 and provides detailed physical measurements (metallicity 12+log(O/H)=7.4, ionization parameter, stellar masses 10^6.8-10.1 M⊙) crucial for interpreting LRD host galaxies. Demonstrates these systems are metal-poor, dust-poor, and highly excited, providing baseline expectations for LRD environments."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Demonstrates novel JWST/NIRCam wide-field slitless spectroscopy for efficiently detecting and characterizing high-z emission line galaxies. The 9.7hr integration yielding 133 [O III] doublets provides a template for spectroscopic follow-up strategies directly applicable to LRD confirmation and characterization, particularly for separating AGN from starburst contributions."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "Provides important context on galaxy evolution at z=5-7 and [O III] luminosity density evolution, showing enhanced [O III] output compared to z~2. However, lacks direct discussion of black hole growth or AGN-galaxy co-evolution mechanisms specific to understanding LRD nature. Focuses on galaxy demographics rather than BH-galaxy co-evolution pathways."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential context on the prevalence and properties of high-z emission line galaxies that form the parent population for LRDs, plus proven JWST observational strategies."
+    },
+    {
+      "bibtex_key": "2024ApJ...974..275E",
+      "title": "{EIGER. VI. The Correlation Function, Host Halo Mass, and Duty Cycle of Luminous Quasars at z {\\ensuremath{\\gtrsim}} 6}",
+      "abstract": "{We expect luminous (M $\\_{1450}$ {\\ensuremath{\\lesssim}} ‑26.5) high- redshift quasars to trace the highest-density peaks in the early Universe. Here, we present observations of four z {\\ensuremath{\\gtrsim}} 6 quasar fields using JWST/NIRCam in the imaging and wide-field slitless spectroscopy mode and report a wide range in the number of detected [O III]-emitting galaxies in the quasars' environments, ranging between a density enhancement of {\\ensuremath{\\delta}} {\\ensuremath{\\approx}} 65 within a 2 cMpc radius{\\textemdash}one of the largest protoclusters during the Epoch of Reionization discovered to date{\\textemdash}to a density contrast consistent with zero, indicating the presence of a UV-luminous quasar in a region comparable to the average density of the Universe. By measuring the two-point cross-correlation function of quasars and their surrounding galaxies, as well as the galaxy autocorrelation function, we infer a correlation length of quasars at <z> = 6.25 of r0QQ=22.0‑2.9+3.0cMpch‑1, while we obtain a correlation length of the [O III]-emitting galaxies of r0GG=4.1{\\ensuremath{\\pm}}0.3cMpch‑1. By comparing the correlation functions to dark-matter-only simulations we estimate the minimum mass of the quasars' host dark matter halos to be log10(Mhalo,min/M{\\ensuremath{\\odot}})=12.43‑0.15+0.13 (and log10(Mhalo,min[OIII]/M{\\ensuremath{\\odot}})=10.56‑0.03+0.05 for the [O III] emitters), indicating that (a) luminous quasars do not necessarily reside within the most overdense regions in the early Universe, and that (b) the UV-luminous duty cycle of quasar activity at these redshifts is f $\\_{duty}$ {\\ensuremath{\\ll}} 1. Such short quasar activity timescales challenge our understanding of early supermassive black hole growth and provide evidence for highly dust-obscured growth phases or episodic, radiatively inefficient accretion rates.}",
+      "lrdIndex": 12,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Eilers}, Anna-Christina'), Person('{Mackenzie}, Ruari'), Person('{Pizzati}, Elia'), Person('{Matthee}, Jorryt'), Person('{Hennawi}, Joseph F.'), Person('{Zhang}, Haowen'), Person('{Bordoloi}, Rongmon'), Person('{Kashino}, Daichi'), Person('{Lilly}, Simon J.'), Person('{Naidu}, Rohan P.'), Person('{Simcoe}, Robert A.'), Person('{Yue}, Minghao'), Person('{Frenk}, Carlos S.'), Person('{Helly}, John C.'), Person('{Schaller}, Matthieu'), Person('{Schaye}, Joop')]",
+      "relevance_score": 8.0,
+      "justification": "This paper receives a high score for providing critical duty cycle constraints (f_duty << 1) that strongly support the LRD paradigm of obscured early black hole growth. Its JWST measurements of quasar environments at z>6 establish that luminous quasars are rare and short-lived, implying most growth occurs in hidden phases that LRDs may represent. The substantial citation frequency (lrdIndex=12) confirms its foundational value to the LRD community.",
+      "key_factors": [
+        "lrdIndex=12",
+        "Duty cycle constraints f_duty << 1",
+        "Environmental diversity (δ≈65 to ~0)",
+        "JWST NIRCam wide-field spectroscopy",
+        "Direct implications for obscured growth phases"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "While not explicitly about LRDs, this paper directly addresses the duty cycle and obscured growth phases central to LRD science. The finding that luminous quasars have f_duty << 1 and can exist in average-density environments provides strong indirect support for the LRD paradigm, though lacks direct LRD sample analysis."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=12 indicates substantial influence on LRD research community. This citation frequency demonstrates the paper's value for duty cycle constraints and environmental measurements, though not the absolute highest possible count."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Provides first JWST constraints on quasar environments and duty cycles at z>6, establishing that quasars can reside in average-density regions with short active phases. This challenges naive growth models and creates essential theoretical space for LRD-type objects as the obscured majority population."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Employs JWST/NIRCam wide-field slitless spectroscopy and correlation function analysis at z>6, providing a transferable template for LRD environment studies. However, correlation function analysis is a standard tool, making this an important application rather than a fundamental methodological breakthrough."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Exceptional evolutionary context by directly measuring quasar duty cycles and finding f_duty << 1. This strongly supports episodic, obscured early black hole growth - the core LRD hypothesis - and links rare luminous quasar phases to likely LRD-dominated growth histories."
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
@@ -3330,6 +3699,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM: Include as essential background on COSMOS-Web survey parameters and JWST observational strategy. Required reading for understanding selection effects, completeness, and observational context of LRD discoveries in this field."
     },
     {
+      "bibtex_key": "2024ApJ...972..143C",
+      "title": "{JWST NIRSpec Spectroscopy of the Remarkable Bright Galaxy GHZ2/GLASS-z12 at Redshift 12.34}",
+      "abstract": "{We spectroscopically confirm the M $\\_{UV}$ = ‑20.5 mag galaxy GHZ2/GLASS-z12 to be at redshift z = 12.34. The source was selected via NIRCam photometry in GLASS-JWST Early Release Science data, providing the first evidence of a surprising abundance of bright galaxies at z {\\ensuremath{\\gtrsim}} 10. The NIRSpec PRISM spectrum shows detections of N IV, C IV, He II, O III, C III, O II, and Ne III lines and the first detection at high redshift of the O III Bowen fluorescence line at 3133 {\\r{A}} rest frame. The prominent C IV line with rest-frame equivalent width (EW) {\\ensuremath{\\approx}} 46 {\\r{A}} puts GHZ2 in the category of extreme C IV emitters. GHZ2 displays UV lines with EWs that are only found in active galactic nuclei (AGNs) or composite objects at low/intermediate redshifts. The UV line-intensity ratios are compatible with both AGNs and star formation in a low-metallicity environment, with the low limit on the [Ne IV]/[N IV] ratio favoring a stellar origin of the ionizing photons. We discuss a possible scenario in which the high ionizing output is due to low-metallicity stars forming in a dense environment. We estimate a metallicity {\\ensuremath{\\lesssim}}0.1 Z/Z $\\_{{\\ensuremath{\\odot}}}$, a high ionization parameter log U > ‑2, a N/O abundance 4{\\textendash}5 times the solar value, and a subsolar C/O ratio similar to the recently discovered class of nitrogen-enhanced objects. Considering its abundance patterns and the high stellar mass density ({}10$^{4}$ M $\\_{{\\ensuremath{\\odot}}}$ pc$^{‑2}$), GHZ2 is an ideal formation site for the progenitors of today's globular clusters. The remarkable brightness of GHZ2 makes it a ``Rosetta stone'' for understanding the physics of galaxy formation within just 360 Myr after the Big Bang.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Castellano}, Marco'), Person('{Napolitano}, Lorenzo'), Person('{Fontana}, Adriano'), Person('{Roberts-Borsani}, Guido'), Person('{Treu}, Tommaso'), Person('{Vanzella}, Eros'), Person('{Zavala}, Jorge A.'), Person('{Arrabal Haro}, Pablo'), Person('{Calabr{\\\\`o}}, Antonello'), Person('{Llerena}, Mario'), Person('{Mascia}, Sara'), Person('{Merlin}, Emiliano'), Person('{Paris}, Diego'), Person('{Pentericci}, Laura'), Person('{Santini}, Paola'), Person('{Bakx}, Tom J. L. C.'), Person('{Bergamini}, Pietro'), Person('{Cupani}, Guido'), Person('{Dickinson}, Mark'), Person('{Filippenko}, Alexei V.'), Person('{Glazebrook}, Karl'), Person('{Grillo}, Claudio'), Person('{Kelly}, Patrick L.'), Person('{Malkan}, Matthew A.'), Person('{Mason}, Charlotte A.'), Person('{Morishita}, Takahiro'), Person('{Nanayakkara}, Themiya'), Person('{Rosati}, Piero'), Person('{Sani}, Eleonora'), Person('{Wang}, Xin'), Person('{Yoon}, Ilsang')]",
+      "relevance_score": 7.9,
+      "justification": "This paper delivers exceptional methodological and foundational value for LRD research through its detailed spectroscopic analysis of extreme emission line ratios at cosmic dawn. While not explicitly about LRDs, its demonstration of JWST capabilities, physical diagnostics for distinguishing AGN vs. star formation, and characterization of high-ionization lines directly support LRD classification efforts. The moderate citation frequency reflects its utility as a technical reference rather than conceptual cornerstone.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Extreme C IV emission (EW~46Å) and high-ionization lines",
+        "JWST NIRSpec PRISM methodology",
+        "AGN vs. star formation diagnostics using [Ne IV]/[N IV]",
+        "z>12 analog to LRD physics with low metallicity (≤0.1 Z/Z☉)"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "Does not explicitly mention LRDs but discusses extreme emission line galaxy at z=12.34 with AGN-like signatures (strong C IV EW~46Å, high ionization lines). The ambiguity between AGN vs. star formation and extreme line ratios are directly relevant to LRD classification criteria, providing a high-redshift analog though not a direct LRD sample study."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 indicates moderate citation frequency within LRD literature. While valued by LRD researchers as a useful reference, it lacks the 50+ citation count of seminal works. In the rapidly evolving JWST era, this suggests solid utility but not cornerstone status in the field."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Provides critical empirical framework for interpreting extreme emission lines in high-z galaxies. Detailed analysis of C IV emission, ionization parameters (log U > -2), metallicity (≤0.1 Z/Z☉), and abundance patterns offers concrete diagnostic benchmarks applicable to LRDs. Detection of multiple UV lines and Bowen fluorescence sets a practical template for spectroscopic identification of ionizing sources."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Demonstrates state-of-the-art JWST NIRSpec PRISM spectroscopy of the highest-redshift galaxies. Successful detection and analysis of numerous faint UV emission lines (including first high-z Bowen fluorescence detection) showcases techniques directly applicable to LRD characterization. The methodology for disentangling AGN vs. stellar ionization using [Ne IV]/[N IV] ratios and line EWs provides a roadmap for LRD follow-up studies."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Places extreme emission line galaxies within broader narrative of early galaxy formation and globular cluster origins. Discusses how these objects fit into cosmic dawn scenarios, providing evolutionary context for LRD-like phenomena. However, focus on single extreme object at z>12 is at the edge of typical LRD parameter space (most LRDs at z~4-7), limiting generalizability to LRD populations."
+        }
+      },
+      "notebooklm_recommendation": "Critical technical reference for NotebookLM - essential for spectroscopic diagnostics and JWST methodology"
+    },
+    {
       "bibtex_key": "2023ApJ...946L..13F",
       "title": "{CEERS Key Paper. I. An Early Look into the First 500 Myr of Galaxy Formation with JWST}",
       "abstract": "{We present an investigation into the first 500 Myr of galaxy evolution from the Cosmic Evolution Early Release Science (CEERS) survey. CEERS, one of 13 JWST ERS programs, targets galaxy formation from z \\raisebox{-0.5ex}\\textasciitilde 0.5 to >10 using several imaging and spectroscopic modes. We make use of the first epoch of CEERS NIRCam imaging, spanning 35.5 arcmin$^{2}$, to search for candidate galaxies at z > 9. Following a detailed data reduction process implementing several custom steps to produce high-quality reduced images, we perform multiband photometry across seven NIRCam broad- and medium-band (and six Hubble broadband) filters focusing on robust colors and accurate total fluxes. We measure photometric redshifts and devise a robust set of selection criteria to identify a sample of 26 galaxy candidates at z \\raisebox{-0.5ex}\\textasciitilde 9-16. These objects are compact with a median half-light radius of \\raisebox{-0.5ex}\\textasciitilde0.5 kpc. We present an early estimate of the z \\raisebox{-0.5ex}\\textasciitilde 11 rest-frame ultraviolet (UV) luminosity function, finding that the number density of galaxies at M $\\_{UV}$ \\raisebox{-0.5ex}\\textasciitilde -20 appears to evolve very little from z \\raisebox{-0.5ex}\\textasciitilde 9 to 11. We also find that the abundance (surface density [arcmin$^{-2}$]) of our candidates exceeds nearly all theoretical predictions. We explore potential implications, including that at z > 10, star formation may be dominated by top-heavy initial mass functions, which would result in an increased ratio of UV light per unit halo mass, though a complete lack of dust attenuation and/or changing star formation physics may also play a role. While spectroscopic confirmation of these sources is urgently required, our results suggest that the deeper views to come with JWST should yield prolific samples of ultrahigh-redshift galaxies with which to further explore these conclusions.}",
@@ -3535,6 +3945,47 @@
       "notebooklm_recommendation": "Essential methodological reference for NotebookLM sections on LRD identification, selection effects, and survey contaminants. Include for practical data analysis guidance, not for theoretical LRD astrophysics."
     },
     {
+      "bibtex_key": "2023ApJ...957L..34W",
+      "title": "{UNCOVER: Illuminating the Early Universe-JWST/NIRSpec Confirmation of z > 12 Galaxies}",
+      "abstract": "{Observations of high-redshift galaxies provide a critical direct test to the theories of early galaxy formation, yet to date, only three have been spectroscopically confirmed at z > 12. Due to strong gravitational lensing over a wide area, the galaxy cluster field A2744 is ideal for searching for the earliest galaxies. Here we present JWST/NIRSpec observations of two galaxies: a robust detection at ${z}\\_{\\mathrm{spec}}={12.393}\\_{-0.001}^{+0.004}$ , and a plausible candidate at ${z}\\_{\\mathrm{spec}}={13.079}\\_{-0.001}^{+0.013}$ . The galaxies are discovered in JWST/NIRCam imaging and their distances are inferred with JWST/NIRSpec spectroscopy, all from the JWST Cycle 1 UNCOVER Treasury survey. Detailed stellar population modeling using JWST NIRCam and NIRSpec data corroborates the primeval characteristics of these galaxies: low mass (\\raisebox{-0.5ex}\\textasciitilde{}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$), young, rapidly assembling, metal- poor, and star-forming. Interestingly, both galaxies are spatially resolved, having lensing-corrected rest-UV effective radii on the order of 300-400 pc, which are notably larger than other spectroscopically confirmed systems at similar redshifts. The observed dynamic range of z {\\ensuremath{\\gtrsim}} 10 sizes spans over 1 order of magnitude, implying a significant scatter in the size-mass relation at early times. Deep into the epoch of reionization, these discoveries elucidate the emergence of the first galaxies.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Wang}, Bingjie'), Person('{Fujimoto}, Seiji'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Furtak}, Lukas J.'), Person('{Miller}, Tim B.'), Person('{Setton}, David J.'), Person('{Zitrin}, Adi'), Person('{Atek}, Hakim'), Person('{Bezanson}, Rachel'), Person('{Brammer}, Gabriel'), Person('{Leja}, Joel'), Person('{Oesch}, Pascal A.'), Person('{Price}, Sedona H.'), Person('{Chemerynska}, Iryna'), Person('{Cutler}, Sam E.'), Person('{Dayal}, Pratika'), Person('{van Dokkum}, Pieter'), Person('{Goulding}, Andy D.'), Person('{Greene}, Jenny E.'), Person('{Fudamoto}, Y.'), Person('{Khullar}, Gourav'), Person('{Kokorev}, Vasily'), Person('{Marchesini}, Danilo'), Person('{Pan}, Richard'), Person('{Weaver}, John R.'), Person('{Whitaker}, Katherine E.'), Person('{Williams}, Christina C.')]",
+      "relevance_score": 7.8,
+      "justification": "This paper receives a high score due to its exceptional citation frequency (lrdIndex=10) and strong methodological utility for LRD researchers. Its primary unique value lies in establishing the resolved high-z galaxy contrast, which helps define LRDs as a distinct population, while providing practical JWST spectroscopic techniques that are directly applicable to LRD candidate verification.",
+      "key_factors": [
+        "lrdIndex=10 (high LRD community citation)",
+        "Resolved z>12 galaxy contrast to unresolved LRDs",
+        "JWST/NIRSpec methodology template",
+        "Stellar population modeling at highest redshifts",
+        "Size-mass relation context for early galaxies"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "No explicit LRD mention, but provides crucial contrast by demonstrating resolved star-forming galaxies at z>12, helping define LRDs as a distinct unresolved population. Essential for understanding LRDs in broader high-z galaxy context."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates strong utility to LRD community, reflecting frequent citation in LRD papers for methodology and contextual comparison. This citation density demonstrates recognized value beyond generic high-z galaxy studies."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "While LRD researchers know basic high-z galaxy evolution, this paper uniquely establishes the resolved galaxy baseline at z>12 against which unresolved LRDs are compared. Provides spectroscopic confirmation templates and stellar population modeling framework specifically at the highest redshifts."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "JWST/NIRSpec confirmation techniques and stellar population modeling at z>12 provide directly applicable methods for LRD candidate verification and analysis. Practical template for high-z spectroscopic studies that LRD researchers can adapt for unresolved sources."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Establishes galaxy formation context at z>12, providing critical baseline for BH-galaxy coevolution models and timeline of early structure formation. Shows early size-mass relation scatter, informing models of how LRDs might fit into early galaxy evolution pathways."
+        }
+      },
+      "notebooklm_recommendation": "Important contextual foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJS..281...50E",
       "title": "{The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release}",
       "abstract": "{We summarize the properties and initial data release of the JADES Origins Field (JOF), the longest single pointing yet imaged with the James Webb Space Telescope (JWST). This field falls within the GOODS-S region about 8' southwest of the Hubble Ultra Deep Field (HUDF), where it was formed initially in Cycle 1 as a parallel field of HUDF spectroscopic observations within the JWST Advanced Deep Extragalactic Survey (JADES). This imaging was greatly extended in Cycle 2 program 3215, which observed the JOF for 5 days in six medium-band filters, seeking robust candidates for z > 15 galaxies. This program also includes ultradeep parallel NIRSpec spectroscopy (up to 91 hr on source, summing over the dispersion modes) on the HUDF. Cycle 3 observations from program 4540 added 20 hr of NIRCam slitless spectroscopy and F070W imaging to the JOF. With these three campaigns, the JOF was observed for 380 open-shutter hours with NIRCam using 15 imaging filters and two grism bandpasses. Further, parts of the JOF have deep 43 hr MIRI observations in F770W. Taken together, the JOF is one of the most compelling deep fields available with JWST and a powerful window into the early Universe. This paper presents the second data release from JADES, featuring the imaging and catalogs from the year 1 JOF observations.}",
@@ -3574,6 +4025,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential observational context, data specifications, and field geometry that any AI system must understand to properly contextualize LRD discovery papers and interpret LRD measurements."
+    },
+    {
+      "bibtex_key": "2023Natur.622..707A",
+      "title": "{Confirmation and refutation of very luminous galaxies in the early Universe}",
+      "abstract": "{During the first 500 million years of cosmic history, the first stars and galaxies formed, seeding the Universe with heavy elements and eventually reionizing the intergalactic medium$^{1-3}$. Observations with the James Webb Space Telescope (JWST) have uncovered a surprisingly high abundance of candidates for early star-forming galaxies, with distances (redshifts, z), estimated from multiband photometry, as large as z {\\ensuremath{\\approx}} 16, far beyond pre-JWST limits$^{4-9}$. Although such photometric redshifts are generally robust, they can suffer from degeneracies and occasionally catastrophic errors. Spectroscopic measurements are required to validate these sources and to reliably quantify physical properties that can constrain galaxy formation models and cosmology$^{10}$. Here we present JWST spectroscopy that confirms redshifts for two very luminous galaxies with z > 11, and also demonstrates that another candidate with suggested z {\\ensuremath{\\approx}} 16 instead has z = 4.9, with an unusual combination of nebular line emission and dust reddening that mimics the colours expected for much more distant objects. These results reinforce evidence for the early, rapid formation of remarkably luminous galaxies while also highlighting the necessity of spectroscopic verification. The large abundance of bright, early galaxies may indicate shortcomings in current galaxy formation models or deviations from physical properties (such as the stellar initial mass function) that are generally believed to hold at later times.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Arrabal Haro}, Pablo'), Person('{Dickinson}, Mark'), Person('{Finkelstein}, Steven L.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Donnan}, Callum T.'), Person('{Burgarella}, Denis'), Person('{Carnall}, Adam C.'), Person('{Cullen}, Fergus'), Person('{Dunlop}, James S.'), Person(\"{Fern{\\\\'a}ndez}, Vital\"), Person('{Fujimoto}, Seiji'), Person('{Jung}, Intae'), Person('{Krips}, Melanie'), Person('{Larson}, Rebecca L.'), Person('{Papovich}, Casey'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person(\"{Amor{\\\\'\\\\i}n}, Ricardo O.\"), Person('{Bagley}, Micaela B.'), Person(\"{Buat}, V{\\\\'e}ronique\"), Person('{Casey}, Caitlin M.'), Person('{Chworowsky}, Katherine'), Person('{Cohen}, Seth H.'), Person('{Ferguson}, Henry C.'), Person('{Giavalisco}, Mauro'), Person('{Huertas-Company}, Marc'), Person('{Hutchison}, Taylor A.'), Person('{Kocevski}, Dale D.'), Person('{Koekemoer}, Anton M.'), Person('{Lucas}, Ray A.'), Person('{McLeod}, Derek J.'), Person('{McLure}, Ross J.'), Person('{Pirzkal}, Norbert'), Person(\"{Seill{\\\\'e}}, Lise-Marie\"), Person('{Trump}, Jonathan R.'), Person('{Weiner}, Benjamin J.'), Person('{Wilkins}, Stephen M.'), Person('{Zavala}, Jorge A.')]",
+      "relevance_score": 7.8,
+      "justification": "High citation frequency (lrdIndex=10) and critical JWST spectroscopic methodology for source confirmation drive this score. While lacking explicit LRD focus, its empirical demonstration of contamination mechanisms and validation techniques provides indispensable practical knowledge for LRD research programs.",
+      "key_factors": [
+        "lrdIndex=10",
+        "JWST NIRSpec spectroscopic methodology",
+        "High-z contaminant identification (z=4.9 mimicking z≈16)",
+        "Photometric redshift failure modes",
+        "Spectroscopic confirmation framework"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.0,
+          "reasoning": "No explicit LRD mention, but provides critical spectroscopic confirmation methodology directly applicable to LRD candidate validation. Identifies specific contaminants (z~5 sources mimicking z~16) that directly impact LRD selection criteria."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates exceptional influence within LRD literature, placing it in the top tier of community-valued papers. Demonstrates repeated utility for LRD researchers."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Provides empirical foundation beyond theory: real examples of photometric redshift failures and spectroscopic success cases. Establishes practical framework for JWST follow-up strategies that LRD researchers must master."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Showcases JWST NIRSpec spectroscopic techniques essential for LRD confirmation. Demonstrates identification of dust-reddened low-z interlopers—a critical contaminant class for LRDs. Provides replicable methodology."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "Discusses early galaxy formation at z>11 and implications for reionization, providing necessary cosmic dawn context. However, limited explicit focus on BH/AGN co-evolution central to many LRD scenarios."
+        }
+      },
+      "notebooklm_recommendation": "Critical inclusion for NotebookLM: provides essential empirical methodology for LRD candidate validation and contamination assessment that extends beyond theoretical AGN physics."
     },
     {
       "bibtex_key": "2023ApJ...947...20V",
@@ -3693,6 +4185,47 @@
         "evolutionary_context": {
           "score": 4.0,
           "reasoning": "Minimal direct discussion of black hole-galaxy coevolution or AGN feedback. Focuses on observational methodology rather than evolutionary processes."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2023NatAs...7.1376Z",
+      "title": "{Evolutionary paths of active galactic nuclei and their host galaxies}",
+      "abstract": "{The tight correlations between the masses of supermassive black holes (BHs) and the properties of their host galaxies suggest that BHs co-evolve with galaxies. However, what is the link between BH mass (M$\\_{BH}$) and the properties of the host galaxies of active galactic nuclei (AGNs) in the nearby Universe? We measure stellar masses (M$\\_{*}$), colours and structural properties for \\raisebox{-0.5ex}\\textasciitilde11,500 redshift {\\ensuremath{\\leq}}0.35 broad-line AGNs, nearly 40 times more than that in any previous work, as far as we are aware. We find that early-type and late-type AGNs follow a similar M$\\_{BH}$-M$\\_{*}$ relation. The position of AGNs on the M$\\_{BH}$-M$\\_{*}$ plane is connected with the properties of star formation and BH accretion. Our results unveil the evolutionary paths of galaxies on the M$\\_{BH}$-M$\\_{*}$ plane: objects above the relation tend to evolve more horizontally, with substantial M$\\_{*}$ growth; objects on the relation move along the local relation; and objects below the relation migrate more vertically, with substantial M$\\_{BH}$ growth. These trajectories suggest that radiative-mode feedback cannot quench the growth of BHs and their host galaxies for AGNs that lie below the relation, while kinetic-mode feedback barely suppresses long- term star formation for AGNs situated above the relation. This work provides important constraints for numerical simulations and offers a framework for studying the cosmic co-evolution of supermassive BHs and their host galaxies.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Zhuang}, Ming-Yang'), Person('{Ho}, Luis C.')]",
+      "relevance_score": 7.7,
+      "justification": "This paper receives a high score (7.7) due to its exceptional citation frequency (lrdIndex=10) and foundational value for BH-galaxy co-evolution frameworks, which are central to LRD research. While limited by its low-redshift focus and lack of direct LRD application, it provides critical evolutionary context and feedback physics that LRD researchers consistently reference.",
+      "key_factors": [
+        "lrdIndex=10",
+        "BH-galaxy co-evolution framework",
+        "Radiative vs kinetic feedback modes",
+        "Low-redshift limitation",
+        "Evolutionary trajectories on M_BH-M_* plane"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "While the paper does not directly study high-redshift LRDs (focusing on z ≤ 0.35 AGN), it provides a fundamental BH-galaxy co-evolution framework that LRD researchers frequently cite (lrdIndex=10). The lack of direct LRD data or high-z application limits its direct relevance, but its conceptual importance to the field is clear."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=10, this paper ranks among the most frequently cited works in kick_off.bib. This exceptional citation frequency demonstrates that LRD researchers consistently find this paper valuable for their work, indicating strong community consensus on its importance."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "The paper establishes critical concepts for AGN research: BH-galaxy co-evolution on the M_BH-M_* plane, distinct feedback modes (radiative vs kinetic), and evolutionary trajectories for different AGN populations. These frameworks are essential for interpreting LRD observations, despite the low-redshift focus."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "The primary innovation is the massive sample size (~11,500 AGN, 40× larger than previous studies). However, the methods themselves—broad-line M_BH estimation and photometric M_* measurement—are standard techniques. These low-z methodologies offer limited direct innovation for JWST-era LRD studies, which require high-z specific techniques."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The paper explicitly develops an evolutionary framework for AGN-host galaxy co-evolution, discussing 'cosmic co-evolution' and evolutionary trajectories on the M_BH-M_* plane. This provides crucial context for understanding LRDs as potential early Universe analogs, though the low-z empirical basis requires careful extrapolation."
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
@@ -3986,6 +4519,49 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2023MNRAS.520.4609E",
+      "title": "{ALMA confirmation of an obscured hyperluminous radio-loud AGN at z = 6.853 associated with a dusty starburst in the 1.5 deg$^{2}$ COSMOS field}",
+      "abstract": "{We present band 6 ALMA observations of a heavily obscured radio-loud (L$\\_{1.4 GHz}$ = 10$^{25.4}$ W Hz$^{-1}$) active galactic nucleus (AGN) candidate at z$\\_{phot}$ = 6.83 {\\ensuremath{\\pm}} 0.06 found in the 1.5 deg$^{2}$ COSMOS field. The ALMA data reveal detections of exceptionally strong [C II]158 $\\mu$m (z$\\_{[C II]}$ = 6.8532) and underlying dust continuum emission from this object (COS-87259), where the [C II] line luminosity, line width, and 158 $\\mu$m continuum luminosity are comparable to those seen from z \\raisebox{-0.5ex}\\textasciitilde 7 sub-mm galaxies and quasar hosts. The 158 $\\mu$m continuum detection suggests a total infrared luminosity of $9\\times 10^{12}\\, \\mathrm{ L}\\_\\odot$ with corresponding very large obscured star formation rate (1300 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{-1}$) and dust mass ($2\\times 10^9\\, \\mathrm{ M}\\_\\odot$). The strong break seen between the VIRCam and IRAC photometry perhaps suggests that COS-87259 is an extremely massive reionization-era galaxy with $M\\_\\ast \\approx 1.7\\times 10^{11}\\, \\mathrm{ M}\\_\\odot$. Moreover, the MIPS, PACS, and SPIRE detections imply that this object harbours an AGN that is heavily obscured ($\\tau \\_{\\_{\\mathrm{9.7\\,\\mu m}}}=2.3$) with a bolometric luminosity of approximately $5\\times 10^{13}\\, \\mathrm{ L}\\_\\odot$. Such a very high AGN luminosity suggests that this object is powered by an {\\ensuremath{\\approx}}1.6 {\\texttimes} 10$^9\\, \\mathrm{ M}\\_\\odot$ black hole if accreting near the Eddington limit, and is effectively a highly obscured version of an extremely ultraviolet (UV)-luminous (M$\\_{1450}$ {\\ensuremath{\\approx}} -27.3) z \\raisebox{-0.5ex}\\textasciitilde 7 quasar. Notably, these z \\raisebox{-0.5ex}\\textasciitilde 7 quasars are an exceedingly rare population (\\raisebox{-0.5ex}\\textasciitilde0.001 deg$^{-2}$), while COS-87259 was identified over a relatively small field. Future very wide area surveys with e.g. Roman and Euclid have the potential to identify many more extremely red yet UV-bright z {\\ensuremath{\\gtrsim}} 7 objects similar to COS-87259, providing richer insight into the occurrence of intense obscured star formation and supermassive black hole growth among this population.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Endsley}, Ryan'), Person('{Stark}, Daniel P.'), Person('{Lyu}, Jianwei'), Person('{Wang}, Feige'), Person('{Yang}, Jinyi'), Person('{Fan}, Xiaohui'), Person('{Smit}, Renske'), Person('{Bouwens}, Rychard'), Person('{Hainline}, Kevin'), Person('{Schouws}, Sander')]",
+      "relevance_score": 7.4,
+      "justification": "This paper scores highly due to its direct relevance to obscured AGN at cosmic dawn, a key analog population for LRDs. With 10 LRD citations, it provides foundational evidence for hyperluminous, heavily obscured BH growth at z~7, offering critical evolutionary context and methodological templates for LRD follow-up. The score reflects its importance while acknowledging it's a single-object study rather than a population analysis.",
+      "key_factors": [
+        "lrdIndex=10 (kick_off.bib threshold)",
+        "Obscured hyperluminous AGN at z=6.853",
+        "ALMA [C II] and dust continuum detection",
+        "~1.6×10^9 M_sun BH accreting near Eddington limit",
+        "Extreme SFR (1300 M_sun/yr) and dust mass (2×10^9 M_sun)",
+        "Contrast with UV-bright quasars suggests diverse early BH growth",
+        "Radio-loud nature provides alternative discovery pathway"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.0,
+          "reasoning": "Provides a concrete, observationally-confirmed example of an obscured hyperluminous AGN at z~7 with properties (heavy obscuration, intense star formation, ~10^9 M_sun BH) that directly overlap with LRD discovery space. While not explicitly an LRD study, it demonstrates the existence of massive, dusty AGN in the reionization era that serve as critical analogs for interpreting LRD observations. The radio-loud nature differs from typical LRDs, but the obscured growth phase is highly relevant."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 places this paper in the top tier of LRD-cited literature, meeting the kick_off.bib threshold. This citation frequency indicates that LRD researchers consistently reference it as a key result, making it a de facto standard reference for obscured high-z AGN and demonstrating recognized value to the LRD community beyond generic high-z galaxy studies."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "Establishes that hyperluminous, heavily obscured AGN can exist at z~7 with BH masses approaching 10^9 M_sun accreting near Eddington limits. Provides benchmark measurements (SFR=1300 M_sun/yr, dust mass=2×10^9 M_sun) that constrain models of early BH growth. The unique value is demonstrating that such extreme objects can be identified even when UV/optical are completely suppressed, which is directly relevant to understanding how LRDs might appear at different evolutionary stages."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "While ALMA [C II] detection and far-IR SED fitting are standard techniques, this paper demonstrates their successful application to an extreme, rare population at the highest redshifts. The unique value is the complete multi-wavelength characterization strategy (ALMA + far-IR photometry) that LRD researchers can adapt for follow-up of red, dusty JWST sources. Provides a template for deriving physical properties when optical spectroscopy is impossible."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Provides critical insight into an evolutionary phase where BH growth is hyperluminous but completely obscured, contrasting with UV-bright quasars. This suggests a diversity of early BH growth pathways not covered in standard coevolution models. For LRD research, this is crucial because it suggests some LRDs may represent a brief, heavily obscured growth phase of what would otherwise be UV-luminous quasars, providing a specific evolutionary scenario that can be tested with LRD samples."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2023RMxAA..59..327C",
       "title": "{The 2023 Release of Cloudy}",
       "abstract": "{We describe the 2023 release of the spectral synthesis code Cloudy. Since the previous major release, migrations of our online services motivated us to adopt git as our version control system. This change alone led us to adopt an annual release scheme, accompanied by a short release paper, the present being the inaugural. Significant changes to our atomic and molecular data have improved the accuracy of Cloudy predictions: we have upgraded our instance of the Chianti database from version 7 to 10; our H- and He-like collisional rates to improved theoretical values; our molecular data to the most recent LAMDA database, and several chemical reaction rates to their most recent UDfA and KiDA values. Finally, we describe our progress on upgrading Cloudy's capabilities to meet the requirements of the X-ray microcalorimeters aboard the upcoming XRISM and Athena missions, and outline future developments that will make Cloudy of use to the X-ray community.}",
@@ -4150,6 +4726,89 @@
       "notebooklm_recommendation": "Critical utility for NotebookLM infrastructure"
     },
     {
+      "bibtex_key": "2023NatAs...7..611R",
+      "title": "{Identification and properties of intense star-forming galaxies at redshifts z > 10}",
+      "abstract": "{Surveys with the James Webb Space Telescope (JWST) have discovered candidate galaxies in the first 400 Myr of cosmic time. Preliminary indications have suggested these candidate galaxies may be more massive and abundant than previously thought. However, without confirmed distances, their inferred properties remain uncertain. Here we identify four galaxies located in the JWST Advanced Deep Extragalactic Survey Near-Infrared Camera imaging with photometric redshifts z of roughly 10-13. These galaxies include the first redshift z > 12 systems discovered with distances spectroscopically confirmed by JWST in a companion paper. Using stellar population modelling, we find the galaxies typically contain 100 million solar masses in stars, in stellar populations that are less than 100 million years old. The moderate star-formation rates and compact sizes suggest elevated star-formation rate surface densities, a key indicator of their formation pathways. Taken together, these measurements show that the first galaxies contributing to cosmic reionization formed rapidly and with intense internal radiation fields.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Robertson}, B. E.'), Person('{Tacchella}, S.'), Person('{Johnson}, B. D.'), Person('{Hainline}, K.'), Person('{Whitler}, L.'), Person('{Eisenstein}, D. J.'), Person('{Endsley}, R.'), Person('{Rieke}, M.'), Person('{Stark}, D. P.'), Person('{Alberts}, S.'), Person('{Dressler}, A.'), Person('{Egami}, E.'), Person('{Hausen}, R.'), Person('{Rieke}, G.'), Person('{Shivaei}, I.'), Person('{Williams}, C. C.'), Person('{Willmer}, C. N. A.'), Person('{Arribas}, S.'), Person('{Bonaventura}, N.'), Person('{Bunker}, A.'), Person('{Cameron}, A. J.'), Person('{Carniani}, S.'), Person('{Charlot}, S.'), Person('{Chevallard}, J.'), Person('{Curti}, M.'), Person('{Curtis-Lake}, E.'), Person(\"{D'Eugenio}, F.\"), Person('{Jakobsen}, P.'), Person('{Looser}, T. J.'), Person('{L{\\\\\"u}tzgendorf}, N.'), Person('{Maiolino}, R.'), Person('{Maseda}, M. V.'), Person('{Rawle}, T.'), Person('{Rix}, H.-W.'), Person('{Smit}, R.'), Person('{{\\\\\"U}bler}, H.'), Person('{Willott}, C.'), Person('{Witstok}, J.'), Person('{Baum}, S.'), Person('{Bhatawdekar}, R.'), Person('{Boyett}, K.'), Person('{Chen}, Z.'), Person('{de Graaff}, A.'), Person('{Florian}, M.'), Person('{Helton}, J. M.'), Person('{Hviding}, R. E.'), Person('{Ji}, Z.'), Person('{Kumari}, N.'), Person('{Lyu}, J.'), Person('{Nelson}, E.'), Person('{Sandles}, L.'), Person('{Saxena}, A.'), Person('{Suess}, K. A.'), Person('{Sun}, F.'), Person('{Topping}, M.'), Person('{Wallace}, I. E. B.')]",
+      "relevance_score": 7.4,
+      "justification": "This paper earns a solid score through its JWST spectroscopic confirmation of z>10 galaxies and characterization of intense star formation in compact systems, providing essential observational context and methodology for LRD research. While not directly addressing AGN or black holes, it establishes the critical galaxy formation backdrop for understanding LRD evolution, with methodological innovations directly applicable to LRD identification.",
+      "key_factors": [
+        "lrdIndex=10 indicates community value",
+        "JWST spectroscopic confirmation at z>12",
+        "Compact intense star-forming galaxies at z>10",
+        "Reionization-era galaxy formation context",
+        "Methods directly applicable to LRD identification"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "Paper focuses on star-forming galaxies at z>10 without explicit LRD or AGN mention. Connection is indirect via characterization of compact, intense star-forming systems that provide essential galactic context for LRD formation scenarios. The lrdIndex=10 indicates LRD researchers value this context, but the lack of direct AGN/black hole content limits the score."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "lrdIndex=10 meets the kick_off inclusion threshold and demonstrates recognized value within the LRD community. This is solid but not exceptional citation frequency; seminal LRD papers typically exceed 20 citations. The score reflects moderate but reliable influence rather than dominant impact."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Provides crucial JWST observational constraints on the earliest galaxies (z>10) including spectroscopic confirmations, stellar masses (~10^8 M_sun), and ages (<100 Myr). This empirical data on galaxy formation in the reionization era is foundational context for LRD research. However, it doesn't address BH-galaxy coevolution or AGN physics directly, limiting its foundational value for LRD-specific questions."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "JWST spectroscopic confirmation techniques and stellar population modeling at z>12 represent state-of-the-art methodology directly transferable to LRD identification and characterization. The paper's methods for photometric redshift validation and source characterization are critical tools for current LRD research, representing genuine methodological innovation beyond standard techniques."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Excellent evolutionary context showing rapid galaxy assembly, compact morphologies (implying elevated SFR surface densities), and intense internal radiation fields at z>10. This directly informs theoretical scenarios for how LRDs and their host galaxies evolve in the first 400 Myr, providing the essential cosmic backdrop for understanding early black hole growth and AGN activity."
+        }
+      },
+      "notebooklm_recommendation": "Important contextual reference for early galaxy formation backdrop"
+    },
+    {
+      "bibtex_key": "2023MNRAS.518.4755A",
+      "title": "{Discovery and properties of ultra-high redshift galaxies (9 < z < 12) in the JWST ERO SMACS 0723 Field}",
+      "abstract": "{We present a reduction and analysis of the James Webb Space Telescope (JWST) SMACS 0723 field using new post-launch calibrations to conduct a search for ultra-high-redshift galaxies (z > 9) present within the Epoch of Reionization. We conduct this search by modelling photometric redshifts in several ways for all sources and by applying conservative magnitude cuts (m$\\_{F200W}$ < 28) to identify strong Lyman breaks greater than 1 mag. We find four z > 9 candidate galaxies which have not previously been identified, with one object at z = 11.5, and another which is possibly a close pair of galaxies. We measure redshifts for candidate galaxies from other studies and find the recovery rate to be only 23 per cent, with many being assigned lower redshift, dusty solutions in our work. Most of our z > 9 sample show evidence for Balmer-breaks, or extreme emission lines from H {\\ensuremath{\\beta}} and [O III], demonstrating that the stellar populations could be advanced in age or very young depending on the cause of the F444W excess. We discuss the resolved structures of these early galaxies and find that the S{\\'e}rsic indices reveal a mixture of light concentration levels, but that the sizes of all our systems are exceptionally small (<0.5 kpc). These systems have stellar masses M$\\_{*}$ \\raisebox{-0.5ex}\\textasciitilde 10$^{9.0}$ M$\\_{{\\ensuremath{\\odot}}}$, with our z \\raisebox{-0.5ex}\\textasciitilde 11.5 candidate a dwarf galaxy with a stellar mass M$\\_{*}$ \\raisebox{-0.5ex}\\textasciitilde 10$^{7.8}$-10$^{8.2}$ M$\\_{{\\ensuremath{\\odot}}}$. These candidate ultra high-redshift galaxies are excellent targets for future NIRSpec observations aimed to better understand their physical nature.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Adams}, N. J.'), Person('{Conselice}, C. J.'), Person('{Ferreira}, L.'), Person('{Austin}, D.'), Person('{Trussler}, J. A. A.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Wilkins}, S. M.'), Person('{Caruana}, J.'), Person('{Dayal}, P.'), Person('{Verma}, A.'), Person('{Vijayan}, A. P.')]",
+      "relevance_score": 7.4,
+      "justification": "This paper receives a strong score due to its frequent citation by LRD researchers (lrdIndex=10) and its provision of foundational JWST observations of ultra-compact z>9 galaxies that share key LRD characteristics. While it doesn't explicitly address LRD-specific questions about AGN contributions, it provides essential demographic context, size/mass measurements, and methodological framework for analyzing the earliest galaxies. It serves as a critical reference for understanding LRDs as a potential subclass of extreme high-z objects.",
+      "key_factors": [
+        "lrdIndex=10",
+        "JWST ultra-high-z galaxy sample",
+        "<0.5 kpc compact sizes",
+        "z>9 discoveries including z~11.5",
+        "Photometric redshift methodology",
+        "NIRSpec follow-up recommendations"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.0,
+          "reasoning": "Discovers ultra-compact z>9 galaxies with <0.5 kpc sizes that share key LRD characteristics, but does not explicitly address LRD-specific questions about AGN contributions or red colors. Connection is implicit through sample properties rather than direct investigation of the LRD phenomenon."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates strong value to LRD community; frequently referenced but not among top-cited foundational works."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides essential JWST-based sample of z>9 ultra-compact galaxies with size/mass measurements and photometric redshift methodology that serves as reference for LRD demographic studies. Real JWST data beyond textbook examples."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "Practical JWST post-launch calibration and photometric redshift techniques for z>9 galaxies. Implementation-focused rather than theoretically novel, but provides important workflow details for LRD researchers."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Places ultra-compact high-z galaxies within reionization-era formation framework, providing demographic context for LRDs as potential subclass or related population of earliest galaxies."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2023ApJ...956..139I",
       "title": "{Redshift Evolution of Electron Density in the Interstellar Medium at z 0-9 Uncovered with JWST/NIRSpec Spectra and Line-spread Function Determinations}",
       "abstract": "{We present electron densities n $\\_{e}$ in the interstellar medium (ISM) of star-forming galaxies at z = 4-9 observed by the JWST/NIRSpec GLASS, Early Release Observations, and CEERS programs. We carefully evaluate the line-spread functions of the NIRSpec instrument as a function of wavelength with the calibration data of a planetary nebula taken on board, and obtain secure [O II] {\\ensuremath{\\lambda}} {\\ensuremath{\\lambda}}3726, 3729 doublet fluxes for 14 galaxies at z = 4.02-8.68 falling on the star formation main sequence with the NIRSpec high- and medium- resolution spectra. We thus derive the electron densities of singly ionized oxygen nebulae with the standard n $\\_{e}$ indicator of the [O II] doublet, and find that the electron densities of the z = 4-9 galaxies are n $\\_{e}$ {\\ensuremath{\\gtrsim}} 300 cm$^{-3}$ significantly higher than those of low-z galaxies at a given stellar mass, star formation rate (SFR), and specific SFR. Interestingly, the typical electron densities of the singly ionized nebulae increase from z = 0 to z = 1-3 and z = 4-9, which is approximated by the evolutionary relation of n $\\_{e}$ {\\ensuremath{\\propto}} (1 + z)$^{ p }$ with p \\raisebox{-0.5ex}\\textasciitilde 1-2. Although it is not obvious that the ISM property of n $\\_{e}$ is influenced by global galaxy properties, these results may suggest that the nebula densities of high-z galaxies are generally high due to the compact morphologies of high-z galaxies evolving by ${r}\\_{{\\rm{e}}}\\mathop{\\propto }\\limits\\_{\\sim }{(1+z)}^{-1}$ (r $\\_{vir}$ {\\ensuremath{\\propto}} (1 + z)$^{-1}$) for a given stellar (halo) mass whose inverse square corresponds to the p \\raisebox{-0.5ex}\\textasciitilde 2 evolutionary relation. The p \\raisebox{-0.5ex}\\textasciitilde 1-2 evolutionary relation can be explained by a combination of the compact morphology and the reduction of n $\\_{e}$ due to the high electron temperature of high-z metal-poor nebulae.}",
@@ -4189,6 +4848,47 @@
         }
       },
       "notebooklm_recommendation": "Important contextual reference for NotebookLM - include for high-z galaxy ISM conditions affecting AGN emission, but not core LRD methodology."
+    },
+    {
+      "bibtex_key": "2023ApJ...951L...1P",
+      "title": "{Life beyond 30: Probing the -20 < M $\\_{UV}$ < -17 Luminosity Function at 8 < z < 13 with the NIRCam Parallel Field of the MIRI Deep Survey}",
+      "abstract": "{We present the ultraviolet luminosity function and an estimate of the cosmic star formation rate density at 8 < z < 13 derived from deep NIRCam observations taken in parallel with the MIRI Deep Survey of the Hubble Ultra Deep Field (HUDF), NIRCam covering the parallel field 2. Our deep (40 hr) NIRCam observations reach an F277W magnitude of 30.8 (5{\\ensuremath{\\sigma}}), more than 2 mag deeper than JWST public data sets already analyzed to find high-redshift galaxies. We select a sample of 44 z > 8 galaxy candidates based on their dropout nature in the F115W and/or F150W filters, a high probability for their photometric redshifts, estimated with three different codes, being at z > 8, good fits based on {\\ensuremath{\\chi}} $^{2}$ calculations, and predominant solutions compared to z < 8 alternatives. We find mild evolution in the luminosity function from z \\raisebox{-0.5ex}\\textasciitilde 13 to z \\raisebox{-0.5ex}\\textasciitilde 8, i.e., only a small increase in the average number density of \\raisebox{-0.5ex}\\textasciitilde0.2 dex, while the faint-end slope and absolute magnitude of the knee remain approximately constant, with values {\\ensuremath{\\alpha}} = - 2.2 {\\ensuremath{\\pm}} 0.1, and M $^{*}$ = - 20.8 {\\ensuremath{\\pm}} 0.2 mag. Comparing our results with the predictions of state-of- the-art galaxy evolution models, we find two main results: (1) a slower increase with time in the cosmic star formation rate density compared to a steeper rise predicted by models; (2) nearly a factor of 10 higher star formation activity concentrated in scales around 2 kpc in galaxies with stellar masses \\raisebox{-0.5ex}\\textasciitilde{}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$ during the first 350 Myr of the universe, z \\raisebox{-0.5ex}\\textasciitilde 12, with models matching better the luminosity density observational estimations \\raisebox{-0.5ex}\\textasciitilde150 Myr later, by z \\raisebox{-0.5ex}\\textasciitilde 9.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Costantin}, Luca'), Person('{Langeroodi}, Danial'), Person('{Rinaldi}, Pierluigi'), Person('{Annunziatella}, Marianna'), Person('{Ilbert}, Olivier'), Person('{Colina}, Luis'), Person('{N{\\\\o}rgaard-Nielsen}, Hans Ulrik'), Person('{Greve}, Thomas R.'), Person('{{\\\\\"O}stlin}, G{\\\\\"o}ran'), Person('{Wright}, Gillian'), Person('{Alonso-Herrero}, Almudena'), Person(\"{{\\\\'A}lvarez-M{\\\\'a}rquez}, Javier\"), Person('{Caputi}, Karina I.'), Person('{Eckart}, Andreas'), Person('{Le F{\\\\`e}vre}, Olivier'), Person(\"{Labiano}, {\\\\'A}lvaro\"), Person(\"{Garc{\\\\'\\\\i}a-Mar{\\\\'\\\\i}n}, Macarena\"), Person('{Hjorth}, Jens'), Person('{Kendrew}, Sarah'), Person('{Pye}, John P.'), Person('{Tikkanen}, Tuomo'), Person('{van der Werf}, Paul'), Person('{Walter}, Fabian'), Person('{Ward}, Martin'), Person('{Bik}, Arjan'), Person('{Boogaard}, Leindert'), Person('{Bosman}, Sarah E. I.'), Person(\"{G{\\\\'o}mez}, Alejandro Crespo\"), Person('{Gillman}, Steven'), Person('{Iani}, Edoardo'), Person('{Jermann}, Iris'), Person('{Melinder}, Jens'), Person('{Meyer}, Romain A.'), Person('{Moutard}, Thibaud'), Person('{van Dishoek}, Ewine'), Person('{Henning}, Thomas'), Person('{Lagage}, Pierre-Olivier'), Person('{Guedel}, Manuel'), Person('{Peissker}, Florian'), Person('{Ray}, Tom'), Person('{Vandenbussche}, Bart'), Person(\"{Garc{\\\\'\\\\i}a-Argum{\\\\'a}nez}, {\\\\'A}ngela\"), Person(\"{Mar{\\\\'\\\\i}a M{\\\\'e}rida}, Rosa\")]",
+      "relevance_score": 7.4,
+      "justification": "This paper earns a high score due to its strong citation record (lrdIndex=11) and provision of deep survey methodology directly transferable to LRD detection. While not explicitly about AGN, it delivers essential faint galaxy population constraints and evolutionary context at z=8-13 that LRD researchers require for host galaxy modeling and formation scenario testing, filling gaps beyond textbook knowledge.",
+      "key_factors": [
+        "lrdIndex=11 indicates active LRD community usage",
+        "Deep parallel field methodology (40 hr, 30.8 mag) applicable to LRD surveys",
+        "Specific luminosity function constraints (α=-2.2, M*=-20.8) at z=8-13",
+        "Mild evolution findings inform BH seeding scenarios",
+        "No direct LRD/AGN mention but critical contextual foundation"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.0,
+          "reasoning": "Paper focuses on galaxy luminosity functions, not AGN or LRDs specifically. However, it provides critical faint galaxy population context at z=8-13—the exact redshift range where LRDs are discovered. The depth (F277W=30.8 mag) directly informs detection limits for faint LRD analogs, making it contextually essential despite no direct LRD mention."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=11 demonstrates consistent citation by LRD researchers, indicating recognized community value. This objective metric shows the paper is not merely tangential but actively used as a reference point, likely for survey depth comparisons, luminosity function benchmarking, and methodological guidance in LRD discovery papers."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "While LRD researchers understand general high-z galaxy evolution, this provides specific quantitative constraints beyond textbook knowledge: faint-end slope α=-2.2±0.1 and M*=-20.8±0.2 mag at z=8-13. These precise measurements at unprecedented depth (40 hr) offer concrete benchmarks for modeling LRD host galaxy properties, not just qualitative concepts."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "The 40-hour NIRCam parallel field strategy reaching 30.8 mag (5σ) represents a methodological template directly applicable to LRD surveys. The dropout selection using multiple photometric redshift codes and χ² fitting provides a robust framework that LRD researchers can adapt for identifying faint red sources, going beyond standard shallow survey techniques."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Findings of slower SFR density evolution and concentrated star formation in ~2 kpc scales at z~12 provide specific constraints on BH seeding environments. This has direct implications for LRD formation scenarios and BH-galaxy coevolution models, offering observational boundary conditions that theoretical LRD studies must satisfy—beyond generic coevolution narratives."
+        }
+      },
+      "notebooklm_recommendation": "Critical methodological and contextual foundation for NotebookLM"
     },
     {
       "bibtex_key": "2023MNRAS.524.2312E",
@@ -4600,12 +5300,12 @@
       "notebooklm_recommendation": "Low priority for NotebookLM - cosmological background already well-covered in more relevant papers"
     }
   ],
-  "status": "completed",
   "statistics": {
-    "average_score": 7.967857142857144,
+    "average_score": 7.9581395348837205,
     "median_score": 8.1,
-    "high_relevance_count": 108,
-    "moderate_relevance_count": 3,
-    "low_relevance_count": 1
+    "critical_count": 87,
+    "high_value_count": 39,
+    "moderate_value_count": 2,
+    "low_priority_count": 1
   }
 }
