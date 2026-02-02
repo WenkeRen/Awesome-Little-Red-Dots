@@ -56,6 +56,82 @@ def fix_back_slashes(text):
     return text
 
 
+def has_eprint_field(entry):
+    """
+    Check if a BibTeX entry has an eprint field (case-insensitive)
+    """
+    fields = {k.lower(): v for k, v in entry.fields.items()}
+    return "eprint" in fields
+
+
+def get_updated_bibtex_entry(bibcode, token):
+    """
+    Get updated BibTeX entry for a specific bibcode from ADS
+    """
+    base_url = "https://api.adsabs.harvard.edu/v1/export/bibtexabs"
+    headers = {"Authorization": f"Bearer {token}"}
+    data = {
+        "bibcode": [bibcode],
+        "sort": "date desc",
+        "format": "bibtex",
+        "maxauthor": 0,  # Include all authors
+        "keyformat": "%R",  # Use bibcode as key
+    }
+
+    try:
+        response = requests.post(base_url, headers=headers, json=data)
+
+        if response.status_code != 200:
+            return None
+
+        bibtex_data = response.json().get("export", "")
+
+        if not bibtex_data.strip():
+            return None
+
+        # Parse the retrieved BibTeX data
+        from pybtex.database import parse_string
+        updated_bib = parse_string(bibtex_data, "bibtex")
+        if bibcode in updated_bib.entries:
+            return updated_bib.entries[bibcode]
+        else:
+            return None
+    except Exception as e:
+        return None
+
+
+def update_entry_with_eprint(original_entry, updated_entry):
+    """
+    Update the original entry with eprint and archivePrefix fields from the updated entry
+    Returns True if any fields were added
+    """
+    updated = False
+
+    # Check for eprint field in updated entry (case-insensitive)
+    updated_fields = {k.lower(): k for k, v in updated_entry.fields.items()}
+    original_fields_lower = {k.lower(): k for k in original_entry.fields.keys()}
+
+    if "eprint" in updated_fields and "eprint" not in original_fields_lower:
+        eprint_key = updated_fields["eprint"]
+        original_entry.fields["eprint"] = updated_entry.fields[eprint_key]
+        print(f"    Added eprint: {updated_entry.fields[eprint_key]}")
+        updated = True
+
+    if "archiveprefix" in updated_fields and "archiveprefix" not in original_fields_lower:
+        archiveprefix_key = updated_fields["archiveprefix"]
+        original_entry.fields["archivePrefix"] = updated_entry.fields[archiveprefix_key]
+        print(f"    Added archivePrefix: {updated_entry.fields[archiveprefix_key]}")
+        updated = True
+
+    if "primaryclass" in updated_fields and "primaryclass" not in original_fields_lower:
+        primaryclass_key = updated_fields["primaryclass"]
+        original_entry.fields["primaryClass"] = updated_entry.fields[primaryclass_key]
+        print(f"    Added primaryClass: {updated_entry.fields[primaryclass_key]}")
+        updated = True
+
+    return updated
+
+
 def search_ads(query, token, output_article, output_proposal):
     """
     Search the NASA ADS API for papers matching the query and save bibtex to separate files:
@@ -174,9 +250,21 @@ def search_ads(query, token, output_article, output_proposal):
     updated_proposal_bib = BibliographyData()
 
     # Process article entries
+    print("\nChecking for missing eprint fields in existing entries...")
+    eprint_update_count = 0
     for key, entry in existing_article_bib.entries.items():
         if key in current_article_keys:
             # Keep entries that are still in search results
+            # Check if entry needs eprint update
+            if not has_eprint_field(entry):
+                print(f"  Updating missing eprint for: {key}")
+                updated_entry = get_updated_bibtex_entry(key, token)
+                if updated_entry and has_eprint_field(updated_entry):
+                    if update_entry_with_eprint(entry, updated_entry):
+                        eprint_update_count += 1
+                        print(f"  ✓ Successfully updated {key}")
+                else:
+                    print(f"  - No eprint available for {key}")
             updated_article_bib.add_entry(key, entry)
         else:
             removed_article_count += 1
@@ -186,6 +274,7 @@ def search_ads(query, token, output_article, output_proposal):
     for key, entry in existing_proposal_bib.entries.items():
         if key in current_proposal_keys:
             # Keep entries that are still in search results
+            # Proposals typically don't have eprint, but check anyway
             updated_proposal_bib.add_entry(key, entry)
         else:
             removed_proposal_count += 1
@@ -226,6 +315,7 @@ def search_ads(query, token, output_article, output_proposal):
             f.write(bibtex_str)
         print(f"Added {new_article_count} new article entries to {output_article}")
         print(f"Removed {removed_article_count} outdated article entries")
+        print(f"Updated eprint fields in {eprint_update_count} existing entries")
         print(f"Added/updated fields in {article_fields_added} article entries")
     except Exception as e:
         print(f"Error writing article entries: {e}")
