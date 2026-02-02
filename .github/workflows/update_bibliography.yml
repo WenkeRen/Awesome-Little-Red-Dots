@@ -66,18 +66,41 @@ jobs:
           GITHUB_ACTIONS: true
         run: |
           cd library && poetry run python kick_off_papers.py
-      
+
+      - name: Rank new LRD papers
+        if: steps.check_aslrd.outputs.aslrd_changed == 'true'
+        env:
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          GITHUB_ACTIONS: true
+        run: |
+          cd AIBot/scripts && poetry run python paper_ranker.py --backend volcengine
+
+      - name: Rank new kick_off papers
+        if: steps.check_aslrd.outputs.aslrd_changed == 'true'
+        env:
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          GITHUB_ACTIONS: true
+        run: |
+          cd AIBot/scripts && poetry run python kick_off_ranker.py --backend volcengine
+
+      - name: Generate NotebookLM paper list
+        if: steps.check_aslrd.outputs.aslrd_changed == 'true'
+        env:
+          GITHUB_ACTIONS: true
+        run: |
+          cd AIBot/scripts && poetry run python generate_notebooklm_list.py
+
       - name: Commit and push all changes
         id: commit
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add library/aslrd.bib library/aslrd_prop.bib library/kick_off.bib
+          git add library/aslrd.bib library/aslrd_prop.bib library/kick_off.bib AIBot/results/ranking_report.json AIBot/results/kick_off_ranking_report.json AIBot/results/notebooklm_paper_list.txt
           if git diff --staged --quiet; then
             echo "No changes to commit"
             echo "changes_made=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "Update bibliography with latest papers and keywords"
+            git commit -m "Update bibliography, keywords, rankings, and NotebookLM list"
             git push
             echo "changes_made=true" >> $GITHUB_OUTPUT
           fi

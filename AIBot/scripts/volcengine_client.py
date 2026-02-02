@@ -1,11 +1,11 @@
 """
-Google Gen AI client wrapper for LRD paper ranking.
+Volcengine ARK API client wrapper for LRD paper ranking.
 
-This module provides a robust interface to Google's Gemini AI API for scoring
+This module provides a robust interface to Volcengine's ARK API for scoring
 paper relevance to Little Red Dot research. Includes retry logic, error handling,
 and response parsing.
 
-Uses the NEW google-genai SDK (not the deprecated google-generativeai).
+Uses the volcenginesdkarkruntime SDK with Kimi models.
 
 Author: Awesome-Little-Red-Dots Project
 Date: 2025-01-29
@@ -16,21 +16,21 @@ import os
 import time
 from typing import Dict, Any, Optional
 
-from google import genai
-from google.genai import types
+from volcenginesdkarkruntime import Ark
 
 
-class GeminiRankingError(Exception):
-    """Custom exception for Gemini ranking errors."""
+class VolcengineRankingError(Exception):
+    """Custom exception for Volcengine ranking errors."""
     pass
 
 
-class GeminiRankingClient:
+class VolcengineRankingClient:
     """
-    Client for ranking LRD papers using Google's Gemini API.
+    Client for ranking LRD papers using Volcengine's ARK API.
 
     Attributes:
-        client: Configured GenAI client instance
+        client: Configured Ark client instance
+        model_name: Model identifier for ARK API
         ranking_criteria: Loaded ranking criteria JSON
         max_retries: Maximum number of retry attempts
     """
@@ -38,17 +38,17 @@ class GeminiRankingClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        criteria_path: str = "AIBot/lrd_ranking_criteria.json",
-        model_name: str = "gemini-2.5-flash",
+        criteria_path: str = "AIBot/data/lrd_ranking_criteria.json",
+        model_name: str = "kimi-k2-thinking-251104",
         max_retries: int = 3,
     ):
         """
-        Initialize the Gemini ranking client.
+        Initialize the Volcengine ARK ranking client.
 
         Args:
-            api_key: Google API key (defaults to GEMINI_API_KEY env var)
+            api_key: Volcengine ARK API key (defaults to ARK_API_KEY env var)
             criteria_path: Path to ranking criteria JSON file
-            model_name: Gemini model to use (default: gemini-2.5-flash)
+            model_name: ARK model to use (default: kimi-k2-thinking-251104)
             max_retries: Maximum retry attempts for failed API calls
 
         Raises:
@@ -57,14 +57,14 @@ class GeminiRankingClient:
         """
         # Load API key
         if not api_key:
-            api_key = os.getenv("GEMINI_API_KEY")
+            api_key = os.getenv("ARK_API_KEY")
         if not api_key:
             raise ValueError(
-                "GEMINI_API_KEY not found. Set environment variable or pass api_key parameter."
+                "ARK_API_KEY not found. Set environment variable or pass api_key parameter."
             )
 
-        # Initialize GenAI client
-        self.client = genai.Client(api_key=api_key)
+        # Initialize Ark client
+        self.client = Ark(api_key=api_key)
         self.model_name = model_name
         self.max_retries = max_retries
 
@@ -90,19 +90,20 @@ class GeminiRankingClient:
         except FileNotFoundError:
             raise FileNotFoundError(
                 f"Ranking criteria file not found: {self.criteria_path}\n"
-                "Ensure lrd_ranking_criteria.json exists in AIBot/ directory."
+                "Ensure lrd_ranking_criteria.json exists in AIBot/data/ directory."
             )
         except json.JSONDecodeError as e:
             raise ValueError(f"Invalid JSON in criteria file: {e}")
 
-    def _build_prompt(self, title: str, abstract: str, tags: Optional[str] = None) -> str:
+    def _build_prompt(self, title: str, abstract: str, tags: Optional[str] = None, lrd_index: Optional[int] = None) -> str:
         """
-        Build the prompt for Gemini API with paper details and ranking criteria.
+        Build the prompt for ARK API with paper details and ranking criteria.
 
         Args:
             title: Paper title
             abstract: Paper abstract
             tags: Comma-separated lrdKeys tags (optional)
+            lrd_index: Citation count from LRD papers (for kick_off papers, optional)
 
         Returns:
             Formatted prompt string
@@ -112,6 +113,10 @@ class GeminiRankingClient:
             "prompt_template", ""
         )
 
+        # Replace {lrdIndex} placeholder in template if present
+        if lrd_index is not None and "{lrdIndex}" in prompt_template:
+            prompt_template = prompt_template.replace("{lrdIndex}", str(lrd_index))
+
         # Build paper details section
         paper_details = f"""**Paper Title:** {title}
 
@@ -119,6 +124,9 @@ class GeminiRankingClient:
 
         if tags:
             paper_details += f"\n\n**Existing Tags:** {tags}"
+
+        if lrd_index is not None:
+            paper_details += f"\n\n**LRD Community Citation Count (lrdIndex):** {lrd_index}"
 
         # Combine template with paper details
         full_prompt = f"""{prompt_template}
@@ -134,19 +142,19 @@ Provide your scoring assessment following the JSON structure specified above."""
 
     def _parse_response(self, response_text: str) -> Dict[str, Any]:
         """
-        Parse Gemini API response and extract JSON.
+        Parse ARK API response and extract JSON.
 
         Args:
-            response_text: Raw response text from Gemini
+            response_text: Raw response text from ARK API
 
         Returns:
             Parsed JSON dictionary with scores and reasoning
 
         Raises:
-            GeminiRankingError: If response cannot be parsed as JSON
+            VolcengineRankingError: If response cannot be parsed as JSON
         """
         # Try to extract JSON from response
-        # Sometimes Gemini adds markdown code blocks or extra text
+        # Sometimes models add markdown code blocks or extra text
         try:
             # First, try direct parsing
             return json.loads(response_text)
@@ -172,12 +180,12 @@ Provide your scoring assessment following the JSON structure specified above."""
                     json_str = response_text[start:end]
                     return json.loads(json_str)
 
-        raise GeminiRankingError(
-            f"Failed to parse JSON from Gemini response:\n{response_text[:500]}..."
+        raise VolcengineRankingError(
+            f"Failed to parse JSON from Volcengine response:\n{response_text[:500]}..."
         )
 
     def rank_paper(
-        self, title: str, abstract: str, tags: Optional[str] = None
+        self, title: str, abstract: str, tags: Optional[str] = None, lrd_index: Optional[int] = None
     ) -> Dict[str, Any]:
         """
         Rank a single paper's relevance to LRD research.
@@ -186,6 +194,7 @@ Provide your scoring assessment following the JSON structure specified above."""
             title: Paper title
             abstract: Paper abstract
             tags: Comma-separated lrdKeys tags (optional)
+            lrd_index: Citation count from LRD papers (for kick_off papers, optional)
 
         Returns:
             Dictionary with:
@@ -196,25 +205,38 @@ Provide your scoring assessment following the JSON structure specified above."""
                 - notebooklm_recommendation: Priority level
 
         Raises:
-            GeminiRankingError: If ranking fails after all retries
+            VolcengineRankingError: If ranking fails after all retries
         """
-        prompt = self._build_prompt(title, abstract, tags)
+        prompt = self._build_prompt(title, abstract, tags, lrd_index)
 
         # Retry logic with exponential backoff
         for attempt in range(self.max_retries):
             try:
-                response = self.client.models.generate_content(
+                response = self.client.chat.completions.create(
                     model=self.model_name,
-                    contents=prompt,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are an expert astrophysics reviewer specializing in high-redshift galaxy evolution and Little Red Dot (LRD) research. "
+                            "You are thorough, objective, and domain-knowledgeable. Always return valid JSON responses."
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    temperature=0.3,
+                    max_tokens=2048,
+                    top_p=0.9
                 )
 
                 # Extract text from response
-                response_text = response.text
+                response_text = response.choices[0].message.content
                 result = self._parse_response(response_text)
 
                 # Validate response structure
                 if "final_score" not in result:
-                    raise GeminiRankingError("Response missing 'final_score' field")
+                    raise VolcengineRankingError("Response missing 'final_score' field")
 
                 return result
 
@@ -224,7 +246,7 @@ Provide your scoring assessment following the JSON structure specified above."""
                     print(f"  ⚠ JSON parse error, retrying in {wait_time}s... (attempt {attempt + 1}/{self.max_retries})")
                     time.sleep(wait_time)
                 else:
-                    raise GeminiRankingError(f"Failed to parse response after {self.max_retries} attempts: {e}")
+                    raise VolcengineRankingError(f"Failed to parse response after {self.max_retries} attempts: {e}")
 
             except Exception as e:
                 if attempt < self.max_retries - 1:
@@ -232,10 +254,10 @@ Provide your scoring assessment following the JSON structure specified above."""
                     print(f"  ⚠ API error: {e}, retrying in {wait_time}s... (attempt {attempt + 1}/{self.max_retries})")
                     time.sleep(wait_time)
                 else:
-                    raise GeminiRankingError(f"Failed to rank paper after {self.max_retries} attempts: {e}")
+                    raise VolcengineRankingError(f"Failed to rank paper after {self.max_retries} attempts: {e}")
 
         # Should never reach here
-        raise GeminiRankingError("Unexpected error in ranking logic")
+        raise VolcengineRankingError("Unexpected error in ranking logic")
 
     def get_criteria_summary(self) -> str:
         """
@@ -274,12 +296,12 @@ Provide your scoring assessment following the JSON structure specified above."""
 # Convenience function for quick testing
 def test_client(api_key: Optional[str] = None) -> None:
     """
-    Test the Gemini client with a sample paper.
+    Test the Volcengine client with a sample paper.
 
     Args:
-        api_key: Google API key (optional, uses env var if not provided)
+        api_key: Volcengine ARK API key (optional, uses env var if not provided)
     """
-    client = GeminiRankingClient(api_key=api_key)
+    client = VolcengineRankingClient(api_key=api_key)
 
     print(client.get_criteria_summary())
     print("\n" + "=" * 40)
@@ -309,7 +331,7 @@ in the early universe."""
         for cat, scores in result['category_scores'].items():
             print(f"  {cat}: {scores['score']}/10 - {scores['reasoning']}")
 
-    except GeminiRankingError as e:
+    except VolcengineRankingError as e:
         print(f"Error: {e}")
 
 

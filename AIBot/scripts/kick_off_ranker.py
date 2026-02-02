@@ -1,31 +1,34 @@
 """
-LRD Paper Relevance Ranking Script
+LRD Kick_Off Paper Relevance Ranking Script
 
-This script processes the LRD bibliography (aslrd.bib) and ranks each paper's
-relevance to Little Red Dot research using AI backends (Volcengine ARK or Google Gemini).
+This script processes the kick_off bibliography (library/kick_off.bib) and ranks each paper's
+value as supporting literature for Little Red Dot research using AI backends (Volcengine ARK or Google Gemini).
+
+Kick_off papers are frequently-cited references (10+ citations from LRD papers) that provide
+foundational knowledge, theoretical frameworks, and methodological innovations for LRD research.
 
 ⚡ Resume Support: By default, the script will skip papers that are already ranked
-in the existing ranking_report.json file. Use --no-resume to process all papers from scratch.
+in the existing kick_off_ranking_report.json file. Use --no-resume to process all papers from scratch.
 
 Usage:
     # Resume ranking (default - skips already-ranked papers)
-    python paper_ranker.py --backend volcengine
+    python kick_off_ranker.py --backend volcengine
 
     # Resume with limit (processes N NEW papers)
-    python paper_ranker.py --backend volcengine --limit 20
+    python kick_off_ranker.py --backend volcengine --limit 20
 
     # Process all papers from scratch (do not skip)
-    python paper_ranker.py --backend volcengine --no-resume
+    python kick_off_ranker.py --backend volcengine --no-resume
 
     # Test on first 10 NEW papers
-    python paper_ranker.py --backend volcengine --test-mode --limit 10
+    python kick_off_ranker.py --backend volcengine --test-mode --limit 10
 
 Output:
-    Creates AIBot/ranking_report.json with relevance scores and justifications.
+    Creates AIBot/results/kick_off_ranking_report.json with relevance scores and justifications.
     Incrementally saves after each paper, so you can safely interrupt and resume.
 
 Author: Awesome-Little-Red-Dots Project
-Date: 2025-01-29
+Date: 2025-01-30
 """
 
 import argparse
@@ -51,20 +54,21 @@ from volcengine_client import VolcengineRankingClient, VolcengineRankingError
 def load_environment():
     """Load environment variables from .env file if not in GitHub Actions."""
     if not os.getenv("GITHUB_ACTIONS"):
-        env_path = Path(__file__).parent.parent / ".env"
+        # Script is in AIBot/scripts/, so we need parent.parent.parent to get to repo root
+        env_path = Path(__file__).parent.parent.parent / ".env"
         if env_path.exists():
             load_dotenv(env_path)
 
 
-def parse_bibtex(bib_path: str) -> Dict[str, Any]:
+def parse_kick_off_bibtex(bib_path: str) -> Dict[str, Any]:
     """
-    Parse BibTeX file and extract paper information.
+    Parse kick_off BibTeX file and extract paper information.
 
     Args:
-        bib_path: Path to aslrd.bib file
+        bib_path: Path to kick_off.bib file
 
     Returns:
-        Dictionary with bibtex_key -> {title, abstract, tags, ...}
+        Dictionary with bibtex_key -> {title, abstract, lrdIndex, tags, ...}
 
     Raises:
         FileNotFoundError: If bib file doesn't exist
@@ -77,21 +81,31 @@ def parse_bibtex(bib_path: str) -> Dict[str, Any]:
 
     papers = {}
     missing_abstract = 0
+    missing_lrdindex = 0
 
     for key, entry in bib_data.entries.items():
         title = entry.fields.get("title", "")
         abstract = entry.fields.get("abstract", "")
         tags = entry.fields.get("lrdKeys", "")
+        lrd_index_str = entry.fields.get("lrdIndex", "")
 
         # Skip papers without abstracts (optional - can be configured)
         if not abstract or abstract == "":
             missing_abstract += 1
             continue
 
+        # Parse lrdIndex (citation count from LRD papers)
+        try:
+            lrd_index = int(lrd_index_str) if lrd_index_str else 0
+        except ValueError:
+            lrd_index = 0
+            missing_lrdindex += 1
+
         papers[key] = {
             "bibtex_key": key,
             "title": title,
             "abstract": abstract,
+            "lrdIndex": lrd_index,
             "existing_tags": tags,
             "year": entry.fields.get("year", ""),
             "authors": str(entry.persons.get("author", "")) if "author" in entry.persons else "",
@@ -99,6 +113,9 @@ def parse_bibtex(bib_path: str) -> Dict[str, Any]:
 
     if missing_abstract > 0:
         print(f"⚠ Skipped {missing_abstract} papers with missing abstracts")
+
+    if missing_lrdindex > 0:
+        print(f"⚠ {missing_lrdindex} papers missing lrdIndex field (set to 0)")
 
     return papers
 
@@ -131,7 +148,7 @@ def rank_papers(
     resume: bool = True,
 ) -> List[Dict[str, Any]]:
     """
-    Rank papers using AI backend (Volcengine or Gemini) with incremental saving.
+    Rank kick_off papers using AI backend (Volcengine or Gemini) with incremental saving.
 
     Args:
         papers: Dictionary of paper information
@@ -191,16 +208,17 @@ def rank_papers(
         "status": "in_progress"
     }
 
-    print(f"\n🔬 Ranking {len(paper_items)} NEW papers...")
+    print(f"\n🔬 Ranking {len(paper_items)} NEW kick_off papers...")
     print(f"💾 Saving results incrementally to: {output_path}\n")
 
     for idx, (bibtex_key, paper_info) in enumerate(tqdm(paper_items, desc="Processing papers"), 1):
         try:
-            # Call AI backend API
+            # Call AI backend API with lrdIndex included
             ranking = client.rank_paper(
                 title=paper_info["title"],
                 abstract=paper_info["abstract"],
                 tags=paper_info["existing_tags"] or None,
+                lrd_index=paper_info.get("lrdIndex", 0),  # Pass citation count
             )
 
             # Combine paper info with ranking
@@ -225,9 +243,10 @@ def rank_papers(
                 report["statistics"] = {
                     "average_score": sum(r["relevance_score"] for r in results) / len(results),
                     "median_score": sorted(r["relevance_score"] for r in results)[len(results) // 2],
-                    "high_relevance_count": sum(1 for r in results if r["relevance_score"] >= 7),
-                    "moderate_relevance_count": sum(1 for r in results if 4 <= r["relevance_score"] < 7),
-                    "low_relevance_count": sum(1 for r in results if r["relevance_score"] < 4),
+                    "critical_count": sum(1 for r in results if r["relevance_score"] >= 8),
+                    "high_value_count": sum(1 for r in results if 6 <= r["relevance_score"] < 8),
+                    "moderate_value_count": sum(1 for r in results if 4 <= r["relevance_score"] < 6),
+                    "low_priority_count": sum(1 for r in results if r["relevance_score"] < 4),
                 }
 
             # Save after each successful paper
@@ -259,27 +278,62 @@ def rank_papers(
 
     # Final status update
     report["status"] = "completed"
+    # Note: Final sorted report will be saved by save_report() in main()
+    # This incremental save preserves progress but may not be sorted
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
     print(f"\n✓ Successfully ranked {len(results)} papers")
     if failed > 0:
         print(f"❌ Failed to rank {failed} papers")
-    print(f"💾 Final report saved to: {output_path}")
+    print(f"💾 Incremental report saved to: {output_path}")
 
     return results
+
+
+def get_category_score(paper: Dict[str, Any], category_name: str) -> float:
+    """
+    Safely get category score from a paper entry.
+
+    Args:
+        paper: Paper dictionary with category_scores
+        category_name: Name of the category to retrieve
+
+    Returns:
+        Category score (0.0 if category not found)
+    """
+    return paper.get("category_scores", {}).get(category_name, {}).get("score", 0.0)
 
 
 def save_report(results: List[Dict[str, Any]], output_path: str) -> None:
     """
     Save ranking results to JSON report.
 
+    Papers are sorted by:
+    1. Primary: relevance_score (descending)
+    2. Secondary: category scores in weight order (descending)
+       - direct_lrd_connection (0.30)
+       - citation_frequency (0.25)
+       - foundational_value (0.20)
+       - methodological_innovation (0.15)
+       - evolutionary_context (0.10)
+
     Args:
         results: List of ranked papers
         output_path: Path to output JSON file
     """
-    # Sort by relevance score (descending)
-    sorted_results = sorted(results, key=lambda x: x["relevance_score"], reverse=True)
+    # Multi-level sorting: primary score, then category scores by weight
+    sorted_results = sorted(
+        results,
+        key=lambda p: (
+            -p["relevance_score"],  # Primary: relevance_score (descending)
+            -get_category_score(p, "direct_lrd_connection"),  # Secondary 1: weight 0.30
+            -get_category_score(p, "citation_frequency"),  # Secondary 2: weight 0.25
+            -get_category_score(p, "foundational_value"),  # Secondary 3: weight 0.20
+            -get_category_score(p, "methodological_innovation"),  # Secondary 4: weight 0.15
+            -get_category_score(p, "evolutionary_context"),  # Secondary 5: weight 0.10
+        ),
+    )
 
     # Create report structure
     report = {
@@ -290,9 +344,10 @@ def save_report(results: List[Dict[str, Any]], output_path: str) -> None:
         "statistics": {
             "average_score": sum(r["relevance_score"] for r in results) / len(results) if results else 0,
             "median_score": sorted(r["relevance_score"] for r in results)[len(results) // 2] if results else 0,
-            "high_relevance_count": sum(1 for r in results if r["relevance_score"] >= 7),
-            "moderate_relevance_count": sum(1 for r in results if 4 <= r["relevance_score"] < 7),
-            "low_relevance_count": sum(1 for r in results if r["relevance_score"] < 4),
+            "critical_count": sum(1 for r in results if r["relevance_score"] >= 8),
+            "high_value_count": sum(1 for r in results if 6 <= r["relevance_score"] < 8),
+            "moderate_value_count": sum(1 for r in results if 4 <= r["relevance_score"] < 6),
+            "low_priority_count": sum(1 for r in results if r["relevance_score"] < 4),
         },
     }
 
@@ -307,9 +362,10 @@ def save_report(results: List[Dict[str, Any]], output_path: str) -> None:
     print("\n📈 Statistics:")
     print(f"  Average score: {report['statistics']['average_score']:.2f}/10")
     print(f"  Median score: {report['statistics']['median_score']:.2f}/10")
-    print(f"  High relevance (7-10): {report['statistics']['high_relevance_count']} papers")
-    print(f"  Moderate relevance (4-6): {report['statistics']['moderate_relevance_count']} papers")
-    print(f"  Low relevance (0-3): {report['statistics']['low_relevance_count']} papers")
+    print(f"  Critical foundation (8-10): {report['statistics']['critical_count']} papers")
+    print(f"  High value supporting (6-7): {report['statistics']['high_value_count']} papers")
+    print(f"  Moderate value (4-5): {report['statistics']['moderate_value_count']} papers")
+    print(f"  Low priority (0-3): {report['statistics']['low_priority_count']} papers")
 
 
 def print_top_papers(results: List[Dict[str, Any]], n: int = 10) -> None:
@@ -323,11 +379,11 @@ def print_top_papers(results: List[Dict[str, Any]], n: int = 10) -> None:
     sorted_results = sorted(results, key=lambda x: x["relevance_score"], reverse=True)
     top_papers = sorted_results[:n]
 
-    print(f"\n🏆 Top {n} LRD Papers by Relevance:")
+    print(f"\n🏆 Top {n} Kick_Off Papers for LRD Research:")
     print("=" * 80)
 
     for i, paper in enumerate(top_papers, 1):
-        print(f"\n{i}. Score: {paper['relevance_score']}/10")
+        print(f"\n{i}. Score: {paper['relevance_score']}/10 (lrdIndex: {paper.get('lrdIndex', 0)})")
         print(f"   Title: {paper['title'][:80]}...")
         if len(paper["title"]) > 80:
             print(f"         {paper['title'][80:160]}...")
@@ -337,22 +393,22 @@ def print_top_papers(results: List[Dict[str, Any]], n: int = 10) -> None:
 
 
 def main():
-    """Main entry point for paper ranking script."""
-    parser = argparse.ArgumentParser(description="Rank LRD papers by relevance using Google Gemini AI")
+    """Main entry point for kick_off paper ranking script."""
+    parser = argparse.ArgumentParser(description="Rank kick_off papers by relevance to LRD research using AI")
     parser.add_argument(
         "--bib-file",
-        default="library/aslrd.bib",
-        help="Path to BibTeX file (default: library/aslrd.bib)",
+        default="library/kick_off.bib",
+        help="Path to kick_off BibTeX file (default: library/kick_off.bib)",
     )
     parser.add_argument(
         "--output",
-        default="AIBot/ranking_report.json",
-        help="Output JSON report path (default: AIBot/ranking_report.json)",
+        default="AIBot/results/kick_off_ranking_report.json",
+        help="Output JSON report path (default: AIBot/results/kick_off_ranking_report.json)",
     )
     parser.add_argument(
         "--criteria",
-        default="AIBot/lrd_ranking_criteria.json",
-        help="Path to ranking criteria JSON (default: AIBot/lrd_ranking_criteria.json)",
+        default="AIBot/data/kick_off_ranking_criteria.json",
+        help="Path to ranking criteria JSON (default: AIBot/data/kick_off_ranking_criteria.json)",
     )
     parser.add_argument(
         "--limit",
@@ -399,7 +455,7 @@ def main():
     # Load environment variables
     load_environment()
 
-    print("🚀 LRD Paper Relevance Ranking System")
+    print("🚀 LRD Kick_Off Paper Relevance Ranking System")
     print("=" * 50)
     print(f"Backend: {args.backend.upper()}")
     print(f"Model: {args.model}")
@@ -432,9 +488,9 @@ def main():
                 model_name=args.model,
             )
 
-        # Parse BibTeX file
-        print(f"\n📚 Parsing BibTeX file: {args.bib_file}")
-        papers = parse_bibtex(args.bib_file)
+        # Parse kick_off BibTeX file
+        print(f"\n📚 Parsing kick_off BibTeX file: {args.bib_file}")
+        papers = parse_kick_off_bibtex(args.bib_file)
         print(f"✓ Loaded {len(papers)} papers")
 
         if args.limit:
@@ -451,13 +507,17 @@ def main():
         # Print top papers
         print_top_papers(results, n=args.show_top)
 
+        # Save final sorted report
+        print("\n💾 Saving final sorted report...")
+        save_report(results, args.output)
+
         # Test mode summary
         if args.test_mode:
             print("\n" + "=" * 80)
             print("✅ Test mode completed successfully!")
             print(f"   Processed {len(results)} papers")
             print("\n📝 To process all papers, run:")
-            print(f"   python {sys.argv[0]} --full")
+            print(f"   python {sys.argv[0]}")
 
     except FileNotFoundError as e:
         print(f"\n❌ Error: {e}")

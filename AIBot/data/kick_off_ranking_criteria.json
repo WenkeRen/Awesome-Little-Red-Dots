@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "description": "Scoring criteria for evaluating kick_off papers (frequently-cited references) for LRD research support on a 0-10 scale",
+  "last_updated": "2025-01-30",
+  "target_notebooklm_papers": 50,
+  "scoring_categories": [
+    {
+      "name": "Direct LRD Connection",
+      "weight": 0.30,
+      "description": "How directly the paper connects to Little Red Dots or very similar high-redshift populations",
+      "evaluation_criteria": [
+        {
+          "indicator": "Explicitly studies LRDs, HBA, blue-excess AGN, or compact red galaxies at z>4",
+          "points": 10
+        },
+        {
+          "indicator": "Provides theoretical framework specifically for LRD formation/evolution scenarios",
+          "points": 9
+        },
+        {
+          "indicator": "Studies very similar populations (overmassive BHs, high-z AGN, compact galaxies) with clear LRD relevance",
+          "points": 8
+        },
+        {
+          "indicator": "Investigates high-z black hole growth or AGN physics applicable to LRDs",
+          "points": 7
+        },
+        {
+          "indicator": "General AGN/galaxy research with potential but unstated connection to LRDs",
+          "points": 4
+        },
+        {
+          "indicator": "Standard astrophysics topics without clear high-z or compact object connection",
+          "points": 2
+        },
+        {
+          "indicator": "No meaningful connection to LRDs or related phenomena",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "LRD Community Citation Frequency",
+      "weight": 0.25,
+      "description": "How frequently this paper is cited by LRD researchers (lrdIndex field)",
+      "evaluation_criteria": [
+        {
+          "indicator": "lrdIndex ≥ 50 (extremely frequently cited, cornerstone paper)",
+          "points": 10
+        },
+        {
+          "indicator": "lrdIndex 30-49 (highly cited, major reference)",
+          "points": 9
+        },
+        {
+          "indicator": "lrdIndex 20-29 (frequently cited, important reference)",
+          "points": 8
+        },
+        {
+          "indicator": "lrdIndex 15-19 (moderately cited, useful reference)",
+          "points": 6
+        },
+        {
+          "indicator": "lrdIndex 10-14 (minimum threshold, occasional reference)",
+          "points": 4
+        },
+        {
+          "indicator": "lrdIndex < 10 (below threshold, should be in kick_off.bib)",
+          "points": 0
+        }
+      ],
+      "note": "Citation frequency is scaled logarithmically to prevent top-cited papers from dominating. Papers with lrdIndex < 10 should not be in kick_off.bib per library/kick_off_papers.py criteria."
+    },
+    {
+      "name": "Foundational Knowledge Value",
+      "weight": 0.20,
+      "description": "Value of the physical concepts, theories, or frameworks for understanding LRD science (beyond basic AI knowledge)",
+      "key_concepts": [
+        "black hole-galaxy coevolution at high redshift",
+        "overmassive / supermassive black hole formation scenarios",
+        "Eddington ratio and super-Eddington accretion physics",
+        "dust obscuration and Compton-thick absorption in AGN",
+        "AGN selection techniques and demographics",
+        "high-redshift quiescent / compact galaxy evolution",
+        "black hole seeding models (direct collapse, light seeds)",
+        "feedback mechanisms and quenching processes"
+      ],
+      "evaluation_criteria": [
+        {
+          "indicator": "Introduces novel concepts critical for LRD interpretation (new paradigms, resolves debates)",
+          "points": 10
+        },
+        {
+          "indicator": "Provides comprehensive framework for LRD-relevant physics (BH-galaxy coevolution, early growth)",
+          "points": 9
+        },
+        {
+          "indicator": "Investigates specific LRD-relevant phenomena with detailed analysis",
+          "points": 8
+        },
+        {
+          "indicator": "Useful but incremental advancement to LRD foundation knowledge",
+          "points": 6
+        },
+        {
+          "indicator": "Reviews well-established concepts AI should already know (basic AGN unification, standard accretion disks)",
+          "points": 3
+        },
+        {
+          "indicator": "Textbook-level physics or generic astrophysics knowledge",
+          "points": 1
+        },
+        {
+          "indicator": "No clear value for LRD understanding",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "Methodological Innovation for LRDs",
+      "weight": 0.15,
+      "description": "Novel observational/analysis techniques demonstrated on LRD-like objects or applicable to LRD research",
+      "evaluation_criteria": [
+        {
+          "indicator": "Pioneering JWST technique (NIRSpec PRISM/gratings, IFS) demonstrated on high-z compact objects",
+          "points": 10
+        },
+        {
+          "indicator": "Innovative analysis method for BH mass measurements, Eddington ratios, or dust properties at z>4",
+          "points": 9
+        },
+        {
+          "indicator": "Multi-wavelength approach combining JWST with X-ray, ALMA, or other facilities for AGN studies",
+          "points": 8
+        },
+        {
+          "indicator": "Useful method demonstrated on related populations (high-z AGN, compact galaxies)",
+          "points": 7
+        },
+        {
+          "indicator": "Standard analysis techniques without novel application",
+          "points": 5
+        },
+        {
+          "indicator": "General JWST instrument documentation without science applications",
+          "points": 2
+        },
+        {
+          "indicator": "Pure methodology paper not demonstrated on relevant objects",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "Evolutionary Context & Analogs",
+      "weight": 0.10,
+      "description": "Provides comparative studies or evolutionary links essential for interpreting LRDs",
+      "evaluation_criteria": [
+        {
+          "indicator": "Studies very similar high-z populations (z>4 AGN, HBA, blue-excess AGN) with direct evolutionary implications",
+          "points": 10
+        },
+        {
+          "indicator": "Low-z analogs with explicit theoretical connection to LRD evolution pathways",
+          "points": 8
+        },
+        {
+          "indicator": "High-z galaxy evolution studies relevant to LRD host properties or formation",
+          "points": 7
+        },
+        {
+          "indicator": "Comparative studies that contextualize LRDs within broader AGN/galaxy populations",
+          "points": 6
+        },
+        {
+          "indicator": "General high-z research without clear analog connection",
+          "points": 3
+        },
+        {
+          "indicator": "Low-z studies without evolutionary relevance to LRDs",
+          "points": 1
+        },
+        {
+          "indicator": "No contextual value for LRD understanding",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "score_interpretation": {
+    "8-10": {
+      "label": "Critical Foundation",
+      "description": "Essential paper for understanding LRD research. Directly connects to LRDs, highly cited by community, and provides unique value beyond general AI knowledge.",
+      "notebooklm_action": "Top priority for NotebookLM (target: ~50 papers)"
+    },
+    "6-7": {
+      "label": "High Value Supporting",
+      "description": "Important supporting literature with strong LRD connections or foundational value. Useful for deeper context.",
+      "notebooklm_action": "Include if space permits after 8+ score papers"
+    },
+    "4-5": {
+      "label": "Moderate Value",
+      "description": "Useful background but lower priority. May overlap with AI's existing knowledge or provide tangential support.",
+      "notebooklm_action": "Consider inclusion if very specific niche needed"
+    },
+    "0-3": {
+      "label": "Low Priority / Exclude",
+      "description": "Too general (textbook knowledge), tangential to LRDs, or better suited as external reference rather than NotebookLM source.",
+      "notebooklm_action": "Exclude from NotebookLM"
+    }
+  },
+  "exclusion_criteria": {
+    "automatic_low_score": [
+      "Textbook-level AGN physics (unification, basic accretion disks, standard cosmology)",
+      "General JWST instrument documentation without specific science applications",
+      "Pure methodology papers not demonstrated on LRD-like objects",
+      "Low-redshift studies without explicit evolutionary connection to high-z",
+      "Standard astrophysics concepts that AI models should already know",
+      "Papers with lrdIndex < 10 (should not be in kick_off.bib)"
+    ],
+    "require_explicit_connection": [
+      "Must mention or directly apply to: LRDs, compact red galaxies, z>4 AGN, HBA, blue-excess AGN",
+      "OR provide critical framework for: BH-galaxy coevolution, early BH growth, high-z accretion physics",
+      "OR demonstrate innovative JWST techniques applicable to LRD studies"
+    ]
+  },
+  "quality_indicators": {
+    "boost_factors": [
+      "lrdIndex ≥ 30 (frequently cited by LRD community)",
+      "Explicitly mentions Little Red Dots or very similar populations",
+      "Resolves key debates in high-z black hole growth or AGN physics",
+      "Pioneering JWST technique demonstrated on relevant populations",
+      "Provides theoretical framework for overmassive BHs or early SMBH formation",
+      "Published in high-impact journal (Nature, Science, ApJL, MNRAS)"
+    ],
+    "reduce_factors": [
+      "Only mentions LRD-related topics in literature review or introduction",
+      "Reviews well-established physics without novel contributions",
+      "Focuses on low-z phenomena without evolutionary connection",
+      "General survey paper without LRD-specific analysis",
+      "Pure methodology without application to high-z or compact objects",
+      "Basic AGN/galaxy evolution AI should already know"
+    ]
+  },
+  "usage_instructions": {
+    "prompt_template": "You are an expert astrophysics reviewer specializing in high-redshift AGN, black hole evolution, and Little Red Dot (LRD) research. Evaluate the provided kick_off paper's value as supporting literature for LRD research.\n\nCONTEXT: This paper is from kick_off.bib, meaning it has been cited 10+ times by LRD researchers. The lrdIndex (citation count from LRD papers) is: {lrdIndex}.\n\nCRITICAL: LRD researchers already know basic AGN physics, standard accretion disk theory, and general high-z galaxy evolution. Focus on what UNIQUE value this paper provides beyond textbook knowledge.\n\nScore the paper on a 0-10 scale based on the criteria in kick_off_ranking_criteria.json. For each category:\n1. Evaluate the paper against the evaluation criteria\n2. Assign a score (0-10) for that category\n3. Weight the category score according to its importance\n4. Calculate final weighted average\n\nReturn ONLY a valid JSON object with this exact structure:\n{\n  \"category_scores\": {\n    \"direct_lrd_connection\": {\"score\": 8.5, \"reasoning\": \"...\"},\n    \"citation_frequency\": {\"score\": 9.0, \"reasoning\": \"lrdIndex={lrdIndex}, indicates...\"},\n    \"foundational_value\": {\"score\": 7.0, \"reasoning\": \"...\"},\n    \"methodological_innovation\": {\"score\": 8.0, \"reasoning\": \"...\"},\n    \"evolutionary_context\": {\"score\": 7.5, \"reasoning\": \"...\"}\n  },\n  \"final_score\": 8.2,\n  \"justification\": \"2-3 sentence summary of why this paper received this score\",\n  \"key_factors\": [\"lrdIndex={lrdIndex}\", \"Direct LRD mention\", \"Critical BH-galaxy coevolution framework\", \"JWST NIRSpec technique\"],\n  \"notebooklm_recommendation\": \"Critical foundation for NotebookLM\"\n}\n\nBe objective, specific, and consider whether AI models would already know the content.",
+    "special_considerations": [
+      "Papers with lrdIndex > 50 are clearly critical and should score highly unless content is very generic",
+      "Kick_off papers should NOT be basic AGN textbooks - AI should already know unification, standard accretion physics",
+      "Prioritize papers that connect to LRD-specific challenges: overmassive BHs, high-z accretion, compact morphology",
+      "Methodological papers must demonstrate techniques on relevant objects (high-z AGN, compact galaxies), not just describe instruments",
+      "Low-z analogs are valuable ONLY if they explicitly discuss evolutionary connections to high-z",
+      "Review/survey papers can score highly if they synthesize LRD-specific concepts, not just general knowledge",
+      "Theoretical papers should provide testable predictions or frameworks for LRD properties"
+    ],
+    "lrdIndex_guidance": {
+      "scaling": "Citation frequency is valuable but not everything. A paper with lrdIndex=50 covering basic AGN physics should score lower than a paper with lrdIndex=15 introducing novel LRD-relevant concepts.",
+      "context": "Use lrdIndex as one signal among many. High lrdIndex + high relevance = 9-10 score. High lrdIndex + low relevance = 5-7 score. Low lrdIndex + high relevance = 7-8 score."
+    }
+  }
+}
