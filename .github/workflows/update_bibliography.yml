@@ -73,7 +73,7 @@ jobs:
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
-          cd AIBot/scripts && poetry run python paper_ranker.py --backend volcengine
+          poetry run python AIBot/scripts/paper_ranker.py --backend volcengine
 
       - name: Rank new kick_off papers
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
@@ -81,14 +81,14 @@ jobs:
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
-          cd AIBot/scripts && poetry run python kick_off_ranker.py --backend volcengine
+          poetry run python AIBot/scripts/kick_off_ranker.py --backend volcengine
 
       - name: Generate NotebookLM paper list
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
         env:
           GITHUB_ACTIONS: true
         run: |
-          cd AIBot/scripts && poetry run python generate_notebooklm_list.py
+          poetry run python AIBot/scripts/generate_notebooklm_list.py
 
       - name: Commit and push all changes
         id: commit
