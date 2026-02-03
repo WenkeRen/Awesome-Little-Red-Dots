@@ -394,20 +394,23 @@ def print_top_papers(results: List[Dict[str, Any]], n: int = 10) -> None:
 
 def main():
     """Main entry point for kick_off paper ranking script."""
+    # Script is in AIBot/scripts/, so we need parent.parent.parent to get to repo root
+    repo_root = Path(__file__).parent.parent.parent
+
     parser = argparse.ArgumentParser(description="Rank kick_off papers by relevance to LRD research using AI")
     parser.add_argument(
         "--bib-file",
-        default="library/kick_off.bib",
+        default=str(repo_root / "library" / "kick_off.bib"),
         help="Path to kick_off BibTeX file (default: library/kick_off.bib)",
     )
     parser.add_argument(
         "--output",
-        default="AIBot/results/kick_off_ranking_report.json",
+        default=str(repo_root / "AIBot" / "results" / "kick_off_ranking_report.json"),
         help="Output JSON report path (default: AIBot/results/kick_off_ranking_report.json)",
     )
     parser.add_argument(
         "--criteria",
-        default="AIBot/data/kick_off_ranking_criteria.json",
+        default=str(repo_root / "AIBot" / "data" / "kick_off_ranking_criteria.json"),
         help="Path to ranking criteria JSON (default: AIBot/data/kick_off_ranking_criteria.json)",
     )
     parser.add_argument(
