@@ -70,7 +70,7 @@ jobs:
       - name: Rank new LRD papers
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
         env:
-          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
           cd AIBot/scripts && poetry run python paper_ranker.py --backend volcengine
@@ -78,7 +78,7 @@ jobs:
       - name: Rank new kick_off papers
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
         env:
-          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
           cd AIBot/scripts && poetry run python kick_off_ranker.py --backend volcengine
