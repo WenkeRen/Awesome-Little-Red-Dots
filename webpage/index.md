@@ -4,7 +4,7 @@ title: Bibliography
 ---
 ## 🤖 AI Research Assistant
 
-**Try our [NotebookLM AI Assistant](https://notebooklm.google.com/notebook/717c4d8c-ba0f-496f-9e51-e603ee7ef10f)** - Ask questions about the entire literature collection and get instant, contextualized answers from all papers in this bibliography.
+**Try our [NotebookLM AI Assistant](https://notebooklm.google.com/notebook/a1b408a7-3345-440c-9ddb-96884f08393b)** - Ask questions about the entire literature collection and get instant, contextualized answers from all papers in this bibliography.
 
 <small>*Privacy Note: Your data may be used by Google to enhance NotebookLM. We have no access to your queries or personal information.*</small>
 
