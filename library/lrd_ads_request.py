@@ -10,9 +10,9 @@ if not os.getenv("GITHUB_ACTIONS"):
     load_dotenv()
 
 
-def add_dimensions_altmetric(bib_database):
+def add_dimensions(bib_database):
     """
-    Add dimensions and altmetric fields to entries that are missing them
+    Add dimensions field to entries that are missing them
     """
     updated_count = 0
 
@@ -21,25 +21,6 @@ def add_dimensions_altmetric(bib_database):
         if "dimensions" not in entry.fields:
             entry.fields["dimensions"] = "true"
             updated_count += 1
-
-        # Add altmetric field if missing and DOI is available
-        if "altmetric" not in entry.fields and "doi" in entry.fields:
-            try:
-                # Build Altmetric API URL
-                altmetric_api_url = f"https://api.altmetric.com/v1/doi/{entry.fields['doi']}"
-                altmetric_response = requests.get(altmetric_api_url)
-
-                # Check response status
-                if altmetric_response.status_code == 200:
-                    altmetric_data = altmetric_response.json()
-                    if "altmetric_id" in altmetric_data:
-                        entry.fields["altmetric"] = str(altmetric_data["altmetric_id"])
-                        print(f"  Added Altmetric ID: {altmetric_data['altmetric_id']} for {key}")
-                        updated_count += 1
-                else:
-                    print(f"  Cannot get Altmetric data for {key}, status code: {altmetric_response.status_code}")
-            except Exception as e:
-                print(f"  Error getting Altmetric data for {key}: {e}")
 
     return updated_count
 
@@ -287,12 +268,12 @@ def search_ads(query, token, output_article, output_proposal):
     for key, entry in proposal_bib.entries.items():
         updated_proposal_bib.add_entry(key, entry)
 
-    # Add dimensions and altmetric fields
-    print("Adding dimensions and altmetric fields to articles...")
-    article_fields_added = add_dimensions_altmetric(updated_article_bib)
+    # Add dimensions field
+    print("Adding dimensions field to articles...")
+    article_fields_added = add_dimensions(updated_article_bib)
 
-    print("Adding dimensions and altmetric fields to proposals...")
-    proposal_fields_added = add_dimensions_altmetric(updated_proposal_bib)
+    print("Adding dimensions field to proposals...")
+    proposal_fields_added = add_dimensions(updated_proposal_bib)
 
     # Update existing databases with new entries
     article_success = True

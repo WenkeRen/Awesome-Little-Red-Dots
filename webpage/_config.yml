@@ -12,7 +12,6 @@ max_author_limit: 3
 more_authors_animation_delay: 10
 
 # Enable citation badges
-enable_altmetric_badge: true
 enable_dimensions_badge: true
 
 # Enable debugging for builds

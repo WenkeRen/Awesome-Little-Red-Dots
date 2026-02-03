@@ -411,12 +411,6 @@ a:hover {
   vertical-align: middle;
 }
 
-/* Fix Altmetric badge alignment */
-.badges > .altmetric-embed {
-  position: relative;
-  top: 2px; /* Adjust to align with Dimensions badge */
-}
-
 /* Ensure Dimensions badge alignment */
 .badges > .__dimensions_badge_embed__ {
   line-height: 0;

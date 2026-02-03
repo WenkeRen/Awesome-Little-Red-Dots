@@ -110,9 +110,9 @@ def check_is_article(bibcode, token):
     return doctype == "article"
 
 
-def add_dimensions_altmetric(bib_database):
+def add_dimensions(bib_database):
     """
-    Add dimensions and altmetric fields to entries that are missing them
+    Add dimensions field to entries that are missing them
     """
     updated_count = 0
 
@@ -121,25 +121,6 @@ def add_dimensions_altmetric(bib_database):
         if "dimensions" not in entry.fields:
             entry.fields["dimensions"] = "true"
             updated_count += 1
-
-        # Add altmetric field if missing and DOI is available
-        if "altmetric" not in entry.fields and "doi" in entry.fields:
-            try:
-                # Build Altmetric API URL
-                altmetric_api_url = f"https://api.altmetric.com/v1/doi/{entry.fields['doi']}"
-                altmetric_response = requests.get(altmetric_api_url)
-
-                # Check response status
-                if altmetric_response.status_code == 200:
-                    altmetric_data = altmetric_response.json()
-                    if "altmetric_id" in altmetric_data:
-                        entry.fields["altmetric"] = str(altmetric_data["altmetric_id"])
-                        print(f"  Added Altmetric ID: {altmetric_data['altmetric_id']} for {key}")
-                        updated_count += 1
-                else:
-                    print(f"  Cannot get Altmetric data for {key}, status code: {altmetric_response.status_code}")
-            except Exception as e:
-                print(f"  Error getting Altmetric data for {key}: {e}")
 
     return updated_count
 
@@ -299,12 +280,12 @@ def main():
             else:
                 print("Failed to retrieve BibTeX data for new references")
 
-        # Add dimensions, altmetric, and update lrdIndex for all entries
+        # Add dimensions field and update lrdIndex for all entries
         if len(updated_database.entries) > 0:
-            # Add dimensions and altmetric fields to all entries
-            print("\nAdding dimensions and altmetric fields...")
-            added_fields = add_dimensions_altmetric(updated_database)
-            print(f"Added/updated fields in {added_fields} entries")
+            # Add dimensions field to all entries
+            print("\nAdding dimensions field...")
+            added_fields = add_dimensions(updated_database)
+            print(f"Added/updated dimensions in {added_fields} entries")
 
             # Add lrdIndex field with citation counts to all entries
             print("\nAdding lrdIndex field with citation counts...")

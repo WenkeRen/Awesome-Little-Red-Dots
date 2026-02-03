@@ -179,17 +179,7 @@
 
     <!-- Citation badges -->
     <div class="badges">
-      {% assign entry_has_dimensions_badge = false %}
       {% if site.enable_dimensions_badge and entry.doi %}
-        {% assign entry_has_dimensions_badge = true %}
-      {% endif %}
-
-      {% assign entry_has_altmetric_badge = false %}
-      {% if site.enable_altmetric_badge and entry.doi or entry.arxiv or entry.pmid %}
-        {% assign entry_has_altmetric_badge = true %}
-      {% endif %}
-
-      {% if entry_has_dimensions_badge %}
         <span
           class="__dimensions_badge_embed__"
           {% if entry.dimensions != blank and entry.dimensions != 'true' %}
@@ -202,28 +192,6 @@
           data-style="small_rectangle"
           data-legend="hover-right"
           style="margin-bottom: 3px;"
-        ></span>
-      {% endif %}
-      
-      {% if entry_has_altmetric_badge %}
-        <span
-          class="altmetric-embed"
-          data-badge-type="2"
-          data-badge-popover="right"
-          data-hide-no-mentions="true"
-          {% if entry.altmetric != blank and entry.altmetric != 'true' %}
-            data-altmetric-id="{{ entry.altmetric }}"
-          {% elsif entry.arxiv %}
-            data-arxiv-id="{{ entry.arxiv }}"
-          {% elsif entry.eprint %}
-            data-arxiv-id="{{ entry.eprint }}"
-          {% elsif entry.doi %}
-            data-doi="{{ entry.doi }}"
-          {% elsif entry.pmid %}
-            data-pmid="{{ entry.pmid }}"
-          {% elsif entry.isbn %}
-            data-isbn="{{ entry.isbn }}"
-          {% endif %}
         ></span>
       {% endif %}
     </div>
