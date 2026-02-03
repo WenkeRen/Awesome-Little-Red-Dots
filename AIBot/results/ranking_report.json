@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-02T16:23:08.413760",
-  "total_papers": 243,
-  "successfully_scored": 243,
+  "generated_at": "2026-02-03T06:40:35.387954",
+  "total_papers": 245,
+  "successfully_scored": 245,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -5373,6 +5373,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260122214B",
+      "title": "{The Little Blue and Red Dots Rosetta Stones: Non-Gaussian broad lines, hot dust, and X-ray weakness}",
+      "abstract": "{The population of Active Galactic Nuclei (AGN) newly discovered by the James Webb Space Telescope (JWST) exhibits peculiar properties that distinguish it from both local type I AGN and high-redshift quasars. Most of these sources are compact, appearing as 'little dots': among them, the sub-class (10-30\\% of the total) characterized by significantly red optical colors has been named 'Little Red Dots' (LRDs), while here we analogously introduce the term 'Little Blue Dots' (LBDs) for the remaining, bluer sources (70-90\\%). We then present a comparative analysis of the prototypical representatives ('Rosetta Stones') of the two classes: GN-28074 at z=2.26, the Red Rosetta Stone, and GS-3073 at z=5.55, the Blue Rosetta Stone. In both Rosetta Stones the broad Balmer lines are better described by exponential profiles rather than single Gaussians, similarly to normal low-redshift type I AGN, indicating that exponential profiles are not unique to LRDs. They are both extremely X-ray weak, show strong auroral [OIII] 4363 emission, weak hot dust mid-IR emission, and no time variability. However, they differ in terms of excitation diagnostics: the HeII 4686 line is undetected in the Red Rosetta but strongly detected in the Blue Rosetta in both narrow and broad components, with the latter much broader than hydrogen Balmer lines. This supports BLR stratification and disfavors the cocoon electron-scattering scenario. An additional difference is the presence of prominent Balmer absorption in the Red Rosetta -- indicative of extremely dense gas along the line of sight -- but absent in the Blue Rosetta. Taken together, these results suggest that LRDs and LBDs share the same central engine as standard type I AGN, while differing in the amount and geometry of dense gas surrounding the accretion disk, and/or in their accretion properties.}",
+      "existing_tags": "absorption features, agn-dominated, emission lines, jwst, x-ray",
+      "year": "2026",
+      "authors": "[Person('{Brazzini}, M.'), Person(\"{D'Eugenio}, F.\"), Person('{Maiolino}, R.'), Person('{Lyu}, J.'), Person('{DeCoursey}, C.'), Person('{{\\\\\"U}bler}, H.'), Person('{Ji}, X.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Scholtz}, J.'), Person('{Jones}, G. C.'), Person('{Hainline}, K.'), Person('{Dalla Bont{\\\\`a}}, E.'), Person(\"{{\\\\'e}rez-Gonz{\\\\'a}lez}, P. G. P\"), Person('{Geris}, S.'), Person('{Harshan}, A.'), Person('{Feruglio}, C.'), Person('{Bischetti}, M.'), Person('{Mazzolari}, G.'), Person('{Rieke}, G.'), Person('{Alberts}, S.'), Person('{Trefoloni}, B.'), Person('{Carniani}, S.'), Person('{Parlanti}, E.'), Person('{Marconi}, A.'), Person('{Risaliti}, G.'), Person('{Ramos Almeida}, C.'), Person('{Rinaldi}, P.'), Person('{Perna}, M.'), Person('{Zamora}, S.'), Person('{Lamperti}, I.'), Person('{Venturi}, G.'), Person('{Cresci}, G.'), Person('{Bunker}, Andrew J.'), Person('{Ivey}, L. R.')]",
+      "relevance_score": 8.4,
+      "justification": "This paper provides a landmark comparative analysis of Little Red Dots and newly-defined Little Blue Dots, using prototypical objects as 'Rosetta Stones' to decode their physical nature. It directly addresses fundamental questions about the central engine, surrounding gas geometry, and accretion properties that distinguish LRDs from other AGN populations. The work is likely to be highly influential in shaping the classification and interpretation of JWST-discovered AGN.",
+      "key_factors": [
+        "Direct LRD focus with new LBD classification framework",
+        "JWST spectroscopic data with multi-wavelength coverage",
+        "Rosetta Stone approach using prototypical objects",
+        "Addresses central engine and gas geometry debates",
+        "Exponential broad line profiles and X-ray weakness analysis"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper explicitly focuses on LRDs, defining them as 10-30% of JWST-discovered AGN with red optical colors. It introduces a comparative class (LBDs) and presents detailed analysis of prototypical examples, directly addressing the nature and distinguishing characteristics of LRDs."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "The study utilizes JWST spectroscopic data, X-ray observations, and mid-IR photometry to analyze broad emission lines, auroral features, hot dust, and X-ray weakness. However, the abstract lacks specific instrument details or depth of observations that would merit a higher score."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The paper provides detailed measurements of emission line profiles (exponential vs Gaussian), excitation diagnostics (HeII 4686), auroral line strengths, and dust properties. It lacks explicit derivation of key physical parameters like black hole masses, Eddington ratios, or host galaxy properties that would be particularly valuable for understanding LRD evolution."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "By introducing the LBD comparison and using a 'Rosetta Stone' approach, the paper provides a framework for understanding LRDs that addresses fundamental debates about central engines, gas geometry, and accretion. This positions it as a highly influential study that will likely shape future classification and interpretation of high-redshift AGN."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The paper employs detailed spectroscopic analysis of carefully selected prototypical objects across multiple wavelength regimes. However, the focus on only two sources without explicit mention of larger control samples or statistical validation limits the demonstrated rigor, though this is partially mitigated by the 'Rosetta Stone' study design."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...992..117B",
       "title": "{Investigating Little Red Dots with UV Excess: Are They the High-redshift Siblings of Blue Hot Dust-obscured Galaxies?}",
       "abstract": "{Little red dots (LRDs), newly identified compact and dusty galaxies with an unexpectedly high number density observed by JWST, have an unusual ``V-shaped'' rest-frame UV to near-infrared spectral energy distribution (SED). A group of hyperluminous, obscured quasars with excess blue emission, called blue-excess hot dust- obscured galaxies (BHDs), also exhibit qualitatively similar SEDs to those of LRDs. They represent a rare population of galaxies hosting supermassive black holes (SMBHs) accreting near the Eddington limit at redshifts z {\\ensuremath{\\sim}} 1{\\textendash}4. In this study, we compare their multiwavelength SEDs to investigate whether LRDs, or a subset of them, could be high-redshift analogs of BHDs. Our analysis reveals that despite their similar ``V-shape'' SEDs, LRDs appear to be a different population than BHDs. The ``V-shape'' of BHDs appears at longer wavelengths compared to LRDs due to different selection strategies, suggesting LRDs have much less dust attenuation than typical BHDs. The bluer colors in the rest-frame infrared (continuum) emission of LRDs suggest the absence of hot dust heated by active galactic nuclei (AGN) accretion activities. We also argue that the blue excess in LRDs is unlikely from AGN scattered light. The compact morphologies and lower X-ray detection frequencies of LRDs suggest a distinct formation pathway from BHDs, which are thought to be powered by super- Eddington accretion onto central SMBHs following major galaxy mergers.}",
@@ -6294,6 +6334,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Employs detailed spectral decomposition (dusty quasar + blue component), multi-wavelength SED analysis (UV-optical to mid-IR), and quantitative outflow modeling. Single-object case study design limits statistical generalizability, but the depth of analysis and cross-property consistency checks demonstrate strong technical execution."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260122213M",
+      "title": "{Little Red Dots on FIRE: The Ability of Bursty Galaxies to Host an Abundant Population of High-Redshift AGN}",
+      "abstract": "{The James Webb Space Telescope has unveiled an abundant population of potential active galactic nuclei (AGN) at high redshift ($zrsim4$) known as little red dots (LRDs), which are likely hosted in relatively low-mass galaxies. However, previous theoretical models have highlighted the difficulty in continuously feeding massive black holes in the central regions of bursty, high-redshift galaxies because of repeated gas evacuation by stellar feedback. We analyze galaxies in high- redshift FIRE-2 simulations to understand whether they are capable of hosting the observed abundant population of high- redshift AGN. We use a gravitational torque-driven accretion (GTDA) model and a simple free-fall accretion model to derive black hole accretion rates and construct predicted AGN bolometric luminosity functions for $z=5-7$. The GTDA model and the free-fall model with black holes accreting $\\lesssim 1$ percent of their central gas supply ($<100 \\rm \\ pc$) per free- fall time predict AGN abundances that are more than sufficient to explain the most recent LRD observations. The fiducial models, in fact, overpredict the number of low-luminosity AGN as compared with observations. We explore possible resolutions of this tension. A plausible, though likely not unique, scenario for alleviating the AGN overpredictions and which also provides a good match to the host-galaxy UV luminosity distribution suggests that LRDs are super Eddington-accreting, Eddington luminosity-limited, $M\\_{\\rm BH}rsim 2\\times10^5 \\ \\rm M\\_\\odot$ black holes residing in $M\\_\\star rsim 2\\times10^7 \\ \\rm M\\_\\odot$ galaxies.}",
+      "existing_tags": "abundance, early universe, simulation, super-eddington, theory",
+      "year": "2026",
+      "authors": "[Person('{Marszewski}, Andrew'), Person(\"{Faucher-Gigu{\\\\`e}re}, Claude-Andr{\\\\'e}\"), Person('{Sun}, Guochao'), Person(\"{Angl{\\\\'e}s-Alc{\\\\'a}zar}, Daniel\"), Person('{Feldmann}, Robert'), Person('{Su}, Kung-Yi'), Person('{Miller}, Tim B.'), Person('{Roy}, Niranjan Chandra')]",
+      "relevance_score": 8.3,
+      "justification": "This paper receives a high score due to its exclusive focus on LRDs and direct confrontation with JWST observations. The FIRE-2 simulations with dual accretion models provide a robust theoretical framework, though the lack of direct observational data limits its score in that category. The work significantly advances understanding of AGN feeding in bursty high-redshift galaxies.",
+      "key_factors": [
+        "FIRE-2 cosmological simulations",
+        "Dual accretion models (GTDA & free-fall)",
+        "Super-Eddington accretion scenario",
+        "Specific mass predictions (M_BH ~2x10^5 M_sun)",
+        "Addresses AGN feeding tension in bursty galaxies"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "Paper is entirely focused on LRDs, with explicit mention in title and throughout abstract. Directly addresses the central question of whether bursty high-redshift galaxies can host abundant AGN populations observed as LRDs."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "Connects theoretical predictions to JWST observations and recent LRD data. However, as a simulation study, it does not employ observational techniques directly or present new observational data."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Provides comprehensive predictions for black hole masses (M_BH ~2x10^5 M_sun), host galaxy stellar masses (M_star ~2x10^7 M_sun), bolometric luminosities, and Eddington ratios. Derives AGN bolometric luminosity functions for z=5-7."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses critical tension between theoretical models and JWST observations. Resolves debate about AGN feeding in bursty galaxies and provides testable predictions for LRD physical properties. Significant for understanding high-redshift BH-galaxy coevolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs state-of-the-art FIRE-2 cosmological simulations with two distinct accretion models (GTDA and free-fall). Systematically explores parameter space and acknowledges model limitations (overprediction of low-luminosity AGN)."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -9840,9 +9920,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.280452674897138,
+    "average_score": 8.281020408163284,
     "median_score": 8.5,
-    "high_relevance_count": 233,
+    "high_relevance_count": 235,
     "moderate_relevance_count": 8,
     "low_relevance_count": 2
   }
