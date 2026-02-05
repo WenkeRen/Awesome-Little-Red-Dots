@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-04T06:14:47.977689",
-  "total_papers": 245,
-  "successfully_scored": 245,
+  "generated_at": "2026-02-05T06:19:33.593097",
+  "total_papers": 246,
+  "successfully_scored": 246,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -4314,6 +4314,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Employs sophisticated spectral analysis including line profile decomposition, identification of [Fe II] forest, and photoionized slab modeling. Correctly interprets scattering wings and P-Cygni profiles using established radiative transfer theory. However, the analysis relies on simplifying assumptions (single slab geometry, uniform conditions) and some conclusions (e.g., narrow Hγ tracing host ISM) are based on non-detections rather than positive identification. Full rigor assessment would require access to data reduction details and model validation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260202702B",
+      "title": "{Connecting the Dots: UV-Bright Companions of Little Red Dots as Lyman-Werner Sources Enabling Direct Collapse Black Hole Formation}",
+      "abstract": "{We compile a sample of 83 Little Red Dots (LRDs) with JWST imaging and find that a substantial fraction ($\\sim$43\\%, rising to $rsim$85\\% for the most luminous LRDs) host one or more spatially offset, UV-bright companions at projected separations of $0.5\\rm \\, kpc \\lesssim d\\lesssim 5 \\rm \\,kpc$, with median of $\\langle d \\rangle = 1.0\\,\\mathrm{kpc}$. This fraction is even higher when smaller spatial scales are probed at high S/N ratio: we show that the two most strongly lensed LRDs known to date, A383-LRD and the newly discovered A68-LRD, both have UV- bright companions at separations of only $d\\sim0.3$ kpc, below the resolution limit of most unlensed JWST samples. We explore whether these ubiquitous red/blue configurations may be physically linked to the formation of LRDs, in analogy with the ``synchronized pair'' scenario originally proposed for direct- collapse black hole formation. In this picture, ultraviolet radiation from the companions, which typically have modest stellar masses ($M\\_\\ast \\sim 10^{8-9}M\\_\\odot$), suppresses molecular hydrogen cooling in nearby gas, allowing nearly isothermal collapse and the formation of extremely compact objects, such as massive black holes or quasi-stars. Using component-resolved photometry and SED modeling, we infer Lyman- Werner radiation fields of $J\\_{21,LW} \\sim 10^{2.5}$-$10^{5}$ at the locations of the red components, comparable to those required in direct-collapse models, suggesting that the necessary photodissociation conditions are realized in many LRD systems. This framework provides a simple and self-consistent explanation for the extreme compactness and distinctive spectral properties of LRDs, and links long-standing theoretical models for early compact object formation directly to a population now observed with JWST in the early universe.}",
+      "existing_tags": "early universe, heavy seed, jwst, photometry, sed",
+      "year": "2026",
+      "authors": "[Person('{Baggen}, Josephine F. W.'), Person('{Scoggins}, Matthew T.'), Person('{van Dokkum}, Pieter'), Person(\"{Haiman}, Zolt{\\\\'a}n\"), Person('{Torralba}, Alberto'), Person('{Matthee}, Jorryt')]",
+      "relevance_score": 8.6,
+      "justification": "This paper receives a high score due to its direct and exclusive focus on LRDs, substantial JWST sample size, and innovative theoretical framework linking LRDs to direct-collapse black hole formation via UV-bright companions. It provides quantitative physical analysis of radiation fields and spatial configurations, addressing fundamental questions about LRD origins with significant potential impact on the field.",
+      "key_factors": [
+        "JWST imaging of 83 LRDs",
+        "UV-bright companions at 0.3-5 kpc separations",
+        "Lyman-Werner radiation field measurements (J_21,LW ~ 10^2.5-10^5)",
+        "Direct-collapse black hole formation scenario",
+        "Strongly lensed LRDs for sub-kpc resolution"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper is exclusively focused on LRDs, analyzing a sample of 83 objects and proposing a specific formation mechanism. The entire study centers on understanding LRD properties, companions, and origins, making it fundamentally relevant to the field."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Employs state-of-the-art JWST imaging, component-resolved photometry, and SED modeling. Effectively utilizes strongly lensed LRDs to probe sub-kpc scales below standard resolution limits. Advanced techniques but limited discussion of spectroscopic validation."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Quantifies companion galaxy masses (10^8-9 M_sun), projected separations (0.3-5 kpc), and critically estimates Lyman-Werner radiation fields (J_21,LW ~ 10^2.5-10^5) at LRD locations. Directly connects these measurements to direct-collapse black hole formation models."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Proposes a novel 'synchronized pair' scenario that could resolve the fundamental debate about LRD nature by linking them to heavy black hole seeds. High potential to reshape understanding of early compact object formation if validated, though remains a theoretical framework requiring further testing."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Robust statistical analysis of 83 LRDs with clear quantification of companion fractions. SED modeling methodology is sound. Some assumptions about physical linkage between companions and LRD formation, while plausible, need empirical confirmation through dynamical or spectroscopic follow-up."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -9920,9 +9960,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.281020408163284,
+    "average_score": 8.28231707317075,
     "median_score": 8.5,
-    "high_relevance_count": 235,
+    "high_relevance_count": 236,
     "moderate_relevance_count": 8,
     "low_relevance_count": 2
   }
