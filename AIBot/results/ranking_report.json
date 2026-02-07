@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-06T06:16:10.850344",
-  "total_papers": 246,
-  "successfully_scored": 246,
+  "generated_at": "2026-02-07T06:14:51.149481",
+  "total_papers": 248,
+  "successfully_scored": 248,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -372,6 +372,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Demonstrates careful spectral modeling, stellar population synthesis, and acknowledges uncertainties and alternative interpretations. Methodologically sound with appropriate caveats about needed follow-up observations to confirm stellar absorption features."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260206024W",
+      "title": "{Water absorption confirms cool atmospheres in two little red dots}",
+      "abstract": "{Little red dots (LRDs) are an abundant population of compact high- redshift sources with red rest-frame optical continua, discovered by the James Webb Space Telescope (JWST). Their red colors and power sources have been attributed either to dust reddening of standard hot accretion disks or to intrinsically cool thermal emission from dense hydrogen envelopes, in both cases surrounding accreting supermassive black holes. These scenarios predict order-of-magnitude differences in emission temperature but have lacked decisive temperature diagnostics. Here we report a prominent absorption feature at rest-frame $\\sim 1.4 \\, μ\\mathrm{m}$ in two out of four LRDs at $z \\sim 2$ with high signal-to-noise JWST spectra, among the coolest from a large LRD sample. The feature matches the shape and wavelength of the water absorption band seen in cool stars. Atmosphere models require $T \\lesssim 3000\\, \\mathrm{K}$ to reproduce it, confirming unambiguously the presence of a cool, dense gas component contributing $20-30\\%$ to the emergent continuum. A composite model reproduces both the absorption and the rest- frame optical-to-infrared continuum shape and suggests a temperature range ($\\sim2000\\, \\mathrm{K} - 4000 \\, \\mathrm{K}$) rather than a single blackbody predicted by some gas envelope models. Molecular absorption demonstrates that the red continua of some LRDs are intrinsic rather than dust-reddened, implying order-of-magnitude lower bolometric luminosities and black-hole masses, and providing a new diagnostic of the emitting gas.}",
+      "existing_tags": "absorption features, jwst, non-agn, sed, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Bingjie'), Person('{Leja}, Joel'), Person('{Labbe}, Ivo'), Person('{Greene}, Jenny E.'), Person('{Liu}, Hanpu'), Person('{de Graaff}, Anna'), Person('{Hviding}, Raphael E.'), Person('{Matthee}, Jorryt'), Person('{Quataert}, Eliot'), Person('{Bezanson}, Rachel'), Person('{Boogaard}, Leindert A.'), Person('{Brammer}, Gabriel'), Person('{Burgasser}, Adam J.'), Person('{Chen}, Yi-Xian'), Person('{Cleri}, Nikko J.'), Person('{Cutler}, Sam E.'), Person('{Dayal}, Pratika'), Person('{Furtak}, Lukas J.'), Person('{Fujimoto}, Seiji'), Person('{Glazebrook}, Karl'), Person('{Goulding}, Andy D.'), Person('{Helton}, Jakob M.'), Person('{Hirschmann}, Michaela'), Person('{Jiang}, Yan-Fei'), Person('{Kokorev}, Vasily'), Person('{Ma}, Yilun'), Person('{Miller}, Tim B.'), Person('{Naidu}, Rohan P.'), Person('{Oesch}, Pascal'), Person('{Pan}, Richard'), Person('{Papovich}, Casey'), Person('{Price}, Sedona H.'), Person('{Rix}, Hans-Walter'), Person('{Setton}, David J.'), Person('{Sun}, Wendy Q.'), Person('{Weaver}, John R.'), Person('{Whitaker}, Katherine E.'), Person('{Zitrin}, Adi')]",
+      "relevance_score": 8.9,
+      "justification": "This paper represents breakthrough LRD research that definitively resolves the dust-reddened versus cool envelope debate through innovative JWST spectroscopy of water absorption. While the small sample size limits the statistical robustness, the work provides transformative physical constraints and a powerful new diagnostic that will shape the entire LRD research field.",
+      "key_factors": [
+        "JWST NIRSpec spectroscopy",
+        "Water absorption at 1.4 μm",
+        "Temperature constraints (T ≤ 3000K)",
+        "Resolves dust-reddened vs cool envelope debate",
+        "Molecular absorption diagnostic",
+        "Implications for black hole masses"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "Directly addresses the central LRD debate between dust-reddened AGN and intrinsically cool envelopes, providing a decisive observational diagnostic to distinguish these scenarios."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Employs high signal-to-noise JWST spectroscopy to identify a specific molecular absorption feature (water at 1.4 μm), demonstrating state-of-the-art observational capabilities."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Provides precise temperature constraints (T ≤ 3000K), quantifies cool gas contribution to the continuum (20-30%), and yields order-of-magnitude implications for bolometric luminosities and black hole masses."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Resolves a major theoretical debate in the LRD field and establishes a new diagnostic tool (molecular absorption) with broad applicability to future LRD studies."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Utilizes atmosphere and composite models to reproduce both absorption features and continuum shape, though limited by small sample size (2 objects) and selection effects."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -8110,6 +8151,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM inclusion due to its novel theoretical framework directly addressing the LRD mystery."
     },
     {
+      "bibtex_key": "2026arXiv260205135W",
+      "title": "{Growth of High-Redshift Quasars from Fermion Dark Matter Seeds}",
+      "abstract": "{Quasars hosting $rsim 10^{9}\\,M\\_\\odot$ black holes at $z>6$ challenge growth scenarios that start from light seeds and assume accretion within already formed galaxies. Motivated by the James Webb Space Telescope (JWST) discovery of Little Red Dots (LRDs), which suggests that $\\sim 10^{6}\\,M\\_\\odot$ black holes can be active in compact, pre-galactic environments, we revisit early black hole growth with a minimal cosmology-based framework. We model the accretion history as the smaller of the Bondi inflow rate and the Eddington-limited rate, where the Bondi rate is set by the supply of overdense primordial gas whose density declines with cosmic expansion, and the Eddington rate captures regulation by radiative feedback. By fitting the observed masses and luminosities of J0313--1806 ($z=7.64$) and J0100+2802 ($z=6.30$) with Bayesian inference, we infer initial conditions that favor massive seed black holes with initial mass $M\\_0 \\sim 10^{6}\\,M\\_\\odot$, formed at $z\\sim20{-}30$ in environments with baryonic overdensity factors $f\\_ρrsim 50$ relative to the cosmic mean. The resulting growth histories include a prolonged supply- limited stage, and they reproduce the observed quasar masses without requiring sustained Eddington accretion or any super- Eddington episodes. The inferred seed mass scale is consistent with black holes produced by the collapse of quantum-degenerate fermion dark matter cores, providing a physically defined pathway to massive seeds at the redshifts implied by LRD phenomenology.}",
+      "existing_tags": "black hole mass, early universe, exotic physics, heavy seed, theory",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Yu'), Person('{Ruffini}, Remo')]",
+      "relevance_score": 7.9,
+      "justification": "This paper is strongly motivated by JWST LRD discoveries and provides a novel theoretical framework for massive black hole seed formation via fermion dark matter collapse. It addresses the critical challenge of growing high-z quasars without super-Eddington accretion and offers testable predictions for early BH growth. While methodologically sound with Bayesian inference, its primary impact lies in connecting LRD phenomenology to a specific physical seed mechanism, making it highly relevant for understanding LRD origins.",
+      "key_factors": [
+        "JWST LRD motivation",
+        "Fermion dark matter seed mechanism",
+        "Bayesian inference constraints",
+        "Addresses massive seed problem",
+        "Testable predictions for early BH growth"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper is explicitly and centrally motivated by JWST LRD discoveries, using them as the key justification for revisiting early BH growth scenarios. It directly addresses the implications of LRDs for massive seed formation and provides a theoretical framework to explain LRD phenomenology. However, it doesn't directly analyze LRD data or identify specific LRD objects, focusing instead on known high-z quasars as constraints."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "While the paper is motivated by JWST observations of LRDs and uses observational constraints from two high-z quasars, it is fundamentally a theoretical work. It does not develop, apply, or analyze observational techniques, data reduction methods, or survey strategies. The observational connection is through using published measurements as model constraints rather than direct engagement with observational methodologies."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The paper extensively discusses physical properties relevant to LRDs and early black hole growth, including seed masses, accretion rates, overdensity factors, and formation redshifts. It provides a theoretical framework for understanding these properties in the context of LRD phenomenology. However, it doesn't directly measure or derive specific observational properties of LRDs (e.g., sizes, colors, spectral energy distributions), focusing instead on the underlying physical parameters of the growth model."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "This paper has potentially high scientific impact for LRD research by providing a physically motivated solution to the massive seed problem that is directly inspired by LRD discoveries. It addresses the critical question of how early black holes can grow to observed masses without requiring super-Eddington accretion. The fermion dark matter seed mechanism is novel and could fundamentally change our understanding of early BH formation. The work provides testable predictions and could guide future JWST observations of LRDs, making it highly impactful for the field."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The paper employs Bayesian inference for fitting model parameters to observational constraints, which demonstrates statistical rigor. The accretion model is physically motivated with clear assumptions (Bondi vs Eddington rates). However, the abstract lacks detail on model validation, uncertainty quantification, or comparison with alternative scenarios. The fermion dark matter seed mechanism, while intriguing, appears speculative and is not fully developed here. More detail on parameter space exploration and robustness checks would be needed for a higher score."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025EPJC...85..753R",
       "title": "{Role of the neutral X-fermion in describing the dark matter of the universe}",
       "abstract": "{Decades of progress culminating in the optical interferometry developed in the Keck Observatory and VLT GRAVITY facility led to the determination of the mass of the compact object in Sgr A* in <inline-formula><mml:math><mml:mrow><mml:mn>4.3</mml:mn><mml:mo> {\\texttimes}</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml :mn></mml:msup><mml:mspace></mml:mspace><mml:msub><mml:mi>M</mml :mi><mml:mo>{\\ensuremath{\\odot}}</mml:mo></mml:msub></mml:mrow>< /mml:math></inline-formula> and firm limits on its angular momentum. The most straightforward interpretation of these observations is a Schwarzschild black hole (BH). Considering that the S cluster of stars orbiting the Galactic Center does not probe distances closer than 1400 its Schwarzschild radius, several alternatives were proposed. Among them the self- gravitating system of Dark Matter (DM) fermions (here referred to as X-fermion) having a quantum degenerate core and extended to non-degenerate isothermal halo. Application of this model to our Galaxy results in a bound on X-fermion mass <inline-formula> <mml:math><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi>X</mml:m i></mml:msub><mml:mo>></mml:mo><mml:mn>56</mml:mn></mml:mrow></m ml:math></inline-formula> keV. Upon accreting baryonic matter the degenerate fermionic core may collapse into a BH providing seeds to Active Galactic Nuclei (AGNs) and SuperMassive Black Holes (SMBHs). We address the implications of DM X-fermions with mass <inline-formula><mml:math><mml:mrow><mml:msub><mml:mi>m</mm l:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>{\\ensuremath{\\sim}}</m ml:mo><mml:mn>300</mml:mn></mml:mrow></mml:math></inline- formula> keV endowed with a large and negative chemical potential here evaluated on structure formation and its evolution with redshift. The Jeans mass of X-fermions peaks at <inline-formula><mml:math><mml:mrow><mml:msup><mml:mn>10</mml:mn ><mml:mn>10</mml:mn></mml:msup><mml:mspace></mml:mspace><mml:msu b><mml:mi>M</mml:mi><mml:mo>{\\ensuremath{\\odot}}</mml:mo></mml:m sub></mml:mrow></mml:math></inline-formula> at redshift <inline- formula><mml:math><mml:mrow><mml:mi>z</mml:mi><mml:mo>{\\ensurema th{\\sim}}</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>9</mml:mn ></mml:msup></mml:mrow></mml:math></inline-formula>, which sets the scale of galactic structures. The degenerate cores forming as early as <inline-formula><mml:math><mml:mrow><mml:mi>z</mml:m i><mml:mo>{\\ensuremath{\\sim}}</mml:mo><mml:mn>14</mml:mn></mml:m row></mml:math></inline-formula> are consistent with recent observations of the James Web Space Telescope (JWST) disclosing the Little Red Dots (LRDs) at cosmological redshifts <inline-for mula><mml:math><mml:mrow><mml:mn>4</mml:mn><mml:mo><</mml:mo><mm l:mi>z</mml:mi><mml:mo><</mml:mo><mml:mn>12</mml:mn></mml:mrow>< /mml:math></inline-formula> harboring SMBHs in the range <inline-formula><mml:math><mml:mrow><mml:msup><mml:mn>10</mml:mn ><mml:mn>6</mml:mn></mml:msup><mml:mtext>-</mml:mtext><mml:mspac e></mml:mspace><mml:msup><mml:mn>10</mml:mn><mml:mn>9</mml:mn></ mml:msup><mml:mspace></mml:mspace><mml:msub><mml:mi>M</mml:mi><m ml:mo>{\\ensuremath{\\odot}}</mml:mo></mml:msub></mml:mrow></mml:m ath></inline-formula>. Assuming that Sgr A* is not yet a BH, the lower limit on SMBH mass of <inline-formula><mml:math><mml:mrow> <mml:mn>4.3</mml:mn><mml:mo>{\\texttimes}</mml:mo><mml:msup><mml: mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup><mml:mspace></mml:msp ace><mml:msub><mml:mi>M</mml:mi><mml:mo>{\\ensuremath{\\odot}}</mm l:mo></mml:msub></mml:mrow></mml:math></inline-formula> and the corresponding upper limit on the X-fermion mass of <inline-formu la><mml:math><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi>X</mm l:mi></mml:msub><mml:mo><</mml:mo><mml:mn>381</mml:mn></mml:mrow ></mml:math></inline-formula> keV are established, which acquires relevance given ongoing JWST observations of the Galactic Center and the planning of new accelerators for the scrutiny of DM in CERN.}",
@@ -9960,9 +10041,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.28231707317075,
+    "average_score": 8.283266129032276,
     "median_score": 8.5,
-    "high_relevance_count": 236,
+    "high_relevance_count": 238,
     "moderate_relevance_count": 8,
     "low_relevance_count": 2
   }
