@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-07T06:14:52.976846",
-  "total_papers": 129,
-  "successfully_scored": 129,
+  "generated_at": "2026-02-10T06:43:31.457702",
+  "total_papers": 130,
+  "successfully_scored": 130,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -1483,6 +1483,49 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2024A&A...689A..73M",
+      "title": "{The NIRSpec Wide GTO Survey}",
+      "abstract": "{The Near-infrared Spectrograph (NIRSpec) on the James Webb Space Telescope is uniquely suited to studying galaxies in the distant Universe with its combination of multi-object capabilities and sensitivity over a large range in wavelength (0.6 ‑ 5.3 {\\ensuremath{\\mu}}m). Here we present the NIRSpec Wide survey, part of the NIRSpec Instrument Science Team's Guaranteed Time Observations, using NIRSpec's microshutter array to obtain spectra of more than 3200 galaxies at z > 1 at both low and high resolution (R {\\ensuremath{\\approx}} 100 and 2700) for a total of 105 hours. With 31 pointings covering {\\ensuremath{\\approx}}320 arcmin$^{2}$ across the five CANDELS fields with exquisite ancillary photometry from the Hubble Space Telescope, the NIRSpec Wide survey represents a fast and efficient way of probing galaxies in the early Universe. Pointing centers are determined to maximize the observability of the rarest, high-value sources. Subsequently, the microshutter configurations are optimized to observe the maximum number of ``census'' galaxies with a selection function based primarily on HST/F160W magnitude, photometric or slitless grism redshift, and predicted H{\\ensuremath{\\alpha}} flux tracing the bulk of the galaxy population at cosmic noon (z$\\_{med}$ = 2.0). We present details on the survey strategy, the target selection, an outline of the motivating science cases, and discuss upcoming public data releases to the community.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Maseda}, Michael V.'), Person('{de Graaff}, Anna'), Person('{Franx}, Marijn'), Person('{Rix}, Hans-Walter'), Person('{Carniani}, Stefano'), Person('{Laseter}, Isaac'), Person('{Dudzevi{\\\\v{c}}i{\\\\={u}}t{\\\\.{e}}}, Ugn{\\\\.{e}}'), Person('{Rawle}, Tim'), Person('{Parlanti}, Eleonora'), Person('{Arribas}, Santiago'), Person('{Bunker}, Andrew J.'), Person('{Cameron}, Alex J.'), Person('{Charlot}, Stephane'), Person('{Curti}, Mirko'), Person(\"{D'Eugenio}, Francesco\"), Person('{Jones}, Gareth C.'), Person('{Kumari}, Nimisha'), Person('{Maiolino}, Roberto'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Saxena}, Aayush'), Person('{Smit}, Renske'), Person('{Willott}, Chris'), Person('{Witstok}, Joris')]",
+      "relevance_score": 8.2,
+      "justification": "This paper scores highly due to its direct relevance to LRD spectroscopic follow-up (8.5), strong community adoption (lrdIndex=10), and foundational value as a major JWST GTO survey. While not explicitly about LRDs, it provides the essential observational framework, methodology, and data products that enable LRD research, making it a critical reference for the field.",
+      "key_factors": [
+        "lrdIndex=10",
+        "NIRSpec spectroscopic survey",
+        "JWST GTO program",
+        "Microshutter array optimization",
+        "CANDELS fields coverage",
+        "Target selection methodology",
+        "Provides observational foundation for LRD follow-up"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "While the abstract does not explicitly mention LRDs, the paper provides the essential NIRSpec observational framework directly used in LRD spectroscopic studies. The survey design, microshutter configuration, and target selection strategies are specifically optimized for high-z galaxy follow-up, making it directly applicable to LRD observations. The lrdIndex=10 confirms strong direct relevance to LRD research workflows."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=10, this paper exceeds the kick_off.bib inclusion threshold and demonstrates robust adoption within the LRD community. This citation frequency places it in the top tier of LRD-relevant methodological papers, indicating it serves as a key reference for observational strategy and data products rather than peripheral background."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "As a major JWST GTO survey providing >3200 galaxy spectra at z>1 across the CANDELS fields, this establishes the spectroscopic landscape for high-z galaxy studies. It delivers essential data products, reduction pipelines, and source selection frameworks that LRD researchers build upon for spectroscopic verification and characterization of LRD candidates. The survey's scale and depth provide the parent population context necessary for identifying rare LRDs."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "Details critical technical specifications: NIRSpec microshutter array optimization, HST/F160W-based target selection, photometric/redshift priors, and predicted H-alpha flux sampling. While not introducing revolutionary physics, these practical methodologies enable efficient spectroscopic follow-up of LRD candidates and are widely adopted by the community. The survey strategy represents a template for LRD observation planning."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "Provides important evolutionary baseline by probing cosmic noon (z~2) and beyond, contextualizing LRDs within broader galaxy/black hole coevolution scenarios. Helps place rare, extreme objects like LRDs (z>4) within the continuum of galaxy evolution. However, its primary focus is observational strategy rather than evolutionary synthesis, limiting its direct contribution to LRD evolutionary models."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for understanding JWST spectroscopic survey context and methodology underlying LRD observations"
     },
     {
       "bibtex_key": "2024A&A...689A.128L",
@@ -5301,9 +5344,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.9581395348837205,
+    "average_score": 7.96,
     "median_score": 8.1,
-    "critical_count": 87,
+    "critical_count": 88,
     "high_value_count": 39,
     "moderate_value_count": 2,
     "low_priority_count": 1
