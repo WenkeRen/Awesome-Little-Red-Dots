@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-10T06:41:46.924213",
-  "total_papers": 255,
-  "successfully_scored": 255,
+  "generated_at": "2026-02-17T06:21:55.110737",
+  "total_papers": 256,
+  "successfully_scored": 256,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -5172,6 +5172,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260212325F",
+      "title": "{Direct pathway to the Early Supermassive Black Holes: A Red Super-Eddington Quasar in a Massive Starburst Host at $z=7.2$}",
+      "abstract": "{We present a panchromatic optical-mm characterization of GNz7q, a recently identified X-ray weak, rapidly growing red quasar embedded within a dusty starburst galaxy at $z=7.1899$, using the full suite of JWST/NIRCam, NIRSpec, MIRI, and archival NOEMA observations. Our deep NIRSpec/G395M spectroscopy reveals unambiguous broad Balmer emission (FWHM $=2221\\pm20$kms$^{-1}$), confirming a super-Eddington accreting black hole ($λ\\_{\\rm Edd}=2.7\\pm0.4$) with a mass of $\\log(M\\_{\\rm BH}/M\\_{\\odot})=7.55\\pm0.34$, using accretion-rate corrected BH mass estimators. After subtracting the point source, we robustly detect stellar emission from the host galaxy across multiple NIRCam and MIRI filters. Out joint morphological-spectral analysis yields a stellar mass of $\\log (M\\_*/M\\_\\odot)=10.5\\pm0.4$ and an intense star formation rate of ${\\rm SFR}=330\\pm97\\,M\\_\\odot\\,\\rm yr^{-1}$, confirming the host as a massive, dusty starburst galaxy. We find that GNz7q lies on the local $M\\_{\\rm BH}$-$M\\_*$ relation ($M\\_{\\rm BH}/M\\_*\\simeq 0.001$) and is well positioned to evolve into the locus of massive SDSS quasars with $\\log (M\\_{\\rm BH}/M\\_\\odot)\\approx 9$ and $M\\_*\\approx 10^{11}\\,M\\_\\odot$ at $z\\sim 6$, owing to its remarkably rapid growth in both the black hole and its host galaxy. This stands in stark contrast to many recently reported JWST AGN populations at similar redshifts, including the little red dots (LRDs), whose weak or undetected star formation makes it difficult for them to grow into the massive galaxies hosting SDSS-like quasars. These results suggest that GNz7q marks as a rare, pivotal phase of early BH-galaxy co-eolution, plausibly providing a crucial direct pathway to the supermassive black hole systems within the first billion years of the Universe.}",
+      "existing_tags": "host galaxy, jwst, spectroscopy, starburst, super-eddington",
+      "year": "2026",
+      "authors": "[Person('{Fei}, Qinyue'), Person('{Fujimoto}, Seiji'), Person('{Brammer}, Gabriel'), Person('{Li}, Ruancun'), Person('{Ho}, Luis C.'), Person('{Bromm}, Volker'), Person(\"{{\\\\'A}lvarez-M{\\\\'a}rquez}, Javier\"), Person('{Asada}, Yoshihisa'), Person('{Barro}, Guillermo'), Person('{Colina}, Luis'), Person('{Dayal}, Pratika'), Person('{Finkelstein}, Steven L.'), Person('{Fynbo}, Johan P. U.'), Person('{Ginolfi}, Michele'), Person('{Inayoshi}, Kohei'), Person('{Kokorev}, Vasily'), Person('{Leung}, Gene C. K.'), Person('{Matthee}, Jorryt'), Person('{Meyer}, Romain A.'), Person('{Naidu}, Rohan P.'), Person('{Onoue}, Masafusa'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Steinhardt}, Charles L.'), Person('{Valentino}, Francesco'), Person('{Walter}, Fabian'), Person('{Xiao}, Mengyuan'), Person('{Zhang}, Haowen')]",
+      "relevance_score": 8.5,
+      "justification": "This paper receives a high score due to its explicit engagement with the LRD population, directly contrasting GNz7q's vigorous starburst-AGN properties with LRDs' weak star formation. The comprehensive JWST observations and detailed physical measurements provide a crucial counterpoint that informs the central LRD debate about AGN versus starburst dominance. By proposing an alternative 'direct pathway' to supermassive BHs, it offers a new framework for understanding early BH-galaxy co-evolution that will likely shape future LRD research.",
+      "key_factors": [
+        "Explicit LRD comparison and contrast",
+        "Super-Eddington BH in massive starburst host",
+        "Deep JWST NIRSpec spectroscopy",
+        "Robust host galaxy detection after PSF subtraction",
+        "M_BH-M_* relation consistent with local scaling"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly mentions 'little red dots (LRDs)' and directly contrasts GNz7q's properties with LRD populations, stating that LRDs have 'weak or undetected star formation' that makes it difficult for them to evolve into massive quasar hosts. This direct engagement with the LRD debate and positioning of GNz7q as a contrasting population demonstrates strong relevance to LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Employs comprehensive JWST observations including NIRSpec/G395M spectroscopy, NIRCam and MIRI imaging, and archival NOEMA data. The deep spectroscopic detection of broad Balmer emission (FWHM = 2221 km/s) with high precision (±20 km/s) exemplifies the state-of-the-art observations required to distinguish AGN from starburst components in high-redshift sources."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "Provides detailed measurements of BH mass (log M_BH = 7.55 ± 0.34), Eddington ratio (λ_Edd = 2.7 ± 0.4), stellar mass (log M_* = 10.5 ± 0.4), and SFR (330 ± 97 M⊙/yr). These parameters are essential for understanding LRD-like systems, though limited to a single object rather than a statistical sample of LRDs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Proposes a 'direct pathway' model for early BH-galaxy co-evolution that directly challenges LRD interpretations. By demonstrating a system with both vigorous star formation and super-Eddington accretion, it provides a crucial counterpoint to LRDs and offers a framework for understanding diversity among high-redshift red sources, likely influencing future theoretical models."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Demonstrates careful methodology using accretion-rate corrected BH mass estimators, point-source subtraction for host galaxy detection, and joint morphological-spectral analysis. All measurements include uncertainties. However, as a single-object case study, the broader statistical robustness is limited compared to population-wide LRD studies."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026MNRAS.546ag089L",
       "title": "{Improved measurements of the age of JWST galaxies at z = 6 {\\ensuremath{-}} 10}",
       "abstract": "{From James Webb Space Telescope (JWST) surveys, 31 galaxies with average redshift 7.3 are selected containing large Balmer break, Lyman- break (V-shaped SED versus ). Apart from Hubble Space Telescope (HST) and JWST-NIRCam (Near-infrared camera) photometry for these galaxies, there are JWST-NIRSpec spectra for 13 galaxies and mid-infrared photometry (mostly JWST-MIRI) for 15 of them. Spectroscopical analyses included Balmer emission lines, Balmer + 4000 {\\r{A}} breaks or Ca II lines. Spectral energy distribution (SED) fitting with photometry include old and young stellar populations, emission lines associated to H II regions, active galactic nucleus (AGN), interstellar dust extinction, and intergalactic extinction from neutral hydrogen. By adopting realistic extinction curves and taking into account the V-shaped SED and low emission at near-infrared at rest, the analyses show that AGN contribution in these galaxies ('little red dots' most of them) should be small on average in the reddest wavelengths, though important for few of the 31 galaxies. Average age of the 31 galaxies: (95 per cent CL) Gyr, while the average age of the Lambda cold dark matter (CDM) universe is 0.70 Gyr. This corresponds to a formation epoch (97.5 per cent CL). Reddest galaxies present largest ages. One of these very red galaxies gets an age incompatible to be younger than the age of the Universe within . TP-AGB effect cannot explain this tension. None the less, there may be other uncertainties in the models, so this tension is a provisional result and further research is needed to confirm it.}",
@@ -10324,9 +10364,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.287647058823548,
+    "average_score": 8.288476562500017,
     "median_score": 8.5,
-    "high_relevance_count": 245,
+    "high_relevance_count": 246,
     "moderate_relevance_count": 8,
     "low_relevance_count": 2
   }

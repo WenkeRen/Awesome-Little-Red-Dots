@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-10T06:43:31.457702",
-  "total_papers": 130,
-  "successfully_scored": 130,
+  "generated_at": "2026-02-17T06:23:46.808742",
+  "total_papers": 131,
+  "successfully_scored": 131,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -4398,6 +4398,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2026OJAp....956033N",
+      "title": "{A Cosmic Miracle: A Remarkably Luminous Galaxy at zspec = 14.44 Confirmed with JWST}",
+      "abstract": "{JWST has revealed a stunning population of bright galaxies at surprisingly early epochs, z>10, where few such sources were expected. Here we present the most distant example of this class yet ─ MoM-z14, a luminous () source in the COSMOS legacy field at that expands the observational frontier to a mere 280 million years after the Big Bang. The redshift is confirmed with NIRSpec/prism spectroscopy through a sharp Lyman- {\\ensuremath{\\alpha}} break and ≍3{\\ensuremath{\\sigma}} detections of five rest-UV emission lines. The number density of bright sources implied by our ``Mirage or Miracle'' survey spanning ≍350 arcmin is >100{\\texttimes} larger ( 182{\\ensuremath{-}}105+329{\\texttimes}) than pre-JWST consensus models. The high EWs of UV lines ( ≍15{\\ensuremath{-}}35) signal a rising star-formation history, with a ≍10{\\texttimes} increase in the last 5 Myr (). The source is extremely compact (circularized pc), and yet elongated ( b/a=0.25{\\ensuremath{-}}0.06+0.11), suggesting an AGN is not the dominant source of UV light. The steep UV slope ( {\\ensuremath{\\beta}}={\\ensuremath{-}}2.5{\\ensuremath{-}}0.2+0.2) implies negligible dust attenuation and a young stellar population. The absence of a strong damping wing provides tentative evidence that the immediate surroundings of MoM-z14 may be partially ionized at a redshift where virtually every reionization model predicts a ≍100\\% neutral fraction. The nitrogen emission and highly super-solar [N/C] >1 hint at an abundance pattern similar to local globular clusters that may have once hosted luminous supermassive stars. Since this abundance pattern is also common among the most ancient stars born in the Milky Way, we may be directly witnessing the formation of such stars in dense clusters, connecting galaxy evolution across the entire sweep of cosmic time.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Naidu}, Rohan P.'), Person('{Oesch}, Pascal A.'), Person('{Brammer}, Gabriel'), Person('{Weibel}, Andrea'), Person('{Li}, Yijia'), Person('{Matthee}, Jorryt'), Person('{Chisolm}, John'), Person('{Pollock}, Clara L.'), Person('{Heintz}, Kasper E.'), Person('{Johnson}, Benjamin D.'), Person('{Shan}, Xuejian'), Person('{Hviding}, Raphael E.'), Person('{Leja}, Joel'), Person('{Tacchella}, Sandro'), Person('{Ganguly}, Arpita'), Person('{Witten}, Callum'), Person('{Atek}, Hakim'), Person('{Belli}, Siro'), Person('{Bose}, Sownak'), Person('{Bouwens}, Rychard'), Person('{Dayal}, Pratika'), Person('{Decarli}, Roberto'), Person('{de Graaff}, Anna'), Person('{Fudamoto}, Yoshinobu'), Person('{Giovinazzo}, Emma'), Person('{Greene}, Jenny E.'), Person('{Illingworth}, Garth'), Person('{Inoue}, Akio K.'), Person('{Kane}, Sarah G.'), Person('{Labbe}, Ivo'), Person('{Leonova}, Ecaterina'), Person('{Marques-Chaves}, Rui'), Person('{Meyer}, Roman A.'), Person('{Nelson}, Erica J.'), Person('{Roberts-Borsani}, Guido'), Person('{Schaerer}, Daniel'), Person('{Simcoe}, Robert A.'), Person('{Stefanon}, Mauro'), Person('{Sugahara}, Yuma'), Person('{Toft}, Sune'), Person('{van der Wel}, Arjen'), Person('{van Dokkum}, Pieter'), Person('{Walter}, Fabian'), Person('{Watson}, Darrach'), Person('{Weaver}, John R.'), Person('{Whitaker}, Katherine E.')]",
+      "relevance_score": 7.6,
+      "justification": "This paper scores 7.6/10 by providing essential methodological and evolutionary context for LRD research at the highest redshifts. While not directly studying LRDs, its JWST spectroscopic techniques and establishment of non-AGN benchmarks at z>14 are highly valuable for distinguishing AGN-dominated systems, though its indirect LRD connection prevents a higher score.",
+      "key_factors": [
+        "lrdIndex=10 (threshold inclusion)",
+        "Indirect LRD connection via non-AGN benchmark at z>14",
+        "JWST NIRSpec methodology transferable to LRD studies",
+        "Extreme evolutionary context for earliest galaxy formation",
+        "Unique abundance pattern insights (super-solar N/C ratios)"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "Paper does not explicitly study LRDs; instead presents z=14.44 galaxy where AGN is explicitly ruled out as dominant UV source. Provides crucial 'non-AGN' benchmark at extreme redshift, helping LRD researchers distinguish AGN-dominated systems from star-forming galaxies. Connection is indirect but valuable for context."
+        },
+        "citation_frequency": {
+          "score": 8.0,
+          "reasoning": "lrdIndex=10 meets kick_off.bib inclusion threshold, indicating moderate adoption by LRD community. Not a seminal citation leader (lrdIndex>20) but demonstrates recognized utility in LRD research papers."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Establishes first spectroscopically confirmed galaxy at z>14, providing extreme high-z benchmark. JWST NIRSpec methodology and rest-UV line analysis techniques are directly transferable to LRD studies. Abundance pattern insights (super-solar N/C) offer unique perspective on early galaxy chemistry relevant to LRD host environments."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Demonstrates cutting-edge JWST NIRSpec/prism spectroscopy at z=14.44, including extraction, line identification, and physical interpretation at extreme limits. These techniques are directly applicable to faint LRD continuum and emission line analysis, representing state-of-the-art methodology LRD researchers must master."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Provides critical benchmark for galaxy formation at earliest cosmic epochs (280 Myr post-Big Bang). Insights on reionization, rapid star formation histories, and chemical enrichment directly inform models of black hole-galaxy coevolution and the emergence of AGN-dominated systems like LRDs."
+        }
+      },
+      "notebooklm_recommendation": "Important methodological and contextual reference for NotebookLM"
+    },
+    {
       "bibtex_key": "2024Sci...384..890H",
       "title": "{Strong damped Lyman-{\\ensuremath{\\alpha}} absorption in young star-forming galaxies at redshifts 9 to 11}",
       "abstract": "{Primordial neutral atomic gas, mostly composed of hydrogen, is the raw material for star formation in galaxies. However, there are few direct constraints on the amount of neutral atomic hydrogen (H I) in galaxies at early cosmic times. We analyzed James Webb Space Telescope (JWST) near-infrared spectroscopy of distant galaxies, at redshifts {\\ensuremath{\\gtrsim}}8. From a sample of 12 galaxies, we identified three that show strong damped Lyman-{\\ensuremath{\\alpha}} absorption due to H I in their local surroundings. The galaxies are located at spectroscopic redshifts of 8.8, 10.2, and 11.4, corresponding to 400 to 600 million years after the Big Bang. They have H I column densities {\\ensuremath{\\gtrsim}}{}10$^{22}$ cm$^{‑2}$, which is an order of magnitude higher than expected for a fully neutral intergalactic medium, and constitute a gas-rich population of young star-forming galaxies.}",
@@ -5344,10 +5385,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.96,
+    "average_score": 7.9572519083969455,
     "median_score": 8.1,
     "critical_count": 88,
-    "high_value_count": 39,
+    "high_value_count": 40,
     "moderate_value_count": 2,
     "low_priority_count": 1
   }
