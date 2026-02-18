@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-17T06:23:46.808742",
-  "total_papers": 131,
-  "successfully_scored": 131,
+  "generated_at": "2026-02-18T06:30:18.866145",
+  "total_papers": 132,
+  "successfully_scored": 132,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -374,6 +374,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for understanding LRD host halos, clustering properties, and evolutionary context as quasar progenitors."
+    },
+    {
+      "bibtex_key": "2026ApJS..283....6E",
+      "title": "{Overview of the JWST Advanced Deep Extragalactic Survey (JADES)}",
+      "abstract": "{We present an overview of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES), an ambitious program of infrared imaging and spectroscopy in the GOODS-S and GOODS-N deep fields, designed to study galaxy evolution from high redshift to cosmic noon. JADES uses about 770 hr of Cycle 1 guaranteed time largely from the Near-Infrared Camera (NIRCam) and Near-Infrared Spectrograph (NIRSpec) instrument teams. In GOODS-S, in and around the Hubble Ultra Deep Field and Chandra Deep Field South, JADES produces a deep imaging region of {\\ensuremath{\\sim}}42 arcmin$^{2}$ with over 100 hr of exposure time spread over nine NIRCam filters, including two medium-band filters. This is extended at medium depth in GOODS-S and GOODS-N with NIRCam imaging of {\\ensuremath{\\sim}}167 arcmin$^{2}$, averaging 25 hr of exposure over 8─10 filters. In both fields, we conduct extensive NIRSpec multiobject spectroscopy, including two deep pointings of 55 hr exposure time, 14 medium pointings of {\\ensuremath{\\sim}}12 hr, and 15 shallower pointings of {\\ensuremath{\\sim}}4 hr, targeting over 5000 Hubble Space Telescope─ and JWST-detected faint sources with five low-, medium-, and high-resolution dispersers covering 0.6─5.3 {\\ensuremath{\\mu}}m. Finally, JADES extends redward via coordinated parallels with the JWST Mid-Infrared Instrument, featuring {\\ensuremath{\\sim}}10 arcmin$^{2}$ with 43 hr of exposure at 7.7 {\\ensuremath{\\mu}}m and thrice that area with 1.4─6.8 hr of exposure at 12.8 and 15 {\\ensuremath{\\mu}}m. For nearly 30 yr, the GOODS-S and GOODS-N fields have been developed as the premier deep fields on the sky; JADES is now providing a compelling start on JWST's legacy in these fields.}",
+      "lrdIndex": 50,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Eisenstein}, Daniel J.'), Person('{Willott}, Chris'), Person('{Alberts}, Stacey'), Person('{Arribas}, Santiago'), Person('{Bonaventura}, Nina'), Person('{Bunker}, Andrew J.'), Person('{Cameron}, Alex J.'), Person('{Carniani}, Stefano'), Person('{Charlot}, Stephane'), Person('{Curtis-Lake}, Emma'), Person(\"{D'Eugenio}, Francesco\"), Person('{Ferruit}, Pierre'), Person('{Giardino}, Giovanna'), Person('{Hainline}, Kevin'), Person('{Hausen}, Ryan'), Person('{Jakobsen}, Peter'), Person('{Johnson}, Benjamin D.'), Person('{Maiolino}, Roberto'), Person('{Rauscher}, Bernard J.'), Person('{Rieke}, Marcia'), Person('{Rieke}, George'), Person('{Rix}, Hans-Walter'), Person('{Robertson}, Brant'), Person('{Stark}, Daniel P.'), Person('{Tacchella}, Sandro'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Baker}, William M.'), Person('{Baum}, Stefi'), Person('{Bhatawdekar}, Rachana'), Person('{Boyett}, Kristan'), Person('{Chen}, Zuyi'), Person('{Chevallard}, Jacopo'), Person('{Circosta}, Chiara'), Person('{Curti}, Mirko'), Person('{Danhaive}, A. Lola'), Person('{DeCoursey}, Christa'), Person('{Endsley}, Ryan'), Person('{de Graaff}, Anna'), Person('{Dressler}, Alan'), Person('{Egami}, Eiichi'), Person('{Helton}, Jakob M.'), Person('{Hviding}, Raphael E.'), Person('{Ji}, Zhiyuan'), Person('{Jones}, Gareth C.'), Person('{Kumari}, Nimisha'), Person('{L{\\\\\"u}tzgendorf}, Nora'), Person('{Laseter}, Isaac'), Person('{Looser}, Tobias J.'), Person('{Lyu}, Jianwei'), Person('{Maseda}, Michael V.'), Person('{Nelson}, Erica'), Person('{Parlanti}, Eleonora'), Person('{Perna}, Michele'), Person(\"{Pusk{\\\\'a}s}, D{\\\\'a}vid\"), Person('{Rawle}, Tim'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{Rujopakarn}, Wiphu'), Person('{Sandles}, Lester'), Person('{Saxena}, Aayush'), Person('{Scholtz}, Jan'), Person('{Sharpe}, Katherine'), Person('{Shivaei}, Irene'), Person('{Silcock}, Maddie S.'), Person('{Simmonds}, Charlotte'), Person('{Skarbinski}, Maya'), Person('{Smit}, Renske'), Person('{Stone}, Meredith'), Person('{Suess}, Katherine A.'), Person('{Sun}, Fengwu'), Person('{Tang}, Mengtao'), Person('{Topping}, Michael W.'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Villanueva}, Natalia C.'), Person('{Wallace}, Imaan E. B.'), Person('{Whitler}, Lily'), Person('{Witstok}, Joris'), Person('{Woodrum}, Charity')]",
+      "relevance_score": 8.6,
+      "justification": "This paper receives an exceptional score (8.6) due to its unparalleled citation frequency (lrdIndex=50) and its absolutely foundational role as the authoritative reference for the JADES survey, which has discovered the majority of known LRDs. While it doesn't provide LRD-specific scientific analysis, its detailed methodological innovations and comprehensive survey design make it indispensable infrastructure for the entire LRD research community.",
+      "key_factors": [
+        "lrdIndex=50 (exceptional citation frequency)",
+        "JADES survey foundational reference",
+        "NIRCam medium-band filter strategy",
+        "Deep NIRSpec spectroscopy program",
+        "Critical observational context provider"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "While not explicitly focused on LRDs (published early in JWST cycle), this paper provides the essential JADES survey framework that enables all LRD discoveries. It details the exact filter set, depth calculations, area coverage, and NIRSpec spectroscopic strategy that LRD researchers must reference for observational context and data product understanding. The lrdIndex=50 confirms its practical indispensability despite being a survey overview rather than LRD-specific analysis."
+        },
+        "citation_frequency": {
+          "score": 9.5,
+          "reasoning": "With lrdIndex=50, this ranks among the most frequently cited papers in LRD literature, indicating it serves as the standard reference for JADES survey parameters. This exceptional citation frequency reflects that nearly every LRD paper using JADES data must cite this for depth limits, area, and observational strategy. Such universal referencing demonstrates its critical role as the authoritative source for JADES data characteristics."
+        },
+        "foundational_value": {
+          "score": 9.0,
+          "reasoning": "This paper establishes the entire observational infrastructure for one of the two primary JWST deep surveys that discovered the LRD population. It defines the premier deep fields (GOODS-S/N), the revolutionary NIRCam medium-band filter strategy for line detection, and the deep NIRSpec spectroscopy program that collectively make LRD identification and characterization possible. It is the non-negotiable foundational reference that all JADES-based LRD research builds upon."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "The paper presents novel JWST methodologies specifically designed for high-z AGN/galaxy studies that directly benefit LRD research: medium-band filters for robust continuum/line decomposition, deep NIRSpec MOS strategies for faint source spectroscopy, and coordinated MIRI parallels. These represent significant innovations beyond HST capabilities and provide the technical blueprint for LRD spectral acquisition and photometric selection that AI models would not know without access to this specific survey design."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "The paper frames JADES within galaxy evolution from 'high redshift to cosmic noon,' providing the cosmic timeline and redshift range context where LRDs exist as early black hole growth episodes. However, as a survey overview, it lacks detailed synthesis of how LRDs specifically fit into BH-galaxy coevolution scenarios. It provides broad evolutionary context but not the nuanced LRD-specific evolutionary interpretations that appear in later focused studies."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential survey context, depth calculations, and methodological framework that underpins all JADES-based LRD discoveries and cannot be inferred from general astrophysics knowledge."
     },
     {
       "bibtex_key": "2025ApJ...980L..29A",
@@ -5385,9 +5426,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.9572519083969455,
+    "average_score": 7.96212121212121,
     "median_score": 8.1,
-    "critical_count": 88,
+    "critical_count": 89,
     "high_value_count": 40,
     "moderate_value_count": 2,
     "low_priority_count": 1
