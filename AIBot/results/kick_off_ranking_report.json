@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-18T06:30:18.866145",
-  "total_papers": 132,
-  "successfully_scored": 132,
+  "generated_at": "2026-02-19T06:23:32.517453",
+  "total_papers": 134,
+  "successfully_scored": 134,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -2511,6 +2511,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2026MNRAS.546ag086J",
+      "title": "{JADES: comprehensive census of broad-line AGN from reionization to cosmic noon revealed by JWST}",
+      "abstract": "{The depth and coverage of the first years of James Webb Space Telescope observations have revealed low-luminosity active galactic nuclei (AGN) across a wide redshift range, shedding light on black hole (BH) assembly and feedback. We present our spectroscopic sample of 34 Type 1 AGN obtained from JADES survey data and spanning . Our sample of AGN probes a BH mass range of M at bolometric luminosities down to erg s. Most of these AGN are hosted in low-mass ( M) galaxies and are overmassive relative to the local relation, while remaining consistent with the local ─ relation. The wide redshift range provided by our sample allows us to trace the emergence of local ─ scaling relation across cosmic time. Additionally, we explore the capability of narrow-line diagnostics in identifying Type 2 AGN and find that a significant fraction of our AGN would be missed by them due to low metallicity or lack of high-energy ionizing photons. We explore the UV luminosity function of AGN and their hosts and find that it is subject to significant cosmic variance and is also dependent on the AGN bolometric luminosity. Finally, we show that the electron scattering scenario recently proposed to explain broad Balmer lines is untenable on multiple grounds showing that there is no evidence of significant BH mass overestimation.}",
+      "lrdIndex": 39,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Juod{\\\\v{z}}balis}, Ignas'), Person('{Maiolino}, Roberto'), Person('{Baker}, William M.'), Person('{Lake}, Emma Curtis'), Person('{Scholtz}, Jan'), Person(\"{D'Eugenio}, Francesco\"), Person('{Trefoloni}, Bartolomeo'), Person('{Isobe}, Yuki'), Person('{Tacchella}, Sandro'), Person('{Bunker}, Andrew J.'), Person('{Carniani}, Stefano'), Person(\"{Charlot}, St{\\\\'e}phane\"), Person('{Jones}, Gareth C.'), Person('{Parlanti}, Eleonora'), Person('{Perna}, Michele'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Venturi}, Giacomo'), Person('{Willott}, Chris')]",
+      "relevance_score": 8.1,
+      "justification": "This paper earns a high score due to its exceptional citation frequency (lrdIndex=39) and direct relevance to LRD physics, particularly the electron scattering debate. It provides unique JWST-derived constraints on low-luminosity AGN demographics and scaling relations that are essential for contextualizing LRDs, though some foundational concepts are familiar to experts.",
+      "key_factors": [
+        "lrdIndex=39",
+        "Direct LRD population study",
+        "Electron scattering scenario critique",
+        "JWST NIRSpec methodology",
+        "BH-galaxy scaling evolution"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "While the abstract doesn't explicitly mention 'Little Red Dots', this paper studies low-luminosity JWST AGN at high-z—the exact definition of LRDs. The electron scattering scenario discussion directly addresses LRD broad-line physics. With 39 LRD citations, it's clearly treated as a core LRD reference for understanding this population's nature and demographics."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=39 is exceptionally high, nearly 4× the kick_off.bib threshold of 10. This indicates the LRD community consistently treats this as a cornerstone reference for JWST AGN demographics, BH mass estimation, and scaling relations across the full redshift range of LRD studies."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Provides the essential broad-line AGN context that LRDs inhabit, establishing BH-galaxy scaling relations from reionization to cosmic noon. While BH-galaxy coevolution principles are known, the JWST census, low-luminosity regime, and specific redshift evolution provide non-textbook, empirical grounding for interpreting LRDs within the broader AGN population."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "Demonstrates state-of-the-art JWST NIRSpec spectroscopic techniques for faint high-z AGN, including spectral extraction, BH mass estimation, and diagnostic interpretation. The rigorous electron scattering critique establishes methodological standards for broad-line analysis directly applicable to LRD spectral modeling."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Explicitly traces the emergence of local BH-galaxy scaling relations across cosmic time, providing the evolutionary framework for LRD formation. The wide redshift coverage (z~0.5-8) and discussion of BH assembly/feedback directly inform models of LRD evolution and their role in reionization and cosmic noon."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for understanding LRDs within broader JWST AGN demographics and methodological standards"
+    },
+    {
       "bibtex_key": "2024ApJ...970..158C",
       "title": "{Quasi-stars as a Means of Rapid Black Hole Growth in the Early Universe}",
       "abstract": "{JWST observations demonstrate that supermassive black holes (SMBHs) exist by redshifts z {\\ensuremath{\\gtrsim}} 10, providing further evidence for ``direct collapse'' black hole (BH) formation, whereby massive ({\\ensuremath{\\sim}}10$^{3{\\textendash}5}$ M $\\_{{\\ensuremath{\\odot}}}$) SMBH seeds are generated within a few million years as a byproduct of the rapid inflow of gas into the centers of protogalaxies. Here we analyze the intermediate ``quasi-star'' phase that accompanies some direct-collapse models, during which a natal BH accretes mass from and energetically sustains (through accretion) an overlying gaseous envelope. We argue that previous estimates of the maximum BH mass that can be reached during this stage, {\\ensuremath{\\sim}}1\\% of the total quasi-star mass, are unphysical, and arise from underestimating the efficiency with which energy can be transported outward from regions close to the BH. We construct new quasi-star models that consist of an inner, ``saturated convection'' region (which conforms to a convection-dominated accretion flow near the BH) matched to an outer, adiabatic envelope. These solutions exist up to a BH mass of {\\ensuremath{\\sim}}60\\% of the total quasi-star mass, at which point the adiabatic envelope contains only 2\\% of the mass (with the remaining {\\ensuremath{\\sim}}38\\% in the saturated- convection region), and this upper limit is reached within a time of 20{\\textendash}40 Myr. We conclude that quasi-stars remain a viable route for producing SMBHs at large redshifts, which is consistent with recent JWST observations.}",
@@ -2756,6 +2797,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2024A&A...686A.256L",
+      "title": "{Sustained super-Eddington accretion in high-redshift quasars}",
+      "abstract": "{Observations of z {\\ensuremath{\\gtrsim}} 6 quasars provide information on the early evolution of the most massive black holes (MBHs) and galaxies. Current observations, able to trace both gas and stellar properties, reveal a population of MBHs that is significantly more massive than expected from the local MBH- stellar mass relation. The population lies on, but mostly above, the relation observed in the nearby Universe. This suggests that these objects grew very rapidly. To explain their presence when the Universe was less than 1 Gyr old and to assess the physical conditions for their rapid growth, we explored whether episodes of accretion above the Eddington limit can occur across cosmic epochs. By employing state-of-the-art high-resolution cosmological zoom-in simulations of a z {\\ensuremath{\\sim}} 7 quasar, where different accretion regimes are included consistently, together with their associated radiative and kinetic feedback, we show that super-Eddington phases can be sustained for relatively long timescales (tens of millions of years). This allows the MBH to rapidly grow by up to three orders of magnitude, depending on the strength of the kinetic feedback. We also show by means of a semianalytic calculation that the MBH spin remains moderate and does not take on extremely high values during the super-Eddington phases. This results in a lower feedback efficiency, which may allow the rapid growth required to explain over-massive high-redshift MBHs.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Lupi}, Alessandro'), Person('{Quadri}, Giada'), Person('{Volonteri}, Marta'), Person('{Colpi}, Monica'), Person('{Regan}, John A.')]",
+      "relevance_score": 8.1,
+      "justification": "This paper provides essential theoretical framework for rapid high-z BH growth via sustained super-Eddington accretion, directly addressing the over-massive BH problem central to LRD research. With lrdIndex=10, it's well-recognized by the community, though its pre-JWST origin means it lacks direct LRD observational connections, yielding a very strong but not perfect score.",
+      "key_factors": [
+        "lrdIndex=10 (strong community recognition)",
+        "Sustained super-Eddington accretion mechanism for rapid BH growth",
+        "Simulation-based quantitative growth timescales and spin evolution",
+        "Addresses MBH-stellar mass relation tension at high-z",
+        "Pre-JWST publication (no explicit LRD mention)"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "Directly addresses the core LRD science question: how massive BHs grow rapidly at z≥6. Provides specific mechanism (sustained super-Eddington accretion) relevant to compact red AGN, though published pre-JWST so lacks explicit LRD terminology. The sustained nature (tens of Myr) is particularly valuable for explaining LRD demographics."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates strong, consistent citation by LRD researchers, establishing it as canonical pre-JWST literature. This is a substantial recognition level, though not the highest possible, reflecting enduring relevance across the LRD discovery period."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "Provides quantitative simulation results showing BHs can grow by 3 orders of magnitude via sustained super-Eddington accretion, going beyond textbook concepts. However, expert LRD researchers would already grasp basic super-Eddington principles; unique value lies in specific timescales and growth factors derived from state-of-the-art simulations."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "Employs high-resolution cosmological zoom-in simulations with self-consistent treatment of multiple accretion regimes and both radiative/kinetic feedback. This methodology demonstrates how to model BH-galaxy coevolution quantitatively, offering LRD researchers a template for connecting observational data to physical models."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Explicitly addresses evolution of the MBH-stellar mass relation, providing clear evolutionary pathway for over-massive high-z BHs. Helps position LRDs within broader BH-galaxy coevolution framework, though could be strengthened by connecting more directly to specific galaxy formation scenarios observed in JWST data."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - provides the key theoretical mechanism for LRD rapid growth phase that should be integrated into any comprehensive LRD synthesis, particularly for explaining how compact red sources can host rapidly growing BHs."
     },
     {
       "bibtex_key": "2023ApJS..268...64W",
@@ -5426,9 +5508,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.96212121212121,
+    "average_score": 7.9641791044776085,
     "median_score": 8.1,
-    "critical_count": 89,
+    "critical_count": 91,
     "high_value_count": 40,
     "moderate_value_count": 2,
     "low_priority_count": 1
