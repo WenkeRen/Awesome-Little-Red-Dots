@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-19T06:20:34.873076",
-  "total_papers": 261,
-  "successfully_scored": 261,
+  "generated_at": "2026-02-20T06:20:48.106498",
+  "total_papers": 264,
+  "successfully_scored": 264,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -1392,6 +1392,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "The methodology includes systematic photoionization modeling, consideration of multiple physical scenarios, and acknowledgment of diagnostic limitations. However, the abstract doesn't provide details on sample selection, statistical analysis, or data quality assessment, which are important for full methodological evaluation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260215935C",
+      "title": "{Little Red Dots as Globular Clusters in Formation}",
+      "abstract": "{Little Red Dots (LRDs), among the most enigmatic high-redshift discoveries by JWST, are commonly believed to be powered by accreting supermassive black holes. Here, we explore the possibility that these sources are globular clusters in formation, with rest-frame UV arising from a very young stellar population and rest-frame optical from a short-lived supermassive ($>10^4$ M$\\_\\odot$) star. The spectral profiles of LRDs are broadly consistent with this scenario, though the observed temperatures and bolometric luminosities favor emission reprocessed by optically thick, continuum-driven winds not fully captured by current models. The LRD $z\\sim5-7$ UV luminosity function naturally evolves, under standard evolutionary and mass-loss prescriptions, into a present-day mass function with a turnover at $\\log\\_{10}(M\\_\\ast$/$M\\_\\odot)=5.3$ and an exponential cutoff at high masses, consistent with local globular-cluster populations. We estimate the total present-day number density of LRDs formed across all redshifts to be $\\approx0.3$ Mpc$^{-3}$, similar to local globular clusters. The observed LRD redshift range matches the age distribution of metal-poor globular clusters, without current LRD counterparts to the metal-rich population. If LRDs are globular clusters in formation, we predict chemical abundance patterns characteristic of multiple stellar populations, including enhanced He and N, and potential Na-O and Al-Mg anti-correlations. These results offer a local perspective to explore this surprisingly abundant population of distant sources, and a potential new window into extreme stellar astrophysics in the early Universe.}",
+      "existing_tags": "early universe, exotic physics, non-agn, sed, starburst",
+      "year": "2026",
+      "authors": "[Person('{Chisholm}, John'), Person('{Berg}, Danielle A.'), Person('{Boylan-Kolchin}, Michael'), Person('{de Graaf}, Anna'), Person('{Furtak}, Lukas J.'), Person('{Kokorev}, Vasily'), Person('{Matthee}, Jorryt'), Person('{Mu{\\\\textasciitilde n}oz}, Julian B.'), Person('{Naidu}, Rohan P.'), Person('{Sander}, Andreas A. C.')]",
+      "relevance_score": 8.8,
+      "justification": "This paper receives a high score because it presents a revolutionary alternative to the dominant AGN interpretation of LRDs, proposing they are forming globular clusters. It provides detailed physical modeling, quantitative predictions for chemical abundances, and connects high-redshift observations to local populations, offering testable predictions that could fundamentally change our understanding of both LRDs and globular cluster formation.",
+      "key_factors": [
+        "Challenges AGN paradigm with globular cluster formation model",
+        "Predicts specific chemical signatures (He, N, Na-O, Al-Mg anticorrelations)",
+        "Connects z~5-7 LRDs to present-day globular clusters",
+        "Quantitative predictions for mass functions and number densities",
+        "Addresses the AGN vs starburst debate directly"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely focused on LRDs, proposing a revolutionary alternative to the dominant AGN interpretation by suggesting they are globular clusters in formation. This represents the highest possible relevance to core LRD research questions."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "While the paper references JWST discoveries and spectral profiles, it is primarily theoretical in nature. It does not develop new observational techniques or data analysis methods, focusing instead on reinterpreting existing observations through a novel physical framework."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Excellent detailed modeling of physical properties including supermassive stars (>10^4 M☉), stellar winds, mass functions, number densities (~0.3 Mpc^-3), and predicted chemical abundance patterns. Deducts one point as the abstract acknowledges current wind models do not fully capture observed temperatures and bolometric luminosities."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "Potentially paradigm-shifting work that could resolve the fundamental nature of LRDs and the AGN vs. starburst debate. Provides testable predictions for chemical signatures (enhanced He and N, Na-O and Al-Mg anti-correlations) and quantitatively connects high-redshift populations to local globular clusters. Deducts 0.5 pending observational verification of predictions."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs standard stellar evolutionary and mass-loss prescriptions with quantitative predictions for luminosity functions and mass distributions that evolve into present-day globular cluster mass functions. However, acknowledges significant model limitations regarding optically thick, continuum-driven winds, suggesting some methodological uncertainties require further theoretical development."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -8840,6 +8880,46 @@
       "notebooklm_recommendation": "Medium-High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260215929K",
+      "title": "{Supermassive black holes swallow stellar objects at high rates: from Little Red Dots to Black Hole Stars}",
+      "abstract": "{Supermassive black hole growth plausibly occurs via runaway astrophysical black hole mergers in nuclear star clusters that form intermediate mass black hole seeds at high redshifts. Such a model of Little Red Dots yields an order-of-magnitude higher rate of tidal disruption events than that of black hole captures. Our prediction, normalised to our proposed resolution of SMBH seeding, yields detectable TDE rates at high redshift. The resulting dense gas cocoons generate the nuclei of LRDs, each incorporating a central massive black-hole-star, with comparable masses in gas, stars, and massive black hole within a scale of around a parsec as inferred from the various spectral signatures.}",
+      "existing_tags": "black hole mass, early universe, heavy seed, theory",
+      "year": "2026",
+      "authors": "[Person('{Kritos}, Konstantinos'), Person('{Silk}, Joseph')]",
+      "relevance_score": 7.8,
+      "justification": "This paper receives a high score due to its direct theoretical focus on LRD origin, proposing a novel model connecting SMBH growth via runaway mergers to LRD properties. While purely theoretical with limited observational technique application, it makes testable predictions about TDE rates and spectral signatures that could significantly impact the field. The methodological rigor is difficult to fully assess from the abstract alone.",
+      "key_factors": [
+        "Direct LRD theoretical model",
+        "SMBH growth via runaway mergers",
+        "High-redshift TDE rate predictions",
+        "Parsec-scale gas-star-BH structure",
+        "Spectral signature predictions"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper places LRDs at its core, with explicit mention in title and abstract. It proposes a specific theoretical formation mechanism linking SMBH growth to LRD properties, demonstrating direct and central focus on LRD science."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "As a theoretical modeling paper, it does not employ observational data or specific techniques. However, it makes testable predictions for TDE rates and spectral signatures, providing some observational relevance."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The paper addresses key physical properties including mass ratios between gas, stars, and BH, parsec-scale spatial structure, and spectral signatures. However, it lacks detailed quantitative analysis and comparison with observed LRD properties."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The model offers a novel solution to LRD origin and SMBH seeding with significant potential to reshape understanding of early black hole growth. The high-impact claims are balanced by the need for observational validation."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "The abstract suggests a quantitative modeling framework normalized to SMBH seeding prescriptions, but provides insufficient detail on methods, assumptions, and validation to fully assess rigor. More information needed for thorough evaluation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...995...44E",
       "title": "{On the Fate of Little Red Dots}",
       "abstract": "{We study the stability and possible fates of little red dots (LRDs) under the stellar-only interpretation of their observational features. This is performed by a combination of analyzing the relevant timescales in their stellar dynamics and also the application of recent numerical results on the evolution of the densest stellar systems. We find that these objects typically have t$\\_{age}$ {\\ensuremath{\\sim}} t$\\_{coll}$ < t$\\_{relax}$ and are therefore in an unexplored regime never observed before for a stellar system and are potentially highly unstable to runaway collisions. We study different scenarios for the evolution of LRDs and conclude that in a fair fraction of those systems, the formation of a massive black hole (MBH) by runaway stellar collisions seems unavoidable, in all the possibilities studied within the stellar-only interpretation. This evolutionary path would naturally explain many of the problematic characteristics of Little Red Dots, including that these objects are probably transient in the history of the Universe, that most of them would not emit X-rays since they would not yet have become MBHs, and once they do, they would constitute a significant portion of the mass of LRDs. We conclude that LRDs are the most favorable known places to find a recently formed MBH seed or, in the process of formation, that are most probably formed directly within the supermassive range.}",
@@ -9726,6 +9806,45 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260215952B",
+      "title": "{Gas Accretion versus BH Merger driven Growth Modes of Supermassive Black Holes and Implications for the Little Red Dots}",
+      "abstract": "{We investigate the growth of central supermassive black holes in galaxies, aiming to distinguish between gas accretion versus BH merger-driven growth modes. By performing and analysing cosmological hydrodynamical simulations of $(50 \\textasciitilde\\ {\\rm Mpc})^3$ comoving boxes, we also study how the BH feedback parameters affect the coevolution between SMBHs and their host galaxies. Starting as $10^5 M\\_{\\odot}$ seeds, we find that the BHs grow initially via BH mergers to $\\sim 10^7 M\\_{\\odot}$. Gas accretion onto the BHs is initially low, then increases with time, and reaches the Eddington rate after $7-9$ Gyrs. The BHs then undergo very fast growth via efficient gas accretion over a period of $600 - 700$ Myr, when the BH mass increases $10^2 - 10^3$ times, causing their predominant growth from $10^7 M\\_{\\odot}$ to $(10^9 - 10^{10}) M\\_{\\odot}$. Taking into account the cosmological gas inflows and outflows, SMBHs do not grow to more than $10^{10} M\\_{\\odot}$ by $z=0$, because of gas depletion from galaxy centers driven by AGN feedback. In terms of SMBH - host galaxy coevolution along the $M\\_{\\rm BH} - M\\_{\\star}$ relation, we find that they initially lie below and thereby move upward toward the relation. We make some physical implications of the growth of high-$z$ Little Red Dots recently observed by JWST: the normal-mass SMBHs had predominantly undergone BH merger driven evolution, whereas the overmassive BHs underwent periods of Eddington-limited or super-Eddington bursts of gas accretion.}",
+      "existing_tags": "agn-dominated, black hole mass, simulation, super-eddington, theory",
+      "year": "2026",
+      "authors": "[Person('{Barai}, Paramita')]",
+      "relevance_score": 7.4,
+      "justification": "This simulation paper provides a crucial theoretical framework for interpreting LRD observations, distinguishing between merger-driven and accretion-driven growth modes. While it lacks observational data and detailed methodology, it directly addresses key LRD science questions with high potential impact.",
+      "key_factors": [
+        "Direct LRD implications",
+        "Distinguishes BH growth modes",
+        "Super-Eddington accretion",
+        "Theoretical framework for observations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "Title explicitly mentions LRDs and abstract provides specific physical implications for LRD populations, distinguishing normal-mass vs overmassive BHs. However, it's a theoretical simulation rather than direct observational study."
+        },
+        "observational_techniques": {
+          "score": 2.0,
+          "reasoning": "Pure simulation study with no observational data or techniques. Score reflects theoretical nature, though motivated by JWST observations."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Analyzes key BH properties (masses, growth rates, Eddington ratios) and host galaxy relations relevant to LRDs, but limited discussion of observational properties like colors or sizes."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses fundamental LRD question about growth mechanisms and AGN vs starburst nature. Provides testable predictions distinguishing LRD subpopulations."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "Employs standard cosmological hydrodynamical simulations, but abstract lacks details on resolution, subgrid physics, or model validation against observations."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024ApJ...976L..16M",
       "title": "{Probing the Origin of the Star Formation Excess Discovered by JWST through Gamma-Ray Bursts}",
       "abstract": "{The recent observations by the James Webb Space Telescope (JWST) have revealed a larger number of bright galaxies at z {\\ensuremath{\\gtrsim}} 10 than was expected. The origin of this excess is still under debate, although several possibilities have been presented. We propose that gamma-ray bursts (GRBs) are a powerful probe to explore the origin of the excess and, hence, the star and galaxy formation histories in the early universe. Focusing on the recently launched mission, Einstein Probe (EP), we find that EP can detect several GRBs annually at z {\\ensuremath{\\gtrsim}} 10, assuming the GRB formation rate calibrated by events at z {\\ensuremath{\\lesssim}} 6 can be extrapolated. Interestingly, depending on the excess scenarios, the GRB event rate may also show an excess at z ≃ 10, and its detection will help to discriminate between the scenarios that are otherwise difficult to distinguish. Additionally, we discuss that the puzzling, red-color, compact galaxies discovered by JWST, the so-called ``little red dots,'' could host dark GRBs if they are dust-obscured star-forming galaxies. We are eager for unbiased follow-up of GRBs and encourage future missions such as HiZ-GUNDAM to explore the early universe.}",
@@ -10567,9 +10686,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.28754789272032,
+    "average_score": 8.28428030303032,
     "median_score": 8.5,
-    "high_relevance_count": 250,
+    "high_relevance_count": 253,
     "moderate_relevance_count": 9,
     "low_relevance_count": 2
   }
