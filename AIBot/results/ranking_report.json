@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-20T06:20:48.106498",
-  "total_papers": 264,
-  "successfully_scored": 264,
+  "generated_at": "2026-02-21T06:12:23.483322",
+  "total_papers": 265,
+  "successfully_scored": 265,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -7913,6 +7913,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260217329J",
+      "title": "{MIDIS: The identification of deep MIRI-red sources as candidates for extreme Balmer-break and line emitting galaxies at high-z}",
+      "abstract": "{We investigate the detection and nature of 5.6\\raisebox{-0.5ex}\\textasciitilde{\\ensuremath{\\mu}}m MIRI-red sources in the MIRI Deep Imaging Survey (MIDIS), covering 2.4\\raisebox{-0.5ex}\\textasciitildearcmin$^2$ in the Hubble Ultra Deep Field. MIDIS is the deepest JWST/MIRI survey to date, probing faint limits and enabling studies of rare high-redshift galaxy populations. We define MIRI-red sources as those detected at 5$σ$ significance in MIRI/F560W with red colors: $m\\_{\\rm F444W} - m\\_{\\rm F560W} \\ge 0.5$. Using an empirical methodology, we estimate the purity and completeness of MIRI detections and find that a 5-sigma detection at 28.75 mag has a purity of 92\\textbackslash\\% and completeness of 54\\textbackslash\\%. We identify seven MIRI-red galaxy candidates, including an F115W dropout consistent with a high-redshift galaxy candidate. We explore possible physical origins for the MIRI-red population, including active galactic nuclei, dust-obscured galaxies, extreme emission-line galaxies, evolved stellar populations, and Little Red Dots (LRDs). Given the proximity of the F444W and F560W filters and the depth of MIDIS, MIRI-red galaxies are consistent with emission-line galaxies with $EW\\_0(Hα) \\ge 750$ {\\r{A}} or $EW\\_0(Hβ+ [OIII]) \\ge 600$ {\\r{A}}, or high-redshift Balmer breaks of at least 1.6. We also discuss an extreme MIRI- red galaxy undetected in F444W, a potential MIRI-only source, for which we derive $EW\\_0(Hα) \\sim 6000$ {\\r{A}} and $EW\\_0(Hβ+ [OIII]) \\sim 4000$ {\\r{A}}, or high-$z$ LRD analogs with Balmer breaks of 6.3. Finally, we find fewer MIRI-red detections than expected from extrapolations of the H$α$ or H$β$+[OIII] line luminosity functions, consistent with previous deep searches, while the absence of $z>10$ LRD candidates agrees with theoretical expectations for the MIDIS volume.}",
+      "existing_tags": "early universe, emission lines, jwst, photometry, sed",
+      "year": "2026",
+      "authors": "[Person('{Jermann}, I.'), Person('{Brammer}, G.'), Person('{Gillman}, S.'), Person('{Greve}, T. R.'), Person('{Boogaard}, L. A.'), Person('{Melinder}, J.'), Person('{Meyer}, R. A.'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, P. G.\"), Person('{Rinaldi}, P.'), Person('{Colina}, J. L.'), Person('{{\\\\\"O}stlin}, G.'), Person('{Wright}, G.'), Person(\"{{\\\\'A}lvarez-M{\\\\'a}rquez}, J.\"), Person('{Bik}, A.'), Person('{Caputi}, K. I.'), Person(\"{Crespo G{\\\\'o}mez}, A.\"), Person('{Costantin}, L.'), Person('{Hjorth}, J.'), Person('{Iani}, E.'), Person('{Kendrew}, S.'), Person('{Labiano}, A.'), Person('{Langeroodi}, D.'), Person('{Peissker}, F.'), Person(\"{Prieto-Jim{\\\\'e}nez}, C.\"), Person('{Pye}, J. P.'), Person('{Tikkanen}, T. V.'), Person('{Walter}, F.'), Person('{van der Werf}, P.'), Person('{Henning}, T.'), Person('{Shuntov}, M.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper receives a high score due to its explicit and direct focus on LRDs as a primary science target, utilization of the deepest JWST/MIRI data available, and robust empirical methodology. While exploratory in physical classification and limited by sample size, it provides critical observational constraints that directly inform LRD theoretical expectations and selection strategies.",
+      "key_factors": [
+        "JWST MIRI deep survey (MIDIS)",
+        "Explicit LRD population discussion and analogs",
+        "Extreme emission line/Balmer break quantification",
+        "Empirical purity/completeness estimates",
+        "Constraints on high-z LRD candidate space"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly identifies 'Little Red Dots (LRDs)' as a primary physical origin for MIRI-red sources, discusses 'high-z LRD analogs' with extreme Balmer breaks (6.3), and directly compares findings to theoretical LRD expectations for the MIDIS volume. This represents direct, substantive engagement with LRD science rather than tangential relevance."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Employs the deepest JWST/MIRI survey to date (MIDIS) with robust selection criteria (5σ detection, color cut m_F444W - m_F560W ≥ 0.5). Demonstrates state-of-the-art methodology by empirically estimating purity (92%) and completeness (54%) for MIRI detections down to 28.75 mag, providing reliable sample statistics."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "Quantifies extreme emission line equivalent widths (EW_0(Hα) ~6000Å, EW_0(Hβ+[OIII]) ~4000Å) and Balmer breaks (1.6-6.3) that are characteristic of LRDs. However, the analysis remains exploratory, considering multiple scenarios (AGN, dust-obscured galaxies, emission-line galaxies) without definitive classification of the LRD nature."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Provides significant constraints on high-z galaxy populations by finding fewer MIRI-red detections than predicted from line luminosity function extrapolations, and reports no z>10 LRD candidates, which critically informs theoretical models. Impact is strong but tempered by small sample size (7 candidates) and exploratory classification."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs empirical methodology for purity/completeness estimation with clear, reproducible selection criteria. Discusses limitations and potential contaminants. The approach is solid and well-documented, though the abstract lacks detailed discussion of systematic uncertainties or independent validation procedures."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024arXiv240913441F",
       "title": "{Searching For JWST's Little Red Dots}",
       "abstract": "{Recent observations by the James Webb Space Telescope (JWST) have revealed a previously hidden population of extremely bright and compact objects between redshifts of $z \\sim 4$ and $z \\sim 10$. Given their extreme red colouring in the observed frame these galaxies have been dubbed Little Red Dots (LRDs). The aim of this project was to identify LRDs using photometric data from previously uninvestigated JWST datasets and to estimate their AGN fractions by fitting the spectral energy distribution of each galaxy against well calibrated templates using CIGALE. We identified a list of potential LRDs using a single colour cut of F444W-F277W $>$1.5 mag and by applying a morphological analysis. We used EAZY to estimate the (photometric) redshift and CIGALE to estimate the AGN fraction of each LRD. Overall, we identified 14 LRDs, applying accurate SED fits to 11 of them. We found that 7 of them had a high AGN fraction (with the AGN component generating more than 50\\textbackslash\\% of the observed flux), a further two LRDs had AGN contribution in excess of approximately 40\\textbackslash\\%. In total nine LRDs (our of 14) are likely to have a supermassive black hole in their centre. Interestingly, the three LRDs which could not be well fit by CIGALE displayed extremely high photometric redshifts ($z\\_{phot} rsim 11$) and require further analysis (and may also host a supermassive black hole in their centre).}",
@@ -10686,9 +10726,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.28428030303032,
+    "average_score": 8.28396226415096,
     "median_score": 8.5,
-    "high_relevance_count": 253,
+    "high_relevance_count": 254,
     "moderate_relevance_count": 9,
     "low_relevance_count": 2
   }
