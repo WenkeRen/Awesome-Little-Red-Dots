@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-21T06:12:23.483322",
-  "total_papers": 265,
-  "successfully_scored": 265,
+  "generated_at": "2026-02-24T06:23:48.038542",
+  "total_papers": 267,
+  "successfully_scored": 267,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -3302,6 +3302,48 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs state-of-the-art radiation magnetohydrodynamic simulations, compares multiple theoretical models against observational constraints, and makes quantitative predictions with statistical significance. The methodology is sophisticated, well-justified, and directly comparable to observational data."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026NatAs.tmp...41Z",
+      "title": "{The composite spectrum of little red dots from a standard inner disk and an unstable outer disk}",
+      "abstract": "{The James Webb Space Telescope has revealed a new class of high- redshift, very red, compact broad-line sources, termed `little red dots' (LRDs). The physical mechanism driving these properties remains elusive. Here we construct spectral energy distributions with a spectroscopic redshift for 28 LRDs, finding that they have V-shaped SEDs with a common break frequency of {\\ensuremath{\\nu}}$\\_{b}$ {\\ensuremath{\\approx}} 10$^{14.96{\\ensuremath{\\pm}}0.06}$ Hz. We propose that these unique SEDs can be explained well by the combination of an inner standard disk and an outer gravitationally unstable accretion disk with Toomre parameter Q {\\ensuremath{\\approx}} 1. The outer disk has a temperature of \\raisebox{-0.5ex}\\textasciitilde2,000-4,000 K and mainly radiates in near-infrared-to-optical wavebands. The composite spectrum from this model naturally explains the V-shaped continuum and reproduces the intrinsically luminous infrared-to- optical emission without requiring extreme dust extinction or unusual stellar populations. Even when we considered possible dense gas around the disk to account for pronounced Balmer breaks in some LRDs, the intrinsic optical-to-ultraviolet emission is suppressed by factors of only {\\ensuremath{\\lesssim}}2-3, which indicates that most LRDs are sub-Eddington and intrinsically weak. These results provide new insights into early-phase black hole growth and galaxy evolution.}",
+      "existing_tags": "composite, early universe, jwst, sed, theory",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Chenxuan'), Person('{Wu}, Qingwen'), Person('{Fan}, Xiao'), Person('{Ho}, Luis C.'), Person('{Wu}, Jiancheng'), Person('{Zhang}, Huanian'), Person('{Lyu}, Bing'), Person('{Cao}, Xinwu'), Person('{Wang}, Jianmin')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is a high-priority LRD study that directly addresses the physical nature of these enigmatic sources through sophisticated SED modeling of a substantial spectroscopic sample. The proposed two-component disk model provides a compelling explanation for the unique V-shaped SEDs and has significant implications for understanding early black hole growth, meriting strong attention from the LRD research community.",
+      "key_factors": [
+        "JWST spectroscopic data",
+        "28 LRD sample with SEDs",
+        "Novel two-component disk model (inner standard + outer unstable disk)",
+        "Quantitative physical parameters (break frequency, temperatures, Q parameter)",
+        "Addresses AGN vs starburst nature",
+        "Sub-Eddington findings",
+        "Resolves V-shaped SED puzzle"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is exclusively focused on LRDs, constructing SEDs for a sample of 28 objects and proposing a specific physical model to explain their unique properties. The title and abstract are entirely LRD-centric."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "The paper constructs SEDs using spectroscopic redshifts for a substantial sample of 28 LRDs, leveraging JWST data. While it doesn't detail observational procedures, it applies appropriate techniques for SED modeling and analysis."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper derives multiple key physical properties including SED shapes, break frequencies, disk temperatures, gravitational stability parameters, and Eddington ratios. It provides detailed modeling of the composite spectrum with quantitative constraints."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The paper addresses a fundamental open question about LRD physical mechanisms, proposes a novel two-component disk model that explains key observational features, and provides new insights into black hole growth at high redshift. The findings could significantly impact understanding of early galaxy evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The study uses a reasonable sample of 28 spectroscopically-confirmed LRDs, provides quantitative modeling with error estimates, considers alternative scenarios, and presents a physically-motivated model. However, more detail on sample selection and potential biases would strengthen the methodology."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -8195,6 +8237,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026JHEAp..5200576W",
+      "title": "{Growth of high-redshift quasars from fermion dark matter seeds}",
+      "abstract": "{Quasars hosting {\\ensuremath{\\gtrsim}} {}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$ black holes at z > 6 challenge growth scenarios that start from light seeds and assume accretion within already formed galaxies. Motivated by the James Webb Space Telescope (JWST) discovery of Little Red Dots (LRDs), which suggests that {\\ensuremath{\\sim}} {}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$ black holes can be active in compact, pre-galactic environments, we revisit early black hole growth with a minimal cosmology-based framework. We model the accretion history as the smaller of the Bondi inflow rate and the Eddington-limited rate, where the Bondi rate is set by the supply of overdense primordial gas whose density declines with cosmic expansion, and the Eddington rate captures regulation by radiative feedback. By fitting the observed masses and luminosities of J0313─1806 (<mml:math><mml:mrow><mml:mi>z</mml:m i><mml:mo>=</mml:mo><mml:mn>7.64</mml:mn></mml:mrow></mml:math>) and J0100+2802 (<mml:math><mml:mrow><mml:mi>z</mml:mi><mml:mo>=< /mml:mo><mml:mn>6.30</mml:mn></mml:mrow></mml:math>) with Bayesian inference, we infer initial conditions that favor massive seed black holes with initial mass M$\\_{0}$ {\\ensuremath{\\sim}} {}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$, formed at <mml:math><mml:mrow><mml:mi>z</mml:mi><mml:mo>{\\ensure math{\\sim}}</mml:mo><mml:mn>20</mml:mn><mml:mo>{\\ensuremath{-}}< /mml:mo><mml:mn>30</mml:mn></mml:mrow></mml:math> in environments with baryonic overdensity factors f$\\_{{\\ensuremath{\\rho}}}$ {\\ensuremath{\\gtrsim}} 50 relative to the cosmic mean. The resulting growth histories include a prolonged supply-limited stage, and they reproduce the observed quasar masses without requiring sustained Eddington accretion or any super-Eddington episodes. The inferred seed mass scale is consistent with black holes produced by the collapse of quantum- degenerate fermion dark matter cores, providing a physically defined pathway to massive seeds at the redshifts implied by LRD phenomenology.}",
+      "existing_tags": "black hole mass, early universe, exotic physics, heavy seed, theory",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Yu'), Person('{Ruffini}, Remo')]",
+      "relevance_score": 8.1,
+      "justification": "This paper receives a high score due to its explicit central motivation from JWST LRD discoveries and direct engagement with ~10^6 M_sun black holes in pre-galactic environments. It provides a physically motivated theoretical framework connecting LRD phenomenology to massive seed formation via fermion dark matter collapse, constrained by Bayesian analysis of observed high-z quasars. While lacking new observational data and involving speculative physics, its direct relevance to LRD science questions and potential to resolve the rapid black hole growth problem make it highly significant for the field.",
+      "key_factors": [
+        "Explicitly motivated by JWST LRD discovery",
+        "Addresses ~10^6 M_sun black holes in pre-galactic environments",
+        "Provides massive seed formation mechanism (fermion dark matter)",
+        "Uses Bayesian inference against observed high-z quasars",
+        "Connects LRD phenomenology to early black hole growth problem"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly and centrally motivated by JWST LRD discoveries, directly addressing the ~10^6 M_sun black holes in pre-galactic environments that define LRD phenomenology. LRDs are not merely cited but serve as the primary observational constraint for the theoretical framework, making this highly relevant to LRD science."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "The paper does not present new observational data or develop novel observational techniques specific to LRDs. It employs existing quasar observations for Bayesian model fitting, but remains fundamentally theoretical rather than observational in nature."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Provides detailed modeling of key LRD-relevant physical properties including seed masses (~10^6 M_sun), formation redshifts (z~20-30), accretion rates, and growth histories. Connects LRD phenomenology to specific physical mechanisms (fermion dark matter core collapse) and environmental densities (overdensity factor >50)."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Addresses the fundamental problem of rapid supermassive black hole growth at high redshift, offering a novel solution that could simultaneously explain both LRDs and z>6 quasars. The fermion dark matter seed mechanism, if validated, would have major implications, though the exotic physics remains speculative and requires further theoretical and observational testing."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs Bayesian inference to constrain model parameters against observational data, with physically motivated accretion physics (Bondi vs. Eddington). However, some foundational assumptions (fermion dark matter properties) are highly speculative and not directly testable with current data, and the model simplifies complex baryonic physics."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...986..130G",
       "title": "{Another Piece to the Puzzle: Radio Detection of a JWST-detected Active Galactic Nucleus Candidate}",
       "abstract": "{Radio observations can provide crucial insight into the nature of a new abundant and mysterious population of dust-reddened active galactic nuclei (AGN) candidates discovered by the James Webb Space Telescope (JWST), including ``Little Red Dots.'' In this study, we search for radio bright sources in a large sample of {\\ensuremath{\\sim}}700 JWST-discovered AGN candidates (z {\\ensuremath{\\sim}} 2{\\textendash}11) in the 0.144{\\textendash}3 GHz frequency range, utilizing deep radio imaging in the Cosmic Evolution Survey and Great Observatories Origins Deep Survey North and South. Only one source, PRIMER-COS 3866 at z = 4.66, is significantly detected in our radio surveys, which has been previously identified as an X-ray AGN. Its radio properties are consistent with both an AGN and star formation origin with a spectral index of <inline-formula> <mml:math><mml:mi>{\\ensuremat h{\\alpha}}</mml:mi><mml:mo>=</mml:mo><mml:mo>‑</mml:mo><mml:mn>0 .7</mml:mn><mml:msubsup><mml:mrow><mml:mn>6</mml:mn></mml:mrow>< mml:mrow><mml:mo>‑</mml:mo><mml:mn>0.09</mml:mn></mml:mrow><mml: mrow><mml:mo>+</mml:mo><mml:mn>0.11</mml:mn></mml:mrow></mml:msu bsup></mml:math> </inline-formula>, radio-loudness of R {\\ensuremath{\\approx}} 0.5, and brightness temperature limit of T$\\_{b}$ {\\ensuremath{\\gtrsim}} {}10$^{3}$ K. Our stacking results of both spectroscopically and photometrically selected AGN candidates yield nondetections in all fields, with 3{\\ensuremath{\\sigma}} limits of L$\\_{1.4 GHz}$ < 8.6 {\\texttimes} {}10$^{39}$ erg s$^{‑1 }$(spectroscopic sample) and L$\\_{1.3 GHz}$ < 1.3 {\\texttimes} {}10$^{39}$ erg s$^{‑1}$ (photometric sample). We demonstrate that these results are still consistent with expectations from the empirical L$\\_{X}${\\textendash}L$\\_{H{\\ensuremath{\\alpha}}}$ and L$\\_{X}${\\textendash}L$\\_{R}$ correlations established for local AGN. We argue that current radio observations in these studied fields have insufficient depth to claim JWST-discovered AGN candidates are radio weak. We project that future surveys carried out by the Square Kilometer Array and Next Generation Very Large Array should be able to obtain significant detections within a few hours, providing crucial measurements of their brightness temperature, which would allow for distinguishing between AGN and starburst-driven origins of this new abundant population.}",
@@ -10726,9 +10808,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.28396226415096,
+    "average_score": 8.284831460674173,
     "median_score": 8.5,
-    "high_relevance_count": 254,
+    "high_relevance_count": 256,
     "moderate_relevance_count": 9,
     "low_relevance_count": 2
   }

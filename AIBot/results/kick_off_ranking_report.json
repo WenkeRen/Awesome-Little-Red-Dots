@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-21T06:12:25.388541",
-  "total_papers": 134,
-  "successfully_scored": 134,
+  "generated_at": "2026-02-24T06:26:07.592938",
+  "total_papers": 135,
+  "successfully_scored": 135,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -2840,6 +2840,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides the key theoretical mechanism for LRD rapid growth phase that should be integrated into any comprehensive LRD synthesis, particularly for explaining how compact red sources can host rapidly growing BHs."
     },
     {
+      "bibtex_key": "2024ApJ...961L..39S",
+      "title": "{Which Came First: Supermassive Black Holes or Galaxies? Insights from JWST}",
+      "abstract": "{Insights from JWST observations suggest that active galactic nuclei feedback evolved from a short-lived, high-redshift phase in which radiatively cooled turbulence and/or momentum-conserving outflows stimulated vigorous early star formation (``positive'' feedback), to late, energy-conserving outflows that depleted halo gas reservoirs and quenched star formation. The transition between these two regimes occurred at z {\\ensuremath{\\sim}} 6, independently of galaxy mass, for simple assumptions about the outflows and star formation process. Observational predictions provide circumstantial evidence for the prevalence of massive black holes at the highest redshifts hitherto observed, and we discuss their origins.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Silk}, Joseph'), Person('{Begelman}, Mitchell C.'), Person('{Norman}, Colin'), Person('{Nusser}, Adi'), Person('{Wyse}, Rosemary F. G.')]",
+      "relevance_score": 8.1,
+      "justification": "This paper scores highly due to strong LRD community adoption (lrdIndex=10) and provision of a specific evolutionary framework for BH-galaxy coevolution at z~6. It offers testable predictions and physical mechanisms that go beyond textbook AGN physics, making it essential for interpreting LRD observations within a cosmic evolutionary context.",
+      "key_factors": [
+        "lrdIndex=10",
+        "JWST high-z relevance",
+        "z~6 transition framework",
+        "Feedback mode evolution",
+        "BH-galaxy coevolution timeline"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "Directly addresses JWST high-z observations and BH-galaxy coevolution at z~6, core LRD territory. Physical processes (feedback modes, outflows) are directly applicable to interpreting LRD nature, confirmed by lrdIndex=10."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 meets kick_off threshold, indicating strong community adoption and essential framework referenced across multiple independent LRD studies."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides specific evolutionary framework with z~6 transition and testable predictions beyond textbook AGN physics. Offers concrete timeline for BH-galaxy coevolution, giving LRD researchers a working model rather than generalities."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Applies specific physical models (momentum-conserving outflows, radiatively cooled turbulence) to JWST-era data. Integration into evolutionary framework represents methodological advancement for LRD analysis."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Excels at placing high-z AGN in cosmic evolutionary context with specific timeline. The z~6 transition provides key reference point for understanding LRDs' role in early structure formation."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2023ApJS..268...64W",
       "title": "{JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS}",
       "abstract": "{We present JWST Extragalactic Medium-band Survey, the first public medium-band imaging survey carried out using JWST/NIRCam and NIRISS. These observations use \\raisebox{-0.5ex}\\textasciitilde2 and \\raisebox{-0.5ex}\\textasciitilde4 {\\ensuremath{\\mu}}m medium-band filters (NIRCam F182M, F210M, F430M, F460M, F480M; and NIRISS F430M and F480M in parallel) over 15.6 arcmin$^{2}$ in the Hubble Ultra Deep Field (UDF), thereby building on the deepest multiwavelength public data sets available anywhere on the sky. We describe our science goals, survey design, NIRCam and NIRISS image reduction methods, and describe our first data release of the science-ready mosaics, which reach 5{\\ensuremath{\\sigma}} point-source limits (AB mag) of \\raisebox{-0.5ex}\\textasciitilde29.3-29.4 in 2 {\\ensuremath{\\mu}}m filters and \\raisebox{-0.5ex}\\textasciitilde28.2-28.7 at 4 {\\ensuremath{\\mu}}m. Our chosen filters create a JWST imaging survey in the UDF that enables novel analysis of a range of spectral features potentially across the redshift range of 0.3 < z < 20, including Paschen-{\\ensuremath{\\alpha}}, H{\\ensuremath{\\alpha}}+[N II], and [O III]+H{\\ensuremath{\\beta}} emission at high spatial resolution. We find that our JWST medium-band imaging efficiently identifies strong line emitters (medium-band colors >1 mag) across redshifts 1.5 < z < 9.3, most prominently H{\\ensuremath{\\alpha}}+[N II] and [O III]+H{\\ensuremath{\\beta}}. We present our first data release including science-ready mosaics of each medium-band image available to the community, adding to the legacy value of past and future surveys in the UDF. This survey demonstrates the power of medium-band imaging with JWST, informing future extragalactic survey strategies using JWST observations.}",
@@ -5508,9 +5549,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.964179104477612,
+    "average_score": 7.9651851851851845,
     "median_score": 8.1,
-    "critical_count": 91,
+    "critical_count": 92,
     "high_value_count": 40,
     "moderate_value_count": 2,
     "low_priority_count": 1
