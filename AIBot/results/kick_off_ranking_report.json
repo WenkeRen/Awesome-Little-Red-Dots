@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-24T06:26:07.592938",
-  "total_papers": 135,
-  "successfully_scored": 135,
+  "generated_at": "2026-02-25T06:23:45.083809",
+  "total_papers": 136,
+  "successfully_scored": 136,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -5303,6 +5303,47 @@
       "notebooklm_recommendation": "Critical infrastructure reference for NotebookLM - essential for understanding JWST capabilities underlying LRD discoveries"
     },
     {
+      "bibtex_key": "2024ApJ...965L...6B",
+      "title": "{The Next Generation Deep Extragalactic Exploratory Public (NGDEEP) Survey}",
+      "abstract": "{We present the Next Generation Deep Extragalactic Exploratory Public (NGDEEP) Survey, a deep slitless spectroscopic and imaging Cycle 1 JWST treasury survey designed to constrain feedback mechanisms in low-mass galaxies across cosmic time. NGDEEP targets the Hubble Ultra Deep Field (HUDF) with NIRISS slitless spectroscopy ( ${f}\\_{\\mathrm{lim},\\mathrm{line},5\\sigma }\\approx 1.2\\,\\times \\,$ 10$^{‑18}$ erg s$^{‑1}$ cm$^{‑2}$) to measure metallicities and star formation rates (SFRs) for low-mass galaxies through the peak of the cosmic SFR density (0.5 < z < 4). In parallel, NGDEEP targets the HUDF-Par2 parallel field with NIRCam ( ${m}\\_{\\mathrm{lim},5\\sigma }=30.6-30.9$ ) to discover galaxies to z > 12, constraining the slope of the faint end of the rest- ultraviolet luminosity function. NGDEEP overlaps with the deepest HST Advanced Camera for Surveys optical imaging in the sky, F435W in the HUDF ( ${m}\\_{\\mathrm{lim},{\\rm{F}}435{\\rm{W}}}=29.6$ ) and F814W in HUDF-Par2 ( ${m}\\_{\\mathrm{lim},{\\rm{F}}814{\\rm{W}}}=30$ ), making this a premier HST+JWST deep field. As a treasury survey, NGDEEP data are public immediately, and we will rapidly release data products and catalogs in the spirit of previous deep-field initiatives. In this paper we present the NGDEEP survey design, summarize the science goals, and detail plans for the public release of NGDEEP reduced data products.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Bagley}, Micaela B.'), Person('{Pirzkal}, Nor'), Person('{Finkelstein}, Steven L.'), Person('{Papovich}, Casey'), Person('{Berg}, Danielle A.'), Person('{Lotz}, Jennifer M.'), Person('{Leung}, Gene C. K.'), Person('{Ferguson}, Henry C.'), Person('{Koekemoer}, Anton M.'), Person('{Dickinson}, Mark'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kocevski}, Dale D.'), Person('{Somerville}, Rachel S.'), Person('{Yung}, L. Y. Aaron'), Person('{Backhaus}, Bren E.'), Person('{Casey}, Caitlin M.'), Person('{Castellano}, Marco'), Person(\"{Ch{\\\\'a}vez Ortiz}, {\\\\'O}scar A.\"), Person('{Chworowsky}, Katherine'), Person('{Cox}, Isabella G.'), Person(\"{Dav{\\\\'e}}, Romeel\"), Person('{Davis}, Kelcey'), Person('{Estrada-Carpenter}, Vicente'), Person('{Fontana}, Adriano'), Person('{Fujimoto}, Seiji'), Person('{Gardner}, Jonathan P.'), Person('{Giavalisco}, Mauro'), Person('{Grazian}, Andrea'), Person('{Grogin}, Norman A.'), Person('{Hathi}, Nimish P.'), Person('{Hutchison}, Taylor A.'), Person('{Jaskot}, Anne E.'), Person('{Jung}, Intae'), Person('{Kewley}, Lisa J.'), Person('{Kirkpatrick}, Allison'), Person('{Larson}, Rebecca L.'), Person('{Matharu}, Jasleen'), Person('{Natarajan}, Priyamvada'), Person('{Pentericci}, Laura'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Ravindranath}, Swara'), Person('{Rothberg}, Barry'), Person('{Ryan}, Russell'), Person('{Shen}, Lu'), Person('{Simons}, Raymond C.'), Person('{Snyder}, Gregory F.'), Person('{Trump}, Jonathan R.'), Person('{Wilkins}, Stephen M.')]",
+      "relevance_score": 7.2,
+      "justification": "NGDEEP scores 7.2/10 as essential observational infrastructure for LRD research, validated by strong community adoption (lrdIndex=10). While lacking theoretical innovation or explicit LRD discussion, its methodological value—deep public JWST spectroscopy and imaging targeting low-mass galaxy feedback—provides critical practical resources that extend beyond generic survey knowledge.",
+      "key_factors": [
+        "lrdIndex=10",
+        "JWST NIRISS slitless spectroscopy",
+        "Public data release",
+        "HUDF deep field",
+        "Low-mass galaxy feedback focus"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "While the abstract does not explicitly mention 'Little Red Dots,' the NGDEEP survey provides the direct observational substrate for LRD research: deep JWST NIRISS slitless spectroscopy and NIRCam imaging of the HUDF. The lrdIndex=10 confirms active usage by LRD researchers for source identification and characterization. However, the lack of explicit LRD science drivers or results in the paper limits the directness of the connection."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=10 represents substantial citation frequency in the nascent LRD field (post-2022). This places NGDEEP among the most frequently referenced observational programs, indicating it serves as a primary data source rather than peripheral background. The score reflects strong community validation of its practical utility."
+        },
+        "foundational_value": {
+          "score": 6.0,
+          "reasoning": "The paper offers observational infrastructure, not theoretical breakthrough. LRD researchers already understand JWST deep survey principles; the unique value is specific implementation: depth limits (flim,line,5σ≈1.2×10⁻¹⁸ erg s⁻¹ cm⁻²), immediate public release, and HUDF overlap. It does not advance black hole accretion physics or AGN theory beyond established frameworks."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "Innovation lies in the survey architecture and data delivery, not technique novelty. The combination of NIRISS slitless spectroscopy for low-mass galaxies (0.5<z<4) with NIRCam imaging for z>12 discovery, overlapping deepest HST imaging, creates a unique dataset. For LRD research, the critical methodological contribution is the public release of reduced products optimized for faint, compact source detection—a practical template for LRD host galaxy analysis."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "The survey design provides broad redshift leverage (spectroscopy to z~4, imaging to z>12) that contextualizes LRDs (z~4-8) within cosmic evolution. Its explicit focus on feedback mechanisms in low-mass galaxies directly addresses LRD host environments and black hole-galaxy coevolution at cosmic dawn. However, as a design paper, it presents potential rather than delivered evolutionary constraints."
+        }
+      },
+      "notebooklm_recommendation": "Essential infrastructure reference for NotebookLM - include for observational context and data source identification"
+    },
+    {
       "bibtex_key": "2023ApJ...946L..16P",
       "title": "{CEERS Key Paper. IV. A Triality in the Nature of HST-dark Galaxies}",
       "abstract": "{The new capabilities that JWST offers in the near- and mid-infrared (IR) are used to investigate in unprecedented detail the nature of optical/near-IR-faint, mid-IR-bright sources, with HST-dark galaxies among them. We gather JWST data from the CEERS survey in the Extended Groth Strip, jointly with HST data, and analyze spatially resolved optical-to-mid-IR spectral energy distributions to estimate photometric redshifts in two dimensions and stellar population properties on a pixel-by-pixel basis for red galaxies detected by NIRCam. We select 138 galaxies with F150W ‑ F356W > 1.5 mag and F356W < 27.5 mag. The nature of these sources is threefold: (1) 71\\% are dusty star- forming galaxies (SFGs) at 2 < z < 6 with and a variety of specific SFRs (<1 to >100 Gyr$^{‑1}$); (2) 18\\% are quiescent/dormant (i.e., subject to reignition/rejuvenation) galaxies (QGs) at 3 < z < 5, with and poststarburst mass- weighted ages (0.5{\\textendash}1.0 Gyr); and (3) 11\\% are strong young starbursts with indications of high equivalent width emission lines (typically, [O III]+H{\\ensuremath{\\beta}}) at 6 < z < 7 (XELG-z6) and . The sample is dominated by disk-like galaxies with remarkable compactness for XELG-z6 (effective radii smaller than 0.4 kpc). Large attenuations in SFGs, 2 < A(V) < 5 mag, are found within 1.5 times the effective radius, approximately 2 kpc, while QGs present A(V) {\\ensuremath{\\sim}} 0.2 mag. Our SED-fitting technique reproduces the expected dust emission luminosities of IR-bright and submillimeter galaxies. This study implies high levels of star formation activity between z {\\ensuremath{\\sim}} 20 and z {\\ensuremath{\\sim}} 10, where virtually 100\\% of our galaxies had already formed {}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$, 60\\% had assembled {}10$^{9}$ M $\\_{{\\ensuremath{\\odot}}}$, and 10\\% up to {}10$^{10}$ M $\\_{{\\ensuremath{\\odot}}}$ (in situ or ex situ).}",
@@ -5549,10 +5590,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.9651851851851845,
+    "average_score": 7.959558823529412,
     "median_score": 8.1,
     "critical_count": 92,
-    "high_value_count": 40,
+    "high_value_count": 41,
     "moderate_value_count": 2,
     "low_priority_count": 1
   }
