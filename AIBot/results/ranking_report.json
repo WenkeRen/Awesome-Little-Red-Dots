@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-25T06:21:38.142354",
-  "total_papers": 267,
-  "successfully_scored": 267,
+  "generated_at": "2026-02-26T06:24:51.334962",
+  "total_papers": 269,
+  "successfully_scored": 269,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -992,6 +992,48 @@
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260220247P",
+      "title": "{Little Red Dots: One Photometric Tag Concealing Diverse Spectroscopic Flavors of Massive Star Formation and Black Hole Activity}",
+      "abstract": "{We compile JWST/NIRSpec prism and MIRI data for 249 Little Red Dots (LRDs) at $2.3<z<9.3$, forming a representative spectroscopic subset of NIRCam-selected LRDs. We derive a median stacked spectrum covering rest-frame 0.09-1.2 $μ$m, with MIRI photometry extending the spectral energy distribution to 4 $μ$m. Four additional stacks for subsamples defined by optical-to-UV luminosity ratios show that LRDs form a heterogeneous population spanning diverse continuum slopes and line properties. Assuming LRDs host super-massive black holes (BHs) surrounded by dense gas clouds, and stars accompany this core, we infer masses of $M \\_{BH}\\sim10^{6.0-6.5}$\\raisebox{-0.5ex}\\textasciitildeM$\\_\\odot$ and $M\\_\\bigstar\\sim10^{8.3}$ M$\\_\\odot$, corresponding to BH-to- stellar mass ratios of 1-2\\%. The stacks show ubiquitous UV and optical FeII emission, indicating a direct view of the broad- line region and high (but sub-Eddington) accretion ($λ\\_{Edd}=0.6\\pm0.2$). We find a significant stellar contribution in the far-UV, reaching $\\sim80$\\% in the bluest systems. Possible Wolf-Rayet features (HeII$λ$4687, nitrogen lines) are identified, tracing a young (3-7 Myr) compact starburst event. We also detect strong Balmer breaks and atypical Balmer, Paschen, [OIII], and optical and near-infrared HeI line ratios, and an absorption at $\\sim4550$ Angstrom (probably linked to FeII), all consistent with radiative- transfer effects in high-density gas with warm temperatures (4000-7000 K). We find a diversity of LRD flavors modulated by the luminosity ratio between between a short ($\\lesssim20$ Myr) and intense phase of BH activity, the most extreme stage lasting $\\sim3-7$ Myr, characterized by near-Eddington-limit radiation, and a nuclear and compact starburst dominated by massive stars (even super-massive, $\\mathrm{M}\\_\\mathrm{SMS}\\sim10^{5}$ M$\\_\\odot$), all embedded in dense gas with modest dust content producing a variety of optical depths.}",
+      "existing_tags": "black hole mass, composite, jwst, spectroscopy, starburst",
+      "year": "2026",
+      "authors": "[Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Barro}, Guillermo'), Person('{Carniani}, Stefano'), Person(\"{D'Eugenio}, Francesco\"), Person('{Rieke}, George H.'), Person('{Tripodi}, Roberta'), Person('{Bunker}, Andrew J.'), Person('{Ji}, Xihan'), Person('{Marques-Chaves}, Rui'), Person('{Schaerer}, Daniel'), Person('{Venturi}, Giacomo'), Person(\"{Ar{\\\\'e}valo-Gonz{\\\\'a}lez}, Flor\"), Person('{Arribas}, Santiago'), Person('{Rinaldi}, Pierluigi'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{Witstok}, Joris'), Person('{Bhatawdekar}, Rachana'), Person('{Boogaard}, Leindert A.'), Person('{Charlot}, Stephane'), Person('{Chevallard}, Jacopo'), Person('{Costantin}, Luca'), Person('{Curti}, Mirko'), Person('{Curtis-Lake}, Emma'), Person('{Daddi}, Emanuele'), Person('{Davis}, Kelcey'), Person('{Dickinson}, Mark'), Person('{Donnan}, Callum T.'), Person('{Donnan}, Fergus R.'), Person('{Dunlop}, James S.'), Person('{Eisenstein}, Daniel J.'), Person('{Ferguson}, Henry C.'), Person(\"{Fern{\\\\'a}ndez Aranda}, Rom{\\\\'a}n\"), Person('{Finkelstein}, Steven L.'), Person('{Fujimoto}, Seiji'), Person('{Gandolfi}, Giovanni'), Person('{Giavalisco}, Mauro'), Person('{Grogin}, Norman A.'), Person('{Hamed}, Mahmoud'), Person('{Hirschmann}, Michaela'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kocevski}, Dale D.'), Person('{Koekemoer}, Anton M.'), Person('{Leung}, Gene C. K.'), Person('{Lofaro}, Cristina M.'), Person('{Lucas}, Ray A.'), Person('{McLeod}, Derek J.'), Person('{Melinder}, Jens'), Person('{{\\\\\"O}stlin}, Goran'), Person('{Papovich}, Casey'), Person('{Pentericci}, Laura'), Person(\"{P{\\\\'e}rez-D{\\\\'\\\\i}az}, Borja\"), Person('{Rieke}, Marcia'), Person('{Scholtz}, Jan'), Person('{Somerville}, Rachel S.'), Person('{Stanton}, Thomas M.'), Person('{Stevenson}, Struan D.'), Person('{Shivaei}, Irene'), Person('{Tacchella}, Sandro'), Person('{Trump}, Jonathan R.'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Wang}, Xin'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Yung}, L. Y. Aaron'), Person('{Zhu}, Yongda')]",
+      "relevance_score": 8.9,
+      "justification": "This paper represents a landmark LRD study, leveraging exceptional JWST spectroscopy of 249 objects to demonstrate that LRDs are a heterogeneous population hosting both AGN and intense starbursts, thereby resolving a key debate and providing comprehensive physical property measurements that fundamentally advance the field.",
+      "key_factors": [
+        "JWST NIRSpec prism spectroscopy",
+        "Large sample (249 LRDs)",
+        "BH mass measurements",
+        "Resolves AGN vs starburst debate",
+        "Heterogeneous population",
+        "Near-Eddington accretion",
+        "Wolf-Rayet features"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is exclusively focused on Little Red Dots, compiling and analyzing a large spectroscopic sample of 249 LRDs specifically selected as NIRCam-identified LRDs. The entire analysis framework centers on understanding the nature of these objects, making it fundamentally LRD-centric."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Employs state-of-the-art JWST NIRSpec prism spectroscopy and MIRI photometry for a substantial sample (249 objects) spanning redshift 2.3-9.3. The representative sampling and combination of prism and MIRI data provides exceptional wavelength coverage from rest-frame 0.09-4 μm, setting a new standard for LRD observations."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives comprehensive physical constraints including BH masses (10^6.0-6.5 M⊙), stellar masses (10^8.3 M⊙), Eddington ratios (0.6±0.2), starburst ages (3-7 Myr), and detailed emission line properties. Provides critical BH-to-stellar mass ratios and identifies Wolf-Rayet features, though some measurements are model-dependent."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Directly addresses the fundamental debate about the nature of LRDs (AGN vs starburst) by demonstrating heterogeneous populations and finding both components co-exist. Reveals that the 'photometric tag' conceals diverse spectroscopic flavors, representing a major conceptual advance that resolves key questions in the field."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Uses robust stacking analysis and subsample division based on luminosity ratios with a large, representative sample. The methodology is sound and statistically powerful, though some reliance on model assumptions for mass estimates and radiative transfer interpretation is necessary and acknowledged."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM inclusion"
     },
     {
       "bibtex_key": "2025ApJ...994...86R",
@@ -2166,6 +2208,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Employs appropriate analytical techniques with careful acknowledgment of uncertainties, particularly regarding AGN contribution to flux. Properly caveats conclusions and acknowledges the canonical AGN interpretation remains viable. However, some speculative elements ('we suggest', 'speculate') and small sample size limit robustness."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260221002L",
+      "title": "{Constraints on dynamically-formed massive black holes in Little Red Dots from X-ray non-detections}",
+      "abstract": "{The existence of massive, compact galaxies (Little Red Dots, LRDs) at $z \\sim 2$ challenges early structure formation models, suggesting rapid stellar and black hole (BH) assembly. While LRDs are efficient environments for BH growth, many show no X-ray evidence of strong AGN emission. We utilize a subsample of X-ray non-detected LRDs to test the compatibility of collision-based BH formation scenarios and constrain physical parameters like metallicity and column density.Our results indicate LRDs are ideal birthplaces for massive BHs, particularly given a mass- radius relation $R\\_{gal} \\propto M\\_{gal}^{0.6}$. Collision-based models suggest seed masses larger than those in the local Universe, consistent with high-redshift BH mass-radius relations. We modeled BH seed formation and X-ray emission (0.3-7 keV) against observed upper limits. We find that mass- radius exponents $> 0.55$ favor the collision-based scenario; however, consistency with stacked X-ray analysis requires specific accretion and obscuration parameters. Constant or increasing SFR scenarios with high Eddington ratios are feasible but necessitate larger column densities or higher metal enrichment. Alternatively, moderate sub-Eddington accretion reconciles massive seeds with observed masses and X-ray weakness. We conclude that even if LRDs began as starbursts, they should eventually evolve into AGNs.}",
+      "existing_tags": "heavy seed, non-agn, obscuration, theory, x-ray",
+      "year": "2026",
+      "authors": "[Person('{Liempi}, M.'), Person('{Schleicher}, D. R. G.'), Person('{Latif}, M. A.'), Person('{Schneider}, R.'), Person('{Flammini Dotti}, F.'), Person('{Escala}, A.'), Person('{Vergara}, M. C.')]",
+      "relevance_score": 8.8,
+      "justification": "This paper scores highly due to its exclusive theoretical focus on LRDs and direct confrontation of the AGN-starburst debate using X-ray constraints. It provides detailed physical parameter constraints and tests specific BH formation mechanisms, making it essential for understanding LRD evolution despite limited observational detail in the abstract.",
+      "key_factors": [
+        "X-ray non-detections",
+        "Collision-based BH formation",
+        "Mass-radius relations",
+        "Obscuration and metallicity constraints",
+        "Resolves AGN vs starburst debate"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is exclusively focused on Little Red Dots, utilizing X-ray non-detections specifically from LRD samples to test black hole formation scenarios. Every analysis aspect directly addresses LRD properties, evolution, and their role as massive BH birthplaces."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Employs X-ray non-detections and stacked analysis effectively against theoretical models, but the abstract lacks specific details about observational campaigns, data reduction procedures, or instrumental capabilities beyond the 0.3-7 keV energy range."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Provides comprehensive constraints on metallicity, column density, mass-radius relations (R_gal ∝ M_gal^0.6), BH seed masses, and accretion parameters including Eddington ratios across multiple evolutionary scenarios."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Directly confronts the critical AGN versus starburst nature of LRDs and tests collision-based BH formation scenarios, providing important constraints on early structure formation models with clear evolutionary predictions."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Uses robust modeling against observational upper limits with multiple parameter explorations, though limited statistical detail in the abstract regarding error analysis, confidence intervals, or comprehensive model validation frameworks."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -10808,9 +10890,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.284831460674173,
+    "average_score": 8.289033457249088,
     "median_score": 8.5,
-    "high_relevance_count": 256,
+    "high_relevance_count": 258,
     "moderate_relevance_count": 9,
     "low_relevance_count": 2
   }
