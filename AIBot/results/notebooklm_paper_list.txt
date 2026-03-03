@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-02-28T06:08:44.047309
+Generated: 2026-03-03T06:28:54.211105
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -532,6 +532,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [9.4] 2025arXiv250316595R
     JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas
 
+[8.9] 2026MNRAS.tmp..360D
+    BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04
+
 [8.9] 2025arXiv250502895Z
     Abundant Population of Broad H$α$ Emitters in the GOODS-N Field Revealed by CONGRESS, FRESCO, and JADES
 
@@ -547,11 +550,20 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026MNRAS.tmp..112J
     BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50
 
+[8.7] 2026ApJ...999...31Z
+    NEXUS: A Spectroscopic Census of Broad-line AGNs and Little Red Dots at 3 {\ensuremath{\lesssim}} z {\ensuremath{\lesssim}} 6
+
+[8.7] 2026OJAp....955493L
+    The Properties of Little Red Dot Galaxies in the ASTRID Simulation
+
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
 
 [8.6] 2025arXiv250814155J
     Little Red Dots and their Progenitors from Direct Collapse Black Holes
+
+[8.6] 2026MNRAS.546ag191S
+    The rest-ultraviolet to infrared spectral energy distributions of heavily reddened quasars are 'V-shaped' and hot-dust poor
 
 [8.6] 2026ApJS..283....6E
     Overview of the JWST Advanced Deep Extragalactic Survey (JADES)
@@ -586,6 +598,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.2] 2026Natur.649..557N
     Mysterious 'little red dots' could be black holes in disguise
 
+[8.2] 2026ApJ...999...30C
+    A z ≃ 0.4 Galaxy Reflecting the High-redshift Little Red Dots: An Extended Starburst with an Overmassive Black Hole
+
 [8.0] 2025arXiv251108477I
     Supermassive Dark Stars and their remnants as a possible solution to three recent cosmic dawn puzzles
 
@@ -603,6 +618,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.6] 2025NewSc.268....6W
     Black hole stars really do exist
+
+[7.6] 2026MNRAS.tmp..180S
+    The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor
 
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
