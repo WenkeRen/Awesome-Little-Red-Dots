@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03T06:28:51.608897",
-  "total_papers": 277,
-  "successfully_scored": 277,
+  "generated_at": "2026-03-04T06:17:53.754841",
+  "total_papers": 280,
+  "successfully_scored": 280,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -5500,6 +5500,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260301668P",
+      "title": "{A Unified Explanation for JWST Little Red Dots and High-Redshift Low-Mass Disk-like Galaxies: Prolate Galaxies Viewed End-on vs Side-on}",
+      "abstract": "{Recent JWST surveys have revealed two puzzling high-redshift phenomena: (1) an unexpectedly large abundance of flattened, disk-like galaxies at z > 3, and (2) a rare population of compact, extremely red sources at z \\raisebox{-0.5ex}\\textasciitilde 4-9 (``Little Red Dots,'' LRDs) that often show V-shaped SEDs and very broad Balmer lines. These findings lack a consensus interpretation and have motivated models ranging from dusty starbursts to obscured AGN and more exotic scenarios. We propose that both phenomena are linked by a simple geometric consequence of a third clue: mounting evidence from structural modeling and axis-ratio statistics indicates that many low-mass galaxies at z > 3 are intrinsically prolate (cigar-like), not oblate rotation- supported disks. In this picture, a substantial fraction of the flattened, disk-like morphologies reported at z > 3 arise from side-on and intermediate-angle projections of prolate systems, while the rare near end-on views appear extremely compact and high-surface-brightness, and are preferentially reddened by the maximal line-of-sight column, naturally matching key elements of LRD selection. The expected fraction of near end-on systems, $P\\_{\\text{end}} = 1 - \\cos(θ\\_{\\text{max}})$, is \\raisebox{-0.5ex}\\textasciitilde1-3\\% for $θ\\_{\\text{max}}$ \\raisebox{-0.5ex}\\textasciitilde 10{\\textdegree}-15{\\textdegree}, consistent with LRD demographics in wide JWST fields. This orientation-based framework does not exclude AGN or starburst activity; rather, it explains LRD rarity as an orientation effect and provides a natural route to the large columns of gas/dust and scattering depths inferred in recent dense-gas and electron-scattering interpretations of LRD spectra, without fine-tuned new physics. The model makes falsifiable predictions to validate or rule out this geometric interpretation.}",
+      "existing_tags": "jwst, morphology, obscuration, sed, theory",
+      "year": "2026",
+      "authors": "[Person('{Peng}, Yingjie')]",
+      "relevance_score": 8.5,
+      "justification": "This paper represents a high-priority theoretical contribution that directly tackles the LRD phenomenon with a novel geometric unification. It scores exceptionally well on LRD focus, scientific impact, and physical property coverage, with moderate scores for observational techniques (as expected for a theory paper) and strong methodological rigor. The framework offers testable predictions that could fundamentally alter our understanding of early galaxy morphology and the LRD population.",
+      "key_factors": [
+        "Direct LRD focus in title and abstract",
+        "Geometric unification of LRDs and disk galaxies",
+        "Quantitative demographic predictions matching observations",
+        "Explains key LRD features (redness, compactness, V-shaped SEDs)",
+        "Makes falsifiable predictions",
+        "Addresses obscuration and broad line widths"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly centered on LRDs, mentioning them in the title and abstract as a primary population to explain. It directly addresses key LRD observational signatures (compactness, red colors, V-shaped SEDs, broad Balmer lines) and their rarity. The only minor deduction reflects that it also addresses disk-like galaxies as part of a unified framework, but LRDs remain the core focus."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "The paper references JWST surveys and LRD demographics from wide fields, demonstrating awareness of observational context. However, it is primarily a theoretical framework rather than an observational study, so it does not develop or detail specific observational techniques, data reduction methods, or instrumental capabilities. It uses existing observational results as constraints for modeling."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Comprehensively addresses multiple physical properties of LRDs: geometric compactness, red colors via orientation-dependent obscuration, V-shaped SEDs, and broad emission lines. Provides quantitative explanation for inferred large gas/dust columns and scattering depths. Connects geometry to observed spectral features, though does not definitively resolve the AGN vs. starburst power source debate."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Potentially paradigm-shifting by unifying two seemingly distinct high-redshift populations through simple geometry. Explains LRD rarity through straightforward orientation statistics and makes explicit, falsifiable predictions for validation. Challenges conventional interpretations of both LRDs and disk-like galaxies, with significant implications for understanding early galaxy structure if confirmed."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs sound geometric probability calculations (P_end = 1 - cos(θ_max)) with reasonable assumptions based on cited structural evidence. The orientation-based framework is physically motivated and does not require fine-tuned parameters. As a theoretical hypothesis, it is well-constructed with testable predictions, though it requires future observational validation to confirm the prolate galaxy assumption and demographic predictions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv250505322I",
       "title": "{The Emergence of Little Red Dots from Binary Massive Black Holes}",
       "abstract": "{Little red dots (LRDs) are a newly identified class of broad-line active galactic nuclei (AGN) with a distinctive v-shape spectrum characterized by red optical and blue UV continuum emission. Their high abundance at redshifts of $z\\sim6-8$ and decline at lower redshifts suggest a transient origin. We propose that the spectral shape of LRDs originates from compact binary black hole systems, where each black hole is surrounded by a mini-disk and embedded in a larger circum-binary disk. With a binary separation of $\\lesssim 10^3$ Schwarzschild radii, the Wien tail of a $T\\simeq 5000\\textasciitilde {\\rm K}$ blackbody spectrum at the inner edge of the circum-binary disk produces the red optical emission, while the mini-disks power the UV continuum. Binary torques carve out a gap between the circum-binary disk and mini-disks, setting the turnover wavelength of the v-shaped spectrum around the Balmer limit. This scenario naturally reproduces LRD spectra requiring only modest dust attenuation ($A\\_V\\lesssim 1$ mag), resolving overestimated luminosities for LRDs in previous studies and alleviating a tension with the so-called Soltan argument. This model predicts a distinct spectral evolution as the binary orbit decays through binary-disk interactions and gravitational waves (GWs), linking early-stage ``proto-LRD'' binaries to the broader AGN population and late-stage ``LRD- descendants'' to coalescing binaries detectable in GW experiments.}",
@@ -6223,6 +6264,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "The paper employs detailed spectroscopic analysis of carefully selected prototypical objects across multiple wavelength regimes. However, the focus on only two sources without explicit mention of larger control samples or statistical validation limits the demonstrated rigor, though this is partially mitigated by the 'Rosetta Stone' study design."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260301473L",
+      "title": "{Local Analogs of Little Red Dots: Optical Variability and Evidence for an AGN Origin}",
+      "abstract": "{Little red dots (LRDs) draw extensive attention because of their unique observational characteristics and apparent overabundance in the early Universe, raising new insights into early black hole formation and growth. Early studies show that LRDs exhibit weak variability in broad-band photometry and emission-line fluxes, suggesting a preference for super-Eddington accretion or disfavouring an AGN origin. However, the cadence of the current data, and therefore, the resulting light curves for LRDs, is limited, preventing us from placing strong constraints on their variability. Based on Zwicky Transient Facility (ZTF) light curves with a baseline of $\\sim6$ years, we here study the optical variability of seven previously reported local analogs of LRDs at $z \\sim 0.3$, offering an insight into LRDs from a low-redshift sample. Three out of seven local analogs show excess variances on all three bands of their light curves, and two of them can be fitted with the damping random walk model, supporting their AGN origins for the variability. The remaining sources show weak variance in at least one band, but no detectable variability at the current sensitivity level, exhibiting $\\rm SF\\_\\infty$ upper limits consistent with estimates from high-redshift (high-$z$) LRDs. Their non- detection of variability is likely due to the large photometric uncertainty. As an implication, by simulating long baseline light curves with the variability amplitude of local analogs and adopting JWST observation cadence, we investigate the limitation of the variability amplitude estimate for LRDs. Our mock observations imply that the current constraints on LRDs' variability are probably underestimated. This underestimation might be induced by the short temporal baseline of observations, as well as the intrinsic scatter of the empirical $M\\_{\\rm BH}-τ$ relation.}",
+      "existing_tags": "agn-dominated, local counterpart, photometry, super-eddington, variability",
+      "year": "2026",
+      "authors": "[Person('{Lin}, Ruqiu'), Person('{Zheng}, Zhen-Ya'), Person('{Wang}, Junxian'), Person('{Ho}, Luis C.'), Person('{Zavala}, Jorge A.'), Person('{Zhang}, Zijian'), Person('{Jiang}, Chunyan'), Person('{Lin}, Jiaqi'), Person('{Yuan}, Fang-Ting'), Person('{Jiang}, Linhua'), Person('{Wang}, Tinggui'), Person('{Zhang}, Xiaer')]",
+      "relevance_score": 8.4,
+      "justification": "This paper provides a timely, high-impact contribution to LRD research by demonstrating that variability constraints on high-redshift LRDs are likely underestimated. The local analog approach directly addresses the central AGN origin debate with robust time-domain methods. While limited by sample size and indirect methodology, the findings have significant implications for interpreting JWST observations and understanding early black hole growth.",
+      "key_factors": [
+        "6-year ZTF optical variability",
+        "Local analogs at z~0.3",
+        "AGN origin support via DRW modeling",
+        "Underestimated high-z LRD variability constraints",
+        "JWST cadence simulation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "Paper is centrally focused on LRDs, explicitly studying local analogs to address the fundamental AGN vs. starburst nature debate. Title, abstract, and methodology are all directly aimed at understanding LRD variability and origins, making this core LRD research."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Employs robust time-domain astronomy with 6-year ZTF light curves, multi-band analysis, and damping random walk modeling. Valuable simulation of JWST cadence limitations. However, relies on ground-based optical data rather than direct JWST/NIRSpec observations, creating a wavelength and redshift gap."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "Constrains variability amplitudes (SF∞) and discusses MBH-τ relations, but focuses on observational diagnostics rather than direct measurement of fundamental physical parameters like black hole masses, Eddington ratios, or host galaxy properties. Provides upper limits consistent with high-z LRDs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "High potential impact by challenging previous conclusions that LRDs show weak variability. The key finding that current variability constraints may be severely underestimated could reshape interpretations of LRD nature. Local analog approach provides essential context for high-z studies and JWST observation strategies."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Methodologically sound with appropriate DRW modeling and simulation work to test observational limitations. Properly acknowledges photometric uncertainties and sample size limitations. However, limited by small sample (7 objects) and indirect comparison between ground-based optical and space-based NIR observations."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -10534,6 +10615,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026Sci...391..767M",
+      "title": "{Black holes disguised as little red dots}",
+      "abstract": "{There may be a newly identified early phase of supermassive black hole growth}",
+      "existing_tags": "black hole mass, early universe, heavy seed, super-eddington, theory",
+      "year": "2026",
+      "authors": "[Person('{Matthee}, Jorryt')]",
+      "relevance_score": 7.1,
+      "justification": "This theoretical paper achieves exceptional direct focus on LRDs but is constrained by minimal observational content and limited methodological detail. Its strength lies in directly addressing the LRD nature debate, while weakness is lack of empirical grounding. Relevance score of 7.1 reflects high conceptual importance balanced against practical research utility.",
+      "key_factors": [
+        "Direct LRD focus in title",
+        "Theoretical heavy seed scenario",
+        "Super-Eddington accretion framework",
+        "Addresses AGN-starburst identity",
+        "Limited methodological detail"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "Title explicitly mentions 'little red dots' and abstract frames entire argument around LRD nature. Direct, unambiguous focus on LRD population as disguised black holes. Represents theoretical perspective on LRD identity crisis."
+        },
+        "observational_techniques": {
+          "score": 3.5,
+          "reasoning": "Appears to be purely theoretical work ('theory' tag) with no mention of observational data, surveys, or instrumentation. Lacks discussion of JWST, HST, or ground-based follow-up. Score reflects minimal observational grounding despite potential interpretive value."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "Tags indicate focus on black hole mass, super-Eddington accretion, and heavy seed scenarios - central physical properties for LRDs. However, as theoretical modeling rather than empirical measurement, constraints are less direct. Abstract provides no quantitative details."
+        },
+        "scientific_impact": {
+          "score": 7.5,
+          "reasoning": "Proposes paradigm-shifting concept that LRDs are 'disguised' black holes in a newly identified growth phase. Could resolve AGN-starburst debate. Score tempered by abstract's brevity and lack of detail on theoretical framework or predictive power."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "Cannot assess rigor from abstract alone. No mention of simulation methods, analytical models, or statistical framework. Theoretical astrophysics can be rigorous, but insufficient information to justify higher score. Neutral assessment pending full text review."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...995...26Z",
       "title": "{Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. I. Survey of Eddington Ratios}",
       "abstract": "{We summarize results from a survey of radiation-dominated black hole accretion flows across a wide range of mass accretion rates, as well as two values of black hole spin and initial magnetic field geometry. These models apply an algorithm targeting direct solutions to the radiation transport equation in full general relativity and have been enabled by access to modern exascale computing systems. Super-Eddington accretion flows form geometrically thick radiation-pressure-supported disks that drive powerful equatorial outflows. A narrow funnel-shaped photosphere in the inner region results in very low radiative efficiencies in this regime. The structure of near- and sub- Eddington accretion depends on whether there is net vertical magnetic flux at the midplane of the disk. With net flux, the disk forms a thin, dense layer at the midplane surrounded by a magnetically dominated corona, whereas without net flux, the disk remains magnetically dominated everywhere. Although none of our models achieve the magnetically arrested disk regime, those with net vertical flux and a rapidly spinning black hole still produce powerful relativistic jets. Our calculations adopt simple opacity models (with scalings appropriate to stellar-mass black hole accretion). We discuss the application of our results to observations of X-ray binaries and ultraluminous X-ray sources such as Cyg X-3 and SS433. We also speculate on the application of our super-Eddington models to the interpretation of little red dots recently discovered by JWST.}",
@@ -11216,9 +11337,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.289350180505425,
+    "average_score": 8.286250000000006,
     "median_score": 8.5,
-    "high_relevance_count": 265,
+    "high_relevance_count": 268,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
