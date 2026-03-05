@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T06:17:53.754841",
-  "total_papers": 280,
-  "successfully_scored": 280,
+  "generated_at": "2026-03-05T06:17:48.818972",
+  "total_papers": 281,
+  "successfully_scored": 281,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -3307,6 +3307,47 @@
         }
       },
       "notebooklm_recommendation": "Critical priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260302317L",
+      "title": "{Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots}",
+      "abstract": "{Little Red Dots (LRDs) challenge conventional models of active galactic nuclei. At rest-optical-to-near-infrared (IR) wavelengths, these compact extragalactic objects show blackbody-like continuum emission and spectral features reminiscent of stars, motivating models with an optically thick atmosphere at $T\\_{\\rm\\!\\,eff}\\sim4000-5000{\\rm\\textasciitilde K}$. We develop (and publicly release) a synthetic spectral library of optically thick atmospheres with gas conditions tailored for LRDs, parameterized by effective temperature $T\\_{\\rm\\!\\,eff}$ and surface gravity $g$. Given the uncertain dynamical structure of LRDs, we interpret $g$ most directly as a photospheric density $ρ\\_{\\rm\\!\\,ph}$. We show that blackbodies are only crude approximations to the emission from LRD-like atmospheres. Spectral features are abundant, many of which are sensitive diagnostics of photospheric density, including the overall curvature of the spectral energy distribution, the rest-$1.6{\\rm\\textasciitilde μm}$ spectral ``kink'' from $\\rm H^-$ opacity, and the Ca II triplet (CaT) absorption at rest-8500 $\\unicode{x212B}$. When compared against a local LRD, \\textbackslashegg, all three features consistently indicate a low photospheric density of $ρ\\_{\\rm\\!\\,ph}\\sim 10^{-11}{\\rm\\textasciitilde g\\textasciitilde cm^{-3}}$ ($g\\sim10^{-3}{\\rm\\textasciitilde cm\\textasciitilde s^{-2}}$ in our library). This disfavors hydrostatic configurations and suggests a mass within the photosphere (black hole plus gas) of $10^4\\textasciitilde M\\_\\odot$, with an Eddington ratio $λ\\_{\\rm Edd}rsim20$, if the CaT width traces turbulent support at the photosphere in spherical symmetry; the inferred mass could be higher depending on the geometry and the radius probed by CaT. For higher redshift LRDs, we advocate for rest-near-IR spectroscopic surveys and high-resolution spectra of potential absorption lines as a test of the optically thick atmosphere scenario and as a unique probe of the central engine mass.}",
+      "existing_tags": "absorption features, black hole mass, sed, spectroscopy, theory",
+      "year": "2026",
+      "authors": "[Person('{Liu}, Hanpu'), Person('{Jiang}, Yan-Fei'), Person('{Quataert}, Eliot'), Person('{Greene}, Jenny E.'), Person('{Ma}, Yilun'), Person('{Lin}, Xiaojing')]",
+      "relevance_score": 8.7,
+      "justification": "This paper represents a highly relevant theoretical contribution to LRD research, achieving near-perfect focus on these objects while providing novel physical insights and practical observational tools. Its development of a publicly available spectral library and specific diagnostics for constraining photospheric properties makes it exceptionally valuable for advancing understanding of LRD nature.",
+      "key_factors": [
+        "Synthetic spectral library for LRD atmospheres",
+        "Optically thick atmosphere model challenging conventional AGN frameworks",
+        "Photospheric density constraints from multiple spectral features",
+        "Ca II triplet as mass diagnostic",
+        "Publicly released models",
+        "Rest-near-IR spectroscopy recommendations for high-z LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is fundamentally and exclusively focused on LRDs, developing a theoretical framework specifically tailored to these objects. Every aspect from model parameters to observational predictions is designed for LRDs, representing near-maximum relevance to the field."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "While theoretical, the paper provides direct connections to observations through specific spectral diagnostics (Ca II triplet, 1.6μm kink, SED curvature) and advocates for targeted observational strategies. It bridges theory and observation effectively, though it does not present new observational data itself."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives concrete constraints on critical physical parameters including photospheric density (~10^-11 g/cm^3), central mass (~10^4 M⊙), and Eddington ratio (~20). Provides a comprehensive framework for interpreting multiple physical properties from spectral features."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Presents a novel theoretical paradigm that challenges conventional AGN models for LRDs. The public release of the spectral library and clear observational predictions create high community value. Impact is slightly tempered pending observational verification of the framework."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Demonstrates careful parameterization of atmospheric models and uses multiple independent spectral features for consistent constraints. Acknowledges uncertainties in geometry and interpretation. Full assessment of technical robustness would require examination of the complete methodology beyond the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
       "bibtex_key": "2025ApJ...980...36L",
@@ -11337,9 +11378,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.286250000000006,
+    "average_score": 8.28772241992883,
     "median_score": 8.5,
-    "high_relevance_count": 268,
+    "high_relevance_count": 269,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
