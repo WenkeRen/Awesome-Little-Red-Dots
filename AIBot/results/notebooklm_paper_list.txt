@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-03-05T06:17:51.738702
+Generated: 2026-03-09T06:24:57.070750
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -541,6 +541,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.8] 2025arXiv250604350Z
     JWST Insights into Narrow-line Little Red Dots
 
+[8.8] 2026ApJ...999..183U
+    A Black Hole Envelope Interpretation for Cosmological Demographics of Little Red Dots
+
 [8.8] 2026arXiv260111125Z
     Discovery of a gas-enshrouded broad-line AGN at z $\sim$ 7
 
@@ -552,6 +555,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.7] 2026MNRAS.tmp..112J
     BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50
+
+[8.7] 2026A&A...707A..75T
+    The warm outer layer of a little red dot as the source of [Fe II] and collisional Balmer lines with scattering wings
 
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk

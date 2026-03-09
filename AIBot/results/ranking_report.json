@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-05T06:17:48.818972",
-  "total_papers": 281,
-  "successfully_scored": 281,
+  "generated_at": "2026-03-09T06:24:54.199641",
+  "total_papers": 283,
+  "successfully_scored": 283,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -2254,6 +2254,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ...999..183U",
+      "title": "{A Black Hole Envelope Interpretation for Cosmological Demographics of Little Red Dots}",
+      "abstract": "{Little Red Dots (LRDs) newly discovered with JWST are active galactic nuclei (AGNs) that may represent black hole (BH) growth at the earliest cosmic epochs. These sources show puzzling features unlike typical AGNs, including red optical continua, weak hot- dust emission, and a lack of detectable X-rays. Previously, LRDs have often been interpreted as dust-reddened AGNs, leading to severe inconsistencies with the luminosity and BH mass densities inferred for previously known AGNs over 0 < z < 5. The BH envelope (BHE) model has been proposed to explain these characteristics, in which an accreting BH is enshrouded by a dense, optically thick gaseous envelope. In this article, we reanalyze the spectral energy distributions of {\\ensuremath{\\sim}}400 photometric LRDs in the COSMOS-Web survey using the BHE model and reassess their implications for cosmological BH evolution. We find that the optical─near-IR spectra of LRDs are well reproduced by blackbody emission with an effective temperature of 4000─6000 K. Within the BHE framework, the inferred bolometric luminosities decrease by {\\ensuremath{\\gtrsim}}1─2 orders of magnitude compared to assumptions for dust-reddened AGNs. As a result, the revised luminosity function, BH accretion density, and BH mass function become consistent with those of AGNs at z < 5. The stellar masses of LRD hosts are estimated by attributing the UV excesses to star formation. Although the resulting M$\\_{BH}$/M$\\_{{\\ensuremath{\\star}}}$ ratio remains higher than the local empirical value, the excess is modest. Overall, the BHE model not only resolves the spectral features of LRDs but also brings their statistical properties into agreement with the broader cosmological BH population.}",
+      "existing_tags": "abundance, agn-dominated, black hole mass, jwst, sed",
+      "year": "2026",
+      "authors": "[Person('{Umeda}, Hiroya'), Person('{Inayoshi}, Kohei'), Person('{Harikane}, Yuichi'), Person('{Murase}, Kohta')]",
+      "relevance_score": 8.8,
+      "justification": "This paper provides a direct and comprehensive analysis of LRDs using JWST data, introducing a novel Black Hole Envelope model that resolves major cosmological inconsistencies. While the methodology is systematic and the scientific impact is potentially paradigm-shifting, the reliance on a new, unvalidated physical model and photometric data alone prevents a perfect score.",
+      "key_factors": [
+        "JWST COSMOS-Web photometric data",
+        "Large sample size (~400 LRDs)",
+        "Black Hole Envelope model",
+        "Resolves cosmological BH density inconsistencies",
+        "Quantitative BH mass and luminosity estimates"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is exclusively focused on LRDs, directly addressing their nature, demographics, and cosmological implications. It centers on resolving fundamental puzzles about these JWST-discovered sources."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Employs JWST COSMOS-Web photometric data for ~400 LRDs with SED fitting analysis. While state-of-the-art, the reliance on photometric rather than spectroscopic data limits some conclusions."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Provides comprehensive quantitative analysis of bolometric luminosities, BH masses, stellar masses, and M_BH/M_star ratios. The blackbody temperature analysis (4000-6000 K) offers key physical insights."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Potentially paradigm-shifting impact. The BHE model resolves severe inconsistencies between LRDs and known AGN populations across 0 < z < 5, reconciling cosmological BH density estimates."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Systematic analysis of large sample with clear SED fitting methodology. However, the new BHE model requires independent validation, and reliance on photometric data alone introduces uncertainties."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260221002L",
       "title": "{Constraints on dynamically-formed massive black holes in Little Red Dots from X-ray non-detections}",
       "abstract": "{The existence of massive, compact galaxies (Little Red Dots, LRDs) at $z \\sim 2$ challenges early structure formation models, suggesting rapid stellar and black hole (BH) assembly. While LRDs are efficient environments for BH growth, many show no X-ray evidence of strong AGN emission. We utilize a subsample of X-ray non-detected LRDs to test the compatibility of collision-based BH formation scenarios and constrain physical parameters like metallicity and column density.Our results indicate LRDs are ideal birthplaces for massive BHs, particularly given a mass- radius relation $R\\_{gal} \\propto M\\_{gal}^{0.6}$. Collision-based models suggest seed masses larger than those in the local Universe, consistent with high-redshift BH mass-radius relations. We modeled BH seed formation and X-ray emission (0.3-7 keV) against observed upper limits. We find that mass- radius exponents $> 0.55$ favor the collision-based scenario; however, consistency with stacked X-ray analysis requires specific accretion and obscuration parameters. Constant or increasing SFR scenarios with high Eddington ratios are feasible but necessitate larger column densities or higher metal enrichment. Alternatively, moderate sub-Eddington accretion reconciles massive seeds with observed masses and X-ray weakness. We conclude that even if LRDs began as starbursts, they should eventually evolve into AGNs.}",
@@ -3751,6 +3791,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Applies established SED and morphological fitting techniques with reported uncertainties. Acknowledges limitations including unresolved MIRI morphology and interpretational degeneracy between AGN and alternative scenarios. Rigorous but not methodologically innovative."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026A&A...707A..75T",
+      "title": "{The warm outer layer of a little red dot as the source of [Fe II] and collisional Balmer lines with scattering wings}",
+      "abstract": "{The population of the little red dots (LRDs) may represent a key phase of supermassive black hole (SMBH) growth. A cocoon of dense excited gas is emerging as a key component to explain the most striking properties of LRDs, such as strong Balmer breaks and Balmer absorption, as well as the weak IR emission. To dissect the structure of LRDs, we analyzed new deep JWST/NIRSpec PRISM and G395H spectra of FRESCO-GN-9771, one of the most luminous known LRDs at z = 5.5. These spectra reveal a strong Balmer break, broad Balmer lines, and very narrow [O III] emission. We revealed a forest of optical [Fe II] lines, which we argue are emerging from a dense (n$\\_{H}$ = 10$^{9 {\\ensuremath{-}} 10}$ cm$^{{\\ensuremath{-}}3}$) warm layer with electron temperature T$\\_{e}$ ≍ 7000 K. The broad wings of H{\\ensuremath{\\alpha}} and H{\\ensuremath{\\beta}} have an exponential profile due to electron scattering in this same layer. The high H{\\ensuremath{\\alpha}} : H{\\ensuremath{\\beta}} : H{\\ensuremath{\\gamma}} flux ratio of ≍10.4 : 1 : 0.14 is an indicator of collisional excitation and resonant scattering dominating the Balmer line emission. A narrow H{\\ensuremath{\\gamma}} component, unseen in the other two Balmer lines due to outshining by the broad components, could trace the ISM of a normal host galaxy with a star formation rate of {\\ensuremath{\\sim}}5 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{{\\ensuremath{-}}1}$. The warm layer is mostly opaque to Balmer transitions, producing a characteristic P Cygni profile in the line centers suggesting outflowing motions. This same layer is responsible for shaping the Balmer break. The broadband spectrum can be reasonably matched by a simple photoionized slab model that dominates the {\\ensuremath{\\lambda}} > 1500 {\\r{A}} continuum and a low-mass ({\\ensuremath{\\sim}}{}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$) galaxy that could explain the narrow [O III], with only a subdominant contribution to the UV continuum. Our findings indicate that Balmer lines are not directly tracing the gas kinematics near the SMBH and that the BH mass scale is likely much lower than virial indicators suggest.}",
+      "existing_tags": "black hole mass, emission lines, jwst, obscuration, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Torralba}, Alberto'), Person('{Matthee}, Jorryt'), Person('{Pezzulli}, Gabriele'), Person('{Naidu}, Rohan P.'), Person('{Ishikawa}, Yuzo'), Person('{Brammer}, Gabriel B.'), Person('{Chang}, Seok-Jun'), Person('{Chisholm}, John'), Person('{de Graaff}, Anna'), Person(\"{D'Eugenio}, Francesco\"), Person('{Di Cesare}, Claudia'), Person('{Eilers}, Anna-Christina'), Person('{Greene}, Jenny E.'), Person('{Gronke}, Max'), Person('{Iani}, Edoardo'), Person('{Kokorev}, Vasily'), Person('{Kotiwale}, Gauri'), Person('{Kramarenko}, Ivan'), Person('{Ma}, Yilun'), Person('{Mascia}, Sara'), Person(\"{Navarrete}, Benjam{\\\\'\\\\i}n\"), Person('{Nelson}, Erica'), Person('{Oesch}, Pascal'), Person('{Simcoe}, Robert A.'), Person('{Wuyts}, Stijn')]",
+      "relevance_score": 8.7,
+      "justification": "This paper represents exceptional LRD research with direct JWST spectroscopy of a luminous z=5.5 LRD, providing a detailed physical model for the 'warm outer layer' that challenges fundamental assumptions about BH mass estimation and resolves key debates about LRD nature. The comprehensive spectral analysis and significant implications for understanding early SMBH growth justify the high score.",
+      "key_factors": [
+        "Direct JWST/NIRSpec spectroscopy of luminous LRD at z=5.5",
+        "Detailed warm layer model explaining [Fe II] and Balmer scattering wings",
+        "Challenges virial BH mass estimates suggesting lower masses",
+        "Resolves AGN vs. starburst contribution debate",
+        "Identifies collisional excitation and P Cygni outflow signatures"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper is centrally focused on LRDs, analyzing FRESCO-GN-9771 at z=5.5 and directly addressing the emerging 'cocoon of dense excited gas' paradigm that explains key LRD properties including Balmer breaks and absorption. This represents fundamental LRD population study rather than tangential reference."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Employs state-of-the-art deep JWST/NIRSpec spectroscopy using both PRISM (broad coverage) and G395H (high resolution) modes. This is the premier observational facility and instrumentation for high-redshift galaxy characterization, providing the spectral quality necessary to resolve narrow [Fe II] lines, Balmer line wings, and P Cygni profiles."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives comprehensive physical conditions including electron density (10^9-10^10 cm^-3), temperature (~7000 K), identifies a warm scattering layer, infers outflow kinematics from P Cygni profiles, estimates host galaxy SFR (~5 Msun/yr), and critically examines BH mass implications. Provides detailed characterization of the multiphase gas structure."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Directly challenges the interpretation of broad Balmer lines for virial BH mass estimation in LRDs, suggesting masses are substantially lower than previously thought. Resolves the AGN vs. starburst contribution debate and provides a concrete physical model for the 'cocoon' component, with major implications for understanding SMBH growth at cosmic dawn."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Demonstrates sophisticated spectral analysis including decomposition of narrow and broad line components, interpretation of complex line ratios (Hα:Hβ:Hγ = 10.4:1:0.14), electron scattering modeling for exponential wings, and employment of photoionized slab models. Analysis is well-justified and technically sound, though limited by being a single-object study."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11378,9 +11458,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.28772241992883,
+    "average_score": 8.290989399293291,
     "median_score": 8.5,
-    "high_relevance_count": 269,
+    "high_relevance_count": 271,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
