@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-11T06:14:56.696048",
-  "total_papers": 283,
-  "successfully_scored": 283,
+  "generated_at": "2026-03-13T06:16:58.003413",
+  "total_papers": 284,
+  "successfully_scored": 284,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -2657,6 +2657,47 @@
         }
       },
       "notebooklm_recommendation": "Highest priority"
+    },
+    {
+      "bibtex_key": "2026arXiv260310162T",
+      "title": "{The X-ray weakness of Little Red Dots and JWST-selected AGN: comparison with local AGN in different accretion regimes}",
+      "abstract": "{We investigate the origin of the observed X-ray weakness in high z LRDs and other JWST-selected broad line AGN by comparing their X-ray and optical properties with those of a diverse sample of low z AGN, including super-Eddington accreting massive black holes (SEAMBHs), NLS1s, and type I AGN from large surveys. We examine the relations between X-ray luminosity, broad H{\\ensuremath{\\alpha}} line luminosity, Eddington ratio, bolometric luminosity and X-ray-to-bolometric luminosity correction, and explore whether high z sources may represent analogues of local highly accreting systems. While a few LRDs and JWST-selected AGN are consistent with the SEAMBHs population in the $L\\_x/L\\_{Hα}$ versus $λ\\_{Edd}$ plane, most lie below it, suggesting either more extreme accretion conditions, suppressed coronal emission or heavy obscuration. We identify an anti- correlation between $L\\_x/L\\_{Hα}$ and $λ\\_{Edd}$ in the low z, high accreting subsample, consistent with theoretical expectations of slim-disc accretion. We further show that, for SEAMBHs, $Hα$-based bolometric luminosities underestimate SED- based values even after dust correction. We find that SEAMBHs, LRDs, and JWST-selected AGN occupy a similar high-$κ\\_{bol,x}$ regime, indicating that the relative deficit of X-ray emission compared to the bolometric output could potentially support the view that suppression of the hot corona emission is a common feature of highly accreting systems across cosmic time. Our results are consistent with the idea that the observed X-ray weakness of LRDs and JWST-selected AGN may be linked to the physics of highly accreting SMBHs. Moreover, observational limitations at high z, including instrumental sensitivity and the steep X-ray spectra expected for highly accreting systems, likely further suppress the detected X-ray signal.}",
+      "existing_tags": "agn-dominated, jwst, sed, super-eddington, x-ray",
+      "year": "2026",
+      "authors": "[Person('{Tortosa}, A.'), Person('{Ricci}, C.'), Person('{Du}, P.'), Person('{Venturi}, G.'), Person('{Ho}, L. C.'), Person('{Li}, R.'), Person('{Wang}, J.-M.'), Person('{Berton}, M.')]",
+      "relevance_score": 8.7,
+      "justification": "This paper represents essential LRD research that directly confronts their defining characteristic—X-ray weakness—through rigorous comparison with local super-Eddington accretors. By demonstrating that suppressed coronal emission is a universal feature of highly-accreting SMBHs, it provides a coherent physical framework linking LRDs to broader AGN physics. The multi-wavelength methodology and consideration of observational limitations strengthen its conclusions, making it a landmark study for understanding high-z black hole growth.",
+      "key_factors": [
+        "Direct investigation of LRD X-ray weakness",
+        "JWST-selected high-z AGN sample",
+        "Super-Eddington accretion comparison",
+        "Coronal emission suppression mechanism",
+        "Bolometric correction systematics",
+        "Multi-wavelength diagnostic analysis"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "Paper title explicitly focuses on 'Little Red Dots' and the abstract centers entirely on LRD X-ray weakness throughout. This is a dedicated LRD study that addresses their fundamental nature, not a tangential mention. Directly investigates the key unsolved problem of LRD X-ray properties using high-z JWST-selected samples."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Employs critical multi-wavelength approach combining JWST optical/NIR spectroscopy (Hα) with X-ray observations, essential for LRD characterization. Uses multiple low-z comparison samples (SEAMBHs, NLS1s, type I AGN) providing robust contextual framework. Acknowledges observational limitations (sensitivity, steep spectra) at high-z. However, abstract lacks specific details about data reduction, quality flags, or observational campaigns, preventing a higher score."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Comprehensively investigates core physical parameters: X-ray luminosity, broad Hα luminosity, Eddington ratios, bolometric luminosities, and X-ray-to-bolometric corrections (κ_bol,x). Explores accretion regimes including super-Eddington states and their signatures. Examines emission mechanism (coronal suppression) and dust correction effects. Provides quantitative scaling relations linking these properties across cosmic time."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses the central puzzle in LRD research: their extreme X-ray weakness. Provides physically-motivated explanation linking LRDs to super-Eddington accreting systems with suppressed hot coronae, potentially resolving the AGN vs. starburst debate. Findings have broad implications for understanding high-z black hole growth and AGN feedback. Anti-correlation between Lx/LHα and λ_Edd offers new diagnostic tool. Could significantly impact JWST-era galaxy evolution studies."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs sound comparative methodology against well-characterized local AGN samples across different accretion states. Considers selection effects and observational biases (instrumental sensitivity, spectral shape). Examines multiple diagnostic planes (Lx/LHα vs. λ_Edd) and explores systematics in bolometric corrections. However, abstract provides limited information on statistical methods, error analysis, sample completeness, or how potential contaminants were excluded, preventing top-tier rigor assessment."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
       "bibtex_key": "2025arXiv250712618N",
@@ -11458,9 +11499,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.290989399293291,
+    "average_score": 8.292429577464793,
     "median_score": 8.5,
-    "high_relevance_count": 271,
+    "high_relevance_count": 272,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
