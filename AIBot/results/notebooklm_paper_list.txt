@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-03-13T06:17:01.231921
+Generated: 2026-03-17T06:37:22.529972
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -556,6 +556,12 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026MNRAS.tmp..112J
     BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50
 
+[8.7] 2026FrASS..1379045V
+    Little red dots: the assembly of early supermassive black holes in the JWST Era
+
+[8.7] 2026MNRAS.tmp..450H
+    Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
+
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
 
@@ -576,6 +582,12 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.5] 2026MNRAS.tmp...81L
     Improved measurements of the age of JWST galaxies at z = 6 - 10
+
+[8.5] 2026A&A...707A.212M
+    The rise and fall of little red dots could be driven by the environment
+
+[8.5] 2026ApJ..1000L...4C
+    Pulsational Instability of Quasi-stars: Interpreting the Variability of Little Red Dots
 
 [8.5] 2025arXiv250710659L
     The Discovery of Little Red Dots in the Local Universe: Signatures of Cool Gas Envelopes
@@ -600,6 +612,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.4] 2026arXiv260117416S
     The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor
+
+[8.3] 2026ApJ..1000...59M
+    Counting Little Red Dots at z < 4 with Ground-based Surveys and Spectroscopic Follow-up
 
 [8.3] 2025arXiv250520439L
     The Properties of Little Red Dot Galaxies in the ASTRID Simulation
@@ -630,6 +645,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
+
+[7.3] 2026ApJ..1000L..11R
+    Islands of Electromagnetic Tranquility in Our Galactic Core and Little Red Dots that Shelter Molecules and Prebiotic Chemistry
 
 [7.3] 2024Conve2024....1P
     Tiny, compact galaxies are masters of disguise in the distant universe

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-13T06:16:59.981816",
-  "total_papers": 145,
-  "successfully_scored": 145,
+  "generated_at": "2026-03-17T06:37:21.338593",
+  "total_papers": 146,
+  "successfully_scored": 146,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -2963,6 +2963,46 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides the key theoretical mechanism for LRD rapid growth phase that should be integrated into any comprehensive LRD synthesis, particularly for explaining how compact red sources can host rapidly growing BHs."
+    },
+    {
+      "bibtex_key": "2024MNRAS.531..550K",
+      "title": "{The black hole masses of high-redshift QSOs}",
+      "abstract": "{Observations of high-redshift quasars frequently promote suggestions of large black hole masses, whose presence so early in cosmic time is not easily explicable. I consider the parallel with ultraluminous X-ray sources (ULXs) - now known to be stellar- mass black hole (and neutron star) binaries apparently radiating far above their Eddington luminosities L$\\_{Edd}$. The true luminosity in ULXs is actually only of order L$\\_{Edd}$, for stellar-mass accretors, but has a very anisotropic ('beamed') component, plus a near-isotropic component of similar luminosity but much lower specific intensity. Observers viewing ULXs from within the beam but assuming spherical symmetry deduce a luminosity {\\ensuremath{\\gg}}L$\\_{Edd}$. These features appear because the accretors are fed mass at highly super-Eddington rates, most of it expelled in high-speed (v > 0.2c) outflows from the accretion disc. I show that in similarly beamed AGN, emission-line properties would be essentially the same as in unbeamed sources, but standard virial mass indicators unusable because velocity widths are dominated by the outflows, not bound motions about the black holes. In an ensemble of this kind the apparently most luminous systems are always the most distant, but have the lowest black hole masses. Interpreting observations of this ensemble without knowing that they are beamed leads instead to very high black hole mass estimates. The analogy with ULXs therefore suggests that high-redshift quasars might actually have central black hole masses which could have grown from stellar values within the lookback time. I consider how one might test these ideas observationally.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{King}, Andrew')]",
+      "relevance_score": 8.1,
+      "justification": "This paper earns a high score due to its direct theoretical relevance to LRD interpretation (super-Eddington accretion/beaming model) and strong citation record (lrdIndex=11). While not providing novel observational methods, it offers a critical alternative framework for black hole masses that challenges standard virial estimates and provides an evolutionary pathway for rapid BH growth at high redshift.",
+      "key_factors": [
+        "lrdIndex=11 indicates sustained LRD community engagement",
+        "Direct LRD relevance via super-Eddington accretion and beaming framework",
+        "Critical BH-galaxy coevolution pathway solving high-z mass problem",
+        "ULX analogy provides novel interpretive lens beyond standard AGN theory"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "While predating the LRD discovery, this paper provides a direct theoretical framework for interpreting LRDs as potentially beamed, super-Eddington accreting systems with unreliable virial masses. The ULX analogy is specifically applicable to the compact, luminous nature of LRDs, offering a non-standard explanation for their apparent properties without invoking supermassive black holes. This moves beyond generic AGN theory to a specific high-z scenario that LRD researchers actively cite."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=11, this paper demonstrates strong, empirically-verified utility to the LRD community. This citation count places it in the top tier of kick_off papers, indicating repeated, sustained engagement rather than perfunctory referencing. The pattern suggests LRD researchers find its arguments essential for interpreting JWST-era discoveries, particularly regarding black hole mass estimates."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "The paper offers significant value beyond textbook AGN physics by introducing the ULX analogy as a specific interpretive lens for high-z quasars. However, some core concepts (super-Eddington accretion, outflows, beaming) are established in the literature. Its unique contribution is synthesizing these into a coherent alternative model for high-z BH masses, though it doesn't provide the detailed radiative transfer or MHD simulations that would constitute a complete theoretical foundation."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "Innovation lies in the theoretical reframing rather than new observational techniques. It proposes using ULX properties as a template for analyzing high-z AGN spectra and challenges the applicability of virial mass estimators. While it suggests observational tests (e.g., looking for beaming signatures, outflow-dominated line profiles), it doesn't develop concrete new pipelines or JWST-specific methodologies that LRD researchers could directly implement."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Provides a critical evolutionary pathway that solves the 'impossibly massive black hole' problem at high-z, which is central to LRD science. By suggesting BHs could grow from stellar masses within cosmic time via super-Eddington accretion, it directly addresses LRD formation scenarios. This framework is essential for placing LRDs in a coherent galaxy evolution narrative, particularly for understanding seed black holes and early BH-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - essential theoretical framework for interpreting LRD black hole masses and challenging virial mass assumptions"
     },
     {
       "bibtex_key": "2024ApJ...961L..39S",
@@ -5961,9 +6001,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.957931034482765,
+    "average_score": 7.958904109589048,
     "median_score": 8.1,
-    "critical_count": 97,
+    "critical_count": 98,
     "high_value_count": 45,
     "moderate_value_count": 2,
     "low_priority_count": 1
