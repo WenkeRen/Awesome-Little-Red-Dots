@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-03-17T06:37:22.529972
+Generated: 2026-03-18T06:24:34.516145
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -88,129 +88,129 @@ LRD PAPERS (Top 200 by relevance score)
  75. 2503.15597  (score: 8.7, key: 2025arXiv250315597F)
  76. 2603.02317  (score: 8.7, key: 2026arXiv260302317L)
  77. 2407.10760  (score: 8.7, key: 2025ApJ...980...36L)
- 78. 2505.18873  (score: 8.7, key: 2025ApJ...990L..61C)
- 79. 2601.00089  (score: 8.7, key: 2026arXiv260100089V)
+ 78. 2601.00089  (score: 8.7, key: 2026FrASS..1379045V)
+ 79. 2505.18873  (score: 8.7, key: 2025ApJ...990L..61C)
  80. 2509.03571  (score: 8.7, key: 2026ApJ...996....6S)
  81. 2505.12719  (score: 8.7, key: 2026NatAs.tmp...41Z)
  82. 2505.09542  (score: 8.7, key: 2026A&A...705A.147T)
  83. 2512.11665  (score: 8.7, key: 2025arXiv251211665K)
  84. 2505.20439  (score: 8.7, key: 2026OJAp....955493L)
- 85. 2410.03830  (score: 8.7, key: 2025ApJ...984..144T)
- 86. 2406.18207  (score: 8.7, key: 2025ApJ...989..160I)
- 87. 2510.00103  (score: 8.7, key: 2026A&A...707A..75T)
- 88. 2601.09778  (score: 8.7, key: 2026arXiv260109778H)
- 89. 2512.03239  (score: 8.7, key: 2025arXiv251203239B)
- 90. 2510.26990  (score: 8.7, key: 2025arXiv251026990S)
- 91. 2406.10329  (score: 8.7, key: 2025ApJ...985..169D)
- 92. 2312.03065  (score: 8.6, key: 2024A&A...691A..52K)
- 93. 2404.19010  (score: 8.6, key: 2024ApJ...969L..18A)
- 94. 2411.14383  (score: 8.6, key: 2025ApJ...992...71R)
- 95. 2510.07376  (score: 8.6, key: 2025arXiv251007376J)
- 96. 2507.20684  (score: 8.6, key: 2025ApJ...994L...6T)
- 97. 2505.09669  (score: 8.6, key: 2025ApJ...989L..30S)
- 98. 2507.08929  (score: 8.6, key: 2025MNRAS.544L.167B)
- 99. 2509.07100  (score: 8.6, key: 2025A&A...704A.313D)
-100. 2601.06015  (score: 8.6, key: 2026arXiv260106015Y)
-101. 2411.03184  (score: 8.6, key: 2025OJAp....8E...9J)
-102. 2410.00100  (score: 8.6, key: 2025ApJ...979..138H)
-103. 2412.04983  (score: 8.6, key: 2025NatCo..16.9830T)
-104. 2407.05094  (score: 8.6, key: 2024ApJ...975L...4C)
-105. 2602.22386  (score: 8.6, key: 2026arXiv260222386M)
-106. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
-107. 2507.22014  (score: 8.6, key: 2025arXiv250722014Z)
-108. 2505.22567  (score: 8.6, key: 2025arXiv250522567M)
-109. 2407.15915  (score: 8.6, key: 2024ApJ...976...96P)
-110. 2512.11050  (score: 8.6, key: 2025arXiv251211050Y)
-111. 2602.23310  (score: 8.6, key: 2026arXiv260223310D)
-112. 2602.02702  (score: 8.6, key: 2026arXiv260202702B)
-113. 2509.09607  (score: 8.6, key: 2025arXiv250909607L)
-114. 2408.10305  (score: 8.6, key: 2024ApJ...973L...2G)
-115. 2507.10659  (score: 8.6, key: 2026ApJ...997..364L)
-116. 2412.08396  (score: 8.6, key: 2025ApJ...980L..34L)
-117. 2511.07515  (score: 8.6, key: 2025arXiv251107515K)
-118. 2505.04825  (score: 8.6, key: 2025ApJ...988...57M)
-119. 2601.17416  (score: 8.6, key: 2026MNRAS.546ag191S)
-120. 2503.05537  (score: 8.5, key: 2025ApJ...988L..22I)
-121. 2412.05242  (score: 8.5, key: 2025ApJ...983L..26T)
-122. 2507.04011  (score: 8.5, key: 2026A&A...706A..29B)
-123. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
-124. 2507.17738  (score: 8.5, key: 2025arXiv250717738R)
-125. 2505.06965  (score: 8.5, key: 2025MNRAS.544.3407K)
-126. 2603.01668  (score: 8.5, key: 2026arXiv260301668P)
-127. 2505.05322  (score: 8.5, key: 2025arXiv250505322I)
-128. 2602.14496  (score: 8.5, key: 2026arXiv260214496H)
-129. 2410.20663  (score: 8.5, key: 2024arXiv241020663H)
-130. 2509.19422  (score: 8.5, key: 2025arXiv250919422I)
-131. 2410.06257  (score: 8.5, key: 2025ApJ...981..191M)
-132. 2602.12325  (score: 8.5, key: 2026arXiv260212325F)
-133. 2601.16772  (score: 8.5, key: 2026MNRAS.546ag089L)
-134. 2505.06359  (score: 8.5, key: 2025ApJ...991..217T)
-135. 2409.06772  (score: 8.5, key: 2025ApJ...986..165T)
-136. 2411.04446  (score: 8.5, key: 2025ApJ...983...60C)
-137. 2508.02792  (score: 8.5, key: 2025MNRAS.544..687W)
-138. 2407.04777  (score: 8.4, key: 2025ApJ...995...24K)
-139. 2503.01945  (score: 8.4, key: 2025A&A...700A.231X)
-140. 2503.15323  (score: 8.4, key: 2025arXiv250315323E)
-141. 2411.19518  (score: 8.4, key: 2025A&A...693L...2P)
-142. 2601.22214  (score: 8.4, key: 2026arXiv260122214B)
-143. 2603.01473  (score: 8.4, key: 2026arXiv260301473L)
-144. 2508.21678  (score: 8.4, key: 2025ApJ...992..117B)
-145. 2508.16795  (score: 8.4, key: 2025ApJ...991..137Z)
-146. 2409.18208  (score: 8.4, key: 2025MNRAS.539.2910P)
-147. 2508.14155  (score: 8.4, key: 2026ApJ...998..148J)
-148. 2503.10958  (score: 8.4, key: 2025PASA...42...68G)
-149. 2507.07190  (score: 8.4, key: 2025ApJ...994..113L)
-150. 2406.10341  (score: 8.4, key: 2025ApJ...991...37A)
-151. 2502.03742  (score: 8.4, key: 2025A&A...694L..14L)
-152. 2510.06408  (score: 8.4, key: 2025arXiv251006408M)
-153. 2507.15556  (score: 8.4, key: 2026MNRAS.545f1949J)
-154. 2412.14246  (score: 8.4, key: 2024arXiv241214246T)
-155. 2511.10725  (score: 8.4, key: 2025arXiv251110725H)
-156. 2509.03291  (score: 8.3, key: 2025Univ...11..294P)
-157. 2510.17952  (score: 8.3, key: 2026ApJ...998L...4S)
-158. 2507.03230  (score: 8.3, key: 2025arXiv250703230R)
-159. 2601.21676  (score: 8.3, key: 2026arXiv260121676B)
-160. 2312.04841  (score: 8.3, key: 2024ApJ...963L..38N)
-161. 2403.03908  (score: 8.3, key: 2025ApJ...978...89H)
-162. 2408.10403  (score: 8.3, key: 2024MNRAS.533.2948S)
-163. 2509.21236  (score: 8.3, key: 2026ApJ...998..133W)
-164. 2601.22213  (score: 8.3, key: 2026arXiv260122213M)
-165. 2601.00044  (score: 8.3, key: 2026arXiv260100044W)
-166. 2512.17997  (score: 8.3, key: 2025arXiv251217997C)
-167. 2401.08782  (score: 8.2, key: 2024ApJ...968....4P)
-168. 2507.09085  (score: 8.2, key: 2026ApJ...996...48B)
-169. 2506.17641  (score: 8.2, key: 2025arXiv250617641F)
-170. 2407.12965  (score: 8.2, key: 2024RNAAS...8..182L)
-171. 2510.21709  (score: 8.2, key: 2025arXiv251021709K)
-172. 2501.03309  (score: 8.2, key: 2025ApJ...984L..55B)
-173. 2511.09278  (score: 8.2, key: 2025arXiv251109278W)
-174. 2506.03244  (score: 8.2, key: 2025ApJ...989L..19P)
-175. 2511.07578  (score: 8.2, key: 2025arXiv251107578D)
-176. 2503.07711  (score: 8.2, key: 2025ApJ...986L...1K)
-177. 2512.19666  (score: 8.2, key: 2025arXiv251219666D)
-178. 2412.05946  (score: 8.2, key: 2024arXiv241205946A)
-179. 2502.07875  (score: 8.2, key: 2025A&A...698A.227F)
-180. 2504.08032  (score: 8.2, key: 2025arXiv250408032M)
-181. 2411.11534  (score: 8.2, key: 2025NatAs...9.1732S)
-182. 2506.19589  (score: 8.2, key: 2025arXiv250619589L)
-183. 2511.07714  (score: 8.2, key: 2025ApJ...995...37S)
-184. 2505.08885  (score: 8.2, key: 2025ApJ...988..157B)
-185. 2403.02399  (score: 8.2, key: 2025ApJ...988L..35W)
-186. 2512.16365  (score: 8.2, key: 2025arXiv251216365A)
-187. 2402.16942  (score: 8.2, key: 2024ApJ...969L..10P)
-188. 2602.17329  (score: 8.2, key: 2026arXiv260217329J)
-189. 2409.13441  (score: 8.2, key: 2024arXiv240913441F)
-190. 2510.02801  (score: 8.2, key: 2026ApJ...999...30C)
-191. 2509.03576  (score: 8.2, key: 2025arXiv250903576B)
-192. 2601.04955  (score: 8.2, key: 2026arXiv260104955C)
-193. 2504.00075  (score: 8.1, key: 2025arXiv250400075S)
-194. 2508.14897  (score: 8.1, key: 2025MNRAS.542.2597C)
-195. 2507.07171  (score: 8.1, key: 2025arXiv250707171Z)
-196. 2602.05135  (score: 8.1, key: 2026JHEAp..5200576W)
-197. 2501.04912  (score: 8.1, key: 2025ApJ...986..130G)
-198. 2508.19618  (score: 8.1, key: 2025ApJ...992...70K)
-199. 2505.05556  (score: 8.1, key: 2025A&A...704A.248Q)
-200. 2409.14807  (score: 8.1, key: 2024arXiv240914807S)
+ 85. 2511.10725  (score: 8.7, key: 2026MNRAS.tmp..450H)
+ 86. 2410.03830  (score: 8.7, key: 2025ApJ...984..144T)
+ 87. 2406.18207  (score: 8.7, key: 2025ApJ...989..160I)
+ 88. 2510.00103  (score: 8.7, key: 2026A&A...707A..75T)
+ 89. 2601.09778  (score: 8.7, key: 2026arXiv260109778H)
+ 90. 2512.03239  (score: 8.7, key: 2025arXiv251203239B)
+ 91. 2510.26990  (score: 8.7, key: 2025arXiv251026990S)
+ 92. 2406.10329  (score: 8.7, key: 2025ApJ...985..169D)
+ 93. 2312.03065  (score: 8.6, key: 2024A&A...691A..52K)
+ 94. 2404.19010  (score: 8.6, key: 2024ApJ...969L..18A)
+ 95. 2411.14383  (score: 8.6, key: 2025ApJ...992...71R)
+ 96. 2510.07376  (score: 8.6, key: 2025arXiv251007376J)
+ 97. 2507.20684  (score: 8.6, key: 2025ApJ...994L...6T)
+ 98. 2505.09669  (score: 8.6, key: 2025ApJ...989L..30S)
+ 99. 2507.08929  (score: 8.6, key: 2025MNRAS.544L.167B)
+100. 2509.07100  (score: 8.6, key: 2025A&A...704A.313D)
+101. 2601.06015  (score: 8.6, key: 2026arXiv260106015Y)
+102. 2411.03184  (score: 8.6, key: 2025OJAp....8E...9J)
+103. 2410.00100  (score: 8.6, key: 2025ApJ...979..138H)
+104. 2412.04983  (score: 8.6, key: 2025NatCo..16.9830T)
+105. 2407.05094  (score: 8.6, key: 2024ApJ...975L...4C)
+106. 2602.22386  (score: 8.6, key: 2026arXiv260222386M)
+107. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
+108. 2507.22014  (score: 8.6, key: 2025arXiv250722014Z)
+109. 2505.22567  (score: 8.6, key: 2025arXiv250522567M)
+110. 2407.15915  (score: 8.6, key: 2024ApJ...976...96P)
+111. 2512.11050  (score: 8.6, key: 2025arXiv251211050Y)
+112. 2602.23310  (score: 8.6, key: 2026arXiv260223310D)
+113. 2602.02702  (score: 8.6, key: 2026arXiv260202702B)
+114. 2509.09607  (score: 8.6, key: 2025arXiv250909607L)
+115. 2408.10305  (score: 8.6, key: 2024ApJ...973L...2G)
+116. 2507.10659  (score: 8.6, key: 2026ApJ...997..364L)
+117. 2412.08396  (score: 8.6, key: 2025ApJ...980L..34L)
+118. 2511.07515  (score: 8.6, key: 2025arXiv251107515K)
+119. 2505.04825  (score: 8.6, key: 2025ApJ...988...57M)
+120. 2601.17416  (score: 8.6, key: 2026MNRAS.546ag191S)
+121. 2503.05537  (score: 8.5, key: 2025ApJ...988L..22I)
+122. 2412.05242  (score: 8.5, key: 2025ApJ...983L..26T)
+123. 2507.04011  (score: 8.5, key: 2026A&A...706A..29B)
+124. 2510.06408  (score: 8.5, key: 2026A&A...707A.212M)
+125. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
+126. 2507.17738  (score: 8.5, key: 2025arXiv250717738R)
+127. 2505.06965  (score: 8.5, key: 2025MNRAS.544.3407K)
+128. 2603.01668  (score: 8.5, key: 2026arXiv260301668P)
+129. 2512.17997  (score: 8.5, key: 2026ApJ..1000L...4C)
+130. 2505.05322  (score: 8.5, key: 2025arXiv250505322I)
+131. 2602.14496  (score: 8.5, key: 2026arXiv260214496H)
+132. 2410.20663  (score: 8.5, key: 2024arXiv241020663H)
+133. 2509.19422  (score: 8.5, key: 2025arXiv250919422I)
+134. 2410.06257  (score: 8.5, key: 2025ApJ...981..191M)
+135. 2602.12325  (score: 8.5, key: 2026arXiv260212325F)
+136. 2601.16772  (score: 8.5, key: 2026MNRAS.546ag089L)
+137. 2505.06359  (score: 8.5, key: 2025ApJ...991..217T)
+138. 2409.06772  (score: 8.5, key: 2025ApJ...986..165T)
+139. 2411.04446  (score: 8.5, key: 2025ApJ...983...60C)
+140. 2508.02792  (score: 8.5, key: 2025MNRAS.544..687W)
+141. 2407.04777  (score: 8.4, key: 2025ApJ...995...24K)
+142. 2503.01945  (score: 8.4, key: 2025A&A...700A.231X)
+143. 2503.15323  (score: 8.4, key: 2025arXiv250315323E)
+144. 2411.19518  (score: 8.4, key: 2025A&A...693L...2P)
+145. 2601.22214  (score: 8.4, key: 2026arXiv260122214B)
+146. 2603.01473  (score: 8.4, key: 2026arXiv260301473L)
+147. 2508.21678  (score: 8.4, key: 2025ApJ...992..117B)
+148. 2508.16795  (score: 8.4, key: 2025ApJ...991..137Z)
+149. 2409.18208  (score: 8.4, key: 2025MNRAS.539.2910P)
+150. 2508.14155  (score: 8.4, key: 2026ApJ...998..148J)
+151. 2503.10958  (score: 8.4, key: 2025PASA...42...68G)
+152. 2507.07190  (score: 8.4, key: 2025ApJ...994..113L)
+153. 2406.10341  (score: 8.4, key: 2025ApJ...991...37A)
+154. 2502.03742  (score: 8.4, key: 2025A&A...694L..14L)
+155. 2507.15556  (score: 8.4, key: 2026MNRAS.545f1949J)
+156. 2412.14246  (score: 8.4, key: 2024arXiv241214246T)
+157. 2603.13736  (score: 8.4, key: 2026arXiv260313736Z)
+158. 2509.03291  (score: 8.3, key: 2025Univ...11..294P)
+159. 2504.08032  (score: 8.3, key: 2026ApJ..1000...59M)
+160. 2510.17952  (score: 8.3, key: 2026ApJ...998L...4S)
+161. 2507.03230  (score: 8.3, key: 2025arXiv250703230R)
+162. 2601.21676  (score: 8.3, key: 2026arXiv260121676B)
+163. 2312.04841  (score: 8.3, key: 2024ApJ...963L..38N)
+164. 2403.03908  (score: 8.3, key: 2025ApJ...978...89H)
+165. 2408.10403  (score: 8.3, key: 2024MNRAS.533.2948S)
+166. 2509.21236  (score: 8.3, key: 2026ApJ...998..133W)
+167. 2601.22213  (score: 8.3, key: 2026arXiv260122213M)
+168. 2601.00044  (score: 8.3, key: 2026arXiv260100044W)
+169. 2401.08782  (score: 8.2, key: 2024ApJ...968....4P)
+170. 2507.09085  (score: 8.2, key: 2026ApJ...996...48B)
+171. 2506.17641  (score: 8.2, key: 2025arXiv250617641F)
+172. 2407.12965  (score: 8.2, key: 2024RNAAS...8..182L)
+173. 2510.21709  (score: 8.2, key: 2025arXiv251021709K)
+174. 2501.03309  (score: 8.2, key: 2025ApJ...984L..55B)
+175. 2511.09278  (score: 8.2, key: 2025arXiv251109278W)
+176. 2506.03244  (score: 8.2, key: 2025ApJ...989L..19P)
+177. 2511.07578  (score: 8.2, key: 2025arXiv251107578D)
+178. 2503.07711  (score: 8.2, key: 2025ApJ...986L...1K)
+179. 2512.19666  (score: 8.2, key: 2025arXiv251219666D)
+180. 2412.05946  (score: 8.2, key: 2024arXiv241205946A)
+181. 2502.07875  (score: 8.2, key: 2025A&A...698A.227F)
+182. 2411.11534  (score: 8.2, key: 2025NatAs...9.1732S)
+183. 2506.19589  (score: 8.2, key: 2025arXiv250619589L)
+184. 2511.07714  (score: 8.2, key: 2025ApJ...995...37S)
+185. 2505.08885  (score: 8.2, key: 2025ApJ...988..157B)
+186. 2403.02399  (score: 8.2, key: 2025ApJ...988L..35W)
+187. 2512.16365  (score: 8.2, key: 2025arXiv251216365A)
+188. 2402.16942  (score: 8.2, key: 2024ApJ...969L..10P)
+189. 2602.17329  (score: 8.2, key: 2026arXiv260217329J)
+190. 2409.13441  (score: 8.2, key: 2024arXiv240913441F)
+191. 2510.02801  (score: 8.2, key: 2026ApJ...999...30C)
+192. 2509.03576  (score: 8.2, key: 2025arXiv250903576B)
+193. 2601.04955  (score: 8.2, key: 2026arXiv260104955C)
+194. 2504.00075  (score: 8.1, key: 2025arXiv250400075S)
+195. 2508.14897  (score: 8.1, key: 2025MNRAS.542.2597C)
+196. 2507.07171  (score: 8.1, key: 2025arXiv250707171Z)
+197. 2602.05135  (score: 8.1, key: 2026JHEAp..5200576W)
+198. 2501.04912  (score: 8.1, key: 2025ApJ...986..130G)
+199. 2508.19618  (score: 8.1, key: 2025ApJ...992...70K)
+200. 2505.05556  (score: 8.1, key: 2025A&A...704A.248Q)
 
 ================================================================================
 KICK_OFF PAPERS (Top 50 by relevance score)
@@ -348,13 +348,14 @@ ARXIV IDs ONLY (for automated processing)
 2503.15597
 2603.02317
 2407.10760
-2505.18873
 2601.00089
+2505.18873
 2509.03571
 2505.12719
 2505.09542
 2512.11665
 2505.20439
+2511.10725
 2410.03830
 2406.18207
 2510.00103
@@ -393,10 +394,12 @@ ARXIV IDs ONLY (for automated processing)
 2503.05537
 2412.05242
 2507.04011
+2510.06408
 2507.12618
 2507.17738
 2505.06965
 2603.01668
+2512.17997
 2505.05322
 2602.14496
 2410.20663
@@ -422,11 +425,11 @@ ARXIV IDs ONLY (for automated processing)
 2507.07190
 2406.10341
 2502.03742
-2510.06408
 2507.15556
 2412.14246
-2511.10725
+2603.13736
 2509.03291
+2504.08032
 2510.17952
 2507.03230
 2601.21676
@@ -436,7 +439,6 @@ ARXIV IDs ONLY (for automated processing)
 2509.21236
 2601.22213
 2601.00044
-2512.17997
 2401.08782
 2507.09085
 2506.17641
@@ -450,7 +452,6 @@ ARXIV IDs ONLY (for automated processing)
 2512.19666
 2412.05946
 2502.07875
-2504.08032
 2411.11534
 2506.19589
 2511.07714
@@ -470,7 +471,6 @@ ARXIV IDs ONLY (for automated processing)
 2501.04912
 2508.19618
 2505.05556
-2409.14807
 2403.03872
 2308.05735
 2309.05714
@@ -556,11 +556,8 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026MNRAS.tmp..112J
     BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50
 
-[8.7] 2026FrASS..1379045V
-    Little red dots: the assembly of early supermassive black holes in the JWST Era
-
-[8.7] 2026MNRAS.tmp..450H
-    Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
+[8.7] 2026arXiv260100089V
+    Little Red Dots: The Assembly of Early Supermassive Black Holes in the JWST Era
 
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
@@ -583,12 +580,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.5] 2026MNRAS.tmp...81L
     Improved measurements of the age of JWST galaxies at z = 6 - 10
 
-[8.5] 2026A&A...707A.212M
-    The rise and fall of little red dots could be driven by the environment
-
-[8.5] 2026ApJ..1000L...4C
-    Pulsational Instability of Quasi-stars: Interpreting the Variability of Little Red Dots
-
 [8.5] 2025arXiv250710659L
     The Discovery of Little Red Dots in the Local Universe: Signatures of Cool Gas Envelopes
 
@@ -607,20 +598,29 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.4] 2025arXiv250520393Z
     NEXUS: A Spectroscopic Census of Broad-line AGNs and Little Red Dots at $3\lesssim z\lesssim 6$
 
+[8.4] 2025arXiv251006408M
+    The rise and fall of Little Red Dots could be driven by the environment
+
 [8.4] 2025arXiv250704011B
     Investigating the Growth of Little Red Dot Descendants at z<4 with the JWST
+
+[8.4] 2025arXiv251110725H
+    Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
 
 [8.4] 2026arXiv260117416S
     The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor
 
-[8.3] 2026ApJ..1000...59M
-    Counting Little Red Dots at z < 4 with Ground-based Surveys and Spectroscopic Follow-up
-
 [8.3] 2025arXiv250520439L
     The Properties of Little Red Dot Galaxies in the ASTRID Simulation
 
+[8.3] 2025arXiv251217997C
+    Pulsational Instability of Quasi-Stars: Interpreting the Variability of Little Red Dots
+
 [8.2] 2026Natur.649..557N
     Mysterious 'little red dots' could be black holes in disguise
+
+[8.2] 2025arXiv250408032M
+    Counting Little Red Dots at $z<4$ with Ground-based Surveys and Spectroscopic Follow-up
 
 [8.0] 2025arXiv251108477I
     Supermassive Dark Stars and their remnants as a possible solution to three recent cosmic dawn puzzles
@@ -645,9 +645,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
-
-[7.3] 2026ApJ..1000L..11R
-    Islands of Electromagnetic Tranquility in Our Galactic Core and Little Red Dots that Shelter Molecules and Prebiotic Chemistry
 
 [7.3] 2024Conve2024....1P
     Tiny, compact galaxies are masters of disguise in the distant universe

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-17T06:35:38.037183",
-  "total_papers": 290,
-  "successfully_scored": 290,
+  "generated_at": "2026-03-18T06:24:31.495465",
+  "total_papers": 291,
+  "successfully_scored": 291,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -7281,6 +7281,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260313736Z",
+      "title": "{Blackbody Quasar and Radio Source (BBQSORS): A Candidate of Transitional Little Red Dots with a $T\\sim10^4\\ K$ Blackbody Spectrum}",
+      "abstract": "{We report Subaru/PFS spectroscopic follow-up of a radio-loud quasar at $z=1.715$ from the UNVEIL radio AGN catalog and with X-ray detections. The PFS spectrum displays a broad MgII emission line with an $\\mathrm{FWHM}rsim3400\\ km/s$, accompanied by a narrow absorption feature. The spectrum reveals a characteristic $Λ$-shape over the rest-frame wavelength ranging $\\sim1500-3500\\ Å$. This underlying UV continuum is too curved to be reproduced by simply applying dust extinction to the spectrum of typical unobscured quasars. Alternatively, it is well described by a blackbody spectrum with a temperature of $T\\approx10000\\ K$. This result is in good agreement with its UV to MIR photometry that can be well modeled by three blackbody components representing the SMBH envelope ($\\mathit{T}\\approx9700\\ K$), dust torus ($T\\approx1500\\ K$), and host galaxy dust ($T\\approx80\\ K$). The source is marginally detected in the GALEX NUV, revealing a potential V-shaped spectral energy distribution around $1400\\ Å$, reminiscent of the spectral feature reported for recently discussed LRDs whose V-shapes occur around $3000-4000\\ Å$. This wavelength shift is broadly consistent with the temperature contrast between our blackbody component, with $T\\sim10^4\\ K$, and the lower effective temperature of $T\\sim5000\\ K$ expected for an optically thick photosphere surrounding the SMBH in LRDs. These properties suggest that this source might be caught in a transient evolutionary phase in which the dense gas envelope characteristic of LRD has begun to fragment, allowing us to witness the emergence of a quasar from an LRD-like state.}",
+      "existing_tags": "agn-dominated, radio, sed, spectroscopy, x-ray",
+      "year": "2026",
+      "authors": "[Person('{Zhong}, Yuxing'), Person('{Chen}, Xiaoyang'), Person('{Ichikawa}, Kohei'), Person('{Kong}, Youwen'), Person('{Aoki}, Kentaro'), Person('{Yamada}, Satoshi'), Person('{Nagao}, Tohru'), Person('{Kido}, Daisaburo'), Person('{Kawaguchi}, Toshihiro'), Person('{Matsuoka}, Yoshiki'), Person('{Misawa}, Toru'), Person('{Mizukoshi}, Shoichiro'), Person('{Onoue}, Masafusa'), Person('{Takahashi}, Ayumi'), Person('{Toba}, Yoshiki')]",
+      "relevance_score": 8.4,
+      "justification": "This paper scores highly due to its direct engagement with LRD science, proposing a novel evolutionary connection between LRDs and quasars. The excellent multi-wavelength dataset and quantitative physical modeling are major strengths, though conclusions based on a single object require validation. The temperature measurement and V-shape analysis provide concrete links to LRD properties.",
+      "key_factors": [
+        "Direct LRD comparison and transitional phase hypothesis",
+        "Multi-wavelength spectroscopy and photometry (Subaru/PFS, X-ray, radio, GALEX)",
+        "Blackbody temperature measurement (~10^4 K) for SMBH envelope",
+        "V-shape spectral feature analysis around 1400 Å",
+        "Three-component SED modeling (SMBH envelope, torus, host galaxy)"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "Paper directly addresses LRDs by name, compares V-shape spectral features, and proposes a novel transitional evolutionary phase from LRD to quasar. However, it focuses on a single radio-loud object at lower redshift (z=1.715) than typical LRDs, limiting generalizability to the broader LRD population."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Excellent multi-wavelength coverage including Subaru/PFS spectroscopy, UV-to-MIR photometry, X-ray, radio (UNVEIL catalog), and GALEX NUV data. High-quality spectral resolution enables detailed line width and continuum shape measurements. Lacks JWST data but otherwise state-of-the-art for ground-based follow-up."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Quantitatively measures key physical parameters including blackbody temperature (~10^4 K), MgII line width (>3400 km/s), and three-component SED decomposition (SMBH envelope, torus, host galaxy). Provides concrete values for comparison with LRD models, though BH mass and Eddington ratio are not directly measured."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "High potential impact if the transitional LRD-quasar scenario is confirmed, offering first direct observational evidence for LRD evolution. Could resolve debates about LRD nature. Score reflects speculative nature based on single object; requires population studies for definitive conclusions but presents testable predictions."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Robust spectral modeling with blackbody fits and multi-component SED analysis. Good use of archival data and established catalogs. Some interpretive leaps regarding 'transitional phase' and fragmenting gas envelope are plausible but not uniquely demonstrated. Overall sound methodology with minor speculative elements."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260117416S",
       "title": "{The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor}",
       "abstract": "{We present a rest-ultraviolet to infrared spectral energy distribution (SED) analysis of 63 heavily reddened quasars (HRQs) at redshifts z=0.7-2.7 and with dust extinctions E(B-V)=0.4-1.8. Our analysis demonstrates that SEDs with red optical and blue UV continua are very common in HRQs, with more than 82 per cent of the sample showing a UV-excess relative to the reddened quasar continuum. We model the SEDs by combining a reddened quasar and an unobscured scattered light component, though contributions from a star-forming host galaxy cannot be ruled out. The average scattering fraction is small (0.3 per cent). Higher scattering fractions are ruled out by the (i-K)=2.5 colour-cut used to select HRQs which pre-dates the discovery of the JWST ``Little Red Dot'' (LRD) population. Hence, LRDs generally have bluer UV continua. Nevertheless, four HRQs satisfy the LRD UV/optical continuum slope selections and are therefore massive, cosmic noon analogues of LRDs. Analysis of the near-infrared SEDs of HRQs reveals a deficit of hot dust relative to blue quasars, similar to what is observed in LRDs. This suggests HRQs trace a phase where strong AGN feedback processes eject dust from the inner torus. The UV scattering fraction of HRQs is weakly correlated with the amount of hot dust emission and anti- correlated with the line-of-sight extinction, E(B-V). This is consistent with the hot dust acting as the scattering medium, and the line-of-sight extinction being dominated by dust on interstellar medium scales in the host galaxy.}",
@@ -11742,9 +11782,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.29327586206897,
+    "average_score": 8.293642611683856,
     "median_score": 8.5,
-    "high_relevance_count": 278,
+    "high_relevance_count": 279,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
