@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-18T06:24:31.495465",
-  "total_papers": 291,
-  "successfully_scored": 291,
+  "generated_at": "2026-03-19T06:22:25.954586",
+  "total_papers": 292,
+  "successfully_scored": 292,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -4887,6 +4887,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "The abstract presents specific quantitative results and line ratios, suggesting careful analysis. The use of gravitational lensing requires sophisticated modeling. However, limited information on uncertainties, sample selection, and detailed methodology prevents a higher score."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260315736W",
+      "title": "{Halo assembly bias in the early Universe: a clustering probe of the origin of the Little Red Dots}",
+      "abstract": "{The clustering of galaxies encodes key information about the structure and assembly history of their host dark matter (DM) haloes, providing a powerful probe of the origin of extreme high- redshift systems. While halo assembly bias has been extensively studied at low redshift, its behavior in the early Universe remains poorly explored. Using the large-volume, high-resolution Shin-Uchuu cosmological $N$-body simulation, we characterize halo assembly bias associated with formation time, concentration, and angular momentum across a wide range of halo masses and redshifts. We find that the sign and amplitude of assembly bias depend on halo mass for both concentration and spin. High-concentration and low-spin haloes are more strongly clustered below characteristic peak heights of $ν\\sim 1.5$ and $\\sim 0.75$, respectively, while the trends weaken or reverse at higher masses. Halo age bias persists at all redshifts but decreases toward higher masses and earlier cosmic times. We apply these results to assess whether clustering can distinguish competing formation scenarios for the Little Red Dots (LRDs). We find that the direct-collapse-black-hole (DCBH) scenario predicts the strongest large-scale bias and enhanced pair fractions, the self-interacting-dark-matter (SIDM) core-collapse scenario and low-spin compact-galaxy scenarios yield weaker clustering due to lower characteristic halo masses and spin- related secondary bias, and a primordial-black-hole (PBH) scenario predicts unbiased clustering. Our results demonstrate that halo assembly bias and characteristic host masses provide powerful diagnostics for constraining the physical origin of LRDs, offering testable predictions for upcoming clustering measurements with JWST and future deep surveys.}",
+      "existing_tags": "clustering, early universe, exotic physics, heavy seed, simulation",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Zihao'), Person('{Jiang}, Fangzhou'), Person('{Zheng}, Haonan'), Person('{Shen}, Xuejian'), Person('{Jia}, Zixiang'), Person('{Ho}, Luis C.'), Person('{Inayoshi}, Kohei'), Person('{Jiang}, Linhua')]",
+      "relevance_score": 8.6,
+      "justification": "This paper provides a direct, highly relevant theoretical framework for understanding LRD origins through clustering signatures. It uses rigorous cosmological simulations to generate testable predictions that can distinguish between competing formation scenarios, making it extremely valuable for guiding future JWST observations and interpreting observational data.",
+      "key_factors": [
+        "Directly addresses LRD origins through clustering and assembly bias",
+        "Uses state-of-the-art Shin-Uchuu cosmological simulations",
+        "Predicts distinct clustering signatures for multiple scenarios (DCBH, SIDM, PBH, compact galaxies)",
+        "Provides testable predictions for JWST and future deep surveys",
+        "Quantifies how halo properties (mass, concentration, spin) affect clustering signals"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is fundamentally about LRDs, with the term explicitly in the title and the entire abstract focused on using clustering and assembly bias to probe LRD origins. It directly addresses the key question of distinguishing between multiple competing LRD formation scenarios (DCBH, SIDM, PBH, compact galaxies), making it extremely core to LRD research."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "The paper makes specific, testable predictions for observational follow-up with JWST and future deep surveys, focusing on clustering measurements and pair fractions. However, as a theoretical simulation study, it does not develop new observational techniques or present observational data itself, limiting its direct contribution to observational methodology."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The paper addresses physical properties indirectly through halo properties (mass, concentration, spin) and connects these to LRD formation scenarios. It provides context for expected host halo masses and environmental properties, but does not directly constrain detailed LRD physical properties like black hole masses, stellar populations, or SED characteristics."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "The paper has very high potential impact by providing a novel theoretical framework to distinguish between competing LRD formation scenarios using clustering signatures. It addresses one of the most pressing questions in high-redshift astronomy with clear, quantifiable, and testable predictions that can directly guide and interpret upcoming observations."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The paper employs state-of-the-art, large-volume high-resolution cosmological N-body simulations (Shin-Uchuu) with rigorous characterization of assembly bias across a wide range of halo masses and redshifts. The methodology is robust, reproducible, and provides quantitative predictions for different scenarios with proper statistical grounding."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11782,9 +11822,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.293642611683856,
+    "average_score": 8.294691780821925,
     "median_score": 8.5,
-    "high_relevance_count": 279,
+    "high_relevance_count": 280,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
