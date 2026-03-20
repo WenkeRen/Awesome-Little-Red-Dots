@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-19T06:22:25.954586",
-  "total_papers": 292,
-  "successfully_scored": 292,
+  "generated_at": "2026-03-20T06:21:26.678965",
+  "total_papers": 294,
+  "successfully_scored": 294,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -7196,6 +7196,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260317667M",
+      "title": "{The Engine and its Flows: Little Red Dot spectra are shaped by the column densities of their gas envelopes}",
+      "abstract": "{JWST data have enabled the abundant identification of compact broad Balmer line sources nicknamed the Little Red Dots. While they share broad lines with active galactic nuclei, they are unusually X-ray and infrared weak. We investigate the origin of the Balmer line profiles based on an empirical analysis of 18 broad H$α$-selected sources with high quality spectra at $z\\approx3-7$. The H$α$ line profiles vary systematically with Balmer break strength: sources with blue UV to optical colors show a narrow core profile, redder sources with Balmer breaks a blue shifted absorption (P Cygni shape), and the reddest sources display absorption-dominated cores. All H$α$ lines have symmetric exponential wings, which are more dominant and slightly broader in red sources. Balmer absorption is present in $\\sim60$ \\% of the sample, with H$β$ showing relatively stronger absorption. Drawing upon empirical analogies with stellar phenomena, we interpret these trends as being due to radiative processes that depend on variations in the optical depth, ionisation state and column density of a clumpy, partially ionised envelope. We unveil a correlation between the absorber velocity and Balmer break strength, with the densest absorbers inflowing and bluer sources having faster outflows. This indicates viewing angle or evolutionary effects where optically thick gas is inflowing, as suggested in models of super- Eddington accretion, and the engine can more easily drive outflows in directions with lower column densities. This new understanding of Balmer line profiles as tracing gas properties rather than dynamical broadening helps resolve tensions associated with high inferred black hole masses from standard virial calibrations, and reveals the complex gas environment around the hot central engine.}",
+      "existing_tags": "absorption features, jwst, obscuration, spectroscopy, super-eddington",
+      "year": "2026",
+      "authors": "[Person('{Matthee}, Jorryt'), Person('{Torralba}, Alberto'), Person('{Pezzulli}, Gabriele'), Person('{Naidu}, Rohan P.'), Person('{Chisholm}, John'), Person('{Mascia}, Sara'), Person('{Greene}, Jenny E.'), Person('{Ishikawa}, Yuzo'), Person('{Gronke}, Max'), Person('{Wuyts}, Stijn'), Person('{Bordoloi}, Rongmon'), Person('{Brammer}, Gabriel'), Person('{Chang}, Seok-Jun'), Person('{Eilers}, Anna-Christina'), Person('{de Graaff}, Anna'), Person('{Hviding}, Raphael E.'), Person('{Iani}, Edoardo'), Person('{Illingworth}, Garth'), Person('{Kashino}, Daichi'), Person('{Labbe}, Ivo'), Person('{Ma}, Yilun'), Person('{Maseda}, Michael V.'), Person('{Meyer}, Romain'), Person('{Nelson}, Erica'), Person('{Oesch}, Pascal'), Person('{Xiao}, Mengyuan')]",
+      "relevance_score": 8.4,
+      "justification": "This paper represents high-impact LRD research that leverages JWST spectroscopy to propose a paradigm-shifting interpretation of Balmer line profiles as tracers of gas column density rather than dynamical broadening. It directly addresses major tensions in BH mass measurements and source classification, offering a coherent physical framework with strong observational support.",
+      "key_factors": [
+        "JWST NIRSpec spectroscopy",
+        "18 LRDs at z≈3-7",
+        "Systematic line profile trends",
+        "Column density interpretation",
+        "Super-Eddington accretion implications",
+        "Resolves BH mass calibration tensions"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "Paper is entirely dedicated to Little Red Dots with LRD terminology in the title and abstract. Directly addresses central LRD mysteries including broad line origins, black hole mass tensions, and AGN-starburst classification. Represents focused LRD research rather than tangential mention."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Utilizes high-quality JWST NIRSpec spectroscopy for 18 sources at z≈3-7 with systematic analysis of Hα profiles, Balmer breaks, and absorption features. Sample size is robust for high-redshift studies. Could benefit from more explicit data quality metrics and reduction details."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Provides deep physical interpretation of gas envelopes (column densities, optical depths, ionization states), velocity fields (inflows/outflows), and accretion physics (super-Eddington). Develops new framework connecting spectral shapes to viewing angle and evolutionary state. Remains somewhat phenomenological pending detailed radiative transfer modeling."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Directly resolves critical tensions in LRD research: overestimated virial BH masses, X-ray/IR weakness, and AGN vs. starburst nature. Proposes transformative paradigm that line profiles trace gas properties rather than dynamics. High potential to reshape field but requires independent verification."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs systematic empirical analysis with well-defined sample selection and quantitative correlations (absorber velocity vs. Balmer break strength). Interpretation is plausible and grounded in stellar analogies. Could be strengthened with more detailed statistical error analysis, Monte Carlo testing, and explicit discussion of selection effects."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv250704011B",
       "title": "{Investigating the Growth of Little Red Dot Descendants at z<4 with the JWST}",
       "abstract": "{One of JWST's most remarkable discoveries is a population of compact red galaxies known as Little Red Dots (LRDs). Their existence raises many questions about their nature, origin, and evolution. These galaxies show a steep decline in number density-nearly two orders of magnitude-from $z=6$ to $z=3$. In this study, we explore their potential evolution by identifying candidate descendants in CEERS, assuming a single evolutionary path: the development of a blue star-forming outskirt around the red compact core. Our color-magnitude selection identifies galaxies as red as LRDs at $z<4$, surrounded by young, blue stellar outskirts. Morphological parameters were derived from single S{\\'e}rsic profile fits; physical properties were obtained from SED fitting using a stellar-only model. These ``post-LRD'' candidates show LRD-like features with $M\\_\\ast \\sim 10^{10} \\ M\\_\\odot $, central densities ($ Σ\\_\\ast \\sim 10^{11} \\ M\\_\\odot \\ \\text{kpc}^{-2}$ ), compact sizes, and red rest-frame colors, but with an added extended component. Their number density at $z = 3 \\pm 0.5$ ( $ \\sim 10^{-4.15} \\, \\text{Mpc}^{-3} $) matches that of LRDs at $5 < z < 7$ , supporting a possible evolutionary link. We observe a redshift-dependent increase in outskirts mass fraction and galaxy size-from $\\sim 250$ pc at $ z = 5 $ to $\\sim 600$ pc at $ z = 3 $-suggesting global stellar growth. Meanwhile, the core remains red and compact, but the V-shape fades as the outskirts grow. These findings support an evolutionary scenario in which LRDs gradually acquire an extended stellar component over cosmic time by cold accretion. This may explain the apparent decline in their observed number density at lower redshift.}",
@@ -7396,6 +7437,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Robust analysis of a substantial sample (63 HRQs) with comprehensive SED modeling and statistical correlation analysis. Acknowledges limitations including possible star-forming host contributions and selection effects from the (i-K) color-cut. Methodology is sound and well-documented."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260317967I",
+      "title": "{JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z $\\approx$ 0.7: Pushing Black Hole Searches into the Dwarf-Galaxy Regime}",
+      "abstract": "{We report the discovery and characterization of two compact galaxies, Pelias and Neleus, at z \\raisebox{-0.5ex}\\textasciitilde 0.71 and z \\raisebox{-0.5ex}\\textasciitilde 0.75, identified in MACS J0416.1-2403 and GOODS-North. Both exhibit unusual spectral energy distributions (SEDs), with very blue rest-frame UV- optical emission and a steep rise toward near- and mid-infrared wavelengths. JWST/NIRISS and JWST/NIRSpec spectroscopy show strong rest-frame optical lines ([O III] 4959,5007 and Halpha) with extreme equivalent widths (>= 1000 Angstrom), indicating young burst-dominated populations with low metallicities (Z \\raisebox{-0.5ex}\\textasciitilde 0.1-0.4 Zsun), low dust attenuation (Av \\raisebox{-0.5ex}\\textasciitilde 0.2 mag), and stellar masses of Mstar \\raisebox{-0.5ex}\\textasciitilde 10\\^7 Msun. Nonetheless, JWST/MIRI photometry reveals a strong mid- infrared excess that cannot be explained by stellar populations or star-formation-heated dust alone, requiring a hot-dust component most naturally associated with a deeply embedded active galactic nucleus (AGN). SED modelling yields log10(Lbol [erg/s]) \\raisebox{-0.5ex}\\textasciitilde 43.7-44.0, implying black hole masses of log10(MBH [Msun]) \\raisebox{-0.5ex}\\textasciitilde 5.7-6.7 under the assumption of Eddington-limited accretion. Given the very low stellar masses of the hosts, this corresponds to black-hole-to-stellar mass ratios of about 6-60\\%, well above the extrapolation of local scaling relations. The lack of X-ray detections suggests that the accretion may be either heavily obscured or intrinsically X-ray weak. Their SEDs also resemble those of Blue Excess Hot Dust Obscured Galaxies and show the characteristic V-shaped continuum seen in Little Red Dots, although with the inflection occurring at redder wavelengths.}",
+      "existing_tags": "agn-dominated, black hole mass, emission lines, jwst, sed",
+      "year": "2026",
+      "authors": "[Person('{Iani}, E.'), Person('{Rinaldi}, P.'), Person('{Torralba}, A.'), Person('{Lyu}, J.'), Person('{Navarro-Carrera}, R.'), Person('{Rieke}, G. H.'), Person('{Sun}, F.'), Person('{Willott}, C.'), Person('{Zhu}, Y.'), Person('{Alonso-Herrero}, A.'), Person('{Annunziatella}, M.'), Person('{Bergamini}, P.'), Person('{Caputi}, K.'), Person('{Catone}, M.'), Person('{Colina}, L.'), Person('{Cooper}, R.'), Person('{Costantin}, L.'), Person(\"{Crespo G{\\\\'o}mez}, A.\"), Person('{Desprez}, G.'), Person('{Di Cesare}, C.'), Person('{Hayes}, M. J.'), Person('{Jermann}, I.'), Person('{Kotiwale}, G.'), Person('{Kramarenko}, I.'), Person('{Langeroodi}, D.'), Person('{Mascia}, S.'), Person('{Matthee}, J.'), Person('{Melinder}, J.'), Person('{Muzzin}, A.'), Person('{Navarrete}, B.'), Person('{Noirot}, G.'), Person('{{\\\\\"O}stlin}, G.'), Person('{Pacucci}, F.'), Person('{Rodighiero}, G.'), Person('{Sawicki}, M.'), Person('{Sun}, Y.'), Person('{Wu}, Z.'), Person('{Yang}, G.')]",
+      "relevance_score": 8.4,
+      "justification": "This paper receives a high score due to its explicit comparison of dwarf galaxy AGN to Little Red Dots, identifying low-redshift analogs with similar V-shaped SEDs. The state-of-the-art JWST observations provide comprehensive physical property measurements that directly address BH-galaxy mass scaling relations central to LRD research. While the objects are at lower redshift than typical LRDs, they offer crucial insights into the physics of overmassive black holes in compact galaxies.",
+      "key_factors": [
+        "JWST NIRSpec spectroscopy",
+        "Direct LRD comparison and V-shaped SEDs",
+        "Overmassive BH candidates in dwarf galaxies",
+        "Mid-IR excess and hot dust component",
+        "Low-redshift analogs to high-z LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.0,
+          "reasoning": "The paper explicitly mentions Little Red Dots and compares its objects' V-shaped SEDs to them, providing direct low-redshift analogs. While at z~0.7 (lower than typical LRDs), the explicit connection and similar spectral characteristics make this highly relevant for understanding LRD physics."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "State-of-the-art JWST observations using NIRSpec spectroscopy, NIRISS, and MIRI photometry provide excellent wavelength coverage from rest-frame UV to mid-IR. The combination of spectroscopic and photometric data is ideal for LRD-like studies."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Comprehensive measurements of stellar masses (~10^7 M☉), black hole masses (10^5.7-6.7 M☉), bolometric luminosities, metallicities, dust attenuation, and emission line equivalent widths. The derived BH-to-stellar mass ratios (6-60%) are directly relevant to LRD scaling relations."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses fundamental questions about BH-galaxy scaling relations and provides crucial low-redshift analogs to help interpret high-z LRDs. The work on disentangling AGN vs starburst contributions is directly applicable to LRD research, and the overmassive BH candidates challenge existing paradigms."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Solid SED modeling approach with multiple lines of evidence for AGN presence. The main limitation is the assumption of Eddington-limited accretion for BH mass estimates. Good discussion of alternatives (heavily obscured vs. X-ray weak) and consideration of systematic uncertainties."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11822,9 +11903,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.294691780821925,
+    "average_score": 8.295408163265314,
     "median_score": 8.5,
-    "high_relevance_count": 280,
+    "high_relevance_count": 282,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
