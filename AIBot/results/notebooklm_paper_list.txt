@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-03-20T06:21:29.678096
+Generated: 2026-03-23T06:50:04.617985
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -544,6 +544,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.8] 2025arXiv251204208U
     A Black-Hole Envelope Interpretation for Cosmological Demographics of Little Red Dots
 
+[8.8] 2026ApJ..1000L..18H
+    The X-Ray Dot: Exotic Dust or a Late-stage Little Red Dot?
+
 [8.8] 2026arXiv260111125Z
     Discovery of a gas-enshrouded broad-line AGN at z $\sim$ 7
 
@@ -613,17 +616,26 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.3] 2025arXiv250520439L
     The Properties of Little Red Dot Galaxies in the ASTRID Simulation
 
+[8.3] 2026ApJ..1000...90I
+    Spectral Uniformity of Little Red Dots: A Natural Outcome of Coevolving Seed Black Holes and Nascent Starbursts
+
 [8.3] 2025arXiv251217997C
     Pulsational Instability of Quasi-Stars: Interpreting the Variability of Little Red Dots
 
 [8.2] 2026Natur.649..557N
     Mysterious 'little red dots' could be black holes in disguise
 
+[8.2] 2026ApJ..1000L..19Z
+    Primordial Black Holes as Seeds for Extremely Overmassive Active Galactic Nuclei Observed by JWST
+
 [8.2] 2025arXiv250408032M
     Counting Little Red Dots at $z<4$ with Ground-based Surveys and Spectroscopic Follow-up
 
 [8.0] 2025arXiv251108477I
     Supermassive Dark Stars and their remnants as a possible solution to three recent cosmic dawn puzzles
+
+[7.9] 2026ApJ..1000L..21K
+    Toward Black Hole Stars: Supermassive Black Hole Growth in Nuclear Clusters via Stellar-object and Gas Accretion
 
 [7.9] 2026arXiv260205135W
     Growth of High-Redshift Quasars from Fermion Dark Matter Seeds
@@ -633,6 +645,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.8] 2026MNRAS.tmp..118K
     A possible pathway to UHZ1-type systems at z \raisebox{-0.5ex}\textasciitilde 10 by heterogeneous mass primordial black holes as dark matter
+
+[7.7] 2025Univ...12....1I
+    Supermassive Dark Stars and Their Remnants as a Possible Solution to Three Recent Cosmic Dawn Puzzles
 
 [7.7] 2025Sci...389..438C
     Early universe{\textquoteright}s {\textquoteleft}little red dots{\textquoteright} may be black hole stars
@@ -646,8 +661,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
 
+[7.4] 2026A&A...707L..17R
+    Radio detection of a local little red dot
+
 [7.3] 2024Conve2024....1P
     Tiny, compact galaxies are masters of disguise in the distant universe
+
+[7.2] 2026Univ...12....1I
+    Supermassive Dark Stars and Their Remnants as a Possible Solution to Three Recent Cosmic Dawn Puzzles
 
 [7.1] 2026Sci...391..767M
     Black holes disguised as little red dots

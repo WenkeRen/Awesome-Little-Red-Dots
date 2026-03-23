@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-20T06:21:28.506881",
-  "total_papers": 146,
-  "successfully_scored": 146,
+  "generated_at": "2026-03-23T06:50:03.413822",
+  "total_papers": 151,
+  "successfully_scored": 151,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -2513,6 +2513,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - essential methodology and high-z galaxy context"
     },
     {
+      "bibtex_key": "2024ApJ...966L..30M",
+      "title": "{Overmassive Black Holes at Cosmic Noon: Linking the Local and the High-redshift Universe}",
+      "abstract": "{We report for the first time a sample of 12 supermassive black holes (SMBHs) hosted by low-mass galaxies at cosmic noon, i.e., in a redshift range consistent with the peak of star formation history: z {\\ensuremath{\\sim}} 1─3. These black holes are 2 orders of magnitude too massive for the stellar content of their hosts when compared with the local relation for active galaxies. These overmassive systems at cosmic noon share similar properties with the high-z sources found ubiquitously in recent James Webb Space Telescope (JWST) surveys (same range of black- hole-to-stellar-mass ratio, bolometric luminosity, and Eddington ratio). We argue that black hole feedback processes, for which there is possible evidence in five of the sources, and the differing environments in galactic nuclei at these respective epochs play a key role in these overmassive systems. These findings contribute to our understanding of the growth and coevolution of SMBHs and their host galaxies across cosmic time, offering a link between the early Universe (z > 4) observed by JWST and observations of the present-day Universe (z {\\ensuremath{\\lesssim}} 1).}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Mezcua}, Mar'), Person('{Pacucci}, Fabio'), Person('{Suh}, Hyewon'), Person('{Siudek}, Malgorzata'), Person('{Natarajan}, Priyamvada')]",
+      "relevance_score": 8.1,
+      "justification": "This paper excels as a strategic bridge paper, directly connecting LRDs to a coherent evolutionary sequence via explicit JWST comparisons and exceptional temporal context. While lacking methodological innovation, its strength lies in establishing cosmic noon as the critical intermediate epoch for understanding overmassive BH evolution. The lrdIndex=10 confirms its practical utility in LRD research.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct JWST/LRD property comparison",
+        "Cosmic noon as evolutionary bridge",
+        "Overmassive BH phenomenon at intermediate redshift",
+        "Exceptional temporal context spanning z>4 to z<1"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 9.0,
+          "reasoning": "Explicitly identifies JWST-discovered high-z sources as analogs, matching BH-to-stellar-mass ratios, bolometric luminosities, and Eddington ratios. Directly frames cosmic noon overmassive BHs as evolutionary counterparts to LRDs, not just generic high-z AGN. The lrdIndex=10 validates this connection is actively used by LRD researchers."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=10 indicates strong, consistent citation by LRD community, placing it in top tier of kick_off papers. Not the absolute highest (some reach 15-20) but demonstrates sustained relevance rather than fleeting interest."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "Establishes that overmassive BH phenomenon is not exclusive to z>4 but exists at cosmic noon (z~1-3), providing crucial intermediate evolutionary step. However, builds on existing BH-galaxy coevolution frameworks rather than establishing new foundational theory. Value is contextual bridging, not paradigm creation."
+        },
+        "methodological_innovation": {
+          "score": 5.0,
+          "reasoning": "Employs standard spectroscopic and photometric analysis techniques for BH mass and host galaxy property measurements. No novel modeling, instrumentation, or statistical methods described in abstract. Methodology is robust but conventional, representing best practices rather than breakthrough approaches."
+        },
+        "evolutionary_context": {
+          "score": 9.5,
+          "reasoning": "Exceptional temporal framing that explicitly links z>4 JWST era through cosmic noon to z<1 local universe. Provides missing evolutionary bridge that LRD researchers critically need to contextualize high-z discoveries. Addresses the 'what happens next?' question for overmassive BHs, making it indispensable for constructing coherent evolutionary narratives."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for establishing evolutionary continuity between LRDs and local universe"
+    },
+    {
       "bibtex_key": "2023ApJ...959...39H",
       "title": "{A JWST/NIRSpec First Census of Broad-line AGNs at z = 4-7: Detection of 10 Faint AGNs with M $\\_{BH}$ {}10$^{6}$-{}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$ and Their Host Galaxy Properties}",
       "abstract": "{We present the first statistical sample of faint type 1 AGNs at z > 4 identified by JWST/NIRSpec deep spectroscopy. Among the 185 galaxies at z $\\_{spec}$ = 3.8-8.9 confirmed with NIRSpec, our systematic search for broad-line emission reveals 10 type 1 AGNs at z = 4.015-6.936 whose broad component is only seen in the permitted H{\\ensuremath{\\alpha}} line and not in the forbidden [O III]{\\ensuremath{\\lambda}}5007 line that is detected with greater significance than H{\\ensuremath{\\alpha}}. The broad H{\\ensuremath{\\alpha}} line widths of FWHM ≃ 1000-6000 km s$^{-1}$ suggest that the AGNs have low-mass black holes with M $\\_{BH}$ \\raisebox{-0.5ex}\\textasciitilde {}10$^{6}$-{}10$^{8}$ M $\\_{{\\ensuremath{\\odot}}}$, remarkably lower than those of low- luminosity quasars previously identified at z > 4 with ground- based telescopes. JWST and Hubble Space Telescope high- resolution images reveal that the majority of them show extended morphologies indicating significant contribution to the total lights from their host galaxies, except for three compact objects two of which show red spectral energy distributions, probably in a transition phase from faint AGNs to low luminosity quasars. Careful AGN-host decomposition analyses show that their host's stellar masses are systematically lower than the local relation between the black hole mass and the stellar mass, implying a fast black hole growth consistent with predictions from theoretical simulations. A high fraction of the broad-line AGNs (\\raisebox{-0.5ex}\\textasciitilde5\\%), higher than z \\raisebox{-0.5ex}\\textasciitilde 0, indicates that the number density of such faint AGNs is higher than an extrapolation of the quasar luminosity function, implying a large population of AGNs in the early universe. Such faint AGNs contribute to cosmic reionization, while the total contribution is not large, up to \\raisebox{-0.5ex}\\textasciitilde50\\% at z \\raisebox{-0.5ex}\\textasciitilde 6, because of their faint nature.}",
@@ -3785,6 +3826,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential empirical constraints on early galaxy emission mechanisms that directly inform LRD identification and evolutionary context"
     },
     {
+      "bibtex_key": "2024ApJ...975...83R",
+      "title": "{SMILES: A Prototype JWST Multiband Mid-infrared Survey}",
+      "abstract": "{The Mid-Infrared Instrument (MIRI) for JWST is supplied with a suite of imaging band-pass filters optimized for full spectral coverage in eight intermediate-width bands from 5 to 26 {\\ensuremath{\\mu}}m and a narrower one at 11.3 {\\ensuremath{\\mu}}m. This contrasts with previous infrared space telescopes, which generally have provided only two broad bands, one near 10 {\\ensuremath{\\mu}}m and the other near 20 {\\ensuremath{\\mu}}m. The expanded MIRI spectral capability provides new possibilities for detailed interpretation of survey results. This is an important feature of the instrument, on top of its great increase in sensitivity and angular resolution over any previous mission. The Systematic Mid-infrared Instrument Legacy Extragalactic Survey (SMILES) was designed to take full advantage of this capability. This paper briefly describes the history of infrared surveys that paved the way for MIRI on JWST and for our approach to designing SMILES. It illustrates the use of the observations for a broad range of science programs and concludes with a brief summary of the need for additional full multiband surveys with JWST/MIRI. This paper is an overall introduction to the survey and is accompanied by a full data release, described in detail by S. Alberts et al.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Rieke}, G. H.'), Person('{Alberts}, Stacey'), Person('{Shivaei}, Irene'), Person('{Lyu}, Jianwei'), Person('{Willmer}, Christopher N. A.'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo\"), Person('{Williams}, Christina C.')]",
+      "relevance_score": 8.0,
+      "justification": "SMILES is a critical kick-off reference that establishes the JWST/MIRI multiband mid-IR observational framework essential for LRD research. With strong citation frequency (lrdIndex=10) and high methodological innovation, it provides foundational knowledge and practical survey design principles, despite lacking explicit LRD nomenclature and deep evolutionary theory.",
+      "key_factors": [
+        "lrdIndex=10",
+        "JWST/MIRI multiband 5-26 μm capabilities",
+        "Prototype survey design",
+        "Data release availability",
+        "Methodological framework for mid-IR AGN studies"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "While the abstract does not explicitly mention 'Little Red Dots,' this paper describes the JWST/MIRI multiband mid-IR survey capabilities (5-26 μm) that are fundamental to LRD identification and characterization. The connection is through essential instrumentation rather than direct science target naming, making it highly relevant but not LRD-specific."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "With lrdIndex=10, this paper is cited moderately frequently in LRD literature. In the nascent post-2022 JWST era, this represents substantial community adoption, indicating that LRD researchers regularly reference it for MIRI capabilities, survey design, and data access."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Establishes the foundational paradigm for multiband mid-IR extragalactic surveys with JWST. Provides critical context on MIRI's revolutionary capabilities compared to previous missions, includes data release details, and serves as a practical reference for LRD observation planning and analysis."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Introduces SMILES as a prototype for systematic multiband mid-IR surveys, showcasing innovative use of MIRI's eight intermediate-width filters. This methodology is directly transferable to LRD studies for SED fitting, torus modeling, and distinguishing AGN from star formation—key challenges in LRD research."
+        },
+        "evolutionary_context": {
+          "score": 6.5,
+          "reasoning": "Provides observational context by reviewing the history of infrared surveys and enabling better characterization of high-z AGN populations. However, as primarily an instrumentation and survey design paper, it offers limited theoretical discussion of black hole-galaxy coevolution or specific LRD evolutionary pathways."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2024ApJ...960...56H",
       "title": "{Pure Spectroscopic Constraints on UV Luminosity Functions and Cosmic Star Formation History from 25 Galaxies at z $\\_{spec}$ = 8.61-13.20 Confirmed with JWST/NIRSpec}",
       "abstract": "{We present pure spectroscopic constraints on the UV luminosity functions and cosmic star formation rate (SFR) densities from 25 galaxies at z $\\_{spec}$ = 8.61-13.20. By reducing the JWST/NIRSpec spectra taken in multiple programs of Early Release Observation, Early Release Science, General Observer, and Director's Discretionary Time observations with our analysis technique, we independently confirm 16 galaxies at z $\\_{spec}$ = 8.61-11.40, including new redshift determinations, and a bright interloper at z $\\_{spec}$ = 4.91 that was claimed as a photometric candidate at z \\raisebox{-0.5ex}\\textasciitilde 16. In conjunction with nine galaxies at redshifts up to z $\\_{spec}$ = 13.20 in the literature, we make a sample of 25 spectroscopically confirmed galaxies in total and carefully derive the best estimates and lower limits of the UV luminosity functions. These UV luminosity function constraints are consistent with the previous photometric estimates within the uncertainties and indicate mild redshift evolution toward z \\raisebox{-0.5ex}\\textasciitilde 12, showing tensions with some theoretical models of rapid evolution. With these spectroscopic constraints, we obtain firm lower limits of the cosmic SFR densities and spectroscopically confirm a high SFR density at z \\raisebox{-0.5ex}\\textasciitilde 12 beyond the constant star formation efficiency models, which supports earlier claims from the photometric studies. While there are no spectroscopically confirmed galaxies with very large stellar masses violating the {\\ensuremath{\\Lambda}}CDM model due to the removal of the bright interloper, we confirm star-forming galaxies at z $\\_{spec}$ = 11-13 with stellar masses much higher than model predictions. Our results indicate possibilities of high star formation efficiency (>5\\%), a hidden active galactic nucleus, a top-heavy initial mass function (possibly with Population III), and large scatter/variance. Having these successful and unsuccessful spectroscopy results, we suggest observational strategies for efficiently removing low-redshift interlopers for future JWST programs.}",
@@ -4192,6 +4274,48 @@
         }
       },
       "notebooklm_recommendation": "Critical technical reference for NotebookLM - essential for spectroscopic diagnostics and JWST methodology"
+    },
+    {
+      "bibtex_key": "2023A&A...677A.115C",
+      "title": "{JADES: Probing interstellar medium conditions at z {\\ensuremath{\\sim}} 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy}",
+      "abstract": "{We present emission-line ratios from a sample of 27 Lyman-break galaxies from z {\\ensuremath{\\sim}} 5.5 {\\ensuremath{-}} 9.5 with {\\ensuremath{-}}17.0 < M$\\_{1500}$ < {\\ensuremath{-}}20.4, measured from ultra-deep JWST/NIRSpec multi-object spectroscopy from the JWST Advanced Deep Extragalactic Survey (JADES). We used a combination of 28 h deep PRISM/CLEAR and 7 h deep G395M/F290LP observations to measure, or place strong constraints on, ratios of widely studied rest-frame optical emission lines including H{\\ensuremath{\\alpha}}, H{\\ensuremath{\\beta}}, [O II] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}3726, 3729, [Ne III] {\\ensuremath{\\lambda}}3869, [O III] {\\ensuremath{\\lambda}}4959, [O III] {\\ensuremath{\\lambda}}5007, [O I] {\\ensuremath{\\lambda}}6300, [N II] {\\ensuremath{\\lambda}}6583, and [S II] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}6716, 6731 in individual z > 5.5 spectra. We find that the emission- line ratios exhibited by these z {\\ensuremath{\\sim}} 5.5 {\\ensuremath{-}} 9.5 galaxies occupy clearly distinct regions of line-ratio space compared to typical z {\\ensuremath{\\sim}} 0 {\\ensuremath{-}} 3 galaxies, instead being more consistent with extreme populations of lower-redshift galaxies. This is best illustrated by the [O III]/[O II] ratio, tracing interstellar medium (ISM) ionisation, in which we observe more than half of our sample to have [O III]/[O II] > 10. Our high signal-to-noise spectra reveal more than an order of magnitude of scatter in line ratios such as [O II]/H{\\ensuremath{\\beta}} and [O III]/[O II], indicating significant diversity in the ISM conditions within the sample. We find no convincing detections of [N II] {\\ensuremath{\\lambda}}6583 in our sample, either in individual galaxies, or a stack of all G395M/F290LP spectra. The emission- line ratios observed in our sample are generally consistent with galaxies with extremely high ionisation parameters (log U {\\ensuremath{\\sim}} {\\ensuremath{-}}1.5), and a range of metallicities spanning from {\\ensuremath{\\sim}}0.1 {\\texttimes} Z$\\_{{\\ensuremath{\\odot}}}$ to higher than {\\ensuremath{\\sim}}0.3 {\\texttimes} Z$\\_{{\\ensuremath{\\odot}}}$, suggesting we are probing low-metallicity systems undergoing periods of rapid star formation, driving strong radiation fields. These results highlight the value of deep observations in constraining the properties of individual galaxies, and hence probing diversity within galaxy population.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Cameron}, Alex J.'), Person('{Saxena}, Aayush'), Person('{Bunker}, Andrew J.'), Person(\"{D'Eugenio}, Francesco\"), Person('{Carniani}, Stefano'), Person('{Maiolino}, Roberto'), Person('{Curtis-Lake}, Emma'), Person('{Ferruit}, Pierre'), Person('{Jakobsen}, Peter'), Person('{Arribas}, Santiago'), Person('{Bonaventura}, Nina'), Person('{Charlot}, Stephane'), Person('{Chevallard}, Jacopo'), Person('{Curti}, Mirko'), Person('{Looser}, Tobias J.'), Person('{Maseda}, Michael V.'), Person('{Rawle}, Tim'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{Smit}, Renske'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Willott}, Chris'), Person('{Witstok}, Joris'), Person('{Egami}, Eiichi'), Person('{Eisenstein}, Daniel J.'), Person('{Johnson}, Benjamin D.'), Person('{Hainline}, Kevin'), Person('{Rieke}, Marcia'), Person('{Robertson}, Brant E.'), Person('{Stark}, Daniel P.'), Person('{Tacchella}, Sandro'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Bhatawdekar}, Rachana'), Person('{Bowler}, Rebecca'), Person('{Boyett}, Kristan'), Person('{Circosta}, Chiara'), Person('{Helton}, Jakob M.'), Person('{Jones}, Gareth C.'), Person('{Kumari}, Nimisha'), Person('{Ji}, Zhiyuan'), Person('{Nelson}, Erica'), Person('{Parlanti}, Eleonora'), Person('{Sandles}, Lester'), Person('{Scholtz}, Jan'), Person('{Sun}, Fengwu')]",
+      "relevance_score": 7.9,
+      "justification": "This paper scores highly due to its exceptional methodological innovation and strong citation frequency (lrdIndex=10), providing essential high-z galaxy baseline context for LRD research. While lacking direct LRD analysis, its ultra-deep JWST spectroscopic techniques and demonstration of extreme ISM conditions in early galaxies make it indispensable for interpreting LRD properties and planning follow-up observations.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Ultra-deep JWST/NIRSpec spectroscopy (28h PRISM + 7h G395M)",
+        "High-z galaxy baseline at z∼5.5-9.5",
+        "Extreme ISM conditions ([O III]/[O II] > 10, log U∼-1.5)",
+        "[N II] non-detection for metallicity constraints",
+        "Directly transferable spectroscopic methodology"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "No explicit LRD mention, but provides critical high-z galaxy baseline at z∼5.5-9.5 with extreme ISM conditions ([O III]/[O II] > 10) relevant to LRD nature. Serves as essential comparison sample for distinguishing LRDs from typical early galaxies, though lacks LRD-specific analysis."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 demonstrates strong adoption by LRD community. This substantial citation count validates the paper's consistent value for LRD studies, particularly for its JWST spectroscopic methodology and high-z galaxy baseline establishment."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Establishes crucial baseline for 'normal' high-z galaxies, revealing extreme ionization (log U∼-1.5) and low metallicity (0.1-0.3 Z☉) are common at z>5.5. The [N II] non-detection and extreme line ratios provide essential context for interpreting LRD spectra and distinguishing them from typical LBGs."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Pioneers ultra-deep JWST/NIRSpec spectroscopy (28h PRISM + 7h G395M) for faint high-z galaxies, demonstrating feasibility of measuring multiple rest-frame optical lines in individual z>5.5 sources. These techniques are directly transferable to LRD spectroscopic follow-up and represent state-of-the-art observational methodology."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Provides vital evolutionary framework showing z∼5.5-9.5 galaxies occupy distinct parameter space from z∼0-3 systems. Demonstrates extreme ISM conditions are ubiquitous in early galaxies, helping frame LRDs within broader galaxy evolution context, though doesn't specifically address BH-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
       "bibtex_key": "2023ApJ...946L..13F",
@@ -4889,6 +5013,48 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2025A&A...695A..97D",
+      "title": "{Growth of massive black holes in FFB galaxies at cosmic dawn}",
+      "abstract": "{Aims. The scenario of feedback-free starbursts (FFB), which predicts excessively bright galaxies at cosmic dawn as observed using JWST, may provide a natural setting for black hole (BH) growth. This involves the formation of intermediate-mass seed BHs and their runaway mergers into super-massive BHs with high BH-to- stellar mass ratios and low Active Galactic Nucleus (AGN) luminosities. Methods. We present a scenario of merger-driven BH growth in FFB galaxies and study its feasibility. Results. Black hole seeds form within the building blocks of the FFB galaxies, namely, thousands of compact star clusters, each starbursting in a free-fall time of a few million years before the onset of stellar and supernova feedback. The BH seeds form by rapid core collapse in the FFB clusters, in a few free-fall times, which is sped up by the migration of massive stars due to the young, broad stellar mass function and stimulated by a ``gravo-gyro'' instability due to internal cluster rotation and flattening. BHs of {\\ensuremath{\\sim}}{}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$ are expected in {\\ensuremath{\\sim}}{}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$ FFB clusters within sub-kiloparsec galactic disks at z {\\ensuremath{\\sim}} 10. The BHs then migrate to the galaxy center by dynamical friction, hastened by the compact FFB stellar galactic disk configuration. Efficient mergers of the BH seeds will produce {\\ensuremath{\\sim}}10$^{6 ‑ 8}$ M$\\_{{\\ensuremath{\\odot}}}$ BHs with a BH-to-stellar mass ratio {\\ensuremath{\\sim}}0.01 by z {\\ensuremath{\\sim}} 4 ‑ 7, as observed. The growth of the central BH by mergers can overcome the bottleneck introduced by gravitational wave recoils if the BHs inspiral within a relatively cold disk or if the escape velocity from the galaxy is boosted by a wet compaction event. Such events, common in massive galaxies at high redshifts, can also help by speeding up the inward BH migration and by providing central gas to assist with the final parsec problem. Conclusions. The cold disk version of the FFB scenario provides a feasible route for the formation of supermassive BHs.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Dekel}, Avishai'), Person('{Stone}, Nicholas C.'), Person('{Chowdhury}, Dhruba Dutta'), Person('{Gilbaum}, Shmuel'), Person('{Li}, Zhaozhou'), Person('{Mandelker}, Nir'), Person('{van den Bosch}, Frank C.')]",
+      "relevance_score": 7.6,
+      "justification": "This paper receives a strong score due to its direct theoretical relevance to LRD properties and solid citation frequency, despite not explicitly naming LRDs. Its FFB scenario provides a concrete, testable framework for rapid early BH growth with low AGN luminosities, addressing key LRD mysteries. While lacking observational methodology, its foundational theoretical value for understanding potential LRD central engines is substantial.",
+      "key_factors": [
+        "lrdIndex=10",
+        "FFB scenario for rapid BH growth",
+        "High BH-to-stellar mass ratio prediction",
+        "Low AGN luminosity prediction",
+        "Cosmic dawn context",
+        "Addresses seed BH problem"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "While the paper does not explicitly mention 'Little Red Dots,' the FFB scenario naturally produces compact, high-redshift galaxies with massive BHs, high BH-to-stellar mass ratios, and low AGN luminosities—directly matching LRD observational properties. The low luminosity prediction is particularly relevant for understanding why LRDs may be obscured AGN."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "With lrdIndex=10, this paper is moderately cited within the LRD community, indicating solid recognition and relevance. This citation level suggests it is considered a useful theoretical framework but not yet a dominant cornerstone of LRD research."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides a concrete theoretical pathway for rapid BH growth that goes beyond standard Eddington-limited accretion. The FFB scenario offers a testable framework for how LRDs could host massive BHs early in cosmic history, addressing the seed BH problem with specific physical mechanisms."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "The paper is primarily theoretical modeling rather than observational methodology. While it introduces novel physical mechanisms (gravo-gyro instability, cold disk mergers), it does not provide new data analysis techniques or observational methods directly applicable to JWST LRD observations."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "Effectively situates rapid BH growth within the cosmic dawn galaxy formation scenario, providing a narrative framework for LRDs' place in early BH-galaxy coevolution. Connects observable properties (compactness, starbursts) to BH growth mechanisms, helping interpret LRDs in an evolutionary sequence."
+        }
+      },
+      "notebooklm_recommendation": "Important theoretical foundation for NotebookLM"
     },
     {
       "bibtex_key": "2024MNRAS.533.1111E",
@@ -5878,6 +6044,47 @@
       "notebooklm_recommendation": "Critical technical reference for NIRCam data quality and performance specifications in LRD studies—essential for understanding observational capabilities and limitations but contains no LRD-specific science content."
     },
     {
+      "bibtex_key": "2023PASP..135d8003W",
+      "title": "{The Mid-infrared Instrument for JWST and Its In-flight Performance}",
+      "abstract": "{The Mid-Infrared Instrument (MIRI) extends the reach of the James Webb Space Telescope (JWST) to 28.5 {\\ensuremath{\\mu}}m. It provides subarcsecond-resolution imaging, high sensitivity coronagraphy, and spectroscopy at resolutions of {\\ensuremath{\\lambda}}/{\\ensu remath{\\Delta}}{\\ensuremath{\\lambda}} \\raisebox{-0.5ex}\\textasciitilde 100-3500, with the high- resolution mode employing an integral field unit to provide spatial data cubes. The resulting broad suite of capabilities will enable huge advances in studies over this wavelength range. This overview describes the history of acquiring this capability for JWST. It discusses the basic attributes of the instrument optics, the detector arrays, and the cryocooler that keeps everything at approximately 7 K. It gives a short description of the data pipeline and of the instrument performance demonstrated during JWST commissioning. The bottom line is that the telescope and MIRI are both operating to the standards set by pre-launch predictions, and all of the MIRI capabilities are operating at, or even a bit better than, the level that had been expected. The paper is also designed to act as a roadmap to more detailed papers on different aspects of MIRI.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Wright}, Gillian S.'), Person('{Rieke}, George H.'), Person('{Glasse}, Alistair'), Person('{Ressler}, Michael'), Person(\"{Garc{\\\\'\\\\i}a Mar{\\\\'\\\\i}n}, Macarena\"), Person('{Aguilar}, Jonathan'), Person('{Alberts}, Stacey'), Person(\"{{\\\\'A}lvarez-M{\\\\'a}rquez}, Javier\"), Person('{Argyriou}, Ioannis'), Person('{Banks}, Kimberly'), Person('{Baudoz}, Pierre'), Person('{Boccaletti}, Anthony'), Person('{Bouchet}, Patrice'), Person('{Bouwman}, Jeroen'), Person('{Brandl}, Bernard R.'), Person('{Breda}, David'), Person('{Bright}, Stacey'), Person('{Cale}, Steven'), Person('{Colina}, Luis'), Person('{Cossou}, Christophe'), Person('{Coulais}, Alain'), Person('{Cracraft}, Misty'), Person('{De Meester}, Wim'), Person('{Dicken}, Daniel'), Person('{Engesser}, Michael'), Person('{Etxaluze}, Mireya'), Person('{Fox}, Ori D.'), Person('{Friedman}, Scott'), Person('{Fu}, Henry'), Person('{Gasman}, Danny'), Person(\"{G{\\\\'a}sp{\\\\'a}r}, Andr{\\\\'a}s\"), Person(\"{Gastaud}, Ren{\\\\'e}\"), Person('{Geers}, Vincent'), Person('{Glauser}, Adrian Michael'), Person('{Gordon}, Karl D.'), Person('{Greene}, Thomas'), Person('{Greve}, Thomas R.'), Person('{Grundy}, Timothy'), Person('{G{\\\\\"u}del}, Manuel'), Person('{Guillard}, Pierre'), Person('{Haderlein}, Peter'), Person('{Hashimoto}, Ryan'), Person('{Henning}, Thomas'), Person('{Hines}, Dean'), Person('{Holler}, Bryan'), Person('{Detre}, {\\\\\"O}rs Hunor'), Person('{Jahromi}, Amir'), Person('{James}, Bryan'), Person('{Jones}, Olivia C.'), Person('{Justtanont}, Kay'), Person('{Kavanagh}, Patrick'), Person('{Kendrew}, Sarah'), Person('{Klaassen}, Pamela'), Person('{Krause}, Oliver'), Person('{Labiano}, Alvaro'), Person('{Lagage}, Pierre-Olivier'), Person('{Lambros}, Scott'), Person('{Larson}, Kirsten'), Person('{Law}, David'), Person('{Lee}, David'), Person('{Libralato}, Mattia'), Person('{Lorenzo Alverez}, Jose'), Person('{Meixner}, Margaret'), Person('{Morrison}, Jane'), Person('{Mueller}, Migo'), Person('{Murray}, Katherine'), Person('{Mycroft}, Matthew'), Person('{Myers}, Richard'), Person('{Nayak}, Omnarayani'), Person('{Naylor}, Bret'), Person('{Nickson}, Bryony'), Person('{Noriega-Crespo}, Alberto'), Person('{{\\\\\"O}stlin}, G{\\\\\"o}ran'), Person(\"{O'Sullivan}, Brian\"), Person('{Ottens}, Richard'), Person('{Patapis}, Polychronis'), Person('{Penanen}, Konstantin'), Person('{Pietraszkiewicz}, Martin'), Person('{Ray}, Tom'), Person('{Regan}, Michael'), Person('{Roteliuk}, Anthony'), Person('{Royer}, Pierre'), Person('{Samara-Ratna}, Piyal'), Person('{Samuelson}, Bridget'), Person('{Sargent}, Beth A.'), Person('{Scheithauer}, Silvia'), Person('{Schneider}, Analyn'), Person('{Schreiber}, J{\\\\\"u}rgen'), Person('{Shaughnessy}, Bryan'), Person('{Sheehan}, Evan'), Person('{Shivaei}, Irene'), Person('{Sloan}, G. C.'), Person('{Tamas}, Laszlo'), Person('{Teague}, Kelly'), Person('{Temim}, Tea'), Person('{Tikkanen}, Tuomo'), Person('{Tustain}, Samuel'), Person('{van Dishoeck}, Ewine F.'), Person('{Vandenbussche}, Bart'), Person('{Weilert}, Mark'), Person('{Whitehouse}, Paul'), Person('{Wolff}, Schuyler')]",
+      "relevance_score": 6.5,
+      "justification": "Strong technical reference paper that provides essential MIRI performance details for LRD observations (lrdIndex=10 reflects its utility). High foundational value for understanding instrument capabilities beyond textbook knowledge, but lacks direct LRD science or evolutionary context. Serves as critical observational infrastructure rather than core astrophysical literature.",
+      "key_factors": [
+        "lrdIndex=10",
+        "MIRI post-commissioning performance validation",
+        "Technical specifications for JWST mid-IR observations",
+        "IFU spectroscopy capability",
+        "No astrophysical/evolutionary content"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.0,
+          "reasoning": "No direct LRD science or mention in paper. Connection is purely instrumental - MIRI is the primary mid-IR instrument used to observe LRDs. Provides essential technical specifications but no astrophysical analysis of LRDs themselves."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 represents moderate citation frequency within LRD literature. Sufficient to be included in kick_off set but well below top-cited foundational papers. Reflects utility as technical reference rather than core scientific driver."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides unique, non-textbook technical knowledge: detailed post-commissioning MIRI performance at 7K, detector characteristics, noise properties, and data pipeline specifics. Essential for LRD researchers to understand data quality, calibration, and observational limits - information not available in standard AGN/galaxy evolution literature."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "Details MIRI's innovative observational modes (IFU spectroscopy, coronagraphy, broad 5-28.5μm coverage) that enable novel LRD science. Understanding these capabilities is critical for designing observations that can separate AGN from host galaxy, constrain torus properties, and measure BH masses in high-z LRDs."
+        },
+        "evolutionary_context": {
+          "score": 2.0,
+          "reasoning": "Contains zero discussion of galaxy/AGN evolution, cosmological context, or theoretical frameworks for LRD formation and evolution. Purely instrumental paper with no astrophysical interpretation or evolutionary pathways."
+        }
+      },
+      "notebooklm_recommendation": "Essential technical reference for LRD researchers using MIRI data, but not core scientific literature"
+    },
+    {
       "bibtex_key": "2024ApJ...962..177B",
       "title": "{UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances}",
       "abstract": "{We report JWST/NIRSpec spectra of three distant T-type brown dwarfs identified in the Ultradeep NIRSpec and NIRCam ObserVations before the Epoch of Reionization (UNCOVER) survey of the Abell 2744 lensing field. One source was previously reported as a candidate T dwarf on the basis of NIRCam photometry, while two sources were initially identified as candidate active galactic nuclei. Low-resolution 1{\\textendash}5 {\\ensuremath{\\mu}}m spectra confirm the presence of molecular features consistent with T dwarf atmospheres, and comparison to spectral standards infers classifications of sdT1, T6, and T8{\\textendash}T9. The warmest source, UNCOVER-BD-1, shows evidence of subsolar metallicity, and atmosphere model fits indicate T $\\_{eff}$ = 1300 K and [M/H] {\\ensuremath{\\sim}} ‑1.0, making this one of the few spectroscopically confirmed T subdwarfs known. The coldest source, UNCOVER-BD-3, is near the T/Y dwarf boundary with T $\\_{eff}$ = 550 K, and our analysis indicates the presence of PH$\\_{3}$ in the 3{\\textendash}5 {\\ensuremath{\\mu}}m region, favored over CO$\\_{2}$ and a possible indicator of subsolar metallicity. We estimate distances of 0.9{\\textendash}4.5 kpc from the Galactic midplane, making these the most distant brown dwarfs with spectroscopic confirmation. Population simulations indicate high probabilities of membership in the Galactic thick disk for two of these brown dwarfs, and potential halo membership for UNCOVER-BD-1. Our simulations indicate that there are approximately 5 T dwarfs and 1{\\textendash}2 L dwarfs in the Abell 2744 field down to F444W = 30 AB mag, roughly one-third of which are thick disk members. These results highlight the utility of deep JWST/NIRSpec spectroscopy for identifying and characterizing the oldest metal-poor brown dwarfs in the Milky Way.}",
@@ -6001,10 +6208,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.9589041095890485,
+    "average_score": 7.947682119205305,
     "median_score": 8.1,
-    "critical_count": 98,
-    "high_value_count": 45,
+    "critical_count": 100,
+    "high_value_count": 48,
     "moderate_value_count": 2,
     "low_priority_count": 1
   }
