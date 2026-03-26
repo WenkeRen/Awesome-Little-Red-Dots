@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-25T06:20:20.608109",
-  "total_papers": 300,
-  "successfully_scored": 300,
+  "generated_at": "2026-03-26T06:28:10.542139",
+  "total_papers": 302,
+  "successfully_scored": 302,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -4446,6 +4446,48 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260322277S",
+      "title": "{Little Red and Blue Dots: simply stratified Broad Line Regions}",
+      "abstract": "{It has been claimed that a fraction of the so-called Little Red Dots (LRDs) are characterised by exponential broad line profiles, which have been ascribed to broadening from electron scattering by an ionised cocoon. In this work, we investigate the H$α$ broad line profiles of 32 AGN, including Little Red Dots (LRDs), Little Blue Dots (LBDs), and X-ray detected sources, using high SNR and resolution spectroscopy. We find that while single Gaussian models are statistically rejected, the exponential model is not universally preferred. Lorentzian and multi- Gaussian profiles provide equally good or superior fits for the majority of the sample, with no statistical preference for exponential profiles in $\\sim$60\\% of cases across all AGN subtypes. There are indications that exponential profiles are preferred more frequently among LBDs, indicating that exponential profiles are not a prerogative of LRDs, which actually seem to more often favour Lorentzian profiles. Furthermore, we demonstrate that exponential wings can emerge naturally from the stratification of BLR clouds in virial motion, without invoking any scattering process. More generally, we also show that stacking multiple broad lines (either from multiple objects, as done in previous works, or from different BLR components within the same object) generally yields an exponential profile, even if none of the individual profiles are exponential. Explaining the exponential profiles in terms of BLR stratification solves various observational tensions with the electron scattering interpretation. While electron scattering may play a role, there is no evidence that it dominates the line profiles and that it significantly affects the inferred black hole masses.}",
+      "existing_tags": "agn-dominated, black hole mass, emission lines, kinematics, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Scholtz}, J.'), Person(\"{D'Eugenio}, F.\"), Person('{Maiolino}, R.'), Person('{Brazzini}, M.'), Person('{{\\\\\"U}bler}, H.'), Person('{Ji}, X.'), Person('{Perna}, M.'), Person('{Sun}, F.'), Person('{Brocchi}, G.'), Person('{Carniani}, S.'), Person('{Cresci}, G.'), Person('{Ivey}, L. R.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Marconi}, A.'), Person('{Mazzolari}, G.'), Person('{Risaliti}, G.'), Person('{Trefoloni}, B.')]",
+      "relevance_score": 8.6,
+      "justification": "This paper receives a high score due to its direct focus on LRDs, high-quality spectroscopic analysis, and paradigm-challenging results that propose an alternative physical explanation for their characteristic line profiles. The score reflects minor limitations in sample size and the need for broader validation of its conclusions.",
+      "key_factors": [
+        "High SNR/resolution spectroscopy",
+        "Sample of 32 AGN including LRDs/LBDs",
+        "Challenges electron scattering paradigm",
+        "Proposes BLR stratification mechanism",
+        "Implications for BH mass measurements",
+        "Statistical model comparison",
+        "Stacking effects demonstration"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly and centrally focused on LRDs, investigating their characteristic broad line profiles and challenging the electron scattering interpretation. It directly addresses the nature of LRDs by comparing them to LBDs and X-ray detected sources, making it fundamentally relevant to LRD research."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Employs high SNR and resolution spectroscopy of Hα in a well-defined sample of 32 AGN spanning LRDs, LBDs, and X-ray sources. The observational approach is robust with appropriate model comparison, though the sample size is moderate."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Provides deep investigation into BLR kinematics and stratification, proposing a viable alternative physical mechanism (virial motion in stratified clouds) to explain exponential profiles. Addresses implications for black hole mass measurements, though focused primarily on line profile analysis rather than comprehensive physical characterization."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Potentially transformative by challenging the prevailing electron scattering paradigm for LRDs. Resolves observational tensions and has significant implications for black hole mass estimates at high redshift, though ultimate impact depends on community acceptance and follow-up validation."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Demonstrates rigorous statistical comparison of multiple line profile models and importantly reveals how stacking can artificially produce exponential profiles. Methodology is sound and well-justified, but would benefit from larger sample sizes and independent confirmation of results."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025A&A...704A.313D",
       "title": "{Active galactic nuclei-heated dust revealed in ``little red dots''}",
       "abstract": "{Little red dots (LRDs) are a puzzling population of extragalactic sources whose origin is highly debated. In this work, we performed a comprehensive stacking analysis of NIRCam, MIRI, and ALMA images of a large and homogeneously selected sample of LRDs from multiple JWST Legacy fields. We report clear evidence of hot-dust emission in the median stacked spectral energy distribution (SED) that features a rising near-infrared continuum up to rest-frame {\\ensuremath{\\lambda}}$\\_{rest}$ {\\ensuremath{\\sim}} 3 {\\ensuremath{\\mu}}m, which is best explained by a standard dusty active galactic nucleus (AGN) structure. Although LRDs are likely to be a heterogeneous population, our findings suggest that most ({\\ensuremath{\\gtrsim}}50\\%) LRDs show AGN-heated dust emission, regardless of whether the optical and ultraviolet (UV) continua are stellar or AGN-dominated. In either case, the best-fit dusty-AGN SED, combined with the lack of X-ray detection in the deep Chandra stacks, suggests that Compton-thick (N$\\_{H}$ > 3 {\\texttimes} {}10$^{24}$ cm$^{{\\ensuremath{-}}2}$) gas obscuration is common, and likely confined within the dust sublimation radius (R$\\_{sub}$ {\\ensuremath{\\sim}} 0.1 pc). Therefore, we argue that AGN-heated dust does not directly obscure either the optical-UV continuum or the broad-line region emission, in order to explain the observed blue UV slopes and prominent Balmer features. While a gas-dust displacement is in line with several models, the formation scenario (in-situ or ex- situ) of this pre-enriched hot dust remains unclear.}",
@@ -7718,6 +7760,47 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Develops a physically motivated model incorporating super-Eddington accretion, Hayashi-limit envelopes, stellar population synthesis, and supernova feedback. While full methodological details are not visible in the abstract, the approach appears robust with specific quantitative predictions and physically grounded parameters. Lacks explicit discussion of uncertainties or model limitations in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260321714R",
+      "title": "{A quasi-star is born: formation and evolution of accreting quasi-stars as a metallicity-independent pathway to Little Red Dots}",
+      "abstract": "{To investigate the rest-frame optical emission of ``Little Red Dots'', we model the formation of and evolution of quasi-stars, i.e. stellar envelopes supported by the accretion luminosity onto a central black hole, originating from rapidly accreting proto- stars reaching the supermassive star regime ($>10^4$ M$\\_{\\odot}$) and undergoing general relativistic instability. We compute stellar evolution models with net mass gain rates $=0.01$, 0.1, and 1 M$\\_{\\odot}$/yr and metallicities $Z=0$-0.01. For the mass gain rates $\\ge 0.1$ M$\\_{\\odot}$/yr, stars remain nearly fully convective with $T\\_\\mathrm{eff}\\sim4000$-9000\\raisebox{-0.5ex}\\textasciitildeK. The general relativistic instability leading to central BH formation occurs at $M\\_\\star\\sim3.5\\times10^4$ M$\\_{\\odot}$ ($6.6\\times10^4$ M$\\_{\\odot}$) for $\\dot{M}\\_{\\rm acc}=0.1$ M$\\_{\\odot}$/yr (1 M$\\_{\\odot}$/yr), at luminosities $L \\sim 10^9$ L$\\_{\\odot}$. The lifetime of quasi-stars is estimated to be $10^7$-$10^8$\\raisebox{-0.5ex}\\textasciitildeyr, $\\sim$100-1000 times longer than their progenitors. In an environment allowing for rapid accretion the formation, evolution, and properties of quasi-stars are found be essentially independent of metallicity. Comparing the luminosities of our models with those of Little Red Dots at $z<4.5$ ($L\\_\\mathrm{bol}\\sim10^{9.5}$-$10^{11.5}$ L$\\_{\\odot}$) yields quasi-star masses $10^{4.5}$-$10^{6.5}$ M$\\_{\\odot}$. The observed minimum luminosity of $\\sim10^{9.5}$\\r aisebox{-0.5ex}\\textasciitilde\\textbackslashLsun\\textbackslash implies accretion rates $rsim0.1$ M$\\_{\\odot}$/yr for Little Red Dots progenitors. Our models offer a metallicity-independent framework supporting quasi-stars as the source of Little Red Dot optical emission, and provide insights into their lifetimes, composition, and progenitor environment.}",
+      "existing_tags": "black hole mass, exotic physics, simulation, super-eddington, theory",
+      "year": "2026",
+      "authors": "[Person('{Roman-Garza}, J.'), Person('{Schaerer}, D.'), Person('{Charbonnel}, C.'), Person('{Fragos}, T.'), Person('{Cenci}, E.'), Person('{Marques-Chaves}, R.'), Person('{Oesch}, P.'), Person('{Xiao}, M.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper receives a high score due to its exclusive focus on explaining LRDs through quasi-star models, providing detailed physical property predictions and a metallicity-independent formation pathway. While purely theoretical and lacking observational data, it offers a comprehensive framework that directly addresses the LRD phenomenon and provides testable predictions for future observations.",
+      "key_factors": [
+        "Quasi-star formation mechanism",
+        "Metallicity-independent pathway",
+        "Direct LRD property comparison",
+        "Stellar evolution modeling",
+        "BH formation via GR instability",
+        "Accretion rate constraints"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "Paper is entirely devoted to explaining LRDs through quasi-star formation. Mentions LRDs explicitly throughout and directly compares model predictions to observed LRD properties at z<4.5. The quasi-star pathway is presented specifically as a solution to LRD origin."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "This is a theoretical modeling paper with no direct observational data or analysis of observational techniques. While it provides testable predictions (luminosities, temperatures, masses), it does not employ or develop observational methods."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Comprehensive modeling of key physical properties including effective temperatures (4000-9000K), bolometric luminosities (10^9-10^11.5 L☉), stellar masses (10^4.5-10^6.5 M☉), lifetimes (10^7-10^8 yr), and accretion rates (≥0.1 M☉/yr). Directly compares these to observed LRD properties and derives constraints."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Proposes a novel metallicity-independent pathway for LRD formation through quasi-stars, which could resolve key questions about their origin. If verified, this would significantly impact understanding of high-redshift BH and galaxy evolution. However, impact remains theoretical pending observational confirmation."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs stellar evolution modeling with varying mass gain rates (0.01-1 M☉/yr) and metallicities (Z=0-0.01). Incorporates general relativistic instability criteria for BH formation. Methods appear sound but would require detailed paper review for full validation."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -12144,9 +12227,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.288833333333342,
+    "average_score": 8.289900662251664,
     "median_score": 8.5,
-    "high_relevance_count": 288,
+    "high_relevance_count": 290,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
