@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T06:28:10.542139",
-  "total_papers": 302,
-  "successfully_scored": 302,
+  "generated_at": "2026-03-28T06:20:37.132691",
+  "total_papers": 303,
+  "successfully_scored": 303,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -6354,6 +6354,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260324700C",
+      "title": "{A PANORAMIC of UV-optical morphologies of ``Little Red Dots'': Two groups of LRDs distinguished by UV half-light radius}",
+      "abstract": "{Among the most remarkable results from JWST is the discovery of abundant, compact, and very red sources in the early Universe known as ``Little Red Dots'' (LRDs). The relative degree to which starlight and active galactic nuclei (AGN) drive the rest- frame UV and optical emission from LRDs remains unclear. With a large sample of LRDs selected photometrically from the pure- parallel PANORAMIC survey, we study their morphology as a function of rest-wavelength and find that the rest-UV light is typically more extended than the rest-optical. This result holds both when measuring LRD sizes with a single S{\\'e}rsic profile and when comparing the fraction of light from a point source via joint PSF+S{\\'e}rsic modeling. A shift occurs at the Balmer break, with LRDs becoming highly compact and unresolved ($R\\_{50,\\rm{opt}}\\lesssim100\\;\\rm{pc}$) in the rest-optical relative to the rest-UV. When splitting the sample at the Balmer break into those that are resolved and unresolved, a stacking analysis demonstrates that the latter are compact ($R\\_{50}\\lesssim100\\;\\rm{pc}$) on average across the full rest- UV-optical spectrum. Conversely, those LRDs resolved at the break show extended UV emission ($R\\_{50,\\rm{UV}}>200\\;\\rm{pc}$) on average. We find a similar dichotomy when repeating with a spectroscopic sample. Altogether, these results are consistent with the rest-UV emission driven by a combination of emission from starlight and a dense, dust-poor cloud of hydrogen gas enveloping an AGN. Differences between LRDs in the relative contribution from the AGN and starlight could reflect an ensemble of black hole seed masses, where a heavier seed produces an LRD of smaller $R\\_{50,\\rm{UV}}$.}",
+      "existing_tags": "agn-dominated, composite, early universe, morphology, starburst",
+      "year": "2026",
+      "authors": "[Person('{Cloonan}, Aidan P.'), Person('{Whitaker}, Katherine E.'), Person('{Manning}, Sinclaire M.'), Person('{Williams}, Christina C.'), Person('{Greene}, Jenny E.'), Person('{Oesch}, Pascal A.'), Person('{Weibel}, Andrea'), Person('{Brammer}, Gabriel'), Person('{de Graaff}, Anna'), Person('{Hviding}, Raphael E.'), Person('{Dayal}, Pratika'), Person('{Jespersen}, Christian Kragh'), Person('{Ji}, Zhiyuan'), Person('{Labbe}, Ivo'), Person('{Xiao}, Mengyuan'), Person('{Zhang}, Yunchong')]",
+      "relevance_score": 8.5,
+      "justification": "This paper represents core LRD research with exceptional observational data (JWST PANORAMIC) and introduces a novel two-population classification scheme that directly addresses the AGN vs starburst debate. The morphological analysis across UV-optical wavelengths provides compelling evidence for distinct physical origins, though additional physical parameter measurements and more detailed systematic error analysis would elevate it further.",
+      "key_factors": [
+        "JWST PANORAMIC survey data",
+        "Large photometric and spectroscopic samples",
+        "Two distinct LRD populations by UV half-light radius",
+        "Directly addresses AGN vs starburst nature",
+        "Proposes black hole seed mass connection"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "Paper is exclusively focused on LRDs, studying their UV-optical morphology to directly address the AGN vs starburst nature. Introduces a fundamental classification scheme dividing LRDs into two groups based on UV half-light radius, which is central to understanding their physical origin and evolution."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Employs JWST PANORAMIC pure-parallel survey data with a large photometric sample and spectroscopic validation. Utilizes multiple robust measurement techniques including single Sersic fitting and joint PSF+Sersic modeling, plus stacking analysis. State-of-the-art observational approach for high-redshift galaxy morphology."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Quantifies UV and optical half-light radii, revealing two distinct populations (compact R50<100 pc vs extended R50,UV>200 pc). Discusses implications for black hole seed masses. However, does not directly measure stellar masses, BH masses, or other detailed physical parameters that would further characterize the populations."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Directly confronts the central debate in LRD research regarding relative AGN vs starlight contributions. Proposes a new physical dichotomy that could explain observed diversity and suggests connection to black hole seed formation scenarios. High potential to reshape classification frameworks and guide future observational strategies."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs multiple independent measurement techniques and validates results with spectroscopic subsample. Uses stacking analysis to enhance signal-to-noise. Abstract lacks explicit mention of systematic error analysis, completeness corrections, or detailed statistical significance testing which would strengthen the methodological foundation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...983...60C",
       "title": "{The Host Galaxy (If Any) of the Little Red Dots}",
       "abstract": "{We investigate the host galaxy properties of eight little red dots (LRDs) selected from the JWST UNCOVER survey, applying a new technique (GalfitS) to simultaneously fit the morphology and spectral energy distribution using multiband NIRCam images covering {\\ensuremath{\\sim}}1{\\textendash}4 {\\ensuremath{\\mu}}m. We detect the host galaxy in only one LRD, MSAID38108 at z = 4.96, which has a stellar mass of , an effective radius of kpc, and a S{\\'e}rsic index of . No host emission centered on the central point source is found in the other seven LRDs. We derive stringent upper limits for the stellar mass of a hypothetical host galaxy by conducting realistic mock simulations that place high-redshift galaxy images under the LRDs. Based on the black hole masses estimated from the broad H{\\ensuremath{\\alpha}} emission line, the derived stellar mass limits are at least a factor of 10 lower than expected from the z {\\ensuremath{\\approx}} 0 scaling relation between black hole mass and host galaxy stellar mass. Intriguingly, four of the LRDs (50\\% of the sample) show extended, off-centered emission, which is particularly prominent in the bluer bands. The asymmetric emission of two sources can be modeled as stellar emission, but the nature of the other two is unclear.}",
@@ -12227,9 +12267,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.289900662251664,
+    "average_score": 8.290594059405949,
     "median_score": 8.5,
-    "high_relevance_count": 290,
+    "high_relevance_count": 291,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
