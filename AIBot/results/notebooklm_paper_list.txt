@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-03-28T06:20:40.078178
+Generated: 2026-03-31T06:27:55.743696
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -624,6 +624,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.2] 2026Natur.649..557N
     Mysterious 'little red dots' could be black holes in disguise
+
+[8.2] 2026A&A...708A..44L
+    Constraints on dynamically formed massive black holes in little red dots from X-ray non-detections
 
 [8.2] 2025arXiv250408032M
     Counting Little Red Dots at $z<4$ with Ground-based Surveys and Spectroscopic Follow-up

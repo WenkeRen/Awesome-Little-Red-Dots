@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-28T06:20:37.132691",
-  "total_papers": 303,
-  "successfully_scored": 303,
+  "generated_at": "2026-03-31T06:27:52.578352",
+  "total_papers": 304,
+  "successfully_scored": 304,
   "papers": [
     {
       "bibtex_key": "2025arXiv250316595R",
@@ -8369,6 +8369,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026A&A...708A..44L",
+      "title": "{Constraints on dynamically formed massive black holes in little red dots from X-ray non-detections}",
+      "abstract": "{The existence of extremely massive and compact galaxies, also called little red dots (LRDs), at z {\\ensuremath{\\gtrsim}} 2 challenges models of early structure formation, suggesting extremely rapid stellar and black hole (BH) assembly. These galaxies are efficient environments for rapid BH growth, but several LRDs show no evidence of strong emission from the active galactic nuclei in X-rays. Our work uses a subsample of X-ray non- detected LRDs to determine whether the collision-based BH formation scenario is compatible with the non-detections and to constrain the physical parameters (e.g., metallicity) and observational parameters (e.g., column density). Our results show that LRDs might be ideal birthplaces for the formation of massive BHs, particularly in the case of a mass-radius relation R gal {\\ensuremath{\\propto}} M gal 0.6 (similar to spiral galaxies in the local Universe). Given the high stellar densities, collision-based models suggest seed masses greater than those observed in the local Universe, and these are compatible with the mass-radius relation of high-redshift BHs. We modeled the BH seed formation and subsequent X-ray emission to investigate the physical and observational parameter space to compare with the observed X-ray upper limits in the soft (0.3 {\\ensuremath{-}} 2 keV) and hard band (2 {\\ensuremath{-}} 7 keV). We found that exponents in the mass-radius relation above 0.55 favor the collision-based scenario, but consistency with the stacked X-ray analysis requires specific combinations of accretion and obscuration parameters. Additionally, we found that constant or increasing star formation rate scenarios assuming high Eddington ratios and long duty cycles are feasible, but require higher column densities and/or a higher level of metal enrichment in the shielding columns. Alternatively, moderate sub-Eddington accretion rates seem to be sufficient to reconcile the massive seeds with their final observed masses, consistent with the observed X-ray weakness. Overall, we conclude that even if LRDs were initially starburst galaxies, they should evolve into an active galactic nucleus.}",
+      "existing_tags": "heavy seed, non-agn, obscuration, theory, x-ray",
+      "year": "2026",
+      "authors": "[Person('{Liempi}, M.'), Person('{Schleicher}, D. R. G.'), Person('{Latif}, M. A.'), Person('{Schneider}, R.'), Person('{Flammini Dotti}, F.'), Person('{Escala}, A.'), Person('{Vergara}, M. C.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper scores highly due to its exclusive focus on LRDs and direct confrontation of the X-ray non-detection mystery with theoretical models. While more observational detail would strengthen the evaluation, its comprehensive treatment of physical properties and potential to resolve key debates in LRD research merit a high score.",
+      "key_factors": [
+        "X-ray non-detections",
+        "Collision-based BH formation",
+        "Mass-radius relation constraints",
+        "Accretion/obscuration parameter space",
+        "Metallicity and column density"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on LRDs, with explicit mention in title and abstract. It directly addresses central LRD mysteries including X-ray non-detections and black hole formation scenarios, making it a core LRD research paper."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "Uses X-ray non-detection upper limits from stacked analysis in soft and hard bands. However, the paper is primarily theoretical/modeling-focused rather than observational, lacking detailed discussion of specific instruments or data reduction methods."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Comprehensively addresses key physical properties including black hole seed masses, mass-radius relations, metallicity, column density/obscuration, Eddington ratios, and duty cycles—all critical for understanding LRDs and their black hole formation."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "High potential impact by testing collision-based black hole formation scenarios against X-ray observations, constraining the mass-radius relation, and addressing the fundamental question of why LRDs are X-ray weak. Could significantly influence understanding of early black hole growth."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs modeling of black hole seed formation and X-ray emission compared against observed upper limits, exploring parameter space for accretion and obscuration. However, abstract lacks sufficient detail to fully assess statistical rigor or model assumptions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024RNAAS...8..182L",
       "title": "{Little Red Dots from Low-spin Galaxies at High Redshifts}",
       "abstract": "{Recently, a new population of compact, high-redshift (z {\\ensuremath{\\gtrsim}} 7) galaxies appeared as little red dots (LRDs) in deep JWST observations. The latest spectroscopic data indicates that these galaxies contain an evolved stellar population, reflecting an early episode of high star formation- rate. The appearance of broad emission lines suggests that a central overmassive black hole also powers these galaxies. I propose that LRD galaxies represent the low-spin tail of the galaxy population. Low-spin galaxies host a more compact gaseous disk with an enhanced star formation rate relative to typical galaxies at the same redshift. The compact disk feeds efficiently a central black hole, as predicted by Eisenstein \\& Loeb.}",
@@ -12267,9 +12307,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.290594059405949,
+    "average_score": 8.290296052631586,
     "median_score": 8.5,
-    "high_relevance_count": 291,
+    "high_relevance_count": 292,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }
