@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-04-18T06:25:35.807055
+Generated: 2026-04-23T06:39:16.123645
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -675,6 +675,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.3] 2024Conve2024....1P
     Tiny, compact galaxies are masters of disguise in the distant universe
+
+[7.2] 2025arXiv250910638Z
+    Radiation GRMHD Models of Accretion onto Stellar-Mass Black Holes: II. Super-Eddington Accretion
 
 [7.1] 2026Sci...391..767M
     Black holes disguised as little red dots
