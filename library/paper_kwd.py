@@ -98,7 +98,7 @@ def call_qwen_max(prompt: str, api_key: str) -> str | None:
         "Content-Type": "application/json",
     }
     payload = {
-        "model": "qwen-max",
+        "model": "qwen3.6-max-preview",
         "input": {"prompt": prompt},
         "parameters": {
             "result_format": "text"  # Request plain text output
