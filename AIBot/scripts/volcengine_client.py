@@ -5,7 +5,7 @@ This module provides a robust interface to Volcengine's ARK API for scoring
 paper relevance to Little Red Dot research. Includes retry logic, error handling,
 and response parsing.
 
-Uses the volcenginesdkarkruntime SDK with Kimi models.
+Uses the volcenginesdkarkruntime SDK with deepseek-v4-pro models.
 
 Author: Awesome-Little-Red-Dots Project
 Date: 2025-01-29
@@ -39,7 +39,7 @@ class VolcengineRankingClient:
         self,
         api_key: Optional[str] = None,
         criteria_path: str = "AIBot/data/lrd_ranking_criteria.json",
-        model_name: str = "kimi-k2-thinking-251104",
+        model_name: str = "deepseek-v4-pro-260425",
         max_retries: int = 3,
     ):
         """
@@ -48,7 +48,7 @@ class VolcengineRankingClient:
         Args:
             api_key: Volcengine ARK API key (defaults to ARK_API_KEY env var)
             criteria_path: Path to ranking criteria JSON file
-            model_name: ARK model to use (default: kimi-k2-thinking-251104)
+            model_name: ARK model to use (default: deepseek-v4-pro-260425)
             max_retries: Maximum retry attempts for failed API calls
 
         Raises:
