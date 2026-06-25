@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-06-24T07:24:15.239923",
-  "total_papers": 304,
-  "successfully_scored": 304,
+  "generated_at": "2026-06-25T16:05:42.297435",
+  "total_papers": 305,
+  "successfully_scored": 305,
   "papers": [
+    {
+      "bibtex_key": "2026arXiv260328335T",
+      "title": "{A Black Hole Star at Cosmic Noon: Extreme Balmer break, photospheric continuum, and broad absorption by thick winds in a Little Red Dot at z=1.7}",
+      "abstract": "{Recent studies at high redshift have revealed an enigmatic class of Little Red Dots (LRDs) with extreme Balmer breaks, stronger than in any stellar atmosphere. However, it is unclear whether such objects exist at lower redshift, especially given the low number of LRDs reported at $z\\lesssim 2$. Here we report the discovery of PAN-BH*-1, an LRD with an extreme Balmer break at $z=1.73$, identified from JWST/NIRCam pure-parallel imaging taken by the PANORAMIC survey, and confirmed by deep VLT/X-Shooter spectroscopy. The rest-optical to near-infrared spectral energy distribution of PAN-BH*-1 is consistent with a photospheric continuum with effective temperature $T\\_{\\rm eff}\\approx 4800$ K. The broad H$α$ emission line shows remarkably deep absorption, stronger than previously measured in any LRD. The absorption trough spans from $-520$ km/s to $+267$ km/s with respect to the systemic redshift. The presence of blue- and red- shifted absorption suggests complex dynamics of the obscuring gas along the line of sight. We speculate that the absorption trough can be produced by a thick wind launched from a thick, rotating photospheric disk, the latter being the source of the red optical continuum. While the source is unresolved in the rest-optical JWST data ($r\\_{\\rm eff,UV}<47$ pc), the rest-NUV HST imaging shows an extended morphology with $r\\_{\\rm eff,opt}=1.0^{+0.5}\\_{-0.3}$ kpc, that we interpret as a host galaxy with a stellar mass $\\sim 10^8$ $M\\_\\odot$, in line with the narrow H$α$ emission. The discovery of this object at cosmic noon highlights the feasibility of systematic searches for extreme LRDs with wide-area facilities such as Euclid and Roman.}",
+      "existing_tags": "absorption features, host galaxy, jwst, sed, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Torralba}, Alberto'), Person('{Matthee}, Jorryt'), Person('{Weibel}, Andrea'), Person('{Naidu}, Rohan P.'), Person('{Ma}, Yilun'), Person('{Cloonan}, Aidan P.'), Person('{Desai}, Aayush'), Person('{de Graaff}, Anna'), Person('{Greene}, Jenny E.'), Person('{Jespersen}, Christian Kragh'), Person('{Kramarenko}, Ivan G.'), Person('{Mascia}, Sara'), Person('{Oesch}, Pascal A.'), Person('{Sun}, Wendy Q.'), Person('{Williams}, Christina C.')]",
+      "relevance_score": 9.4,
+      "justification": "This paper is a landmark study directly focused on Little Red Dots, reporting the discovery of an LRD at z=1.73 with unprecedented extreme Balmer break and broad Hα absorption. It leverages cutting-edge JWST, VLT, and HST data to provide a detailed physical characterization, significantly advancing our understanding of LRD properties and their occurrence at lower redshifts, with strong implications for future surveys.",
+      "key_factors": [
+        "Discovery of LRD at z=1.73",
+        "Extreme Balmer break and photospheric continuum",
+        "Broad Hα absorption with complex dynamics",
+        "Multi-wavelength JWST, VLT, HST data",
+        "Implications for Euclid/Roman surveys"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely focused on the discovery and detailed characterization of a Little Red Dot (LRD) at z=1.73, directly addressing the nature of LRDs, their extreme Balmer breaks, and broad absorption features. It explicitly frames the object within the context of the LRD population and extends LRD studies to lower redshift."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Utilizes a powerful combination of JWST/NIRCam imaging from the PANORAMIC survey, deep VLT/X-Shooter spectroscopy, and rest-NUV HST imaging. This multi-wavelength approach provides robust constraints on the SED, absorption trough, and host galaxy morphology, demonstrating state-of-the-art observational capabilities for LRD research."
+        },
+        "physical_properties": {
+          "score": 9.5,
+          "reasoning": "Provides in-depth analysis of the extreme Balmer break, photospheric continuum with Teff ~4800 K, broad Hα absorption spanning -520 to +267 km/s, and interpretation as a thick wind from a rotating photospheric disk. Also measures host galaxy size and stellar mass, offering a comprehensive physical picture of the LRD system."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "The discovery of an LRD at cosmic noon (z=1.73) challenges the notion that LRDs are exclusively high-redshift phenomena and highlights the potential for systematic searches with wide-area facilities like Euclid and Roman. The extreme absorption properties provide new insights into obscuration and outflow dynamics in LRDs, advancing the debate on their nature."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "The analysis is thorough, with careful SED fitting, absorption trough measurement, and size estimation from both JWST and HST data. The interpretation is well-supported by the data, and the paper acknowledges complexities (e.g., complex dynamics). The use of multiple instruments and robust statistical methods ensures reliability."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
     {
       "bibtex_key": "2025arXiv250316595R",
       "title": "{JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas}",
@@ -12307,9 +12347,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.290296052631586,
+    "average_score": 8.293934426229516,
     "median_score": 8.5,
-    "high_relevance_count": 292,
+    "high_relevance_count": 293,
     "moderate_relevance_count": 10,
     "low_relevance_count": 2
   }

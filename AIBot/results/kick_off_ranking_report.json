@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24T07:26:00.637824",
-  "total_papers": 151,
-  "successfully_scored": 151,
+  "generated_at": "2026-06-25T16:06:34.456111",
+  "total_papers": 152,
+  "successfully_scored": 152,
   "papers": [
     {
       "bibtex_key": "2024Natur.636..594J",
@@ -6085,6 +6085,46 @@
       "notebooklm_recommendation": "Essential technical reference for LRD researchers using MIRI data, but not core scientific literature"
     },
     {
+      "bibtex_key": "2024ApJ...962...24S",
+      "title": "{Direct T $\\_{e}$-based Metallicities of z = 2─9 Galaxies with JWST/NIRSpec: Empirical Metallicity Calibrations Applicable from Reionization to Cosmic Noon}",
+      "abstract": "{We report detections of the [O III]{\\ensuremath{\\lambda}}4364 auroral emission line for 16 galaxies at z = 2.1─8.7, measured from JWST/NIRSpec observations obtained as part of the Cosmic Evolution Early Release Science (CEERS) survey program. We combine this CEERS sample with 9 objects from the literature at z = 4{\\ensuremath{-}}9 with auroral-line detections from JWST/NIRSpec and 21 galaxies at z = 1.4{\\ensuremath{-}}3.7 with auroral-line detections from ground-based spectroscopy. We derive electron temperature (T $\\_{e}$) and direct-method oxygen abundances for the combined sample of 46 star-forming galaxies at z = 1.4{\\ensuremath{-}}8.7. We use these measurements to construct the first high-redshift empirical T $\\_{e}$-based metallicity calibrations for the strong-line ratios [O III]/H{\\ensuremath{\\beta}}, [O II]/H{\\ensuremath{\\beta}}, R23 = ([O III]+[O II])/H{\\ensuremath{\\beta}}, [O III]/[O II], and [Ne III]/[O II]. These new calibrations are valid over 12+log(O/H) = 7.4{\\ensuremath{-}}8.3 and can be applied to samples of star- forming galaxies at z = 2{\\ensuremath{-}}9, leading to an improvement in the accuracy of metallicity determinations at Cosmic Noon and in the Epoch of Reionization. The high-redshift strong-line relations are offset from calibrations based on typical z {\\ensuremath{\\sim}} 0 galaxies or H II regions, reflecting the known evolution of ionization conditions between z {\\ensuremath{\\sim}} 0 and z {\\ensuremath{\\sim}} 2. Deep spectroscopic programs with JWST/NIRSpec promise to improve statistics at the low and high ends of the metallicity range covered by the current sample, as well as to improve the detection rate of [N II]{\\ensuremath{\\lambda}}6585 and thus allow the future assessment of N-based indicators. These new high-redshift calibrations will enable accurate characterizations of metallicity scaling relations at high redshift, improving our understanding of feedback and baryon cycling in the early Universe.}",
+      "lrdIndex": 12,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Sanders}, Ryan L.'), Person('{Shapley}, Alice E.'), Person('{Topping}, Michael W.'), Person('{Reddy}, Naveen A.'), Person('{Brammer}, Gabriel B.')]",
+      "relevance_score": 6.5,
+      "justification": "This paper provides the first JWST-based empirical metallicity calibrations for high-redshift galaxies, a tool that LRD researchers use to interpret host galaxy emission lines. While not directly about LRDs, its methodological innovation and evolutionary context make it a valuable supporting reference, as evidenced by 12 LRD citations.",
+      "key_factors": [
+        "lrdIndex=12",
+        "First high-z Te-based metallicity calibrations",
+        "JWST/NIRSpec auroral line technique",
+        "Enables accurate metallicity measurements for LRD hosts"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 4.5,
+          "reasoning": "The paper does not directly study Little Red Dots (LRDs) or AGN; it focuses on star-forming galaxies. However, the metallicity calibrations it provides are applicable to narrow-line regions in LRD host galaxies, enabling chemical abundance measurements that can help distinguish AGN from star formation. Its indirect relevance is reflected in 12 citations from LRD papers."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "lrdIndex=12 indicates a moderate but solid citation count from LRD researchers. This suggests the paper is recognized as a useful resource within the community, though not a core LRD reference."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "The paper delivers the first JWST-based empirical Te-metallicity calibrations at z=2–9, filling a critical gap beyond textbook knowledge. For LRD studies, these calibrations are important for interpreting host galaxy spectra, but they are not as foundational as AGN unification or black hole accretion physics."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "The use of direct Te measurements from auroral lines with JWST/NIRSpec at high redshift is a significant methodological advance. Constructing new strong-line calibrations specifically for the early Universe is innovative and directly enables more accurate metallicity determinations."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "The paper explicitly addresses the evolution of ionization conditions and metallicity scaling relations from reionization to cosmic noon. This provides valuable context for understanding the environments in which LRDs reside, though it does not model LRD evolution itself."
+        }
+      },
+      "notebooklm_recommendation": "Valuable supporting literature for NotebookLM, especially for metallicity-dependent analyses of LRD environments."
+    },
+    {
       "bibtex_key": "2024ApJ...962..177B",
       "title": "{UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances}",
       "abstract": "{We report JWST/NIRSpec spectra of three distant T-type brown dwarfs identified in the Ultradeep NIRSpec and NIRCam ObserVations before the Epoch of Reionization (UNCOVER) survey of the Abell 2744 lensing field. One source was previously reported as a candidate T dwarf on the basis of NIRCam photometry, while two sources were initially identified as candidate active galactic nuclei. Low-resolution 1{\\textendash}5 {\\ensuremath{\\mu}}m spectra confirm the presence of molecular features consistent with T dwarf atmospheres, and comparison to spectral standards infers classifications of sdT1, T6, and T8{\\textendash}T9. The warmest source, UNCOVER-BD-1, shows evidence of subsolar metallicity, and atmosphere model fits indicate T $\\_{eff}$ = 1300 K and [M/H] {\\ensuremath{\\sim}} ‑1.0, making this one of the few spectroscopically confirmed T subdwarfs known. The coldest source, UNCOVER-BD-3, is near the T/Y dwarf boundary with T $\\_{eff}$ = 550 K, and our analysis indicates the presence of PH$\\_{3}$ in the 3{\\textendash}5 {\\ensuremath{\\mu}}m region, favored over CO$\\_{2}$ and a possible indicator of subsolar metallicity. We estimate distances of 0.9{\\textendash}4.5 kpc from the Galactic midplane, making these the most distant brown dwarfs with spectroscopic confirmation. Population simulations indicate high probabilities of membership in the Galactic thick disk for two of these brown dwarfs, and potential halo membership for UNCOVER-BD-1. Our simulations indicate that there are approximately 5 T dwarfs and 1{\\textendash}2 L dwarfs in the Abell 2744 field down to F444W = 30 AB mag, roughly one-third of which are thick disk members. These results highlight the utility of deep JWST/NIRSpec spectroscopy for identifying and characterizing the oldest metal-poor brown dwarfs in the Milky Way.}",
@@ -6208,10 +6248,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.947682119205306,
+    "average_score": 7.93815789473685,
     "median_score": 8.1,
     "critical_count": 100,
-    "high_value_count": 48,
+    "high_value_count": 49,
     "moderate_value_count": 2,
     "low_priority_count": 1
   }

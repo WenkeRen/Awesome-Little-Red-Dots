@@ -101,16 +101,14 @@ def call_qwen_max(prompt: str, api_key: str) -> str | None:
     payload = {
         "model": "qwen3.6-max-preview",
         "input": {"prompt": prompt},
-        "parameters": {
-            "result_format": "message"  # text format is deprecated for this model
-            # Add other parameters like temperature, max_tokens if needed
-            # "temperature": 0.8,
-            # "max_tokens": 100,
-        },
+        # Note: result_format parameter removed — deprecated by DashScope for this model.
+        # The API defaults to "message" format automatically.
     }
 
     try:
-        response = requests.post(QWEN_MAX_ENDPOINT, headers=headers, json=payload, timeout=60)  # 60 second timeout
+        response = requests.post(
+            QWEN_MAX_ENDPOINT, headers=headers, json=payload, timeout=120  # 120s for CI reliability
+        )
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
         result = response.json()
