@@ -431,7 +431,7 @@ def main():
     # Set default models based on backend
     if args.model is None:
         if args.backend == "volcengine":
-            args.model = "kimi-k2-thinking-251104"
+            args.model = "deepseek-v4-pro-260425"
         else:  # gemini
             args.model = "gemini-2.5-flash"
 

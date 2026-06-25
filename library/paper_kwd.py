@@ -1,11 +1,12 @@
-import os
-import sys
-import yaml
-import requests
 import logging
-from pybtex.database import parse_file, BibliographyData, Entry
-import time  # Add time for retry delay
+import os
 import re
+import sys
+import time  # Add time for retry delay
+
+import requests
+import yaml
+from pybtex.database import BibliographyData, Entry, parse_file
 
 if not os.getenv("GITHUB_ACTIONS"):
     from dotenv import load_dotenv
@@ -101,7 +102,7 @@ def call_qwen_max(prompt: str, api_key: str) -> str | None:
         "model": "qwen3.6-max-preview",
         "input": {"prompt": prompt},
         "parameters": {
-            "result_format": "text"  # Request plain text output
+            "result_format": "message"  # text format is deprecated for this model
             # Add other parameters like temperature, max_tokens if needed
             # "temperature": 0.8,
             # "max_tokens": 100,
@@ -114,14 +115,25 @@ def call_qwen_max(prompt: str, api_key: str) -> str | None:
 
         result = response.json()
 
-        # Check response structure based on Aliyun Dashscope documentation
-        if result.get("output") and result["output"].get("text"):
-            text_output = result["output"]["text"].strip()
-            logging.debug(f"Qwen-max raw response: {text_output}")
+        # Support both legacy text format and current message format.
+        output = result.get("output", {}) if isinstance(result, dict) else {}
+
+        if output.get("text"):
+            text_output = output["text"].strip()
+            logging.debug(f"Qwen-max raw response (text): {text_output}")
             return text_output
-        else:
-            logging.error(f"Error: Unexpected response format from Qwen-max API: {result}")
-            return None
+
+        choices = output.get("choices", [])
+        if choices and isinstance(choices, list):
+            message = choices[0].get("message", {})
+            content = message.get("content", "") if isinstance(message, dict) else ""
+            if isinstance(content, str) and content.strip():
+                text_output = content.strip()
+                logging.debug(f"Qwen-max raw response (message): {text_output}")
+                return text_output
+
+        logging.error(f"Error: Unexpected response format from Qwen-max API: {result}")
+        return None
 
     except requests.exceptions.RequestException as e:
         logging.error(f"Error calling Qwen-max API: {e}")
