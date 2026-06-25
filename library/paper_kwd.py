@@ -20,6 +20,46 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 MAX_RETRIES = 3
 ALIYUN_API_KEY_ENV_VAR = "ALIYUN_API_KEY"
 QWEN_MAX_ENDPOINT = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
+# Timeout tuple: (connect_timeout, read_timeout).
+# Short connect timeout fails fast on DNS/TLS issues common in CI;
+# long read timeout accommodates slow DashScope responses from GitHub Actions.
+CONNECT_TIMEOUT = 30
+READ_TIMEOUT = 120
+
+# Module-level session for TCP connection reuse across retries.
+# In CI (GitHub Actions), the first connection to DashScope is often slow
+# due to DNS/TLS overhead; a persistent session mitigates this.
+_session = requests.Session()
+
+
+def warmup_api(api_key: str) -> None:
+    """Send a minimal request to warm up DNS/TLS connection to DashScope.
+
+    In GitHub Actions, the first HTTPS request to dashscope.aliyuncs.com
+    can timeout due to slow DNS resolution or TLS handshake from their
+    network. A pre-warm request establishes the connection early so that
+    subsequent paper-processing requests succeed faster.
+    """
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": "qwen3.6-max-preview",
+        "input": {"prompt": "ping"},
+    }
+    logging.info("Warming up DashScope API connection...")
+    try:
+        resp = _session.post(
+            QWEN_MAX_ENDPOINT, headers=headers, json=payload,
+            timeout=(CONNECT_TIMEOUT, 30),
+        )
+        if resp.status_code == 200:
+            logging.info("DashScope API warmup successful.")
+        else:
+            logging.warning(f"DashScope API warmup returned status {resp.status_code}, continuing anyway.")
+    except requests.exceptions.RequestException as e:
+        logging.warning(f"DashScope API warmup failed: {e}. Will retry on first real request.")
 
 
 def load_tags(yaml_path: str) -> dict | None:
@@ -106,8 +146,9 @@ def call_qwen_max(prompt: str, api_key: str) -> str | None:
     }
 
     try:
-        response = requests.post(
-            QWEN_MAX_ENDPOINT, headers=headers, json=payload, timeout=120  # 120s for CI reliability
+        response = _session.post(
+            QWEN_MAX_ENDPOINT, headers=headers, json=payload,
+            timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
         )
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
@@ -225,6 +266,9 @@ def main(bib_file_path):
     if not valid_tags:
         logging.error(f"No valid tags found in {yaml_file_path}")
         sys.exit(1)
+
+    # Pre-warm the API connection (critical in CI where first request often times out)
+    warmup_api(api_key)
 
     updated_entries_count = 0
     entries_to_process = list(bib_data.entries.items())  # Create a list to iterate over
