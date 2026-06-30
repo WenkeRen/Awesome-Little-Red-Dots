@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T07:17:06.994749",
-  "total_papers": 402,
-  "successfully_scored": 402,
+  "generated_at": "2026-06-30T07:23:31.951718",
+  "total_papers": 404,
+  "successfully_scored": 404,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -13659,6 +13659,45 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260628296A",
+      "title": "{Memoirs of the curvaton: non-perturbative non-Gaussianity and supermassive primordial black holes}",
+      "abstract": "{The curvaton provides a simple mechanism for generating strongly non- Gaussian curvature perturbations after inflation, with potentially important consequences on small scales. We study curvaton dynamics beyond the standard quadratic potential and construct the local non-Gaussian map $ζ=F(ζ\\_{\\rm G})$ relating the curvature perturbation to an auxiliary Gaussian field $ζ\\_{\\rm G}$. Curvaton self-interactions make the onset of oscillations field dependent and modify the effective equation of state once the curvaton enters the adiabatic regime. We incorporate these effects using the abbreviated action, which provides a compact way to connect the frozen and oscillatory regimes and exposes sources of non-Gaussianity absent in the purely quadratic case. We apply the formalism to quadratic, monomial, quartic, and cosine potentials, for which we derive the mapping $F(ζ\\_{\\rm G})$ and show that self-interactions can either enhance or suppress the resulting non-Gaussianity depending on the potential and initial conditions. We consider non-perturbative aspects in the strongly non-Gaussian regime, and show how strong non-Gaussianity can suppress the power spectrum. As an application, we provide a bottom-up scenario in which strongly positive curvaton non-Gaussianity allows primordial supermassive black hole seeds at peak amplitudes $\\mathcal{A}\\_{\\rm pk}\\sim10^{-5}$, which are compatible with the COBE/FIRAS $μ$-distortion bounds. This opens a new primordial scenario for the Little Red Dots observed by the JWST. The axion-like curvaton provides a particularly natural setting for this mechanism.}",
+      "existing_tags": "early universe, heavy seed, theory",
+      "year": "2026",
+      "authors": "[Person('{Allegrini}, S.'), Person('{Iovino}, A. J.'), Person('{Perna}, G.'), Person('{Veerm{\\\\\"a}e}, H.')]",
+      "relevance_score": 7.8,
+      "justification": "This theoretical paper proposes a curvaton-generated primordial black hole scenario to explain the origin of supermassive black holes in Little Red Dots. While it contains no observational data or direct modeling of LRD properties, its explicit focus on providing a new formation channel for LRDs gives it high relevance and potential impact. The lack of observational techniques and limited discussion of LRD physical properties lower the overall score.",
+      "key_factors": [
+        "Explicitly targets LRD formation via primordial black holes",
+        "Connects early-universe non-Gaussianity to JWST observations",
+        "Provides supermassive seed masses consistent with LRD BH estimates",
+        "Purely theoretical with no observational data"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The abstract explicitly states that the mechanism 'opens a new primordial scenario for the Little Red Dots observed by the JWST,' making LRDs a central application of the work. While the paper is primarily a theoretical study of curvaton dynamics and primordial black hole formation, it directly targets the origin of LRDs, which is a core question in LRD research."
+        },
+        "observational_techniques": {
+          "score": 0.0,
+          "reasoning": "The paper is purely theoretical and contains no observational data, JWST or otherwise. It does not analyze or compare with any LRD observations, so it contributes no observational techniques relevant to LRD studies."
+        },
+        "physical_properties": {
+          "score": 4.0,
+          "reasoning": "The paper discusses the mass of primordial black hole seeds (supermassive, ~10^5 M_sun) and their formation via non-Gaussian curvature perturbations, which relates to the black hole masses inferred in LRDs. However, it does not model other LRD physical properties such as spectral energy distributions, sizes, host galaxies, or AGN signatures."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "If viable, this scenario provides a novel, non-standard explanation for the early appearance of supermassive black holes in LRDs, potentially resolving tensions with direct-collapse or stellar-seed models. It could shift the paradigm for LRD formation and stimulate new connections between early-universe cosmology and high-redshift galaxy observations."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "The paper employs advanced theoretical methods (abbreviated action, non-perturbative non-Gaussian mapping) and considers multiple curvaton potentials. It addresses consistency with COBE/FIRAS μ-distortion bounds, demonstrating a careful and rigorous approach to model building."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv251203331R",
       "title": "{Radio Detection of a Local Little Red Dot}",
       "abstract": "{Context. One of the most important discoveries by the James Webb Space Telescope (JWST) is the unexpected existence in the Early Universe (z > 4) of very large quantities of ``Little Red Dots'' (LRDs), compact luminous red galaxies of intriguing physical properties. Aims. We wish to know if LRDs may host accreting Intermediate/Supermassive Black Holes (IMBHs/SMBHs) that may power LRDs, and compare them with the effect of clusters of massive stars. The spectrum of radio emission (synchrotron vs thermal) can be used to know which between these two types of energy sources is the dominant one. Methods. So far LRDs at high redshifts have not been detected at radio wavelengths and it is not known why. Assuming this could be due to their large distances and/or present limitations of observational capabilities, we analyze here archive Very Large Array radio observations of two analog candidates of LRDs in the Local Universe (LLRDs) at redshifts z = 0.1 - 0.2. Results. The LLRD source J1047+0739 at z = 0.1682 is detected at 6.0 GHz in 2018 with the VLA-A of NRAO as a compact source with radii less than 0.2 arc sec (< 600 pc at d = 700 Mpc). Its flux density was 117$\\pm$8 $μ$Jy and its spectral index was -0.85, which is typical of optically-thin synchrotron emission. It is also detected at 5.0 GHz in 2010 with the VLA-C, showing a flux density of 43$\\pm$3 $μ$Jy. Conclusions. The observed flux densities can be provided by a radio luminous supernova. The increase in flux density over eight years can be explained as the result of two independent supernovae or as the radio re- brightening of a single one. Radio time monitoring of this and other LLRDs could help clarify the mystery of the radio silence of its cosmological counterparts.}",
@@ -14258,6 +14297,45 @@
         "methodological_rigor": {
           "score": 7.0,
           "reasoning": "The abstract outlines a coherent theoretical model based on halo thermodynamics and accretion physics. While the full rigor cannot be assessed from the abstract alone, the approach appears logically structured and grounded in established astrophysical processes."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260627427P",
+      "title": "{SEEDZ: Rapid Galaxy Assembly as a Pathway to Supermassive Stars, Dense Stellar Environments and Massive Black Hole Seeds}",
+      "abstract": "{We investigate the assembly history of early galaxies in the SEEDZ hydrodynamic simulations, to investigate the high inflow rates believed to be required for the formation of supermassive stars (SMSs), dense stellar clusters and subsequently heavy seed black holes. Using a heavy seed formation criteria of $>$1 M$\\_\\odot$ yr$^{-1}$ flowing into 10 pc regions, we find that heavy seeds form in halos that grow rapidly compared to those halos that never meet the criteria. Halos with growth rates of $rsim$1 M$\\_\\odot$ yr$^{-1}$ at their virial radius (scales of a few hundred pc) are able to sustain a flow rate of 0.1 M$\\_\\odot$ yr$^{-1}$ into the inner 1 pc of the halo, maintaining higher density environments within the central 10 - 100\\raisebox{-0.5ex}\\textasciitildepc. These halos continue to grow rapidly after their initial collapse, typically forming heavy seeds $\\sim$100 Myr after forming their first stars and stellar mass black holes. By $z=10$, most heavy seeds form in regions of near-solar metallicity, although a minority of heavy seeds do continue to form in low metallicity (10$^{-2}$ Z$\\_\\odot$) regions. Under the assumption that a SMS forms as the progenitor to a heavy seed if it forms in a region of low (10$^{-2}$ Z$\\_\\odot$) metallicity, and can sustain high accretion rates above 0.02 M$\\_\\odot$ yr$^{-1}$ throughout the SMS lifetime of 2 Myr, we find a number density of SMSs of 0.1 cMpc$^{-3}$, meaning that only a fraction of 10$^{-4}$ of these SMSs would need to be visible to JWST to account for the observed population of Little Red Dot galaxies.}",
+      "existing_tags": "abundance, early universe, exotic physics, heavy seed, simulation",
+      "year": "2026",
+      "authors": "[Person('{Prole}, Lewis R.'), Person('{Regan}, John A.'), Person('{Mehta}, Daxal'), Person('{Nandal}, Devesh'), Person('{Pakmor}, R{\\\\\"u}diger'), Person('{Beckmann}, Ricarda S.'), Person('{Tremmel}, Michael'), Person('{Haehnelt}, Martin G.'), Person('{Glover}, Simon C. O.'), Person('{Klessen}, Ralf S.'), Person('{Wise}, John H.'), Person('{Koudmani}, Sophie'), Person('{Bourne}, Martin A.'), Person('{Sijacki}, Debora'), Person('{Brennan}, John'), Person('{van de Bor}, Pelle'), Person('{Clark}, Paul C.')]",
+      "relevance_score": 7.6,
+      "justification": "This simulation study directly addresses the origin of Little Red Dots by modeling supermassive star and heavy seed formation, making explicit predictions for their number density and JWST visibility. Although it contains no observational data, its theoretical framework is highly relevant and impactful for interpreting the LRD population.",
+      "key_factors": [
+        "Direct connection to LRD number density",
+        "Predicts JWST visibility of supermassive stars",
+        "Investigates inflow and metallicity conditions for heavy seeds",
+        "Addresses AGN vs. starburst nature of LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly aims to explain the observed population of Little Red Dot galaxies by modeling the formation of supermassive stars and heavy seed black holes. It directly connects simulation predictions to LRD number counts and JWST visibility."
+        },
+        "observational_techniques": {
+          "score": 3.0,
+          "reasoning": "This is a purely theoretical simulation study with no observational data or analysis. However, it does make quantitative predictions (number density, JWST visibility) that are directly testable, providing a modest observational connection."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The paper investigates key physical properties relevant to LRDs, including high inflow rates, dense central environments, metallicities, and formation timescales. These directly inform the compact, red, and possibly AGN-like nature of LRDs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "By proposing a viable formation channel for the heavy seeds that may power LRDs, the paper addresses a major open question in high-redshift galaxy evolution. Its predictions could guide JWST follow-up and influence the AGN vs. starburst debate."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The study uses hydrodynamic simulations with well-defined criteria for heavy seed formation. While the abstract lacks detail on resolution and convergence, the approach appears sound and appropriate for the science goals."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16221,9 +16299,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.30248756218904,
+    "average_score": 8.299504950495034,
     "median_score": 8.5,
-    "high_relevance_count": 383,
+    "high_relevance_count": 385,
     "moderate_relevance_count": 15,
     "low_relevance_count": 4
   }
