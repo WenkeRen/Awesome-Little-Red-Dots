@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-06-30T07:23:33.954571",
-  "total_papers": 174,
-  "successfully_scored": 174,
+  "generated_at": "2026-07-01T07:47:20.660308",
+  "total_papers": 176,
+  "successfully_scored": 176,
   "papers": [
+    {
+      "bibtex_key": "2026NatAs..10..868L",
+      "title": "{The case for super-Eddington accretion in JWST broad-line active galactic nuclei during the first billion years}",
+      "abstract": "{A multitude of studies of data recorded by the James Webb Space Telescope (JWST) reveal a surprising overabundance of over- massive accreting supermassive black holes, leading to a deepening tension between theory and observation for the first billion years of cosmic time. Across X-ray to infrared wavelengths, models built on pre-JWST predictions fail to easily reproduce the observed signatures of active galactic nuclei (or lack thereof), driving uncertainty around the true nature of these sources. Here, using a sample of JWST active galactic nuclei identified via their broadened H{\\ensuremath{\\alpha}} emission and covered by the deepest X-ray surveys, we find neither any measurable X-ray emission nor any detection of high- ionization emission lines frequently associated with accreting supermassive black holes. We propose that these sources are accreting at or beyond the Eddington limit, which reduces the need for the efficient production of heavy supermassive black hole seeds at cosmic dawn. Using a theoretical model of super- Eddington accretion, we can produce the observed relative dearth of both X-ray and ultraviolet emission, as well as the high Balmer decrements, without the need for substantial dust attenuation. This work indicates that super-Eddington accretion is easily achieved throughout the early Universe, and further study is required to determine what environments are required to trigger this mode of black hole growth.}",
+      "lrdIndex": 76,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Lambrides}, Erini'), Person('{Larson}, Rebecca L.'), Person('{Garofali}, Kristen'), Person('{Ptak}, Andrew'), Person('{Chiaberge}, Marco'), Person('{Long}, Arianna S.'), Person('{Hutchison}, Taylor A.'), Person('{Norman}, Colin'), Person('{McKinney}, Jed'), Person('{Akins}, Hollis B.'), Person('{Berg}, Danielle A.'), Person('{Chisholm}, John'), Person('{Civano}, Francesca'), Person('{Cloonan}, Aidan P.'), Person('{Endsley}, Ryan'), Person('{Faisst}, Andreas L.'), Person('{Gilli}, Roberto'), Person('{Gillman}, Steven'), Person('{Hirschmann}, Michaela'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kocevski}, Dale D.'), Person('{Kokorev}, Vasily'), Person('{Pacucci}, Fabio'), Person('{Richardson}, Chris T.'), Person('{Stiavelli}, Massimo'), Person('{Whalen}, Kelly E.')]",
+      "relevance_score": 9.2,
+      "justification": "This paper is a cornerstone for LRD research, providing the super-Eddington accretion framework that explains the red colors, X-ray faintness, and broad lines of LRDs. With 76 LRD citations, it is highly influential and foundational, driving both observational interpretation and theoretical modeling.",
+      "key_factors": [
+        "lrdIndex=76",
+        "Direct LRD connection via super-Eddington model",
+        "Critical BH-galaxy coevolution framework",
+        "JWST NIRSpec technique"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 9.0,
+          "reasoning": "Directly addresses the physical mechanism (super-Eddington accretion) that can explain the red colors, X-ray faintness, and broad Hα lines characteristic of Little Red Dots, providing a key interpretive framework widely adopted in LRD studies."
+        },
+        "citation_frequency": {
+          "score": 10.0,
+          "reasoning": "lrdIndex=76, indicating exceptionally high citation frequency within the LRD community, making it one of the most referenced works and a central pillar of current research."
+        },
+        "foundational_value": {
+          "score": 9.0,
+          "reasoning": "Introduces a paradigm-shifting model that super-Eddington accretion can resolve the overmassive black hole tension and explain observed spectral features without heavy dust, offering foundational insights beyond standard accretion disk theory."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "Pioneers the combined use of deep X-ray non-detections, broad Hα emission, and theoretical super-Eddington models to diagnose accretion mode, a technique now widely emulated in LRD analyses."
+        },
+        "evolutionary_context": {
+          "score": 9.0,
+          "reasoning": "Places these AGN in the critical first billion years, demonstrating that super-Eddington accretion can alleviate the need for heavy seeds and reshape early black hole growth scenarios, directly informing LRD evolutionary pathways."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
     {
       "bibtex_key": "2024Natur.636..594J",
       "title": "{A dormant overmassive black hole in the early Universe}",
@@ -5136,6 +5176,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2022ApJ...941..191L",
+      "title": "{AGN Selection and Demographics in GOODS-S/HUDF from X-Ray to Radio}",
+      "abstract": "{We present a comprehensive census of the active galactic nuclei (AGNs) in the GOODS-S/HUDF region from the X-ray to the radio, covering both the obscured and unobscured populations. This work includes a robust analysis of the source optical to mid-IR spectral energy distributions (SEDs) featuring (semi)empirical AGN and galaxy dust emission models and Bayesian fitting techniques, ultra-deep Very Large Array 3 and 6 GHz observations, and an integrated analysis of various AGN selection techniques, including X-ray properties, UV to mid-IR SED analysis, optical spectral features, mid-IR colors, radio-loudness and spectral slope, and AGN variability. In total, we report \\raisebox{-0.5ex}\\textasciitilde900 AGNs over the \\raisebox{-0.5ex}\\textasciitilde170 arcmin$^{2}$ 3D-HST GOODS-S footprint, which has doubled the AGN number identified in the previous X-ray sample, with \\raisebox{-0.5ex}\\textasciitilde26\\% of our sample undetected in the deepest Chandra image. With a summary of AGN demographics from different selection methods, we find that no one single band or technique comes close to selecting a complete AGN sample despite the great depth of the data in GOODS-S/HUDF. We estimate the yields of various approaches and explore the reasons for incompleteness. We characterize the statistical properties, such as source number density, obscuration fraction, and luminosity function of the AGN sample in this field, and discuss their immediate implications. We also provide some qualitative predictions of the AGN sample that might be discovered by the upcoming JWST surveys.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Lyu}, Jianwei'), Person('{Alberts}, Stacey'), Person('{Rieke}, George H.'), Person('{Rujopakarn}, Wiphu')]",
+      "relevance_score": 7.8,
+      "justification": "This paper is a cornerstone for LRD research due to its exhaustive AGN selection methodology and obscuration demographics, directly addressing the challenges of identifying heavily obscured objects. Its high citation rate (lrdIndex=10) confirms its foundational role, though its pre-JWST timing limits direct LRD discussion.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Multi-wavelength AGN selection framework",
+        "Obscured AGN demographics and incompleteness analysis",
+        "Bayesian SED fitting with AGN/galaxy dust models",
+        "Predictions for JWST surveys"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "The paper does not explicitly mention Little Red Dots (LRDs), as it predates their discovery, but it provides a critical framework for identifying heavily obscured AGN through multi-wavelength SED fitting and selection completeness analysis. This directly underpins LRD identification methods, especially for objects missed in X-rays."
+        },
+        "citation_frequency": {
+          "score": 9.5,
+          "reasoning": "With an lrdIndex of 10, this paper is highly cited by the LRD community, indicating strong recognition of its relevance. The frequency reflects its utility in providing AGN demographics and selection techniques that LRD researchers rely on."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Beyond textbook AGN physics, this paper delivers a unique, empirical census of ~900 AGNs in a premier deep field, including robust Bayesian SED modeling with AGN and galaxy dust components. It quantifies obscuration fractions and selection biases, offering essential reference data for interpreting LRD populations."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "The integration of ultra-deep radio, X-ray, and optical-to-mid-IR data with Bayesian SED fitting represents a state-of-the-art approach for its time. While not entirely novel, the comprehensive application and detailed incompleteness analysis provide a methodological template for LRD studies, particularly in handling obscured sources."
+        },
+        "evolutionary_context": {
+          "score": 6.5,
+          "reasoning": "The paper presents AGN luminosity functions and obscuration demographics across a range of redshifts, but its primary focus is on selection and census rather than evolutionary pathways. It offers some predictive insights for JWST surveys, which indirectly inform the high-redshift context of LRDs."
+        }
+      },
+      "notebooklm_recommendation": "Essential reference for understanding AGN selection biases and the demographics of obscured populations, directly applicable to LRD identification and characterization."
+    },
+    {
       "bibtex_key": "2023ApJ...945...35T",
       "title": "{The Physical Conditions of Emission-line Galaxies at Cosmic Dawn from JWST/NIRSpec Spectroscopy in the SMACS 0723 Early Release Observations}",
       "abstract": "{We present rest-frame optical emission-line flux ratio measurements for five z > 5 galaxies observed by the James Webb Space Telescope Near-Infared Spectrograph (NIRSpec) in the SMACS 0723 Early Release Observations. We add several quality-control and post- processing steps to the NIRSpec pipeline reduction products in order to ensure reliable relative flux calibration of emission lines that are closely separated in wavelength, despite the uncertain absolute spectrophotometry of the current version of the reductions. Compared to z \\raisebox{-0.5ex}\\textasciitilde 3 galaxies in the literature, the z > 5 galaxies have similar [O III]{\\ensuremath{\\lambda}}5008/H{\\ensuremath{\\beta}} ratios, similar [O III]{\\ensuremath{\\lambda}}4364/H{\\ensuremath{\\gamma}} ratios, and higher (\\raisebox{-0.5ex}\\textasciitilde0.5 dex) [Ne III]{\\ensuremath{\\lambda}}3870/[O II]{\\ensuremath{\\lambda}}3728 ratios. We compare the observations to MAPPINGS V photoionization models and find that the measured [Ne III]{\\ensuremath{\\lambda}}3870/[O II]{\\ensuremath{\\lambda}}3728, [O III]{\\ensuremath{\\lambda}}4364/H{\\ensuremath{\\gamma}}, and [O III]{\\ensuremath{\\lambda}}5008/H{\\ensuremath{\\beta}} emission- line ratios are consistent with an interstellar medium (ISM) that has very high ionization ( $\\mathrm{log}(Q)\\simeq 8-9$ , units of cm s$^{-1}$), low metallicity (Z/Z $\\_{{\\ensuremath{\\odot}}}$ {\\ensuremath{\\lesssim}} 0.2), and very high pressure ( $\\mathrm{log}(P/k)\\simeq 8-9$ , units of cm$^{-3}$). The combination of [O III]{\\ensuremath{\\lambda}}4364/H{\\ensuremath{\\gamma}} and [O III]{\\ensuremath{\\lambda}}(4960 + 5008)/H{\\ensuremath{\\beta}} line ratios indicate very high electron temperatures of $4.1 \\mathrm{log}({T}\\_{e}/{\\rm{K}}) 4.4$ , further implying metallicities of Z/Z $\\_{{\\ensuremath{\\odot}}}$ {\\ensuremath{\\lesssim}} 0.2 with the application of low-redshift calibrations for ``T $\\_{ e }$-based'' metallicities. These observations represent a tantalizing new view of the physical conditions of the ISM in galaxies at cosmic dawn.}",
@@ -7142,10 +7223,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.868678160919549,
+    "average_score": 7.875852272727281,
     "median_score": 8.1,
-    "critical_count": 110,
-    "high_value_count": 58,
+    "critical_count": 111,
+    "high_value_count": 59,
     "moderate_value_count": 4,
     "low_priority_count": 2
   }
