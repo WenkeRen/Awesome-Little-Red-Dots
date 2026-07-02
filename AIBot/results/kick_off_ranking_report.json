@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01T07:47:20.660308",
-  "total_papers": 176,
-  "successfully_scored": 176,
+  "generated_at": "2026-07-02T07:14:33.366542",
+  "total_papers": 179,
+  "successfully_scored": 179,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -2755,6 +2755,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJS..282....3S",
+      "title": "{CANUCS/Technicolor Data Release 1: Imaging, Photometry, Slit Spectroscopy, and Stellar Population Parameters}",
+      "abstract": "{We present the first data release of the Canadian NIRISS Unbiased Cluster Survey (CANUCS), a JWST Cycle 1 GTO program targeting five lensing clusters and flanking fields in parallel (A370, MACS0416, MACS0417, MACS1149, and MACS1423; survey area {\\ensuremath{\\sim}}100 arcmin$^{2}$), with NIRCam imaging, NIRISS slitless spectroscopy, and NIRSpec prism multiobject spectroscopy. Fields centered on cluster cores include imaging in eight bands from 0.9─4.4 {\\ensuremath{\\mu}}m, alongside continuous NIRISS coverage from 1.15─2 {\\ensuremath{\\mu}}m, while the NIRCam flanking fields provide five wide-band and nine medium-band filters for exceptional spectral sampling, all to {\\ensuremath{\\sim}}29 mag$\\_{AB}$. We also present JWST in Technicolor, a Cycle 2 follow-up GO program targeting three CANUCS clusters (A370, MACS0416, and MACS1149). The Technicolor program adds NIRISS slitless spectroscopy in F090W to the cluster fields while adding eight wide-, medium-, and narrowband filters to the flanking fields. This provides NIRCam imaging in all wide- and medium-band filters over {\\ensuremath{\\sim}}30 arcmin$^{2}$. This paper describes our data reduction and photometry methodology. We release NIRCam, NIRISS, and Hubble Space Telescope imaging, point-spread functions (PSFs), PSF- matched imaging, photometric catalogs, and photometric and spectroscopic redshifts. We provide lens models and stellar population parameters in up to 19 filters for {\\ensuremath{\\sim}}53,000 galaxies in the cluster fields, and {\\ensuremath{\\sim}}44,000 galaxies in up to 29 filters in the flanking fields. We further present 733 NIRSpec spectra and redshift measurements up to z = 10.8. Comparing against our photometric redshifts, we find catastrophic outlier rates of only 4\\%─7\\% and scatter of {\\ensuremath{\\sigma}}$\\_{NMAD}$ of 0.01─0.03. *The public release of the CANUCS dataset is dedicated to the memory of John Hutchings, whose decades of work enabled Canada's involvement in JWST and the creation of this dataset.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Sarrouh}, Ghassan T. E.'), Person('{Asada}, Yoshihisa'), Person('{Martis}, Nicholas S.'), Person('{Willott}, Chris J.'), Person('{Iyer}, Kartheik G.'), Person('{Noirot}, Ga{\\\\\"e}l'), Person('{Muzzin}, Adam'), Person('{Sawicki}, Marcin'), Person('{Brammer}, Gabriel'), Person('{Desprez}, Guillaume'), Person('{Rihtar{\\\\v{s}}i{\\\\v{c}}}, Gregor'), Person('{Zabl}, Johannes'), Person('{Abraham}, Roberto'), Person('{Brada{\\\\v{c}}}, Maru{\\\\v{s}}a'), Person(\"{Doyon}, Ren{\\\\'e}\"), Person('{Antwi-Danso}, Jacqueline'), Person('{Berek}, Samantha'), Person('{Brown}, Westley'), Person('{Estrada-Carpenter}, Vince'), Person('{Favaro}, Jeremy'), Person('{Felicioni}, Giordano'), Person('{Forrest}, Ben'), Person('{Gaspar}, Gaia'), Person('{Gould}, Katriona M. L.'), Person('{Gledhill}, Rachel'), Person('{Harshan}, Anishya'), Person('{Jahan}, Nusrath'), Person('{Jagga}, Naadiyah'), Person('{Jude{\\\\v{z}}}, Jon'), Person('{Marchesini}, Danilo'), Person('{Markov}, Vladan'), Person('{Matharu}, Jasleen'), Person('{MacFarland}, Shannon'), Person('{Merchant}, Maya'), Person(\"{M{\\\\'e}rida}, Rosa M.\"), Person('{Mowla}, Lamiya'), Person('{Myers}, Katherine'), Person('{Omori}, Kiyoaki C.'), Person('{Pacifici}, Camilla'), Person('{Ravindranath}, Swara'), Person('{Robbins}, Luke'), Person('{Strait}, Victoria'), Person('{Sok}, Visal'), Person('{Tan}, Vivian Yun Yan'), Person('{Tripodi}, Roberta'), Person('{Wilson}, Gillian'), Person('{Withers}, Sunna')]",
+      "relevance_score": 8.2,
+      "justification": "This data release provides a rich JWST dataset of lensing clusters with deep imaging and spectroscopy, enabling LRD searches and characterization. Its high citation count (lrdIndex=10) reflects its foundational role in LRD studies, offering critical photometric and spectroscopic redshifts, stellar population parameters, and lens models.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Comprehensive JWST dataset",
+        "Enables LRD identification and study",
+        "Provides lens models and stellar populations",
+        "High-quality photometric and spectroscopic redshifts"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper is a data release, not a study of LRDs, but it provides the deep JWST imaging and spectroscopy that directly enables LRD searches and characterization. Its frequent citation by LRD papers (lrdIndex=10) confirms its direct utility in LRD research."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10, indicating it is cited by 10 LRD papers, well above the threshold for high relevance. This demonstrates strong and sustained use within the LRD community."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "The paper delivers a foundational dataset—deep NIRCam, NIRISS, and NIRSpec observations of lensing clusters—that underpins many high-redshift galaxy studies, including LRD work. The public release of photometric catalogs, spectroscopic redshifts, lens models, and stellar population parameters provides essential building blocks for LRD identification and analysis."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "The paper describes a comprehensive data reduction and photometry methodology for multiple JWST instruments, including PSF-matched imaging and careful handling of lensing fields. While not a novel technique per se, the integration of NIRCam, NIRISS slitless spectroscopy, and NIRSpec prism data into a uniform catalog is methodologically valuable and sets a standard for high-redshift surveys."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "By providing stellar population parameters for tens of thousands of galaxies out to z~10.8, the dataset offers critical constraints on galaxy evolution. Although the paper does not specifically discuss black holes or AGN, the data enable evolutionary studies that can incorporate LRDs as part of the broader galaxy population."
+        }
+      },
+      "notebooklm_recommendation": "Essential data resource for LRD research"
     },
     {
       "bibtex_key": "2024ApJ...969L...2F",
@@ -6775,6 +6816,86 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2026MNRAS.549ag939S",
+      "title": "{JADES Data Release 4 ─ Paper II. Data reduction, analysis, and emission-line fluxes of the complete spectroscopic sample}",
+      "abstract": "{We present the fourth data release of the JWST Advanced Deep Extragalactic Survey (JADES), providing deep spectroscopic observations in the two GOODS fields. A companion paper presents the target selection, spectroscopic redshifts and success rates, and in this paper, we discuss the data reduction and present emission-line flux measurements. The spectroscopy in this work consists of medium-depth, deep, and ultradeep NIRSpec/MSA spectra of 5190 targets, covering the spectral range m and observed with both the low-dispersion prism () and all three medium-resolution gratings (). We describe the data reduction, analysis and description of the data products included in this data release. In total, we measured 3297 robust redshifts out of 5190 targets, spanning a redshift range from up to , including 974 at . This data release includes 1D and 2D fully reduced spectra with 3- and 5-pixel extractions, with slit-loss corrections and background subtraction optimized for point sources. Furthermore, we provide redshifts and SNR > 5 emission- line flux catalogues for the prism and grating spectra, as well as new guidelines to use these data products. Lastly, we are launching a new JADES online data base, designed to enable quick selection and browsing of this data release. Altogether, these data provide the largest statistical sample to date including both PRISM and medium grating spectra across full NIRSpec wavelength range to characterize the properties of galaxy populations across cosmic time.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Scholtz}, J.'), Person('{Carniani}, S.'), Person('{Parlanti}, E.'), Person(\"{D'Eugenio}, F.\"), Person('{Curtis-Lake}, E.'), Person('{Jakobsen}, P.'), Person('{Bunker}, A. J.'), Person('{Cameron}, A. J.'), Person('{Arribas}, S.'), Person('{Baker}, W. M.'), Person('{Charlot}, S.'), Person('{Chevellard}, J.'), Person('{Circosta}, C.'), Person('{Curti}, M.'), Person('{Duan}, Q.'), Person('{Eisenstein}, D. J.'), Person('{Hainline}, K.'), Person('{Ji}, Z.'), Person('{Johnson}, B. D.'), Person('{Jones}, G. C.'), Person('{Kumari}, N.'), Person('{Maiolino}, R.'), Person('{Maseda}, M. V.'), Person('{Perna}, M.'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, P. G.\"), Person('{Rawle}, T.'), Person('{Rieke}, M.'), Person('{Rinaldi}, P.'), Person('{Robertson}, B.'), Person('{Saxena}, A.'), Person('{Shivaei}, I.'), Person('{Silcock}, M. S.'), Person('{Sun}, Y.'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, B.\"), Person('{Tacchella}, S.'), Person('{{\\\\\"U}bler}, H.'), Person('{Venturi}, G.'), Person('{Williams}, C. C.'), Person('{Willmer}, C. N. A.'), Person('{Willott}, C.'), Person('{Witstok}, J.')]",
+      "relevance_score": 7.2,
+      "justification": "This JADES data release paper is a critical foundational resource for LRD research, providing the spectroscopic data that underpin many discoveries, as evidenced by its 11 LRD citations. While it lacks direct LRD discussion or evolutionary interpretation, its value as a comprehensive NIRSpec catalog is indispensable.",
+      "key_factors": [
+        "lrdIndex=11",
+        "Provides core JADES spectroscopic sample",
+        "Essential emission-line flux measurements for LRDs",
+        "Large statistical sample including high-z galaxies"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 3.0,
+          "reasoning": "The paper is a data release describing the JADES spectroscopic sample and does not directly study or mention Little Red Dots. Its connection is indirect, as the data it provides are used by LRD researchers."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=11 indicates a high citation count from LRD papers, reflecting its frequent use as a foundational data source in the community."
+        },
+        "foundational_value": {
+          "score": 9.0,
+          "reasoning": "This paper delivers the core NIRSpec spectroscopic dataset (redshifts, emission-line fluxes) for JADES, which is essential for identifying and characterizing LRDs. Without this data release, many LRD studies would lack the necessary observations."
+        },
+        "methodological_innovation": {
+          "score": 6.0,
+          "reasoning": "The paper describes standard data reduction and analysis procedures for JWST NIRSpec, with some novel aspects in the online database and guidelines, but overall methodological innovation is moderate."
+        },
+        "evolutionary_context": {
+          "score": 3.0,
+          "reasoning": "As a data release paper, it does not discuss galaxy or AGN evolution directly. It provides the raw measurements that can be used for evolutionary studies, but offers no interpretive context."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
+      "bibtex_key": "2022ApJ...940L..14N",
+      "title": "{Two Remarkably Luminous Galaxy Candidates at z {\\ensuremath{\\approx}} 10-12 Revealed by JWST}",
+      "abstract": "{The first few 100 Myr at z > 10 mark the last major uncharted epoch in the history of the universe, where only a single galaxy (GN-z11 at z {\\ensuremath{\\approx}} 11) is currently spectroscopically confirmed. Here we present a search for luminous z > 10 galaxies with JWST/NIRCam photometry spanning {\\ensuremath{\\approx}}1-5 {\\ensuremath{\\mu}}m and covering 49 arcmin$^{2}$ from the public JWST Early Release Science programs (CEERS and GLASS). Our most secure candidates are two M $\\_{UV}$ {\\ensuremath{\\approx}} -21 systems: GLASS-z12 and GLASS-z10. These galaxies display abrupt {\\ensuremath{\\gtrsim}}1.8 mag breaks in their spectral energy distributions (SEDs), consistent with complete absorption of flux bluewards of Ly{\\ensuremath{\\alpha}} that is redshifted to $z={12.4}\\_{-0.3}^{+0.1}$ and $z={10.4}\\_{-0.5}^{+0.4}$ . Lower redshift interlopers such as quiescent galaxies with strong Balmer breaks would be comfortably detected at >5{\\ensuremath{\\sigma}} in multiple bands where instead we find no flux. From SED modeling we infer that these galaxies have already built up \\raisebox{-0.5ex}\\textasciitilde{}10$^{9}$ solar masses in stars over the {\\ensuremath{\\lesssim}}300-400 Myr after the Big Bang. The brightness of these sources enable morphological constraints. Tantalizingly, GLASS-z10 shows a clearly extended exponential light profile, potentially consistent with a disk galaxy of r $\\_{50}$ {\\ensuremath{\\approx}} 0.7 kpc. These sources, if confirmed, join GN-z11 in defying number density forecasts for luminous galaxies based on Schechter UV luminosity functions, which require a survey area >10{\\texttimes} larger than we have studied here to find such luminous sources at such high redshifts. They extend evidence from lower redshifts for little or no evolution in the bright end of the UV luminosity function into the cosmic dawn epoch, with implications for just how early these galaxies began forming. This, in turn, suggests that future deep JWST observations may identify relatively bright galaxies to much earlier epochs than might have been anticipated.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Naidu}, Rohan P.'), Person('{Oesch}, Pascal A.'), Person('{van Dokkum}, Pieter'), Person('{Nelson}, Erica J.'), Person('{Suess}, Katherine A.'), Person('{Brammer}, Gabriel'), Person('{Whitaker}, Katherine E.'), Person('{Illingworth}, Garth'), Person('{Bouwens}, Rychard'), Person('{Tacchella}, Sandro'), Person('{Matthee}, Jorryt'), Person('{Allen}, Natalie'), Person('{Bezanson}, Rachel'), Person('{Conroy}, Charlie'), Person('{Labbe}, Ivo'), Person('{Leja}, Joel'), Person('{Leonova}, Ecaterina'), Person('{Magee}, Dan'), Person('{Price}, Sedona H.'), Person('{Setton}, David J.'), Person('{Strait}, Victoria'), Person('{Stefanon}, Mauro'), Person('{Toft}, Sune'), Person('{Weaver}, John R.'), Person('{Weibel}, Andrea')]",
+      "relevance_score": 7.1,
+      "justification": "This paper is a moderately valuable supporting work for LRD research, primarily for its early JWST demonstration of massive galaxy candidates at z>10 and the evolutionary context it provides. While not directly addressing LRDs, it establishes the existence of massive stellar systems in the first 400 Myr, which is essential for understanding the host galaxies of LRDs. Its citation frequency (lrdIndex=10) confirms its recognized utility in the community.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Early JWST discovery of luminous z>10 galaxies",
+        "Implications for rapid early massive galaxy assembly",
+        "Morphological constraint of an exponential disk at z~10"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 5.0,
+          "reasoning": "The paper does not directly study Little Red Dots (LRDs) or AGN, but it provides critical context by identifying luminous, massive galaxy candidates at z~10-12. These early massive systems are potential hosts for the AGN that power LRDs, and the morphological constraint of an exponential disk in GLASS-z10 informs LRD host galaxy studies. The connection is indirect but relevant to the broader population of high-z galaxies where LRDs are found."
+        },
+        "citation_frequency": {
+          "score": 8.0,
+          "reasoning": "With an lrdIndex of 10, this paper is moderately well-cited within the LRD community. This indicates it is recognized as a useful reference, likely for its early JWST results on high-z galaxy candidates and the implications for early massive galaxy buildup, which underpins LRD host galaxy contexts."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "As one of the first JWST studies to reveal luminous z>10 galaxy candidates, this paper is foundational for the entire field of high-redshift galaxy evolution. For LRD research, it establishes that massive stellar systems can form within the first 300-400 Myr, providing a critical baseline for understanding the environments in which LRDs (often hosting overmassive black holes) emerge. It challenges early galaxy formation models, a tension that LRDs exacerbate."
+        },
+        "methodological_innovation": {
+          "score": 6.0,
+          "reasoning": "The paper employs standard photometric redshift techniques and SED fitting with NIRCam data, which are now common. However, its early application to JWST ERS data demonstrated the power of these methods for identifying high-z candidates, setting a precedent for LRD searches that often rely on similar photometric selection and SED analysis. The innovation is more in the pioneering use of JWST rather than novel methodology."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "The paper provides strong evolutionary context by showing that bright UV-luminous galaxies exist at z>10, implying little evolution in the bright end of the UV luminosity function into the cosmic dawn. This directly informs LRD studies, as LRDs are often found at similar epochs and their host galaxies must be understood within this framework of rapid early assembly. The discussion of number density tensions and early formation timescales is highly relevant."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting literature for LRD context, particularly for early galaxy evolution and host galaxy properties."
+    },
+    {
       "bibtex_key": "2024ApJ...965...98C",
       "title": "{COSMOS-Web: Intrinsically Luminous z {\\ensuremath{\\gtrsim}} 10 Galaxy Candidates Test Early Stellar Mass Assembly}",
       "abstract": "{We report the discovery of 15 exceptionally luminous 10 {\\ensuremath{\\lesssim}} z {\\ensuremath{\\lesssim}} 14 candidate galaxies discovered in the first 0.28 deg$^{2}$ of JWST/NIRCam imaging from the COSMOS-Web survey. These sources span rest- frame UV magnitudes of {\\ensuremath{-}}20.5 > M $\\_{UV}$ > {\\ensuremath{-}}22, and thus constitute the most intrinsically luminous z {\\ensuremath{\\gtrsim}} 10 candidates identified by JWST to date. Selected via NIRCam imaging, deep ground-based observations corroborate their detection and help significantly constrain their photometric redshifts. We analyze their spectral energy distributions using multiple open-source codes and evaluate the probability of low-redshift solutions; we conclude that 12/15 (80\\%) are likely genuine z {\\ensuremath{\\gtrsim}} 10 sources and 3/15 (20\\%) likely low-redshift contaminants. Three of our z {\\ensuremath{\\sim}} 12 candidates push the limits of early stellar mass assembly: they have estimated stellar masses {\\ensuremath{\\sim}} 5 {\\texttimes} {}10$^{9}$ M $\\_{☉}$, implying an effective stellar baryon fraction of ϵ $\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\sim}} 0.2{\\ensuremath{-}}0.5, where ϵ $\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\equiv}} M $\\_{{\\ensuremath{\\star}}}$/(f $\\_{ b }$ M $\\_{halo}$). The assembly of such stellar reservoirs is made possible due to rapid, burst-driven star formation on timescales < 100 Myr where the star formation rate may far outpace the growth of the underlying dark matter halos. This is supported by the similar volume densities inferred for M $\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\sim}} {}10$^{10}$ M $\\_{☉}$ galaxies relative to M $\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\sim}} {}10$^{9}$ M $\\_{☉}${\\textemdash}both about 10$^{{\\ensuremath{-}}6}$ Mpc$^{{\\ensuremath{-}}3}${\\textemdash}implying they live in halos of comparable mass. At such high redshifts, the duty cycle for starbursts would be of order unity, which could cause the observed change in the shape of the UV luminosity function from a double power law to a Schechter function at z {\\ensuremath{\\approx}} 8. Spectroscopic redshift confirmation and ensuing constraints of their masses will be critical to understand how, and if, such early massive galaxies push the limits of galaxy formation in the Lambda cold dark matter paradigm.}",
@@ -7223,10 +7344,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.875852272727281,
+    "average_score": 7.869553072625706,
     "median_score": 8.1,
-    "critical_count": 111,
-    "high_value_count": 59,
+    "critical_count": 112,
+    "high_value_count": 61,
     "moderate_value_count": 4,
     "low_priority_count": 2
   }

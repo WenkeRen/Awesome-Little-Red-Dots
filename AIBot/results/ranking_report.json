@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01T07:45:48.024702",
-  "total_papers": 411,
-  "successfully_scored": 411,
+  "generated_at": "2026-07-02T07:11:40.094973",
+  "total_papers": 414,
+  "successfully_scored": 414,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -240,6 +240,46 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "The analysis is thorough, with careful SED fitting, absorption trough measurement, and size estimation from both JWST and HST data. The interpretation is well-supported by the data, and the paper acknowledges complexities (e.g., complex dynamics). The use of multiple instruments and robust statistical methods ensures reliability."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260631515N",
+      "title": "{The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine}",
+      "abstract": "{Little Red Dots (LRDs) are a population of high-z sources discovered by JWST whose compactness, broad permitted lines, strong absorption features, continuum shapes and luminosities point to accreting supermassive black holes (SMBHs) embedded in dense gas. To date, the metallicity of the hosts of these systems has not been systematically measured. We determine the gas-phase metallicities of LRD host galaxies and test whether their narrow-line emission is consistent with metal poor star formation or AGN activity. We assemble a sample of 24 LRDs at z \\raisebox{-0.5ex}\\textasciitilde 2.3-7 with medium and high- resolution JWST/NIRSpec data. We derive oxygen abundances and electron temperatures using the direct Te method applied exclusively to the narrow components of emission lines, and cross-check against widely used strong line calibrations. We derive a sample-averaged abundance of $Z\\_{T\\_\\mathrm{e}} = 0.08\\_{-0.03}^{+0.11}\\,\\mathrm{Z\\_{\\odot}}$ ($T\\_\\mathrm{e} = 23000\\_{-7000}^{+17000}$\\textbackslash,K), placing LRDs firmly in the metal-poor regime of high redshift star forming galaxies. The R-hat calibration yields a consistent average of $Z\\_{\\hat{\\mathrm{R}}} = 0.07\\_{-0.04}^{+0.07}\\,\\mathrm{Z\\_{\\odot}}$, with only 4\\% scatter relative to the direct Te method, providing a robust proxy for systems where the [O III]4363{\\r{A}} line is not detected. We also identify two extremely metal-poor LRDs with metallicities <1.3\\%. The general population of LRDs are among the lower metallicity galaxies found by JWST at this epoch; they exhibit a narrow range of metallicities with a range of about 0.6 dex, which remains remarkably stable over cosmic time. Such low metallicity may then be a defining property of the class. The fact that LRDs have substantial metallicity across most of the class poses a challenge to models that require formation via pristine gas collapse, while their generally low metallicity indicates that they are not standard AGN.}",
+      "existing_tags": "emission lines, host galaxy, jwst, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Nikopoulos}, G. P.'), Person('{Watson}, D.'), Person('{Pollock}, C. L.'), Person('{Sneppen}, A.'), Person('{Heintz}, K. E.'), Person('{Witstok}, J.'), Person('{Brammer}, G.')]",
+      "relevance_score": 9.4,
+      "justification": "This paper presents the first systematic metallicity measurements of LRD host galaxies using JWST/NIRSpec spectroscopy, finding them to be metal-poor but not pristine. The results challenge pristine gas collapse models and indicate LRDs are not standard AGN, making it a cornerstone study for LRD research.",
+      "key_factors": [
+        "First systematic LRD metallicity study",
+        "JWST NIRSpec direct Te method",
+        "Large sample of 24 LRDs",
+        "Challenges formation models",
+        "Establishes metallicity as defining property"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots (LRDs), aiming to systematically measure their host galaxy metallicities for the first time. It directly addresses the nature of LRDs and their defining properties."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Utilizes state-of-the-art JWST/NIRSpec medium and high-resolution spectroscopy, applies the direct Te method to narrow emission-line components, and cross-validates with strong-line calibrations. This represents the most robust approach for high-redshift metallicity measurements."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives key physical properties (oxygen abundances, electron temperatures) and places LRDs in the context of high-redshift galaxies. The finding of low but non-zero metallicity directly constrains formation scenarios and the AGN/starburst nature of LRDs."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "The result that LRDs are metal-poor but not pristine challenges models requiring pristine gas collapse and indicates they are not standard AGN. This has profound implications for understanding LRD formation and evolution, and establishes metallicity as a potential defining class property."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "Assembles a substantial sample of 24 LRDs, carefully isolates narrow-line components for direct Te measurements, and validates the R-hat calibration as a robust proxy. The analysis is thorough and addresses potential systematics."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -3695,6 +3735,45 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Demonstrates careful uncertainty quantification (e.g., σ_n = 22^{+5}_{-6} km/s), robust multi-component modeling, comparison of independent diagnostics, and utilization of high SNR data. Analysis appears thorough, though abstract provides limited discussion of potential systematic errors or alternative modeling approaches."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260630757M",
+      "title": "{Unveil the nature of JWST-AGN and Little Red Dots with SKAO continuum surveys}",
+      "abstract": "{The advent of JWST has revealed a large population of AGN at $z>4$, which are $\\sim1$ dex more abundant than previously expected, including also the enigmatic population of Little Red Dots (LRDs). Remarkably, the vast majority of JWST-discovered AGN and LRDs are not detected in X-rays, and most of them also show faint rest-frame UV continua and faint high-ionization emission lines, as well as unusually faint emission in the Mid and Far infrared. Recent studies investigating their radio properties have reported no significant detections, even in deep stacking analyses, reaching sensitivities of 0.5-0.1 $μ$Jy at $z\\sim 5-6$, corresponding to $L\\_{R}\\lesssim 10^{39}\\rm \\ erg\\ s^{-1}$. While these non-detections may be consistent with a standard radio-quiet nature, some results suggest that the radio emission might instead be significantly suppressed by other physical phenomena. Three main scenarios have been proposed in the literature to explain the physical properties of these objects across the electromagnetic spectrum: Compton-thick absorption by a broad-line region with high covering-factor, intrinsically weak emission driven by high accretion rates, or the presence of a cocoon of dense ionized gas that produces strong scattering effects. The unprecedented sensitivity of SKAO will enable the detection of the radio emission of these AGN in all three cases. Because each scenario is expected to produce distinct radio signatures, future SKAO continuum surveys will be able to distinguish between them, uncovering the physical processes responsible for their peculiar properties. Observations spanning a wide range of integration times (1-1000 hours) and frequencies with SKA-Mid and SKA-Low (0.2-11 GHz) will allow us to characterize these objects from the local Universe to high redshift, investigate possible radio variability, and test alternative scenarios to black hole accretion.}",
+      "existing_tags": "early universe, multi-wavelength, radio, theory, variability",
+      "year": "2026",
+      "authors": "[Person('{Mazzolari}, Giovanni'), Person('{Lal}, Dharam V.'), Person('{Prandoni}, Isabella'), Person('{Gilli}, Roberto'), Person('{Maiolino}, Roberto'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Delvecchio}, Ivan'), Person('{Brusa}, Marcella'), Person('{Mignoli}, Marco')]",
+      "relevance_score": 8.8,
+      "justification": "This paper is highly relevant to LRD research, directly addressing the enigmatic population by proposing SKAO radio surveys to distinguish between leading physical scenarios. It leverages future observational capabilities to resolve key open questions about LRDs, making it a strong candidate for high-priority inclusion.",
+      "key_factors": [
+        "Direct focus on Little Red Dots",
+        "Proposes SKAO radio surveys to test physical scenarios",
+        "Addresses current non-detections and stacking limits",
+        "Distinguishes between Compton-thick, high accretion rate, and cocoon models"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper explicitly targets Little Red Dots (LRDs) as a central population, aiming to unveil their nature using SKAO surveys. The title and abstract place LRDs at the forefront of the investigation."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The paper focuses on future radio continuum surveys with SKAO (SKA-Mid and SKA-Low) across a wide frequency range and integration times, directly addressing current non-detections and stacking limits. It is strongly observational in approach, though it presents a proposal rather than new data."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper thoroughly discusses three leading physical scenarios for LRDs (Compton-thick absorption, high accretion rates, and cocoon scattering) and explains how distinct radio signatures will distinguish them, directly probing the physical properties of these objects."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Resolving the nature of LRDs is a major open question in high-redshift galaxy evolution. The proposed SKAO observations have the potential to provide definitive answers, offering high scientific impact if realized."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The abstract outlines a clear strategy using varied integration times and frequencies to test scenarios, but lacks detailed methodology. As a future prospect paper, the rigor is reasonable but not yet demonstrated with data."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -14383,6 +14462,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260630711N",
+      "title": "{Little Red Dots as Intermediate Mass, Super-Eddington Engines: Insights from Type IIn Supernovae and The 1837-1856 Great Eruption of $η$ Carinae}",
+      "abstract": "{JWST's Little Red Dots (LRDs) display a unique constellation of features that do not occur simultaneously in any other class of galaxies or AGN. Here we observe that many of these features find parallels in the 19th century Great Eruption (GE) of $η$ Carinae and a sub-class of supernovae (Type IIn). Drawing on these stellar phenomena -- outflows trapped by dense circumstellar gas envelopes -- we sketch a possible scenario for LRDs. Outflows from the central engine produce an enshrouding envelope of gas that may be thought of as a slow wind. This dense wind and its enormous extent produce an opacity so high that a pseudo- photosphere forms within the wind, obscuring the central engine and manifesting as a blackbody-like continuum. Radiation from the buried engine powers the system. The engine may also launch fast winds that crash into the existing envelope to generate shocks. Lines form within the wind above the photosphere -- electron scattering and absorption in the clumpy (ionized + neutral) medium account for broad wings and P-Cygni cores. A key implication is that inferences of ``overmassive black holes'' may be interpreting this wind-like physics as a virial broad- line region. We propose an escape velocity argument to constrain the mass of the engine, which yields $M<10^{5} M\\_\\odot$ for the typical LRD. The lack of variability and low surface gravity of the photosphere provide further support for intermediate mass ($M\\approx10^{3-6} M\\_\\odot$), but very luminous super-Eddington ($L\\_{\\rm{bol}}/L\\_{\\rm{edd}}rsim5$) systems harboring a supermassive star or intermediate mass black hole. Paralleling the evolution of IIn SNe, dust production in the envelope may mark the beginnings of classical AGN. This paper explores a possible self-consistent explanation for the entire life-cycle of LRDs, from their enshrouding in dense gas to their fates as seeds of massive black holes.}",
+      "existing_tags": "black hole mass, exotic physics, heavy seed, super-eddington, theory",
+      "year": "2026",
+      "authors": "[Person('{Naidu}, Rohan P.'), Person('{Matthee}, Jorryt'), Person('{de Graaff}, Anna'), Person('{Torralba}, Alberto'), Person('{Ashall}, Chris'), Person('{Katz}, Harley'), Person('{Chisholm}, John'), Person('{Brammer}, Gabriel'), Person('{Dessart}, Luc'), Person('{Eilers}, Anna-Christina'), Person('{Hviding}, Raphael E.'), Person('{Jones}, David O.'), Person('{Kokorev}, Vasily'), Person('{Leja}, Joel'), Person('{Liu}, Hanpu'), Person('{Liu}, Zhaoran'), Person('{Nandal}, Devesh'), Person('{Oesch}, Pascal A.'), Person('{Ransome}, Conor L.'), Person('{Simcoe}, Robert A.'), Person('{Sun}, Wendy Q.'), Person('{Weibel}, Andrea'), Person('{Xiao}, Mengyuan')]",
+      "relevance_score": 7.6,
+      "justification": "This theoretical paper is highly relevant to LRD research, proposing a bold new scenario that directly addresses their puzzling properties. It scores strongly on core focus and physical insight, but is limited by the absence of new observational data and a qualitative methodology. The idea could be influential if it gains observational support.",
+      "key_factors": [
+        "Novel theoretical scenario for LRDs",
+        "Analogy with η Carinae and Type IIn SNe",
+        "Challenges overmassive black hole interpretation",
+        "Super-Eddington intermediate-mass engines",
+        "Qualitative but physically motivated"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots, aiming to explain their unique multi-wavelength features and proposing a unified scenario for their nature and evolution. The title and abstract explicitly target LRDs."
+        },
+        "observational_techniques": {
+          "score": 3.0,
+          "reasoning": "The paper does not present new JWST or other observational data. It draws qualitative parallels between known LRD features and stellar phenomena (η Carinae, Type IIn SNe) but does not perform quantitative fitting or statistical analysis of observational samples."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The abstract discusses a wide range of physical properties: dense gas envelopes, pseudo-photospheres, super-Eddington accretion, outflow and shock physics, line formation (P-Cygni profiles, electron scattering), black hole mass constraints, variability, and dust production. It offers a self-consistent physical picture."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The proposed scenario challenges the prevailing 'overmassive black hole' interpretation and offers an alternative explanation for LRD spectra. If validated, it could significantly shift the understanding of high-redshift AGN and seed black hole formation. The idea is novel and likely to stimulate debate and follow-up studies."
+        },
+        "methodological_rigor": {
+          "score": 6.0,
+          "reasoning": "The approach is primarily qualitative, drawing analogies from well-studied stellar eruptions. While physically motivated, it lacks detailed radiative transfer or hydrodynamic simulations to test the scenario. The escape velocity argument provides a quantitative constraint, but overall the paper remains at a conceptual level."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025NewSc.268....6W",
       "title": "{Black hole stars really do exist}",
       "abstract": "{Mysterious 'little red dots' seen by the James Webb Space Telescope can be explained by a new kind of black hole enshrouded in an enormous ball of glowing gas, finds Alex Wilkins}",
@@ -16578,9 +16697,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.291727493917259,
+    "average_score": 8.29396135265699,
     "median_score": 8.5,
-    "high_relevance_count": 390,
+    "high_relevance_count": 393,
     "moderate_relevance_count": 17,
     "low_relevance_count": 4
   }
