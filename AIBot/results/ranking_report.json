@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T07:11:40.094973",
-  "total_papers": 414,
-  "successfully_scored": 414,
+  "generated_at": "2026-07-03T07:05:55.844370",
+  "total_papers": 415,
+  "successfully_scored": 415,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -1087,6 +1087,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs careful kinematic decomposition, comparison with Balmer lines, and resonant scattering arguments to rule out alternative broadening, demonstrating robust analysis."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260700084K",
+      "title": "{Little Red Dots at z\\raisebox{-0.5ex}\\textasciitilde2 in EIGER reveal a gentle decline with respect to their peak number density at z\\raisebox{-0.5ex}\\textasciitilde5}",
+      "abstract": "{We report the discovery of a sample of little red dots (LRDs) at $z \\approx 2$ identified from deep JWST/NIRCam imaging and wide- field slitless spectroscopy over $140$ arcmin$^2$ from the EIGER survey. With an improved blind broad-line identification algorithm, we select 19 sources at spectroscopic redshifts $z = 1.55-3.18$ identified via rest-frame near-infrared lines (Paschen-$β$, HeI+Pa$γ$ and OI). Based on a range of spectro- photometric criteria, we classify five of these sources as LRDs and the other 14 as classical active galactic nuclei (AGNs). This classification is corroborated by some X-ray detections among the AGNs. Classical AGNs dominate the number counts above optical luminosities M$\\_{5100}<-22.5$, whereas the LRD fraction among broad-line sources reaches 100 \\% at M$\\_{5100}\\approx-20$. The LRDs span the range in Balmer break strengths seen in the higher redshift populations. Blue-shifted HeI absorption is detected in the two reddest sources. The HeI/Pa$γ$ ratio cleanly separates LRDs from classical AGNs and seems to anti-correlate with Balmer break strength, likely tracing HeI self-absorption at higher gas column densities. Our LRD sample has a similar optical luminosity range as their high-redshift counterparts, corresponding to black hole masses of $\\sim10^{6}$ M$\\_{\\odot}$ at the Eddington luminosity. We measure LRD number densities of $\\approx 7\\times10^{-6}$ cMpc$^{-3}$ at $z = 1.9-2.5$, which indicates that LRDs represent $\\lesssim 3$ \\% of the AGN population at these epochs. Our results confirm the previously reported decline in the LRD number density with respect to $z \\approx 5$ based on photometric surveys, although we find the decline to be more gentle than earlier emphasized.}",
+      "existing_tags": "abundance, black hole mass, emission lines, jwst, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Kapoor}, Shrriya'), Person('{Matthee}, Jorryt'), Person('{Torralba}, Alberto'), Person('{Kramarenko}, Ivan G.'), Person('{Bordoloi}, Rongmon'), Person('{Greene}, Jenny E.'), Person('{Iani}, Edoardo'), Person('{Kashino}, Daichi'), Person('{Liu}, Zhaoran'), Person('{Mackenzie}, Ruari'), Person('{Mascia}, Sara'), Person('{Naidu}, Rohan P.'), Person('{Simcoe}, Rob')]",
+      "relevance_score": 9.0,
+      "justification": "This paper presents a groundbreaking discovery of LRDs at z~2 using deep JWST spectroscopy, directly measuring their number density decline and physical properties. It provides critical new insights into LRD evolution and the AGN connection, making it a cornerstone study for the field.",
+      "key_factors": [
+        "First LRD sample at z~2",
+        "JWST/NIRCam imaging and slitless spectroscopy",
+        "Improved blind broad-line identification",
+        "HeI/Paγ diagnostic separating LRDs and AGNs",
+        "Number density evolution measurement",
+        "Black hole mass estimates"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on Little Red Dots, reporting a new sample at z~2, classifying them, measuring their number density evolution, and comparing to higher-redshift populations. It directly addresses the nature and cosmic evolution of LRDs."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Utilizes deep JWST/NIRCam imaging and wide-field slitless spectroscopy from the EIGER survey, with an improved blind broad-line identification algorithm. These are state-of-the-art techniques essential for LRD detection and characterization."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives black hole masses (~10^6 M☉), Balmer break strengths, HeI absorption, and uses HeI/Paγ ratio to separate LRDs from classical AGNs, tracing gas column densities. Provides number densities and constrains the LRD fraction among AGNs, probing key physical properties."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "First LRD sample at z~2, confirming a decline in number density from z~5 but finding it gentler than previously thought. Offers new diagnostics (HeI/Paγ) and clarifies the LRD–AGN connection, significantly advancing our understanding of LRD evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Employs robust spectro-photometric criteria for LRD/AGN classification, corroborated by X-ray detections. The improved line identification algorithm and careful analysis of line ratios demonstrate a high level of methodological rigor."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16697,9 +16738,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.29396135265699,
+    "average_score": 8.295662650602395,
     "median_score": 8.5,
-    "high_relevance_count": 393,
+    "high_relevance_count": 394,
     "moderate_relevance_count": 17,
     "low_relevance_count": 4
   }
