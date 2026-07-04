@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-07-03T07:05:59.160190
+Generated: 2026-07-04T07:01:13.125187
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -148,10 +148,10 @@ LRD PAPERS (Top 200 by relevance score)
 135. 2410.00100  (score: 8.6, key: 2025ApJ...979..138H)
 136. 2412.04983  (score: 8.6, key: 2025NatCo..16.9830T)
 137. 2606.06575  (score: 8.6, key: 2026arXiv260606575G)
-138. 2407.05094  (score: 8.6, key: 2024ApJ...975L...4C)
-139. 2602.22386  (score: 8.6, key: 2026arXiv260222386M)
-140. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
-141. 2507.22014  (score: 8.6, key: 2025arXiv250722014Z)
+138. 2507.22014  (score: 8.6, key: 2026ApJ..1002....7Z)
+139. 2407.05094  (score: 8.6, key: 2024ApJ...975L...4C)
+140. 2602.22386  (score: 8.6, key: 2026arXiv260222386M)
+141. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
 142. 2603.15736  (score: 8.6, key: 2026arXiv260315736W)
 143. 2605.31077  (score: 8.6, key: 2026arXiv260531077C)
 144. 2407.15915  (score: 8.6, key: 2024ApJ...976...96P)
@@ -408,10 +408,10 @@ ARXIV IDs ONLY (for automated processing)
 2410.00100
 2412.04983
 2606.06575
+2507.22014
 2407.05094
 2602.22386
 2408.12854
-2507.22014
 2603.15736
 2605.31077
 2407.15915
@@ -628,8 +628,8 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
 
-[8.6] 2026ApJ..1002....7Z
-    Little Red Dots as Self-gravitating Disks Accreting on Supermassive Stars: Spectral Appearance and Formation Pathway of the Progenitors to Direct Collapse Black Holes
+[8.6] 2025arXiv250722014Z
+    Little Red Dots as self-gravitating discs accreting on supermassive stars: Spectral appearance and formation pathway of the progenitors to direct collapse black holes
 
 [8.6] 2025arXiv251002801C
     A $z\simeq0.4$ Little Red Dot analog: An Extended Starburst with an Overmassive Black hole

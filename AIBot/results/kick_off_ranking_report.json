@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T07:05:57.813447",
-  "total_papers": 179,
-  "successfully_scored": 179,
+  "generated_at": "2026-07-04T07:01:11.962342",
+  "total_papers": 180,
+  "successfully_scored": 180,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -5054,6 +5054,47 @@
       "notebooklm_recommendation": "Important contextual foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2023MNRAS.523.3516C",
+      "title": "{Nitrogen enhancements 440 Myr after the big bang: supersolar N/O, a tidal disruption event, or a dense stellar cluster in GN-z11?}",
+      "abstract": "{Recent observations of GN-z11 with JWST/NIRSpec revealed numerous oxygen, carbon, nitrogen, and helium emission lines at z = 10.6. Using the measured line fluxes, we derive abundance ratios of individual elements within the interstellar medium (ISM) of this superluminous galaxy. Driven by the unusually-bright N III] {\\ensuremath{\\lambda}}1750 and N IV] {\\ensuremath{\\lambda}}1486 emission lines (and by comparison, faint O III] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}1660, 1666 lines), our fiducial model prefers log (N/O) > -0.25, greater than four times solar and in stark contrast to lower-redshift star-forming galaxies. The derived log (C/O) > -0.78, ({\\ensuremath{\\approx}}30 per cent solar) is also elevated with respect to galaxies of similar metallicity (12 + log (O/H) {\\ensuremath{\\approx}} 7.82), although less at odds with lower- redshift measurements. We explore the feasibility of achieving these abundance ratios via several enrichment mechanisms using metal yields available in the literature. Given the long time- scale typically expected to enrich nitrogen with stellar winds, traditional scenarios require a very fine-tuned formation history to reproduce such an elevated N/O. We find no compelling evidence that nitrogen enhancement in GN-z11 can be explained by enrichment from metal-free Population III stars. Interestingly, yields from runaway stellar collisions in a dense stellar cluster or a tidal disruption event provide promising solutions to give rise to these unusual emission lines at z = 10.6, and explain the resemblance between GN-z11 and a nitrogen-loud quasar. These recent observations showcase the new frontier opened by JWST to constrain galactic enrichment and stellar evolution within 440 Myr of the big bang.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Cameron}, Alex J.'), Person('{Katz}, Harley'), Person('{Rey}, Martin P.'), Person('{Saxena}, Aayush')]",
+      "relevance_score": 7.8,
+      "justification": "This paper is a moderately cited, foundational work that directly addresses the nitrogen enhancement puzzle central to LRD spectra. It offers critical evolutionary context and innovative enrichment scenarios, making it highly relevant despite not naming LRDs explicitly.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Supersolar N/O ratio explanation",
+        "TDE and dense stellar cluster scenarios",
+        "JWST NIRSpec abundance analysis at z=10.6",
+        "Connection to nitrogen-loud quasars"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper does not explicitly study Little Red Dots, but its focus on supersolar N/O ratios and resemblance to nitrogen-loud quasars directly addresses a key spectral feature of many LRDs. The connection is strong via chemical abundance anomalies, though not by name."
+        },
+        "citation_frequency": {
+          "score": 8.0,
+          "reasoning": "lrdIndex=10 indicates a solid citation count from LRD papers, showing the community recognizes its relevance. While not among the most-cited, it is clearly valued for its insights into nitrogen enhancement."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "The paper provides a foundational exploration of mechanisms (TDE, dense stellar clusters, Pop III stars) that can produce extreme N/O ratios, a critical puzzle for LRD research. It establishes key interpretive frameworks for abundance anomalies in early galaxies."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "The use of JWST/NIRSpec line fluxes for abundance derivation is standard, but the novel application to a z=10.6 galaxy and the creative consideration of runaway stellar collisions and TDEs as enrichment sources represent a moderate methodological contribution."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The paper strongly contextualizes GN-z11 within early galaxy evolution, discussing enrichment timescales, stellar population scenarios, and implications for chemical evolution within 440 Myr of the Big Bang, directly informing LRD evolutionary pathways."
+        }
+      },
+      "notebooklm_recommendation": "Highly recommended for NotebookLM to cover nitrogen enrichment mechanisms in early galaxies and their relevance to LRD chemical signatures."
+    },
+    {
       "bibtex_key": "2025MNRAS.541L..71I",
       "title": "{JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei}",
       "abstract": "{The unexpectedly high nitrogen-to-oxygen (N/O) ratios observed in high- redshift (z) galaxies have challenged our understanding of early star formation. Notably, many of these nitrogen-rich galaxies show signatures of active galactic nuclei (AGNs), suggesting a possible connection between black hole formation and nitrogen enrichment. To explore this connection, we analyse stacked spectra of broad-line and narrow-line AGNs using deep Near Infrared Spectrograph data from the JWST Advanced Deep Extragalactic Survey. We identify a significant N III] quintuplet and a high electron density ( cm) only in the broad- line AGN stack, indicating nitrogen-rich (, ) and dense gas similar to the high-z nitrogen-rich galaxies. Our findings suggest that dense nuclear star formation may trap nitrogen-rich gas in proto-globular clusters, in line with the high N/O observed in local globular clusters; associated runaway stellar collisions could produce intermediate-mass black hole seeds, as predicted by some models and simulations, whose accretion results into AGN signatures. These findings support scenarios connecting the early black hole seeding and growth to merging processes within and between proto-globular clusters in primeval galaxies.}",
@@ -7344,10 +7385,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.869553072625706,
+    "average_score": 7.869166666666675,
     "median_score": 8.1,
     "critical_count": 112,
-    "high_value_count": 61,
+    "high_value_count": 62,
     "moderate_value_count": 4,
     "low_priority_count": 2
   }
