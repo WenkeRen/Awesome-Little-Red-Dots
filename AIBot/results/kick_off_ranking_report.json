@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T07:01:11.962342",
-  "total_papers": 180,
-  "successfully_scored": 180,
+  "generated_at": "2026-07-08T06:59:41.616264",
+  "total_papers": 182,
+  "successfully_scored": 182,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -5420,6 +5420,47 @@
       "notebooklm_recommendation": "Critical data foundation for LRD research"
     },
     {
+      "bibtex_key": "2026MNRAS.549ag836C",
+      "title": "{JADES data release 4 ─ Paper I. Sample selection, observing strategy and redshifts of the complete spectroscopic sample}",
+      "abstract": "{This paper accompanies Data Release 4 of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey, which presents the full NIRSpec spectroscopy of the survey. We provide spectra of 5190 targets across Great Observatories Origins Deep Survey (GOODS)-North and GOODS-South (including the Hubble Ultra Deep Field), observed with the low-dispersion (─300) prism and three medium-resolution () gratings spanning m; 2654 were also observed with the higher resolution () G395H grating. The tiered survey design obtained h exposures for galaxies in the Deep and Ultra Deep tiers, and shallower observations (─3 h per setting) of galaxies in the Medium tiers. Targets were selected from photometric redshifts or colours, with priority given to rest-UV-selected galaxies at and F444W-selected galaxies at . We describe the full target selection and present spectroscopic redshifts and success rates. In total, we obtain robust redshifts for 3297 galaxies, including 396 at and 2545 at . To facilitate uniform analyses, we define 'gold' subsamples based on UV- and F444W-selection. Using the parent samples and redshift success rates, we construct rest-UV luminosity functions at from the Medium- and Deep-JWST tiers. Our number densities agree well with previous determinations from both photometric and spectroscopic samples, with modest interloper fractions confirming the reliability of photometric UV-bright galaxy selections at these redshifts.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Curtis-Lake}, Emma'), Person('{Cameron}, Alex J.'), Person('{Bunker}, Andrew J.'), Person('{Scholtz}, Jan'), Person('{Carniani}, Stefano'), Person('{Parlanti}, Eleonora'), Person(\"{D'Eugenio}, Francesco\"), Person('{Jakobsen}, Peter'), Person('{Willmer}, Christopher N. A.'), Person('{Arribas}, Santiago'), Person('{Baker}, William M.'), Person(\"{Charlot}, St{\\\\'e}phane\"), Person('{Chevallard}, Jacopo'), Person('{Circosta}, Chiara'), Person('{Curti}, Mirko'), Person('{Duan}, Qiao'), Person('{Eisenstein}, Daniel J.'), Person('{Hainline}, Kevin'), Person('{Ji}, Zhiyuan'), Person('{Johnson}, Benjamin D.'), Person('{Jones}, Gareth C.'), Person('{Maiolino}, Roberto'), Person('{Maseda}, Michael V.'), Person('{Perna}, Michele'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Rawle}, Tim'), Person('{Rieke}, Marcia'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{Saxena}, Aayush'), Person('{Shivaei}, Irene'), Person('{Smit}, Renske'), Person('{Tacchella}, Sandro'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Venturi}, Giacomo'), Person('{Williams}, Christina C.'), Person('{Willott}, Chris')]",
+      "relevance_score": 7.7,
+      "justification": "This paper is the primary JADES spectroscopic data release, providing redshifts and spectra for thousands of high-z galaxies. While it does not directly study LRDs, it is a critical resource for LRD identification and characterization, as evidenced by its high citation count (lrdIndex=10). Its foundational value for JWST extragalactic science is immense, though it lacks methodological novelty and direct AGN/black hole evolutionary context.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Foundational JWST NIRSpec data release",
+        "Enables LRD sample selection",
+        "Provides high-z galaxy redshifts",
+        "Constructs rest-UV luminosity functions"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper does not explicitly study Little Red Dots, but it provides the essential JWST NIRSpec spectroscopic data (redshifts, spectra) that LRD researchers rely on to identify and characterize these objects. It is a direct enabler of LRD science, though not focused on LRDs themselves."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates this paper is cited by 10 LRD-focused studies, a high count that reflects its central role as a data source for the community. This frequent citation underscores its importance."
+        },
+        "foundational_value": {
+          "score": 9.0,
+          "reasoning": "As the complete JADES spectroscopic sample release, this paper is a cornerstone for all JWST high-redshift galaxy research. It provides the redshift catalog, target selection, and survey design that underpin countless studies, including LRD investigations. Its value as a reference dataset is extremely high."
+        },
+        "methodological_innovation": {
+          "score": 5.0,
+          "reasoning": "The paper describes a standard data release with tiered survey design and redshift determination. While the scale and use of JWST NIRSpec are novel, the methodology itself is not particularly innovative; it is a resource paper rather than a new technique."
+        },
+        "evolutionary_context": {
+          "score": 6.0,
+          "reasoning": "The paper constructs rest-UV luminosity functions at z>10, providing galaxy evolution context. However, it does not address black hole–galaxy coevolution or AGN demographics, which are central to LRD research. Its evolutionary relevance is indirect, through the high-z galaxy population that may host LRDs."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2023ApJ...958..141L",
       "title": "{Spectral Templates Optimal for Selecting Galaxies at z > 8 with the JWST}",
       "abstract": "{The selection of high-redshift galaxies often involves spectral energy distribution (SED) fitting to photometric data, an expectation for contamination levels, and measurement of sample completeness-all vetted through comparison to spectroscopic redshift measurements of a sub-sample. The first JWST data are now being taken over several extragalactic fields to different depths and across various areas, which will be ideal for the discovery and classification of galaxies out to distances previously uncharted. As spectroscopic redshift measurements for sources in this epoch will not be initially available to compare with the first photometric measurements of z > 8 galaxies, robust photometric redshifts are of the utmost importance. Galaxies at z > 8 are expected to have bluer rest-frame ultraviolet (UV) colors than typically used model SED templates, which could lead to catastrophic photometric redshift failures. We use a combination of BPASS and CLOUDY models to create a supporting set of templates that match the predicted rest-UV colors of z > 8 simulated galaxies. We test these new templates by fitting simulated galaxies in a mock catalog, Yung et al., which mimic expected field depths and areas of the JWST Cosmic Evolution Early Release Science Survey (m $\\_{5{\\ensuremath{\\sigma}} }$ \\raisebox{-0.5ex}\\textasciitilde 28.6 over \\raisebox{-0.5ex}\\textasciitilde100 arcmin$^{2}$). We use EAZY to highlight the improvements in redshift recovery with the inclusion of our new template set and suggest criteria for selecting galaxies at 8 < z < 10 with the JWST, providing an important test case for observers venturing into this new era of astronomy.}",
@@ -7262,6 +7303,46 @@
       "notebooklm_recommendation": "Supplementary resource for emission line analysis and comparison samples in LRD studies."
     },
     {
+      "bibtex_key": "2024A&A...684A..75C",
+      "title": "{JADES: Insights into the low-mass end of the mass-metallicity-SFR relation at 3 < z < 10 from deep JWST/NIRSpec spectroscopy}",
+      "abstract": "{We analysed the gas-phase metallicity properties of a sample of low- stellar-mass (log M$\\_{{\\ensuremath{\\star}}}$/M$\\_{☉}$ {\\ensuremath{\\lesssim}} 9) galaxies at 3 < z < 10 observed with JWST/NIRSpec as part of the JADES programme in its deep GOODS-S tier. By combining this sample with more massive galaxies at similar redshifts from other programmes, we study the scaling relations between stellar mass (M$\\_{{\\ensuremath{\\star}}}$), oxygen abundance (O/H), and star-formation rate (SFR) for 146 galaxies spanning three orders of magnitude in stellar mass and out to the epoch of early galaxy assembly. We find evidence for a shallower slope at the low-mass end of the mass-metallicity relation (MZR), with 12+log(O/H) = (7.72 {\\ensuremath{\\pm}} 0.02) + (0.17 {\\ensuremath{\\pm}} 0.03) log(M$\\_{{\\ensuremath{\\star}}}$/{}10$^{8}$ M$\\_{☉}$), in good agreement with the MZR probed by local analogues of high- redshift systems, such as the `Green Pea' and `Blueberry' galaxies. The inferred slope is well matched by models including `momentum-driven' supernova (SN) winds, suggesting that feedback mechanisms in dwarf galaxies (and at high z) might be different from those in place at higher masses. The evolution in the normalisation is observed to be relatively mild compared to previous determinations of the MZR at z {\\ensuremath{\\sim}} 3 ({\\ensuremath{\\sim}}0.1 ‒ 0.2 dex across the explored mass regime). We observe a deviation from the local fundamental metallicity relation (FMR) for our sample at high redshift, especially at z > 6, with galaxies significantly less enriched than predicted given their M$\\_{{\\ensuremath{\\star}}}$ and SFR (with a median offset in log(O/H) of {\\ensuremath{\\sim}}0.5 dex, significant at {\\ensuremath{\\sim}}5{\\ensuremath{\\sigma}}). These observations are consistent with an enhanced stochasticity in the gas accretion and star-formation history of high-redshift systems, prompting us to reconsider the nature of the relationship between M$\\_{{\\ensuremath{\\star}}}$, O/H, and SFR in the early Universe. \\textbackslash\\textbackslashThe high-level data products exploited in this paper for the deep tier of the JADES-GTO Programme in GOODS-South, namely the redshifts, stellar masses, star-formation rates, and metallicities, are reported in Table C.1. Fully reduced spectra and emission line fluxes are available through the MAST database at <A href=``http s://archive.stsci.edu/hlsp/jades''>https://archive.stsci.edu/hls p/jades</A>, and are described in <xref ref-type=``bibr'' rid=``R16''>Bunker et al. (2023a)</xref>.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Curti}, Mirko'), Person('{Maiolino}, Roberto'), Person('{Curtis-Lake}, Emma'), Person('{Chevallard}, Jacopo'), Person('{Carniani}, Stefano'), Person(\"{D'Eugenio}, Francesco\"), Person('{Looser}, Tobias J.'), Person('{Scholtz}, Jan'), Person('{Charlot}, Stephane'), Person('{Cameron}, Alex'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Witstok}, Joris'), Person('{Boyett}, Kristian'), Person('{Laseter}, Isaac'), Person('{Sandles}, Lester'), Person('{Arribas}, Santiago'), Person('{Bunker}, Andrew'), Person('{Giardino}, Giovanna'), Person('{Maseda}, Michael V.'), Person('{Rawle}, Tim'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{Smit}, Renske'), Person('{Willott}, Chris J.'), Person('{Eisenstein}, Daniel J.'), Person('{Hausen}, Ryan'), Person('{Johnson}, Benjamin'), Person('{Rieke}, Marcia'), Person('{Robertson}, Brant'), Person('{Tacchella}, Sandro'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher'), Person('{Baker}, William M.'), Person('{Bhatawdekar}, Rachana'), Person('{Egami}, Eiichi'), Person('{Helton}, Jakob M.'), Person('{Ji}, Zhiyuan'), Person('{Kumari}, Nimisha'), Person('{Perna}, Michele'), Person('{Shivaei}, Irene'), Person('{Sun}, Fengwu')]",
+      "relevance_score": 5.0,
+      "justification": "This paper offers a detailed analysis of the mass-metallicity relation in low-mass high-redshift galaxies but has no direct connection to Little Red Dots. Its moderate citation by LRD papers (lrdIndex=10) likely reflects its use as a metallicity baseline rather than a core LRD reference. It provides useful evolutionary context and methodological insights, but its overall value as supporting literature for LRD research is limited.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No direct LRD mention",
+        "Provides high-z MZR for low-mass galaxies",
+        "Uses JWST/NIRSpec deep spectroscopy"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 3.0,
+          "reasoning": "The paper does not mention Little Red Dots, AGN, or compact red objects. It focuses exclusively on star-forming galaxy metallicity scaling relations. While LRD researchers may cite it for metallicity baselines or low-mass galaxy properties, there is no direct connection to LRD phenomena."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 indicates moderate citation within the LRD community, suggesting it is used as a reference for metallicity or low-mass galaxy properties, but it is not among the most highly cited LRD papers."
+        },
+        "foundational_value": {
+          "score": 5.0,
+          "reasoning": "The paper provides a new calibration of the mass-metallicity relation at high redshift for low-mass galaxies, which could be useful for interpreting emission lines in LRD hosts if present. However, many LRDs are AGN-dominated and lack strong nebular lines, limiting its foundational role for LRD research."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "The study leverages deep JWST/NIRSpec spectroscopy to push metallicity measurements to lower stellar masses than previously possible at high-z. The methodology is standard but the dataset and mass range are novel."
+        },
+        "evolutionary_context": {
+          "score": 6.0,
+          "reasoning": "The paper provides evolutionary context for galaxy scaling relations, including evidence for different feedback mechanisms and deviations from the local fundamental metallicity relation at z>6. This could indirectly inform LRD host galaxy studies, but the link is not explicit."
+        }
+      },
+      "notebooklm_recommendation": "Supplementary reference for metallicity context in LRD host galaxies"
+    },
+    {
       "bibtex_key": "2022ApJ...935..167A",
       "title": "{The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package}",
       "abstract": "{The Astropy Project supports and fosters the development of open-source and openly developed Python packages that provide commonly needed functionality to the astronomical community. A key element of the Astropy Project is the core package astropy, which serves as the foundation for more specialized projects and packages. In this article, we summarize key features in the core package as of the recent major release, version 5.0, and provide major updates on the Project. We then discuss supporting a broader ecosystem of interoperable packages, including connections with several astronomical observatories and missions. We also revisit the future outlook of the Astropy Project and the current status of Learn Astropy. We conclude by raising and discussing the current and future challenges facing the Project.}",
@@ -7385,11 +7466,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.869166666666675,
+    "average_score": 7.8524725274725355,
     "median_score": 8.1,
     "critical_count": 112,
-    "high_value_count": 62,
-    "moderate_value_count": 4,
+    "high_value_count": 63,
+    "moderate_value_count": 5,
     "low_priority_count": 2
   }
 }

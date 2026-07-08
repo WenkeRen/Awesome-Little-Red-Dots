@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-07-04T07:01:13.125187
+Generated: 2026-07-08T06:59:43.048658
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -562,6 +562,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.8] 2025arXiv250604350Z
     JWST Insights into Narrow-line Little Red Dots
 
+[8.8] 2026ApJ..1005L..37T
+    A Black Hole Star at Cosmic Noon: Extreme Balmer Break, Photospheric Continuum, and Broad Absorption by Thick Winds in a Little Red Dot at z = 1.7
+
 [8.8] 2025arXiv250820177R
     MEGA: Spectrophotometric SED Fitting of Little Red Dots Detected in JWST MIRI
 
@@ -624,6 +627,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.7] 2026arXiv260109778H
     The X-Ray Dot: Exotic Dust or a Late-Stage Little Red Dot?
+
+[8.7] 2026ApJ..1005..150L
+    Local Analogs of Little Red Dots: Optical Variability and Evidence for an Active Galactic Nucleus Origin
 
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
@@ -715,6 +721,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.3] 2025arXiv250703230R
     Little Red Dots from Ultra-Strongly Self-Interacting Dark Matter
 
+[8.3] 2026ApJ..1005..143B
+    Compact, AGN-hosting Dwarf Galaxies with ``Little Red Dot''-like SEDs in the Local Universe
+
 [8.3] 2026arXiv260122213M
     Little Red Dots on FIRE: The Ability of Bursty Galaxies to Host an Abundant Population of High-Redshift AGN
 
@@ -738,6 +747,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.2] 2025arXiv251216365A
     The AGN nature of strong CIII emitters in the Early Universe with JWST
+
+[8.1] 2026A&A...711A..24E
+    Euclid Quick Data Release (Q1): XXIV. Extending the quest for little red dots to z < 4
 
 [8.1] 2026ApJ..1004..241B
     A Redshift-based Red Selection of Dusty Star-forming Galaxies
@@ -798,4 +810,7 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.1] 2026Sci...391..767M
     Black holes disguised as little red dots
+
+[7.0] 2026JCAP...06..097Z
+    Smoluchowski Coagulation equation and the Evolution of Primordial Black Hole Clusters
 
