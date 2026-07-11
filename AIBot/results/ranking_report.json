@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T07:12:53.319668",
-  "total_papers": 422,
-  "successfully_scored": 422,
+  "generated_at": "2026-07-11T06:47:17.687439",
+  "total_papers": 423,
+  "successfully_scored": 423,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -6041,6 +6041,45 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "The paper employs grid-based hydrodynamics simulations with specified physical conditions (locally isothermal equation of state, binary on the grid). It identifies quantitative thresholds (Mach number ~40) and discusses relevant timescales. While the abstract suggests solid methodology, a full assessment would require evaluating the simulation resolution, parameter space coverage, and validation tests from the complete paper."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260707698K",
+      "title": "{Tracing the Evolution of the Balmer Break from Cosmic Dawn to Cosmic Noon with JWST}",
+      "abstract": "{The Balmer break (BB) is a key spectral feature for constraining stellar population ages, star formation histories, and redshifts of high-redshift sources. The redshift evolution and distribution of BB strength, together with the properties of BB galaxies, constrain stellar population characteristics and the nature of star formation across cosmic epochs. However, a systematic and unbiased characterization of BB strengths across the full galaxy population remains limited with the James Webb Space Telescope (JWST). We aim to characterize the redshift evolution of BB strength over $z=3.5$-10 and its distribution across different epochs using photometry. We also examine correlations between BB strength and key physical parameters within these redshift intervals. We further assess the implications of BB galaxies for the nature of star formation and stellar populations at $z>3.5$. We used the JWST NIRCam photometric observations taken as part of various programs, including CEERS, JADES, FRESCO, and PRIMER. We estimated the BB strength of the objects with two adjacent broadband filters in various redshift windows between redshifts 3 and 10, which exclude strong line contamination. We employ the SED-fitting code CIGALE for both SED fitting and the generation of mock galaxy simulations. We find that the median Balmer break strength (expressed as a flux ratio) increases from cosmic dawn to cosmic noon, from 1.1 to 1.5, primarily driven by the age of the stellar population. These estimations are in agreement with the latest spectroscopic estimations in the literature. We identify objects with extremely large BB strengths (BB$>3.0$) at $z=3.5$-4 and $z=7$-10, indicating strong extinction combined with an old stellar population and the presence of Little Red Dots (LRDs) in the former, and predominantly LRDs in the latter.[abridged]}",
+      "existing_tags": "dust-reddened, early universe, jwst, photometry, sed",
+      "year": "2026",
+      "authors": "[Person('{Kuruvanthodi}, Adarsh'), Person('{Schaerer}, Daniel'), Person('{Marques-Chaves}, Rui'), Person('{Weibel}, Andrea'), Person('{Korber}, Damien'), Person('{Charbonnel}, Corinne')]",
+      "relevance_score": 8.7,
+      "justification": "This paper directly identifies Little Red Dots as the primary population driving extremely strong Balmer breaks at high redshift, linking their photometric properties to old stellar populations and heavy dust extinction. It provides key observational constraints on LRD physical nature and evolution using a large, multi-survey JWST dataset.",
+      "key_factors": [
+        "Direct identification of LRDs via Balmer break",
+        "Large JWST NIRCam photometric sample from CEERS, JADES, FRESCO, PRIMER",
+        "Links LRD properties to stellar population age and extinction",
+        "Systematic redshift evolution of Balmer break strength"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The abstract explicitly identifies Little Red Dots (LRDs) as the dominant population among objects with extremely strong Balmer breaks at z=7-10 and as a significant component at z=3.5-4. The paper directly links LRD properties to Balmer break strengths, making LRD research a central theme."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses JWST NIRCam photometry from multiple major surveys (CEERS, JADES, FRESCO, PRIMER), carefully selects adjacent broadband filters to avoid strong line contamination, and employs SED fitting with CIGALE and mock simulations. This is a robust photometric approach well-suited for large samples."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper correlates Balmer break strength with stellar population age, extinction, and star formation histories, and specifically interprets extreme BB objects as LRDs with old stellar populations and strong dust extinction. This directly probes key physical properties of LRDs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Provides a systematic, unbiased characterization of Balmer break evolution and identifies LRDs as a major contributor to extreme BB objects. This has significant implications for understanding LRD nature (e.g., AGN vs. starburst) and galaxy evolution across cosmic time."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The study uses large photometric datasets, careful filter selection to avoid line contamination, and validates with mock simulations. However, it relies on photometry rather than spectroscopy, which introduces some degeneracies in SED fitting. Overall, the methodology is sound and appropriate for the goals."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -17018,9 +17057,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.294786729857805,
+    "average_score": 8.29574468085105,
     "median_score": 8.5,
-    "high_relevance_count": 401,
+    "high_relevance_count": 402,
     "moderate_relevance_count": 17,
     "low_relevance_count": 4
   }

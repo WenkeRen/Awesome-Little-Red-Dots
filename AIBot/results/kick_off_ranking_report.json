@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T07:12:55.321159",
-  "total_papers": 182,
-  "successfully_scored": 182,
+  "generated_at": "2026-07-11T06:48:05.545012",
+  "total_papers": 183,
+  "successfully_scored": 183,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -5420,6 +5420,46 @@
       "notebooklm_recommendation": "Critical data foundation for LRD research"
     },
     {
+      "bibtex_key": "2022ApJ...927..192Y",
+      "title": "{Fitting AGN/Galaxy X-Ray-to-radio SEDs with CIGALE and Improvement of the Code}",
+      "abstract": "{Modern and future surveys effectively provide a panchromatic view for large numbers of extragalactic objects. Consistently modeling these multiwavelength survey data is a critical but challenging task for extragalactic studies. The Code Investigating GALaxy Emission (CIGALE) is an efficient PYTHON code for spectral energy distribution (SED) fitting of galaxies and active galactic nuclei (AGNs). Recently, a major extension of CIGALE (named X-CIGALE) has been developed to account for AGN/galaxy X-ray emission and improve AGN modeling at UV-to-IR wavelengths. Here, we apply X-CIGALE to different samples, including Cosmological Evolution Survey (COSMOS) spectroscopic type 2 AGNs, Chandra Deep Field-South X-ray detected normal galaxies, Sloan Digital Sky Survey quasars, and COSMOS radio objects. From these tests, we identify several weaknesses of X-CIGALE and improve the code accordingly. These improvements are mainly related to AGN intrinsic X-ray anisotropy, X-ray binary emission, AGN accretion-disk SED shape, and AGN radio emission. These updates improve the fit quality and allow for new interpretation of the results, based on which we discuss physical implications. For example, we find that AGN intrinsic X-ray anisotropy is moderate, and can be modeled as ${L}\\_{X}(\\theta )\\propto 1+\\cos \\theta $ , where {\\ensuremath{\\theta}} is the viewing angle measured from the AGN axis. We merge the new code into the major branch of CIGALE, and publicly release this new version as CIGALE V2022.0 on https://cigale.lam.fr.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Yang}, Guang'), Person(\"{Boquien}, M{\\\\'e}d{\\\\'e}ric\"), Person('{Brandt}, W. N.'), Person(\"{Buat}, V{\\\\'e}ronique\"), Person('{Burgarella}, Denis'), Person('{Ciesla}, Laure'), Person('{Lehmer}, Bret D.'), Person('{Ma{\\\\l}ek}, Katarzyna'), Person('{Mountrichas}, George'), Person('{Papovich}, Casey'), Person('{Pons}, Estelle'), Person('{Stalevski}, Marko'), Person(\"{Theul{\\\\'e}}, Patrice\"), Person('{Zhu}, Shifu')]",
+      "relevance_score": 7.7,
+      "justification": "This paper presents X-CIGALE, an improved SED fitting code with X-ray extension, which is widely used by LRD researchers to model AGN and galaxy emission. With lrdIndex=10, it is a key methodological tool, though it does not directly discuss LRDs or evolutionary context.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Provides essential SED fitting tool for LRD analysis",
+        "Improves AGN X-ray modeling crucial for LRDs",
+        "Publicly released code"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "The paper does not explicitly mention LRDs, but it provides the X-CIGALE SED fitting framework that is directly applied to LRD studies for disentangling AGN and galaxy emission. Many LRD papers rely on this tool, making it a critical methodological connection."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates the paper is cited by at least 10 LRD papers, demonstrating high adoption and relevance within the LRD community. This is a strong signal of its importance as supporting literature."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "The paper establishes an improved SED fitting code (CIGALE V2022.0) that serves as a foundational tool for LRD research. While not a theoretical framework, its robust AGN/host decomposition is essential for interpreting LRD SEDs, going beyond textbook knowledge by incorporating X-ray and radio improvements."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "The paper introduces significant methodological innovations, including AGN intrinsic X-ray anisotropy modeling, X-ray binary emission, and improved accretion disk SED shapes. These advances are particularly valuable for LRDs, where accurate multiwavelength modeling is crucial to understand their peculiar SEDs."
+        },
+        "evolutionary_context": {
+          "score": 3.0,
+          "reasoning": "The paper focuses on code development and testing, with no discussion of LRD evolutionary sequences or connections to other populations. It provides no direct insights into the broader evolutionary context of LRDs."
+        }
+      },
+      "notebooklm_recommendation": "Important methodological resource for NotebookLM"
+    },
+    {
       "bibtex_key": "2026MNRAS.549ag836C",
       "title": "{JADES data release 4 ─ Paper I. Sample selection, observing strategy and redshifts of the complete spectroscopic sample}",
       "abstract": "{This paper accompanies Data Release 4 of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey, which presents the full NIRSpec spectroscopy of the survey. We provide spectra of 5190 targets across Great Observatories Origins Deep Survey (GOODS)-North and GOODS-South (including the Hubble Ultra Deep Field), observed with the low-dispersion (─300) prism and three medium-resolution () gratings spanning m; 2654 were also observed with the higher resolution () G395H grating. The tiered survey design obtained h exposures for galaxies in the Deep and Ultra Deep tiers, and shallower observations (─3 h per setting) of galaxies in the Medium tiers. Targets were selected from photometric redshifts or colours, with priority given to rest-UV-selected galaxies at and F444W-selected galaxies at . We describe the full target selection and present spectroscopic redshifts and success rates. In total, we obtain robust redshifts for 3297 galaxies, including 396 at and 2545 at . To facilitate uniform analyses, we define 'gold' subsamples based on UV- and F444W-selection. Using the parent samples and redshift success rates, we construct rest-UV luminosity functions at from the Medium- and Deep-JWST tiers. Our number densities agree well with previous determinations from both photometric and spectroscopic samples, with modest interloper fractions confirming the reliability of photometric UV-bright galaxy selections at these redshifts.}",
@@ -7466,10 +7506,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.8524725274725355,
+    "average_score": 7.851639344262304,
     "median_score": 8.1,
     "critical_count": 112,
-    "high_value_count": 63,
+    "high_value_count": 64,
     "moderate_value_count": 5,
     "low_priority_count": 2
   }
