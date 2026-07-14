@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T06:48:05.545012",
-  "total_papers": 183,
-  "successfully_scored": 183,
+  "generated_at": "2026-07-14T06:58:38.891326",
+  "total_papers": 184,
+  "successfully_scored": 184,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -5135,6 +5135,46 @@
       "notebooklm_recommendation": "Important supporting literature for understanding chemical signatures in high-z AGN, relevant to LRD models."
     },
     {
+      "bibtex_key": "2025MNRAS.537.3453B",
+      "title": "{Quiescent or dusty? Unveiling the nature of extremely red galaxies at z > 3}",
+      "abstract": "{The advent of the JWST has revolutionized our understanding of high- redshift galaxies. In particular, the NIRCam instrument on-board JWST has revealed a population of red galaxies that had largely evaded detection with Hubble Space Telescope (HST), potentially due to significant dust obscuration, quiescence, or extreme redshift. Here, we present the first NIRSpec spectra of 23 red, HST faint or dark galaxies (), unveiling their nature and physical properties. This sample includes both dusty and quiescent galaxies with spectroscopic data from NIRSpec/PRISM, providing accurate spectroscopic redshifts with . The spectral features demonstrate that, while the majority of red galaxies are dusty, a substantial fraction, , are quiescent. For the dusty galaxies, we have quantified the dust attenuation using the Balmer decrement (), finding attenuations . We find that red dusty galaxies are emitters with equivalent widths spanning the range , indicative of a wide range of recent star-formation activity. Whether dusty or quiescent, we find that red galaxies are predominantly massive, with 85 per cent of the galaxies in the sample having masses . This pilot NIRSpec programme reveals the diverse nature of HST-dark galaxies and highlights the effectiveness of NIRSpec/PRISM spectroscopic follow-up in distinguishing between dusty and quiescent galaxies and properly quantifying their physical properties. Upcoming research utilizing higher-resolution NIRSpec data and combining JWST with ALMA observations will enhance our understanding of these enigmatic and challenging sources.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Barrufet}, L.'), Person('{Oesch}, P. A.'), Person('{Marques-Chaves}, R.'), Person('{Arellano-Cordova}, K.'), Person('{Baggen}, J. F. W.'), Person('{Carnall}, A. C.'), Person('{Cullen}, F.'), Person('{Dunlop}, J. S.'), Person('{Gottumukkala}, R.'), Person('{Fudamoto}, Y.'), Person('{Illingworth}, G. D.'), Person('{Magee}, D.'), Person('{McLure}, R. J.'), Person('{McLeod}, D. J.'), Person('{Micha{\\\\l}owski}, M. J.'), Person('{Stefanon}, M.'), Person('{van Dokkum}, P. G.'), Person('{Weibel}, A.')]",
+      "relevance_score": 7.8,
+      "justification": "This paper is a solid supporting reference for LRD research, offering early JWST spectroscopy that clarifies the dusty vs. quiescent nature of red galaxies. Its moderate citation count (lrdIndex=10) and methodological relevance make it useful, but it lacks a direct LRD focus, preventing a higher score.",
+      "key_factors": [
+        "lrdIndex=10",
+        "NIRSpec/PRISM spectroscopy of HST-dark galaxies",
+        "Quantification of dust attenuation and quiescent fraction",
+        "Massive red galaxy demographics at z>3"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper does not explicitly mention Little Red Dots, but it addresses extremely red galaxies at z>3, which are directly analogous to the red, compact nature of LRDs. LRD researchers cite it to understand the dust/quiescence dichotomy in red objects, making it relevant but not a dedicated LRD study."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "lrdIndex=10 indicates a moderate level of citation within the LRD community. It is recognized as useful supporting literature but not among the most highly cited LRD papers."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "The paper provides new JWST-based insights into the physical nature of red galaxies, quantifying dust attenuation and quiescent fractions. This goes beyond textbook knowledge by establishing a spectroscopic framework for distinguishing dusty and quiescent populations, which is foundational for interpreting LRD spectra."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "The use of NIRSpec/PRISM to obtain spectra of previously HST-dark galaxies is a key methodological advance. It demonstrates how to efficiently classify red galaxies and measure Balmer decrements, a technique directly applicable to LRD follow-up."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "By revealing that red galaxies at z>3 are predominantly massive and split between dusty star-forming and quiescent, the paper contributes to the evolutionary picture of massive galaxy formation. This context is valuable for placing LRDs in a broader evolutionary sequence, though it does not propose a specific LRD evolutionary path."
+        }
+      },
+      "notebooklm_recommendation": "Important supporting literature for understanding red galaxy populations, but not a core LRD paper."
+    },
+    {
       "bibtex_key": "2025ApJS..281...50E",
       "title": "{The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release}",
       "abstract": "{We summarize the properties and initial data release of the JADES Origins Field (JOF), the longest single pointing yet imaged with the James Webb Space Telescope (JWST). This field falls within the GOODS-S region about 8' southwest of the Hubble Ultra Deep Field (HUDF), where it was formed initially in Cycle 1 as a parallel field of HUDF spectroscopic observations within the JWST Advanced Deep Extragalactic Survey (JADES). This imaging was greatly extended in Cycle 2 program 3215, which observed the JOF for 5 days in six medium-band filters, seeking robust candidates for z > 15 galaxies. This program also includes ultradeep parallel NIRSpec spectroscopy (up to 91 hr on source, summing over the dispersion modes) on the HUDF. Cycle 3 observations from program 4540 added 20 hr of NIRCam slitless spectroscopy and F070W imaging to the JOF. With these three campaigns, the JOF was observed for 380 open-shutter hours with NIRCam using 15 imaging filters and two grism bandpasses. Further, parts of the JOF have deep 43 hr MIRI observations in F770W. Taken together, the JOF is one of the most compelling deep fields available with JWST and a powerful window into the early Universe. This paper presents the second data release from JADES, featuring the imaging and catalogs from the year 1 JOF observations.}",
@@ -7506,10 +7546,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.851639344262304,
+    "average_score": 7.8513586956521815,
     "median_score": 8.1,
     "critical_count": 112,
-    "high_value_count": 64,
+    "high_value_count": 65,
     "moderate_value_count": 5,
     "low_priority_count": 2
   }

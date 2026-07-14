@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T06:47:17.687439",
-  "total_papers": 423,
-  "successfully_scored": 423,
+  "generated_at": "2026-07-14T06:57:55.964357",
+  "total_papers": 427,
+  "successfully_scored": 427,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -563,6 +563,46 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Uses state-of-the-art FIRE cosmological simulations with detailed physics, 3D dust radiative transfer, and synthetic data cubes. The analysis is thorough, identifying both successes and limitations of the stellar-only model, and the conclusions are well-supported."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260709647I",
+      "title": "{Spatial decomposition of Little Red Dots with JWST/NIRSpec IFU into broad-line red cores and narrow-line blue host galaxies}",
+      "abstract": "{Little Red Dots (LRDs) are a population of compact red sources discovered by the James Webb Space Telescope (JWST). Imaging and spectroscopy have shown that LRDs exhibit a complex spectrum with a ``V-shaped'' continuum, broad Balmer emission lines, and in some cases Balmer absorption. While the physical origin of these components remains debated, recent studies propose that they arise from a compact central engine likely hosting a rapidly growing black hole embedded within a more extended host galaxy. We test this central engine + host galaxy model using JWST/NIRSpec integral field unit (IFU) spectroscopy to spectrally decompose the observed continuum, narrow and broad emission lines, and absorption. We spatially map each component for five broad Ha-selected LRDs at z\\raisebox{-0.5ex}\\textasciitilde5 observed with both the prism and high-resolution G395H grating. We find that the blue continuum emission is co-spatial with the narrow emission line region, while the red continuum arises from a compact core co- spatial with the broad Balmer emission and absorption. Spatial maps of the [OIII] equivalent width reveal a pronounced decrease in the central core. Our work provides further evidence that the LRD emission is produced by at least two distinct physical components arising from a red central engine embedded within a blue host galaxy.}",
+      "existing_tags": "composite, emission lines, host galaxy, jwst, spectroscopy",
+      "year": "2026",
+      "authors": "[Person('{Ishikawa}, Yuzo'), Person('{Eilers}, Anna-Christina'), Person('{Naidu}, Rohan P.'), Person('{Matthee}, Jorryt'), Person('{Bordoloi}, Rongmon'), Person('{Chisholm}, John'), Person('{Greene}, Jenny E.'), Person('{Ma}, Yilun'), Person('{Oesch}, Pascal A.'), Person('{Sun}, Wendy Q.'), Person('{Torralba}, Alberto'), Person('{Weaver}, John R.'), Person('{Wuyts}, Stijn'), Person('{Xiao}, Mengyuan')]",
+      "relevance_score": 9.3,
+      "justification": "This paper is highly relevant to LRD research, using JWST/NIRSpec IFU to spatially resolve the red central engine and blue host galaxy in five LRDs. It provides compelling evidence for the two-component model, making it a critical contribution to the field.",
+      "key_factors": [
+        "JWST NIRSpec IFU data",
+        "Spatial decomposition of continuum and lines",
+        "Resolves central engine vs host galaxy",
+        "Strong evidence for AGN+host model",
+        "Maps [OIII] equivalent width dip"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on Little Red Dots, directly testing the central engine + host galaxy model through spatial decomposition. It addresses the core debate on LRD nature."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses state-of-the-art JWST/NIRSpec IFU spectroscopy with both prism and high-resolution grating, enabling spatial mapping of continuum and emission line components."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Measures spatial distribution of blue/red continuum, broad/narrow emission lines, and [OIII] equivalent width, providing clear evidence for two distinct physical components."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Provides strong, spatially resolved evidence for the AGN+host galaxy model, significantly advancing the understanding of LRD structure and resolving key debates."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "Rigorous IFU spectral decomposition and spatial mapping, with careful separation of components, and analysis of multiple sources."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -9881,6 +9921,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1005..174L",
+      "title": "{Little Red Dot Progenitors from Compact Starbursts: A Natural Path to Early AGN Formation}",
+      "abstract": "{The recent discovery of little red dots (LRDs) by the James Webb Space Telescope has challenged traditional models of early galaxy and black hole coevolution. The nature of these highly compact objects remains heavily debated, with explanations divided between dust-reddened active galactic nuclei (AGN) and extremely dense stellar populations. We perform high-resolution cosmological simulations to model the formation of LRD precursors. Motivated by recent high-redshift observations and theoretical results, we specifically explore environments characterized by high star formation efficiencies (30\\% and 100\\%) and confined feedback. Our simulations naturally produce highly compact galaxies with stellar masses of {}10$^{7}$─6 {\\texttimes} {}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$, with most of the mass concentrated within 200─300 pc. We find that, in these dense environments, gas inflows, gravitational torques, and stellar dynamical friction operate on highly efficient timescales. Over a 10 Myr timescale, gas inflows can accumulate {\\ensuremath{\\sim}}{}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ at the galactic center, while gravitational torques and dynamical friction can contribute an additional {}10$^{5}$─{}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$ and {}10$^{3}$─{}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$ through the inward migration of massive stars. Assuming a conservative 10\\% efficiency to account for feedback, this rapid mass accumulation can lead to the formation of a {\\ensuremath{\\sim}}{}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$ central black hole, naturally giving rise to an AGN in these dense systems. Therefore, stellar and AGN interpretations of LRDs may not be mutually exclusive; rather, dense stellar systems are likely precursors to AGN.}",
+      "existing_tags": "composite, early universe, simulation, starburst, theory",
+      "year": "2026",
+      "authors": "[Person(\"{Liempi}, Mat{\\\\'\\\\i}as\"), Person('{Latif}, Muhammad A.'), Person('{Schleicher}, Dominik R. G.')]",
+      "relevance_score": 8.4,
+      "justification": "This theoretical paper is highly relevant to LRD research, directly addressing the formation pathway and the AGN–starburst connection. While it lacks observational data, its strong physical predictions and potential to resolve a major debate justify a high overall score. The low observational techniques score is offset by excellence in other categories, reflecting its nature as a simulation study.",
+      "key_factors": [
+        "Directly models LRD progenitors",
+        "Links compact starbursts to AGN formation",
+        "Quantitative predictions for masses and timescales",
+        "Addresses the AGN vs. starburst debate",
+        "High-resolution cosmological simulations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly addresses the nature and formation of Little Red Dots (LRDs), proposing a theoretical model for their progenitors. It explicitly engages with the central debate between AGN and stellar interpretations, making LRDs the primary subject of the study."
+        },
+        "observational_techniques": {
+          "score": 2.5,
+          "reasoning": "This is a purely theoretical/simulation paper with no new observational data or analysis. While it is motivated by recent high-redshift observations, it does not employ observational techniques or present observational results. The score reflects the absence of direct observational content."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper derives key physical properties of LRD progenitors, including stellar masses (10^7–6×10^8 M⊙), compact sizes (200–300 pc), gas inflow rates, and black hole formation timescales. It provides quantitative predictions for the transition from starburst to AGN, directly constraining the physical nature of LRDs."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "By proposing that dense stellar systems are natural precursors to AGN, the paper offers a potential resolution to the AGN vs. starburst debate for LRDs. If validated, this could significantly shift the paradigm for early black hole–galaxy coevolution and influence future observational strategies."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The study uses high-resolution cosmological simulations with well-defined parameters (star formation efficiencies of 30% and 100%, confined feedback) and quantifies mass accumulation via multiple channels (gas inflows, torques, dynamical friction). The 10 Myr timescale analysis and conservative efficiency assumptions demonstrate a systematic approach, though full details of the simulation code and convergence tests are not visible in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...991...37A",
       "title": "{COSMOS-web: The Overabundance and Physical Nature of ``Little Red Dots''{\\textemdash}Implications for Early Galaxy and SMBH Assembly}",
       "abstract": "{JWST has revealed a population of compact and extremely red galaxies at z {\\ensuremath{\\gtrsim}} 4, which likely host active galactic nuclei (AGNs). We present a sample of 434 ``little red dots'' (LRDs), selected from the 0.54 deg$^{2}$ COSMOS-Web survey. We fit galaxy and AGN spectral energy distribution models to derive redshifts and physical properties; the sample spans z {\\ensuremath{\\sim}} 5{\\textendash}9 after removing brown dwarf contaminants. As a thought experiment, we consider two extreme physical scenarios: either LRDs are all AGNs, and their continuum emission is dominated by the accretion disk, or they are all compact star-forming galaxies, and their continuum is dominated by stars. If LRDs are AGN-dominated, our sample exhibits bolometric luminosities {\\ensuremath{\\sim}}10$^{45‑47}$ erg s$^{‑1}$, spanning the gap between JWST AGNs in the literature and bright, rare quasars. We derive a bolometric luminosity function (LF) {\\ensuremath{\\sim}} 100 times the (UV- selected) quasar LF, implying a nonevolving black hole accretion density of {\\ensuremath{\\sim}}10$^{‑4}$M$\\_{{\\ensuremath{\\odot}}}$ yr$^{‑1}$ Mpc$^{‑3}$ from z {\\ensuremath{\\sim}} 2{\\textendash}9. By contrast, if LRDs are dominated by star formation, we derive stellar masses {\\ensuremath{\\sim}}10$^{8.5‑10}$ M$\\_{{\\ensuremath{\\odot}}}$. MIRI/F770W is key to deriving accurate stellar masses; without it, we derive a mass function inconsistent with {\\ensuremath{\\Lambda}} cold dark matter. The median stellar mass profile is broadly consistent with the maximal surface densities seen in the nearby Universe, though the most massive objects exceed this limit, requiring substantial AGN contribution to the continuum. Nevertheless, stacking all available X-ray, mid-IR, far-IR/submillimeter, and radio data yields nondetections. Whether dominated by dusty AGNs or compact star-formation, the high masses/luminosities and remarkable abundance of LRDs implies a dominant mode of early galaxy/SMBH growth.}",
@@ -12046,6 +12126,45 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "The study employs the state-of-the-art FLARES simulation suite and conducts quantitative comparisons across multiple galactic properties. The approach of testing the starburst hypothesis through simulation is methodologically sound. However, the abstract lacks detailed information about statistical significance, sample selection criteria, or specific parameter space exploration, preventing a higher score."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260709201G",
+      "title": "{The gravitational-wave fingerprint of dynamically assembled primordial black hole cluster seeds in JWST's Little Red Dots}",
+      "abstract": "{The James Webb Space Telescope (JWST) has revealed compact, red, overmassive accreting black holes - the so-called ``Little Red Dots'' (LRDs) - in chemically near-pristine hosts at $z\\simeq5 - 9$, straining standard heavy-seed models. We show that a population of strongly clustered primordial black holes (PBH) with a broad mass function predicted by a QCD-epoch thermal history naturally realizes the configuration that assembles LRD- scale seeds: an intermediate-mass PBH \\textbackslashemph\\{nucleus\\} $M\\_{\\rm BH}\\sim10^3$-$10^5\\,M\\_\\odot$ surrounded, within a few parsecs, by a swarm of light ($m\\sim30\\,M\\_\\odot$) PBHs embedded in dense baryonic gas. Gas dynamical friction keeps the loss cone full and lets the core contract, so the swarm sinks and is swallowed on $t\\_{\\rm seed}\\sim10$-50 Myr, well inside the cosmic time at $z\\sim10$-$15$. Because a heavy nucleus is present \\textbackslashemph\\{ab initio\\}, the captures occur at extreme mass ratio $q\\sim10^{-4}$-$10^{-2}$: the remnant is retained against gravitational recoil, and each capture reaches the innermost stable orbit under gravitational-wave (GW) emission, radiating $\\simeq0.06\\,m c^2$ so that the assembly efficiency is $ζ\\simeq0.06$ independent of $M\\_{\\rm BH}$. The superposed swarm inspirals form a stochastic background $Ω\\_{\\rm GW} h^2\\sim10^{-13}$-$10^{-11}$ with a $Ω\\_{\\rm GW}\\propto f^{2/3}$ shape truncated below the gas-decoupling frequency and topped by a ringdown ``comb'' at $f\\_{\\rm ring}(M\\_{\\rm BH})\\simeq13$ mHz for $10^5\\,M\\_\\odot$ and $\\simeq1.3$ Hz for $10^3\\,M\\_\\odot$ nuclei at $z\\_f\\simeq12$. The few comparable-mass nucleus-nucleus coalescences are instead individually resolvable LISA/deci-Hz sources. Detection, and discrimination of these signatures from a directly formed PBH seed of the same mass, would identify the LRDs as PBH-nucleus seeded black holes.}",
+      "existing_tags": "early universe, exotic physics, heavy seed, theory",
+      "year": "2026",
+      "authors": "[Person('{Garcia-Bellido}, Juan')]",
+      "relevance_score": 8.2,
+      "justification": "This theoretical paper directly tackles the LRD phenomenon by proposing a PBH cluster seed model, deriving physical properties and making testable gravitational-wave predictions. Its high relevance to the overmassive black hole problem and potential to transform LRD seed models justify a strong score, despite lacking observational data analysis.",
+      "key_factors": [
+        "PBH seed model for LRDs",
+        "Gravitational-wave predictions",
+        "Addresses overmassive BH problem",
+        "Testable with LISA/deci-Hz observatories"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely centered on explaining the origin of Little Red Dots (LRDs) by proposing a primordial black hole (PBH) cluster seed scenario. It directly addresses the overmassive black hole problem in LRDs and aims to provide a formation mechanism, making it highly focused on LRD research."
+        },
+        "observational_techniques": {
+          "score": 2.0,
+          "reasoning": "The paper does not present new JWST observations or data analysis of LRDs. It is a theoretical study that uses the existence of LRDs as motivation but focuses on predicting gravitational-wave signatures, with no observational techniques applied to LRD data."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper derives key physical properties of the proposed seeds, including black hole mass ranges (10^3–10^5 M☉), assembly timescales (10–50 Myr), accretion efficiency (ζ≈0.06), and environmental conditions (dense gas, dynamical friction). These are directly relevant to understanding the growth and nature of LRDs."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "If validated, the PBH seed model would resolve the tension of overmassive black holes in LRDs and provide falsifiable predictions for gravitational-wave observatories like LISA. This could significantly advance both LRD research and cosmology, offering a novel pathway to probe early universe physics."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The abstract indicates a detailed theoretical framework involving gas dynamical friction, loss-cone physics, extreme mass-ratio inspirals, and stochastic gravitational-wave background calculations. While assumptions about PBH populations need scrutiny, the methodology appears rigorous for a theory paper."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16898,6 +17017,45 @@
       "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJS..285...28S",
+      "title": "{Mephisto: Self-improving Large Language Model─based Agents for Automated Interpretation of Multiband Galaxy Observations}",
+      "abstract": "{Astronomical research has long relied on human expertise to interpret complex data and formulate scientific hypotheses. In this study, we introduce Mephisto{\\textemdash}a multiagent collaboration framework powered by large language models (LLMs) that emulates human-like reasoning to analyze multiband galaxy observations. Mephisto interfaces with the CIGALE codebase (a library of spectral energy distribution models) to iteratively refine physical models against observational data. It conducts deliberate reasoning via a tree search, accumulates knowledge through self-play, dynamically updates its knowledge base, and is validated across diverse galaxy populations{\\textemdash}including the James Webb Space Telescope's recently discovered ``little red dot'' galaxies. We show that Mephisto demonstrates the ability to infer the physical properties of galaxies from multiband photometry, positioning it as a research copilot for astronomers. Unlike prior black-box machine learning approaches in astronomy, Mephisto offers a transparent, human-aligned reasoning process that integrates with existing research practices. This work underscores the possibility of LLM-driven agent-based research for astronomy, establishes a foundation for fully automated, end-to-end artificial intelligence (AI)-powered scientific workflows, and opens up new avenues for AI-augmented discoveries in astronomy.}",
+      "existing_tags": "jwst, photometry, sed",
+      "year": "2026",
+      "authors": "[Person('{Sun}, Zechang'), Person('{Ting}, Yuan-Sen'), Person('{Liang}, Yaobo'), Person('{Duan}, Nan'), Person('{Huang}, Song'), Person('{Cai}, Zheng')]",
+      "relevance_score": 3.8,
+      "justification": "This paper introduces an LLM-based agent for SED fitting and validates it on diverse galaxy samples, including LRDs. It is a methods paper with minimal direct focus on LRD science, providing no new physical insights or observational results for these objects. Its relevance to LRD research is as a potential analysis tool rather than a substantive contribution.",
+      "key_factors": [
+        "LLM-based multiagent framework",
+        "CIGALE SED fitting integration",
+        "Includes little red dot galaxies as validation",
+        "Automated, human-aligned reasoning"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is primarily about developing an LLM-based agent for automated SED fitting, not about studying little red dots (LRDs). LRDs are mentioned only as one of several galaxy populations used for validation, with no dedicated analysis or new insights into their nature."
+        },
+        "observational_techniques": {
+          "score": 4.0,
+          "reasoning": "The work uses multiband photometry and JWST data, but it does not present new observational techniques or data. It interfaces with the CIGALE SED fitting code, which is a standard tool, and the focus is on the AI agent's reasoning process rather than observational methodology."
+        },
+        "physical_properties": {
+          "score": 3.0,
+          "reasoning": "While the agent infers physical properties from SEDs, the paper does not derive or discuss specific physical properties of LRDs. The emphasis is on the agent's ability to replicate human-like reasoning, not on the astrophysical results for LRDs."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "The paper could have broad impact as a new AI-driven research tool for galaxy SED analysis. For LRD research specifically, it may offer a useful automated fitting pipeline, but its direct contribution to understanding LRDs is limited."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The abstract describes a sophisticated multiagent framework with tree search, self-play, and knowledge base updates, suggesting a rigorous approach. However, without full details, the evaluation is based on the claimed methodology, which appears sound for the intended application."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for LRD-specific research"
+    },
+    {
       "bibtex_key": "2026IJMPD..3540018A",
       "title": "{Dark matter in galactic structure: From the milky way to the high redshift universe}",
       "abstract": "{Different cosmological models relying upon different dark matter (DM) particle candidates such as WIMPS, sterile neutrinos or axions, can provide a successful enough description of the large scale structure of the Universe. However, important open questions remain to be answered on galaxy scales. They include how to robustly infer and predict the inner/outer slope of the DM profiles; how DM concentrates towards galaxy centers, or which is the nature of the relation between supermassive black holes (SMBHs) and their hosting halos. Another unresolved and seemingly unrelated problem in cosmology has to do with the nature, seed and growth of the SMBHs in the high redshift Universe. Remarkably, by assuming the DM halos are made of neutral fermions held together by gravity, it is possible to obtain key insights to all of the above questions. We present here a brief overview on fermionic DM highlighting on several applications developed in the last decade, as discussed at the 17th Marcel Grossmann Meeting (MG17). Special attention is given to galaxy scales, the Milky Way{\\textquoteright}s center (nature of SgrA*) and the outer halo shape, as well as the role of the fermionic DM particle on early galaxy formation. The presented results make emphasis on different predictions of the model together with an explicit connection to observational data including astrometric measurements of the S2-orbit, recent EHT images of Sagittarius A* (Sgr A*), GAIA DR3 rotation curve of the Milky Way, and JWST data from the most distant galaxies and little red dots.}",
@@ -17057,10 +17215,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.29574468085105,
+    "average_score": 8.287587822014038,
     "median_score": 8.5,
-    "high_relevance_count": 402,
+    "high_relevance_count": 405,
     "moderate_relevance_count": 17,
-    "low_relevance_count": 4
+    "low_relevance_count": 5
   }
 }
