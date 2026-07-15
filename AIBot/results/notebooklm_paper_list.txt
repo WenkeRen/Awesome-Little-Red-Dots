@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-07-14T06:58:40.123832
+Generated: 2026-07-15T06:43:54.537532
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -203,14 +203,14 @@ LRD PAPERS (Top 200 by relevance score)
 190. 2508.14155  (score: 8.4, key: 2026ApJ...998..148J)
 191. 2503.10958  (score: 8.4, key: 2025PASA...42...68G)
 192. 2507.07190  (score: 8.4, key: 2025ApJ...994..113L)
-193. 2406.10341  (score: 8.4, key: 2025ApJ...991...37A)
-194. 2502.03742  (score: 8.4, key: 2025A&A...694L..14L)
-195. 2507.15556  (score: 8.4, key: 2026MNRAS.545f1949J)
-196. 2603.17667  (score: 8.4, key: 2026arXiv260317667M)
-197. 2412.14246  (score: 8.4, key: 2024arXiv241214246T)
-198. 2605.24112  (score: 8.4, key: 2026arXiv260524112S)
-199. 2512.11665  (score: 8.4, key: 2026MNRAS.549ag756K)
-200. 2603.17967  (score: 8.4, key: 2026arXiv260317967I)
+193. 2606.03375  (score: 8.4, key: 2026ApJ..1005..174L)
+194. 2406.10341  (score: 8.4, key: 2025ApJ...991...37A)
+195. 2502.03742  (score: 8.4, key: 2025A&A...694L..14L)
+196. 2507.15556  (score: 8.4, key: 2026MNRAS.545f1949J)
+197. 2603.17667  (score: 8.4, key: 2026arXiv260317667M)
+198. 2412.14246  (score: 8.4, key: 2024arXiv241214246T)
+199. 2605.24112  (score: 8.4, key: 2026arXiv260524112S)
+200. 2512.11665  (score: 8.4, key: 2026MNRAS.549ag756K)
 
 ================================================================================
 KICK_OFF PAPERS (Top 50 by relevance score)
@@ -463,6 +463,7 @@ ARXIV IDs ONLY (for automated processing)
 2508.14155
 2503.10958
 2507.07190
+2606.03375
 2406.10341
 2502.03742
 2507.15556
@@ -470,7 +471,6 @@ ARXIV IDs ONLY (for automated processing)
 2412.14246
 2605.24112
 2512.11665
-2603.17967
 2409.13047
 2403.03872
 2308.05735
@@ -700,9 +700,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.4] 2025arXiv251017952S
     Evolutionary Tracks and Spectral Properties of Quasi-stars and Their Correlation with Little Red Dots
 
-[8.4] 2026ApJ..1005..174L
-    Little Red Dot Progenitors from Compact Starbursts: A Natural Path to Early AGN Formation
-
 [8.4] 2025arXiv250520393Z
     NEXUS: A Spectroscopic Census of Broad-line AGNs and Little Red Dots at $3\lesssim z\lesssim 6$
 
@@ -790,6 +787,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [7.7] 2025Sci...389..438C
     Early universe{\textquoteright}s {\textquoteleft}little red dots{\textquoteright} may be black hole stars
 
+[7.7] 2025arXiv251008354S
+    Mephisto: Self-Improving Large Language Model-Based Agents for Automated Interpretation of Multi-band Galaxy Observations
+
 [7.7] 2026MNRAS.tmp..886S
     JADES Data Release 4 - Paper II: Data reduction, analysis and emission-line fluxes of the complete spectroscopic sample
 
@@ -801,6 +801,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
+
+[7.4] 2026arXiv260603375L
+    Little Red Dot progenitors from Compact Starbursts: A Natural Path to Early AGN Formation
 
 [7.4] 2026arXiv260215952B
     Gas Accretion versus BH Merger driven Growth Modes of Supermassive Black Holes and Implications for the Little Red Dots
