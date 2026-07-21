@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T06:43:51.471945",
-  "total_papers": 427,
-  "successfully_scored": 427,
+  "generated_at": "2026-07-21T06:56:53.835978",
+  "total_papers": 430,
+  "successfully_scored": 430,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -4456,6 +4456,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Employs multiple robust methods including photoionization modeling, multi-component SED fitting, and host-galaxy decomposition. Methodology appears sound but abstract lacks detailed discussion of systematics, uncertainties, and modeling assumptions that would merit a higher score."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1006L..14B",
+      "title": "{(Re)solving the Complex Multiscale Morphology and V-shaped Spectral Energy Distribution of a Newly Discovered Strongly Lensed Little Red Dot in A383}",
+      "abstract": "{We present a luminous ``little red dot'' (LRD) at z = 6.027, doubly imaged by the galaxy cluster A383 and observed with the James Webb Space Telescope (JWST) NIRCam. Owing to its large magnifications, {\\ensuremath{\\mu}} {\\ensuremath{\\sim}} 11 for image A383-LRD1A and {\\ensuremath{\\mu}} {\\ensuremath{\\sim}} 7 for A383-LRD1B, the system is exceptionally bright and highly stretched, providing a rare, spatially resolved view of an LRD. The images reveal a complex morphology with a compact red dot, a spatially offset blue dot, and faint emission bridging and surrounding the two. After correcting for lensing, the blue and red dots have rest-frame UV and optical sizes of {\\ensuremath{\\sim}}60 pc and {\\ensuremath{\\lesssim}}150 pc, respectively, while extended emission traced most clearly in F356W ([O III]+H{\\ensuremath{\\beta}}) reaches scales of order {\\ensuremath{\\sim}}1 kpc. Spatially resolved spectral energy distribution (SED) analysis reveals that the characteristic V-shaped SED arises from the superposition of a flat UV continuum from the blue dot, consistent with a young stellar population, and a steep red SED from the red dot, which, based on Hubble Space Telescope+JWST photometry alone, admits a straightforward stellar interpretation as a massive, heavily dust-attenuated component. However, this interpretation is challenged by Atacama Large Millimeter/submillimeter Array dust continuum upper limits, suggesting a nonstellar origin such as dense gas configurations. Separated by only {\\ensuremath{\\sim}}300 pc in the source plane, these components would blend into a single compact source in unlensed observations with the canonical LRD colors. This system therefore provides a rare opportunity to resolve the internal structure of an LRD and to begin unraveling the physical nature of this population.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Baggen}, Josephine F. W.'), Person('{van Dokkum}, Pieter'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Brammer}, Gabriel')]",
+      "relevance_score": 8.8,
+      "justification": "This paper is highly relevant to LRD research, presenting a unique strongly lensed LRD that spatially resolves the V-shaped SED into two distinct components. The combination of JWST, HST, and ALMA data provides a rare opportunity to probe LRD internal structure, directly challenging current models and offering transformative insights into the nature of this enigmatic population.",
+      "key_factors": [
+        "Strongly lensed LRD with high magnification",
+        "Spatially resolved morphology revealing red and blue components",
+        "V-shaped SED decomposed into stellar and potentially nonstellar origins",
+        "ALMA dust constraints challenging stellar interpretations",
+        "Rare ~300 pc scale resolution of LRD internal structure"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper is entirely centered on a newly discovered Little Red Dot (LRD), presenting a detailed study of its morphology, SED, and physical nature. It directly addresses the LRD population and aims to unravel their internal structure, making it highly focused on LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Utilizes exceptional multi-wavelength data: JWST NIRCam imaging with strong lensing magnification (μ~11 and 7), HST photometry, and ALMA dust continuum upper limits. The lensing enables spatially resolved analysis down to ~60 pc scales, a rare and powerful capability for LRDs."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Probes key physical properties: resolves the V-shaped SED into a blue young stellar component and a red heavily dust-attenuated or nonstellar component; measures rest-frame UV/optical sizes; and uses ALMA limits to challenge a purely stellar interpretation. However, the nature of the red component remains ambiguous, limiting the depth of physical insight."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Provides a rare, spatially resolved view of an LRD's internal structure, demonstrating that the characteristic V-shaped SED can arise from two distinct components separated by ~300 pc. This challenges simple unified models and has significant implications for interpreting the broader LRD population, potentially resolving the AGN vs. starburst debate."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Employs careful lens modeling to reconstruct source-plane morphologies, spatially resolved SED fitting, and consistent use of ALMA upper limits to test interpretations. The analysis is thorough and appropriately cautious, though the reliance on photometry alone for the stellar interpretation of the red component introduces some uncertainty."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16977,6 +17017,45 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1006...18W",
+      "title": "{JADES: A Prominent Galaxy Overdensity Candidate within the First 500 Myr}",
+      "abstract": "{We report a galaxy overdensity candidate at z ≍ 10.5 in the JWST Advanced Deep Extragalactic Survey. This overdensity contains 18 galaxies with consistent photometric redshifts within 8 comoving Mpc in projection. The galaxy number density is 4 times higher than the field expectation, accounting for one-third of comparably bright galaxies and nearly 50\\% of the total star formation rate (SFR) at 10 < z$\\_{phot}$ < 12 in the GOODS-S field. Galaxies in the overdensity more frequently have close companions or substructure, with one-third showing such features within 1 kpc at consistent photometric redshifts, implying enhanced interactions. Most galaxies have stellar masses of 0.6─3 {\\texttimes} {}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$, half- light radii of {\\ensuremath{\\sim}}200 pc, and SFRs of {\\ensuremath{\\sim}}5 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{{\\ensuremath{-}}1}$. Their stellar masses and SFRs are slightly higher than those of field galaxies, but remain broadly consistent with typical high-redshift scaling relations. Two compact objects show possible Balmer breaks, suggestive of evolved stellar populations or little red dots. We find tentative evidence for a spatially varying Ly{\\ensuremath{\\alpha}} transmission inferred photometrically, consistent with an emerging ionized bubble. This overdensity provides a rare opportunity for probing the environmental impact on galaxy evolution and the onset of cosmic reionization within the first 500 Myr.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Wu}, Zihao'), Person('{Eisenstein}, Daniel J.'), Person('{Johnson}, Benjamin D.'), Person('{Hainline}, Kevin'), Person('{Baker}, William M.'), Person('{Bunker}, Andrew J.'), Person('{Cameron}, Alex J.'), Person('{Curtis-Lake}, Emma'), Person('{Danhaive}, A. Lola'), Person('{Hausen}, Ryan'), Person('{Helton}, Jakob M.'), Person('{Ji}, Zhiyuan'), Person('{Looser}, Tobias J.'), Person('{Maiolino}, Roberto'), Person('{Mengistu}, Petra'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant E.'), Person('{Sun}, Fengwu'), Person('{Tacchella}, Sandro'), Person('{Trussler}, James A. A.'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Witstok}, Joris')]",
+      "relevance_score": 4.9,
+      "justification": "This paper primarily reports a galaxy overdensity at z~10.5, with only a brief mention of two compact objects as possible Little Red Dots based on Balmer breaks. While it provides some physical properties, the LRD connection is tangential and not the focus, resulting in a low overall relevance score.",
+      "key_factors": [
+        "JWST JADES NIRCam data",
+        "Photometric redshifts at z~10.5",
+        "Overdensity with enhanced interactions",
+        "Two candidate LRDs from Balmer breaks"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is primarily about a galaxy overdensity at z~10.5. It mentions Little Red Dots only in passing, noting that two compact objects show possible Balmer breaks 'suggestive of evolved stellar populations or little red dots.' This is a minor, tangential point rather than a central investigation of LRDs."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "Uses JWST NIRCam imaging from the JADES survey with photometric redshifts and SED fitting. While not employing LRD-specific techniques like NIRSpec spectroscopy, the data and methods are state-of-the-art for high-redshift galaxy detection and could be applied to LRD searches."
+        },
+        "physical_properties": {
+          "score": 6.0,
+          "reasoning": "Derives stellar masses, SFRs, sizes, and notes Balmer breaks for two objects. Provides some physical characterization relevant to LRDs (compactness, possible evolved populations), but the analysis is not tailored to LRD properties like AGN contribution or dust obscuration."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "The discovery of an overdensity at z>10 is significant for early structure formation and reionization, but the LRD connection is incidental. The paper does not advance LRD science directly, though it may offer environmental context for future LRD studies."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The photometric analysis appears robust, with careful redshift estimation and comparison to field expectations. However, the LRD identification is based solely on photometric Balmer breaks without spectroscopic confirmation, limiting certainty."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260601870T",
       "title": "{Mass and Spin Growth of Very Massive Stars in Star Clusters Potentially Associated with Little Red Dots}",
       "abstract": "{Using gravitational $N$-body simulations, we investigate the evolution of mass and spin for very massive stars (VMSs) in dense star clusters, which may be potentially associated with Little Red Dots (LRDs). Our results show that VMS masses can reach $10^3$--$10^4\\,M\\_\\odot$, depending on the initial conditions of the host clusters. Notably, the VMS mass increases by up to a factor of three when accounting for the bloated state at the Hayashi track induced by stellar collisions, provided that this state is maintained at accretion rates exceeding $3 \\times 10^{-2}\\,M\\_\\odot\\,{\\rm yr}^{-1}$. In all cases, the spin of the VMS, when normalized to the dimensionless black hole (BH) spin parameter, exceeds $10$. While our model may overestimate VMS masses and spins due to the omission of post-main-sequence evolution and the loss of mass and angular momentum during collisions, we nonetheless demonstrate that VMSs formed in dense star clusters can be highly spinning. Such a rapidly spinning VMS is expected to collapse into an intermediate-mass BH surrounded by a massive accretion disk. This BH-disk system could trigger powerful explosions and emit burst gravitational waves, similar to those observed in GW190521 and GW231123, for which the remnant BH masses are estimated to be $rsim 100\\,M\\_\\odot$.}",
@@ -17012,6 +17091,46 @@
         "methodological_rigor": {
           "score": 7.0,
           "reasoning": "The N-body simulation approach is appropriate for the study, and the authors acknowledge limitations such as the omission of post-main-sequence evolution and mass/angular momentum loss. The methodology appears sound within its defined scope."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1005..244O",
+      "title": "{The VLA Frontier Fields Survey: A 6 GHz High-resolution Radio Survey of A2744}",
+      "abstract": "{We present 6 GHz radio continuum observations of the galaxy cluster A2744 (z = 0.307) obtained with the Karl G. Jansky Very Large Array (VLA) as part of the VLA Frontier Fields program, the goal of which is to explore the radio continuum emission from high- redshift galaxies that are magnified by foreground massive galaxy clusters. With an rms noise of ≍1 {\\ensuremath{\\mu}}Jy beam$^{{\\ensuremath{-}}1}$, in the image plane, and subarcsec angular resolution ({\\ensuremath{\\theta}}1/2=0.″82), this is the deepest and most detailed radio image of A2744 ever obtained. A total of 93 sources is detected with a peak signal-to-noise ratio {\\ensuremath{\\geq}}5, of which 46 have optical/near- infrared (IR) counterparts with available redshift, magnification ({\\ensuremath{\\mu}}), and stellar mass (M$\\_{*}$) estimates. The radio sources are distributed over a redshift of 0.15─3.55, with a median redshift value of z̄=0.93{\\ensuremath{-}}0.63+1.48 and with a range mass from 5.5 {\\texttimes} {}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$ to 1.3 {\\texttimes} {}10$^{11}$ M$\\_{{\\ensuremath{\\odot}}}$. A comparison between the radio-based star formation rates (SFRs) and those derived from UV-to-near IR data reveals that radio SFRs are typically an order of magnitude higher. This discrepancy is likely a result of strong dust obscuration affecting the UV-to-NIR tracers. We look for radio counterparts of the so-called ``little red dots'' (LRDs) galaxies at z ≍ 6 seen behind A2744, but find no significant detections. After stacking, we derive a 3{\\ensuremath{\\sigma}} upper limit to the 6 GHz radio luminosity of LRDs of 4.1 {\\texttimes} {}10$^{39}$ erg s$^{{\\ensuremath{-}}1}$. Finally, we present a sample of 22 moderately/strongly lensed galaxies ({\\ensuremath{\\mu}} {\\ensuremath{\\gtrsim}} 2) in the VLA Frontier Fields survey, which provides a zoomed view of the star formation processes within main-sequence galaxies at z ≍ 1─2.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Orozco}, Esteban A.'), Person(\"{Jim{\\\\'e}nez-Andrade}, Eric F.\"), Person('{Murphy}, Eric J.'), Person('{Smail}, Ian'), Person('{Momjian}, Emmanuel'), Person('{Heywood}, Ian'), Person('{Vega}, Miguel A.'), Person('{DeCoursey}, Christa')]",
+      "relevance_score": 4.5,
+      "justification": "This paper presents a deep radio survey of A2744 with a minor component searching for LRD radio counterparts. The non-detection provides an upper limit on LRD radio luminosity, but the paper's core focus is not on LRDs, limiting its relevance to LRD research.",
+      "key_factors": [
+        "Deep VLA 6 GHz observations",
+        "Stacking analysis of LRDs",
+        "Upper limit on radio luminosity",
+        "No LRD detections",
+        "Primarily a cluster radio survey"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is primarily a deep radio survey of the galaxy cluster A2744, with only a brief search for radio counterparts of LRDs. LRDs are not the central subject; the abstract mentions them as a secondary investigation, and the main results focus on radio sources, star formation rates, and lensed galaxies."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "The study employs deep VLA 6 GHz imaging and stacking to probe faint radio emission, which is a relevant technique for LRD studies. However, the observations are not tailored specifically to LRDs, and the survey design is general-purpose for high-redshift galaxies behind the cluster."
+        },
+        "physical_properties": {
+          "score": 5.0,
+          "reasoning": "The paper provides a 3σ upper limit on the 6 GHz radio luminosity of LRDs, which constrains their radio emission and can inform models of AGN or star formation activity. This is a physical property measurement, though only an upper limit from a non-detection."
+        },
+        "scientific_impact": {
+          "score": 4.0,
+          "reasoning": "The non-detection of LRDs in the radio adds a minor data point to the debate on LRD nature, but the impact is limited because it is a null result and the paper's broader scope dilutes its contribution to LRD-specific science."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The stacking analysis and derivation of the upper limit appear robust, leveraging the deep, high-resolution data. The methodology is sound for the stated goal, even if the LRD aspect is a small part of the paper."
         }
       },
       "notebooklm_recommendation": "Low priority for NotebookLM"
@@ -17215,10 +17334,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.287587822014038,
+    "average_score": 8.2720930232558,
     "median_score": 8.5,
-    "high_relevance_count": 405,
-    "moderate_relevance_count": 17,
+    "high_relevance_count": 406,
+    "moderate_relevance_count": 19,
     "low_relevance_count": 5
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T06:43:53.306957",
-  "total_papers": 184,
-  "successfully_scored": 184,
+  "generated_at": "2026-07-21T06:57:38.485187",
+  "total_papers": 185,
+  "successfully_scored": 185,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -5298,6 +5298,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2024ApJ...963....9M",
+      "title": "{Enhanced Subkiloparsec-scale Star Formation: Results from a JWST Size Analysis of 341 Galaxies at 5 < z < 14}",
+      "abstract": "{We present a comprehensive search and analysis of high-redshift galaxies in a suite of nine public JWST extragalactic fields taken in Cycle 1, covering a total effective search area of $\\sim 358\\,{\\mathrm{arcmin}}^{2}$ . Through conservative (8{\\ensuremath{\\sigma}}) photometric selection, we identify 341 galaxies at 5 < z < 14, with 109 having spectroscopic redshift measurements from the literature, including recent JWST NIRSpec observations. Our regression analysis reveals that the rest- frame UV size─stellar mass relation follows ${R}\\_{\\mathrm{eff}}\\propto {M}\\_{* }^{0.19\\pm 0.03}$ , similar to that of star-forming galaxies at z {\\ensuremath{\\sim}} 3, but scaled down in size by {\\ensuremath{\\sim}}0.7 dex. We find a much slower rate for the average size evolution over the redshift range, R $\\_{eff}$ {\\ensuremath{\\propto}} (1 + z)$^{{\\ensuremath{-}}0.4{\\ensuremath{\\pm}}0.2}$, than that derived in the literature. A fraction ({\\ensuremath{\\sim}}13\\%) of our sample galaxies are marginally resolved even in the NIRCam imaging ({\\ensuremath{\\lesssim}}100 pc), located at {\\ensuremath{\\gtrsim}}1.5{\\ensuremath{\\sigma}} below the derived size─mass slope. These compact sources exhibit a high star formation surface density {\\ensuremath{\\Sigma}}$\\_{SFR}$ > 10 M $\\_{☉}$ yr$^{{\\ensuremath{-}}1}$ kpc$^{{\\ensuremath{-}}2}$, a range in which only <0.01\\% of the local star-forming galaxy sample is found. For those with available NIRSpec data, no evidence of ongoing supermassive black hole accretion is observed. A potential explanation for the observed high [O III]-to-H{\\ensuremath{\\beta}} ratios could be high shock velocities, likely originating within intense star-forming regions characterized by high {\\ensuremath{\\Sigma}}$\\_{SFR}$. Lastly, we find that the rest-frame UV and optical sizes of our sample are comparable. Our results are consistent with these early galaxies building up their structures inside out and being yet to exhibit the strong color gradient seen at lower redshift.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Morishita}, Takahiro'), Person('{Stiavelli}, Massimo'), Person('{Chary}, Ranga-Ram'), Person('{Trenti}, Michele'), Person('{Bergamini}, Pietro'), Person('{Chiaberge}, Marco'), Person('{Leethochawalit}, Nicha'), Person('{Roberts-Borsani}, Guido'), Person('{Shen}, Xuejian'), Person('{Treu}, Tommaso')]",
+      "relevance_score": 7.8,
+      "justification": "This paper offers a critical sample of high-z compact star-forming galaxies with no AGN signatures, frequently used in LRD studies to contextualize compactness and assess the star formation contribution in LRDs. Its size–mass relation and high-Σ_SFR findings are foundational for distinguishing LRDs from pure starbursts.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct comparison to AGN absence in compact sources",
+        "Large JWST sample of 341 galaxies at z>5",
+        "Size–mass relation and ultra-compact population",
+        "High star formation surface density benchmark"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.0,
+          "reasoning": "The paper does not explicitly mention LRDs, but its findings on compact, high-Σ_SFR galaxies with no AGN signatures directly inform the debate on whether some LRDs could be star-formation dominated. This makes it a key reference for distinguishing LRD properties from pure starbursts."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates the paper is heavily cited within the LRD community, reflecting its recognized importance in providing context for LRD size and star formation comparisons."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Beyond textbook knowledge, it establishes the rest-UV size–mass relation at z>5 and identifies a population of ultra-compact star-forming galaxies, which serves as a benchmark for understanding the compactness of LRDs and their potential host galaxies."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "The paper employs a comprehensive JWST NIRCam size analysis across multiple fields with careful photometric selection and stacking. While not radically novel, the large sample and rigorous treatment set a standard for high-z size studies."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "It provides strong constraints on size evolution and star formation surface density at early epochs, supporting inside-out growth scenarios. This evolutionary framework is essential for placing LRDs in the broader context of galaxy assembly."
+        }
+      },
+      "notebooklm_recommendation": "Important contextual paper for LRD research"
+    },
+    {
       "bibtex_key": "2022ApJ...941..191L",
       "title": "{AGN Selection and Demographics in GOODS-S/HUDF from X-Ray to Radio}",
       "abstract": "{We present a comprehensive census of the active galactic nuclei (AGNs) in the GOODS-S/HUDF region from the X-ray to the radio, covering both the obscured and unobscured populations. This work includes a robust analysis of the source optical to mid-IR spectral energy distributions (SEDs) featuring (semi)empirical AGN and galaxy dust emission models and Bayesian fitting techniques, ultra-deep Very Large Array 3 and 6 GHz observations, and an integrated analysis of various AGN selection techniques, including X-ray properties, UV to mid-IR SED analysis, optical spectral features, mid-IR colors, radio-loudness and spectral slope, and AGN variability. In total, we report \\raisebox{-0.5ex}\\textasciitilde900 AGNs over the \\raisebox{-0.5ex}\\textasciitilde170 arcmin$^{2}$ 3D-HST GOODS-S footprint, which has doubled the AGN number identified in the previous X-ray sample, with \\raisebox{-0.5ex}\\textasciitilde26\\% of our sample undetected in the deepest Chandra image. With a summary of AGN demographics from different selection methods, we find that no one single band or technique comes close to selecting a complete AGN sample despite the great depth of the data in GOODS-S/HUDF. We estimate the yields of various approaches and explore the reasons for incompleteness. We characterize the statistical properties, such as source number density, obscuration fraction, and luminosity function of the AGN sample in this field, and discuss their immediate implications. We also provide some qualitative predictions of the AGN sample that might be discovered by the upcoming JWST surveys.}",
@@ -7546,10 +7587,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.8513586956521815,
+    "average_score": 7.851081081081088,
     "median_score": 8.1,
     "critical_count": 112,
-    "high_value_count": 65,
+    "high_value_count": 66,
     "moderate_value_count": 5,
     "low_priority_count": 2
   }
