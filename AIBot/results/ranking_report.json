@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T06:56:53.835978",
-  "total_papers": 430,
-  "successfully_scored": 430,
+  "generated_at": "2026-07-22T06:51:44.152107",
+  "total_papers": 431,
+  "successfully_scored": 431,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -10726,6 +10726,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260717448L",
+      "title": "{Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots}",
+      "abstract": "{Recent JWST observations have revealed a population of compact, optically red sources known as Little Red Dots (LRDs). A popular interpretation is that LRDs host massive black holes embedded in dense gaseous envelopes, yet the physical origin of such envelopes remains unclear. We propose that the optically thick outflow driven by supercritical accretion onto black holes may explain the envelope. Based on an analytic radiative hydrodynamic outflow model, we relate the outflow properties to the black hole mass $M$ and dimensionless accretion rate $\\dot{m}$. With $M\\sim10^5-10^7\\,M\\_\\odot$ and $\\dot m \\sim 1500-5000$, the outflow photosphere reaches luminosities of $10^{43}-10^{45}\\,\\rm erg\\,s^{-1}$ and temperatures of $\\sim 3000-6000$ K, effectively matching the red optical continua observed in LRDs. The presence of a thick scattering region beyond the photosphere is central to deciphering the distinctive properties of LRDs. For each object, if one derives $M$ and $\\dot{m}$ from the observed luminosity and temperature, while accounting for both kinematic broadening and scattering effects, the model predicts an emission line FWHM consistent with observations within a factor of 1.5 for more than 80\\textbackslash\\% objects. Furthermore, with Cloudy simulations, we find that the partially ionized gas beyond the photosphere produces Balmer breaks broadly consistent with measurements.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Liu}, Jun-Rong'), Person('{Feng}, Hua'), Person('{Ho}, Luis C.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper proposes a supercritical accretion outflow model to explain the optically thick envelopes of LRDs, matching observed luminosities, temperatures, emission line widths, and Balmer breaks. It provides a self-consistent physical framework linking BH mass and accretion rate to LRD properties, with good agreement with observations.",
+      "key_factors": [
+        "Supercritical accretion outflow model",
+        "Matches LRD optical continua",
+        "Predicts emission line FWHM for >80% objects",
+        "Cloudy simulations for Balmer breaks",
+        "Addresses origin of dense envelopes"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely dedicated to explaining the physical origin of Little Red Dots, proposing a specific model for their optically thick envelopes. It directly addresses the central mystery of LRDs."
+        },
+        "observational_techniques": {
+          "score": 6.5,
+          "reasoning": "The paper does not present new observational data. It uses an analytic model and Cloudy simulations, comparing predictions to published observed properties (luminosity, temperature, FWHM, Balmer breaks)."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The model connects black hole mass and accretion rate to key LRD observables: optical continuum, emission line widths, and Balmer breaks. It provides a self-consistent physical picture of the dense scattering envelope."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "If validated, this model could resolve the nature of LRDs by explaining their red continua and broad lines without requiring exotic stellar populations. It offers a testable framework linking accretion physics to observables."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The paper employs an analytic radiative hydrodynamic outflow model and Cloudy photoionization simulations. It claims consistency with >80% of objects for FWHM, but full details of the comparison and uncertainties are not visible in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ...998L...4S",
       "title": "{Evolutionary Tracks and Spectral Properties of Quasi-stars and Their Correlation with Little Red Dots}",
       "abstract": "{JWST has revealed a population of red, compact, high-redshift (z {\\ensuremath{\\sim}} 3─10) objects referred to as ``Little Red Dots'' (LRDs). These objects exhibit unusual spectral features reminiscent of stellar spectra with blackbody-like spectral energy distributions, large hydrogen Balmer breaks, Balmer line absorption, and classical stellar absorption features such as calcium H\\&K and the calcium triplet. Following the recent suggestion that these may be actively accreting direct-collapse black holes in the process of assembly, i.e., quasi-stars, we present evolutionary models of quasi-stars using our recently released, publicly available MESA-QUEST modeling framework. We compute a grid of models spanning a range of black hole masses and predict the luminosities, temperatures, surface gravities, and lifetimes of these objects. We find that these models lie along a Hayashi track once they hit their ``late stage,'' which constitutes the majority of their lives ({\\ensuremath{\\sim}}20 Myr). We present scaling relations for estimating the mass of a quasi-star as a function of the bolometric luminosity, as well as the bolometric luminosity as a function of the effective temperature for the Hayashi track. The short lifetimes in tandem with the observed number density of LRDs imply the possibility that every supermassive black hole detected at these epochs was once a quasi-star. We compare synthetic spectra of our quasi- star models to observations of LRDs, and show that these models are broadly capable of reproducing the continuum spectra of observed LRDs. These results indicate that quasi-stars are promising candidates for the origin of supermassive black holes via direct collapse in the early Universe.}",
@@ -17334,9 +17374,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.2720930232558,
+    "average_score": 8.272157772621796,
     "median_score": 8.5,
-    "high_relevance_count": 406,
+    "high_relevance_count": 407,
     "moderate_relevance_count": 19,
     "low_relevance_count": 5
   }
