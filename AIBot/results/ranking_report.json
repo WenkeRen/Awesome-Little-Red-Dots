@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T06:51:44.152107",
-  "total_papers": 431,
-  "successfully_scored": 431,
+  "generated_at": "2026-07-23T06:51:06.628708",
+  "total_papers": 432,
+  "successfully_scored": 432,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -967,6 +967,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "The host subtraction method relies on the assumption that [OIII]5008Å originates solely from the host galaxy, which may not hold if there is AGN contribution. However, they justify this with emission line properties and stacking. The analysis is thorough, but the assumption introduces some uncertainty."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260719057J",
+      "title": "{An (in)complete NIRSpec census of Balmer absorption in Type 1 AGN -- radiation-driven outflows in little red dots, quasars and variable stars}",
+      "abstract": "{A notable achievement of the first generation of JWST surveys was the discovery of an abundance of faint high-redshift ($z > 4$) broad-line active galactic nuclei (AGN) in the $L\\_{\\rm bol} < 10 ^{45}$\\raisebox{-0.5ex}\\textasciitildeerg\\raisebox{-0.5ex}\\texta sciitildes$^{-1}$ regime, previously only accessible at $z < 1$. The high prevalence of absorption features in their broad hydrogen lines is one of the peculiarities of a significant fraction of this new population. In this paper, we conduct a broad census of Balmer absorption in a sample of 47 Type-1 AGN spanning $2 < z < 7$. Accounting for incompleteness of JWST spectroscopic data, we estimate that $44\\_{-6}^{+21}$\\raisebox{-0.5ex}\\textasciitilde\\textbackslash\\% of Little Red Dots (LRDs) have absorption in \\textbackslashHas while the incidence rate is $< 25$\\raisebox{-0.5ex}\\textasciitilde\\textbackslash\\% (at 2$σ$) in Little Blue Dots (LBDs). Additionally, R1000 JWST/NIRSpec data is strongly resolution limited, implying an inability to disentangle Doppler broadening in the absorption from optical depth effects. This is alleviated with R2700 observations, although some degeneracies remain. We find a significant correlation between the velocity of the Balmer absorption and the [OIII]5007 narrow line luminosity, suggesting a common driving mechanism. We do not find any other significant correlations (and do not confirm previously claimed correlations) between Balmer absorption and other spectral properties of LRDs (except for the expected correlation between \\textbackslashHas and \\textbackslashHbs absorption velocities). Comparing LRDs, quasars and stellar \\textbackslashHas absorbers, we establish that absorption in both LRDs and broad absorption line quasars is consistent with radiatively driven outflows, echoing the physics of variable stars yet occurring at vastly different scales.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Juod{\\\\v{z}}balis}, Ignas'), Person('{Ji}, Xihan'), Person(\"{D'Eugenio}, Francesco\"), Person('{Scholtz}, Jan'), Person('{Maiolino}, Roberto'), Person('{Stoffers}, Amanda'), Person('{Marconi}, Alessandro'), Person('{Bertola}, Elena'), Person('{Bunker}, Andrew J.'), Person('{Carniani}, Stefano'), Person('{Cresci}, Giovanni'), Person('{Curtis-Lake}, Emma'), Person('{Ma}, Zheng'), Person('{Marconcini}, Cosimo'), Person('{Parlanti}, Eleonora'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Venturi}, Giacomo'), Person('{Zhang}, Junyu')]",
+      "relevance_score": 9.1,
+      "justification": "This paper provides a comprehensive JWST/NIRSpec census of Balmer absorption in LRDs, establishing its high incidence and linking it to radiation-driven outflows. It directly tackles a key observational puzzle of the LRD population with rigorous methodology and significant physical interpretation.",
+      "key_factors": [
+        "JWST NIRSpec R1000/R2700 data",
+        "Large sample of 47 Type-1 AGN",
+        "Balmer absorption incidence in LRDs (44%)",
+        "Correlation with [OIII] luminosity",
+        "Radiation-driven outflow interpretation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly centered on Little Red Dots (LRDs), measuring Balmer absorption incidence, comparing to Little Blue Dots, and interpreting the absorption as radiation-driven outflows. It directly addresses a defining spectral feature of LRDs."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses JWST NIRSpec R1000 and R2700 spectroscopy, the primary tool for LRD studies. Discusses resolution limitations and leverages a substantial sample of 47 Type-1 AGN across z=2-7, enabling robust statistical analysis."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives Balmer absorption velocities, correlates them with [OIII] luminosity, and interprets the absorption as radiatively driven outflows, linking LRD physics to broad absorption line quasars and even stellar phenomena. Provides key physical insights."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Resolves the prevalence of Balmer absorption in LRDs versus other AGN, challenges previous correlations, and proposes a unified outflow mechanism. This advances the debate on LRD nature and their role in early galaxy evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Accounts for spectroscopic incompleteness, addresses resolution degeneracies, and performs careful correlation analysis. The sample size and comparative approach strengthen the conclusions."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -17374,9 +17414,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.272157772621796,
+    "average_score": 8.274074074074061,
     "median_score": 8.5,
-    "high_relevance_count": 407,
+    "high_relevance_count": 408,
     "moderate_relevance_count": 19,
     "low_relevance_count": 5
   }
