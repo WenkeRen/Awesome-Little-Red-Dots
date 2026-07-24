@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T06:51:06.628708",
-  "total_papers": 432,
-  "successfully_scored": 432,
+  "generated_at": "2026-07-24T06:50:12.151954",
+  "total_papers": 433,
+  "successfully_scored": 433,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -17411,13 +17411,52 @@
         }
       },
       "notebooklm_recommendation": "Low priority - Not relevant for LRD research"
+    },
+    {
+      "bibtex_key": "2026PhRvD.114b3538K",
+      "title": "{NANOGrav 15-year gravitational-wave signals from binary supermassive black holes seeded by primordial black holes, and implications for the origins of little red dots}",
+      "abstract": "{In this paper, we explain the recently reported a nHz-band gravitational-wave background from NANOGrav 15-year through the merger of binary super-massive black holes with masses of 109M{\\ensuremath{\\odot}} formed by the growth of primordial black holes. When a primordial black hole accretes at a high accretion rate, it emits a large number of high-energy photons. These heat the plasma, causing high-redshift cosmological 21 cm line emission. Since this has not been detected, there is a strict upper bound on the accretion rate. We have found that with the primordial black hole abundance 10-14{\\ensuremath{\\lesssim}}fPBH{\\ensuremath{\\lesssim}}10-12 and the mass 1M{\\ensuremath{\\odot}}{\\ensuremath{\\lesssim}}mPBH{\\ensu remath{\\lesssim}}103M{\\ensuremath{\\odot}}, we successfully fit the nHz band gravitational wave background from NANOGrav 15-year while avoiding the 21 cm line emission. In addition, we also discuss the implication for the origins of the little red dots. We propose that future observations of the gravitational wave background and the cosmological 21 cm line can test this scenario.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Kobayashi}, Mikage U.'), Person('{Kohri}, Kazunori')]",
+      "relevance_score": 2.0,
+      "justification": "The paper is fundamentally a gravitational-wave and primordial black hole study that only tangentially mentions little red dots. It lacks direct LRD observations, detailed physical analysis, and methodological focus on LRDs, resulting in minimal relevance to LRD research.",
+      "key_factors": [
+        "NANOGrav 15-year data",
+        "Primordial black hole seeding",
+        "21 cm line constraints",
+        "Speculative LRD connection"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 2.0,
+          "reasoning": "The paper's primary focus is on explaining the NANOGrav gravitational-wave background via binary supermassive black holes seeded by primordial black holes. The discussion of little red dots (LRDs) is limited to a brief mention of implications for their origins, with no dedicated analysis, new LRD data, or detailed modeling of LRD properties. The title itself indicates that LRDs are a secondary topic."
+        },
+        "observational_techniques": {
+          "score": 1.0,
+          "reasoning": "The paper does not utilize any JWST or other LRD-specific observational data. It relies on NANOGrav pulsar timing array data and cosmological 21 cm line constraints, which are unrelated to direct LRD detection or characterization. No observational techniques relevant to LRD research are employed."
+        },
+        "physical_properties": {
+          "score": 2.0,
+          "reasoning": "While the paper may touch on the seeding of supermassive black holes that could power LRDs, it does not delve into the physical properties of LRDs themselves (e.g., spectral energy distributions, dust content, star formation rates, compactness). The connection remains speculative and lacks quantitative LRD modeling."
+        },
+        "scientific_impact": {
+          "score": 3.0,
+          "reasoning": "The proposed link between primordial black hole seeds and LRD origins could, if further developed, offer a novel formation channel. However, the paper does not provide concrete predictions or tests specific to LRDs, and its impact on advancing LRD research is marginal. The main scientific contribution lies in gravitational-wave cosmology."
+        },
+        "methodological_rigor": {
+          "score": 2.0,
+          "reasoning": "The methodology for constraining primordial black hole parameters using NANOGrav and 21 cm data appears internally consistent, but this rigor does not extend to the LRD aspects. The LRD discussion is not supported by a robust, testable framework, and no LRD-specific methodology is presented."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for NotebookLM"
     }
   ],
   "statistics": {
-    "average_score": 8.274074074074061,
+    "average_score": 8.259584295611996,
     "median_score": 8.5,
     "high_relevance_count": 408,
     "moderate_relevance_count": 19,
-    "low_relevance_count": 5
+    "low_relevance_count": 6
   }
 }
