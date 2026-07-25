@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T06:50:12.151954",
-  "total_papers": 433,
-  "successfully_scored": 433,
+  "generated_at": "2026-07-25T06:46:27.094093",
+  "total_papers": 434,
+  "successfully_scored": 434,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -13255,6 +13255,45 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260720617A",
+      "title": "{A dust-free hierarchically nested supermassive-star model for James Webb Space Telescope Little Red Dots}",
+      "abstract": "{Observations by the James Webb Space Telescope reveal a population of high-redshift objects, the little red dots. These sources exhibit optical reddening alongside blue ultraviolet continua, host broad Balmer lines indicative of active black holes, and lack detectable x-ray emission. Their cosmic abundance at early epochs exceeds standard Eddington-limited growth timescales. Prevailing models invoke specific dust geometries to reconcile these traits. We propose a dust-free physical framework. We evaluate the concept that the dust-poor subset of little red dots represents the observational manifestation of hierarchically nested supermassive stars. A primary radiation- dominated envelope traps a nuclear star cluster. Plunging stars drive a magnetic dynamo that inflates the envelope. This produces the red optical continuum. Unobscured infalling stars yield the blue ultraviolet excess. Trapped stellar debris sediments to form a high-density secondary core within this Compton-thick host. This nested topology thermalizes x-rays and powers the broad hydrogen $α$ features. The central seed accretes at the global radiation limit of the host envelope. This kinetic bypass shortens the assembly timescale from hundreds of millions of years to tens of millions of years.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Amaro Seoane}, Pau')]",
+      "relevance_score": 8.1,
+      "justification": "This paper is highly relevant to LRD research as it proposes a comprehensive theoretical model that directly addresses the main observational puzzles. While it lacks new data and quantitative rigor in the abstract, its core focus and physical insight earn a strong score. The speculative nature and absence of observational techniques lower the overall rating slightly.",
+      "key_factors": [
+        "Directly targets all key LRD observables",
+        "Novel dust-free supermassive-star framework",
+        "Explains rapid assembly without Eddington limit violation",
+        "Qualitative model without quantitative predictions in abstract"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely dedicated to explaining the nature of Little Red Dots (LRDs), proposing a novel dust-free supermassive-star model. It directly addresses all defining LRD characteristics (red optical, blue UV, broad Balmer lines, X-ray faintness, abundance) and aims to resolve key tensions in their interpretation."
+        },
+        "observational_techniques": {
+          "score": 4.0,
+          "reasoning": "The paper does not present new observations or data analysis. It uses published JWST results as motivation but focuses on theoretical modeling. The observational connection is limited to qualitative comparisons with known LRD properties."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The model provides a physical framework that simultaneously accounts for the red continuum, blue UV excess, broad Hα emission, X-ray thermalization, and rapid assembly timescale. It links these observables to specific processes (dynamo inflation, infalling stars, nested cores) in a self-consistent manner."
+        },
+        "scientific_impact": {
+          "score": 7.5,
+          "reasoning": "If validated, the dust-free hierarchical supermassive-star scenario could resolve the ‘impossibly massive’ early black hole problem and unify disparate LRD traits. However, the model is highly speculative and lacks quantitative predictions in the abstract, which tempers its immediate impact."
+        },
+        "methodological_rigor": {
+          "score": 6.0,
+          "reasoning": "The abstract outlines a conceptual model with physical plausibility arguments but does not provide detailed calculations, simulations, or quantitative comparisons with data. The reasoning is qualitative, and the level of rigor cannot be fully assessed from the abstract alone."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026PhRvD.113h3048K",
       "title": "{Little red dots as hidden neutrino sources}",
       "abstract": "{Little red dots (LRDs) are enigmatic, compact, red galaxies at high redshift, z{\\ensuremath{\\sim}}4─7, discovered by the James Webb Space Telescope. Broad emission lines in the absence of x-ray and radio counterparts suggest that they host accreting supermassive black holes embedded in dense gaseous envelopes. This black-hole-envelope configuration facilitates efficient photohadronic interactions and neutrino production. Remarkably, their observed source number density and luminosity are compatible with the energetics of the diffuse neutrino background. We consider that relativistic jets and outflows are launched from the black hole and propagate through low-density polar funnels within envelopes, where particle acceleration and neutrino emission occur. This leads to LRDs being effectively hidden sources. Our analytic and numerical calculations show that, in an optimistic scenario, LRDs can contribute {\\ensuremath{\\sim}}30\\% of the observed diffuse background at TeV─sub-PeV energies, predominantly through photomeson production. At high neutrino energies, {\\ensuremath{\\gtrsim}}105.5 GeV, inverse-Compton cooling of muons modifies the resulting flavor ratio, providing a distinctive diagnostic for IceCube-Gen2 and other upcoming neutrino telescopes.}",
@@ -17453,9 +17492,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.259584295611996,
+    "average_score": 8.259216589861737,
     "median_score": 8.5,
-    "high_relevance_count": 408,
+    "high_relevance_count": 409,
     "moderate_relevance_count": 19,
     "low_relevance_count": 6
   }

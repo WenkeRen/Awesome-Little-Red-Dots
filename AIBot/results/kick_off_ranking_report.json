@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T06:50:14.010531",
-  "total_papers": 185,
-  "successfully_scored": 185,
+  "generated_at": "2026-07-25T06:48:24.427754",
+  "total_papers": 187,
+  "successfully_scored": 187,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -1528,6 +1528,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential observational constraints, population definition, and methodological framework for LRD research."
     },
     {
+      "bibtex_key": "2025A&A...704A.321V",
+      "title": "{Rapid formation of a very massive star (>50000 M$\\_{{\\ensuremath{\\odot}}}$), and subsequently, of an IMBH, from runaway collisions: Direct N-body and Monte Carlo simulations of dense star clusters}",
+      "abstract": "{Context. We present simulations of a massive young star cluster using the codes NBODY6++GPU and MOCCA. The cluster is initially more compact than previously published models. It contains one million stars and has a total mass of 5.86 {\\texttimes} {}10$^{5}$ M$\\_{{\\ensuremath{\\odot}}}$ and a half-mass radius of 0.1 pc. Aims. We analyzed the formation and growth of a very massive star (VMS) through successive stellar collisions and investigated the subsequent formation of an intermediate-mass black hole (IMBH) in the core of a dense star cluster. Methods. We used direct N-body and Monte Carlo simulations that incorporated updated stellar evolution prescriptions for single and binary stellar evolution (SSE and BSE) tailored to massive stars and VMSs. These include revised treatments of stellar radii, rejuvenation, and mass loss during collisions. While the prescriptions represent reasonable extrapolations into the VMS regime, the internal structure and thermal state of VMSs that formed through stellar collisions remain uncertain, and future work may require further refinement. Results. Runaway stellar collisions in the cluster core produce a VMS that exceeds 5 {\\texttimes} {}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$ within 5 Myr that subsequently collapses into an IMBH. We stress that further work on stellar astrophysics is needed, particularly in the context of VMS formation. The VMS formation currently represents strong uncertainties. Conclusions. Our model suggests that dense stellar environments may enable the formation of VMSs and massive black hole seeds through runaway stellar collisions. These results provide a potential pathway for early black hole growth in star clusters and offer a theoretical context for interpreting recent observations with the James Webb Space Telescope of young compact clusters at high redshift.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Vergara}, Marcelo C.'), Person('{Askar}, Abbas'), Person('{Kamlah}, Albrecht W. H.'), Person('{Spurzem}, Rainer'), Person('{Flammini Dotti}, Francesco'), Person('{Schleicher}, Dominik R. G.'), Person('{Arca Sedda}, Manuel'), Person('{Hypki}, Arkadiusz'), Person('{Giersz}, Mirek'), Person('{Hurley}, Jarrod'), Person('{Berczik}, Peter'), Person('{Escala}, Andres'), Person('{Hoyer}, Nils'), Person('{Neumayer}, Nadine'), Person('{Pang}, Xiaoying'), Person('{Tanikawa}, Ataru'), Person('{Cen}, Renyue'), Person('{Naab}, Thorsten')]",
+      "relevance_score": 8.3,
+      "justification": "This paper offers a critical theoretical mechanism for forming massive black hole seeds in dense star clusters, directly addressing the origins of the compact, high-redshift objects that JWST is now revealing. Its high citation count among LRD studies and its innovative simulation methodology make it a foundational reference for the field.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct connection to JWST high-z compact clusters",
+        "Runaway collision model for VMS formation",
+        "Updated stellar evolution for massive stars",
+        "Potential IMBH seed pathway"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly connects its runaway collision model to JWST observations of young compact clusters at high redshift, which are directly relevant to LRD populations. While it does not mention LRDs by name, the theoretical framework for forming massive black hole seeds in dense stellar environments is a key piece of the LRD puzzle, and the abstract's reference to JWST underscores its timeliness."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With an lrdIndex of 10, this paper is among the more frequently cited works in the LRD literature, indicating strong recognition and integration into current research. This level of citation suggests it is a go-to reference for the cluster-based BH seed scenario."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "The paper provides a detailed, non-textbook simulation of very massive star formation via runaway collisions, filling a niche in BH seed theory. It goes beyond standard accretion physics by offering a concrete, quantitative pathway to IMBH formation, though it is a specific model rather than a broad review."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "The combination of direct N-body (NBODY6++GPU) and Monte Carlo (MOCCA) simulations with updated stellar evolution prescriptions for VMSs (including revised radii, rejuvenation, and mass loss) represents a state-of-the-art approach. The careful treatment of collision products in the VMS regime is a notable advance."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The paper situates its findings within the broader context of early black hole growth and explicitly links to high-redshift observations. It provides a clear evolutionary sequence from dense cluster to VMS to IMBH, which is essential for understanding how LRDs might acquire their massive black holes, though it stops short of full galaxy-scale coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
+    },
+    {
       "bibtex_key": "2023Natur.621...51D",
       "title": "{Detection of stellar light from quasar host galaxies at redshifts above 6}",
       "abstract": "{The detection of starlight from the host galaxies of quasars during the reionization epoch (z > 6) has been elusive, even with deep Hubble Space Telescope observations$^{1,2}$. The current highest redshift quasar host detected$^{3}$, at z = 4.5, required the magnifying effect of a foreground lensing galaxy. Low-luminosity quasars$^{4-6}$ from the Hyper Suprime-Cam Subaru Strategic Program (HSC-SSP)$^{7}$ mitigate the challenge of detecting their underlying, previously undetected host galaxies. Here we report rest-frame optical images and spectroscopy of two HSC-SSP quasars at z > 6 with the JWST. Using near-infrared camera imaging at 3.6 and 1.5 {\\ensuremath{\\mu}}m and subtracting the light from the unresolved quasars, we find that the host galaxies are massive (stellar masses of 13 {\\texttimes} and 3.4 {\\texttimes} {}10$^{10}$ M$\\_{{\\ensuremath{\\odot}}}$, respectively), compact and disc-like. Near-infrared spectroscopy at medium resolution shows stellar absorption lines in the more massive quasar, confirming the detection of the host. Velocity- broadened gas in the vicinity of these quasars enables measurements of their black hole masses (1.4 {\\texttimes} {}10$^{9}$ and 2.0 {\\texttimes} {}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$, respectively). Their location in the black hole mass-stellar mass plane is consistent with the distribution at low redshift, suggesting that the relation between black holes and their host galaxies was already in place less than a billion years after the Big Bang.}",
@@ -2715,6 +2756,46 @@
         }
       },
       "notebooklm_recommendation": "Important observational reference for LRD emission line studies"
+    },
+    {
+      "bibtex_key": "2023MNRAS.521.3553R",
+      "title": "{Formation of supermassive stars in the first star clusters}",
+      "abstract": "{The formation of supermassive stars is believed to be an essential intermediate step for the formation of the massive black hole seeds that become the supermassive black holes powering the quasars observed in the early Universe. Numerical simulations have shown that supermassive stars can form in atomic-cooling haloes when protostars reach accretion rates higher than \\raisebox{-0.5ex}\\textasciitilde10$^{-2}$ M$\\_{☉}$ yr$^{-1}$ and fragmentation is suppressed on pc scales. It is, however, still uncertain if a supermassive star still emerges when fragmentation occurs at smaller scales and a cluster of stars is formed instead. In this work, we explore the problem of massive object formation due to the interplay of collisions and accretion in star clusters at low metallicity. We model a small embedded cluster of accreting protostars following subparsec scale fragmentation during the collapse of a primordial gas cloud, and follow its evolution by performing N-body plus hydrodynamical simulations. Our results show that supermassive stars with {}10$^{3}$ and {}10$^{4}$ M$\\_{☉}$ are always formed due to the interplay of collisions and accretion, and in some cases these objects are part of a binary system. The resulting supermassive star is surrounded by tens of smaller stars with typical masses in the range 1-100 M$\\_{☉}$.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person(\"{Reinoso}, Basti{\\\\'a}n\"), Person('{Klessen}, Ralf S.'), Person('{Schleicher}, Dominik'), Person('{Glover}, Simon C. O.'), Person('{Solar}, P.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is highly cited by LRD researchers (lrdIndex=10) because it provides a critical mechanism for forming massive black hole seeds via supermassive stars in the first star clusters. While not directly studying LRDs, it addresses the origin of the massive seeds needed to explain the rapid growth of SMBHs observed in high-z AGN, making it a foundational piece for evolutionary models.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Provides a clear mechanism for forming 10^3-10^4 Msun black hole seeds",
+        "N-body+hydro simulations of first star clusters",
+        "Strong evolutionary link to early SMBH growth in LRDs"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper does not directly study LRDs, but it provides a crucial mechanism for forming massive black hole seeds (supermassive stars) that are essential to explain the existence of massive black holes in the early universe, a key puzzle for LRD research. The connection is indirect yet foundational."
+        },
+        "citation_frequency": {
+          "score": 9.5,
+          "reasoning": "lrdIndex=10, indicating a high citation frequency by LRD papers, demonstrating strong relevance and recognition within the community."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "Goes beyond textbook knowledge by providing a specific simulation-based scenario (collisions + accretion in first star clusters) for forming supermassive stars of 10^3-10^4 Msun, which are leading candidates for massive black hole seeds. This is a critical building block for LRD models that require rapid early SMBH growth."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Uses N-body plus hydrodynamical simulations to model the interplay of collisions and accretion, a standard technique. While not highly innovative for LRD studies today, the application to primordial cluster evolution is a robust contribution that supports seed formation predictions."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Strongly connects the earliest star formation epoch (z>15) to the subsequent emergence of SMBHs powering high-z AGN, including LRDs at z~5-8. It provides a direct link from Population III environments to the massive black holes required by LRD observations."
+        }
+      },
+      "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
       "bibtex_key": "2024ApJ...964...90S",
@@ -7587,9 +7668,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.851081081081088,
+    "average_score": 7.855347593582895,
     "median_score": 8.1,
-    "critical_count": 112,
+    "critical_count": 114,
     "high_value_count": 66,
     "moderate_value_count": 5,
     "low_priority_count": 2
