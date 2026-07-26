@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T06:48:24.427754",
+  "generated_at": "2026-07-26T06:53:55.451691",
   "total_papers": 187,
   "successfully_scored": 187,
   "papers": [
@@ -7668,7 +7668,7 @@
     }
   ],
   "statistics": {
-    "average_score": 7.855347593582895,
+    "average_score": 7.855347593582897,
     "median_score": 8.1,
     "critical_count": 114,
     "high_value_count": 66,
