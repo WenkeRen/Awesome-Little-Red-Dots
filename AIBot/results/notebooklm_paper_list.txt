@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-07-26T06:53:56.803927
+Generated: 2026-07-28T06:55:36.262820
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -538,6 +538,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [9.2] 2026ApJ..1005L..22A
     Origins of the UV Continuum and Balmer Emission Lines in Little Red Dots: Observational Validation of Dense Gas Envelope Models Enshrouding the Active Galactic Nucleus
 
+[9.2] 2026ApJ..1006..165B
+    A Comprehensive JWST/NIRSpec Census of Broad-line Active Galactic Nuclei: Faint, Low-mass Accretors and a Population of Little Red Dots
+
 [8.9] 2026MNRAS.tmp..360D
     BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04
 
@@ -742,6 +745,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.2] 2025arXiv251021709K
     From nuclear star clusters to Little Red Dots: black hole growth, mergers, and tidal disruptions
 
+[8.2] 2026ApJ..1006L..21N
+    Pulsational Mass Loss from Supermassive Stars Creates the Compact Shells of Little Red Dots
+
 [8.2] 2025arXiv251219666D
     A cosmologist's take on Little Red Dots
 
@@ -756,6 +762,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.2] 2025arXiv251216365A
     The AGN nature of strong CIII emitters in the Early Universe with JWST
+
+[8.2] 2026ApJ..1006..106S
+    NEXUS: A Search for Nuclear Variability with the First Two JWST NIRCam Epochs
 
 [8.1] 2026ApJ..1004..241B
     A Redshift-based Red Selection of Dusty Star-forming Galaxies

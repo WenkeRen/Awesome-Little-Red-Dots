@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T06:53:53.454080",
-  "total_papers": 434,
-  "successfully_scored": 434,
+  "generated_at": "2026-07-28T06:55:33.108591",
+  "total_papers": 437,
+  "successfully_scored": 437,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -886,6 +886,47 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Employs highly rigorous self-consistent radiative-transfer calculations that reproduce detailed spectral features. The methodology demonstrates strong predictive power by forecasting specific correlations and validating them against observations, with physically motivated models that account for all major LRD properties without ad hoc assumptions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1006..165B",
+      "title": "{A Comprehensive JWST/NIRSpec Census of Broad-line Active Galactic Nuclei: Faint, Low-mass Accretors and a Population of Little Red Dots}",
+      "abstract": "{We present a sample of 227 broad-line active galactic nuclei (BLAGNs), incorporating 148 newly identified sources, spanning a redshift interval from z = 0.8 to 7.2. We analyze spectroscopic data from the NIRSpec instrument on board the James Webb Space Telescope, using the G140H, G140M, G235H, G235M, G395H, and G395M gratings to survey N {\\ensuremath{\\sim}} 80,000 galaxies for BLAGNs. Through emission-line fitting, using a sum of Gaussian models for H{\\ensuremath{\\alpha}}, H{\\ensuremath{\\beta}}, [N II] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}6548, 6584, and [O III] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}4959, 5007, we separate active galactic nucleus (AGN) broad-line components from narrow-line emission. We find the detection rate of BLAGNs to be relatively consistent across our redshift range. Compared to typical low-z AGNs (z {\\ensuremath{\\lesssim}} 1), high-z BLAGNs are systematically fainter and less massive, yet they accrete more efficiently, with most showing Eddington ratios between 0.1 and 1.0. This confirms rapid black hole growth during the early cosmic epochs. The detection of faint, low-mass BLAGNs at high redshift also helps bridge the observational gap between local supermassive black holes and remote luminous quasars, providing a more complete view of black hole─galaxy coevolution across cosmic time. We also identify 48 known little red dots (LRDs) in our BLAGN sample. For these LRDs, we find a systematic preference for exponential over Gaussian broad-line profiles, which are consistent with electron scattering rather than virial broadening. This implies that standard virial black hole masses for LRDs may be overestimated by up to 2 orders of magnitude.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Baccus}, Caroline J.'), Person('{Xu}, Xinfeng')]",
+      "relevance_score": 9.2,
+      "justification": "This paper is highly relevant to LRD research, as it not only includes a substantial LRD subsample but also presents a critical analysis of their broad-line profiles, suggesting electron scattering and overestimated black hole masses. The use of comprehensive JWST/NIRSpec data and rigorous methodology makes it a cornerstone study for understanding LRD physics.",
+      "key_factors": [
+        "JWST NIRSpec multi-grating spectroscopy",
+        "Large BLAGN sample with 48 LRDs",
+        "Exponential vs Gaussian broad-line profile analysis",
+        "Electron scattering interpretation",
+        "Virial BH mass overestimation by up to 2 dex",
+        "Resolves AGN vs starburst debate for LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly identifies 48 known LRDs within its BLAGN sample and dedicates analysis to their broad-line profiles, directly addressing a key debate in LRD research. While the primary scope is a BLAGN census, the LRD-specific findings are central and substantial."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Utilizes JWST NIRSpec data with six gratings (G140H, G140M, G235H, G235M, G395H, G395M) across ~80,000 galaxies, providing high-quality, wide-coverage spectroscopy. Emission-line fitting with Gaussian models is robust for separating AGN components."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives key physical properties for LRDs, including broad-line profile shapes (exponential vs Gaussian), evidence for electron scattering over virial broadening, and the implication that standard virial black hole masses are overestimated by up to 2 orders of magnitude."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "The finding that LRD black hole masses may be severely overestimated has profound implications for the AGN/starburst debate and black hole–galaxy coevolution models. It challenges a widely used mass estimation method and could reshape LRD demographics."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "Employs a large, systematically selected sample of 227 BLAGNs, careful multi-component line fitting, and a direct comparison of Gaussian vs exponential profiles. The analysis is thorough and addresses potential systematics in LRD mass measurements."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11931,6 +11972,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1006L..21N",
+      "title": "{Pulsational Mass Loss from Supermassive Stars Creates the Compact Shells of Little Red Dots}",
+      "abstract": "{Little Red Dots (LRDs) have emerged as one of the central puzzles of the JWST era. Their spectra increasingly require dense gas close to the source, yet the physical origin of that cocoon-like structure remains unclear. We examine whether late pulsational mass loss from supermassive stars (SMSs) leads to dense gas cocoons. We analyze five GENEC models at different metallicities with characteristic masses of order {}10$^{5}$ M$\\_{{\\ensuremath{\\odot}}}$, following them through post- accretion evolution with radial pulsation calculations and general relativistic (GR) stability diagnostics. Mass loss during the final stages of evolution occurs not as a steady wind, but through discrete strange-mode ejection episodes. In the Z = 10$^{{\\ensuremath{-}}2}$ Z$\\_{{\\ensuremath{\\odot}}}$model, four late episodes last 41─282 yr and eject 10─348 M$\\_{{\\ensuremath{\\odot}}}$ each, for a total loss of (4.8 {\\ensuremath{-}} 10) {\\texttimes} {}10$^{2}$ M$\\_{{\\ensuremath{\\odot}}}$; the final episode alone contributes ≃73\\% of that budget. Since the last episode dominates the mass loss, it is the only event sufficiently massive enough to leave behind a compact, optically thick shell extending out to 0.4 pc that reproduces the LRD dense gas cocoon. Final ejecta are H/He dominated but chemically distinctive, with a robust nitrogen- rich composition, log(N/O)≃0.13 and log(C/O)≃{\\ensuremath{-}}0.23. SMS reaches GR instability at an age of {\\ensuremath{\\sim}}1 Myr and collapses in {\\ensuremath{\\sim}}{}10$^{4}$ s, retaining {\\ensuremath{\\sim}}99\\% of all its mass. Across the full metallicity range from Population III to 10$^{{\\ensuremath{-}}2}$ Z$\\_{{\\ensuremath{\\odot}}}$, this shell- ejection channel persists. SMSs therefore provide a physically motivated origin for the compact cocoon-like structure implied by LRDs, while remaining the natural progenitors of the massive black hole seeds invoked in direct collapse scenario.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Nandal}, Devesh'), Person('{Chilingarian}, Igor V.'), Person('{Nagele}, Chris'), Person('{Chisholm}, John'), Person('{Bauer}, Franz E.'), Person('{Loeb}, Abraham')]",
+      "relevance_score": 8.2,
+      "justification": "This paper proposes a novel, physically motivated mechanism for the dense gas cocoons around Little Red Dots, using detailed pulsational mass-loss calculations from supermassive stars. It directly addresses a central LRD puzzle and provides testable chemical predictions, making it highly relevant to LRD research.",
+      "key_factors": [
+        "Theoretical model for LRD dense gas cocoons",
+        "Supermassive star pulsational mass loss",
+        "Detailed ejection history and shell dimensions",
+        "Chemical composition predictions (N/O, C/O)",
+        "Link to massive black hole seed formation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely dedicated to explaining the origin of the dense gas cocoons around Little Red Dots (LRDs), identified as a central puzzle of the JWST era. It directly addresses the physical mechanism behind LRD spectral features."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "The paper does not present new observations; it is a theoretical study. However, it is motivated by and compares to observational constraints (e.g., LRD spectra requiring dense gas). The connection to observations is qualitative rather than quantitative."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper provides detailed physical properties of the mass-loss episodes (duration, ejected mass, total budget), ejecta composition (N/O, C/O ratios), shell dimensions (0.4 pc), and the fate of the supermassive star (GR instability, collapse to black hole). These are directly linked to LRD characteristics."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "If validated, this model would resolve a major open question about LRDs by providing a physically motivated origin for their compact cocoon-like structure. It also connects to massive black hole seed formation, enhancing its impact."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The study uses GENEC stellar evolution code, radial pulsation calculations, and general relativistic stability diagnostics across a metallicity range. The modeling is thorough and the analysis of discrete ejection episodes is detailed, though the paper is theoretical and lacks direct observational testing."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1004..226K",
       "title": "{From Nuclear Star Clusters to Little Red Dots: Black Hole Growth, Mergers, and Tidal Disruptions}",
       "abstract": "{Little Red Dots, discovered by the James Webb Space Telescope, are hypothesized to be active galactic nuclei containing a supermassive black hole, possibly surrounded by a dense stellar cluster, large amounts of gas, and likely by a population of stellar-mass black holes. We develop a simple nuclear star cluster model to evolve the rapid mass growth of black hole seeds into the supermassive regime. The combined processes of tidal disruption events, black hole captures, and gas accretion are accounted for self-consistently in our model. Given the observed number density of Little Red Dots, and under reasonable assumptions, we predict at least a few tens of tidal disruption events and at least a few black hole captures at z = 4─6, with a tidal disruption event rate an order of magnitude larger than the black hole capture rate. We also estimate the uncertainties in these estimates. Finally, we comment on the low X-ray luminosity of Little Red Dots.}",
@@ -13011,6 +13092,46 @@
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM inclusion"
+    },
+    {
+      "bibtex_key": "2026ApJ..1006..106S",
+      "title": "{NEXUS: A Search for Nuclear Variability with the First Two JWST NIRCam Epochs}",
+      "abstract": "{The multicycle JWST Treasury program NEXUS will obtain cadenced imaging and spectroscopic observations around the north ecliptic pole over 2024─2028. Here, we report a systematic search for nuclear variability among {\\ensuremath{\\sim}}25,000 sources covered by NIRCam (F200W+F444W) imaging using the first two NEXUS epochs separated by 9 months in the observed frame. Difference imaging techniques reach a 1{\\ensuremath{\\sigma}} variability sensitivity of 0.18 mag (F200W) and 0.15 mag (F444W) at 28th magnitude (within 0.″2 diameter aperture), improved to 0.01 mag and 0.02 mag at <25th magnitude, demonstrating the superb performance of NIRCam photometry. The difference imaging results represent a significant improvement over aperture photometry on individual epochs (by >30\\%). We identify 465 high-confidence variable sources among the parent sample, with a two-epoch flux difference at >3{\\ensuremath{\\sigma}} from the fiducial variability sensitivity. Essentially, all these variable sources are of extragalactic origin, based on preliminary photometric classifications, and follow a similar photometric redshift distribution as the parent sample up to z$\\_{phot}$ > 10. While the majority of these variability candidates are likely normal unobscured active galactic nuclei, some of them may be rare nuclear stellar transients and tidal disruption events that await confirmation with spectroscopy and continued photometric monitoring. We also constrain the photometric variability of 10 spectroscopically confirmed broadline Little Red Dots (LRDs) at 3 {\\ensuremath{\\lesssim}} z {\\ensuremath{\\lesssim}} 7, and find none of them show detectable variability in either band. We derive stringent 3{\\ensuremath{\\sigma}} upper limits on the F444W variability of {\\ensuremath{\\sim}}3\\%{\\ensuremath{-}}10\\% for these LRDs, with a median value of {\\ensuremath{\\sim}}5\\%. These constraints imply weak variability in the rest-frame optical continuum of LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Stone}, Zachary'), Person('{Shen}, Yue'), Person('{Zhuang}, Ming-Yang'), Person('{Hu}, Lei'), Person('{Pierel}, Justin'), Person('{Li}, Junyao'), Person('{Burgasser}, Adam J.'), Person('{Greene}, Jenny E.'), Person('{Pan}, Zhiwei'), Person('{Shapley}, Alice E.'), Person('{Sun}, Fengwu'), Person('{Venkatraman}, Padmavathi'), Person('{Wang}, Feige')]",
+      "relevance_score": 8.2,
+      "justification": "This paper presents a systematic variability search with JWST/NIRCam, including a focused analysis of 10 LRDs, providing stringent upper limits on their rest-frame optical variability. The high-precision difference imaging and robust upper limits make it a valuable contribution to LRD research, though the LRD sample is small and the study does not delve into detailed physical modeling.",
+      "key_factors": [
+        "JWST NIRCam two-epoch imaging",
+        "Difference imaging technique",
+        "Variability constraints on LRDs",
+        "Large parent sample",
+        "High photometric precision"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.8,
+          "reasoning": "While the paper includes a direct study of 10 spectroscopically confirmed broadline LRDs, the primary focus is a broad variability search of ~25,000 sources; the LRD analysis is a significant but secondary component."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "State-of-the-art JWST NIRCam two-epoch difference imaging with exceptional photometric precision (0.01–0.02 mag at bright end), enabling sensitive variability constraints on faint LRDs."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The variability upper limits (3–10% in F444W) provide important constraints on the rest-frame optical continuum of LRDs, testing the AGN hypothesis, though no direct physical parameter measurements (e.g., BH mass, SED fitting) are performed."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The non-detection of variability in LRDs has high impact for understanding their nature, contributing to the AGN vs. starburst debate, and will be widely cited in LRD studies."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "Rigorous difference imaging analysis with well-characterized sensitivity curves, robust 3σ thresholds, and clear upper limit derivation, demonstrating a >30% improvement over aperture photometry."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
       "bibtex_key": "2026arXiv260702666L",
@@ -17492,9 +17613,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.259216589861737,
+    "average_score": 8.261098398169322,
     "median_score": 8.5,
-    "high_relevance_count": 409,
+    "high_relevance_count": 412,
     "moderate_relevance_count": 19,
     "low_relevance_count": 6
   }
