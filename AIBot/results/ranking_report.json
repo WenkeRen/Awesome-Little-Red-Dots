@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T06:55:33.108591",
-  "total_papers": 437,
-  "successfully_scored": 437,
+  "generated_at": "2026-07-29T06:53:21.009709",
+  "total_papers": 438,
+  "successfully_scored": 438,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -11170,6 +11170,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260722835G",
+      "title": "{Unsupervised selection and characterisation of Little Red Dots in JWST surveys with manifold learning}",
+      "abstract": "{Little Red Dots (LRDs) are compact, red sources discovered at high redshift by JWST whose physical nature and selection function remain debated. We investigate whether an unsupervised machine- learning approach applied to multi-band photometry can identify LRD-like objects, and other populations, without relying on predefined colour cuts. Using UMAP, a manifold-learning (dimensionality-reduction) method, we place \\raisebox{-0.5ex}\\textasciitilde242,000 isolated, well-measured sources from the ASTRODEEP-JWST catalogue on a two-dimensional map, where objects with similar broadband colours, morphology, and photometric redshift lie close together. We then use spectroscopically confirmed LRDs to identify where LRD-like objects lie within this map, compare the resulting areas with published colour cuts, and validate our data-driven selection against archival NIRSpec spectra from the DJA. We find that the spectroscopically selected LRDs concentrate in two well-defined regions with no colour cut imposed, tracing populations that differ mainly in redshift, a difference imprinted in their broadband colours. The main region reaches a purity of \\raisebox{-0.5ex}\\textasciitilde0.78 at \\raisebox{-0.5ex}\\textasciitilde0.82 completeness on the spectroscopically classified subset, competitive with, or cleaner than, literature colour cuts, and yields \\raisebox{-0.5ex}\\textasciitilde100 additional candidates. We also test the method as a general tool for population discovery: the manifold recovers the locations of brown dwarfs and broad- line AGN with no explicit criterion, and isolates rare pathological outliers. Overall, unsupervised manifolds, anchored by sparse high-confidence spectroscopic labels, provide an efficient, assumption-light framework for characterising populations, comparing selection methods on a common basis, and discovering rare objects in large photometric datasets.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ginolfi}, Michele'), Person('{Mannucci}, Filippo'), Person('{Marconi}, Alessandro'), Person(\"{D'Eugenio}, Francesco\"), Person('{Venturi}, Giacomo'), Person('{Belfiore}, Francesco'), Person('{Cresci}, Giovanni'), Person('{Bracci}, Caterina'), Person('{Carniani}, Stefano'), Person('{Cozzi}, Alessandra'), Person('{Maiolino}, Roberto'), Person('{Risaliti}, Guido')]",
+      "relevance_score": 8.3,
+      "justification": "This paper presents a highly relevant and innovative unsupervised ML method for LRD selection that improves upon traditional techniques, validated against JWST spectroscopy. While it does not delve deeply into physical properties, its impact on LRD population characterization and selection methodology is substantial.",
+      "key_factors": [
+        "UMAP manifold learning for LRD selection",
+        "Spectroscopic validation with purity/completeness metrics",
+        "Identifies two LRD populations differing in redshift",
+        "Outperforms literature color cuts",
+        "Yields ∼100 new LRD candidates"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots (LRDs), proposing a novel unsupervised selection method and characterizing their population using manifold learning. It directly addresses the LRD selection function and physical nature, making it highly core to LRD research."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses real JWST multi-band photometry from the ASTRODEEP-JWST catalogue and archival NIRSpec spectra from the DJA for validation. While no new observational data are presented, the analysis leverages state-of-the-art JWST datasets effectively."
+        },
+        "physical_properties": {
+          "score": 6.5,
+          "reasoning": "The paper focuses on selection and population discovery rather than detailed physical property measurements. It does identify two LRD populations differing in redshift based on broadband colors, but does not derive quantities like black hole masses or star formation rates."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Introduces a flexible, assumption-light framework that outperforms traditional color cuts in purity and completeness, yields ∼100 new candidates, and is applicable to other rare populations. This has significant potential to influence future LRD selection and high-redshift survey analyses."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The method is well-validated: anchored by spectroscopic labels, quantified with purity/completeness metrics, and compared against literature color cuts. The unsupervised manifold approach is robust, and the study includes outlier detection and multi-population testing."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024MNRAS.533.2948S",
       "title": "{A big red dot: scattered light, host galaxy signatures, and multiphase gas flows in a luminous, heavily reddened quasar at cosmic noon}",
       "abstract": "{We present a deep X-Shooter rest-frame ultraviolet (UV) to optical spectral analysis of the heavily reddened quasar, ULASJ2315+0143 at , known to reside in a major-merger host galaxy. The rest- frame optical is best fit by a dust-reddened quasar (E(B - V)) with black-hole mass , bolometric luminosity = and Eddington- scaled accretion rate log. We find remarkable similarities between ULASJ2315+0143 and the high-redshift little red dots (LRDs). The rest-frame UV cannot be explained by a dusty quasar component alone and requires an additional blue component consistent with either a star-forming host galaxy or scattered AGN light. We detect broad high-ionization emission lines in the rest-UV, supporting the scattered light interpretation for the UV excess. The scattering fraction represents just 0.05 per cent of the total luminosity of ULASJ2315+0143 . Analysis of the mid- infrared SED suggests an absence of hot dust on torus-scales similar to what is observed for LRDs. The obscuring medium is therefore likely on galaxy scales. We detect narrow, blueshifted associated absorption-line systems in C IV, N V, Si IV, and Si III. There is evidence for significant high-velocity (>1000 ) outflows in both the broad- and narrow-line regions as traced by C IV and [O III] emission. The kinetic power of the [O III] wind is . ULASJ2315+0143 is likely in an important transition phase where star formation, black-hole accretion and multiphase gas flows are simultaneously occurring.}",
@@ -17613,9 +17653,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.261098398169322,
+    "average_score": 8.261187214611859,
     "median_score": 8.5,
-    "high_relevance_count": 412,
+    "high_relevance_count": 413,
     "moderate_relevance_count": 19,
     "low_relevance_count": 6
   }
