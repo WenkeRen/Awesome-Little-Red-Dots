@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T06:54:41.049243",
-  "total_papers": 188,
-  "successfully_scored": 188,
+  "generated_at": "2026-07-31T07:04:15.158672",
+  "total_papers": 189,
+  "successfully_scored": 189,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -2715,6 +2715,47 @@
         }
       },
       "notebooklm_recommendation": "Highly recommended for NotebookLM as a key methodological reference for variability-driven LRD searches and BH demographic modeling."
+    },
+    {
+      "bibtex_key": "2024Natur.627..281A",
+      "title": "{A dynamical measure of the black hole mass in a quasar 11 billion years ago}",
+      "abstract": "{Tight relationships exist in the local Universe between the central stellar properties of galaxies and the mass of their supermassive black hole (SMBH)$^{1-3}$. These suggest that galaxies and black holes co-evolve, with the main regulation mechanism being energetic feedback from accretion onto the black hole during its quasar phase$^{4-6}$. A crucial question is how the relationship between black holes and galaxies evolves with time; a key epoch to examine this relationship is at the peaks of star formation and black hole growth 8-12 billion years ago (redshifts 1-3)$^{7}$. Here we report a dynamical measurement of the mass of the black hole in a luminous quasar at a redshift of 2, with a look back in time of 11 billion years, by spatially resolving the broad-line region (BLR). We detect a 40-{\\ensuremath{\\mu}}as (0.31-pc) spatial offset between the red and blue photocentres of the H{\\ensuremath{\\alpha}} line that traces the velocity gradient of a rotating BLR. The flux and differential phase spectra are well reproduced by a thick, moderately inclined disk of gas clouds within the sphere of influence of a central black hole with a mass of 3.2 {\\texttimes} {}10$^{8}$ solar masses. Molecular gas data reveal a dynamical mass for the host galaxy of 6 {\\texttimes} {}10$^{11}$ solar masses, which indicates an undermassive black hole accreting at a super-Eddington rate. This suggests a host galaxy that grew faster than the SMBH, indicating a delay between galaxy and black hole formation for some systems.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Abuter}, R.'), Person('{Allouche}, F.'), Person('{Amorim}, A.'), Person('{Bailet}, C.'), Person('{Berdeu}, A.'), Person('{Berger}, J.-P.'), Person('{Berio}, P.'), Person('{Bigioli}, A.'), Person('{Boebion}, O.'), Person('{Bolzer}, M.-L.'), Person('{Bonnet}, H.'), Person('{Bourdarot}, G.'), Person('{Bourget}, P.'), Person('{Brandner}, W.'), Person('{Cao}, Y.'), Person('{Conzelmann}, R.'), Person('{Comin}, M.'), Person(\"{Cl{\\\\'e}net}, Y.\"), Person('{Courtney-Barrer}, B.'), Person('{Davies}, R.'), Person('{Defr{\\\\`e}re}, D.'), Person(\"{Delboulb{\\\\'e}}, A.\"), Person('{Delplancke-Str{\\\\\"o}bele}, F.'), Person('{Dembet}, R.'), Person('{Dexter}, J.'), Person('{de Zeeuw}, P. T.'), Person('{Drescher}, A.'), Person('{Eckart}, A.'), Person(\"{{\\\\'E}douard}, C.\"), Person('{Eisenhauer}, F.'), Person('{Fabricius}, M.'), Person('{Feuchtgruber}, H.'), Person('{Finger}, G.'), Person('{F{\\\\\"o}rster Schreiber}, N. M.'), Person('{Garcia}, P.'), Person('{Garcia Lopez}, R.'), Person('{Gao}, F.'), Person('{Gendron}, E.'), Person('{Genzel}, R.'), Person('{Gil}, J. P.'), Person('{Gillessen}, S.'), Person('{Gomes}, T.'), Person(\"{Gont{\\\\'e}}, F.\"), Person('{Gouvret}, C.'), Person('{Guajardo}, P.'), Person('{Guieu}, S.'), Person('{Hackenberg}, W.'), Person('{Haddad}, N.'), Person('{Hartl}, M.'), Person('{Haubois}, X.'), Person('{Hau{\\\\ss}mann}, F.'), Person('{Hei{\\\\ss}el}, G.'), Person('{Henning}, Th.'), Person('{Hippler}, S.'), Person('{H{\\\\\"o}nig}, S. F.'), Person('{Horrobin}, M.'), Person('{Hubin}, N.'), Person('{Jacqmart}, E.'), Person('{Jocou}, L.'), Person('{Kaufer}, A.'), Person('{Kervella}, P.'), Person('{Kolb}, J.'), Person('{Korhonen}, H.'), Person('{Lacour}, S.'), Person('{Lagarde}, S.'), Person('{Lai}, O.'), Person('{Lapeyr{\\\\`e}re}, V.'), Person('{Laugier}, R.'), Person('{Le Bouquin}, J.-B.'), Person('{Leftley}, J.'), Person(\"{L{\\\\'e}na}, P.\"), Person('{Lewis}, S.'), Person('{Liu}, D.'), Person('{Lopez}, B.'), Person('{Lutz}, D.'), Person('{Magnard}, Y.'), Person('{Mang}, F.'), Person('{Marcotto}, A.'), Person('{Maurel}, D.'), Person(\"{M{\\\\'e}rand}, A.\"), Person('{Millour}, F.'), Person('{More}, N.'), Person('{Netzer}, H.'), Person('{Nowacki}, H.'), Person('{Nowak}, M.'), Person('{Oberti}, S.'), Person('{Ott}, T.'), Person('{Pallanca}, L.'), Person('{Paumard}, T.'), Person('{Perraut}, K.'), Person('{Perrin}, G.'), Person('{Petrov}, R.'), Person('{Pfuhl}, O.'), Person(\"{Pourr{\\\\'e}}, N.\"), Person('{Rabien}, S.'), Person('{Rau}, C.'), Person('{Riquelme}, M.'), Person('{Robbe-Dubois}, S.'), Person('{Rochat}, S.'), Person('{Salman}, M.'), Person('{Sanchez-Bermudez}, J.'), Person('{Santos}, D. J. D.'), Person('{Scheithauer}, S.'), Person('{Sch{\\\\\"o}ller}, M.'), Person('{Schubert}, J.'), Person('{Schuhler}, N.'), Person('{Shangguan}, J.'), Person('{Shchekaturov}, P.'), Person('{Shimizu}, T. T.'), Person('{Sevin}, A.'), Person('{Soulez}, F.'), Person('{Spang}, A.'), Person('{Stadler}, E.'), Person('{Sternberg}, A.'), Person('{Straubmeier}, C.'), Person('{Sturm}, E.'), Person('{Sykes}, C.'), Person('{Tacconi}, L. J.'), Person('{Tristram}, K. R. W.'), Person('{Vincent}, F.'), Person('{von Fellenberg}, S.'), Person('{Uysal}, S.'), Person('{Widmann}, F.'), Person('{Wieprecht}, E.'), Person('{Wiezorrek}, E.'), Person('{Woillez}, J.'), Person('{Zins}, G.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper combines a pioneering dynamical BH mass measurement at z~2 with a clear case of delayed BH-galaxy growth and super-Eddington accretion, providing a key benchmark for LRD evolutionary models. Its innovative GRAVITY technique and strong citation record (lrdIndex=10) underscore its importance, though its direct LRD connection is through conceptual relevance rather than explicit mention.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Direct dynamical BH mass measurement",
+        "Super-Eddington accretion at high-z",
+        "Spatially resolved BLR with GRAVITY",
+        "BH-galaxy growth delay"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "The paper does not explicitly mention Little Red Dots, but its findings on super-Eddington accretion, undermassive black holes, and delayed BH-galaxy growth are directly relevant to LRD evolutionary models. The 10 LRD citations confirm a strong indirect connection."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=10 indicates a solid citation count from LRD papers, reflecting consistent recognition and utility within the LRD community, though not among the most heavily cited."
+        },
+        "foundational_value": {
+          "score": 7.5,
+          "reasoning": "Provides a rare dynamical black hole mass measurement at high redshift, reinforcing the BLR disk model and the size-luminosity relation. While baseline knowledge for AGN researchers, its demonstration of a delayed coevolution scenario is a key addition to BH-galaxy growth frameworks."
+        },
+        "methodological_innovation": {
+          "score": 9.0,
+          "reasoning": "The use of GRAVITY/VLTI to achieve 40-microarcsecond spatial resolution of the broad-line region is a breakthrough technique. Although not directly applicable to LRDs due to their faintness, the concept of spatially resolving BLR kinematics is highly innovative and influential for future high-z studies."
+        },
+        "evolutionary_context": {
+          "score": 8.5,
+          "reasoning": "Directly addresses BH-galaxy coevolution at cosmic noon, finding a case where the host galaxy grew faster than the black hole. This provides a critical epoch comparison for LRD studies at even higher redshifts, informing models of rapid early growth and super-Eddington phases."
+        }
+      },
+      "notebooklm_recommendation": "Important for understanding BH-galaxy coevolution delays and super-Eddington accretion, foundational for LRD interpretation."
     },
     {
       "bibtex_key": "2023ApJ...952..143R",
@@ -7709,9 +7750,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.855585106382988,
+    "average_score": 7.857407407407416,
     "median_score": 8.1,
-    "critical_count": 114,
+    "critical_count": 115,
     "high_value_count": 67,
     "moderate_value_count": 5,
     "low_priority_count": 2

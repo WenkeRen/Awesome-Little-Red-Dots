@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T06:53:21.009709",
-  "total_papers": 438,
-  "successfully_scored": 438,
+  "generated_at": "2026-07-31T07:01:55.972948",
+  "total_papers": 440,
+  "successfully_scored": 440,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -320,6 +320,47 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Employs two independent SED fitting codes (CIGALE and PROSPECTOR) with Bayesian information criterion for model selection, and systematically tests multiple scenarios (SF-only, AGN-dominated, composite). The analysis is thorough and robust."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260726269Y",
+      "title": "{ATLAS. II. Extremely High Incidence of Balmer Line Absorption with Predominant Blueshifts in LRDs: Statistical Insights through Comparison with Type 1 AGNs}",
+      "abstract": "{We present the statistical properties of H$α$ and H$β$ line absorption in little red dots (LRDs) at $z\\simeq2.5$--7.2 using archival JWST/NIRSpec spectra from the DAWN JWST Archive and complementary NIRSpec/IFU observations. Among 40 LRDs with broad H$α$ and [O\\raisebox{-0.5ex}\\textasciitilde\\{\\textbackslashsc iii\\}] obtained with medium- or high-resolution gratings, 14 objects exhibit H$α$ absorption. We find that the incidence of Balmer line absorption is $\\sim35$\\textbackslash\\% ($=14/40$), significantly higher than that in SDSS low-$z$ type 1 AGNs ($\\sim0.04$\\textbackslash\\%), demonstrating that Balmer line absorption occurs approximately 850 times more frequently in LRDs than in type 1 AGNs. We combine our 14 detections with 32 additional LRD Balmer absorbers from the literature, yielding a census of 46 absorbers. Their velocities span $Δv\\_\\mathrm{abs}(\\mathrm{Hα})\\sim-430$ to $+140\\ {\\rm km\\,s^{-1}}$, markedly narrower than the $-800$ to $+1600\\ {\\rm km\\,s^{-1}}$ range of Balmer absorption in SDSS type\\raisebox{-0.5ex}\\textasciitilde1 AGNs, for which our simulations confirm that the velocity difference is too large to be explained by detection incompleteness. The lower absolute absorber velocities in LRDs may partly reflect the shallower gravitational potential at their characteristic BLR radii. We also find that 38 of the 46 absorbers (83\\textbackslash\\%) are blueshifted, with only eight redshifted, indicating that most of Balmer absorbers are moving outward. An analytic model with radiation pressure suggests that most absorbers with $N\\_{\\rm H}rsim10^{24}\\ {\\rm cm^{-2}}$ remains gravitationally bound. The smaller number of redshifted (i.e., infalling) absorbers may indicate that outbound absorbers lose density: some return to the BLR, whereas others undergo stronger radiative acceleration and escape.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Yanagisawa}, Hiroto'), Person('{Ouchi}, Masami'), Person('{Kiyota}, Tomokazu'), Person('{Ando}, Makoto'), Person('{Harikane}, Yuichi'), Person('{Kageura}, Yuta'), Person('{Nakane}, Minami'), Person('{Ono}, Yoshiaki'), Person('{Takeda}, Yui')]",
+      "relevance_score": 9.4,
+      "justification": "This paper directly targets Little Red Dots, presenting a striking discovery of an extremely high incidence of Balmer line absorption (35%) compared to type 1 AGNs, using JWST NIRSpec data. The statistical analysis, velocity measurements, and modeling provide fundamental insights into LRD outflows and their physical conditions, making it a high-impact contribution to LRD research.",
+      "key_factors": [
+        "JWST NIRSpec data",
+        "Large sample of 40 LRDs",
+        "850× higher Balmer absorption incidence than type 1 AGNs",
+        "Predominant blueshifts indicating outflows",
+        "Radiation pressure modeling",
+        "Comparison with low-z SDSS AGNs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely focused on Little Red Dots (LRDs), analyzing Balmer line absorption in a large sample of LRDs from JWST NIRSpec data. It provides new statistical insights and physical interpretations directly relevant to the nature of LRDs."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses archival JWST/NIRSpec medium/high-resolution and IFU data from the DAWN JWST Archive, a standard but powerful technique for high-redshift galaxy spectroscopy. The analysis includes careful velocity measurements and simulations to rule out incompleteness, demonstrating strong observational methodology."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives physical properties such as Balmer absorption incidence, velocity distributions, and blueshift fractions. Interprets results with gravitational potential and radiation pressure modeling, connecting to outflow dynamics, column densities, and bound/unbound states, offering crucial constraints on LRD physics."
+        },
+        "scientific_impact": {
+          "score": 10.0,
+          "reasoning": "The finding of a ~850× higher incidence of Balmer absorption in LRDs compared to low-z type 1 AGNs is a major discovery that reshapes our understanding of LRD spectral features and possible AGN activity. The large sample and statistical significance ensure high impact for the field of high-redshift galaxy evolution."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "The study employs a well-defined sample of 40 LRDs with broad Hα and [OIII] from medium/high-resolution gratings, combines with literature absorbers, and uses simulations to assess detection completeness. The analytic radiation pressure model is appropriately applied. The approach is systematic and robust."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -12692,6 +12733,45 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026PhRvD.114b3048S",
+      "title": "{Massive black holes seeded by dark matter: Implications for little red dots and gravitational wave signatures}",
+      "abstract": "{Observations of supermassive black holes (SMBHs) at high redshifts challenge standard seeding scenarios. We examine a dissipative self-interacting dark matter (dSIDM) model in which gravothermal collapse leads to the formation of massive BH seeds ab initio. We utilize a semianalytical framework to predict properties of the dSIDM-seeded SMBH population. Billion solar mass quasars are reproduced along with low-mass faint active galactic nuclei (known as little red dots) with SMBH-to-galaxy stellar mass ratios consistent with recent James Webb Space Telescope observations. To match the abundance of the observed bright quasars, a subpercent-level duty cycle is suggested, implying a large population of dormant SMBHs. The gravitational wave (GW) signals from mergers of these massive SMBHs can be detected by LISA while remaining within the NANOGrav constraints on the GW background. These results provide testable signatures of DM- driven SMBH formation, offering a pathway to probe hidden-sector physics through SMBH and GW observables.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Shen}, Tingwei'), Person('{Shen}, Xuejian'), Person('{Xiao}, Huangyu'), Person('{Vogelsberger}, Mark'), Person('{Jiang}, Fangzhou')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is highly relevant to LRD research, as it proposes a dark matter seeding scenario that reproduces the observed SMBH-to-stellar mass ratios and faint AGN nature of LRDs. While theoretical, it uses JWST constraints and provides testable GW predictions, making it a significant contribution to the LRD puzzle.",
+      "key_factors": [
+        "Directly addresses LRD mass ratios",
+        "Novel dark matter seeding mechanism",
+        "Connects to JWST observations",
+        "Testable GW predictions with LISA/NANOGrav"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly targets little red dots (LRDs) as a key observational challenge. It aims to explain their faint AGN nature and SMBH-to-galaxy stellar mass ratios within a dark matter seeding framework, directly addressing the central enigma of the LRD population."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "The work is theoretical and does not present new JWST observations. It uses existing observational constraints (e.g., mass ratios, abundance) to validate the model, but lacks direct data analysis or reduction."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The paper derives key physical properties of LRDs, including SMBH masses, stellar mass scaling relations, duty cycles, and connects them to GW signatures. It probes the seeding mechanism that shapes these properties, though detailed SED modeling is absent."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "By linking dark matter physics to LRD origins, the study offers a novel solution to the high-redshift SMBH puzzle. Testable predictions for LISA and NANOGrav provide a pathway to differentiate seeding models, significantly advancing the field."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The semi-analytical framework is appropriate for population studies, and the paper checks consistency with multiple observables. However, the reliance on simplified dark matter collapse physics and lack of detailed hydrodynamical simulations may limit precision."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026RNAAS..10..122M",
       "title": "{A Deep Spectroscopic Study of a JWST-discovered, Faint, Broad-line AGN at z {\\ensuremath{\\sim}} 5}",
       "abstract": "{In this work, we present deep NIRSpec/PRISM and NIRSpec/G395M observations of J0910M0414-BHAE-1, a broad-line active galactic nucleus at z = 4.910 {\\ensuremath{\\pm}} 0.003 initially discovered with NIRCam/WFSS. We detect rest-frame UV (e.g., Ly{\\ensuremath{\\alpha}}, C IV, C III], Mg II) and optical (H{\\ensuremath{\\gamma}}, H{\\ensuremath{\\beta}}, H{\\ensuremath{\\alpha}}, and [O III]) lines. By modeling the H{\\ensuremath{\\alpha}} line, we measure FWHM = 3351 {\\ensuremath{\\pm}} 66 km s$^{{\\ensuremath{-}}1}$, implying a supermassive black hole with log(MBH/M{\\ensuremath{\\odot}})=8.14{\\ensuremath{\\pm}}0.02. The bolometric luminosity (from the broad H{\\ensuremath{\\alpha}}) is (2.23 {\\ensuremath{\\pm}} 0.09) {\\texttimes} {}10$^{45}$ erg s$^{{\\ensuremath{-}}1}$ with an Eddington ratio of 0.11 {\\ensuremath{\\pm}} 0.01. The errors do not include the {\\ensuremath{\\sim}}0.3─0.5 dex systematic uncertainty of the single-epoch virial method. Comparing the object's spectral energy distribution to those of quasars and Little Red Dots suggests that the object bridges the gap between these classes.}",
@@ -17653,9 +17733,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.261187214611859,
+    "average_score": 8.26363636363635,
     "median_score": 8.5,
-    "high_relevance_count": 413,
+    "high_relevance_count": 415,
     "moderate_relevance_count": 19,
     "low_relevance_count": 6
   }
