@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T07:01:55.972948",
-  "total_papers": 440,
-  "successfully_scored": 440,
+  "generated_at": "2026-08-04T07:02:29.306555",
+  "total_papers": 445,
+  "successfully_scored": 445,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -644,6 +644,46 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Rigorous IFU spectral decomposition and spatial mapping, with careful separation of components, and analysis of multiple sources."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026MNRAS.550g1220I",
+      "title": "{The Cliff: a metal-poor little red dot hosting an overmassive black hole at z = 3.55}",
+      "abstract": "{The James Webb Space Telescope (JWST) has revealed a large population of massive black holes (BHs) in the early Universe with unusual properties which mark them as distinct from low-redshift active galactic nuclei. Such findings have prompted the development of new models of BH formation and growth, and of their co-evolution with host galaxies. Linking the gas-phase metallicity of BH environments to seed masses is key to understanding which evolutionary pathways could explain the population of JWST- discovered BHs. We present new high-resolution JWST NIRSpec/IFU observations covering the rest-frame optical emission lines of a Little Red Dot (LRD) at , known as The Cliff, from the 'Red Unknowns: Bright Infrared Extragalactic Survey' (RUBIES). We find evidence for low metallicity () based on the low narrow- line [O III]5007/ ratio, supported by the non-detection of low- ionization emission lines such as [O II]3727,3729 and [N II]6548,6583. We find that the observed properties of The Cliff, including its overmassive BH, can be reproduced by some simulations of BH growth and evolution down to . However, such outcomes require high seed masses () and appear rarely within a simulation volume comparable to the RUBIES volume, highlighting the unusual nature of The Cliff. Future simulations and numerical models will help to uncover how such a metal-poor system managed to develop a massive BH and persist to such low redshift.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ivey}, L. R.'), Person(\"{D'Eugenio}, F.\"), Person('{Maiolino}, R.'), Person('{Isobe}, Y.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Koudmani}, S.'), Person('{Perna}, M.'), Person('{Zhang}, S.'), Person('{Bromm}, V.'), Person('{Bunker}, A. J.'), Person('{Carniani}, S.'), Person('{Fabian}, A. C.'), Person('{Inayoshi}, K.'), Person('{Ji}, X.'), Person('{Jones}, G. C.'), Person('{Liu}, B.'), Person('{Pascalau}, R.'), Person('{Rinaldi}, P.'), Person('{Robertson}, B.'), Person('{Scholtz}, J.'), Person('{Tacchella}, S.')]",
+      "relevance_score": 9.2,
+      "justification": "This paper is a high-impact LRD study presenting JWST/NIRSpec IFU data for a metal-poor LRD at z=3.55, directly measuring physical properties and linking them to BH seed mass constraints. The exceptional data quality and clear scientific focus on an unresolved LRD puzzle make it a top-priority contribution.",
+      "key_factors": [
+        "JWST NIRSpec/IFU observations",
+        "Metal-poor LRD",
+        "Overmassive black hole",
+        "BH seed mass constraints",
+        "RUBIES survey sample"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is explicitly about a Little Red Dot (LRD) named 'The Cliff', with the title and abstract directly addressing LRD properties, making it a core LRD study."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Utilizes state-of-the-art JWST NIRSpec/IFU high-resolution spectroscopy, providing rest-frame optical emission line data essential for LRD characterization."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Measures gas-phase metallicity via [O III]5007/Hβ ratio and non-detections of low-ionization lines, constrains BH overmassiveness, and links findings to BH seed masses and evolutionary pathways."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Addresses critical questions on BH formation and co-evolution in early LRDs; the rarity of such metal-poor, overmassive BH systems in simulations highlights its importance for testing models."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Employs robust emission-line diagnostics, comparison with simulations, and careful consideration of non-detections; though a single-object study, the analysis is sound and tailored to the peculiar LRD population."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -1453,6 +1493,46 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs rigorous statistical tests to establish physical pairs and careful 2D spectroscopic decomposition to disentangle components, though some conclusions rely on speculative merger-driven interpretations."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1006..205R",
+      "title": "{Beyond the Dot: An LRD-like Nucleus at the Heart of an IR-bright Galaxy and its Implications for High-redshift LRDs}",
+      "abstract": "{Little red dots (LRDs) are compact, red sources discovered by JWST at high redshift (z {\\ensuremath{\\gtrsim}} 4), marked by distinctive ``V-shaped'' spectral energy distributions (SEDs) and often interpreted as rapidly accreting active galactic nuclei (AGNs). Their true nature remains unclear though, and their evolutionary connection to their lower-redshift counterparts is still poorly constrained. Thus, we present WISEA J123635.56+621424.2 (here dubbed the Saguaro), a z = 2.0145 galaxy in GOODS-North, as a possible analog of high-redshift LRDs and a potential missing link in their evolutionary path toward lower-redshift systems. It features a compact LRD-like nucleus surrounded by a face-on spiral host. Its connections to LRDs include the following: (1) its nuclear spectrum shows a clear ``V-shaped'' SED, and (2) when redshifted to z = 7, surface brightness dimming makes the host undetectable, thus mimicking an LRD. This suggests that high-redshift LRDs may be embedded in extended hosts. To test this, we stack rest-frame UV images of 99 photometrically selected LRDs, revealing faint, diffuse emission. Stacking in redshift bins reveals mild radial growth, consistent with the expected galaxy size evolution. A simple analytic model confirms that surface brightness dimming alone can explain their compact appearance. Lastly, we show that the Saguaro is not unique by describing similar objects from the literature at z {\\ensuremath{\\lesssim}} 3.5. Taken together, our results support a scenario in which LRDs may not be a distinct population, but could be the visible nuclei of galaxies undergoing a short-lived, (perhaps) AGN-dominated evolutionary phase, with their compact, red appearance driven largely by observational biases.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Rinaldi}, Pierluigi'), Person('{Rieke}, George H.'), Person('{Wu}, Zihao'), Person('{Gilbert}, Carys J. E.'), Person('{Pacucci}, Fabio'), Person('{Barchiesi}, Luigi'), Person('{Alberts}, Stacey'), Person('{Carniani}, Stefano'), Person('{Bunker}, Andrew J.'), Person('{Bhatawdekar}, Rachana'), Person(\"{D'Eugenio}, Francesco\"), Person('{Ji}, Zhiyuan'), Person('{Johnson}, Benjamin D.'), Person('{Hainline}, Kevin'), Person('{Kokorev}, Vasily'), Person('{Kumari}, Nimisha'), Person('{Iani}, Edoardo'), Person('{Lyu}, Jianwei'), Person('{Maiolino}, Roberto'), Person('{Parlanti}, Eleonora'), Person('{Robertson}, Brant E.'), Person('{Sun}, Yang'), Person('{Vignali}, Cristian'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Zhu}, Yongda')]",
+      "relevance_score": 9.0,
+      "justification": "This paper is highly relevant to LRD research, providing a compelling low-redshift analog and stacking evidence that LRDs may be embedded in extended hosts, with their compactness largely due to surface brightness dimming. It directly addresses the nature and evolutionary path of LRDs, challenging the idea of a distinct population, and thus carries significant scientific impact.",
+      "key_factors": [
+        "Low-redshift LRD analog (Saguaro) with V-shaped SED",
+        "Stacking of 99 photometrically selected LRDs reveals diffuse hosts",
+        "Surface brightness dimming model explains compact appearance at high-z",
+        "Evolutionary scenario: LRDs as visible nuclei of galaxies in a short-lived phase",
+        "Implications that LRDs may not be a distinct population"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on LRD research, presenting a low-redshift analog, stacking analysis of 99 LRDs, and a model to explain their compact appearance, directly addressing the nature and evolutionary connection of LRDs."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses JWST NIRSpec spectrum of the analog nucleus (V-shaped SED) and stacking of rest-frame UV images from a large photometric LRD sample, combined with surface brightness dimming model, all appropriate for the science goals."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Investigates host galaxy properties of LRDs through stacking (faint diffuse emission, radial growth with redshift), the V-shaped SED of the nucleus, and the impact of surface brightness dimming, but does not directly measure quantities like BH mass or star formation rates."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Challenges the prevailing interpretation of LRDs as a distinct population, suggesting they are the visible nuclei of galaxies in a short-lived phase, with observational biases driving their compact appearance—a potentially paradigm-shifting result supported by stacking evidence."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Employs a multi-pronged approach: identification of a local analog, stacking of a large LRD sample in redshift bins, analytic modeling of surface brightness dimming, and comparison with literature objects, demonstrating a thorough and well-justified methodology."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -8272,6 +8352,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1006L..42A",
+      "title": "{A Dust-free Hierarchically Nested Supermassive-star Model for James Webb Space Telescope Little Red Dots}",
+      "abstract": "{Observations by the James Webb Space Telescope reveal a population of high-redshift objects, the little red dots. These sources exhibit optical reddening alongside blue ultraviolet continua, host broad Balmer lines indicative of active black holes, and lack detectable X-ray emission. Their cosmic abundance at early epochs exceeds standard Eddington-limited growth timescales. Prevailing models invoke specific dust geometries to reconcile these traits. We propose a dust-free physical framework. We evaluate the concept that the dust-poor subset of little red dots represents the observational manifestation of hierarchically nested supermassive stars. A primary radiation- dominated envelope traps a nuclear star cluster. Plunging stars drive a magnetic dynamo that inflates the envelope. This produces the red optical continuum. Unobscured infalling stars yield the blue ultraviolet excess. Trapped stellar debris sediments to form a high-density secondary core within this Compton-thick host. This nested topology thermalizes X-rays and powers the broad hydrogen {\\ensuremath{\\alpha}} features. The central seed accretes at the global radiation limit of the host envelope. This kinetic bypass shortens the assembly timescale from hundreds of millions of years to tens of millions of years.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Amaro Seoane}, Pau')]",
+      "relevance_score": 8.5,
+      "justification": "This theoretical paper proposes a compelling dust-free model for Little Red Dots that directly tackles the observed multi-wavelength properties and growth timescale paradox. Its high relevance, physical depth, and potential to resolve key LRD tensions warrant a strong score, despite being purely interpretive without new observations.",
+      "key_factors": [
+        "Novel dust-free hierarchical supermassive star model",
+        "Explains LRD red continuum, blue UV excess, broad Hα, and X-ray suppression",
+        "Resolves Eddington-limited growth timescale tension",
+        "Provides an alternative to prevailing dust geometry interpretations",
+        "Introduces magnetic dynamo and nested core mechanisms"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely dedicated to Little Red Dots (LRDs), proposing a dedicated physical model to explain their observed properties. The title and abstract explicitly target LRDs, making it highly focused on the core subject."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "This is a theoretical paper with no new observational data. It relies on existing JWST observations to motivate the model, but does not present or analyze data itself. Score reflects limited direct observational contribution."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The model provides a detailed physical scenario: hierarchically nested supermassive stars, magnetic dynamo-driven envelope inflation, blue UV excess from unobscured infalling stars, Compton-thick secondary core thermalizing X-rays, and an accretion shortcut that reduces growth timescales. It addresses continuum colors, broad lines, X-ray suppression, and the Eddington limit paradox."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "If validated, this dust-free model would resolve major tensions in LRD interpretations (reddening, UV excess, missing X-rays, growth timescales) and shift the paradigm from dust geometry solutions to a stellar-dynamical framework. It has high potential to influence future LRD modeling and observations."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The abstract presents a coherent physical framework with specific mechanisms (magnetic dynamo, sedimentation, Compton-thick nested core, radiation-limited accretion). While full quantitative simulations are not detailed, the model is conceptually rigorous and addresses multiple observables consistently."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025ApJ...988L..22I",
       "title": "{Little Red Dots as the Very First Activity of Black Hole Growth}",
       "abstract": "{The James Webb Space Telescope has detected massive black holes (BHs) with masses of {\\ensuremath{\\sim}}10$^{6‑8}$ M$\\_{{\\ensuremath{\\odot}}}$ within the first billion years of the Universe. One of the remarkable findings is the identification of ``little red dots'' (LRDs), a unique class of active galactic nuclei (AGNs) with distinct characteristics representing a key phase in the formation and growth of early BHs. Here, we analyze the occurrence rate of LRDs, which emerge around redshifts z {\\ensuremath{\\sim}} 6{\\textendash}8 and sharply decline at z < 4. We find that this trend follows a log-normal distribution, commonly observed in phenomena driven by stochastic and random factors. We propose a hypothesis that the first one or two AGN events associated with newly formed seed BHs are observed as LRDs, and their unique features fade in the subsequent episodes. This naturally explains the cosmic evolution of AGN abundance over 0 < z < 5, which follows {\\ensuremath{\\propto}}(1 + z)$^{‑5/2}$ due to the cumulative effect of recurring AGN activity. The unique characteristics of LRDs are likely linked to the dense gas environments around the seed BHs, which create strong absorption features in the broad-line emission and enable super-Eddington accretion bursts, ultimately yielding the observed overmassive nature of BHs compared to the local relationship. An analytical expression for the redshift evolution of LRD abundance is provided for direct comparison with future observational constraints.}",
@@ -9235,6 +9355,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Employs multiple independent measurement techniques and validates results with spectroscopic subsample. Uses stacking analysis to enhance signal-to-noise. Abstract lacks explicit mention of systematic error analysis, completeness corrections, or detailed statistical significance testing which would strengthen the methodological foundation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260728715D",
+      "title": "{Misaligned or chaotic? A strong break of axial symmetry in the local LRD J1025 revealed with VLT/FORS2 spectropolarimetry}",
+      "abstract": "{Little Red Dots (LRDs) are compact active galactic nuclei (AGN) with unusual spectral energy distributions and broad Balmer emission, candidate signposts of rapid black-hole growth. We present VLT/FORS2 optical linear spectropolarimetry of the closest known LRD, SDSS J102530.29+140207.3, at z=0.1. In total light, we detect spatially extended narrow-H$α$ emission, probably tracing the host galaxy. We measure a nearly grey continuum polarisation $p\\_{\\rm cont}=1.53\\pm0.04$(rand.)$\\pm$0.20(syst.) per cent, while broad H$α$ is less polarised, $p\\_{\\rm Hα}=0.58-0.84$ per cent. We rule out polarisation by Milky Way dust and dilution by an unpolarised line. The polarised continuum with a depolarised line resembles local Seyfert-1 nuclei and favours a single dominant source over multi-source explanations. After Stokes- continuum subtraction, broad H$α$ shows no blue-to-red swing, but there is a significant (48$\\pm$4)$^\\circ$ continuum-to-line offset in polarisation angle. This implies a break of axial symmetry inside this object, posing interesting geometrical challenges to all existing LRD models and frameworks. We discuss different possible origins of this symmetry break and possible paths to discriminate between them with future observations.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person(\"{D'Eugenio}, Francesco\"), Person('{Pezzulli}, Gabriele'), Person('{Maiolino}, Roberto'), Person('{Marconi}, Alessandro'), Person('{Ji}, Xihan'), Person('{Ramos Almeida}, Cristina'), Person('{Ferrara}, Andrea'), Person('{Madau}, Piero'), Person('{Lin}, Xiaojing'), Person(\"{Acosta-Pulido}, Jos{\\\\'e} A.\"), Person('{Bian}, Fuyan'), Person('{Brazzini}, Matilde'), Person('{Cai}, Zheng'), Person('{Carniani}, Stefano'), Person('{Fan}, Xiaohui'), Person('{Juod{\\\\v{z}}balis}, Ignas'), Person('{Pascalau}, Robert G.'), Person('{Scholtz}, Jan'), Person('{Simmonds}, Charlotte'), Person('{Sun}, Fengwu'), Person('{Tacchella}, Sandro')]",
+      "relevance_score": 8.5,
+      "justification": "This paper presents a detailed spectropolarimetric study of the nearest LRD, revealing a break in axial symmetry that challenges current models. It provides unique geometric constraints on LRD structure, making it highly relevant to understanding the nature of these enigmatic objects. The use of VLT spectropolarimetry adds a new dimension to LRD research, though the study is limited to one target.",
+      "key_factors": [
+        "VLT spectropolarimetry",
+        "Axial symmetry break",
+        "Close local LRD J1025",
+        "Geometric constraints",
+        "Challenges LRD models"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly targets a confirmed Little Red Dot (SDSS J102530.29+140207.3), the closest known LRD at z=0.1, and directly addresses its nature through polarimetry. The title and abstract clearly frame the study within the LRD context, discussing implications for LRD models."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses VLT/FORS2 optical spectropolarimetry, a novel technique for LRDs that provides unique geometric information. The analysis of continuum and broad Hα polarization, Stokes subtraction, and systematic error assessment is well-suited to probing the central engine. However, ground-based data are limited compared to JWST, and only one object is studied."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The polarimetry reveals a strong break of axial symmetry (48° offset in polarization angle), ruling out simple axisymmetric models. This constrains the geometry of the broad-line region and continuum source, touching on the fundamental structure of LRDs. It does not directly measure BH mass or dust properties, but the symmetry-breaking result is a key physical insight."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The finding of a significant continuum-to-line polarization angle offset challenges existing LRD frameworks (e.g., flat disk or torus models) and points to complex, non-axisymmetric geometry. This could stimulate new models and observations, though the impact is somewhat tempered by the single-object nature and the need for follow-up."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis is careful: they rule out Milky Way dust and dilution, perform Stokes subtraction, and quantify systematic uncertainties. The interpretation is cautious, discussing multiple possible origins. The sample size is small, but the methods are standard for spectropolarimetry and applied appropriately."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -13815,6 +13975,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1006..172M",
+      "title": "{Aether-SHELLQs: JWST Integral-field Spectroscopy of Candidate Obscured Quasars at z {\\ensuremath{\\sim}} 6}",
+      "abstract": "{We present James Webb Space Telescope (JWST) NIRSpec integral field unit (IFU) observations of six galaxies at z {\\ensuremath{\\sim}} 6, obtained as part of the Aether project (General Observers program 5645). The targets were originally identified by the Subaru High-z Exploration of Low-Luminosity Quasars (SHELLQs) survey as candidate obscured quasars with luminous ({\\ensuremath{\\gtrsim}}{}10$^{43}$ erg s$^{{\\ensuremath{-}}1}$) but narrow ({\\ensuremath{\\lesssim}}500 km s$^{{\\ensuremath{-}}1}$) Ly{\\ensuremath{\\alpha}} emission. Two objects exhibit a broad component in their Balmer lines (FWHM > 3000 km s$^{{\\ensuremath{-}}1}$), indicating the presence of active galactic nuclei (AGNs), while the remaining four show similar profiles in permitted and forbidden lines. Combining these data with similar SHELLQs objects reported previously, we find that the presence of broad lines is strongly correlated with Ly{\\ensuremath{\\alpha}} luminosity (L$\\_{Ly{\\ensuremath{\\alpha}}}$); the inferred AGN fraction is >77\\% and <15\\% above and below L$\\_{Ly{\\ensuremath{\\alpha}}}$ = {}10$^{44}$ erg s$^{{\\ensuremath{-}}1}$, respectively. Dust- extinction corrections inferred from the Balmer decrement would imply unrealistically high Ly{\\ensuremath{\\alpha}} luminosities, suggesting that the line-emitting gas consists of multiple zones. The IFU data reveal diverse spatial structures. The AGN hosts are compact, whereas the other galaxies show extended ionized gas on scales up to 10 kpc and star formation rates of 60─600 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{{\\ensuremath{-}}1}$. One of the extended objects exhibits a signature of rotation, while most of the others show little ordered kinematics, with velocity widths (FWHM) up to 200─300 km s$^{{\\ensuremath{-}}1}$. These objects populate the intermediate luminosity regime between classical luminous quasars and the low-luminosity AGNs discovered by JWST, including little red dots, potentially linking the two populations.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Matsuoka}, Yoshiki'), Person('{Decarli}, Roberto'), Person('{Farina}, Emanuele Paolo'), Person('{Gloudemans}, Anniek J.'), Person('{Ba{\\\\textasciitilde n}ados}, Eduardo'), Person('{Arrigoni Battaia}, Fabrizio'), Person('{Eilers}, Anna-Christina'), Person('{Mazzucchelli}, Chiara'), Person('{Strauss}, Michael A.'), Person('{Suh}, Hyewon'), Person('{Trebitsch}, Maxime'), Person('{Walter}, Fabian'), Person('{Wang}, Feige'), Person('{Aoki}, Kentaro'), Person('{Arita}, Junya')]",
+      "relevance_score": 8.1,
+      "justification": "This paper presents JWST NIRSpec IFU spectroscopy of six candidate obscured quasars at z~6, explicitly linking them to the Little Red Dot population. While it provides rich physical characterization and identifies a Lyα luminosity threshold for AGN activity, the direct LRD connection remains speculative, resulting in a high but not top-tier relevance score.",
+      "key_factors": [
+        "JWST NIRSpec IFU data",
+        "Explicit LRD connection",
+        "AGN fraction vs Lyα luminosity correlation",
+        "Spatially resolved kinematics",
+        "Intermediate luminosity regime bridging populations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.5,
+          "reasoning": "The paper studies candidate obscured quasars at z~6, not Little Red Dots (LRDs) directly, but explicitly discusses their potential to link classical luminous quasars and low-luminosity AGNs discovered by JWST, including LRDs. The LRD connection is a secondary but motivated aspect of the interpretation."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses JWST NIRSpec integral field unit (IFU) spectroscopy, which is the premier tool for spatially resolved studies of high-redshift galaxies and directly applicable to the characterization of LRDs. The IFU data provide detailed spatial and kinematic information."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives key physical properties: AGN identification via broad Balmer lines, a strong Lyα luminosity–AGN fraction correlation, dust extinction anomalies implying multi-zone gas, resolved ionized gas kinematics (including rotation), and star formation rates (60–600 M☉ yr⁻¹). These are directly relevant to the physical characterization of LRDs."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The paper proposes a potential evolutionary link between obscured quasars and LRDs, bridging two populations. However, the sample is small (6 objects) and the connection remains speculative, limiting immediate transformative impact on LRD research."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs careful IFU data analysis, decomposition of line profiles, assessment of dust extinction, and spatial-kinematic mapping. The correlation analysis using both new and previously reported SHELLQs objects strengthens the findings. Small sample size is a limitation, but the analysis is thorough and robust."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260521589T",
       "title": "{A Magnetized Black Hole Envelope Model for Little Red Dots}",
       "abstract": "{Recent observations have revealed a unique class of active galactic nuclei (AGNs), termed little red dots (LRDs). These objects are hypothesized to be powered by massive black holes rapidly accreting in dense gaseous environments. Theoretical studies suggest that the circum-nuclear gas can form an optically thick black hole envelope (BHE), whose structure resembles the atmospheres of convective stars near the Hayashi limit. Given that such cool stars typically generate magnetic fields, we propose a dynamical and spectral model for an LRD enshrouded by a magnetized BHE. Assuming spherical free-fall accretion onto a rotating, magnetized BHE, our model accounts for key observational properties of LRDs. We propose that the Doppler component of broad emission lines originates from plasma clumps co-rotating within the BHE magnetosphere. Including additional broadening due to electron scattering allows the resulting line profile to be fitted by a combination of a Gaussian core and an exponential tail. This model can reproduce Doppler components up to a few thousand ${\\rm km\\textasciitilde s^{-1}}$. We suggest that conventional black hole mass estimation methods based on the virial relation may yield erroneous results. Furthermore, our model is consistent with X-ray non-detections in LRDs. We evaluate the X-ray luminosities of two potential sources: the post-shock region of accretion shocks and a magnetically heated corona. We find that these X-ray luminosities are constrained to $\\lesssim 10^{41}\\textasciitilde {\\rm erg\\textasciitilde s^{-1}}$ across a wide range of black hole masses ($10^5 M\\_\\odot \\lesssim M\\_{\\rm BH}\\lesssim 10^7M\\_\\odot$) and accretion rates, consistent with current upper limits on X-ray emission.}",
@@ -17733,9 +17933,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.26363636363635,
+    "average_score": 8.268089887640434,
     "median_score": 8.5,
-    "high_relevance_count": 415,
+    "high_relevance_count": 420,
     "moderate_relevance_count": 19,
     "low_relevance_count": 6
   }
