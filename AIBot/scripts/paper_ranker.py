@@ -2,23 +2,23 @@
 LRD Paper Relevance Ranking Script
 
 This script processes the LRD bibliography (aslrd.bib) and ranks each paper's
-relevance to Little Red Dot research using AI backends (Volcengine ARK or Google Gemini).
+relevance to Little Red Dot research using AI backends (Volcengine ARK, DeepSeek, or Google Gemini).
 
 ⚡ Resume Support: By default, the script will skip papers that are already ranked
 in the existing ranking_report.json file. Use --no-resume to process all papers from scratch.
 
 Usage:
     # Resume ranking (default - skips already-ranked papers)
-    python paper_ranker.py --backend volcengine
+    python paper_ranker.py --backend deepseek
 
     # Resume with limit (processes N NEW papers)
-    python paper_ranker.py --backend volcengine --limit 20
+    python paper_ranker.py --backend deepseek --limit 20
 
     # Process all papers from scratch (do not skip)
-    python paper_ranker.py --backend volcengine --no-resume
+    python paper_ranker.py --backend deepseek --no-resume
 
     # Test on first 10 NEW papers
-    python paper_ranker.py --backend volcengine --test-mode --limit 10
+    python paper_ranker.py --backend deepseek --test-mode --limit 10
 
 Output:
     Creates AIBot/results/ranking_report.json with relevance scores and justifications.
@@ -44,6 +44,7 @@ from tqdm import tqdm
 sys.path.insert(0, str(Path(__file__).parent))
 
 # Import both clients (will be chosen dynamically)
+from deepseek_client import DeepSeekRankingClient, DeepSeekRankingError
 from gemini_client import GeminiRankingClient, GeminiRankingError
 from volcengine_client import VolcengineRankingClient, VolcengineRankingError
 
@@ -126,17 +127,17 @@ def load_existing_report(output_path: str) -> Optional[Dict[str, Any]]:
 
 def rank_papers(
     papers: Dict[str, Any],
-    client: Union[GeminiRankingClient, VolcengineRankingClient],
+    client: Union[DeepSeekRankingClient, GeminiRankingClient, VolcengineRankingClient],
     output_path: str,
     limit: Optional[int] = None,
     resume: bool = True,
 ) -> List[Dict[str, Any]]:
     """
-    Rank papers using AI backend (Volcengine or Gemini) with incremental saving.
+    Rank papers using AI backend (Volcengine, DeepSeek, or Gemini) with incremental saving.
 
     Args:
         papers: Dictionary of paper information
-        client: RankingClient instance (Gemini or Volcengine)
+        client: RankingClient instance (DeepSeek, Gemini, or Volcengine)
         output_path: Path to output JSON file (for incremental saving)
         limit: Maximum number of NEW papers to process (None for all)
         resume: If True, skip papers already in existing report (default: True)
@@ -237,7 +238,7 @@ def rank_papers(
 
             tqdm.write(f"  ✓ Saved progress ({idx}/{len(paper_items)} papers)")
 
-        except (GeminiRankingError, VolcengineRankingError) as e:
+        except (DeepSeekRankingError, GeminiRankingError, VolcengineRankingError) as e:
             failed += 1
             tqdm.write(f"  ❌ Failed to rank {bibtex_key}: {e}")
 
@@ -377,7 +378,7 @@ def main():
     # Script is in AIBot/scripts/, so we need parent.parent.parent to get to repo root
     repo_root = Path(__file__).parent.parent.parent
 
-    parser = argparse.ArgumentParser(description="Rank LRD papers by relevance using Google Gemini AI")
+    parser = argparse.ArgumentParser(description="Rank LRD papers by relevance using AI")
     parser.add_argument(
         "--bib-file",
         default=str(repo_root / "library" / "aslrd.bib"),
@@ -411,9 +412,9 @@ def main():
     )
     parser.add_argument(
         "--backend",
-        choices=["volcengine", "gemini"],
-        default="volcengine",
-        help="AI backend to use (default: volcengine)",
+        choices=["deepseek", "volcengine", "gemini"],
+        default="deepseek",
+        help="AI backend to use (default: deepseek)",
     )
     parser.add_argument(
         "--model",
@@ -432,6 +433,8 @@ def main():
     if args.model is None:
         if args.backend == "volcengine":
             args.model = "deepseek-v4-pro-260425"
+        elif args.backend == "deepseek":
+            args.model = "deepseek-v4-pro"
         else:  # gemini
             args.model = "gemini-2.5-flash"
 
@@ -450,6 +453,11 @@ def main():
             print("❌ Error: ARK_API_KEY not found in environment")
             print("   Set it in .env file or export ARK_API_KEY=your_key")
             sys.exit(1)
+    elif args.backend == "deepseek":
+        if not (os.getenv("DS_API_KEY") or os.getenv("DEEPSEEK_API_KEY")):
+            print("❌ Error: DS_API_KEY or DEEPSEEK_API_KEY not found in environment")
+            print("   Set one of them in .env file or export DS_API_KEY=your_key")
+            sys.exit(1)
     else:  # gemini
         if not os.getenv("GEMINI_API_KEY"):
             print("❌ Error: GEMINI_API_KEY not found in environment")
@@ -462,6 +470,11 @@ def main():
 
         if args.backend == "volcengine":
             client = VolcengineRankingClient(
+                criteria_path=args.criteria,
+                model_name=args.model,
+            )
+        elif args.backend == "deepseek":
+            client = DeepSeekRankingClient(
                 criteria_path=args.criteria,
                 model_name=args.model,
             )

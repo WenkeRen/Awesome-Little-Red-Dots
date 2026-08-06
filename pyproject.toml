@@ -16,6 +16,7 @@ tqdm = "^4.67.0"
 google-genai = "^1.0.0"
 volcengine-python-sdk = "^1.0.0"
 setuptools = "^75.0.0"
+openai = "^1.109.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.0"
