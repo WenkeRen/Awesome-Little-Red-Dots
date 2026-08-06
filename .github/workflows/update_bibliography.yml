@@ -70,18 +70,18 @@ jobs:
       - name: Rank new LRD papers
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
         env:
-          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          DS_API_KEY: ${{ secrets.DS_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
-          poetry run python AIBot/scripts/paper_ranker.py --backend volcengine --model deepseek-v4-pro-260425
+          poetry run python AIBot/scripts/paper_ranker.py --backend deepseek --model deepseek-v4-pro
 
       - name: Rank new kick_off papers
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
         env:
-          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          DS_API_KEY: ${{ secrets.DS_API_KEY }}
           GITHUB_ACTIONS: true
         run: |
-          poetry run python AIBot/scripts/kick_off_ranker.py --backend volcengine --model deepseek-v4-pro-260425
+          poetry run python AIBot/scripts/kick_off_ranker.py --backend deepseek --model deepseek-v4-pro
 
       - name: Generate NotebookLM paper list
         if: steps.check_aslrd.outputs.aslrd_changed == 'true'
