@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T06:58:28.789777",
-  "total_papers": 447,
-  "successfully_scored": 447,
+  "generated_at": "2026-08-06T06:59:20.948576",
+  "total_papers": 448,
+  "successfully_scored": 448,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -17057,6 +17057,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260802739H",
+      "title": "{Galaxy-LRD Strong Lenses: A Missing Population?}",
+      "abstract": "{The physical nature of Little Red Dots (LRDs) remains uncertain, although these abundant, compact, and red sources may offer important insights into early black-hole growth and galaxy formation. Strong gravitational lensing can magnify LRDs and spatially resolve their internal structure, thereby helping to discriminate among competing physical scenarios. However, no galaxy-scale strongly lensed LRD has yet been securely confirmed. To predict the abundance of such systems in current and future surveys and to guide dedicated searches, we present the first benchmark estimate of the detectable population of galaxy-scale lensed LRDs by combining literature-based LRD source models with a population of foreground early-type galaxy deflectors. Our Monte Carlo simulation spans $50\\textasciitilde {\\rm deg}^{2}$ and contains 270,713 LRDs and 5,460,841 deflectors. We predict idealized surface densities of $10.70\\pm3.76\\textasciitilde {\\rm deg}^{-2}$ for doubles and $0.64\\pm0.69\\textasciitilde {\\rm deg}^{-2}$ for quads. After accounting for the JWST point-spread function and survey limiting magnitudes, the detectable surface densities decrease to $3.70\\pm1.89\\textasciitilde {\\rm deg}^{-2}$ and $0.52\\pm0.58\\textasciitilde {\\rm deg}^{-2}$, respectively. For the de-duplicated $0.66\\textasciitilde {\\rm deg}^{2}$ footprint covered by COSMOS-Web, PRIMER-UDS, PRIMER- COSMOS, CEERS, JADES GOODS-S, and JADES GOODS-N, for which the reported limiting depths are combined through area-weighted averaging in flux space, the predicted probabilities of detecting no systems are $8.6\\%$ for doubles and $70.8\\%$ for quads.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{He}, Zizhao'), Person('{Li}, Nan'), Person('{Dye}, Simon'), Person('{Er}, Xinzhong'), Person('{Shu}, Fuwen')]",
+      "relevance_score": 6.8,
+      "justification": "This paper provides the first benchmark estimate of galaxy-scale strongly lensed LRDs, integrating literature-based LRD source models with a realistic deflector population and JWST detection limits. While it does not derive new physical properties of LRDs, its simulation is rigorous and directly supports observational efforts to find and resolve lensed LRDs. The work is relevant for planning future surveys and interpreting current non-detections, but its impact is mostly preparatory rather than transformative for LRD science.",
+      "key_factors": [
+        "Strong lensing prediction",
+        "LRD source models",
+        "JWST detectability analysis",
+        "Survey footprint combination",
+        "Non-detection probability estimates"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.0,
+          "reasoning": "The paper directly addresses the population of Little Red Dots (LRDs) by predicting the abundance of galaxy-scale strongly lensed LRDs. Its primary motivation is to discriminate among physical scenarios for LRDs, and it uses LRD source models from the literature. The entire study is built around the LRD phenomenon, making it highly relevant to the research area."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "The paper incorporates JWST point-spread function and survey limiting magnitudes to estimate detectable surface densities of lensed LRDs. It simulates the impact of real observational constraints, but it does not present or analyze actual JWST observations of LRDs. The work is a theoretical prediction rather than an observational study."
+        },
+        "physical_properties": {
+          "score": 4.0,
+          "reasoning": "No new constraints are placed on the physical properties (e.g., SED, size, AGN fraction) of LRDs. The paper relies on existing LRD source models from the literature and makes no attempt to refine or test these properties directly; its focus is on lensing statistics."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The paper addresses a clear gap—the absence of confirmed lensed LRDs—and provides the first benchmark predictions. This can guide dedicated searches and help interpret non-detections, thereby impacting future survey strategies. However, the work is largely predictive and its influence depends on subsequent observational follow-up."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The simulation is well described, combining a large Monte Carlo sample of LRDs and deflectors, and carefully accounting for JWST PSF and survey depth. The treatment of multiple survey footprints and area-weighted limiting magnitudes demonstrates a thorough and reproducible approach."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026A&A...709A..46A",
       "title": "{The AGN nature of strong C III] emitters in the early Universe with JWST}",
       "abstract": "{The semi-forbidden C III] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}1907,1909 doublet is a key tracer of high-ionisation emission in the early Universe. We present a study of C III] emission in galaxies at z = 5 {\\ensuremath{-}} 7, using publicly available JWST/NIRSpec prism data from programmes including CEERS, JADES, and RUBIES, along with data from the ongoing CAPERS survey. We built a sample of 61 C III]-emitting galaxies, and we classified them as star- forming galaxies (SFGs) or active galactic nucleus (AGN) host galaxies using (1) rest-frame UV and optical emission-line diagnostic diagrams, and (2) the presence or absence of broad Balmer emission lines. The UV diagnostics are based on the combination of the rest-frame equivalent width (EW) of C III] versus the ratio C III]/He II{\\ensuremath{\\lambda}}1640, and the EW of C IV versus the ratio C IV/He II{\\ensuremath{\\lambda}}1640. For optical diagnostics, we used the OHNO diagram, which combines four optical emission lines that span a range in ionization potential: [O III] {\\ensuremath{\\lambda}}5008, H{\\ensuremath{\\beta}}, [Ne III] {\\ensuremath{\\lambda}}3869, and [O II] {\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}3726,3729. We find that it separates AGNs from SFGs with low efficiency. Half of the sources in our sample (29 out of 61 galaxies) exhibit at least one secure indication of AGN activity, while 13 are potential AGNs based on the C III] diagnostic. We derived physical properties, including stellar mass and star formation rate, through spectral energy distribution modelling with BAGPIPES. Our analysis shows that JWST is uncovering a population of strong C III] emitters at high redshift (5 < z < 7) with a median EW of 22.8 {\\r{A}} (16th─84th percentile: 12.5─51.5 {\\r{A}}). This EW exceeds than that of a control sample of C III] emitters at intermediate redshift (3 < z < 4), which have a median EW of 4.7 {\\r{A}}. For the same range of M$\\_{UV}$, the C III] EW increases by {\\ensuremath{\\sim}}0.67 dex from 3 < z < 4 to 5 < z < 7, indicating strong redshift evolution in the line strength. We also find that C III] emitters span the full range of the star-forming main sequence, where the majority of galaxies below the sequence have a high C III] EW. Finally, we identify five sources in our sample as little red dots (LRDs) according to the selection criteria in the literature; four of these have already been identified as LRDs, while one is presented here for the first time.}",
@@ -18013,10 +18053,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.269574944071575,
+    "average_score": 8.26629464285713,
     "median_score": 8.5,
     "high_relevance_count": 422,
-    "moderate_relevance_count": 19,
+    "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }
 }

@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-08-05T06:58:32.014284
+Generated: 2026-08-06T06:59:24.733787
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -45,37 +45,37 @@ LRD PAPERS (Top 200 by relevance score)
  32. 2605.14233  (score: 9.0, key: 2026arXiv260514233P)
  33. 2606.26098  (score: 9.0, key: 2026arXiv260626098C)
  34. 2605.27903  (score: 9.0, key: 2026arXiv260527903B)
- 35. 2509.05434  (score: 9.0, key: 2026ApJ...996..129G)
- 36. 2604.25991  (score: 9.0, key: 2026arXiv260425991L)
- 37. 2505.22567  (score: 8.9, key: 2026MNRAS.548f2109M)
- 38. 2604.03563  (score: 8.9, key: 2026arXiv260403563T)
- 39. 2407.20320  (score: 8.9, key: 2024ApJ...975..178K)
- 40. 2512.13957  (score: 8.9, key: 2025arXiv251213957L)
- 41. 2412.04557  (score: 8.9, key: 2024arXiv241204557L)
- 42. 2602.06024  (score: 8.9, key: 2026arXiv260206024W)
- 43. 2512.02117  (score: 8.9, key: 2026A&A...710A.226G)
- 44. 2404.03576  (score: 8.9, key: 2025ApJ...986..126K)
- 45. 2511.21820  (score: 8.9, key: 2025arXiv251121820D)
- 46. 2601.10573  (score: 8.9, key: 2026arXiv260110573A)
- 47. 2306.05448  (score: 8.9, key: 2024ApJ...963..129M)
- 48. 2505.02895  (score: 8.9, key: 2026ApJ...997..250Z)
- 49. 2509.20455  (score: 8.9, key: 2026MNRAS.546ag115J)
- 50. 2603.29652  (score: 8.9, key: 2026arXiv260329652M)
- 51. 2403.02304  (score: 8.9, key: 2025ApJ...984..121W)
- 52. 2505.22600  (score: 8.9, key: 2025ApJ...994L..42C)
- 53. 2506.14870  (score: 8.9, key: 2026MNRAS.545f2117D)
- 54. 2503.00998  (score: 8.9, key: 2026ApJ...997..218A)
- 55. 2410.00949  (score: 8.9, key: 2025ApJ...980L..29A)
- 56. 2602.20247  (score: 8.9, key: 2026arXiv260220247P)
- 57. 2606.00258  (score: 8.9, key: 2026arXiv260600258D)
- 58. 2504.01852  (score: 8.9, key: 2025ApJ...994...86R)
- 59. 2606.06585  (score: 8.9, key: 2026arXiv260606585W)
- 60. 2404.13290  (score: 8.9, key: 2024ApJ...974L..26Y)
- 61. 2501.17925  (score: 8.9, key: 2025A&A...698A.317M)
- 62. 2509.02662  (score: 8.9, key: 2025arXiv250902662M)
- 63. 2503.16596  (score: 8.9, key: 2025arXiv250316596N)
- 64. 2311.07483  (score: 8.9, key: 2024ApJ...968...34W)
- 65. 2604.09177  (score: 8.9, key: 2026arXiv260409177I)
+ 35. 2507.17738  (score: 9.0, key: 2026ApJ..1006..205R)
+ 36. 2509.05434  (score: 9.0, key: 2026ApJ...996..129G)
+ 37. 2604.25991  (score: 9.0, key: 2026arXiv260425991L)
+ 38. 2505.22567  (score: 8.9, key: 2026MNRAS.548f2109M)
+ 39. 2604.03563  (score: 8.9, key: 2026arXiv260403563T)
+ 40. 2407.20320  (score: 8.9, key: 2024ApJ...975..178K)
+ 41. 2512.13957  (score: 8.9, key: 2025arXiv251213957L)
+ 42. 2412.04557  (score: 8.9, key: 2024arXiv241204557L)
+ 43. 2602.06024  (score: 8.9, key: 2026arXiv260206024W)
+ 44. 2512.02117  (score: 8.9, key: 2026A&A...710A.226G)
+ 45. 2404.03576  (score: 8.9, key: 2025ApJ...986..126K)
+ 46. 2511.21820  (score: 8.9, key: 2025arXiv251121820D)
+ 47. 2601.10573  (score: 8.9, key: 2026arXiv260110573A)
+ 48. 2306.05448  (score: 8.9, key: 2024ApJ...963..129M)
+ 49. 2505.02895  (score: 8.9, key: 2026ApJ...997..250Z)
+ 50. 2509.20455  (score: 8.9, key: 2026MNRAS.546ag115J)
+ 51. 2603.29652  (score: 8.9, key: 2026arXiv260329652M)
+ 52. 2403.02304  (score: 8.9, key: 2025ApJ...984..121W)
+ 53. 2505.22600  (score: 8.9, key: 2025ApJ...994L..42C)
+ 54. 2506.14870  (score: 8.9, key: 2026MNRAS.545f2117D)
+ 55. 2503.00998  (score: 8.9, key: 2026ApJ...997..218A)
+ 56. 2410.00949  (score: 8.9, key: 2025ApJ...980L..29A)
+ 57. 2602.20247  (score: 8.9, key: 2026arXiv260220247P)
+ 58. 2606.00258  (score: 8.9, key: 2026arXiv260600258D)
+ 59. 2504.01852  (score: 8.9, key: 2025ApJ...994...86R)
+ 60. 2606.06585  (score: 8.9, key: 2026arXiv260606585W)
+ 61. 2404.13290  (score: 8.9, key: 2024ApJ...974L..26Y)
+ 62. 2501.17925  (score: 8.9, key: 2025A&A...698A.317M)
+ 63. 2509.02662  (score: 8.9, key: 2025arXiv250902662M)
+ 64. 2503.16596  (score: 8.9, key: 2025arXiv250316596N)
+ 65. 2311.07483  (score: 8.9, key: 2024ApJ...968...34W)
  66. 2604.08687  (score: 8.9, key: 2026arXiv260408687K)
  67. 2511.16082  (score: 8.9, key: 2026ApJ..1004...16B)
  68. 2608.01647  (score: 8.8, key: 2026arXiv260801647S)
@@ -173,12 +173,12 @@ LRD PAPERS (Top 200 by relevance score)
 160. 2505.04825  (score: 8.6, key: 2025ApJ...988...57M)
 161. 2601.17416  (score: 8.6, key: 2026MNRAS.546ag191S)
 162. 2508.18358  (score: 8.5, key: 2026ApJ..1003...10W)
-163. 2503.05537  (score: 8.5, key: 2025ApJ...988L..22I)
-164. 2412.05242  (score: 8.5, key: 2025ApJ...983L..26T)
-165. 2507.04011  (score: 8.5, key: 2026A&A...706A..29B)
-166. 2510.06408  (score: 8.5, key: 2026A&A...707A.212M)
-167. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
-168. 2507.17738  (score: 8.5, key: 2025arXiv250717738R)
+163. 2607.20617  (score: 8.5, key: 2026ApJ..1006L..42A)
+164. 2503.05537  (score: 8.5, key: 2025ApJ...988L..22I)
+165. 2412.05242  (score: 8.5, key: 2025ApJ...983L..26T)
+166. 2507.04011  (score: 8.5, key: 2026A&A...706A..29B)
+167. 2510.06408  (score: 8.5, key: 2026A&A...707A.212M)
+168. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
 169. 2505.06965  (score: 8.5, key: 2025MNRAS.544.3407K)
 170. 2511.10725  (score: 8.5, key: 2026MNRAS.547ag478H)
 171. 2603.01668  (score: 8.5, key: 2026arXiv260301668P)
@@ -305,6 +305,7 @@ ARXIV IDs ONLY (for automated processing)
 2605.14233
 2606.26098
 2605.27903
+2507.17738
 2509.05434
 2604.25991
 2505.22567
@@ -335,7 +336,6 @@ ARXIV IDs ONLY (for automated processing)
 2509.02662
 2503.16596
 2311.07483
-2604.09177
 2604.08687
 2511.16082
 2608.01647
@@ -433,12 +433,12 @@ ARXIV IDs ONLY (for automated processing)
 2505.04825
 2601.17416
 2508.18358
+2607.20617
 2503.05537
 2412.05242
 2507.04011
 2510.06408
 2507.12618
-2507.17738
 2505.06965
 2511.10725
 2603.01668
@@ -538,9 +538,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [9.2] 2026ApJ..1005L..22A
     Origins of the UV Continuum and Balmer Emission Lines in Little Red Dots: Observational Validation of Dense Gas Envelope Models Enshrouding the Active Galactic Nucleus
 
-[9.0] 2026ApJ..1006..205R
-    Beyond the Dot: An LRD-like Nucleus at the Heart of an IR-bright Galaxy and its Implications for High-redshift LRDs
-
 [8.9] 2026MNRAS.tmp..360D
     BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04
 
@@ -552,6 +549,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.9] 2026arXiv260120929S
     Little Red Dot $-$ Host Galaxy $=$ Black Hole Star: A Gas-Enshrouded Heart at the Center of Every Little Red Dot
+
+[8.9] 2026arXiv260409177I
+    The Cliff: A Metal-Poor Little Red Dot Hosting an Overmassive Black Hole at $z = 3.55$
 
 [8.8] 2025arXiv251202117G
     VENUS: When Red meets Blue -- A multiply imaged Little Red Dot with an apparent blue companion behind the galaxy cluster Abell 383
@@ -673,11 +673,11 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.6] 2025arXiv250921236W
     Limitations on Morphological Fitting for JWST ``Little Red Dots''
 
-[8.5] 2026ApJ..1006L..42A
-    A Dust-free Hierarchically Nested Supermassive-star Model for James Webb Space Telescope Little Red Dots
-
 [8.5] 2026MNRAS.tmp...81L
     Improved measurements of the age of JWST galaxies at z = 6 - 10
+
+[8.5] 2025arXiv250717738R
+    Beyond the Dot: an LRD-like nucleus at the Heart of an IR-Bright Galaxy and its implications for high-redshift LRDs
 
 [8.5] 2025arXiv250505322I
     The Emergence of Little Red Dots from Binary Massive Black Holes
@@ -742,6 +742,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.3] 2025arXiv251217997C
     Pulsational Instability of Quasi-Stars: Interpreting the Variability of Little Red Dots
 
+[8.3] 2026arXiv260610160M
+    Aether-SHELLQs: JWST integral-field spectroscopy of candidate obscured quasars at z \raisebox{-0.5ex}\textasciitilde 6
+
 [8.2] 2026Natur.649..557N
     Mysterious 'little red dots' could be black holes in disguise
 
@@ -757,20 +760,20 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.2] 2026arXiv260504685B
     Compact, AGN-hosting Dwarf Galaxies with ``Little Red Dots''-like SEDs in the Local Universe
 
-[8.2] 2026PhRvD.114b3048S
-    Massive black holes seeded by dark matter: Implications for little red dots and gravitational wave signatures
-
 [8.2] 2026RNAAS..10..122M
     A Deep Spectroscopic Study of a JWST-discovered, Faint, Broad-line AGN at z {\ensuremath{\sim}} 5
 
 [8.2] 2025arXiv251216365A
     The AGN nature of strong CIII emitters in the Early Universe with JWST
 
+[8.1] 2025arXiv250400075S
+    Massive Black Holes Seeded by Dark Matter -- Implications for Little Red Dots and Gravitational Wave Signatures
+
+[8.1] 2026arXiv260720617A
+    A dust-free hierarchically nested supermassive-star model for James Webb Space Telescope Little Red Dots
+
 [8.1] 2026ApJ..1004..241B
     A Redshift-based Red Selection of Dusty Star-forming Galaxies
-
-[8.1] 2026ApJ..1006..172M
-    Aether-SHELLQs: JWST Integral-field Spectroscopy of Candidate Obscured Quasars at z {\ensuremath{\sim}} 6
 
 [8.1] 2024A&A...686A.256L
     Sustained super-Eddington accretion in high-redshift quasars
