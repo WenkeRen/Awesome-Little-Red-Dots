@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T06:59:20.948576",
-  "total_papers": 448,
-  "successfully_scored": 448,
+  "generated_at": "2026-08-07T06:28:05.891183",
+  "total_papers": 449,
+  "successfully_scored": 449,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -3044,6 +3044,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs rigorous variability statistics (intrinsic rms, upper limits), accounts for systematic uncertainties, and compares with control samples. The long baselines and multi-epoch spectroscopy provide a solid foundation for the conclusions, though the sample size is small (three objects)."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260804101P",
+      "title": "{Implications of Broad [O III] 4364 and UV Line Emission in Two Little Red Dots at z \\raisebox{-0.5ex}\\textasciitilde 7 - 8}",
+      "abstract": "{We present deep, NIRSpec G140M and G395M spectroscopy of Little Red Dots (LRDs) at z = 6.68 and z = 8.35. Both LRDs show broad Balmer and [O III] $λ$4364 emission. The broad [O III] $λ$4364 lines have FWHM \\raisebox{-0.5ex}\\textasciitilde1000 km/s, about 1/3 that of the H$β$ lines. Assuming gas temperatures T \\raisebox{-0.5ex}\\textasciitilde 15,000 - 25,000 K, the [O III] $λ$4364/[O III] $λ$5008 ratios of the broad lines yield high gas densities, log n/cm\\^-3 = 6.3 to 7.9, 3-10$\\times$ higher than those in broad-line regions of low-redshift quasars. If the broad-lines trace virial motions, it is evidence for metal- enhanced gas clouds, \\raisebox{-0.5ex}\\textasciitilde1-10\\raiseb ox{-0.5ex}\\textasciitildepc from the LRD engine. Both LRDs show narrow [C III] $λ$1907 + C III] $λ$1909, and O III] $λλ$1661,1666. The C III] ratios yield narrow-line gas densities, log n/cm\\^-3 = 4.2-5.2, similar to those in other star-forming galaxies. The line equivalent widths, EW(O III]), EW(C III]), are at, or exceed, limits expected for stellar populations, likely requiring an additional ionizing source. The LRDs also have [O III] $λ$4364/H$γ$ ratios that favor ionization from an accretion disk, possibly combined with stars. Both LRDs show nitrogen enhancement based on detections of N III] $λ$1746 or N IV] $λ$1486, which may imply rapid, recent star-formation. These results favor a scenario where the LRD gas envelopes are highly stratified, having high-density clouds with a non-unity covering factors and a complex geometry, such that ionizing radiation from the LRD accretion disk, combined with that from star-forming regions, produce the nebular emission features.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Papovich}, Casey'), Person('{Ronayne}, Kaila'), Person('{Hu}, Weida'), Person('{Kocevski}, Dale D.'), Person('{Arrabal Haro}, Pablo'), Person('{Hutchison}, Taylor A.'), Person('{Finkelstein}, Steven L.'), Person('{Lambrides}, Erini'), Person('{Larson}, Rebecca L.'), Person('{Backhaus}, Bren E.'), Person('{Bagley}, Micaela B.'), Person('{Cleri}, Nikko J.'), Person('{Dickinson}, Mark'), Person('{Garner III}, Ray'), Person('{Kartaltepe}, Jeyhan'), Person('{Kokorev}, Vasily'), Person('{Olivier}, Grace M.'), Person('{Taylor}, Anthony J.'), Person('{Trump}, Jonathan R.'), Person('{Yang}, Jiayang')]",
+      "relevance_score": 8.8,
+      "justification": "This paper provides high-quality JWST spectroscopy of two LRDs, extracting detailed physical properties that directly constrain the central engine and circum-nuclear environment. By measuring extreme gas densities and ionization diagnostics, it offers compelling evidence for a hybrid AGN+starburst scenario with stratified gas, significantly advancing our understanding of LRD galaxies.",
+      "key_factors": [
+        "JWST NIRSpec G140M/G395M deep spectra",
+        "Broad [O III] 4364 and Hβ emission",
+        "High gas densities (10^6–10^8 cm^-3)",
+        "Ionization source constraints (accretion disk + stars)",
+        "Nitrogen enhancement and rapid star formation",
+        "Stratified gas envelope model"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots (LRDs), presenting deep spectroscopy of two LRD targets at z=6.68 and z=8.35. The title and abstract explicitly focus on their broad [O III] and UV line emission, and all analysis is directly relevant to LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses JWST NIRSpec G140M and G395M deep spectroscopy, the premier tool for rest-UV/optical line diagnostics in high-redshift galaxies. Detects and analyzes broad Balmer, [O III], C III], O III], N III], and N IV] lines, providing a rich dataset for physical interpretation."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives gas densities for broad and narrow line regions, electron temperatures, ionization sources (accretion disk + star formation), and nitrogen enhancement. Proposes a stratified gas envelope scenario with high-density metal-enhanced clouds, addressing key physical questions about LRD environments."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "The findings of extremely high gas densities (10^6–10^7 cm^-3) in broad lines, evidence for compact metal-enhanced clouds within parsecs of the central engine, and ionization by accretion disk + stars directly inform the ongoing debate on LRD nature and AGN/starburst contributions. This is a significant advancement."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analysis is robust but relies on assumptions (temperature range 15,000–25,000 K, virial motions for broad lines, non-unity covering factors) that are explicitly stated. Caveats about geometry and ionization contributions are noted, but the interpretation has inherent model dependencies."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18053,9 +18094,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.26629464285713,
+    "average_score": 8.267483296213795,
     "median_score": 8.5,
-    "high_relevance_count": 422,
+    "high_relevance_count": 423,
     "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }
