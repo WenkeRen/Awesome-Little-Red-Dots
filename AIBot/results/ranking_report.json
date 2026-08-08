@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T06:28:05.891183",
-  "total_papers": 449,
-  "successfully_scored": 449,
+  "generated_at": "2026-08-08T06:17:49.640396",
+  "total_papers": 451,
+  "successfully_scored": 451,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -1169,6 +1169,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Introduces a novel continuous metric and applies it to a large, well-defined sample. The statistical approach is sound, but the reliance on photometric selection and limited spectroscopy may introduce some uncertainties. The conclusions are well-supported by the data."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260805267S",
+      "title": "{Where did all the Little Red Dots go? The abundance of LRD analogues among objects with broad lines at $z < 0.35$}",
+      "abstract": "{One of the most puzzling discoveries since the launch of the James Webb Space Telescope is a numerous population of sources at high redshift nicknamed ``Little Red Dots'' (LRDs). Characterized by broad Balmer emission lines, compact morphologies and v-shaped spectral energy distributions (SEDs) in the rest-frame optical, the nature of LRDs remains elusive. A major challenge is the high redshift nature of LRDs, which makes observations very expensive and difficult. Finding local LRD analogues is a crucial step in unravelling the physical processes giving rise to LRDs, as cheaper observations with many facilities would become available. In this paper, we conduct a search for local LRD analogues by starting from an unbiased parent catalogue of all SDSS objects with broad H$α$ or H$β$ emission lines (both galaxies and quasars) at $0 < z < 0.35$, complemented by archival photometry and spectroscopy. We find that among broad- line objects, $19\\%$ show a v-shaped SED. We then select objects whose SED is well described by a modified black body (MBB), and identify nine local LRD analogues, corresponding to $0.08\\%$ of all objects with broad lines. Among only objects which match the typical continuum and emission line luminosities of LRDs, $5\\%$ display a v-shape and $0.37\\%$ display a MBB-like SED. We recover one previously-identified local LRD analogue (the so- called ``Egg''), validating our methodology. Among the other eight analogues, one (J0302$-$0101) shows all the hallmarks of an LRD despite being visibly embedded in the core of a galaxy; another object is ambiguous, and the remaining six may have alternative explanations for their peculiar SEDs. Our study highlights that LRDs are extremely rare at $z < 0.35$; we find very few objects with broad lines which have LRD-like SEDs, even without attempting to match the compactness of LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Seyberlich}, Lasse'), Person('{Bosman}, Sarah E. I.')]",
+      "relevance_score": 9.0,
+      "justification": "This paper is a direct and systematic search for local Little Red Dot analogues, addressing the high-z LRD puzzle from a complementary low-redshift perspective. Its rigorous methodology and striking result—that true LRD-like objects are exceedingly rare at z<0.35—provide critical constraints on the nature and evolution of LRDs.",
+      "key_factors": [
+        "Direct LRD analogue search",
+        "Unbiased SDSS broad-line sample",
+        "Multi-wavelength SED classification",
+        "Recovery of known analogue (the Egg)",
+        "Extreme rarity at z<0.35"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10,
+          "reasoning": "The paper is entirely focused on Little Red Dots (LRDs)—searching for local analogues to understand their nature. It directly addresses the LRD mystery and their evolutionary fate, placing LRDs at the center of the investigation."
+        },
+        "observational_techniques": {
+          "score": 9,
+          "reasoning": "Uses SDSS spectroscopy for broad-line identification and archival photometry (likely UV/optical/IR) for SED construction and MBB fitting. While not JWST data, the approach is well-suited to finding low-redshift counterparts and complements high-z studies."
+        },
+        "physical_properties": {
+          "score": 8,
+          "reasoning": "Probes key LRD characteristics: broad Balmer lines, v-shaped SEDs, and MBB-like continua. Identifies objects with LRD hallmarks, including one embedded in a galaxy core, but does not deeply model physical parameters (e.g., accretion rate, dust content) in the abstract."
+        },
+        "scientific_impact": {
+          "score": 9,
+          "reasoning": "Resolving the low-redshift occurrence of LRDs is critical for understanding their lifecycle and physical mechanisms. The finding of extreme rarity (0.08% of broad-line objects) strongly constrains evolutionary models and motivates further follow-up."
+        },
+        "methodological_rigor": {
+          "score": 9,
+          "reasoning": "Starts from an unbiased parent catalog of all SDSS broad-line objects, defines clear selection criteria (v-shaped SED, MBB), checks against typical LRD luminosities, and validates by recovering a known analogue. Also discusses alternative explanations for ambiguous cases, demonstrating careful vetting."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16699,6 +16739,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260805283M",
+      "title": "{Emission line formation in scattering dominated media: implications for LRDs}",
+      "abstract": "{Recent JWST observations of ``Little Red Dots'' (LRDs) reveal broad and prominent Balmer emission lines. We present a theoretical framework for intrinsic emission line formation and broadening within static, optically thick, scattering-dominated gas envelopes with thermal populations. Using random-walk and diffusion approximations, we derive analytical line profiles for lines forming intrinsically within the scattering medium. We demonstrate that a geometrically thin planar photosphere produces a shallow line profile characterized by a logarithmic plateau and a $v^{-1}$ wing. A radially extended photosphere yields a broken power-law spectrum transitioning from $v^{-α}$ to $v^{-(α+1)}$, with $0 < α< 1$. This is in contrast to a scattering medium external to the line-forming region, which produces an exponential line profile. We show that this broken power-law model can fit the $\\mathrm{H}α$ line profiles observed in LRDs. Higher quality spectra may be able to distinguish between intrinsic and extrinsic models for the line broadening in LRDs. In our LTE models, the high contrast between the $\\mathrm{H}α$ and continuum flux cannot be explained. Quantitative comparison to LRD spectra requires expanding our models to non-LTE situations.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Modelevsky}, Elisha'), Person('{Nitzan}, Omri'), Person(\"{Sari}, Re'em\"), Person('{Quataert}, Eliot')]",
+      "relevance_score": 7.2,
+      "justification": "This theoretical paper is highly relevant to LRD research as it proposes a scattering-dominated model for the broad Balmer lines, directly challenging prevailing AGN interpretations. Its lack of new observations and reliance on LTE assumptions temper its immediate impact, but it opens a promising avenue for future work.",
+      "key_factors": [
+        "Theoretical scattering model",
+        "Broken power-law line profiles",
+        "Application to LRD Hα",
+        "LTE limitation acknowledged",
+        "Alternative to AGN broadening"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly addresses Little Red Dots (LRDs), with 'implications for LRDs' in the title, and discusses JWST observations of LRD Balmer lines, aiming to model their broad profiles. It is entirely centered on explaining a specific LRD phenomenon."
+        },
+        "observational_techniques": {
+          "score": 2.0,
+          "reasoning": "This is a purely theoretical paper. It does not present new observations, data reduction, or instrumental techniques. It references JWST spectra for model comparison but does not contribute observationally."
+        },
+        "physical_properties": {
+          "score": 6.5,
+          "reasoning": "The paper provides insight into the physical conditions (scattering-dominated, optically thick, geometries) that can produce broad Balmer lines, but it does not directly derive standard physical properties like black hole masses, star-formation rates, or densities. It constrains the line-forming region's nature."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The paper tackles the critical debate on the origin of broad Balmer lines in LRDs (AGN vs. scattering media). A successful scattering model could reshape LRD interpretation, offering high potential impact if followed up with non-LTE calculations and detailed data fitting."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analytical approach using random-walk and diffusion approximations is sound and yields specific line profiles. The paper transparently states its LTE limitation and the need for non-LTE expansion. Further quantitative comparison to a sample of LRDs would strengthen it."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026Univ...12....1I",
       "title": "{Supermassive Dark Stars and Their Remnants as a Possible Solution to Three Recent Cosmic Dawn Puzzles}",
       "abstract": "{The James Webb Space Telescope (JWST) has begun to revolutionize our view of the Cosmos. The discovery of Blue Monsters (i.e., ultra- compact yet very bright high-z galaxies) and the Little Red Dots (i.e., very compact dustless strong Balmer break cosmic dawn sources) pose significant challenges to pre-JWST era models of the assembly of first stars and galaxies. In addition, JWST data further strengthen the problem posed by the origin of the supermassive black holes that power the most distant quasars observed. Stars powered by Dark Matter annihilation (i.e., Dark Stars) can form out of primordial gas clouds during the cosmic dawn era and subsequently might grow via accretion and become supermassive. In this paper we argue that Supermassive Dark Stars (SMDSs) offer natural solutions to the three puzzles mentioned above.}",
@@ -18094,9 +18174,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.267483296213795,
+    "average_score": 8.266740576496659,
     "median_score": 8.5,
-    "high_relevance_count": 423,
+    "high_relevance_count": 425,
     "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }
