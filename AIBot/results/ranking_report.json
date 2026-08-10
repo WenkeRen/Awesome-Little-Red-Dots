@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T06:17:49.640396",
-  "total_papers": 451,
-  "successfully_scored": 451,
+  "generated_at": "2026-08-10T06:45:55.639646",
+  "total_papers": 453,
+  "successfully_scored": 453,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -5105,6 +5105,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Employs sound comparative methodology against well-characterized local AGN samples across different accretion states. Considers selection effects and observational biases (instrumental sensitivity, spectral shape). Examines multiple diagnostic planes (Lx/LHα vs. λ_Edd) and explores systematics in bolometric corrections. However, abstract provides limited information on statistical methods, error analysis, sample completeness, or how potential contaminants were excluded, preventing top-tier rigor assessment."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026A&A...712A..61S",
+      "title": "{Quenching of X-ray emission in little red dots by both Compton-thick gas and high accretion rates}",
+      "abstract": "{Little red dots (LRDs) are candidate high-redshift supermassive black holes accreting in dense gas. They remain undetected in X-rays. In previous work, we provided the first quantitative models that reproduce the optical and near-infrared spectra of LRDs with the SIROCCO radiative transfer code, thereby constraining the properties of the surrounding gas. Here, we use these constraints to predict the X-ray attenuation produced by dense gas cocoons, and explore its dependence on Balmer-break strength, metallicity, intrinsic X-ray spectral energy distribution, and observed bandpass as a function of redshift. The X-ray constraints are very tight, requiring extinction by a Compton-thick gas column (N$\\_{H}$ {\\ensuremath{\\sim}} {}10$^{25}$ cm$^{{\\ensuremath{-}}2}$) with moderate metallicity (0.05-0.1 Z$\\_{{\\ensuremath{\\odot}}}$) and intrinsically weak X-ray emission (the ratio of bolometric to X-ray luminosity is k$\\_{bol,X}$ {\\ensuremath{\\gtrsim}} 30), as observed in narrow- line active galactic nuclei with high accretion rates, to make LRDs sufficiently faint to evade detection. Intrinsically bright X-ray emitters as seen in typical broad-line active galactic nuclei would be detected even behind the typical Compton-thick gas columns with modest metallicity that were inferred from the optical spectra. Very low metallicity objects might be detected in X-rays even with low intrinsic X-ray luminosities, suggesting that LRDs are not (currently) chemically pristine.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Sneppen}, Albert'), Person('{Watson}, Darach'), Person('{Matthews}, James H.'), Person('{Sim}, Stuart A.')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research, providing a compelling solution to the X-ray non-detection problem by combining Compton-thick obscuration with intrinsically weak X-ray emission. It offers detailed physical constraints and makes testable predictions, contributing significantly to the understanding of high-redshift black hole growth. Its rigorous modeling and direct focus on the LRD phenomenon merit a high score.",
+      "key_factors": [
+        "Explains X-ray non-detections in LRDs",
+        "Uses radiative transfer modeling (SIROCCO) calibrated on optical spectra",
+        "Quantifies required Compton-thick column densities",
+        "Identifies high accretion rate, intrinsically X-ray weak AGN as necessary",
+        "Predicts metallicity effects on X-ray detectability"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely dedicated to understanding the nature of LRDs. It directly addresses the defining puzzle of X-ray non-detections, using quantitative models specifically designed for LRDs and linking optical spectral properties (Balmer-break) to X-ray emission. The title and abstract make it clear that LRDs are the core subject."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "The study relies heavily on previous radiative transfer modeling of optical/NIR spectra, but the X-ray analysis is purely predictive and does not present new X-ray observations. The constraints are derived from the non-detection phenomenon, which is an observational fact, but no new data analysis is performed. The method is more theoretical, though tightly grounded in existing LRD observations."
+        },
+        "physical_properties": {
+          "score": 9.5,
+          "reasoning": "The paper provides a deep physical investigation: it constrains column density (Compton-thick), metallicity, intrinsic X-ray weakness, and accretion rate indicators (k_bol,X). It explores parameter dependencies (Balmer-break strength, SED, redshift) and offers specific, testable predictions. This goes beyond mere detection to the underlying astrophysics of LRDs."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Resolving the X-ray non-detection mystery is a major open question in LRD research, crucial for distinguishing AGN vs. starburst interpretations and for understanding early SMBH growth. This paper provides a consistent, quantitative framework that combines optical and X-ray constraints, setting the stage for future observations. Its findings on metallicity and accretion mode directly impact the broader picture of high-redshift black hole evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The study builds on a previously published, radiation-hydrodynamic code (SIROCCO) that successfully reproduced LRD optical spectra, lending credibility to the extrapolation into the X-ray regime. The exploration of parameter space and dependencies is thorough. The methodology is robust, though the conclusions depend on the fidelity of the radiative transfer models and assumptions about gas geometry."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11285,6 +11325,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Develops a physically motivated model incorporating super-Eddington accretion, Hayashi-limit envelopes, stellar population synthesis, and supernova feedback. While full methodological details are not visible in the abstract, the approach appears robust with specific quantitative predictions and physically grounded parameters. Lacks explicit discussion of uncertainties or model limitations in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1007L..13L",
+      "title": "{Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots}",
+      "abstract": "{Recent JWST observations have revealed a population of compact, optically red sources known as Little Red Dots (LRDs). A popular interpretation is that LRDs host massive black holes embedded in dense gaseous envelopes, yet the physical origin of such envelopes remains unclear. We propose that the optically thick outflow driven by supercritical accretion onto black holes may explain the envelope. Based on an analytic radiative hydrodynamic outflow model, we relate the outflow properties to the black hole mass M and dimensionless accretion rate ṁ. With M {\\ensuremath{\\sim}} {}10$^{5}$─{}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ and ṁ{\\ensuremath{\\sim}}1500─5000, the outflow photosphere reaches luminosities of {}10$^{43}$─{}10$^{45}$ erg s$^{{\\ensuremath{-}}1}$ and temperatures of {\\ensuremath{\\sim}}3000─6000 K, effectively matching the red optical continua observed in LRDs. The presence of a thick scattering region beyond the photosphere is central to deciphering the distinctive properties of LRDs. For each object, if one derives M and ṁ from the observed luminosity and temperature, while accounting for both kinematic broadening and scattering effects, the model predicts an emission line FWHM consistent with observations within a factor of 1.5 for more than 80\\% of objects. Furthermore, with CLOUDY simulations, we find that the partially ionized gas beyond the photosphere produces Balmer breaks broadly consistent with measurements.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Liu}, Jun-Rong'), Person('{Feng}, Hua'), Person('{Ho}, Luis C.')]",
+      "relevance_score": 8.3,
+      "justification": "This theoretical study directly addresses the physical origin of LRDs with a novel supercritical accretion outflow model, reproducing observed red continua, line widths, and Balmer breaks. It offers a testable explanation for the dense envelopes, bridging the AGN–starburst debate. The lack of new observational data limits the observational techniques score, but its high core relevance and potential impact drive the overall rating.",
+      "key_factors": [
+        "Outflow model for LRDs",
+        "BH mass and accretion rate predictions",
+        "Matches observed red continua and FWHM",
+        "CLOUDY Balmer break consistency",
+        "Addresses envelope origin debate"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on explaining the origin and physical properties of Little Red Dots. The title explicitly mentions LRDs, and the abstract details how the model reproduces key observational features (red continua, emission line widths, Balmer breaks), directly targeting core LRD debate."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "No new observations are presented; the paper is theoretical, using analytic modeling and CLOUDY simulations to compare with existing LRD data. While it validates against observed continuum shapes, FWHM, and Balmer breaks, it does not contribute novel observational constraints or data analysis."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Provides detailed predictions for BH mass, accretion rate, outflow photosphere luminosity, temperature, and emission line broadening, effectively linking these to the red optical continua and Balmer breaks seen in LRDs. Physically motivated outflow model addresses the dense envelope interpretation."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "If validated, the supercritical accretion outflow model could resolve the longstanding puzzle of the dense gaseous envelopes around LRDs, directly impacting the interpretation of AGN vs starburst contributions and advancing our understanding of early massive black hole growth."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Uses an analytic radiative hydrodynamic model with clear scaling relations, and validates with CLOUDY simulations. Claims >80% of objects match within factor 1.5 in FWHM, indicating robust comparison, though formal uncertainties and model degeneracies are not detailed in the abstract."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18174,9 +18254,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.266740576496659,
+    "average_score": 8.267770419426034,
     "median_score": 8.5,
-    "high_relevance_count": 425,
+    "high_relevance_count": 427,
     "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }

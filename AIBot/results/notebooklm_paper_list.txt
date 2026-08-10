@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-08-08T06:17:53.121069
+Generated: 2026-08-10T06:48:17.425183
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -604,6 +604,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026arXiv260310162T
     The X-ray weakness of Little Red Dots and JWST-selected AGN: comparison with local AGN in different accretion regimes
 
+[8.7] 2026A&A...712A..61S
+    Quenching of X-ray emission in little red dots by both Compton-thick gas and high accretion rates
+
 [8.7] 2025arXiv250712618N
     Supermassive Stars Match the Spectral Signatures of JWST's Little Red Dots
 
@@ -729,6 +732,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.3] 2025arXiv250520439L
     The Properties of Little Red Dot Galaxies in the ASTRID Simulation
+
+[8.3] 2026ApJ..1007L..13L
+    Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots
 
 [8.3] 2026ApJ..1002...41W
     Born in the Dark: The Catastrophic Collapse of Fuzzy Dark Matter Solitons as the Origin of Little Red Dots
