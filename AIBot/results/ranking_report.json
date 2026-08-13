@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T06:45:55.639646",
-  "total_papers": 453,
-  "successfully_scored": 453,
+  "generated_at": "2026-08-13T06:33:35.279618",
+  "total_papers": 454,
+  "successfully_scored": 454,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -2761,6 +2761,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Employs a well-defined correlation analysis between continuum color and emission-line strength, identifies outliers as red emission-line galaxies, and systematically classifies them into three physically motivated categories. The use of multiple independent surveys strengthens the results."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260810832K",
+      "title": "{ATLAS. III. Dust Around Little Red Dots: Hydrogen Line Ratios beyond Dust-free Non-Case B Models}",
+      "abstract": "{We investigate broad hydrogen line ratios in little red dots (LRDs) using five high-redshift ($z>2$) sources from JWST/NIRSpec medium/high-resolution spectra in the DAWN JWST Archive and fifteen low-redshift sources ($z=0.1$--$0.9$) from the literature, all with broad H$β$ detected at $>5σ$. After carefully measuring the broad-line fluxes while accounting for absorption features and neighboring emission lines, we find that the broad H$α$/H$β$ ratios are very high, ranging from 6 to 30, well above the Case B recombination value. Using plane-parallel \\textbackslashtextsc\\{Cloudy\\} photoionization models with the total line emission from both sides of the slab, we investigate the physical origin of the broad hydrogen line ratios beyond Case B, jointly modeling the Balmer and Paschen line ratios for the subset of one high-$z$ and two low-$z$ LRDs with detected broad Paschen lines. We find that one low-$z$ LRD is reproduced by a high gas number density ($\\log (n\\_{\\mathrm H}/{\\rm cm^{-3}})\\sim10$--11) on the broad-line H$α$/H$β$--Pa$β$/Pa$γ$ plane, whereas the remaining two LRDs additionally require substantial dust extinction of $E(B-V)rsim0.2$--$1.0$, even after accounting for non-Case B effects. Since the narrow H$α$/H$β$ ratios do not indicate such large dust extinction, these results demonstrate that the obscuring dust is spatially associated with the broad-line region. Even without Paschen-line measurements, two and eight LRDs in the high- and low-redshift samples, respectively, exhibit H$α$/H$β>13$, which cannot be reproduced by the non-Case B models, suggesting that dust obscuration might be common among LRDs, occurring in at least about half of the population. Such dust may represent a lower- column-density counterpart of the dusty torus in AGNs, reconciling the weak hot-dust emission.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Kiyota}, Tomokazu'), Person('{Ouchi}, Masami'), Person('{Yanagisawa}, Hiroto'), Person('{Ando}, Makoto'), Person('{Harikane}, Yuichi'), Person('{Kageura}, Yuta'), Person('{Nakane}, Minami'), Person('{Nakazato}, Yurina'), Person('{Ono}, Yoshiaki'), Person('{Takeda}, Yui')]",
+      "relevance_score": 8.9,
+      "justification": "This paper is highly relevant to LRD research because it directly investigates the broad hydrogen line ratios and dust properties of LRDs using JWST/NIRSpec spectroscopy. It provides physically motivated Cloudy models that distinguish density and dust effects, finding evidence for BLR-associated dust common in LRDs. The main limitations are the small high-z sample and limited Paschen-line coverage.",
+      "key_factors": [
+        "Direct LRD-focused JWST/NIRSpec spectroscopy",
+        "Combined Balmer and Paschen line diagnostics",
+        "Cloudy non-Case B photoionization modeling",
+        "Evidence for BLR-associated dust in LRDs",
+        "Reconciles weak hot-dust emission in LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The title and abstract explicitly target little red dots (LRDs), with all five high-redshift sources drawn from JWST/NIRSpec observations and low-redshift analogs selected for broad-line similarity. LRD physics is the central subject."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses JWST/NIRSpec medium/high-resolution spectra from the DAWN JWST Archive and literature broad Hβ detections. The broad-line flux measurements carefully account for absorption features and neighboring emission lines, though the sample size is modest and archival."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper derives physical constraints on broad-line region gas density and dust extinction by jointly modeling Balmer and Paschen line ratios with Cloudy photoionization models, directly probing non-Case B recombination and dust geometry."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The finding that BLR-associated dust may be common in at least about half of LRDs addresses a key tension in LRD models and reconciles their weak hot-dust emission, though the statistical sample remains limited."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Careful line decomposition and physically motivated Cloudy modeling are strengths, but only five high-redshift LRDs and three objects with Paschen-line detections are modeled, and the plane-parallel slab assumption may not capture full BLR geometry."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18254,9 +18294,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.267770419426034,
+    "average_score": 8.2691629955947,
     "median_score": 8.5,
-    "high_relevance_count": 427,
+    "high_relevance_count": 428,
     "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }
