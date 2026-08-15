@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T06:33:35.279618",
-  "total_papers": 454,
-  "successfully_scored": 454,
+  "generated_at": "2026-08-15T06:17:03.352568",
+  "total_papers": 455,
+  "successfully_scored": 455,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -11210,6 +11210,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260812487B",
+      "title": "{Ripples in the OCEANS: Broad Line Variability of Little Red Dots}",
+      "abstract": "{Little Red Dots (LRDs) are a unique class of compact, red sources discovered in the JWST extragalactic deep fields. Determining if they are indeed powered by accreting supermassive black holes (SMBHs) is one of the main drivers of the intense study of these objects. Evidence for variability in these objects provides a direct test for the active galactic nucleus (AGN) nature of their central engine. In this study, we present a variability analysis of 6 LRDs observed by the $R \\sim 2700$ OCEANS survey and leverage archival $R \\sim 1000$ spectroscopic data from the CEERS and RUBIES surveys. We report marginal detections of $\\rm Hα$ broad-line (BL) variability in the LRDs OCEANS-100424/RUBIES-42232 (27\\textbackslash\\% variability at 2.1$σ$ significance) and OCEANS-35829/RUBIES-49140 (GlimmIr/Irony; 50\\textbackslash\\% variability at 1.5$σ$ significance). The other 4 LRDs in our sample do not show evidence for BL variability, with a 1$σ$ upper limit of $4.8 \\% - 30\\%$ variability between their epochs of observations. We also find no evidence ($<1σ$) for continuum variability in our LRD sample. We compare our results to a sample of SDSS-RM quasars to determine the probability of our broad $\\rm Hα$ variability detections. We find that the probability of reproducing 2 variable and 4 nonvariable quasars is $4.71\\%$, corresponding to $\\sim 2 σ$ departure from typical quasar variability. The detection of BL $\\rm Hα$ variability in 2 LRDs provides some evidence for the AGN nature of these objects as opposed to pure scattering models.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Brooks}, Madisyn'), Person('{Davis}, Kelcey'), Person('{Trump}, Jonathan R.'), Person('{Simons}, Raymond C.'), Person('{Lambrides}, Erini'), Person('{Arrabal Haro}, Pablo'), Person('{Backhaus}, Bren E.'), Person('{Cleri}, Nikko J.'), Person('{Finkelstein}, Steven L.'), Person('{Giavalisco}, Mauro'), Person('{Grogin}, Norman A.'), Person('{Hirschmann}, Michaela'), Person('{Kocevski}, Dale D.'), Person('{Koekemoer}, Anton M.'), Person('{Larson}, Rebecca L.'), Person('{Lucas}, Ray A.'), Person('{Wilkins}, Stephen M.'), Person('{Wuyts}, Stijn'), Person('{Zavala}, Jorge A.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper directly addresses the AGN nature of LRDs through multi-epoch JWST spectroscopy of broad Hα variability. While the detections are marginal and the sample is small, it provides a meaningful, quantitative test against pure scattering models and typical quasar variability. The study is highly relevant to LRD research, but its impact is tempered by limited significance.",
+      "key_factors": [
+        "Direct LRD variability analysis",
+        "JWST OCEANS + CEERS/RUBIES spectroscopy",
+        "Broad Hα variability test for AGN",
+        "Comparison to SDSS-RM quasars",
+        "Evidence against pure scattering models"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The title and abstract are explicitly centered on Little Red Dots, presenting a variability analysis of broad Hα in a sample of 6 LRDs to test their AGN nature. This is a core LRD-focused study."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Uses multi-epoch JWST spectroscopy from OCEANS (R~2700) and archival CEERS/RUBIES (R~1000), with variability measurements and comparison to SDSS-RM quasars. Appropriate methods, though moderate spectral resolution and small sample limit the strength of the variability constraints."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The paper constrains the central engine by testing broad Hα variability, setting upper limits of 4.8%-30% on variability and finding no continuum variability. It provides evidence against pure scattering models but does not derive detailed physical parameters like BH masses or accretion rates."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Directly addresses a key open question in LRD research: whether LRDs are powered by accreting SMBHs. Variability is a clean test, and the ~2σ departure from typical quasar variability is interesting, though the detections are marginal."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The study quantifies variability significance, upper limits, and statistical probability relative to SDSS-RM quasars. However, it is limited by a small sample of 6 LRDs and low-significance detections (1.5σ and 2.1σ), requiring confirmation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv250520439L",
       "title": "{The Properties of Little Red Dot Galaxies in the ASTRID Simulation}",
       "abstract": "{We present simulated counterparts of the ``Little Red Dot'' (LRD) galaxies observed with JWST, using the large cosmological hydrodynamic simulation, ASTRID. We create mock observations of the galaxies ($5 \\leq z \\leq 8$) in ASTRID, and find seventeen which fit the color and size criteria of LRDs. These LRDs are galaxies with high stellar masses ($\\rm log(M\\_*/M\\_{\\odot}) \\geq 9.7$), and massive black holes ($\\rm log(M\\_{BH}/M\\_{\\odot}) \\geq 6.8$). The host galaxies are dense, with stellar half mass radii ($\\rm 325\\,pc \\leq r\\_{{\\rm half},*} \\leq 620\\,pc$), and dust attenuation in the F444W band above 1.25. Their star formation has been recently quenched. They host relatively bright AGN that are dust-obscured and contribute significantly to the rest-frame optical red slope and have relatively low luminosity in the rest-frame ultraviolet, where the host galaxy's stars are more dominant. These LRDs are in an evolutionary phase of miniquenching that is the result of AGN feedback from their massive black holes. The LRDs in ASTRID are bright with F444W magnitudes of $23.5-25.5$. The less massive and fainter galaxies in ASTRID lack the dust concentration necessary to produce the red slope of an LRD, though this could be an effect of limited resolution. Most of the highest Eddington black holes are not LRDs due to insufficient dust attenuation from their host galaxies, which are also experiencing relatively high star formation rates. This results in their spectra being too flat, despite their highly accreting black holes.}",
@@ -18294,9 +18334,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.2691629955947,
+    "average_score": 8.269230769230756,
     "median_score": 8.5,
-    "high_relevance_count": 428,
+    "high_relevance_count": 429,
     "moderate_relevance_count": 20,
     "low_relevance_count": 6
   }
