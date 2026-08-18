@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T06:15:47.382331",
-  "total_papers": 455,
-  "successfully_scored": 455,
+  "generated_at": "2026-08-18T06:20:41.560502",
+  "total_papers": 456,
+  "successfully_scored": 456,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -18215,6 +18215,46 @@
       "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026MNRAS.550g1360T",
+      "title": "{Out of oxygen: extremely metal-poor galaxy candidates identified at 2.5 < z < 6.5 with deep JADES medium-band imaging}",
+      "abstract": "{The James Webb Space Telescope (JWST) is beginning to uncover a population of extremely metal-poor galaxies (EMPGs, ) at redshift , mostly through serendipitous Near Infrared Spectrograph (NIRSpec) discoveries and blind slitless spectroscopy. To accelerate our understanding of pristine star formation, we further develop a methodology to identify EMPG candidates from photometry, utilizing the extensive deep Near Infrared Camera (NIRCam) medium-band imaging from the JWST Advanced Deep Extragalactic Survey (JADES). Our EMPG candidates at exhibit strong photometric boosts by H, yet correspondingly weak boosts by [O III] + H, likely indicating extremely low metallicity to explain their lack of [O III] emission. We further demand our EMPG candidates to have strong Balmer jumps, as revealed by medium-band imaging, to ensure that they are young starbursts, as opposed to broad-line active galactic nuclei/little red dots (AGN/LRDs), though contamination by dusty/dense-gas starbursts and highly obscured AGN remains a concern. Spectral Energy Distribution (SED)-fitting with near- pristine models (─) indicates that our 14 EMPG candidates are low-mass (median ), faint dwarf galaxies (), with high ionizing photon production efficiencies (). Hence, these are plausible sites of near-pristine star formation, constituting ─0.4 per cent of galaxies at . We discuss this extremely metal-poor extension to the mass─metallicity relation. We forecast that deep ( h) NIRCam slitless spectroscopy can identify bright EMPGs through strong H but lack of [O III] emission, or secure the redshifts of fainter systems through H detections. Highly multiplexed NIRSpec spectroscopy offers an alternate route to discovering the faintest pristine galaxies out to , without requiring deep NIRCam medium-band and/or Mid-Infrared Instrument (MIRI) imaging to identify secure candidates.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Trussler}, James A. A.'), Person('{Eisenstein}, Daniel J.'), Person('{Bunker}, Andrew J.'), Person('{Cameron}, Alex J.'), Person('{Carniani}, Stefano'), Person(\"{Charlot}, St{\\\\'e}phane\"), Person('{Chevallard}, Jacopo'), Person('{Conselice}, Christopher J.'), Person('{Curti}, Mirko'), Person('{Curtis-Lake}, Emma'), Person(\"{D'Eugenio}, Francesco\"), Person('{Egami}, Eiichi'), Person('{Hainline}, Kevin'), Person('{Hausen}, Ryan'), Person('{Helton}, Jakob M.'), Person('{Hsiao}, Tiger Yu-Yang'), Person('{Ji}, Zhiyuan'), Person('{Johnson}, Benjamin D.'), Person('{Looser}, Tobias J.'), Person('{Maiolino}, Roberto'), Person(\"{Pusk{\\\\'a}s}, D{\\\\'a}vid\"), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person('{Sun}, Fengwu'), Person('{Tacchella}, Sandro'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Williams}, Christina C.'), Person('{Willmer}, Christopher N. A.'), Person('{Witstok}, Joris'), Person('{Wu}, Zihao')]",
+      "relevance_score": 3.2,
+      "justification": "This paper is primarily an EMPG selection and characterization study using JADES medium-band photometry, with Little Red Dots appearing only as a contaminant to be excluded. Its methodology is relevant to separating young metal-poor starbursts from AGN/LRDs, but it contributes little direct insight into LRD physics, demographics, or observational properties. The low final score reflects minimal core LRD focus despite solid methodological rigor for its own science goals.",
+      "key_factors": [
+        "EMPG-focused study, not LRD-focused",
+        "LRDs treated only as contaminants via Balmer jump and weak [O III] criteria",
+        "Uses JWST JADES NIRCam medium-band photometry",
+        "No LRD physical property measurements or demographic analysis",
+        "Useful mainly for LRD selection/contamination context"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 2.0,
+          "reasoning": "The paper is focused on extremely metal-poor galaxy candidates, not Little Red Dots. LRDs are mentioned only as a contaminant to be excluded from the EMPG selection via Balmer jump and weak [O III] criteria. There is no dedicated analysis of LRD properties, demographics, or physics."
+        },
+        "observational_techniques": {
+          "score": 4.0,
+          "reasoning": "The study uses deep JADES NIRCam medium-band imaging and photometric selection techniques, including diagnostics that explicitly separate young starbursts from broad-line AGN/LRDs. While not an LRD observational dataset, the methodology is modestly relevant to LRD contamination assessment and photometric classification."
+        },
+        "physical_properties": {
+          "score": 2.5,
+          "reasoning": "The paper derives physical properties for EMPGs, including low metallicities, low stellar masses, and high ionizing photon production efficiencies. It does not measure LRD physical properties such as BH masses, AGN bolometric luminosities, or host galaxy masses; LRD-related physics appears only as a exclusion criterion."
+        },
+        "scientific_impact": {
+          "score": 3.0,
+          "reasoning": "The work has scientific impact for metal-poor galaxy evolution and early star formation, but its impact on LRD research is limited. It provides some useful context on separating EMPGs from AGN/LRDs, but does not advance understanding of LRD nature or demographics."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The methodology appears careful, with multiple selection requirements (H boost, weak [O III], Balmer jump) and discussion of contamination. SED fitting with low-metallicity models and forecasts for future spectroscopy are well justified, though the reliance on photometry introduces caveats acknowledged by the authors."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for NotebookLM; include only if the notebook covers LRD contamination or photometric separation of AGN/LRDs from metal-poor galaxies."
+    },
+    {
       "bibtex_key": "2025arXiv251104210K",
       "title": "{NANOGrav 15-year gravitational-wave signals from binary supermassive black-holes seeded by primordial black holes, and implications for the origins of Little Red Dots}",
       "abstract": "{In this paper, we explain the recently reported a nHz-band gravitational-wave background from NANOGrav 15-year through the merger of binary super-massive black holes with masses of $10^9 M\\_{\\odot}$ formed by the growth of primordial black holes. When a primordial black hole accretes at a high accretion rate, it emits a large number of high-energy photons. These heat the plasma, causing high-redshift cosmological 21cm line emission. Since this has not been detected, there is a strict upper bound on the accretion rate. We have found that with the primordial black hole abundance $10^{-14} \\lesssim f\\_{\\rm PBH} \\lesssim 10^{-12}$ and the mass $1 M\\_{\\odot} \\lesssim m\\_{\\rm PBH} \\lesssim 10^3 M\\_{\\odot}$, we successfully fit the nHz band gravitational wave background from NANOGrav 15-year while avoiding the 21 cm line emission. In addition, we also discuss the implication for the origins of the Little Red Dots. We propose that future observations of the gravitational wave background and the cosmological 21cm line can test this scenario.}",
@@ -18334,10 +18374,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.269230769230756,
+    "average_score": 8.258114035087706,
     "median_score": 8.5,
     "high_relevance_count": 429,
     "moderate_relevance_count": 20,
-    "low_relevance_count": 6
+    "low_relevance_count": 7
   }
 }
