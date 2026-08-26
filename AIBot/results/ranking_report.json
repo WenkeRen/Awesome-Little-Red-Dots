@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T06:23:56.912882",
-  "total_papers": 460,
-  "successfully_scored": 460,
+  "generated_at": "2026-08-26T06:24:30.989656",
+  "total_papers": 461,
+  "successfully_scored": 461,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -6884,6 +6884,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "The analysis employs robust variability statistics, DRW fitting, and careful simulations of mock JWST observations. The small sample size (7 analogs) is a minor limitation, but the thorough statistical treatment and forward-modeling approach strengthen the conclusions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026Natur.656..329N",
+      "title": "{A gas-enshrouded and gas-reddened black hole at cosmic dawn}",
+      "abstract": "{The physical processes that led to the formation of billion-solar-mass black holes within the first 700 million years of cosmic time, a period known as cosmic dawn, remain a puzzle$^{1}$. Several theoretical scenarios have been proposed to seed and rapidly grow black holes$^{2, 3─4}$, but direct observations of these mechanisms remain elusive. Here we present a source 660 million years after the Big Bang that exhibits singular properties: among the largest hydrogen Balmer breaks reported at any redshift, broad multi-peaked H{\\ensuremath{\\beta}} emission, and Balmer line absorption in several transitions. We model this source as an enshrouded black hole in which the Balmer break and absorption features are a result of extremely dense, turbulent gas forming a dust-free envelope around a supermassive black hole$^{5,6}$. This source may provide evidence of an early black hole embedded in dense gas{\\textemdash}a theoretical configuration proposed to rapidly grow black holes by super- Eddington accretion$^{7,8}$. Radiation from the black hole seems to dominate almost all observed light, leaving limited room for contribution from its host galaxy. If the source merged with its brighter neighbour, it would resemble the recently discovered 'little red dots' with perplexing spectral energy distributions$^{9, 10─11}$. The redness of the black hole is due to gas, not dust$^{12,13}$, and scattering, not kinematics, gives rise to the complex line shapes and luminosities{\\textemdash}black hole masses of these sources may therefore be overestimated by orders of magnitude.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Naidu}, Rohan P.'), Person('{Matthee}, Jorryt'), Person('{Katz}, Harley'), Person('{de Graaff}, Anna'), Person('{Oesch}, Pascal A.'), Person('{Smith}, Aaron'), Person('{Greene}, Jenny E.'), Person('{Brammer}, Gabriel'), Person('{Weibel}, Andrea'), Person('{Hviding}, Raphael'), Person('{Chisholm}, John'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Simcoe}, Robert A.'), Person('{Witten}, Callum'), Person('{Sun}, Wendy Q.'), Person('{Atek}, Hakim'), Person('{Baggen}, Josephine F. W.'), Person('{Belli}, Sirio'), Person('{Bezanson}, Rachel'), Person('{Boogaard}, Leindert A.'), Person('{Bose}, Sownak'), Person('{Bouwens}, Rychard J.'), Person('{Covelo-Paz}, Alba'), Person('{Dayal}, Pratika'), Person('{Fudamoto}, Yoshinobu'), Person('{Furtak}, Lukas J.'), Person('{Giovinazzo}, Emma'), Person('{Goulding}, Andy'), Person('{Gronke}, Max'), Person('{Heintz}, Kasper E.'), Person('{Hirschmann}, Michaela'), Person('{Illingworth}, Garth'), Person('{Inoue}, Akio K.'), Person('{Johnson}, Benjamin D.'), Person('{Leja}, Joel'), Person('{Leonova}, Ecaterina'), Person('{McConachie}, Ian'), Person('{Maseda}, Michael V.'), Person('{Natarajan}, Priyamvada'), Person('{Nelson}, Erica'), Person('{Setton}, David J.'), Person('{Shivaei}, Irene'), Person('{Sobral}, David'), Person('{Stefanon}, Mauro'), Person('{Tacchella}, Sandro'), Person('{Toft}, Sune'), Person('{Torralba}, Alberto'), Person('{van Dokkum}, Pieter'), Person('{van der Wel}, Arjen'), Person('{Volonteri}, Marta'), Person('{Walter}, Fabian'), Person('{Wang}, Bingjie'), Person('{Watson}, Darach'), Person('{Whitaker}, Katherine')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research because it presents a plausible gas-enshrouded, gas-reddened black hole that directly informs the interpretation of LRDs and suggests BH masses may be systematically overestimated. Its strong observational diagnostics, physical modeling, and broad implications justify a high score, tempered only by its single-source focus.",
+      "key_factors": [
+        "Directly connects source properties to Little Red Dot SEDs",
+        "Proposes gas rather than dust as the reddening mechanism",
+        "Argues scattering, not kinematics, shapes complex line profiles",
+        "Suggests BH masses in LRDs may be overestimated by orders of magnitude",
+        "Uses high-quality JWST-era spectroscopy at cosmic dawn"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper centers on a single high-redshift source but explicitly links its properties to Little Red Dots, arguing that if merged with a brighter neighbor it would resemble an LRD. It directly addresses LRD spectral energy distributions, reddening mechanism, and BH mass interpretation."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The study uses high-quality JWST-era spectroscopy to detect Balmer breaks, broad multi-peaked Hβ, and multiple Balmer absorption lines at z~660 Myr. These are exactly the diagnostics needed to test LRD gas/dust reddening and kinematics."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper derives key physical properties: dense gas envelope around a supermassive black hole, gas-driven reddening, scattering-dominated line shapes, and limited host-galaxy contribution. It proposes that BH masses in such systems may be overestimated by orders of magnitude, which is highly relevant to LRD physical interpretation."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "By challenging dust-reddening and kinematic BH mass estimates, the paper could reshape how the community interprets LRDs and early SMBH growth. Its claim that redness is due to gas rather than dust and that scattering dominates line profiles has broad implications for high-redshift AGN studies."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The modeling approach is physically motivated and connects multiple spectral features to a self-consistent enshrouded BH scenario. However, it relies on a single source and a specific model configuration, so population-level robustness remains to be demonstrated."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18534,9 +18574,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.258478260869552,
+    "average_score": 8.259436008676776,
     "median_score": 8.5,
-    "high_relevance_count": 433,
+    "high_relevance_count": 434,
     "moderate_relevance_count": 20,
     "low_relevance_count": 7
   }

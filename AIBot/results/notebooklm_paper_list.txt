@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-08-24T06:28:03.074246
+Generated: 2026-08-26T06:29:20.469389
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -636,6 +636,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.7] 2025arXiv251203239B
     (Re)solving the complex multi-scale morphology and V-shaped SED of a newly discovered strongly-lensed Little Red Dot in Abell 383
+
+[8.7] 2026Natur.656..329N
+    A gas-enshrouded and gas-reddened black hole at cosmic dawn
 
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
