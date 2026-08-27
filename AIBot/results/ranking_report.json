@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T06:24:30.989656",
-  "total_papers": 461,
-  "successfully_scored": 461,
+  "generated_at": "2026-08-27T09:14:38.953624",
+  "total_papers": 462,
+  "successfully_scored": 462,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -1370,6 +1370,46 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs robust spectro-photometric criteria for LRD/AGN classification, corroborated by X-ray detections. The improved line identification algorithm and careful analysis of line ratios demonstrate a high level of methodological rigor."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260821522B",
+      "title": "{Beyond orientation: Evidence for distinct physical regimes among Little Red Dots and Little Blue Dots}",
+      "abstract": "{Little Red Dots (LRDs) and Little Blue Dots (LBDs) may represent the same population of compact active galactic nuclei (AGN) observed along different lines of sight. We test this scenario using a spectroscopic sample from the DAWN \\{\\textbackslashit JWST\\} Archive, selected based on common criteria for H$α$ equivalent width, UV continuum slope, and compactness. We use the optical continuum slope to distinguish between samples of 89 LRDs and 191 LBDs spanning $1 \\lesssim z \\lesssim 7.5$, and compare their continuum properties, H$α$ emission, and Balmer decrements. Consistent with previous studies, we find that LRDs exhibit broader H$α$ profiles than LBDs systematically (with median FWHM values of $2319^{+71}\\_{-64}$ and $1424^{+56}\\_{-43}\\textasciitilde \\mathrm{km\\,s^{-1}}$, respectively). We also confirm that LRDs show larger Balmer decrements, with median $\\log\\_{10}(F\\_{\\rm Hα}/F\\_{\\rm Hβ})=1.01\\pm0.03$, compared with $0.47\\pm0.01$ for LBDs. Line-of-sight effects could explain both results. However, most significantly, we find that the LRD fraction increases strongly with H$α$ line luminosity: LRDs are approximately six times more luminous in H$α$ than LBDs. This robust finding is much harder to explain through unification with LBDs by orientation. Despite their higher line luminosities, LRDs have a moderately lower median H$α$ equivalent width than LBDs, consistent with more of the raw emission being reprocessed into the rest-frame optical continuum in LRDs. These results, coupled with the systematically lower [O III]/H$β$ ratios found in LRDs and the decline of H$α$ equivalent width towards the reddest optical slopes, disfavour a simple orientation-based link between LRDs and LBDs, and are instead more consistent with the predictions of gas-cocoon models in which increasing gas column density explains the apparent transition from LBDs to LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Barrufet}, L.'), Person('{Dunlop}, J. S.'), Person('{Hamadouche}, M. L.'), Person('{Mezcua}, M.'), Person('{Herrero-Carrion}, D.'), Person('{Santos-Lleo}, M.'), Person('{Gottumukkala}, R.'), Person('{Spinoso}, D.'), Person('{Donnan}, C. T.')]",
+      "relevance_score": 9.0,
+      "justification": "This paper is highly relevant to LRD research, directly testing the orientation unification hypothesis against distinct physical regimes using a large JWST spectroscopic sample. Its robust finding that LRD fraction increases with Hα luminosity, combined with Balmer decrement and [O III]/Hβ trends, provides strong evidence against simple orientation and supports gas-cocoon models.",
+      "key_factors": [
+        "Large JWST spectroscopic sample of 89 LRDs and 191 LBDs",
+        "Direct test of orientation vs. distinct physical regimes",
+        "LRDs are ~6x more Hα-luminous than LBDs",
+        "Balmer decrements and [O III]/Hβ systematically differ",
+        "Supports gas-cocoon model for LRD transition"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly targets Little Red Dots and Little Blue Dots, testing whether they are the same AGN population viewed at different orientations versus distinct physical regimes. This is a central question in LRD research, with LRDs and LBDs explicitly defined and compared throughout."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a substantial spectroscopic sample from the DAWN JWST Archive (89 LRDs and 191 LBDs, 1<z<7.5) selected with common criteria in Hα equivalent width, UV continuum slope, and compactness. Measurements include Hα line profiles, Balmer decrements, optical continuum slopes, and [O III]/Hβ ratios, providing robust multi-diagnostic constraints."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Quantifies key physical diagnostics: median Hα FWHM, Hα luminosity, equivalent width, Balmer decrements, and [O III]/Hβ. The finding that LRDs are about six times more Hα-luminous than LBDs while having lower median Hα EW suggests reprocessing and higher gas column density, directly constraining physical conditions."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Challenges a popular orientation-based unification scenario for LRDs and LBDs, presenting evidence that is difficult to explain by line-of-sight effects alone. The paper supports gas-cocoon models, which is a significant contribution to the debate on the nature of LRDs."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis uses statistically meaningful samples with reported uncertainties on median values and tests multiple observable predictions of the orientation scenario. The conclusion is based on several independent lines of evidence, though the abstract does not fully address possible selection biases or completeness corrections."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18574,9 +18614,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.259436008676776,
+    "average_score": 8.261038961038947,
     "median_score": 8.5,
-    "high_relevance_count": 434,
+    "high_relevance_count": 435,
     "moderate_relevance_count": 20,
     "low_relevance_count": 7
   }
