@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T09:16:33.258910",
-  "total_papers": 463,
-  "successfully_scored": 463,
+  "generated_at": "2026-08-29T06:15:38.066977",
+  "total_papers": 465,
+  "successfully_scored": 465,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -8633,6 +8633,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260825021M",
+      "title": "{The ionizing properties of JWST's compact broad-line emitters}",
+      "abstract": "{The recent JWST discovery of a numerous population of broad-line emitters (BLEs) at $z>4$ has reopened the question of whether sources other than faint galaxies contributed significantly to cosmic reionization. To assess this contribution, we present a systematic census of compact, blue broad-line emitters at $4\\leq z\\leq7$ selected from the DJA, designed to isolate sources in which the UV continuum and the broad-line emission originate from the same compact physical region. Starting from a parent sample of 4145 galaxies with NIRSpec/PRISM spectroscopy and NIRCam imaging, we apply criteria on broad Ha emission (FWHM$>2000$km s-1, detected at S/N$\\geq5$, complete at $L\\_{Ha,broad}\\geq10^{42.7}$erg s-1), blue continuum slopes ($β\\_{UV}\\leq-1.5$, $β\\_{opt}<0.5$), and morphological compactness in both the rest-frame UV and optical, returning a final sample of 20 sources. This constitutes $\\sim20\\%$ of the PRISM-selected broad-line sample, which is dominated by Little Red Dots (LRDs). We find that the compact blue BLEs display hot ionizing continua, high-ionization UV lines (CIV, NIV], HeII), and elevated Lya emitter fractions ($X\\_{Lya}=50-67\\%$) relative to star-forming galaxies and LRDs. Beyond their similar lack of X-ray emission, their optical spectra closely resemble those of LRDs. This suggests that compact blue BLEs extend this population towards lower column density envelopes, but with similar engines, rather than representing a physically distinct population. Using Sirocco to model physical configurations that reproduce the observed spectra, we find a high ionizing photon production efficiency (log$ξ\\_{ion}\\sim25.4$Hz erg-1) and a weighted average escape fraction $fesc\\sim0.2$ for the bluest sources, and $\\sim0.01$ for LRDs. This implies that broad-line sources do not dominate reionization globally, but given their luminosity, their contribution can dominate up to few Mpc scales.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Mascia}, Sara'), Person('{Matthee}, Jorryt'), Person('{Torralba}, Alberto'), Person('{Greene}, Jenny E.'), Person('{Eilers}, Anna-Christina'), Person('{Iani}, Edoardo'), Person('{Naidu}, Rohan P.')]",
+      "relevance_score": 8.55,
+      "justification": "This paper is highly relevant to Little Red Dot research because it directly compares compact blue broad-line emitters with the LRD-dominated broad-line sample and proposes that they are a low-column-density extension of the same population. It uses large JWST spectroscopic and imaging datasets to measure key ionizing properties and escape fractions, providing important constraints on the role of LRDs and related sources in reionization.",
+      "key_factors": [
+        "Direct comparison with LRD-dominated broad-line sample",
+        "Large JWST NIRSpec/PRISM parent sample",
+        "Measures ionizing photon production efficiency and escape fraction",
+        "Argues compact blue BLEs extend LRD population",
+        "Addresses contribution of broad-line sources to reionization"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper directly engages with the broad-line emitter population dominated by Little Red Dots, compares compact blue BLEs to LRDs across spectral and X-ray properties, and argues they extend the LRD population toward lower column density envelopes rather than being a distinct class. This is highly central to LRD research."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses a large parent sample of 4145 galaxies with NIRSpec/PRISM spectroscopy and NIRCam imaging, applies quantitative selection criteria on broad H-alpha, continuum slopes, and morphological compactness, and incorporates multiwavelength constraints including X-ray non-detections and Sirocco modeling."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Characterizes ionizing continua, high-ionization UV lines such as CIV, NIV], and HeII, Ly-alpha emitter fractions, X-ray emission, ionizing photon production efficiency, and escape fractions. Directly compares these physical properties between compact blue BLEs, LRDs, and star-forming galaxies."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses whether broad-line sources contributed significantly to cosmic reionization and provides quantitative escape fraction estimates. It also informs the AGN/starburst nature and unification of LRDs with compact blue broad-line emitters, making it impactful for high-redshift galaxy evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The study is systematic with a well-defined parent sample, completeness limits, and reproducible selection criteria. The final sample of 20 sources is relatively small, but the analysis is strengthened by careful modeling and comparison samples."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1003...10W",
       "title": "{The Missing Hard Photons of Little Red Dots: Their Incident Ionizing Spectra Resemble Massive Stars}",
       "abstract": "{The nature of little red dots (LRDs) has largely been investigated through their continuum emission, with lines assumed to arise from a broad-line region. In this paper, we instead use recombination lines to infer the intrinsic properties of the central engine. Our analysis first reveals a tension between the ionizing properties implied from H{\\ensuremath{\\alpha}} and He II {\\ensuremath{\\lambda}}4686. The high H{\\ensuremath{\\alpha}} EWs require copious H-ionizing photons, more than the bluest active galactic nucleus (AGN) ionizing spectra can provide. In contrast, He II emission is marginally detected, and its low EW is, at most, consistent with the softest AGN spectra. The low He II/H{\\ensuremath{\\beta}} ({\\ensuremath{\\sim}}10$^{{\\ensuremath{-}}2}$, <20{\\texttimes} local AGN median) further points to an unusually soft ionizing spectrum. We extend our analysis to dense gas envelopes (quasi- star/black-hole star) and find that hydrogen recombination lines become optically thick and lose diagnostic power, but He II remains optically thin and a robust tracer. Photoionization modeling with Cloudy rules out standard AGN accretion disk spectra. Alternative explanations include exotic AGN with red rest-optical emission, high average optical depth (>10) from gas/dust, and soft ionizing spectra with abundant H-ionizing photons, consistent with, e.g., a cold accretion disk or a composite of AGN and stars. The latter is an intriguing scenario since high hydrogen densities are highly conducive for star formation, and nuclear star clusters are found in the vicinity of local massive black holes. While previous studies have mostly focused on features dominated by the absorbing hydrogen cloud, the He II-based diagnostic proposed here represents a crucial step toward understanding the central engine of LRDs.}",
@@ -16501,6 +16541,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1007L..28C",
+      "title": "{Super-Eddington Accretion of Black Holes in Early Nuclear Bursts Gives Birth to Little Red Dots}",
+      "abstract": "{In a recent paper, Chen et al. developed a framework for modeling the seeding and growth of supermassive black holes (BHs) in the context of {\\ensuremath{\\Lambda}}CDM cosmogony. Here, we use a set of physically motivated criteria to select a population of predicted BHs and link them to little red dots (LRDs) discovered by JWST. We show that the LRD population at high redshift (z) emerges naturally from a subset of BHs with super-Eddington accretion during nuclear bursts. The model suggests that the observed LRDs are the ``tip of the iceberg'' of a much larger population of less luminous BHs in the same subset. The model makes specific predictions for the LRD population, such as the mass distributions of their BHs and host galaxies/halos, and the piece-wise redshift evolution of their number density. The cosmological context of the model also allows us to link the observed LRD population to their progenitors (their BH seeds) and lower-z descendant BHs, galaxies, and halos. Most LRDs at z {\\ensuremath{\\sim}} 5 are seeded at z {\\ensuremath{\\gtrsim}} 20 through direct-collapse BHs or pair-instability supernovae from Pop-III stars and have grown to M$\\_{BH}$ ≍ {}10$^{5}$─{}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ through nuclear bursts by their observed redshift. LRDs are predicted to have diverse descendants, ranging from compact dwarf galaxies to brightest cluster galaxies (BCGs) at z = 0. These predictions are consistent with current observations and can be further tested. The success of this model indicates that the results presented here provide a robust foundation for building detailed models of the LRD population.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chen}, Yangyao'), Person('{Mo}, Houjun')]",
+      "relevance_score": 7.5,
+      "justification": "This theoretical study directly addresses the origin of LRDs via super-Eddington BH accretion in early nuclear bursts, providing detailed physical predictions and cosmological context. It is highly relevant to LRD research despite lacking new observational data. The score reflects strong LRD focus and physical modeling, with lower weight on observational techniques.",
+      "key_factors": [
+        "Directly models LRD population from BH growth",
+        "Predicts BH and host mass distributions",
+        "Links LRDs to seeds and z=0 descendants",
+        "Uses Lambda-CDM framework",
+        "No new JWST observations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely centered on LRDs: it selects predicted BHs and links them directly to JWST-discovered LRDs, explaining their emergence and population properties."
+        },
+        "observational_techniques": {
+          "score": 4.0,
+          "reasoning": "The work is theoretical and does not present new JWST observations or data reduction; it relies on previously published LRD samples and model predictions rather than observational technique development."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Provides specific predictions for BH masses (10^5-10^7 Msun), host galaxy/halo masses, number density evolution, and links to seeds and descendants, covering key physical properties of LRDs."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Offers a robust theoretical framework for the LRD population, makes testable predictions, and connects high-redshift LRDs to diverse z=0 descendants; could influence future LRD modeling and observational tests."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Uses physically motivated selection criteria within Lambda-CDM and super-Eddington accretion, and checks consistency with current observations, though predictions are model-dependent and require further testing."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1004L...4C",
       "title": "{Little Red Dots as Globular Clusters in Formation}",
       "abstract": "{Little Red Dots (LRDs), among the most enigmatic high-redshift discoveries by JWST, are commonly believed to be powered by accreting supermassive black holes. Here, we explore the possibility that these sources are globular clusters in formation, with rest-frame UV arising from a very young stellar population and rest-frame optical from a short-lived supermassive (>{}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$) star. The spectral profiles of LRDs are broadly consistent with this scenario, though the observed temperatures and bolometric luminosities favor emission reprocessed by optically thick continuum-driven winds not fully captured by current models. The LRD z {\\ensuremath{\\sim}} 5{\\ensuremath{-}}7 UV luminosity function naturally evolves, under standard evolutionary and mass-loss prescriptions, into a present-day mass function with a turnover at log10(M$\\_{*}$/M$\\_{{\\ensuremath{\\odot}}}$) = 5.3 and an exponential cutoff at high masses, consistent with local globular cluster populations. We estimate the total present-day number density of LRDs formed across all redshifts to be ≍0.3 Mpc$^{{\\ensuremath{-}}3}$, similar within uncertainties to local globular clusters. The observed LRD redshift range matches the age distribution of metal-poor globular clusters, without current LRD counterparts to the metal-rich population. If LRDs are globular clusters in formation, we predict chemical abundance patterns characteristic of multiple stellar populations, including enhanced He and N, and potential Na─O and Al─Mg anticorrelations. These results offer a local perspective to explore this surprisingly abundant population of distant sources, and a potential new window into extreme stellar astrophysics in the early Universe.}",
@@ -18654,9 +18734,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.26155507559394,
+    "average_score": 8.260537634408589,
     "median_score": 8.5,
-    "high_relevance_count": 436,
+    "high_relevance_count": 438,
     "moderate_relevance_count": 20,
     "low_relevance_count": 7
   }
