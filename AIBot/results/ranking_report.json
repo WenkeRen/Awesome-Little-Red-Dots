@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T06:15:38.066977",
-  "total_papers": 465,
-  "successfully_scored": 465,
+  "generated_at": "2026-08-30T06:15:04.024153",
+  "total_papers": 467,
+  "successfully_scored": 467,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -563,6 +563,46 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs multiple analysis tools (Cloudy, bagpipes) and conservatively reports systematic uncertainties on black hole mass. Acknowledges limitations in UV continuum interpretation, though full methodological details are limited by abstract length."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026MNRAS.tmp.1477D",
+      "title": "{Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy}",
+      "abstract": "{We construct and characterise a sample of 146 little red dots (LRDs) across 2.0 < z < 9.3, selecting all sources with v-shaped UV- optical continua from JWST NIRSpec/PRISM spectra and compact morphologies in NIRCam/F444W imaging. We show that LRD continuum spectra are well described by modified blackbodies across , with typical T \\raisebox{-0.5ex}\\textasciitilde 5000 K () across 2 dex in luminosity, and a tail toward T \\raisebox{-0.5ex}\\textasciitilde 2000 K. LRDs therefore trace a locus in the Hertzsprung-Russell diagram that is analogous to stars on the Hayashi track, strongly supporting the picture that LRDs are AGN embedded in optically-thick dense gas envelopes. Hotter LRDs with typically have strong Balmer breaks, redder UV slopes and high optical luminosities; other LRDs show weak or no Balmer breaks, and wide variety in {\\ensuremath{\\beta}}$\\_{UV}$ and L$\\_{5100}$. Crucially, we demonstrate that the UV-optical continua are strongly linked to the H{\\ensuremath{\\alpha}}, H{\\ensuremath{\\beta}}, [O III] and O I line properties. There is a tight linear relation between the H{\\ensuremath{\\alpha}} and optical continuum luminosities, as well as H{\\ensuremath{\\alpha}} and , indicating that Balmer, O I and optical emission must primarily be powered by the same source. The Balmer decrement increases strongly toward higher L$\\_{H{\\ensuremath{\\alpha}}}$, L$\\_{5100}$ and Balmer break strength, providing key evidence for luminosity-dependent effects of collisional (de-)excitation and resonant scattering in the gaseous envelopes. In contrast, we show that [O III] emission likely originates from star-forming host galaxies, with strong variation in the AGN-to-host ratio among the LRD population. Our work presents an empirical description of the nature and structure of LRDs, defining a new benchmark for ongoing LRD model developments.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{de Graaff}, Anna'), Person('{Hviding}, Raphael E.'), Person('{Naidu}, Rohan P.'), Person('{Greene}, Jenny E.'), Person('{Miller}, Tim B.'), Person('{Leja}, Joel'), Person('{Matthee}, Jorryt'), Person('{Brammer}, Gabriel'), Person('{Katz}, Harley'), Person('{Bezanson}, Rachel'), Person('{Boogaard}, Leindert A.'), Person('{Bose}, Sownak'), Person('{Chisholm}, John'), Person('{Cleri}, Nikko J.'), Person('{Dayal}, Pratika'), Person('{Feldmann}, Robert'), Person('{Fudamoto}, Yoshinobu'), Person('{Fujimoto}, Seiji'), Person('{Furtak}, Lukas J.'), Person('{Glazebrook}, Karl'), Person('{Gottumukkala}, Rashmi'), Person('{Heintz}, Kasper E.'), Person('{Kokorev}, Vasily'), Person('{Labbe}, Ivo'), Person('{Maseda}, Michael V.'), Person('{McConachie}, Ian'), Person('{Nanayakkara}, Themiya'), Person('{Nelson}, Erica'), Person('{Nowaczyk}, Przemys{\\\\l}aw'), Person('{Oesch}, Pascal A.'), Person('{Rix}, Hans-Walter'), Person('{Setton}, David J.'), Person('{Torralba}, Alberto'), Person('{Walter}, Fabian'), Person('{Wang}, Bingjie'), Person('{Weibel}, Andrea'), Person('{van der Wel}, Arjen')]",
+      "relevance_score": 9.3,
+      "justification": "This paper is a high-impact, directly LRD-focused study using a large JWST NIRSpec sample to establish that LRDs are gas-reddened AGN with blackbody-like continua. It provides empirical benchmark relations between continuum and emission lines and advances physical understanding of LRD structure. Only minor selection and interpretive caveats prevent a perfect score.",
+      "key_factors": [
+        "146 LRD sample from JWST NIRSpec/PRISM",
+        "Compact NIRCam/F444W morphological selection",
+        "Modified blackbody continua with T~5000K and Hayashi-track analogy",
+        "Links continuum to H-alpha, H-beta, [OIII], and OI emission",
+        "Defines benchmark for LRD model developments"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on LRDs: it constructs and characterizes a sample of 146 LRDs and directly aims to establish their nature and structure. The title and abstract explicitly address the LRD population and its interpretation."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses JWST NIRSpec/PRISM spectroscopy and NIRCam/F444W imaging with well-defined selection criteria: v-shaped UV-optical continua and compact morphologies. The large sample spanning z=2.0-9.3 and detailed spectral/line fitting provide strong observational constraints."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives and links key physical properties: modified blackbody continuum temperatures (~5000K with a tail to ~2000K), Hertzsprung-Russell/Hayashi-track locus, Balmer breaks, UV slopes, optical luminosities, and multiple emission-line correlations. Interprets LRDs as AGN embedded in dense gas envelopes and separates host-galaxy [OIII] emission."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Provides a unified empirical description of LRDs and explicitly defines a new benchmark for LRD model development. The large sample and direct evidence linking continuum and line properties will strongly influence ongoing AGN vs. starburst debates."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Large sample, clear selection criteria, quantitative spectral modeling, and careful line-continuum correlation analysis are major strengths. Minor caveats include possible selection biases toward v-shaped continua and some interpretive reliance on the Hayashi-track analogy, but the methodology is overall robust."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18098,6 +18138,46 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260823498Z",
+      "title": "{The Road to Normalcy: Environment-Driven Evolutionary Pathways for Primordial Black Holes}",
+      "abstract": "{We investigate how cosmological environment regulates the evolution of primordial black hole (PBH) seeds in the early universe using a suite of hydrodynamical simulations. Unlike traditional seeding channels, PBHs provide early BH seeds without the need of special conditions for gas collapse/fragmentation that favor overdense regions, thus covering diverse large-scale environments. We find that PBHs follow distinct evolutionary pathways depending on the gas supply and halo assembly history. In underdense regions, limited inflow suppresses both accretion and star formation, producing faint, metal-poor systems, while in overdense environments, sustained gas inflow drives rapid BH growth and the formation of compact, centrally concentrated stellar components. These differences lead to large variations in BH-to-stellar mass ratio, metallicity, and morphology, collectively bracketing a range of possible evolutionary pathways for PBH-seeded systems. We show that compact, BH- dominated sources resembling recently observed Little Red Dots naturally arise as one phase within these evolutionary pathways before evolving into more extended galaxy--AGN systems. Our results suggest that both the initial seed properties and cosmological environment jointly shape early BH--galaxy co- evolution, while subsequent environmental regulation can erase the memory of the initial seeding channel.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Saiyang'), Person('{Jeon}, Junehyoung'), Person('{Liu}, Boyuan'), Person('{Bromm}, Volker'), Person('{Natarajan}, Priyamvada')]",
+      "relevance_score": 6.1,
+      "justification": "This theoretical simulation paper has moderate relevance to LRD research because it directly proposes Little Red Dots as a phase in PBH-seeded, environment-regulated evolution and addresses BH dominance, compactness, and metallicity, but it lacks observational data and remains focused on PBH seeding rather than a dedicated LRD sample. Its impact is therefore more interpretive and theoretical than observational.",
+      "key_factors": [
+        "Hydrodynamical simulations of PBH seeding",
+        "Environment-dependent BH-galaxy coevolution",
+        "Compact, BH-dominated systems resembling LRDs",
+        "Predictions for BH-to-stellar mass ratio and metallicity",
+        "No JWST or observational data component"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 6.5,
+          "reasoning": "The paper is primarily a theoretical study of primordial black hole seeding and environmental regulation, but it explicitly identifies compact, BH-dominated sources resembling Little Red Dots as a natural evolutionary phase, giving it moderate direct relevance to LRD research."
+        },
+        "observational_techniques": {
+          "score": 2.0,
+          "reasoning": "No JWST/NIRSpec or other observational data or observational analysis techniques are used; the study is based entirely on hydrodynamical simulations, so its contribution to observational technique development or application is minimal."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The abstract directly addresses key LRD physical properties including BH-to-stellar mass ratio, compact central morphology, metallicity, BH accretion, and star formation, and links these to environment-driven evolutionary pathways."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The claim that Little Red Dots can arise as one phase in PBH-seeded, environment-regulated evolution could influence interpretation of LRD populations, but the impact is tempered by reliance on a specific seeding channel and lack of observational comparison."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The use of a suite of hydrodynamical simulations is appropriate for studying environmental effects, but the abstract lacks detail on resolution, subgrid physics, and calibration against observations, limiting a full rigor assessment."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026A&A...706A.363B",
       "title": "{HELM's deep: Highly extincted low-mass galaxies seen by JWST}",
       "abstract": "{The dust content of star-forming galaxies is generally positively correlated with their stellar mass. However, some recent James Webb Space Telescope (JWST) studies have shown the existence of a population of dwarf galaxies with an unexpectedly large dust attenuation. Using Cosmic Evolution Early Release Science Survey (CEERS) data, we identified a sample of 1361 highly extincted low-mass (HELM) galaxies, defined as dwarf galaxies (M$\\_{*}$ {\\ensuremath{\\leq}} 10$^{8.5}$) with A$\\_{V}$ > 1 mag or more massive galaxies with an exceptionally high dust attenuation given their stellar mass (i.e. A$\\_{V}$ > 1.6 log$\\_{10}$(M$\\_{*}$/ M$\\_{{\\ensuremath{\\odot}}}$){\\ensuremath{-}}12.6). The selection was performed using the multi-parameter distribution obtained through a comprehensive spectral energy distribution fitting analysis, based on optical to near-infrared data. After the exclusion of possible contaminants, such as brown dwarfs, little red dots, and high-z (z > 8.5) and ultra-high-z (z > 15) galaxies, the sample mainly includes sources at z < 1, with a tail extending up to z = 7.2. The sample has a median stellar mass of {}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ and a median dust attenuation of A$\\_{V}$ = 2 mag. We analysed the morphology, environment, and star formation rate of these sources to investigate the reason behind their large dust attenuation. In particular, HELM sources have sizes (effective radii, R$\\_{e}$) similar to non-dusty dwarf galaxies and no correlation is visible between the axis ratios (b/a) and the dust attenuation. These findings indicate that it is unlikely that the large dust attenuation is due to projection effects, but a prolate or disc- on oblate geometry is still possible, at least for a sub-sample of the sources. We have found that the distribution of HELM sources is slightly skewed towards more clustered environments than non-dusty dwarfs and tends to be slightly less star- forming. This finding, if confirmed by spectroscopic follow-up, indicates that HELM sources could be going through some environmental processes, such as galaxy interactions.}",
@@ -18734,10 +18814,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.260537634408589,
+    "average_score": 8.258137044967867,
     "median_score": 8.5,
-    "high_relevance_count": 438,
-    "moderate_relevance_count": 20,
+    "high_relevance_count": 439,
+    "moderate_relevance_count": 21,
     "low_relevance_count": 7
   }
 }

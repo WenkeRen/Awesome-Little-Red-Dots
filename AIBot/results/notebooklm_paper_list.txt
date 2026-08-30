@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-08-29T06:20:01.826449
+Generated: 2026-08-30T06:19:10.024464
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -534,6 +534,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [9.4] 2025arXiv250316595R
     JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas
+
+[9.3] 2026MNRAS.tmp.1477D
+    Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy
 
 [9.2] 2026ApJ..1005L..22A
     Origins of the UV Continuum and Balmer Emission Lines in Little Red Dots: Observational Validation of Dense Gas Envelope Models Enshrouding the Active Galactic Nucleus
