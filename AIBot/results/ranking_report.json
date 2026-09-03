@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T06:12:05.771723",
-  "total_papers": 467,
-  "successfully_scored": 467,
+  "generated_at": "2026-09-03T06:34:01.704604",
+  "total_papers": 470,
+  "successfully_scored": 470,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -2022,6 +2022,45 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Employs careful lens modeling for magnifications and time delays, SED fitting with multiple templates, and component separation. Errors are quantified. The LRD classification is based on photometric SED and lensing symmetry, not yet spectroscopy, but the reasoning is sound and caveats are noted."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026NatAs.tmp..179Z",
+      "title": "{Extended components of little red dots in the rest-frame optical}",
+      "abstract": "{Recent JWST observations have revealed a population of red, compact, high-redshift objects called `little red dots' (LRDs), whose host components have remained largely unconstrained, possibly due to their extreme compactness. Current morphological studies suggest the presence of extended emission in LRDs at rest-frame ultraviolet wavelengths. However, in the rest-frame optical regime, investigations have been limited by small sample sizes and insufficient imaging depth, hindering reliable separation between point-like and potential extended components. Here we perform the image stacking analysis of 217 LRDs in four NIRCam bands, a large and homogeneous sample observed with the COSMOS- Web survey. Our results reveal the detection of faint extended emission in the F444W band, with a typical size of \\raisebox{-0.5ex}\\textasciitilde200 parsecs and magnitude of \\raisebox{-0.5ex}\\textasciitilde27.7 AB at z {\\ensuremath{\\approx}} 6.5. We perform four-band photometric spectral energy distribution fitting based on galaxy templates and derive an average stellar mass of 1 0$^{9.0 2$\\_{-0.18}$<SUP>+0.20}$</SUP>M$\\_{☉}$ <tex-math id=``IEq1\\_TeX''> <![CDATA[\\textbackslashdocumentclass[12pt]\\{minimal\\} \\textbackslashusepackage\\{amsmath\\} \\textbackslashusepackage\\{wasysym\\} \\textbackslashusepackage\\{amsfonts\\} \\textbackslashusepackage\\{amssymb\\} \\textbackslashusepackage\\{amsbsy\\} \\textbackslashusepackage\\{mathrsfs\\} \\textbackslashusepackage\\{upgreek\\} \\textbackslashsetlength\\{\\textbackslashoddsidemargin\\}\\{-69pt\\} \\textbackslashbegin\\{document\\}$1{0}^{9.0{2}\\_{-0.18}^{+0.20}} {M}\\_{\\odot }$\\textbackslashend\\{document\\}]]></tex-math>. Given this stellar mass, the host galaxy is compact, that is, \\raisebox{-0.5ex}\\textasciitilde2.5{\\texttimes} smaller than star-forming galaxies of similar mass at comparable redshifts. This work provides direct observational evidence for the existence of LRD host galaxies at rest-frame optical wavelengths and offers new insights into the stellar buildup of these systems within the first billion years after the Big Bang.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Yiyang'), Person('{Ding}, Xuheng'), Person('{Yang}, Lilan'), Person('{Lambrides}, Erini'), Person('{Akins}, Hollis'), Person('{Battisti}, Andrew J.'), Person('{Casey}, Caitlin M.'), Person('{Chen}, Chang-hao'), Person('{Cox}, Isa'), Person('{Faisst}, Andreas'), Person('{Franco}, Maximilien'), Person('{Haghjoo}, Aryana'), Person('{Ho}, Luis C.'), Person('{Inayoshi}, Kohei'), Person('{Jin}, Shuowen'), Person('{Karmen}, Mitchell'), Person('{Koekemoer}, Anton M.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Liao}, Kai'), Person('{Gozaliasl}, Ghassem'), Person('{Onoue}, Masafusa'), Person('{Kokorev}, Vasily'), Person('{Roy}, Namrata'), Person('{Rich}, R. Michael'), Person('{Silverman}, John D.'), Person('{Tanaka}, Takumi S.'), Person('{You}, Bei'), Person('{Yesuf}, Hassen M.'), Person('{Zavala}, Jorge A.')]",
+      "relevance_score": 8.9,
+      "justification": "This paper directly addresses a key open question in LRD research by detecting extended rest-frame optical emission from stacked JWST/NIRCam imaging of 217 COSMOS-Web LRDs. It constrains average host size, magnitude, and stellar mass, showing that LRD hosts are compact relative to typical star-forming galaxies. These results provide important evidence for LRD host galaxies and their early stellar buildup.",
+      "key_factors": [
+        "Directly studies 217 LRDs",
+        "JWST NIRCam COSMOS-Web four-band stacking",
+        "Rest-frame optical host detection",
+        "Stellar mass and compactness constraints"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly targets little red dots, using a sample of 217 LRDs to isolate and characterize their host-galaxy components. It is squarely centered on a key open question in LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses JWST NIRCam imaging in four bands from the large homogeneous COSMOS-Web survey, with image stacking and PSF separation to detect faint extended emission. Strong observational approach, though lacking spectroscopic or IFU constraints."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives important average host properties including rest-frame optical size (~200 pc), magnitude (~27.7 AB), stellar mass (~10^9 Msun), and compactness relative to star-forming galaxies. However, results are ensemble averages rather than individual galaxy constraints."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Provides direct observational evidence for LRD host galaxies in the rest-frame optical, addressing a major uncertainty in LRD morphology and stellar-mass buildup within the first billion years."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Uses a large, homogeneous sample and careful stacking analysis, but limitations include template-based SED fitting, average stacking properties, and potential AGN contamination in host light."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -11290,6 +11329,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260830459B",
+      "title": "{Broad-band host measurements of little red dots and similar compact nuclei require source-conditioned polychromatic PSFs}",
+      "abstract": "{Characterizing compact sources in the early Universe is difficult because light from physically distinct components can overlap within the same diffraction-limited image. A common method uses field stars to model how a single point of light appears and from this estimates the intrinsic structure and contributions of the physical components of the distant object under study. Many important properties inferred for high-redshift objects depend on the accuracy of this method. Using the little red dots (LRDs) analysed by Zhang et al. as a test case, this work shows that applying the method through broad filters to objects whose spectra differ from those of the field stars can systematically misassign light, overestimating an existing extended component or creating an apparent one where none exists. At the measured level, this error is large enough to alter the inferred sizes, luminosities and masses, and therefore the physical interpretation of these systems. The physical and mathematical origin of the error is established and a correction applicable to other compact distant sources is demonstrated.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person(\"{Bonaque-Gonz{\\\\'a}lez}, Sergio\")]",
+      "relevance_score": 8.4,
+      "justification": "This paper directly targets a critical systematic in LRD host decomposition, demonstrating that broad-band field-star PSFs can create or overestimate extended emission in little red dots. It combines a clear methodological advance with immediate implications for inferred LRD sizes, luminosities, and masses, earning a high relevance score despite not presenting a new LRD catalog.",
+      "key_factors": [
+        "Uses Zhang et al. LRDs as test case",
+        "Source-conditioned polychromatic PSF correction",
+        "Shows broad-band host overestimation systematics",
+        "Impacts LRD sizes, luminosities, and masses",
+        "Method correction applicable to compact high-z sources"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "Directly uses little red dots from Zhang et al. as the primary test case and focuses on broad-band host/compact component decomposition, which is central to LRD interpretation. The scope is methodological rather than presenting a new LRD sample, but the LRD application is explicit and central."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The paper addresses a key observational issue for compact high-redshift sources: field-star PSF calibration in broad-band imaging and the need for source-conditioned polychromatic PSFs. This is a highly relevant technical advance for JWST/HST analysis of LRDs."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "It demonstrates that systematic PSF mismatches can alter inferred sizes, luminosities, and masses of LRDs, thereby affecting AGN/host decomposition and physical interpretation. However, it does not present new derived physical parameters for a LRD sample."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The result has potentially broad impact because many LRD host measurements rely on field-star PSF models. If the effect is as large as stated, published host luminosities, sizes, and stellar masses for LRDs may require revision, and the correction is applicable to other compact distant sources."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The abstract indicates that the physical and mathematical origin of the error is established and a correction is demonstrated on a real LRD test case, suggesting a rigorous approach. Full validation details are not visible in the abstract, but the methodology appears well-motivated."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260117416S",
       "title": "{The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor}",
       "abstract": "{We present a rest-ultraviolet to infrared spectral energy distribution (SED) analysis of 63 heavily reddened quasars (HRQs) at redshifts z=0.7-2.7 and with dust extinctions E(B-V)=0.4-1.8. Our analysis demonstrates that SEDs with red optical and blue UV continua are very common in HRQs, with more than 82 per cent of the sample showing a UV-excess relative to the reddened quasar continuum. We model the SEDs by combining a reddened quasar and an unobscured scattered light component, though contributions from a star-forming host galaxy cannot be ruled out. The average scattering fraction is small (0.3 per cent). Higher scattering fractions are ruled out by the (i-K)=2.5 colour-cut used to select HRQs which pre-dates the discovery of the JWST ``Little Red Dot'' (LRD) population. Hence, LRDs generally have bluer UV continua. Nevertheless, four HRQs satisfy the LRD UV/optical continuum slope selections and are therefore massive, cosmic noon analogues of LRDs. Analysis of the near-infrared SEDs of HRQs reveals a deficit of hot dust relative to blue quasars, similar to what is observed in LRDs. This suggests HRQs trace a phase where strong AGN feedback processes eject dust from the inner torus. The UV scattering fraction of HRQs is weakly correlated with the amount of hot dust emission and anti- correlated with the line-of-sight extinction, E(B-V). This is consistent with the hot dust acting as the scattering medium, and the line-of-sight extinction being dominated by dust on interstellar medium scales in the host galaxy.}",
@@ -11525,6 +11604,45 @@
         "methodological_rigor": {
           "score": 7.0,
           "reasoning": "The study quantifies variability significance, upper limits, and statistical probability relative to SDSS-RM quasars. However, it is limited by a small sample of 6 LRDs and low-significance detections (1.5σ and 2.1σ), requiring confirmation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260829011A",
+      "title": "{Can Little Red Dots Contribute To The Early Universe Cosmic Dust Budget?}",
+      "abstract": "{The origin of dust in the early Universe remains uncertain. We explore whether Little Red Dots (LRDs) could provide a high-redshift dust-production channel. Motivated by an analogy with Type IIn supernovae, we investigate whether LRDs may share the efficient dust-forming conditions. We consider dust formation in outer winds and later in a shielded cold dense shell after the central source fades. Such dust may avoid a global remnant-phase reverse shock, while longer LRD lifetimes may promote grain growth. We model the SEDs of two low-redshift LRD analogs as a thermal pseudo-photosphere plus optically thin dust components, obtaining dust reservoirs of order $10^{2}$-$10^{3}\\,M\\_{\\odot}$. Although photometry cannot exclude pre-existing dust, the narrow Balmer components of both analogs are close to the Case B ratio and their narrow-line environments are metal-poor, disfavoring a dominant diffuse host-ISM origin for the inferred reservoir. Formation within the LRD outflow is consistent with our optical- depth, sublimation, and energy-balance checks. In this scenario, the large dust masses do not produce a strong optical attenuation because a clumpy or asymmetric distribution can leave the dominant optical sightlines relatively unobscured. Our population calculation shows that the LRD contribution to early- Universe dust production can range from negligible to dominant. At higher efficiencies, LRDs can approach or exceed the lower CCSN contribution above $z\\approx5$, whereas less favorable assumptions yield a minor contribution. We therefore propose that LRDs can act as early-Universe dust factories and, under some conditions, may dominate over CCSNe or provide seed grains for subsequent growth in the early ISM.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ashall}, Chris'), Person('{Naidu}, Rohan P.'), Person('{Torralba}, Alberto'), Person('{Shivaei}, Irene'), Person('{Chisholm}, John'), Person('{Liu}, Hanpu'), Person('{Liu}, Zhaoran'), Person('{Matthee}, Jorryt'), Person('{Medler}, Kyle'), Person('{Mera}, Tyco'), Person('{Moriya}, Takashi J.'), Person('{Nandal}, Devesh'), Person('{Simcoe}, Robert A.'), Person('{Sun}, Wendy Q.')]",
+      "relevance_score": 8.3,
+      "justification": "This paper is highly relevant to LRD research, directly assessing whether Little Red Dots can contribute to early-Universe dust. It combines SED modeling of low-redshift analogs with physical consistency checks and population estimates, though its conclusions remain partly conditional on uncertain dust formation efficiencies.",
+      "key_factors": [
+        "Direct LRD dust-production focus",
+        "Low-redshift LRD analogs with dust mass estimates",
+        "Physical checks of dust survival and obscuration",
+        "Population contribution to early cosmic dust budget"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly and centrally about Little Red Dots, investigating their possible role as high-redshift dust factories. The title and abstract directly propose LRDs as a dust-production channel and assess their contribution to the early-Universe cosmic dust budget."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "The study uses SED modeling of two low-redshift LRD analogs, Balmer line diagnostics, and photometric constraints. However, it does not present direct high-redshift JWST spectroscopy of LRDs, relying instead on analogs and population calculations, which limits direct observational grounding."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper derives dust masses of 10^2-10^3 Msun, examines optical depth, sublimation, and energy-balance constraints, and evaluates dust geometry, metallicity, and grain growth. It provides a detailed physical picture of how LRD outflows could form and preserve dust."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The work addresses a major open question in early galaxy evolution: the origin of cosmic dust. If LRDs are significant dust producers, this would reshape understanding of early ISM enrichment and dust budgets, though the population contribution remains conditional on uncertain efficiencies."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analysis includes multiple consistency checks (optical depth, sublimation, energy balance) and acknowledges that pre-existing dust cannot be excluded. However, the reliance on low-redshift analogs and population assumptions introduces some uncertainty and limits direct applicability to high-redshift LRDs."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18814,9 +18932,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.258137044967867,
+    "average_score": 8.259893617021264,
     "median_score": 8.5,
-    "high_relevance_count": 439,
+    "high_relevance_count": 442,
     "moderate_relevance_count": 21,
     "low_relevance_count": 7
   }
