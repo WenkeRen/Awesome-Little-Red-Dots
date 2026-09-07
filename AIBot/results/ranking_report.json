@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T06:34:01.704604",
-  "total_papers": 470,
-  "successfully_scored": 470,
+  "generated_at": "2026-09-07T06:36:01.278037",
+  "total_papers": 473,
+  "successfully_scored": 473,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -39,6 +39,47 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "The analysis combines lens modeling, deep spectroscopy, and rotation curve fitting with careful consideration of alternatives (e.g., nuclear star cluster). Conservative limits are placed on stellar mass, and the interpretation is robust. The methods are sound and well-suited to the data."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026MNRAS.551g1567D",
+      "title": "{Little red dots host black hole stars: a unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy}",
+      "abstract": "{We construct and characterize a sample of 146 little red dots (LRDs) across , selecting all sources with v-shaped ultraviolet (UV)--optical continua from James Webb Space Telescope (JWST) NIRSpec/PRISM spectra and compact morphologies in NIRCam/F444W imaging. We show that LRD continuum spectra are well described by modified blackbodies across , with typical K () across 2 dex in luminosity, and a tail toward K. LRDs therefore trace a locus in the Hertzsprung--Russell diagram that is analogous to stars on the Hayashi track, strongly supporting the picture that LRDs are active galactic nucleus (AGN) embedded in optically thick dense gas envelopes. Hotter LRDs with typically have strong Balmer breaks, redder UV slopes, and high optical luminosities; other LRDs show weak or no Balmer breaks, and wide variety in and . Crucially, we demonstrate that the UV--optical continua are strongly linked to the H, H, [O III], and O I line properties. There is a tight linear relation between the H and optical continuum luminosities, as well as H and , indicating that Balmer, O I, and optical emission must primarily be powered by the same source. The Balmer decrement increases strongly toward higher , , and Balmer break strength, providing key evidence for luminosity-dependent effects of collisional (de-)excitation and resonant scattering in the gaseous envelopes. In contrast, we show that [O III] emission likely originates from star-forming host galaxies, with strong variation in the AGN-to-host ratio among the LRD population. Our work presents an empirical description of the nature and structure of LRDs, defining a new benchmark for ongoing LRD model developments.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{de Graaff}, Anna'), Person('{Hviding}, Raphael E.'), Person('{Naidu}, Rohan P.'), Person('{Greene}, Jenny E.'), Person('{Miller}, Tim B.'), Person('{Leja}, Joel'), Person('{Matthee}, Jorryt'), Person('{Brammer}, Gabriel'), Person('{Katz}, Harley'), Person('{Bezanson}, Rachel'), Person('{Boogaard}, Leindert A.'), Person('{Bose}, Sownak'), Person('{Chisholm}, John'), Person('{Cleri}, Nikko J.'), Person('{Dayal}, Pratika'), Person('{Feldmann}, Robert'), Person('{Fudamoto}, Yoshinobu'), Person('{Fujimoto}, Seiji'), Person('{Furtak}, Lukas J.'), Person('{Glazebrook}, Karl'), Person('{Gottumukkala}, Rashmi'), Person('{Heintz}, Kasper E.'), Person('{Kokorev}, Vasily'), Person('{Labbe}, Ivo'), Person('{Maseda}, Michael V.'), Person('{McConachie}, Ian'), Person('{Nanayakkara}, Themiya'), Person('{Nelson}, Erica'), Person('{Nowaczyk}, Przemys{\\\\l}aw'), Person('{Oesch}, Pascal A.'), Person('{Rix}, Hans-Walter'), Person('{Setton}, David J.'), Person('{Torralba}, Alberto'), Person('{Walter}, Fabian'), Person('{Wang}, Bingjie'), Person('{Weibel}, Andrea'), Person('{van der Wel}, Arjen')]",
+      "relevance_score": 9.6,
+      "justification": "This paper is a highly relevant, large-sample JWST/NIRSpec study directly targeting the physical nature of Little Red Dots. It combines robust observational selection with detailed continuum and emission-line diagnostics to argue for a unified gas-reddened AGN picture, offering a benchmark for future LRD models. The work scores very highly across all categories due to its central LRD focus, comprehensive use of JWST data, and significant implications for high-redshift AGN research.",
+      "key_factors": [
+        "Large sample of 146 LRDs",
+        "JWST NIRSpec/PRISM spectroscopy",
+        "Modified blackbody continuum modeling",
+        "Emission-line diagnostics including Balmer and [OIII]",
+        "Unified gas-reddened AGN interpretation",
+        "Benchmark for LRD model development"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots, constructing and characterizing a sample of 146 LRDs selected from JWST NIRSpec/PRISM spectra. The title and abstract directly address the nature and structure of LRDs, making it a maximal core-focus study."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses JWST NIRSpec/PRISM spectroscopy and NIRCam/F444W imaging to select v-shaped UV-optical continua and compact morphologies. The multi-diagnostic approach combining continuum fitting, Balmer breaks, and emission-line properties is highly relevant and state-of-the-art for LRD observations."
+        },
+        "physical_properties": {
+          "score": 9.5,
+          "reasoning": "Derives modified blackbody temperatures, luminosities, Balmer break strengths, and emission-line diagnostics (H-alpha, H-beta, [OIII], OI). It links these properties to AGN activity, gas reddening, and host star formation, providing strong physical characterization of the LRD population."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "Proposes a unified family of gas-reddened AGN and a new benchmark for LRD model development. By connecting LRDs to black hole stars and addressing the AGN versus starburst debate, the work has high impact for high-redshift galaxy and black hole evolution."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "The study is based on a large sample of 146 LRDs with empirical correlations and clear selection criteria. The abstract does not detail uncertainties or completeness, but the systematic construction and multiple cross-checks indicate strong methodological rigor."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -966,6 +1007,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Thorough analysis using multi-component Gaussian fitting to model the complex Hα profile, cross-checking with previous Hβ-based black hole mass, and verifying consistency with Balmer break analysis. The interpretation of the absorber as a long-lived structure is well-supported, though the study is limited to a single object."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260900112K",
+      "title": "{Skyfire: A Spectroscopic Census of Little Red Dots and Broad-Line AGN in the CEERS Field}",
+      "abstract": "{We present the Skyfire program, a 21-hour Cycle 3 JWST/NIRSpec survey with the G395M medium-resolution grating covering five pointings in the Extended Groth Strip. The survey is designed to carry out a systematic census of faint, broad-line AGN candidates with a range of rest-optical colors identified at z > 3 by the Cosmic Evolution Early Release Science (CEERS) Survey. Our primary targets include photometrically-selected Little Red Dots (LRDs), blue extreme emission line galaxies (EELGs), and X-ray-detected AGN. We present spectroscopic redshifts for 178 sources observed by Skyfire, as well as a catalog of 34 sources with broad emission lines in the redshift range 2.7 < z < 6.5. Our broad- line sample includes 18 LRDs, which brings the spectroscopic completeness of LRDs with $β\\_{\\rm opt}>-0.02$ in the CEERS field to 73\\%. We explore the prevalence of broad emission lines in photometrically-selected LRDs as a function of their rest-frame continuum slope and observed color distributions. We find the broad-line detection fraction in LRDs remains high at relatively blue rest-optical colors and extends smoothly into the bluer regime occupied by Little Blue Dots (LBDs). We discuss the implications of this finding for LRD-LBD unification scenarios. We also find that only 18\\% (3/17) of EELGs selected primarily for their high-equivalent-width emission lines and compact morphologies exhibit broad emission lines, suggesting these criteria alone are poor predictors of broad-line activity. We present a revised set of LRD selection criteria that captures bluer sources by extending down to $β\\_{\\rm opt}=-0.52$. Using this new threshold, we find that $80.9^{+4.6}\\_{-7.5}\\%$ of photometrically-selected LRDs brighter than 26.5 in F444W show broad emission lines and that LRDs make up 54\\% of the overall broad-line population identified in the CEERS field.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Kocevski}, Dale D.'), Person('{Taylor}, Anthony J.'), Person('{Onoue}, Masafusa'), Person('{Inayoshi}, Kohei'), Person('{Finkelstein}, Steven L.'), Person('{Barro}, Guillermo'), Person('{Guo}, Jingsong'), Person('{Arrabal Haro}, Pablo'), Person('{Trump}, Jonathan R.'), Person('{Larson}, Rebecca L.'), Person('{Dickinson}, Mark'), Person('{Papovich}, Casey'), Person('{Pacucci}, Fabio'), Person('{Perez-Gonzalez}, Pablo G.'), Person('{Hirschmann}, Michaela'), Person('{McGrath}, Elizabeth J.'), Person('{Jones}, Brenda L.'), Person('{Cleri}, Nikko J.'), Person('{Davis}, Kelcey'), Person('{Giavalisco}, Mauro'), Person('{Grogin}, Norman A.'), Person('{Hutchison}, Taylor A.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kirkpatrick}, Allison'), Person('{Leung}, Gene C. K.'), Person('{Somerville}, Rachel S.'), Person('{Wilkins}, Stephen M.')]",
+      "relevance_score": 9.2,
+      "justification": "This paper is a directly LRD-focused JWST/NIRSpec spectroscopic census that substantially improves the completeness and demographic understanding of LRDs in CEERS. Its large spectroscopic sample, revised selection criteria, and quantitative broad-line fraction measurements make it a high-impact observational contribution to LRD and AGN research.",
+      "key_factors": [
+        "JWST/NIRSpec G395M spectroscopic survey",
+        "Large sample of 178 redshifts and 34 broad-line sources",
+        "18 LRDs with broad emission lines",
+        "73% spectroscopic completeness for red LRDs",
+        "Revised LRD selection criteria extending to bluer colors",
+        "Tests LRD-LBD unification and EELG selection efficiency"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly centered on Little Red Dots: it presents a spectroscopic census of LRDs in CEERS, reports 18 LRDs with broad lines, quantifies broad-line detection fractions, and proposes revised LRD selection criteria. LRDs are the primary population under study, though the survey also includes broad-line AGN and EELGs."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a systematic 21-hour Cycle 3 JWST/NIRSpec G395M medium-resolution survey across five pointings, yielding 178 spectroscopic redshifts and a catalog of 34 broad-line sources. The combination of photometric selection, X-ray detections, and spectroscopic completeness makes this a strong observational dataset, though it is limited to medium-resolution spectroscopy."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper measures broad-line prevalence as a function of rest-frame continuum slope and observed color, probes LRD-LBD unification, and revises LRD selection thresholds. It focuses on demographic and spectral classification rather than detailed BH mass modeling or multiwavelength SED fitting, so physical characterization is solid but not exhaustive."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "The results are highly impactful for LRD research: spectroscopic completeness reaches 73% for red LRDs, 80.9% of photometrically selected LRDs show broad lines, and LRDs constitute 54% of the broad-line population. The revised selection criteria and LRD-LBD unification discussion will influence future JWST surveys and AGN demographic studies."
+        },
+        "methodological_rigor": {
+          "score": 9.0,
+          "reasoning": "The survey is carefully designed with clear selection criteria, statistical completeness estimates, and quantified uncertainties. The comparison of LRD, EELG, and X-ray-selected AGN populations strengthens the analysis. Minor limitations include flux-limited selection and reliance on medium-resolution line identification."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -6115,6 +6197,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Demonstrates careful parameterization of atmospheric models and uses multiple independent spectral features for consistent constraints. Acknowledges uncertainties in geometry and interpretation. Full assessment of technical robustness would require examination of the complete methodology beyond the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026NatAs.tmp..184Z",
+      "title": "{Extended components of little red dots in the rest-frame optical}",
+      "abstract": "{Recent JWST observations have revealed a population of red, compact, high-redshift objects called `little red dots' (LRDs), whose host components have remained largely unconstrained, possibly due to their extreme compactness. Current morphological studies suggest the presence of extended emission in LRDs at rest-frame ultraviolet wavelengths. However, in the rest-frame optical regime, investigations have been limited by small sample sizes and insufficient imaging depth, hindering reliable separation between point-like and potential extended components. Here we perform the image stacking analysis of 217 LRDs in four NIRCam bands, a large and homogeneous sample observed with the COSMOS- Web survey. Our results reveal the detection of faint extended emission in the F444W band, with a typical size of \\raisebox{-0.5ex}\\textasciitilde200 parsecs and magnitude of \\raisebox{-0.5ex}\\textasciitilde27.7 AB at z {\\ensuremath{\\approx}} 6.5. We perform four-band photometric spectral energy distribution fitting based on galaxy templates and derive an average stellar mass of 1 0$^{9.0 2$\\_{-0.18}$<SUP>+0.20}$</SUP>M$\\_{☉}$. Given this stellar mass, the host galaxy is compact, that is, \\raisebox{-0.5ex}\\textasciitilde2.5{\\texttimes} smaller than star-forming galaxies of similar mass at comparable redshifts. This work provides direct observational evidence for the existence of LRD host galaxies at rest-frame optical wavelengths and offers new insights into the stellar buildup of these systems within the first billion years after the Big Bang.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Yiyang'), Person('{Ding}, Xuheng'), Person('{Yang}, Lilan'), Person('{Lambrides}, Erini'), Person('{Akins}, Hollis'), Person('{Battisti}, Andrew J.'), Person('{Casey}, Caitlin M.'), Person('{Chen}, Chang-hao'), Person('{Cox}, Isa'), Person('{Faisst}, Andreas'), Person('{Franco}, Maximilien'), Person('{Haghjoo}, Aryana'), Person('{Ho}, Luis C.'), Person('{Inayoshi}, Kohei'), Person('{Jin}, Shuowen'), Person('{Karmen}, Mitchell'), Person('{Koekemoer}, Anton M.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Liao}, Kai'), Person('{Gozaliasl}, Ghassem'), Person('{Onoue}, Masafusa'), Person('{Kokorev}, Vasily'), Person('{Roy}, Namrata'), Person('{Rich}, R. Michael'), Person('{Silverman}, John D.'), Person('{Tanaka}, Takumi S.'), Person('{You}, Bei'), Person('{Yesuf}, Hassen M.'), Person('{Zavala}, Jorge A.')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research, directly probing host galaxy components in a large sample of 217 LRDs using deep JWST/NIRCam imaging. It provides important new constraints on rest-frame optical sizes, stellar masses, and compactness, making it a valuable contribution to understanding LRD host buildup. Minor limitations include reliance on stacked photometry and template-based SED fitting.",
+      "key_factors": [
+        "Direct LRD host study with 217 objects",
+        "JWST NIRCam four-band image stacking",
+        "Rest-frame optical extended emission detection",
+        "Stellar mass and compactness constraints at z~6.5",
+        "Large homogeneous COSMOS-Web sample"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on Little Red Dots, aiming to isolate and characterize their host components in the rest-frame optical. It uses a large sample of 217 LRDs, making LRD science the primary focus rather than a secondary result."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses JWST NIRCam imaging in four bands from the COSMOS-Web survey and performs image stacking, which is well suited to detecting faint extended emission. The large homogeneous sample is a strength, though the analysis relies on stacking and photometric SED fitting rather than spatially resolved spectroscopy."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives key host galaxy properties: typical extended emission size of ~200 pc, F444W magnitude ~27.7 AB at z~6.5, average stellar mass of ~10^9.02 M_sun, and compactness about 2.5 times smaller than comparable star-forming galaxies."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Provides direct observational evidence for LRD host galaxies at rest-frame optical wavelengths and constrains their stellar buildup within the first billion years. This addresses a major open question in LRD research and helps clarify the AGN versus host-galaxy nature of LRDs."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The large sample and stacking approach are robust for average properties, but the abstract does not detail systematics, AGN subtraction, or template degeneracies. Conclusions rely on average SED fitting with galaxy templates, leaving some uncertainty in individual host properties."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18932,9 +19054,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.259893617021264,
+    "average_score": 8.26564482029597,
     "median_score": 8.5,
-    "high_relevance_count": 442,
+    "high_relevance_count": 445,
     "moderate_relevance_count": 21,
     "low_relevance_count": 7
   }
