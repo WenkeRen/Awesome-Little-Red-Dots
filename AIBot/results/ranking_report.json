@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T06:36:01.278037",
-  "total_papers": 473,
-  "successfully_scored": 473,
+  "generated_at": "2026-09-10T06:41:15.296247",
+  "total_papers": 475,
+  "successfully_scored": 475,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -2143,6 +2143,46 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Uses a large, homogeneous sample and careful stacking analysis, but limitations include template-based SED fitting, average stacking properties, and potential AGN contamination in host light."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260907025B",
+      "title": "{Between Little Red Dots and Star-Forming Galaxies: A Sequence in the Optical Continuum Slope}",
+      "abstract": "{The ``Little Red Dots'' (LRDs) uncovered by JWST are typically analyzed as a distinct class of objects; however, whether they are separated from ordinary star-forming galaxies by a genuine boundary has not been tested at the population level. Using a sample of $\\sim3,500$ galaxies at $3 \\lesssim z \\lesssim 8$ with NIRSpec/PRISM spectra from the DAWN JWST Archive, we modeled their rest-frame UV-to-optical continuum emission with power laws and located the sources in the $β\\_{\\rm{UV}}$-$β\\_{\\rm{opt}}$ plane. Alongside a dense locus of star-forming galaxies and a diagonal sequence which can be explained by dust reddening and/or quiescence, we identify a vertical sequence extending from the locus of star-forming galaxies into the LRD region. This sequence is smoothly and continuously populated, with no clear boundary between the two populations. Its middle section, $-1 \\lesssim β\\_{\\rm{opt}} \\lesssim 0$, hosts an intermediate population of $\\sim50$ sources that falls outside the LRD selection boundary and has been largely overlooked; NIRCam imaging shows their rest-frame UV and optical median stacked images lie between point-like LRDs and extended star-forming galaxies. We modeled the vertical sequence as linear mixtures of stacked star-forming spectra and a black hole star (BH*) template derived from ``The Cliff'', one of the most compelling BH* candidates, and we infer black hole-to-stellar mass ratios $η= M\\_{\\rm{BH}}/M\\_* \\approx 0.006-0.1$ at the LRD end. We propose $-1 \\lesssim β\\_{\\rm{opt}} \\lesssim 0$ as a practical selection window for possible transition candidates and argue that LRDs may be the compact, BH*-dominated extreme of a continuous population in which the relative contributions of the host and BH* vary smoothly.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Boonmee}, Kristiphong'), Person('{Inoue}, Akio K.'), Person('{Onoue}, Masafusa'), Person('{Cai}, Xingyao')]",
+      "relevance_score": 8.9,
+      "justification": "This paper is highly relevant to LRD research because it directly tests the distinctness of LRDs using a large JWST spectroscopic sample and identifies a continuous sequence into the LRD region. Its population-level approach and proposed transition selection window have significant implications for understanding LRD demographics and physical nature.",
+      "key_factors": [
+        "Direct population-level test of LRD distinctness",
+        "Large ~3,500 galaxy NIRSpec/PRISM sample",
+        "Optical continuum slope sequence into LRD region",
+        "Identification of intermediate transition population",
+        "BH-to-stellar mass ratio estimates from template mixing"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly addresses whether Little Red Dots form a distinct class, identifies a continuous sequence into the LRD region, and proposes selection criteria for transition objects, making LRDs the central subject."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a large sample of ~3,500 galaxies at z~3-8 with NIRSpec/PRISM spectra from the DAWN JWST Archive, plus NIRCam imaging and median stacking, providing strong population-level observational constraints."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives rest-frame UV-to-optical continuum slopes, locates sources in the beta_UV-beta_opt plane, estimates black hole-to-stellar mass ratios, and models contributions from star-forming hosts and BH* templates, though inferred rather than directly measured for individual objects."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Challenges the prevailing view of LRDs as a distinct class and argues for a continuous population, with practical implications for future selection and interpretation of intermediate transition candidates."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Population-level statistical test with linear mixture modeling and stacked templates is appropriate, though conclusions depend on the BH* template assumptions and continuum slope modeling."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -18219,6 +18259,45 @@
       "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260900033L",
+      "title": "{Lynx2030 Science Analysis Group: Final Report}",
+      "abstract": "{The Lynx2030 Science Analysis Group (SAG) was convened to reassess the scientific goals and technical drivers of the Lynx mission concept amid a rapidly evolving astrophysics landscape. Building on the original Lynx Concept Study, the SAG examined how recent discoveries, emerging facilities, and advances in instrumentation influence the scientific opportunities for a next-generation flagship X-ray observatory. Through focused working groups, the SAG investigated the scientific impact of enhanced capabilities: (i) improved angular resolution, (ii) broader bandpass coverage, (iii) an enhanced microcalorimeter, (iv) new capabilities and observing modes, and (v) larger fields of view. Across a broad range of topics, from the formation of the first black holes and the evolution of galaxies to the baryon cycle, compact objects, stellar explosions, multi- messenger astrophysics, and the dynamic high-energy Universe, the SAG finds that the scientific motivation for a Lynx-class observatory remains compelling and, in many areas, has significantly strengthened over the past decade, prominently through JWST's discovery of the ``Little Red Dots'', likely massive accreting black holes in infant galaxies whose nature is fundamentally an X-ray question. This report shows that modest extensions beyond the original Lynx design reference mission can unlock transformative science while preserving the observatory's core architecture. Powerful current and future facilities such as Roman, Rubin, JWST, SKA, ngVLA, LISA, and NewAthena highlight the unique role a high-angular-resolution, high-throughput X-ray observatory would play in the multi-wavelength and multi- messenger ecosystem of the 2030s and beyond. The findings of the Lynx2030 SAG confirm Lynx's central vision: an unprecedented view of the hot and energetic Universe, enabling discoveries that will define high-energy astrophysics in the coming decades.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Lynx2030 Science Analysis Group}'), Person('{Bandler}, Simon R.'), Person('{Brenneman}, Laura W.'), Person('{Cappelluti}, Nico'), Person('{Castro}, Daniel'), Person('{Ehlert}, Steven R.'), Person('{Maksym}, W. Peter'), Person('{Pacucci}, Fabio'), Person('{Randall}, Scott W.'), Person('{Tremblay}, Grant R.'), Person('{ZuHone}, John'), Person('{Allen}, Steven W.'), Person('{Basu-Zych}, Antara R.'), Person('{Bogdan}, Akos'), Person('{Bregman}, Joel N.'), Person('{Burduli}, Tamta'), Person('{Connor}, Thomas'), Person('{Das}, Sanskriti'), Person('{DeRoo}, Casey'), Person('{DiKerby}, Stephen'), Person('{Draghis}, Paul A.'), Person('{Elvis}, Martin'), Person('{Fabbiano}, Giuseppina'), Person('{Heilmann}, Ralf K.'), Person('{Irwin}, Jimmy A.'), Person('{Jaodand}, Amruta'), Person('{Karovska}, Margarita'), Person('{Kashyap}, Vinay L.'), Person('{Kerr}, Anthony A.'), Person('{Kilbourne}, Caroline'), Person('{Kraft}, Ralph'), Person('{Li}, Jiangtao'), Person('{Mallick}, Labani'), Person('{Marshall}, Herman L.'), Person('{McCollough}, Michael L.'), Person('{Ogorza{\\\\l}ek}, Anna'), Person('{Paerels}, Frederik'), Person('{Patnaude}, Daniel'), Person('{Plucinsky}, Paul'), Person('{Pooley}, David'), Person('{Porter}, Frederick S.'), Person('{Rogantini}, Daniele'), Person('{Romani}, Roger'), Person('{Russell}, Helen R.'), Person('{Sakai}, Kazuhiro'), Person('{Schattenburg}, Mark'), Person('{Schwartz}, Dan A.'), Person('{Sobolewska}, Malgorzata'), Person('{Soffitta}, Paolo'), Person('{Vikhlinin}, Alexey'), Person('{Wilkins}, Daniel R.'), Person('{Wolk}, Scott'), Person('{Wong}, Ka-Wah'), Person('{Zhuravleva}, Irina')]",
+      "relevance_score": 6.5,
+      "justification": "This Lynx2030 Science Analysis Group report is moderately relevant to LRD research because it explicitly identifies LRD characterization as a central science driver for future X-ray observations and discusses the capabilities needed to determine whether LRDs are accreting massive black holes. However, it is a broad mission concept document rather than an observational, theoretical, or dedicated LRD study, so its relevance is strategic rather than contributory to immediate LRD measurements.",
+      "key_factors": [
+        "LRDs explicitly highlighted as a key JWST discovery motivating a Lynx-class X-ray observatory",
+        "Identifies the nature of LRDs as fundamentally an X-ray question",
+        "Describes future X-ray capabilities relevant to LRD characterization",
+        "Not a dedicated LRD observational or theoretical study"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 6.5,
+          "reasoning": "The abstract explicitly highlights JWST's discovery of Little Red Dots as a key development strengthening the Lynx mission, and frames their nature as fundamentally an X-ray question. However, the paper is a broad mission concept report rather than a dedicated LRD study, so LRD content is important but not the sole or primary analytical focus."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "The report discusses future X-ray capabilities such as improved angular resolution, broader bandpass, enhanced microcalorimeter, and larger fields of view, which are directly relevant to future LRD observations. However, it presents no actual LRD observational data, JWST measurements, or analysis of existing observations."
+        },
+        "physical_properties": {
+          "score": 5.0,
+          "reasoning": "The paper notes that Little Red Dots are likely massive accreting black holes in infant galaxies, but it does not derive or present new physical properties such as black hole masses, accretion rates, stellar masses, or AGN/starburst diagnostics. Physical interpretation remains at the level of motivation rather than measurement."
+        },
+        "scientific_impact": {
+          "score": 7.5,
+          "reasoning": "As a final report from a Science Analysis Group for a next-generation flagship X-ray observatory, it positions Lynx as essential for resolving the nature of LRDs and for placing them in the broader context of early black hole growth and galaxy evolution. This has substantial long-term impact on LRD science, though it does not itself provide new LRD results."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The report is the product of a structured Science Analysis Group process with focused working groups, broad community input, and reassessment of technical drivers. It appears methodologically thorough and systematic, though it is a mission concept report rather than a peer-reviewed observational or theoretical study."
+        }
+      },
+      "notebooklm_recommendation": "Moderate priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1001..138Z",
       "title": "{Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. II. Super-Eddington Accretion}",
       "abstract": "{We present a comprehensive analysis of super-Eddington black hole accretion simulations that solve the GRMHD equations coupled with angle-discretized radiation transport. The simulations span a range of accretion rates, two black hole spins, and two magnetic field topologies, and include resolution studies as well as comparisons with nonradiative models. Super-Eddington accretion flows consistently develop geometrically thick disks supported by radiation pressure, regardless of magnetic field configuration. Radiation generated in the inner disk drives substantial outflows, forming conical funnel regions that limit photon escape and result in very low radiation efficiency. The accretion flows are highly turbulent, with thermal energy transport dominated by radiation advection rather than diffusion. Angular momentum is primarily carried outward by Maxwell stress, with turbulent Reynolds stress playing a subdominant role. Both strong and weak jets are produced. Strong jets arise from sufficient net vertical magnetic flux and rapid black hole spin, and they can effectively evacuate the funnel, enabling radiation to escape through strong geometric beaming. In contrast, weak jets fail to clear the funnel, which becomes obscured by radiation-driven outflows and leads to distinct observational signatures. Spiral structures are observed in the plunging region, behaving like density waves. These super- Eddington models are applicable to a variety of astronomical systems, including ultraluminous X-ray sources, little red dots, and black hole transients.}",
@@ -19054,10 +19133,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.26564482029597,
+    "average_score": 8.263263157894725,
     "median_score": 8.5,
-    "high_relevance_count": 445,
-    "moderate_relevance_count": 21,
+    "high_relevance_count": 446,
+    "moderate_relevance_count": 22,
     "low_relevance_count": 7
   }
 }
