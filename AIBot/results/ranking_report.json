@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T06:41:15.296247",
-  "total_papers": 475,
-  "successfully_scored": 475,
+  "generated_at": "2026-09-11T06:26:58.626802",
+  "total_papers": 478,
+  "successfully_scored": 478,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -11849,6 +11849,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260900113T",
+      "title": "{Weighing Little Red Dots with Transient Events}",
+      "abstract": "{Recent JWST observations have revealed a large population of compact red sources at $z rsim 4$, known as Little Red Dots (LRDs), many of which show signatures of accreting massive black holes (BHs). The physical nature of these sources and their connection to host galaxies are under debate. We propose an independent avenue for constraining their nature through transient phenomena, such as tidal disruption events (TDEs) and quasi-periodic eruptions (QPEs), arising from interactions between a star and the gas envelope surrounding the BH. These event rates depend sensitively on BH mass and provide a way to ``weigh'' LRDs. We calculate the expected TDE and QPE rates in LRDs under three distinct scenarios: (1) LRDs are truly overmassive BHs, (2) LRDs have BH masses following the classical local scaling relations (and the reported BH masses in observations are overestimated), and (3) the currently observed LRDs are only the tip of the iceberg of a larger population of low-mass BHs. We find that the predicted TDE and QPE rates differ dramatically across scenarios, especially in the presence of steep stellar cusps. The expected TDE rates per degree-square, assuming a Hernquist stellar distribution with a Bahcall-Wolf cusp embedded, are $2.78 \\times 10^{-3}$, $1.96 \\times 10^{-3}$, and $3.37 \\times 10^{-2} \\, {\\rm yr}^{-1} \\, {\\rm deg}^{-2}$ for the three scenarios, respectively, while the QPE rates are $1.64 \\times 10^{-2}$, $4.72 \\times 10^{-2}$, and $4.96 \\times 10^{-1} \\, {\\rm yr}^{-1} \\, {\\rm deg}^{-2}$. Upcoming wide-field surveys with Euclid, Roman, and LSST may be capable of detecting these high-redshift transient events and obtaining light curves, which encode additional information about the BH mass and the gas structure of LRDs. Stellar transient events will provide valuable insight into the early assembly of massive BHs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Tran}, Vinh'), Person('{Shen}, Xuejian'), Person('{Zier}, Oliver'), Person('{de Graaff}, Anna'), Person('{Naidu}, Rohan P.'), Person('{Vogelsberger}, Mark')]",
+      "relevance_score": 8.3,
+      "justification": "This paper is highly relevant to LRD research because it directly addresses the central debate on LRD black hole masses and proposes a novel, independent observational test using transient events. While not an observational study itself, its quantitative predictions for TDEs and QPEs with future surveys give it strong physical and scientific impact. The main limitation is the lack of current observational data or techniques applied to existing LRD samples.",
+      "key_factors": [
+        "Directly targets Little Red Dot nature and BH masses",
+        "Proposes TDEs and QPEs as independent mass probes",
+        "Quantitatively compares three distinct LRD scenarios",
+        "Connects to Euclid, Roman, and LSST detectability",
+        "Addresses overmassive BH versus observational bias debate"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is centrally focused on Little Red Dots: it directly addresses the debated physical nature of LRDs, proposes a new method to 'weigh' their black holes, and constructs distinct LRD scenarios. The title and abstract are entirely dedicated to constraining LRD properties."
+        },
+        "observational_techniques": {
+          "score": 6.5,
+          "reasoning": "The paper does not present new JWST or other observational data. It is primarily theoretical, predicting transient event rates. However, it explicitly discusses detectability with upcoming wide-field surveys (Euclid, Roman, LSST) and how light curves encode BH mass and gas structure, giving it moderate observational relevance."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The abstract addresses key LRD physical properties: BH masses, gas envelopes, stellar cusps, TDE and QPE rates. It quantitatively compares overmassive BH, local scaling relation, and low-mass BH population scenarios, directly probing the accretion and host-galaxy connection."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The proposed transient-based weighing method provides an independent avenue to resolve the overmassive BH versus observational bias debate. If feasible with upcoming surveys, it could significantly advance understanding of massive BH assembly and LRD demographics at high redshift."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The work uses clearly defined scenarios and stellar density profiles (Hernquist plus Bahcall-Wolf cusp) to calculate event rates. It provides quantitative predictions and acknowledges scenario-dependent uncertainties, though the full rigor depends on assumptions not detailed in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260717448L",
       "title": "{Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots}",
       "abstract": "{Recent JWST observations have revealed a population of compact, optically red sources known as Little Red Dots (LRDs). A popular interpretation is that LRDs host massive black holes embedded in dense gaseous envelopes, yet the physical origin of such envelopes remains unclear. We propose that the optically thick outflow driven by supercritical accretion onto black holes may explain the envelope. Based on an analytic radiative hydrodynamic outflow model, we relate the outflow properties to the black hole mass $M$ and dimensionless accretion rate $\\dot{m}$. With $M\\sim10^5-10^7\\,M\\_\\odot$ and $\\dot m \\sim 1500-5000$, the outflow photosphere reaches luminosities of $10^{43}-10^{45}\\,\\rm erg\\,s^{-1}$ and temperatures of $\\sim 3000-6000$ K, effectively matching the red optical continua observed in LRDs. The presence of a thick scattering region beyond the photosphere is central to deciphering the distinctive properties of LRDs. For each object, if one derives $M$ and $\\dot{m}$ from the observed luminosity and temperature, while accounting for both kinematic broadening and scattering effects, the model predicts an emission line FWHM consistent with observations within a factor of 1.5 for more than 80\\textbackslash\\% objects. Furthermore, with Cloudy simulations, we find that the partially ionized gas beyond the photosphere produces Balmer breaks broadly consistent with measurements.}",
@@ -15576,6 +15616,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260900437C",
+      "title": "{Formation of Heavy Seed Black Holes and Little Red Dots-like Compact Clusters in Metal-enriched Star-forming Regions}",
+      "abstract": "{The origin of supermassive black holes (SMBHs) in the early Universe remains uncertain. While the classical direct-collapse scenario requires pristine gas exposed to intense Lyman-Werner (LW) radiation, recent JWST observations suggest that early growing BHs may reside in compact, metal-enriched environments. We investigate early BH formation using a cosmological radiation- hydrodynamic simulation that self-consistently follows the formation and evolution of rapidly accreting supermassive stars (SMSs). We find that intense LW radiation develops in clustered star-forming regions; by the time the first heavy seed forms, the mass-weighted internal intensity has reached $J\\_{21}\\sim1000$. Most seeds form in weakly metal-enriched gas with [Z/H]$\\sim-3$ to $-2$, because the strongest LW fields occur in regions already enriched by previous stellar feedback. All halos above $10^9M\\_\\odot$ in our zoom-in region host a BH more massive than $10^5M\\_\\odot$. We construct stellar spectra using MIST/PHOENIX libraries for normal stars and $6000\\textasciitilde \\mathrm{K}$ blackbody spectra for bloated SMSs. Five of eight massive clusters with stellar masses larger than $10^6\\textasciitilde M\\_\\odot$ exhibit intrinsically V-shaped spectra similar to those of Little Red Dots (LRDs). In the most prominent cases, luminous SMSs dominate the red optical emission, although Balmer breaks in normal stellar populations also contribute. We also identify off-center LRD-like systems in our simulation resembling those recently reported in strongly lensed observations. Our results suggest that heavy-seed formation, compact-cluster formation, and LRD-like continuum emission are linked outcomes of clustered, weakly metal-enriched, strongly irradiated environments.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chon}, Sunmyon'), Person('{Hirano}, Shingo'), Person('{Chen}, Ke-Jung'), Person('{Springel}, Volker')]",
+      "relevance_score": 7.9,
+      "justification": "This paper is highly relevant to LRD research because it directly produces LRD-like spectral analogs from cosmological simulations and connects them to heavy seed black hole formation in metal-enriched clustered environments. Its impact is somewhat limited by the lack of direct observational analysis, but the physical and theoretical contributions are strong.",
+      "key_factors": [
+        "Cosmological radiation-hydrodynamic simulation",
+        "Synthetic LRD-like V-shaped spectra",
+        "Heavy seed black hole formation in metal-enriched gas",
+        "Supermassive star emission and Balmer break contributions",
+        "Off-center LRD-like systems matching lensed observations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly models Little Red Dot-like spectra and identifies LRD analogs among simulated compact clusters, making LRD connection a central outcome, though the primary simulation goal is heavy seed black hole formation rather than a direct observational LRD study."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "No direct JWST/NIRSpec or other observational data are analyzed; the paper uses synthetic spectra from MIST/PHOENIX libraries and blackbody SMS models to compare qualitatively with LRD observations, but lacks observational measurement or fitting techniques."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The work addresses key physical mechanisms relevant to LRDs: supermassive star emission, Balmer breaks, metal-enriched gas, intense Lyman-Werner radiation, compact cluster formation, and rapid BH growth, providing physical context for LRD-like spectral shapes."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The study links heavy-seed black hole formation, compact cluster formation, and LRD-like continuum emission in a unified simulation framework, potentially informing the AGN versus stellar population debate and explaining off-center LRD-like systems."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The use of a self-consistent cosmological radiation-hydrodynamic simulation with spectral synthesis is rigorous, though the abstract provides limited quantitative validation against observed LRD samples and simulation caveats remain."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025OJAp....8E.146G",
       "title": "{Seeding Cores: A Pathway for Nuclear Star Clusters from Bound Star Clusters in the First Billion Years}",
       "abstract": "{We model the formation of star clusters in a dwarf galaxy progenitor during the first 700 Myr of cosmic history using a cosmological radiation-hydrodynamic simulation with a sub-grid star formation efficiency (SFE) model calibrated from AU-scale radiation-MHD simulations of molecular clouds with varying mass, density, and metallicity. In comparison to a constant SFE model, our model yields more bursty star formation, a more abundant massive star cluster population, and overall a higher stellar mass. Clouds reach SFEs up to 80\\%, forming bound star clusters (densities , radii ) resembling those observed by the James Webb Space Telescope (JWST) in strongly lensed galaxies. Star clusters follow a flat power-law mass function with slope {\\ensuremath{\\Gamma}}{\\ensuremath{\\sim}}{\\ensuremath{-}}0.4. The most massive star clusters () grow through mergers and have metallicity spreads of 0.05{\\ensuremath{-}}0.1 dex that roughly scale with mass. The second burst of star formation produce loosely bound star clusters with higher metallicities: at lower SFEs (2 - 20\\%). At z{\\ensuremath{\\sim}}8.7, a nuclear star cluster (NSC) is seeded, growing 83\\% of its mass (, 20\\% of the galaxy's stellar mass) through mergers with pre-existing clusters and the rest through in-situ star formation. The early formation of NSCs has interesting implications for seeding supermassive black holes and the population of little red dots recently discovered by JWST at z{\\ensuremath{\\gtrsim}}5.}",
@@ -16616,6 +16696,45 @@
         "methodological_rigor": {
           "score": 7.0,
           "reasoning": "The abstract outlines a coherent theoretical model based on halo thermodynamics and accretion physics. While the full rigor cannot be assessed from the abstract alone, the approach appears logically structured and grounded in established astrophysical processes."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260900115J",
+      "title": "{Early Supermassive Black Holes and Little Red Dots Require Free-Fall Growth}",
+      "abstract": "{Supermassive black holes/active galactic nuclei (SMBHs/AGN), forming only a few hundred million years after the Big Bang as observed with the James Webb Space Telescope (JWST), challenge theoretical understanding. How could they grow so massive $(M\\_{\\rm BH} > 10^6 {\\rm \\,M}\\_\\odot)$ so quickly after initial seeding? Is this rapid growth related to the numerous and enigmatic Little Red Dots (LRDs), compact sources with AGN-like characteristics, discovered by JWST? To address these mysteries, we consider the first-order constraint on SMBH growth: enough baryonic material has to reach the vicinity of the SMBH seed, located near the bottom of the gravitational potential well of the host dark matter halo. We specifically examine cold-mode accretion, where gas from the cosmic environment flows into the virialized halo in cold streams without being shock-heated, efficiently reaching the center on a free-fall timescale. We find that cold mode accretion is necessary to supply material for the SMBHs to reach the observed masses, whereas for shock- heated gas inflow the required amount could only be supplied by implausibly rare halos. Moreover, cold-mode inflow in rare $(\\sim1$ Gpc$^{-3}$) halos matches the mass and number of the massive quasars, and halos able to support super-Eddington accretion for massive SMBHs ($\\sim10^7$ M$\\_\\odot$) match LRD number densities. The decreasing LRD abundance at lower redshifts may then reflect the termination of cold-mode accretion in the growing host halos. The populations of massive SMBHs and LRDs at early times may thus arise naturally from cosmological structure formation, based on the abundance of halos capable of supplying sufficient material through cold accretion.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Jeon}, Junehyoung'), Person('{Bromm}, Volker'), Person('{Boylan-Kolchin}, Michael'), Person('{Mu{\\\\textasciitilde n}oz}, Julian B.')]",
+      "relevance_score": 7.6,
+      "justification": "This paper is highly relevant to LRD research because it directly proposes a cosmological mechanism to explain LRD number densities and redshift evolution. Its theoretical approach limits the observational techniques score, but the physical insight and potential impact on LRD and early SMBH studies are strong.",
+      "key_factors": [
+        "Directly addresses LRD abundance and redshift evolution",
+        "Links cold-mode accretion to early SMBH growth",
+        "Uses halo mass function to match LRD number densities",
+        "Theoretical rather than observational study"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper explicitly targets Little Red Dots, linking their number densities, masses, and redshift evolution to cold-mode accretion and SMBH growth. The title and abstract center LRDs as a primary population to explain."
+        },
+        "observational_techniques": {
+          "score": 3.0,
+          "reasoning": "This is a theoretical/cosmological study rather than an observational analysis. It uses published JWST-derived mass and number density constraints but does not present new observations or data reduction."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper addresses key physical properties relevant to LRDs: black hole masses, super-Eddington accretion, cold-mode gas inflow, halo abundance, and redshift-dependent LRD number densities."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "If robust, the model provides a unified explanation for both early massive quasars and LRD abundances from cosmological structure formation. However, it remains theoretical and will require observational validation."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The approach uses first-order physical constraints and halo abundance matching, which is appropriate for the question, but the abstract does not detail uncertainties or alternative accretion scenarios beyond cold-mode versus shock-heated inflow."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -19133,9 +19252,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.263263157894725,
+    "average_score": 8.261192468619235,
     "median_score": 8.5,
-    "high_relevance_count": 446,
+    "high_relevance_count": 449,
     "moderate_relevance_count": 22,
     "low_relevance_count": 7
   }
