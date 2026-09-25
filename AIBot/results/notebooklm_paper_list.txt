@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-09-24T06:17:35.140331
+Generated: 2026-09-25T06:18:24.200977
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
