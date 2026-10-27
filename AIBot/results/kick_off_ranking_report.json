@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T06:23:34.773300",
-  "total_papers": 189,
-  "successfully_scored": 189,
+  "generated_at": "2026-10-27T10:27:02.753435",
+  "total_papers": 192,
+  "successfully_scored": 192,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -1979,6 +1979,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - essential for understanding high-z BH mass interpretation debates"
     },
     {
+      "bibtex_key": "2026A&A...706A.302C",
+      "title": "{JWST-discovered AGN: Evidence of heavy obscuration in the type 2 sample from the first stacked X-ray detection}",
+      "abstract": "{One of the most puzzling properties of the high-redshift active galactic nucleus (AGN) population recently discovered by JWST, including both broad-line and narrow-line sources, is their X-ray weakness. With very few exceptions, and regardless of the optical classification, they are undetected at the limits of the deepest Chandra fields, even when stacking signals from tens of sources in standard observed-frame energy intervals (soft, hard, and full bands). It has been proposed that their elusive nature in the X-ray band is due to heavy absorption by dust-free gas or an intrinsic weakness, possibly due to high super-Eddington accretion. For this work we performed X-ray stacking in three customized rest-frame energy ranges (1─4, 4─7.25, and 10─30 keV) of a sample of 50 type 1 and 38 type 2 AGN identified by James Webb Space Telescope (JWST) in the Chandra Deep Field South (CDFS) and Chandra Deep Field North (CDFN) fields. For the type 2 subsample, we achieve a total exposure of about 210 Ms, and report a significant detection ({\\ensuremath{\\sim}}3{\\ensuremath{\\sigma}}) in the hardest band (10─30 keV rest frame), along with relatively tight upper limits in the rest-frame softer energy bands. The most straightforward interpretation is in terms of heavy obscuration due to gas column densities well within the Compton-thick regime (> 2 {\\texttimes} {}10$^{24}$ cm$^{{\\ensuremath{-}}2}$) with a large covering factor, approaching 4{\\ensuremath{\\pi}}. The same procedure applied to the type 1 subsample returns no evidence of a significant signal in about 140 Ms stacked data in any of the adopted bands. The bolometric correction k$\\_{bol}$ to the absorption corrected 2─10 keV X-ray luminosity of type 2 AGN is consistent with the average value obtained for X-ray selected type 2 objects in the literature. The lower limit on k$\\_{bol}$ for the type 1 sample is significantly higher and inconsistent with that of type 2 objects. Absorption in the Compton-thick regime or extreme X-ray weakness, would bring the current lower limits closer to the observed values for type 1 X-ray selected AGN. A brief comparison with the current observations and the implications for the evolution of AGN are discussed.}",
+      "lrdIndex": 12,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Comastri}, A.'), Person('{Lanzuisi}, G.'), Person('{Vito}, F.'), Person('{Marchesi}, S.'), Person('{Brusa}, M.'), Person('{Gilli}, R.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Maiolino}, R.'), Person('{Mazzolari}, G.'), Person('{Risaliti}, G.'), Person('{Scholtz}, J.'), Person('{Vignali}, C.')]",
+      "relevance_score": 8.2,
+      "justification": "This paper provides strong, unique empirical support for the heavy-obscuration explanation of X-ray weakness in JWST AGN, a defining issue for Little Red Dots. Its high citation count among LRD researchers and its first stacked X-ray detection in the rest-frame 10-30 keV band make it a valuable supporting reference despite not explicitly mentioning LRDs.",
+      "key_factors": [
+        "lrdIndex=12",
+        "First stacked X-ray detection of JWST type 2 AGN in the 10-30 keV rest-frame",
+        "Compton-thick obscuration with large covering factor",
+        "Clear type 1/type 2 contrast in X-ray stacking and bolometric correction",
+        "Direct empirical constraint on X-ray weakness of JWST AGN"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.5,
+          "reasoning": "The paper does not explicitly name Little Red Dots, but it directly addresses the X-ray weakness of JWST-discovered AGN, including narrow-line/type 2 sources that overlap substantially with the LRD population. Its stacked X-ray detection and Compton-thick obscuration interpretation provide direct empirical support for a key LRD observable."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=12 indicates the paper has been cited 10+ times by LRD researchers, showing strong community uptake as supporting evidence for the obscuration/X-ray weakness interpretation of LRDs."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Beyond textbook AGN physics, the paper provides the first significant stacked X-ray detection of JWST type 2 AGN, constraining column densities in the Compton-thick regime and separating type 1/type 2 bolometric corrections. This is unique empirical grounding for the X-ray weakness debate."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "The customized rest-frame stacking in three bands (1-4, 4-7.25, 10-30 keV) over ~210 Ms is a well-executed adaptation of stacking rather than a fundamentally new technique, but it is innovative in overcoming the extreme faintness of high-z JWST AGN and in isolating the hardest rest-frame band."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The paper connects heavy obscuration and X-ray weakness to AGN evolution and X-ray selection biases, which is important for placing LRDs in the broader context of black hole-galaxy coevolution and the obscured growth phase."
+        }
+      },
+      "notebooklm_recommendation": "High-value supporting evidence for X-ray weakness and heavy obscuration in the JWST AGN/LRD population."
+    },
+    {
       "bibtex_key": "2024A&A...690A.288B",
       "title": "{JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy}",
       "abstract": "{We describe the NIRSpec component of the JWST Deep Extragalactic Survey (JADES), and provide deep spectroscopy of 253 sources targeted with the NIRSpec micro-shutter assembly in the Hubble Ultra Deep Field and surrounding GOODS-South. The multi-object spectra presented here are the deepest so far obtained with JWST, amounting to up to 28 hours in the low-dispersion (R\\raisebox{-0.5ex}\\textasciitilde30{\\textendash}300) prism, and up to 7 hours in each of the three medium-resolution R {\\ensuremath{\\approx}} 1000 gratings and one high-dispersion grating, G395H (R {\\ensuremath{\\approx}} 2700). Our low- dispersion and medium-dispersion spectra cover the wavelength range 0.6{\\textendash}5.3 {\\ensuremath{\\mu}}m. We describe the selection of the spectroscopic targets, the strategy for the allocation of targets to micro-shutters, and the design of the observations. We present the public release of the reduced 2D and 1D spectra, and a description of the reduction and calibration process. We measure spectroscopic redshifts for 178 of the objects targeted extending up to z = 13.2. We present a catalogue of all emission lines detected at S/N > 5, and our redshift determinations for the targets. Combined with the first JADES NIRCam data release, these public JADES spectroscopic and imaging datasets provide a new foundation for discoveries of the infrared universe by the worldwide scientific community.}",
@@ -2676,6 +2717,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2024ApJ...961...76M",
+      "title": "{Direct Formation of Massive Black Holes via Dynamical Collapse in Metal-enriched Merging Galaxies at z 10: Fully Cosmological Simulations}",
+      "abstract": "{We present the results of the first fully cosmological hydrodynamical simulations studying the merger-driven model for massive black hole (BH) seed formation via direct collapse. Using the zoom-in technique as well as particle splitting, we achieve a final spatial resolution of 2 pc. We show that the major merger of two massive galaxies at redshift z \\raisebox{-0.5ex}\\textasciitilde 8 results in the formation of a nuclear supermassive disk (SMD) of only 4 pc in radius, owing to a prodigious gas inflow sustained at 100-1000 M $\\_{☉}$ yr$^{-1}$. The core of the merger remnant is metal-rich, well above solar abundance, and the SMD reaches a gaseous mass of 3 {\\texttimes} {}10$^{8}$ M $\\_{☉}$ in less than a million years after the merger, despite a concurrent prominent nuclear starburst. Dynamical heating as gas falls into the deepest part of the potential well, and heating and stirring by supernova blastwaves, generate a turbulent multiphase interstellar medium, with a gas velocity dispersion exceeding 100 km s$^{-1}$. As a result, only moderate fragmentation occurs in the inner 10-20 pc, despite the temperature falling below 1000 K. The SMD is Jeans-unstable as well as bar-unstable and will collapse further adiabatically, becoming warm and ionized. We show that the SMD, following inevitable contraction, will become general-relativistic-unstable and directly form a supermassive BH of mass in the range {}10$^{6}$-{}10$^{8}$ M $\\_{☉}$, essentially skipping the stage of BH seed formation. These results confirm that mergers between the most massive galaxies at z \\raisebox{-0.5ex}\\textasciitilde 8-10 can naturally explain the rapid emergence of bright high-redshift quasars.}",
+      "lrdIndex": 13,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Mayer}, Lucio'), Person('{Capelo}, Pedro R.'), Person('{Zwick}, Lorenz'), Person('{Di Matteo}, Tiziana')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is a high-value theoretical reference for LRD research because it provides a self-consistent cosmological formation channel for massive black holes in metal-enriched high-z galaxies, directly supporting the overmassive BH inventory of LRDs. Its lrdIndex=13 demonstrates strong adoption by the LRD community, and its numerical innovation and evolutionary relevance justify its role as a foundational simulation study despite not explicitly modeling LRDs as observables.",
+      "key_factors": [
+        "lrdIndex=13, indicating strong LRD community citation uptake",
+        "First fully cosmological simulations of merger-driven direct collapse with 2 pc resolution",
+        "Demonstrates massive BH formation in metal-rich gas, relaxing traditional metal-free seed constraints",
+        "Predicts direct formation of 10^6-10^8 Msun black holes, matching rapid LRD BH assembly",
+        "Links high-z major mergers to the rapid emergence of bright quasars"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "The paper does not explicitly target Little Red Dots, but it directly addresses the formation of massive black holes in high-redshift, metal-enriched merging galaxies, which is a central problem for explaining the overmassive BH populations inferred in LRDs. Its merger-driven direct-collapse channel provides a physically concrete pathway from massive z~8-10 galaxies to 10^6-10^8 Msun black holes, matching the rapid assembly required by LRD BH-to-stellar mass ratios."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "With lrdIndex=13, this paper is cited well above the threshold by LRD researchers, indicating strong community uptake specifically within LRD studies. The citation pattern confirms it is not merely a generic AGN reference but a frequently used theoretical anchor for LRD BH seeding and mass assembly."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "The paper provides a distinctive theoretical framework: direct collapse in metal-enriched, turbulent nuclear disks, bypassing the traditional metal-free direct collapse requirement. It establishes that massive BH formation can occur even at super-solar metallicity, which is highly relevant to LRD hosts that show stellar-like or enriched spectral features. This goes beyond textbook direct collapse and offers a citable, simulation-validated scenario."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "It represents the first fully cosmological hydrodynamical simulations of merger-driven massive BH seed formation with 2 pc resolution using zoom-in and particle splitting. The treatment of supernova feedback, multiphase ISM, and dynamical heating to suppress fragmentation is a significant numerical achievement, producing a self-consistent SMD collapse pathway rather than idealized initial conditions."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The study connects major mergers at z~8-10 to the rapid emergence of bright high-redshift quasars, providing an evolutionary bridge between massive galaxy assembly and early SMBH formation. While it focuses on the seed/supermassive-disk phase rather than the later LRD observable phase, it supplies a plausible initial condition for the overmassive BHs seen in JWST-selected LRDs."
+        }
+      },
+      "notebooklm_recommendation": "High-priority source for NotebookLM: include as a key theoretical pathway for LRD black hole mass assembly and high-redshift BH seeding."
+    },
+    {
       "bibtex_key": "2023MNRAS.518.1880B",
       "title": "{Dwarf AGNs from variability for the origins of seeds (DAVOS): Intermediate-mass black hole demographics from optical synoptic surveys}",
       "abstract": "{We present a phenomenological forward Monte Carlo model for forecasting the population of active galactic nuclei (AGNs) in dwarf galaxies observable via their optical variability. Our model accounts for expected changes in the spectral energy distribution of AGNs in the intermediate-mass black hole (IMBH) mass range and uses observational constraints on optical variability as a function of black hole (BH) mass to generate mock light curves. Adopting several different models for the BH occupation function, including one for off-nuclear IMBHs, we quantify differences in the predicted local AGN mass and luminosity functions in dwarf galaxies. As a result, we are able to model the fraction of variable AGNs as a function of important galaxy host properties, such as host galaxy stellar mass, in the presence of selection effects. We find that our adopted occupation fractions for the 'heavy' and 'light' initial BH seeding scenarios can be distinguished with variability at the 2-3{\\ensuremath{\\sigma}} level for galaxy host stellar masses below \\raisebox{-0.5ex}\\textasciitilde{}10$^{8}$M$\\_{☉}$ with data from the upcoming Vera C. Rubin Observatory. We also demonstrate the prevalence of a selection bias whereby recovered IMBH masses fall, on average, above the predicted value from the local host galaxy-BH mass scaling relation with the strength of this bias dependent on the survey sensitivity. Our methodology can be used more broadly to calibrate AGN demographic studies in synoptic surveys. Finally, we show that a targeted \\raisebox{-0.5ex}\\textasciitilde hourly cadence program over a few nights with the Rubin Observatory can provide strong constraints on IMBH masses given their expected rapid variability time-scales.}",
@@ -3041,6 +3123,47 @@
         }
       },
       "notebooklm_recommendation": "Critical foundation for NotebookLM - essential methodology and high-z galaxy context"
+    },
+    {
+      "bibtex_key": "2022ApJ...926..161B",
+      "title": "{CLEAR: Emission-line Ratios at Cosmic High Noon}",
+      "abstract": "{We use Hubble Space Telescope Wide Field Camera 3 G102 and G141 grism spectroscopy to measure rest-frame optical emission-line ratios of 533 galaxies at z \\raisebox{-0.5ex}\\textasciitilde 1.5 in the CANDELS Ly{\\ensuremath{\\alpha}} Emission at Reionization survey. We compare [O III]/H{\\ensuremath{\\beta}} versus [S II]/(H{\\ensuremath{\\alpha}} + [N II]) as an ``unVO87'' diagram for 461 galaxies and [O III]/H{\\ensuremath{\\beta}} versus [Ne III]/[O II] as an ``OHNO'' diagram for 91 galaxies. The unVO87 diagram does not effectively separate active galactic nuclei (AGN) and [Ne V] sources from star-forming galaxies, indicating that the unVO87 properties of star-forming galaxies evolve with redshift and overlap with AGN emission-line signatures at z > 1. The OHNO diagram does effectively separate X-ray AGN and [Ne V]-emitting galaxies from the rest of the population. We find that the [O III]/H{\\ensuremath{\\beta}} line ratios are significantly anticorrelated with stellar mass and significantly correlated with $\\mathrm{log}({L}\\_{{\\rm{H}}\\beta })$ , while [S II]/(H{\\ensuremath{\\alpha}} + [N II]) is significantly anticorrelated with $\\mathrm{log}({L}\\_{{\\rm{H}}\\beta })$ . Comparison with MAPPINGS V photoionization models indicates that these trends are consistent with lower metallicity and higher ionization in low-mass and high-star formation rate (SFR) galaxies. We do not find evidence for redshift evolution of the emission-line ratios outside of the correlations with mass and SFR. Our results suggest that the OHNO diagram of [O III]/H{\\ensuremath{\\beta}} versus [Ne III]/[O II] will be a useful indicator of AGN content and gas conditions in very high- redshift galaxies to be observed by the James Webb Space Telescope.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2022",
+      "authors": "[Person('{Backhaus}, Bren E.'), Person('{Trump}, Jonathan R.'), Person('{Cleri}, Nikko J.'), Person('{Simons}, Raymond'), Person('{Momcheva}, Ivelina'), Person('{Papovich}, Casey'), Person('{Estrada-Carpenter}, Vicente'), Person('{Finkelstein}, Steven L.'), Person('{Matharu}, Jasleen'), Person('{Ji}, Zhiyuan'), Person('{Weiner}, Benjamin'), Person('{Giavalisco}, Mauro'), Person('{Jung}, Intae')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is a valuable supporting reference for LRD research because it directly addresses the failure of standard emission-line AGN diagnostics at high redshift and introduces an alternative OHNO diagram tested with HST grism data. Its empirical trends with mass and SFR provide a physically motivated framework for interpreting JWST LRD spectra, and its lrdIndex of 10 confirms meaningful uptake by the LRD community. The main limitation is that it does not study LRD-era galaxies directly.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Proposes OHNO diagram as an alternative AGN diagnostic",
+        "Empirically demonstrates failure of unVO87/BPT at z>1",
+        "Links line ratios to stellar mass and SFR rather than redshift",
+        "Directly relevant to JWST emission-line classification"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.5,
+          "reasoning": "The paper does not mention Little Red Dots directly, but it addresses a central LRD problem: standard rest-frame optical emission-line diagnostics (BPT/unVO87) fail to separate AGN from star-forming galaxies at high redshift. Its proposed OHNO diagram and empirical demonstration of diagnostic overlap at z~1.5 are directly relevant to LRD classification and interpretation of JWST spectra, making it a meaningful but indirect connection."
+        },
+        "citation_frequency": {
+          "score": 8.5,
+          "reasoning": "lrdIndex=10 indicates the paper has been cited by at least 10 LRD-focused studies, which is a solid level of community uptake. While not among the most heavily cited LRD-supporting works, repeated citation shows it has become a recognized reference for emission-line diagnostic challenges in high-redshift AGN/star-forming separation."
+        },
+        "foundational_value": {
+          "score": 8.5,
+          "reasoning": "The paper provides an important empirical calibration of rest-frame optical line ratios at cosmic noon, showing how mass and SFR drive line-ratio evolution and why high-redshift star-forming galaxies contaminate AGN selection. It supplies a reusable framework and data set for interpreting JWST emission-line spectra, including alternative diagnostic diagrams relevant to LRD follow-up."
+        },
+        "methodological_innovation": {
+          "score": 8.5,
+          "reasoning": "The paper introduces and tests the OHNO diagram ([O III]/H-beta vs [Ne III]/[O II]) as an alternative to standard BPT diagnostics, using HST WFC3 grism spectroscopy. This is a concrete methodological contribution beyond textbook AGN diagnostics and has direct applicability to high-redshift JWST observations where traditional diagrams break down."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "While the sample is at z~1.5 rather than the LRD epoch (z~4-8), the paper explicitly tests redshift evolution and finds line-ratio trends are primarily driven by mass and SFR, with no additional redshift evolution. This supports extrapolation of diagnostic behavior to higher redshift and situates LRD line ratios within broader galaxy evolution trends, though the redshift gap remains a limitation."
+        }
+      },
+      "notebooklm_recommendation": "Strong supporting source for NotebookLM"
     },
     {
       "bibtex_key": "2024ApJ...966L..30M",
@@ -7750,9 +7873,9 @@
     }
   ],
   "statistics": {
-    "average_score": 7.857407407407416,
+    "average_score": 7.862760416666675,
     "median_score": 8.1,
-    "critical_count": 115,
+    "critical_count": 118,
     "high_value_count": 67,
     "moderate_value_count": 5,
     "low_priority_count": 2

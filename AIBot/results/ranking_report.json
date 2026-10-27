@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T06:22:23.110922",
-  "total_papers": 478,
-  "successfully_scored": 478,
+  "generated_at": "2026-10-27T08:55:39.381022",
+  "total_papers": 508,
+  "successfully_scored": 508,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -529,6 +529,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261018968P",
+      "title": "{The Dance of the Little Red Dots: Spectroscopy of Two Blue Companions at z = 3.9 and 5.5 Reveals Young, Metal-Poor Starbursts Merging with Their LRDs within a Few Hundred Myr}",
+      "abstract": "{The Little Red Dots (LRDs) are compact, red sources, abundant at $4 \\lesssim z \\lesssim 9$ and likely powered by massive black holes. Photometric studies have found blue companions around them, but none has yet been confirmed spectroscopically. This Letter presents the only two LRD-companion pairs with spectroscopy of both members in the literature: ``Waltz'' at $z = 3.9$ and ``Tango'' at $z = 5.5$, with projected separations of $3.6$ and $2.5$ kpc. Both companions lie at the redshift of their LRD, within $132 \\, \\rm km \\, s^{-1}$ and $57 \\, \\rm km \\, s^{-1}$, and are physically identical, but $524$ Myr apart: starbursts $\\lesssim 50$ Myr old, metal-poor ($0.2 \\, \\rm Z\\_\\odot$), dust-free, dynamically cold, and as bright as the LRDs themselves in the rest-frame UV. The LRD in Waltz hosts a $\\approx 3 \\times 10^{6} \\, \\rm M\\_\\odot$ black hole accreting at half the Eddington rate, a factor of a few above the birth mass of a direct collapse black hole, and is embedded in gas as metal-poor as its companion. Orbital modeling shows that Tango is bound in $81\\%$ of the allowed orbits and that Waltz is bound if its host halo exceeds $5 \\times 10^{10} \\, \\rm M\\_\\odot$. Both blue companions then merge with their respective LRD within a few hundred Myr. We conclude that we are observing what heavy seeding requires: a young black hole beside the metal-poor starburst that the synchronized-pair scenario predicts, in the last steps of a cosmic dance that ends in a merger, and in a galaxy seeded by its black hole.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Pacucci}, Fabio'), Person('{Rinaldi}, Pierluigi')]",
+      "relevance_score": 9.3,
+      "justification": "This Letter is a high-impact, directly LRD-focused study that provides the first spectroscopic confirmation of blue companions around Little Red Dots and connects them to heavy seeding and merger-driven growth. Its small sample of two pairs is offset by unique data, detailed physical characterization, and strong relevance to open questions in LRD formation.",
+      "key_factors": [
+        "First spectroscopic confirmation of LRD blue companions",
+        "Secure redshifts and small velocity offsets for both pairs",
+        "Young, metal-poor, dust-free starburst companions",
+        "Black hole mass and Eddington ratio measured for Waltz",
+        "Orbital modeling constrains merger timescales",
+        "Links observations to heavy seeding and synchronized-pair scenario"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on Little Red Dots, specifically presenting the first spectroscopic confirmation of blue companions around two LRDs and interpreting them in the context of LRD-black hole co-evolution. The title, abstract, and science goals are directly and exclusively tied to LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses spectroscopy of both LRD and companion members, providing secure redshifts, small velocity offsets, rest-frame UV properties, emission-line diagnostics, black hole mass estimates, and orbital modeling. This is a major observational step beyond photometric-only companion studies."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Derives key physical quantities for both systems: young starburst ages (<50 Myr), low metallicities (~0.2 Z_sun), dust-free and dynamically cold companions, black hole mass (~3e6 M_sun), Eddington ratio (~0.5), host halo mass constraints, and merger timescales of a few hundred Myr."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "Provides the only two LRD-companion pairs with spectroscopy of both members in the literature, directly testing photometric predictions and linking observations to heavy seeding and synchronized-pair formation scenarios. This has high impact for understanding LRD environments and early black hole growth."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis is thorough, combining spectroscopy with orbital modeling and probability estimates for bound orbits. However, it is based on only two systems, and some conclusions depend on assumed halo masses and model-dependent interpretations of emission-line features."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1003...96B",
       "title": "{From ``The Cliff'' to ``Virgil'': Mapping the Spectral Diversity of Little Red Dots with JWST/NIRSpec}",
       "abstract": "{One of JWST's most unexpected discoveries is the emergence of ``Little Red Dots'' (LRDs), compact sources at z {\\ensuremath{\\gtrsim}} 3 with blue rest-frame UV continua, red optical slopes, and broad Balmer emission lines that challenge standard models and suggest early, unusual active galactic nuclei (AGNs). Using a comprehensive photometric selection and public NIRSpec/PRISM spectroscopy across six JWST deep fields, we identify a large sample of 118 LRDs with high-signal-to-noise-ratio spectra, enabling a population-wide analysis of their UV─optical continuum and lines. We find clear correlations between rest- frame UV─optical color ([0.3{\\ensuremath{-}}0.9 {\\ensuremath{\\mu}}m]) and slopes; bluer LRDs have blue UV slopes ({\\ensuremath{\\beta}}$\\_{{\\ensuremath{\\nu}},UV}$ {\\ensuremath{\\sim}} 0.3) and red optical slopes, while redder LRDs exhibit redder UV slopes ({\\ensuremath{\\beta}}$\\_{{\\ensuremath{\\nu}},UV}$ {\\ensuremath{\\sim}} 1.1). The continuum shape shows a similar trend; redder LRDs display prominent Balmer breaks and curvature, while bluer LRDs follow power-law-like optical spectral energy distributions. From literature compilations, {\\ensuremath{\\sim}}60\\% of known broad-line AGNs satisfy our LRD criteria, and up to 90\\% of LRDs show broad Balmer lines. Emission line diagnostics reveal a shift from high H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} and low [O III]{\\ensuremath{\\lambda}}5007/H{\\ensuremath{\\beta}} in redder LRDs to the opposite in bluer ones, along with stronger narrow- line equivalent widths, suggesting a transition from AGN- to host-dominated emission. We fit the spectra with a two-component model combining a gas-enshrouded black hole (BH) and a galaxy host. Redder LRDs require higher-luminosity, unreddened BHs and modestly reddened hosts; bluer LRDs require lower-luminosity, reddened BHs and dust-free galaxies. This framework reproduces the diversity in colors and spectral shape by varying BH luminosity, obscuration, and BH-to-host luminosity ratio.}",
@@ -685,6 +726,45 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Uses state-of-the-art FIRE cosmological simulations with detailed physics, 3D dust radiative transfer, and synthetic data cubes. The analysis is thorough, identifying both successes and limitations of the stellar-only model, and the conclusions are well-supported."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026NatAs..10.1372F",
+      "title": "{The discovery of two little red dots in transition into quasars}",
+      "abstract": "{JWST has uncovered a population of compact objects that show a unique V-shaped spectral energy distribution in the ultraviolet and optical wavelength range. These so-called little red dots (LRDs) often exhibit broad Balmer emi{\\ss}ion lines, indicative of the presence of active galactic nuclei (AGNs). They generally lack detection of X-ray, radio and mid-infrared radiation, which is fundamentally different from typical AGNs. Various models, including super-Eddington-accreting black holes enshrouded in dense and dust-poor gas, have been proposed to explain these features. However, the nature of LRDs remains debated and their evolutionary fate is unclear. Here we report two unusual LRDs at redshifts of 2.871 and 2.930 that are in a transitional phase towards typical AGNs. Their V-shaped spectral energy distributions, compact optical morphology and broad emi{\\ss}ion lines satisfy the defining criteria of LRDs. However, they exhibit intense X-ray, radio and mid-infrared radiation that is much stronger than previously known LRDs. These hybrid properties suggest that the dense gas envelope around their central black holes is dispersing, allowing high-energy photons and radio emi{\\ss}ion to escape. Meanwhile, a dust torus is forming. This finding provides a direct insight into the nature of LRDs and indicates that at least some LRDs will evolve into AGNs or quasars at later times.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Fu}, Shuqi'), Person('{Zhang}, Zijian'), Person('{Jiang}, Danyang'), Person('{Chen}, Jie'), Person('{Jiang}, Linhua'), Person('{Ho}, Luis C.'), Person('{Inayoshi}, Kohei'), Person('{Chen}, Kaiyuan'), Person('{Lyu}, Jianwei'), Person('{Sun}, Fengwu'), Person('{Wang}, Feige'), Person('{Yang}, Jinyi')]",
+      "relevance_score": 9.3,
+      "justification": "This paper directly targets Little Red Dots and reports a rare transitional population connecting LRDs to quasars, using multiwavelength observations to argue that dense gas dispersal and dust torus formation drive their evolution. It addresses key open questions about LRD nature and fate with strong physical interpretation, though the sample size is small.",
+      "key_factors": [
+        "Explicit discovery of transitional LRD-to-quasar objects",
+        "Multiwavelength constraints including X-ray, radio, and mid-infrared",
+        "Satisfaction of defining LRD criteria (V-shaped SED, compact morphology, broad lines)",
+        "Direct evolutionary interpretation linking LRDs to AGN/quasars"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is explicitly centered on Little Red Dots, reporting two objects that satisfy defining LRD criteria and characterizing them as transitional between LRDs and typical AGN/quasars."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The abstract highlights multiwavelength observational constraints including V-shaped SEDs, compact optical morphology, broad Balmer emission lines, and intense X-ray, radio, and mid-infrared radiation, though specific instruments and data quality are not detailed."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper interprets the hybrid properties as a dispersing dense gas envelope around the central black hole with a forming dust torus, directly linking LRD physical conditions to AGN/quasar evolution."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "By identifying a transitional phase between LRDs and quasars, the paper addresses central debates about LRD nature and evolutionary fate, providing evidence that at least some LRDs evolve into AGN/quasars."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The study is based on only two objects, which limits statistical robustness, but the multiwavelength identification and physical interpretation are targeted and rigorous for a discovery paper."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -1007,6 +1087,45 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Thorough analysis using multi-component Gaussian fitting to model the complex Hα profile, cross-checking with previous Hβ-based black hole mass, and verifying consistency with Balmer break analysis. The interpretation of the absorber as a long-lived structure is well-supported, though the study is limited to a single object."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260922623W",
+      "title": "{Balmer Absorption Series and Broad Metal Lines in Two Luminous Little Red Dots}",
+      "abstract": "{Balmer absorption is common among little red dots (LRDs), but absorbers at or redward of systemic are rare, occurring in only $\\sim10-15$\\textbackslash\\% of H$α$ absorbers. In this paper, we study two such exceptional cases with deep JWST/NIRSpec spectroscopy: 15 hr of high-resolution (G395H) observations of RUBIES-EGS-49140 (z=6.68), resolving the absorption in all four transitions from H$α$ through H$δ$, and medium-resolution spectroscopy (10 hr of G235M, 2 hr of G395M) of UNCOVER-A2744-45924 (z=4.46; 1.7x magnification). Both sources are among the optically reddest and most luminous LRDs known, and both show deep, near-systemic Balmer absorption troughs. We find two systematic trends along the Balmer series: the absorption centroids become more redshifted toward higher-order transitions, while the absorbed equivalent widths decline only weakly with increasing order, far less than expected from the atomic optical-depth ratios for a single attenuating screen. Ca\\textbackslash,\\{\\textbackslashsc\\{ii\\}\\}\\textbackslash,K is detected in absorption in both sources, whose offset follows the H$α$ trough rather than the more redshifted higher-order Balmer lines. We further report the detection of a broad base in [Ne\\te xtbackslash,\\{\\textbackslashsc\\{iii\\}\\}]\\textbackslash,$λ$3870, along with broad [O\\textbackslash,\\{\\textbackslashsc\\{iii\\}\\}]\\t extbackslash,$λ$4364, [O\\textbackslash,\\{\\textbackslashsc\\{iii\\} \\}]\\textbackslash,$\\lambda5008$, and He\\textbackslash,\\{\\textbac kslashsc\\{i\\}\\}\\textbackslash,$\\lambda5877,\\lambda7067$, while H e\\textbackslash,\\{\\textbackslashsc\\{ii\\}\\}\\textbackslash,$λ$4687 remains undetected or weak. Standard AGN photoionization models cannot reproduce the observed line ratios, whereas AGNs with high gas densities provide a consistent explanation, as also indicated by the anomalously high He\\textbackslash,\\{\\textbacksl ashsc\\{i\\}\\}\\textbackslash,$\\lambda7067/\\lambda5877$ ratio. A possible explanation for the relative strengths of the Balmer absorption lines could be a dense, optically thick medium whose re-emission modifies their apparent absorption strengths, while the velocity progression may arise from stratification in the absorbing gas.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Bingjie'), Person('{Greene}, Jenny E.'), Person('{Liu}, Hanpu'), Person('{Kaaz}, Nicholas'), Person('{Brammer}, Gabriel B.'), Person('{Hviding}, Raphael E.'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Leja}, Joel'), Person('{Matthee}, Jorryt'), Person('{Naidu}, Rohan P.'), Person('{Torralba}, Alberto'), Person('{Baggen}, Josephine F. W.'), Person('{Cleri}, Nikko J.'), Person('{Fujimoto}, Seiji'), Person('{Furtak}, Lukas J.'), Person('{de Graaff}, Anna'), Person('{Hirschmann}, Michaela'), Person('{Kokorev}, Vasily'), Person('{Lambrides}, Erini'), Person('{McConachie}, Ian'), Person('{Nelson}, Erica J.'), Person('{Plat}, Ad{\\\\`e}le'), Person('{Wang}, Weichen'), Person('{Zitrin}, Adi')]",
+      "relevance_score": 9.2,
+      "justification": "This paper is highly relevant to LRD research, presenting deep JWST/NIRSpec spectroscopy of two extreme LRDs with rare near-systemic Balmer absorption and broad metal lines. It yields detailed physical constraints on dense gas and challenges standard AGN photoionization models, making it an important observational and interpretive contribution.",
+      "key_factors": [
+        "Deep JWST/NIRSpec spectroscopy (15 hr G395H, G235M/G395M)",
+        "Rare near-systemic Balmer absorbers in luminous LRDs",
+        "Broad metal lines and high-density AGN diagnostics",
+        "Rejects standard AGN photoionization models"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "Title and abstract explicitly target little red dots, studying two luminous LRDs with rare near-systemic Balmer absorption and broad metal lines; directly addresses LRD spectral properties."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "Uses deep JWST/NIRSpec spectroscopy: 15 hr high-resolution G395H resolving four Balmer transitions and medium-resolution G235M/G395M, including gravitational magnification; high-quality data suited to line-profile and absorption studies."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Constrains Balmer absorption centroids, equivalent widths, Ca II K offsets, broad [Ne III], [O III], He I emission, high gas densities, and dense optically thick medium/stratification; rejects standard AGN photoionization models."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Addresses rare ~10-15% near-systemic H-alpha absorbers and broad metal lines in LRDs, providing evidence for dense AGN conditions and challenging standard models; relevant to AGN vs. starburst and LRD emission mechanisms."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "Detailed multi-transition analysis and model comparisons, but based on only two objects; hence somewhat limited for population-wide conclusions, though well-suited for in-depth physical diagnostics."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -1862,6 +1981,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260925349G",
+      "title": "{Calcium Triplet Absorption is Common around Little Red Dots}",
+      "abstract": "{We present new evidence for an optically thick atmosphere surrounding Little Red Dots (LRDs) in the form of Ca absorption at rest- frame 8500A, the calcium triplet (CaT). Building on the detection of CaT absorption in one local LRD analog (the ``Egg'', Lin et. al. 2025), we investigate the region around rest-frame 8500A for an archival sample of 17 LRDs ($2 < z < 5$) with JWST/NIRSpec grating data. We detect CaT absorption in three individual sources, and find that on average there is an absorption equivalent width (EW) EW$\\_{\\rm CaT} \\approx -5$ A. Among the three detections, two are approaching the deepest absorption seen in integrated light from stars. Given that the continuum around CaT is probably dominated by the central engine, we argue that the absorbers are likely to be associated with the LRD. Such absorption has not historically been associated with any components of an AGN central engine, but a cool, optically thick photosphere as proposed for LRDs would naturally produce such absorption. The EW$\\_{\\rm CaT}$ that we observe can be matched by hydrostatic atmosphere models at relatively low metallicity ([M/H]$<-1$) combined with an effective temperature $T\\_{\\rm eff} > 4500$ K. Alternatively, the distribution can be matched at a low photospheric gas density $ρ\\_{\\rm ph}<10^{-11}{\\rm\\textasciitilde g\\textasciitilde cm^{-3}}$ that requires a non- hydrostatic gas structure on dynamical grounds. In the future, metal absorption lines should be a powerful complementary probe of the gas conditions, and possibly the enclosed mass, of LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Greene}, Jenny E.'), Person('{Liu}, Hanpu'), Person('{Hviding}, Raphael E.'), Person('{Naidu}, Rohan P.'), Person('{Setton}, David J.'), Person('{Wang}, Bingjie'), Person('{Labbe}, Ivo'), Person('{Kokorev}, Vasily'), Person('{Lin}, Xiaojing'), Person('{Akins}, Hollis B.'), Person('{de Graaff}, Anna'), Person('{Leja}, Joel'), Person('{Matthee}, Jorryt'), Person('{Torralba}, Alberto'), Person('{Glazebrook}, Karl'), Person('{Bezanson}, Rachel'), Person('{Boogaard}, Leindert A.'), Person('{Brammer}, Gabriel'), Person('{Casey}, Caitlin M.'), Person('{Chisholm}, John'), Person('{Fan}, Xiaohui'), Person('{Furtak}, Lukas'), Person('{Fujimoto}, Seiji'), Person('{Jiang}, Yan-Fei'), Person('{Ma}, Yilun'), Person('{Nanayakkara}, Themiya'), Person('{Nelson}, Erica J.'), Person('{Pan}, Richard'), Person('{Quataert}, Eliot'), Person('{Taylor}, Anthony J.'), Person('{Williams}, Christina'), Person('{Zitrin}, Adi')]",
+      "relevance_score": 8.95,
+      "justification": "This paper is highly relevant to LRD research, directly testing whether cool, optically thick photospheres are common around LRDs using CaT absorption in JWST/NIRSpec spectra. It provides new observational constraints on gas temperature, metallicity, and density, and establishes metal absorption lines as a promising diagnostic for LRD atmospheres and central engines. The archival sample is modest, but the combination of individual detections, stacking, and physically motivated modeling makes a compelling case.",
+      "key_factors": [
+        "JWST/NIRSpec archival sample of 17 LRDs",
+        "Detection of Ca II triplet absorption in individual and stacked spectra",
+        "Evidence for optically thick cool photospheres around LRDs",
+        "Constraints on Teff > 4500 K and low metallicity",
+        "Proposes metal absorption lines as future LRD diagnostic"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is exclusively focused on Little Red Dots, presenting new evidence for Ca II triplet absorption as a common feature in an archival sample of LRDs. The title, abstract, and scientific motivation are entirely centered on LRD atmospheres and central engine properties."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses JWST/NIRSpec grating data for an archival sample of 17 LRDs, measures rest-frame CaT equivalent widths, reports individual detections, and stacks spectra to detect average absorption. The techniques are appropriate and well matched to the science goal, though not highly novel beyond the specific application."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper constrains key LRD physical properties: optically thick atmospheres, cool photospheric gas, effective temperature >4500 K, relatively low metallicity ([M/H] < -1), and low photospheric gas density. It links the CaT absorption to a hydrostatic or non-hydrostatic photosphere and argues the continuum is likely dominated by a central engine."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "This work addresses a central unresolved issue in LRD research—whether LRDs are dominated by an AGN, stars, or a cool photosphere—and introduces metal absorption lines as a new complementary probe of gas conditions and possibly enclosed mass. This has strong potential to influence future LRD modeling and observations."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis is based on a modest archival sample of 17 sources with three individual detections, but the use of spectral stacking, equivalent width measurements, and comparison with atmosphere models is sound. Remaining uncertainties include continuum source decomposition and small-sample statistics, but the approach is reasonable."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260403563T",
       "title": "{SPURS: Evidence for Clumpy Neutral Envelopes and Ionized IGM Surrounding Little Red Dots in Abell 2744 from Ultra-Deep Rest-UV Spectroscopy}",
       "abstract": "{Rest-frame ultraviolet (UV) spectra of Little Red Dots (LRDs) often show Ly$α$ emission. Along with broad Balmer emission, LRDs are expected to produce broad Ly$α$ emission. However, the large column density of neutral gas invoked to explain the Balmer break should significantly redshift and further broaden the Ly$α$ line, making it challenging to detect without sensitive, moderate-resolution spectra. We present ultra-deep (29 hours) G140M JWST/NIRSpec observations covering the rest-UV of two LRDs in Abell2744 from the SPURS Cycle 4 Large Program. One of our targets is Abell2744-QSO1, a gravitationally-lensed LRD at $z=7.04$ with faint UV emission (M$\\_{\\rm UV}=-16.9$), and the other source (UNCOVER-2476) is newly-confirmed at $z=4.02$ with a very bright UV continuum (M$\\_{\\rm UV}=-19.6$). We find that Abell2744-QSO1 has a broad Ly$α$ profile, along with narrow CIV, FeII$\\lambda1786$, and OI$\\lambda1302$ emission. The Ly$α$ profile suggests an origin similar to the broad H$α$, but the line is considerably less redshifted than expected from existing dense gas models. We show that the line profile can be explained if the dense neutral gas is clumpy, allowing Ly$α$ to escape by scattering off of the clump surfaces. We find that UNCOVER-2476 has narrow [NeIV] emission, indicating either a hard radiation field or shocks. We confirm two close neighbors with Ly$α$ emission around Abell2744-QSO1, indicating it traces a dense environment that may have ionized its surrounding IGM. We suggest that LRDs may preferentially trace bubbles carved by their dense environments, contributing to the prevalence of Ly$α$ in the population.}",
@@ -2183,6 +2342,88 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Population-level statistical test with linear mixture modeling and stacked templates is appropriate, though conclusions depend on the BH* template assumptions and continuum slope modeling."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260911094T",
+      "title": "{SPURS: An Ultra-deep View Inside the Compact, Nitrogen-Enriched Nuclei of Little Red Dots}",
+      "abstract": "{We present the first ultra-deep rest-UV spectroscopy of four UV-bright Little Red Dots (LRDs), obtained from the SPURS Cycle 4 Large Program. The spectra reveal broad CIV (FWHM $\\approx2700-2800$ km s$^{-1}$) in two LRDs, alongside narrow-line densities elevated above star-forming galaxies ($n\\_e\\sim10^4-10^5$ cm$^{-3}$, reaching $10^6$ cm$^{-3}$ in the most extreme source) and nitrogen-enhancements in all four LRDs. We detect broad HeII emission (FWHM $\\approx930$ km s$^{-1}$) in one LRD, and two others with fast P-Cygni absorption ($rsim2200$ km s$^{-1}$). Strong interstellar absorption lines and Ly$α$ damping wings reveal the UV continuum is deeply embedded in neutral gas ($N\\_{\\rm HI}rsim10^{22}$ cm$^{-2}$) in all four LRDs. Detections of fluorescent FeII and OI emission and fine-structure absorption indicate this gas lies close to the UV-emitting region. In archival $z>4$ samples, we find nitrogen and strong CIII] emission are significantly more common in LRDs than in the galaxy population. The transmission of broad CIV, tracing the broad-line region or cocoon, depends on rest-optical color within our sample, consistent with an orientation-dependent picture in which bluer, less obscured sightlines offer a more direct, polar view of the central engine and its outflows. We find several potential signatures of very massive stars, whose winds may contribute to nitrogen enhancement. We investigate other abundance patterns expected from supermassive stars but our results are inconclusive. Our results place the UV-emitting region within $\\lesssim8$ pc of the LRD nucleus, consistent with an actively assembling nuclear star cluster. Dynamical interactions in this extremely dense environment, including tidal disruption of stars, may explain the high incidence of nitrogen enhancements in LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Tang}, Mengtao'), Person('{Stark}, Daniel P.'), Person('{Mason}, Charlotte A.'), Person('{Chen}, Zuyi'), Person('{Jones}, Tucker'), Person('{Searle Grannis}, Sarah'), Person('{Senchyna}, Peter'), Person('{Whitler}, Lily'), Person('{Keerthi Vasan G.}, C.'), Person('{Gelli}, Viola')]",
+      "relevance_score": 8.9,
+      "justification": "This paper is a highly relevant, data-rich study of Little Red Dots, providing ultra-deep rest-UV spectroscopy that constrains the dense, neutral gas environment, nitrogen enrichment, and compact nuclear structure of LRDs. Its multi-diagnostic approach and archival comparisons make it an important contribution to understanding LRD central engines and orientation effects, though some abundance-pattern interpretations remain inconclusive.",
+      "key_factors": [
+        "Ultra-deep SPURS rest-UV spectroscopy of four LRDs",
+        "Broad CIV, HeII, and P-Cygni outflow diagnostics",
+        "High electron densities and neutral gas columns",
+        "Nitrogen enhancement and strong CIII] incidence in LRDs",
+        "Orientation-dependent broad CIV transmission",
+        "Compact UV-emitting region within ~8 pc"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely focused on Little Red Dots, selecting four UV-bright LRDs for ultra-deep rest-UV spectroscopy and using archival z>4 samples to compare LRDs with the general galaxy population. The title and abstract address central LRD questions about compact, nitrogen-enriched nuclei and the nature of their central engines."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The study uses ultra-deep rest-UV spectroscopy from the SPURS Cycle 4 Large Program, combining broad and narrow emission-line diagnostics (CIV, HeII, CIII]), P-Cygni absorption, interstellar absorption lines, Ly-alpha damping wings, fluorescent FeII/OI emission, and fine-structure absorption. This multi-diagnostic approach is well suited to probing the compact, obscured environments of LRDs."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper constrains key physical properties: electron densities of 10^4-10^6 cm^-3, nitrogen enhancements in all four LRDs, neutral hydrogen columns >10^22 cm^-2, a UV-emitting region within about 8 pc of the nucleus, and orientation-dependent broad CIV transmission. It also explores very massive star and dynamical interaction scenarios for nitrogen enrichment, though some abundance patterns remain inconclusive."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "The findings directly inform the AGN-vs-starburst and orientation debates for LRDs, provide evidence for an actively assembling nuclear star cluster, and show that nitrogen enhancement and strong CIII] are common in LRDs at z>4. The deep spectroscopic constraints on gas density, neutral absorption, and compact size are likely to influence future LRD modeling."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis is based on ultra-deep targeted spectroscopy and includes archival comparisons, multiple independent line diagnostics, and explicit discussion of inconclusive tests. The interpretation is generally well grounded, though the supermassive star abundance-pattern tests remain uncertain and some conclusions depend on a small sample of four LRDs."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026A&A...714A.327B",
+      "title": "{Do little red dots really form a distinct class of astronomical objects?}",
+      "abstract": "{Observations with the James Webb Space Telescope have identified a previously unidentified class of enigmatic sources, known as little red dots (LRDs), which are relatively abundant in space. These sources have been interpreted as a distinct class of active galactic nuclei (AGNs) and host galaxies whose structural properties do indeed suggest the existence of a previously unidentified class of extragalactic objects. Such properties include the mass of the supermassive black hole and the emissivity from the associated AGN, as well as the stellar mass of the host galaxy or the possible presence of so-called quasi- stars or black hole stars (BH$^{{\\ensuremath{*}}}$). However, there are two issues that have yet to be addressed before invoking a new paradigm: 1) whether there a clear discontinuity between the properties of the LRDs and field galaxies at the same cosmic epochs; and 2) whether LRDs form a single homogeneous population. In this work, we address these two issues by introducing a continuous metric to evaluate the ``LRDness`` of galaxies. We measured their compactness ({\\ensuremath{\\delta}}$\\_{compact}$), the sharpness of the V-shaped ({\\ensuremath{\\delta}}$\\_{v-shape}$) spectral energy distribution (SED), and the strength of the broad Balmer line emission. We applied this approach, which avoids imposing a binary ``on--off'' view of the population, to a sample of {\\ensuremath{\\approx}}48 000 ({\\ensuremath{\\approx}}5000) galaxies with photometric (spectroscopic) information, selected over an area of {\\ensuremath{\\approx}}750 arcmin$^{2}$. We find that the prominence of the V-shaped SED exhibits a strong correlation with morphology without any clear transition at the commonly used LRD selection threshold: the fraction of compact galaxies rises in line with the V-shape intensity. Similarly, the strength of the H{\\ensuremath{\\alpha}} broad line component increases with the V-shape sharpness and with compactness. We also note that the deficit of [N II] itself is not an exclusive feature of LRDs, but a global property of compact, metal-poor galaxies. Finally, only a minority of LRDs (i.e., the 3\\% most extreme ones) present a prominent Balmer break of potentially non-stellar origin (greater than 3). Overall, LRDs and non-LRDs show a similar Balmer decrement versus V-shape evolution, suggesting a common origin consistent with a dust attenuation origin. The inferred dust mass ({\\ensuremath{\\approx}}4--7 {\\texttimes} {}10$^{4}$M$\\_{{\\ensuremath{\\odot}}}$) is low enough to explain ALMA non-detections, even if they are fully originating from stellar attenuation. The dust-driven origin is reinforced by the agreement between the observed Balmer ratios and attenuated Case B predictions. In conclusion, our results suggest that (apart from a minority, i.e., a few percent) LRDs do not generally represent a separate class of objects; rather, they are likely to make up the extreme tail of a continuous distribution of galaxies and broad H{\\ensuremath{\\alpha}} emitters. Finally, we find that most LRDs appear to be consistent with a classical broad-line region and a dust component.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Billand}, Jean-Baptiste'), Person('{Elbaz}, David'), Person('{Franco}, Maximilien'), Person('{Gentile}, Fabrizio'), Person('{Daddi}, Emanuele'), Person('{Giavalisco}, Mauro'), Person('{Kocevski}, Dale D.'), Person('{Lewis}, Joseph S. W.'), Person('{Magnelli}, Benjamin'), Person('{Sangalli}, Valentina'), Person('{Tarrasse}, Maxime')]",
+      "relevance_score": 8.9,
+      "justification": "This paper is highly relevant to LRD research because it directly investigates whether LRDs form a distinct class and concludes they mostly represent an extreme tail of a continuous distribution. It uses a large sample and novel continuous metrics to evaluate compactness, V-shaped SEDs, and broad Balmer emission, providing strong observational and physical arguments centered on dust attenuation. The work has significant implications for how the field defines and interprets LRDs.",
+      "key_factors": [
+        "Directly addresses LRD distinct-class question",
+        "Introduces continuous LRDness metric",
+        "Large sample: ~48,000 photometric and ~5,000 spectroscopic galaxies",
+        "Shows no clear discontinuity in LRD properties",
+        "Explains ALMA non-detections via low dust mass",
+        "Challenges paradigm of LRDs as separate class"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly and entirely focused on Little Red Dots, directly questioning whether they form a distinct class of astronomical objects and evaluating their defining properties. Every stated goal and conclusion centers on LRD classification and homogeneity."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a very large sample of ~48,000 photometric and ~5,000 spectroscopic galaxies over ~750 arcmin², and introduces quantitative metrics for compactness, V-shaped SED sharpness, and broad Balmer line strength. This provides strong observational leverage, though it appears to rely on existing JWST-selected data rather than new observations."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Addresses key physical properties including SMBH mass, AGN emissivity, stellar mass, broad-line region characteristics, Balmer decrement, dust attenuation, and dust mass. It interprets the V-shaped SED and broad Hα in terms of dust and classical BLR rather than exotic origins, though detailed modeling is not the primary focus."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "The conclusion that most LRDs are the extreme tail of a continuous galaxy distribution rather than a separate class challenges a major paradigm. The introduction of a continuous 'LRDness' metric and the explanation for ALMA non-detections are likely to influence future LRD studies."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The continuous metric approach avoids binary on-off classification and directly tests for discontinuities and homogeneity. The large sample strengthens statistical conclusions. Potential caveats include photometric vs spectroscopic selection and reliance on derived quantities, but the methodology is well suited to the stated questions."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -2551,6 +2792,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Uses well-defined samples from JADES, CANUCS, GO/SPURS, and MUSE surveys; reports statistical uncertainties on the broad-line fraction; performs stacking with and without known broad emitters."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1008L..55J",
+      "title": "{Compact Core, Extended Reach: A Bipolar Kiloparsec-scale Elongation in a Little Red Dot at z {\\ensuremath{\\approx}} 5.5}",
+      "abstract": "{Little red dots (LRDs) appear extremely compact at rest-frame optical wavelengths, yet many show extended rest-frame UV morphology revealing more complex internal structure. We present a combined analysis of the Very Large Telescope/MUSE rest-frame UV integral-field spectroscopy and continuum-subtracted [O III], H{\\ensuremath{\\beta}}, and H{\\ensuremath{\\alpha}}+[N II] emission-line maps from JWST/NIRCam imaging at subkiloparsec resolution for LRD-204851 at z = 5.482 in GOODS-S. We find that LRD-204851 hosts a remarkably thin, bipolar, elongated structure passing through the optical continuum centroid and extending several kiloparsecs on either side, traced by both the UV continuum and the rest-frame optical emission lines, with a bright [O III] clump-like structure \\raisebox{-0.5ex}\\textasciitilde2 kpc to the southeast of the centroid. The MUSE observations reveal a double-peaked Ly{\\ensuremath{\\alpha}} profile, with a broad and bright near- systemic red peak and a relatively faint peak blueshifted by \\raisebox{-0.5ex}\\textasciitilde430 km s$^{-1}$, accompanied by a tentative N V {\\ensuremath{\\lambda}}1238 detection at similar velocity. In narrowband imaging extracted from the MUSE integral-unit-field cube, both the blue Ly{\\ensuremath{\\alpha}} peak and the tentative N V emission lean toward this same southeastern direction. Independently, radiative-transfer modeling of the integrated Ly{\\ensuremath{\\alpha}} profile favors a biconical low-column-density cavity in a dense, slowly expanding neutral envelope, in support of the bipolar geometry traced by the line maps. Together, these results suggest that the elongated emission of LRD-204851 is connected to radiation and/or gas flow from its central engine through a low-column- density channel with a small opening angle that may trace either a slow outflow or a quasi-static ionization cone. LRD-204851 is one of the first LRDs where the central engine's impact on its host galaxy is potentially directly observable on kiloparsec scales.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ji}, Zhiyuan'), Person('{Sun}, Yang'), Person('{Giavalisco}, Mauro'), Person('{Zhu}, Yongda'), Person('{Rieke}, George H.'), Person('{Williams}, Christina C.'), Person('{Maseda}, Michael V.'), Person('{Lyu}, Jianwei'), Person('{Rieke}, Marcia'), Person('{Tacchella}, Sandro')]",
+      "relevance_score": 8.9,
+      "justification": "This paper is highly relevant to LRD research because it directly probes the extended structure and gas kinematics of a Little Red Dot, linking compact optical emission to kiloparsec-scale bipolar outflows or ionization cones. Its combined VLT/MUSE IFU and JWST/NIRCam analysis, supported by Ly-alpha radiative-transfer modeling, provides strong observational evidence for central-engine impact on the host galaxy.",
+      "key_factors": [
+        "Direct LRD case study at z~5.5",
+        "Combined VLT/MUSE IFU and JWST/NIRCam sub-kpc maps",
+        "Bipolar kiloparsec-scale elongation in UV and optical lines",
+        "Double-peaked Ly-alpha and tentative NV kinematics",
+        "Radiative-transfer modeling supports outflow/ionization cone geometry",
+        "Potential first direct kpc-scale central-engine impact in an LRD"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly centered on a Little Red Dot (LRD-204851) and directly addresses a defining LRD tension: compact rest-frame optical morphology versus extended rest-frame UV structure. It investigates the central engine's kiloparsec-scale influence, making it highly core to LRD research."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a strong multi-wavelength dataset combining VLT/MUSE rest-frame UV integral-field spectroscopy with JWST/NIRCam sub-kiloparsec emission-line maps of [O III], H-beta, and H-alpha+[N II]. Narrowband imaging from the MUSE cube and radiative-transfer modeling of Ly-alpha add further diagnostic depth."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Characterizes bipolar kiloparsec-scale morphology, Ly-alpha kinematics, tentative NV emission, and outflow/ionization-cone geometry. It provides important physical constraints on gas flows and low-column-density channels but does not derive full host/AGN parameters such as masses or star formation rates."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The claim that LRD-204851 is one of the first LRDs where the central engine's impact on the host is directly observable on kiloparsec scales is significant for LRD feedback and geometry models, though the single-object nature and tentative NV detection limit broader impact."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis combines independent datasets and uses radiative-transfer modeling to test the bipolar geometry, providing strong cross-validation. Interpretation is partly model-dependent and relies on a tentative N V detection, but the overall approach is robust."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -3169,6 +3451,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026NatAs.tmp..229Z",
+      "title": "{Reduced incidence of little red dots at z < 3 based on number density and halo mass evolution}",
+      "abstract": "{An intriguing puzzle in extragalactic astronomy is the scarcity of little red dots (LRDs) at z < 3, compared with their higher abundance at earlier cosmic epochs. Here, to investigate this, we measure the overdensity for 98 spectroscopically confirmed LRDs at 3 < z < 7, and find that these LRDs predominantly reside in under-dense regions at z > 4 but shift to more typical galaxy environments at z {\\ensuremath{\\approx}} 3.5. Concurrently, cross-correlation analyses show that their dark matter halo masses grow rapidly, from {\\ensuremath{\\lesssim}}10$^{10.1}$ M$\\_{☉}$ at z {\\ensuremath{\\approx}} 7.5 to \\raisebox{-0.5ex}\\textasciitilde10$^{11.3}$ M$\\_{☉}$ at z {\\ensuremath{\\approx}} 3.5, approaching the halo masses of normal galaxies at lower redshifts. Applying an empirical stellar-to-halo mass scaling relation, we find that LRDs still host over-massive black holes relative to their stellar masses at z > 4, yet converge towards the local black hole-stellar mass relation at lower redshifts. The coherent evolution of LRDs' large-scale environments and halo masses towards those of normal galaxies provides a plausible explanation for their declining abundance at z < 3, even though the underlying small-scale physical mechanisms remain elusive.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Chenxuan'), Person('{Zhang}, Huanian'), Person('{Wu}, Qingwen'), Person('{Ho}, Luis C.'), Person('{Wang}, Jian-Min')]",
+      "relevance_score": 8.9,
+      "justification": "This paper directly addresses a central LRD puzzle using a substantial spectroscopic sample and multiple complementary analyses. It derives meaningful physical evolution in environments, halo masses, and black hole scaling relations, offering a plausible explanation for the redshift-dependent LRD abundance. Minor caveats include reliance on empirical scaling relations and unresolved small-scale mechanisms.",
+      "key_factors": [
+        "Direct LRD focus with 98 spectroscopically confirmed sources",
+        "Measures overdensity and cross-correlation halo masses",
+        "Explains declining LRD abundance at z<3",
+        "Traces BH mass to stellar mass relation evolution",
+        "Combines environment and dark matter halo evolution"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on little red dots, using 98 spectroscopically confirmed LRDs at 3<z<7 to explain their declining abundance at z<3. The title and abstract make LRDs the primary subject."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Employs overdensity measurements and cross-correlation analyses to infer dark matter halo masses for a sizable spectroscopic LRD sample. These are appropriate and powerful for environmental evolution, though the abstract does not highlight novel instrumentation or data acquisition details."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives key physical quantities including large-scale environment, halo mass growth from <10^10.1 to ~10^11.3 Msun, and black hole-stellar mass evolution. Addresses overmassive BHs at z>4 and convergence toward the local relation."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Tackles a major open puzzle in extragalactic astronomy: why LRDs are rare at z<3. The coherent environmental and halo mass evolution provides a plausible explanation, with implications for AGN/galaxy co-evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Uses a well-defined spectroscopic sample and established cross-correlation methods. The main limitations are reliance on an empirical stellar-to-halo mass relation and the acknowledged lack of small-scale physical mechanism constraints."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv250902662M",
       "title": "{No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function}",
       "abstract": "{One of the most surprising results of early James Webb Space Telescope (JWST) observations is the discovery of an abundance of red, compact, broad-line objects dubbed ``little red dots'' (LRDs) at $z>4$. Their spatial density ($\\sim10^{-4}$-$10^{-5}\\,\\mathrm{cMpc^{-3}}$) is 100 times more abundant than UV-selected quasars at those redshift if one extrapolates the quasar luminosity function (QLF) down to the LRD regime. However, whether LRDs dominate black hole accretion at quasar-like luminosities ($L\\_\\mathrm{bol}rsim 10^{45-46}\\,\\mathrm{erg\\,s^{-1}}$) remains unanswered, as probing the bright end of the LRD luminosity function requires a much larger area than those able to be surveyed by JWST. In this work, we present our search for the brightest LRDs ($K<23.7$) at $4.5<z<4.9$ using wide-area multiwavelength imaging surveys from the near-UV to the infrared bands. With over 15 square degrees of sky coverage, we only identify one single LRD candidate at $z\\_\\mathrm{phot}\\approx4.6$, which translates into a spatial density of $n(M\\_{5100}<-23.5)\\approx10^{-8}\\,\\mathrm{cMpc^{-3}}$ -- this is nearly 10 times less abundant than the UV-selected quasars at similar optical luminosity. When combined with the LRD sample identified by JWST at the same redshift range, we find a sharp cutoff in the optical luminosity function at $λL\\_{5100}\\approx2.5\\times10^{44}\\,\\mathrm{erg\\,s^{-1}}$, while the QLF turnover occurs at $rsim20$ times higher luminosity. We therefore confirm the exclusively low-luminosity nature of LRDs, ruling out that LRDs are the counter parts of quasars. Furthermore, we speculate that, if the shape of the luminosity function holds up, it points to LRDs being powered by low-mass black holes with a narrow range of Eddington-level accretion rates.}",
@@ -3410,6 +3732,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1009..220C",
+      "title": "{A Population of Little Red Dot-like Quasars in SDSS}",
+      "abstract": "{Compact and red sources in the high-redshift (z \\raisebox{-0.5ex}\\textasciitilde 5) Universe, known as ``Little Red Dots'' (LRDs), are among JWST's most intriguing discoveries. These sources have broad Balmer emission lines, weak X-ray emission, and unique spectral energy distributions (SEDs) poorly fit by either stellar or active galactic nucleus (AGN) templates. Local LRD-like objects allow for detailed studies of the underlying physical processes with archival multiwavelength datasets unavailable in the high-z Universe. We show that the Sloan Digital Sky Survey (SDSS) ugriz filters at z {\\ensuremath{\\approx}} 0.4, 0.8 overlap well with the JWST filters used to select LRDs at z \\raisebox{-0.5ex}\\textasciitilde 5. We use SDSS quasars to define a sample of \\raisebox{-0.5ex}\\textasciitilde1300 Local Red Dots (LoRDs) that share the same photometric colors of LRDs. A subset of the LoRD sample selected to have V-shaped continua (N = 244) show prominent higher-order Balmer absorption features and [Ne V] {\\ensuremath{\\lambda}}3426 emission, both of which would likely be missed in JWST/PRISM observations given the low spectral resolution. A composite SED of the LoRDs differs from a typical quasar SED in the rest-frame UV/optical, but the two agree with each other in the near-infrared. The LoRD SED matches well with a stack of LRDs and can be modeled either as a reddened AGN combined with a host galaxy, or as a reddened AGN combined with a host galaxy and a cool blackbody. Interestingly, the LoRDs are X-ray detected at a rate comparable to typical quasars. However, the probability that LoRDs and typical quasars would go undetected, if subject to the LRD X-ray upper limits, is >50\\%. *Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Casey}, Quinn O.'), Person('{Hickox}, Ryan C.'), Person('{Cleri}, Nikko J.'), Person('{Cohn}, Jonathan H.'), Person('{Alexander}, David M.'), Person('{Durodola}, Emmanuel'), Person('{Whalen}, Kelly E.'), Person('{Hviding}, Raphael E.'), Person('{Ananna}, Tonima Tasnim')]",
+      "relevance_score": 8.85,
+      "justification": "This paper is highly relevant to LRD research because it constructs and analyzes a local SDSS analog sample selected to match JWST LRD photometric colors, directly compares its composite SED to a stacked high-z LRD SED, and uses XMM-Newton data to constrain the X-ray properties. Its multiwavelength diagnostics and SED modeling provide important physical constraints on the AGN/host nature of LRDs, despite the inherent limitations of local analogs.",
+      "key_factors": [
+        "Directly defines local SDSS analogs of JWST Little Red Dots",
+        "Matches LoRD composite SED to stacked high-z LRD SED",
+        "Uses XMM-Newton X-ray data to test LRD X-ray faintness",
+        "Large sample of ~1300 LoRDs",
+        "SED modeling supports reddened AGN plus host galaxy interpretation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on Little Red Dots, explicitly defining a local SDSS analog sample (LoRDs), matching their photometric selection to JWST LRD selection, and comparing composite SEDs to a stack of high-z LRDs. This is a highly relevant LRD-focused study."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses SDSS ugriz photometry mapped to JWST filter coverage, XMM-Newton X-ray observations, composite SED construction, and identification of spectral features such as Balmer absorption and [Ne V] emission. Strong multiwavelength archival approach, though not a direct JWST observing program."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Provides physical interpretation through SED modeling as a reddened AGN plus host galaxy, with possible cool blackbody component, and constrains X-ray properties relative to typical quasars and LRD upper limits. Addresses key LRD physical questions."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Local analogs enable detailed multiwavelength follow-up unavailable at high redshift, potentially informing the AGN versus stellar origin debate for LRDs and improving interpretation of JWST LRD spectra and X-ray non-detections."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Uses a large sample of ~1300 objects with a clearly defined color-selection, a V-shaped continuum subset, stacked SEDs, and statistical X-ray detection comparisons. Some caution is warranted because local analogs may not fully reproduce high-z LRD properties."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260804101P",
       "title": "{Implications of Broad [O III] 4364 and UV Line Emission in Two Little Red Dots at z \\raisebox{-0.5ex}\\textasciitilde 7 - 8}",
       "abstract": "{We present deep, NIRSpec G140M and G395M spectroscopy of Little Red Dots (LRDs) at z = 6.68 and z = 8.35. Both LRDs show broad Balmer and [O III] $λ$4364 emission. The broad [O III] $λ$4364 lines have FWHM \\raisebox{-0.5ex}\\textasciitilde1000 km/s, about 1/3 that of the H$β$ lines. Assuming gas temperatures T \\raisebox{-0.5ex}\\textasciitilde 15,000 - 25,000 K, the [O III] $λ$4364/[O III] $λ$5008 ratios of the broad lines yield high gas densities, log n/cm\\^-3 = 6.3 to 7.9, 3-10$\\times$ higher than those in broad-line regions of low-redshift quasars. If the broad-lines trace virial motions, it is evidence for metal- enhanced gas clouds, \\raisebox{-0.5ex}\\textasciitilde1-10\\raiseb ox{-0.5ex}\\textasciitildepc from the LRD engine. Both LRDs show narrow [C III] $λ$1907 + C III] $λ$1909, and O III] $λλ$1661,1666. The C III] ratios yield narrow-line gas densities, log n/cm\\^-3 = 4.2-5.2, similar to those in other star-forming galaxies. The line equivalent widths, EW(O III]), EW(C III]), are at, or exceed, limits expected for stellar populations, likely requiring an additional ionizing source. The LRDs also have [O III] $λ$4364/H$γ$ ratios that favor ionization from an accretion disk, possibly combined with stars. Both LRDs show nitrogen enhancement based on detections of N III] $λ$1746 or N IV] $λ$1486, which may imply rapid, recent star-formation. These results favor a scenario where the LRD gas envelopes are highly stratified, having high-density clouds with a non-unity covering factors and a complex geometry, such that ionizing radiation from the LRD accretion disk, combined with that from star-forming regions, produce the nebular emission features.}",
@@ -3607,6 +3969,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Employs an extensive catalog and provides statistical measures, but the research note format limits detailed discussion of sample selection, systematic uncertainties, error analysis, or completeness corrections that would be expected in a full research article."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026NatAs..10.1261I",
+      "title": "{A critical evaluation of the physical nature of the little red dots}",
+      "abstract": "{Little red dots (LRDs) are a new cla{\\ss} of object uncovered by JWST deep surveys. Although they are probably a{\\ss}ociated with active galactic nuclei (AGNs), their enigmatic properties challenge the canonical AGN paradigm and have stimulated numerous ideas on the early formation and growth mechanisms of ma{\\ss}ive black holes. This Perspective summarizes our current understanding of how early black holes shape the characteristic features of LRDs, how their nuclear environments differ from normal AGNs and how future observations can distinguish competing scenarios. We argue that ma{\\ss} accretion onto black holes with ma{\\ss} M$\\_{BH}$ {\\ensuremath{\\approx}} 10$^{6-7}$M$\\_{☉}$ produces the broad emi{\\ss}ion lines and the red optical continuum. A purely stellar scenario requires extremely large ma{\\ss}es inconsistent with the infrared spectral energetics, although star formation may still contribute to the ultraviolet emi{\\ss}ion. The coexistence of a prominent Balmer break, Balmer absorption and large Balmer decrements suggests that nuclear black holes are heavily enshrouded by dense gas. The optical-infrared spectra arise from a combination of gas attenuation and thermal self-emi{\\ss}ion with an effective temperature of T$\\_{eff}$ {\\ensuremath{\\approx}} 5,000 K instead of dust reddening. Taken together, these characteristics suggest that LRDs represent the earliest phase of black hole and galaxy formation. Future observations, including deep rest-optical to infrared spectroscopy, time variability studies, and searches for post- LRD populations and low-redshift analogues, will be particularly promising.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Inayoshi}, Kohei'), Person('{Ho}, Luis C.')]",
+      "relevance_score": 8.8,
+      "justification": "This Perspective is highly relevant to LRD research because it directly addresses the physical nature of LRDs, synthesizes current JWST observational constraints, and argues for an embedded AGN interpretation with specific quantitative predictions. It receives a high score despite not presenting new observations, as its critical evaluation and future observational roadmap are central to advancing the field.",
+      "key_factors": [
+        "Direct focus on LRD physical nature",
+        "Synthesizes JWST spectroscopic and photometric constraints",
+        "Quantitative black hole mass and effective temperature arguments",
+        "Evaluates AGN versus purely stellar scenarios",
+        "Proposes future distinguishing observations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely centered on little red dots, with the title and abstract explicitly dedicated to evaluating their physical nature, distinguishing scenarios, and outlining future LRD-focused observations."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "While not presenting new observations, the paper critically synthesizes JWST-derived constraints—broad emission lines, red optical continuum, Balmer features, and infrared spectral energetics—and identifies future observational strategies such as deep rest-optical to infrared spectroscopy and time variability studies."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The abstract quantitatively addresses key physical properties: black hole masses of 10^6-7 solar masses, effective temperature of about 5000 K, gas attenuation and thermal self-emission rather than dust reddening, dense nuclear gas, and the likely coexistence of AGN and star formation."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "As a critical Perspective, it directly tackles the central AGN-versus-stellar debate for LRDs, argues for an embedded early black hole scenario, and lays out a roadmap for distinguishing competing models, which is likely to influence the field."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The paper appears to be a well-structured critical synthesis rather than a new data analysis, but its arguments are grounded in multiple observational constraints and it explicitly identifies tests that can falsify or support competing scenarios."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -4579,6 +4981,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Solid SED fitting methodology within the BHE framework with systematic comparison to previous dust-reddened AGN models. The approach is technically sound, though some assumptions (photometric selection, attribution of UV excess to star formation) introduce modest uncertainties that warrant further spectroscopic validation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1008L..64M",
+      "title": "{No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function}",
+      "abstract": "{One of the most surprising results of early James Webb Space Telescope (JWST) observations is the discovery of an abundance of red, compact, broad-line objects dubbed ``little red dots'' (LRDs) at z > 4. Their spatial density (\\raisebox{-0.5ex}\\textasciitilde10$^{-4}$--10$^{-5}$ cMpc$^{-3}$) is 100 times more abundant than UV-selected quasars at that redshift if one extrapolates the quasar luminosity function (QLF) down to the LRD regime. However, whether LRDs dominate black hole accretion at quasar-like luminosities (L$\\_{bol}$ {\\ensuremath{\\gtrsim}} 10$^{45-46}$ erg s$^{-1}$) remains unanswered, as probing the bright end of the LRD luminosity function requires a much larger area than that which is able to be surveyed by JWST. In this work, we present our search for the brightest LRDs (K < 23.7) at 4.5 < z < 4.9 using wide-area multiwavelength imaging surveys from the near-UV to the infrared bands. With over 15 deg$^{2}$ of sky coverage, we only identify one single LRD candidate at z$\\_{phot}$ {\\ensuremath{\\approx}} 4.6, which translates into a spatial density of n(M$\\_{5100}$ < -23.5) {\\ensuremath{\\approx}} 10$^{-8}$ cMpc$^{-3}$---this is nearly 10 times less abundant than the UV-selected quasars at similar optical luminosity. When combined with the LRD sample identified by JWST at the same redshift range, we find a sharp cutoff in the optical luminosity function at {\\ensuremath{\\lambda}}L$\\_{5100}$ {\\ensuremath{\\approx}} 2.2 {\\texttimes} {}10$^{44}$ erg s$^{-1}$, while the quasar luminosity function (QLF) turnover occurs at {\\ensuremath{\\gtrsim}}20 times higher luminosity. We therefore confirm the exclusively low-luminosity nature of LRDs, ruling out that LRDs are the counterparts of quasars. Furthermore, we speculate that, if the shape of the luminosity function holds up, it points to LRDs being powered by low-mass black holes with a narrow range of Eddington-level accretion rates.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ma}, Yilun'), Person('{Greene}, Jenny E.'), Person('{Volonteri}, Marta'), Person('{Goulding}, Andy D.'), Person('{Setton}, David J.'), Person('{Annunziatella}, Marianna'), Person('{Egami}, Eiichi'), Person('{Fan}, Xiaohui'), Person('{Kokorev}, Vasily'), Person('{Labbe}, Ivo'), Person('{Lin}, Xiaojing'), Person('{Marchesini}, Danilo'), Person('{Matthee}, Jorryt'), Person('{Nanayakkara}, Themiya'), Person('{Robbins}, Luke'), Person('{Sajina}, Anna'), Person('{Sawicki}, Marcin')]",
+      "relevance_score": 8.8,
+      "justification": "This paper is highly relevant to LRD research, directly constraining the bright end of the LRD luminosity function and demonstrating a sharp cutoff below the quasar turnover. It combines wide-area ground-based imaging with existing JWST samples to rule out luminous LRD counterparts to quasars, with important implications for black hole accretion demographics.",
+      "key_factors": [
+        "Directly targets LRDs at z~4.6",
+        "Wide-area >15 deg^2 multiwavelength survey",
+        "Sharp cutoff in LRD optical luminosity function",
+        "Comparison with UV-selected quasar luminosity function",
+        "Implications for low-mass BHs and Eddington accretion"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on LRDs: it searches for the brightest LRDs at 4.5<z<4.9, measures their luminosity function, and addresses whether they dominate bright quasar-like accretion. Title and abstract explicitly target LRD populations and their nature."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses wide-area (>15 deg^2) multiwavelength imaging from near-UV to IR with photometric redshifts and K<23.7 selection, enabling rare bright-end constraints that JWST small-area surveys cannot reach. However, relies on photometric identification and only one candidate, so not as direct as spectroscopic JWST samples."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives optical luminosity function, spatial density, and a sharp cutoff at λL5100≈2.2e44 erg/s; compares to QLF turnover and infers low-mass black holes with narrow Eddington-level accretion. Provides strong constraints on BH accretion demographics, though physical interpretation remains partly speculative."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Rules out luminous LRDs as quasar counterparts and confirms exclusively low-luminosity nature, resolving a key open question in LRD research. The sharp cutoff and comparison to UV-selected quasars will influence AGN/galaxy evolution models."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Wide-area survey design is well-suited to bright-end constraints and combined with JWST samples at same redshift. However, single candidate and photometric redshift uncertainties limit statistical power; selection completeness and contamination need careful treatment."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -5628,6 +6070,47 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Demonstrates careful spectral analysis with multi-component fitting and absorption line modeling. Provides robust upper limits from non-detections. Systematically compares BiRD to two other spectroscopically confirmed LRDs, establishing common properties. Space density calculation is clearly described with uncertainty quantification. However, sample size is small (effectively three objects), and some assumptions about absorber geometry remain uncertain. Would benefit from larger statistical sample and more detailed systematic error analysis."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260913444D",
+      "title": "{Host Galaxy UV Emission and Dust Reddening in Little Red Dots}",
+      "abstract": "{Little Red Dots (LRDs) have been the subject of extensive analysis to place them within the context of galaxy and black hole evolution. Despite several proposed scenarios for the nature of the rest optical emission in LRDs, our understanding of the UV emission remains a matter of debate. Here, we aim to study the origin of the UV emission in LRDs. We conduct emission-line and continuum fitting analysis of thirteen LRDs using a combination of NIRSpec PRISM and medium-resolution G235M and G395M spectroscopy. We isolate and analyze the narrow-line emission arising from larger physical scales in LRDs. We observe that the narrow-line Balmer decrements are typically greater than those predicted for case B recombination and broadly correlated with both the UV slope and the break strength, providing clear evidence that the UV emission originates from galaxy scales and its slope is significantly affected by dust reddening. SED fitting analysis further shows that the UV continuum of LRDs is consistent with a dust attenuated stellar template. Finally, we show through a comparison of the UV slope and the Balmer break strength, that LRDs can be further divided based on break strength, such that the canonical LRD spectral shape (strong break strength ($>$ 3) and flat rest UV continuum) represents the most extreme sub-population. Our results imply that for most LRDs, the UV emission originates primarily from the young host galaxy, and that the characteristic optical emission may be due to a combination of dust reddening and intrinsically red accretion processes.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Durodola}, Emmanuel'), Person('{Hickox}, Ryan C.'), Person('{Cohn}, Jonathan'), Person('{Alexander}, David M.')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research, directly targeting the debated origin of UV emission in LRDs with high-quality JWST spectroscopy. It combines multiple spectral resolutions and robust diagnostics to show that UV emission is dust-reddened host galaxy starlight, while the canonical LRD shape is an extreme sub-population. The modest sample size and some modeling assumptions slightly temper the score.",
+      "key_factors": [
+        "Direct focus on Little Red Dots",
+        "JWST NIRSpec PRISM and medium-resolution spectroscopy",
+        "Balmer decrement and UV slope analysis",
+        "Dust reddening and SED fitting",
+        "Distinguishes host galaxy UV emission from accretion",
+        "Identifies canonical LRDs as extreme sub-population"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on Little Red Dots, specifically investigating the origin of their UV emission and dust reddening. The title and abstract make LRDs the sole object of study, addressing a major unresolved aspect of their nature."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses a combination of JWST NIRSpec PRISM and medium-resolution G235M/G395M spectroscopy for 13 LRDs, enabling isolation of narrow-line emission and detailed continuum fitting. This is a robust, multi-resolution spectroscopic approach well suited to the science goal."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives key physical diagnostics including Balmer decrements, UV slopes, Balmer break strengths, and dust attenuation via SED fitting. The analysis links UV emission to host galaxy scales and dust reddening, providing meaningful constraints on stellar and accretion contributions."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Addresses a central debate in LRD research: whether UV emission arises from the host galaxy or the accreting black hole. The finding that UV emission is primarily from young host galaxies and that canonical LRDs are an extreme sub-population has significant implications for LRD demographics and BH-galaxy coevolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The combination of emission-line fitting, SED fitting, and comparative diagnostics is rigorous. The modest sample size of 13 LRDs and potential assumptions in separating narrow-line from broad-line/continuum components slightly limit generalizability, but the methods are appropriate and clearly described."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -7741,6 +8224,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026A&A...713A.332B",
+      "title": "{The little blue and red dot Rosetta stones: Non-Gaussian broad lines, hot dust, and X-ray weakness}",
+      "abstract": "{The population of active galactic nuclei (AGNs) newly discovered by the James Webb Space Telescope (JWST) exhibits peculiar properties that distinguish it from both local type I AGNs and high- redshift quasars. Most of these sources are compact, appearing as `little dots'; among them, the sub-class (10-30\\% of the total) characterised by significantly red optical colours is known as `little red dots' (LRDs). In this work, we introduce the analogous term `little blue dots' (LBDs) to characterise the remaining (bluer) sources (70-90\\%). We present a comparative analysis of two bright prototypical representatives, which we refer to as the Rosetta stones of the two classes: GN-28074 at z=2.26 as the red Rosetta stone and GS-3073 at z=5.55 as the blue Rosetta stone. Both Rosetta stones exhibit non-Gaussian broad Balmer lines, better described by exponential or double- Gaussian profiles rather than single Gaussians, similarly to normal low-redshift type I AGNs, indicating that non-Gaussian wings are not unique to LRDs. They are both extremely X-ray weak, showing strong auroral {\\ensuremath{\\lambda}}4363 emission, weak hot dust mid-IR emission, and no time variability. However, they do differ in terms of excitation diagnostics: the {\\ensuremath{\\lambda}}4686 line is undetected in the red Rosetta, but strongly detected in the blue Rosetta in both narrow and broad components, with the latter being much broader than hydrogen Balmer lines. This supports BLR stratification and disfavours the cocoon electron-scattering scenario in LBDs. An additional difference is the presence of prominent Balmer absorption in the red Rosetta, which is indicative of extremely dense gas along the line of sight and also happens to be absent in the blue Rosetta. Taken together, these results suggest that LRDs and LBDs share the same central engine as standard type I AGNs, while differing in terms of the amount and geometry of dense gas surrounding the accretion disk and/or in their accretion properties.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Brazzini}, M.'), Person(\"{D'Eugenio}, F.\"), Person('{Maiolino}, R.'), Person('{Lyu}, J.'), Person('{DeCoursey}, C.'), Person('{{\\\\\"U}bler}, H.'), Person('{Ji}, X.'), Person('{Juod{\\\\v{z}}balis}, I.'), Person('{Scholtz}, J.'), Person('{Jones}, G. C.'), Person('{Hainline}, K.'), Person('{Dalla Bont{\\\\`a}}, E.'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, P. G.\"), Person('{Geris}, S.'), Person('{Harshan}, A.'), Person('{Feruglio}, C.'), Person('{Bischetti}, M.'), Person('{Mazzolari}, G.'), Person('{Rieke}, G.'), Person('{Alberts}, S.'), Person('{Trefoloni}, B.'), Person('{Carniani}, S.'), Person('{Parlanti}, E.'), Person('{Marconi}, A.'), Person('{Risaliti}, G.'), Person('{Ramos Almeida}, C.'), Person('{Rinaldi}, P.'), Person('{Perna}, M.'), Person('{Zamora}, S.'), Person('{Lamperti}, I.'), Person('{Venturi}, G.'), Person('{Cresci}, G.'), Person('{Bertola}, E.'), Person('{Bunker}, A. J.'), Person('{Ivey}, L. R.')]",
+      "relevance_score": 8.6,
+      "justification": "This paper is highly relevant to LRD research, directly comparing a red and a blue Rosetta stone to probe the central engine, broad-line region, dense gas, and multiwavelength properties. Its focus on distinguishing and unifying LRDs and LBDs gives it strong scientific importance for the field, despite a small sample of two prototypical sources.",
+      "key_factors": [
+        "Direct LRD/LBD Rosetta-stone comparison",
+        "Non-Gaussian broad-line analysis",
+        "X-ray weakness and hot dust constraints",
+        "BLR stratification and dense-gas diagnostics",
+        "Introduces little blue dot terminology"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly centered on the LRD population and its broader AGN context, introducing the complementary 'little blue dot' class and analyzing a red and a blue Rosetta stone directly to understand LRD nature and its relation to standard type I AGNs."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Leverages JWST-era spectroscopy of broad Balmer lines, auroral [O III] 4363, He II 4686, plus X-ray weakness, mid-IR hot dust constraints, and variability limits. Multi-wavelength and line-profile diagnostics are strong, though the sample is limited to two prototype objects."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Provides detailed constraints on broad-line profiles, BLR stratification, electron-scattering cocoon scenarios, dense gas via Balmer absorption, hot dust emission, X-ray weakness, and excitation diagnostics, directly addressing physical conditions in LRDs and LBDs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Introduces useful terminology and a comparative framework that could shape interpretation of the broader little dot population. It disfavors a cocoon electron-scattering scenario for LBDs and argues for a common central engine, although the two-object sample limits immediate generalizability."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The comparative case-study approach is well motivated and combines line-shape fitting with multi-wavelength constraints. However, conclusions rest on only two bright prototypes, and selection/completeness effects are not extensively addressed in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025NatCo..16.9830T",
       "title": "{Extreme properties of a compact and massive accreting black hole host in the first 500 Myr}",
       "abstract": "{Little red dots (LRDs) are a high redshift galaxy population. Despite their high number densities, their nature is still uncertain. Here we present CANUCS-LRD-z8.6, a spectroscopically confirmed little red dot at a spectroscopic redshift of z$\\_{spec}$ = 8.6319, hosting an active galactic nucleus. Its spectrum exhibits broad H{\\ensuremath{\\beta}}{\\ensuremath{\\lambda}}4863 {\\r{A}} emission, high-ionization lines (C iv, N iv]), high electron temperature, which are indicative of active galactic nucleus activity, and low metallicity (Z < 0.1{\\ensuremath{-}}0.2Z$\\_{{\\ensuremath{\\odot}}}$). The inferred black hole mass, MBH=1.0{\\ensuremath{-}}0.4+0.6{\\texttimes}108M{ \\ensuremath{\\odot}}, poses strong constraints on current black hole formation models and simulations. Additionally, its black hole is over-massive relative to its host, deviating from local M$\\_{BH}$ {\\ensuremath{-}} M$\\_{*}$ relations, suggesting an early, rapid black hole growth preceding that of its galaxy. CANUCS-LRD-z8.6 may represent an evolutionary link between early massive black holes and the luminous quasars observed at z = 6.}",
@@ -8300,6 +8823,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Employs established semi-analytical code (A-SLOTH), compares two seeding scenarios, tests multiple physical conditions, and uses observational constraints systematically. Being theoretical, limited by model assumptions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026Natur.657..621C",
+      "title": "{Overmassive black holes and little red dots naturally form in simulations}",
+      "abstract": "{The origin of supermassive black holes remains a long-standing problem in astrophysics. Recent James Webb Space Telescope (JWST) observations reveal an unexpectedly abundant population of overmassive black holes at z > 4--6, at which the black hole masses lie far above local scaling relations and are not reproduced by present cosmological models$^{1, 2, 3, 4--5}$. How such overmassive black holes form and rapidly grow within young galaxies has remained unclear. Here we present fully cosmological radiation-hydrodynamic simulations that self- consistently follow the birth, early growth and emergent observable signatures of supermassive black holes in protocluster environments. We find that heavy seeds on the order {}10$^{6}$ M$\\_{{\\ensuremath{\\odot}}}$ naturally form, exceeding typical theoretical expectations by an order of magnitude. These seeds rapidly develop dense, optically thick disks whose strong electron scattering produces broad H{\\ensuremath{\\alpha}} emission comparable to that seen in little red dots$^{6, 7, 8, 9 --10}$. Sustained super-Eddington accretion then drives fast growth to about 3 {\\texttimes} {}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$ by z ≃ 8. To our knowledge, this is the first demonstration that unifies little red dots to a short- lived, enshrouded phase of heavy-seed formation, which naturally evolve into the overmassive quasars detected by the JWST and ultimately the progenitors of today's supermassive black holes.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chon}, Sunmyon'), Person('{Hirano}, Shingo'), Person('{Ishiyama}, Tomoaki'), Person('{Chang}, Seok-Jun'), Person('{Springel}, Volker')]",
+      "relevance_score": 8.6,
+      "justification": "This paper is highly relevant to LRD research because it directly aims to explain the broad H-alpha emission and overmassive black hole properties of little red dots within a self-consistent cosmological simulation framework. Its main limitation is that it is not an observational study, but it makes strong, testable connections to JWST observations and offers a unified physical scenario for LRDs.",
+      "key_factors": [
+        "Cosmological radiation-hydrodynamic simulations",
+        "Self-consistent heavy seed formation",
+        "Broad H-alpha emission comparable to LRDs",
+        "Links LRDs to overmassive quasars and SMBH progenitors",
+        "Addresses overmassive BH growth at z > 4-6"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The title explicitly includes 'little red dots' and the abstract frames the simulation results around producing broad H-alpha emission comparable to LRDs and unifying LRDs with a heavy-seed formation phase. LRD interpretation is a central, not peripheral, goal."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "This is a theoretical/simulation study rather than an observational one, so it does not present new JWST or spectroscopic data. However, it directly engages with JWST observations and makes observationally testable predictions for broad H-alpha emission in LRDs."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The abstract provides detailed physical predictions including heavy seeds of ~1e6 Msun, dense optically thick disks, electron-scattering broad H-alpha, sustained super-Eddington accretion, and growth to ~3e7 Msun by z~8, directly constraining LRD physical conditions."
+        },
+        "scientific_impact": {
+          "score": 9.5,
+          "reasoning": "The paper claims the first demonstration unifying LRDs with a short-lived enshrouded heavy-seed phase and connecting them to overmassive quasars and SMBH progenitors, addressing a major open question in high-redshift BH and galaxy evolution."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The study uses fully cosmological radiation-hydrodynamic simulations that self-consistently follow black hole birth, early growth, and observable signatures. The abstract lacks detailed numerical tests, but the methodology is well suited to the claimed phenomena."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -8954,6 +9517,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1010...88L",
+      "title": "{Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots}",
+      "abstract": "{Little red dots (LRDs) challenge conventional models of active galactic nuclei. At rest-optical-to-near-infrared (IR) wavelengths, these compact extragalactic objects show blackbody-like continuum emission and spectral features reminiscent of stars, motivating models with an optically thick atmosphere at T$\\_{eff}$ \\raisebox{-0.5ex}\\textasciitilde 4000--5000 K. We develop (and publicly release) a synthetic spectral library of optically thick atmospheres with gas conditions tailored for LRDs, parameterized by effective temperature T$\\_{eff}$ and surface gravity g. Given the uncertain dynamical structure of LRDs, we interpret g mainly as a proxy for the photospheric density {\\ensuremath{\\rho}}$\\_{ph}$. We show that blackbodies are only crude approximations to the emission from LRD-like atmospheres. Spectral features are abundant, many of which are sensitive diagnostics of photospheric density, including the overall curvature of the continuum, the rest-1.6 {\\ensuremath{\\mu}}m ``kink'' from H$^{-}$ opacity, and the Ca II triplet (CaT) absorption at rest-8500 {\\r{A}}. When compared against a local LRD, the Egg, all three features are consistent with a low photospheric density {\\ensuremath{\\rho}}$\\_{ph}$ \\raisebox{-0.5ex}\\textasciitilde 10$^{-11}$ g cm$^{-3}$ (g \\raisebox{-0.5ex}\\textasciitilde 10$^{-3}$ cm s$^{-2}$ in our library); although CaT alone admits another higher-density solution. This low {\\ensuremath{\\rho}}$\\_{ph}$ directly results from our radiative transfer modeling; with the additional assumption that the CaT line width traces turbulent support at the continuum photosphere in a spherical geometry, we infer a mass within the photosphere (black hole plus gas) of \\raisebox{-0.5ex}\\textasciitilde{}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$, with an Eddington ratio {\\ensuremath{\\lambda}}$\\_{Edd}$ {\\ensuremath{\\gtrsim}} 20. For higher-redshift LRDs, we advocate for rest-near-IR spectroscopic surveys and high-resolution spectra of potential absorption lines as a test of the optically thick atmosphere scenario and as a unique probe of the central engine mass.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Liu}, Hanpu'), Person('{Jiang}, Yan-Fei'), Person('{Quataert}, Eliot'), Person('{Greene}, Jenny E.'), Person('{Ma}, Yilun'), Person('{Lin}, Xiaojing')]",
+      "relevance_score": 8.5,
+      "justification": "This paper is highly relevant to LRD research, providing a dedicated synthetic spectral library for optically thick atmospheres and identifying multiple density-sensitive spectral diagnostics. It successfully applies the model to a local LRD and derives physical constraints on mass and Eddington ratio. Its main limitation is that it is primarily theoretical rather than observational, which lowers the observational techniques score.",
+      "key_factors": [
+        "Publicly released synthetic spectral library for LRD atmospheres",
+        "Identifies density-sensitive diagnostics including H- kink and Ca II triplet",
+        "Application to local LRD 'the Egg'",
+        "Derives photospheric mass and Eddington ratio constraints",
+        "Advocates rest-near-IR spectroscopic tests for high-redshift LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely dedicated to Little Red Dots, with the title and abstract focused on developing a synthetic spectral library specifically for optically thick atmospheres in LRDs. It directly addresses LRD spectral modeling, interpretation, and tests against a known local LRD."
+        },
+        "observational_techniques": {
+          "score": 6.5,
+          "reasoning": "The work is primarily theoretical, relying on radiative transfer modeling and synthetic spectra rather than new observational data. It does compare to the local LRD 'the Egg' and advocates for rest-near-IR spectroscopic surveys and high-resolution spectra, but it does not present new observational techniques or JWST/NIRSpec data."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper derives key physical properties for LRDs, including effective temperature, surface gravity, photospheric density, H- opacity diagnostics, Ca II triplet absorption, central engine mass, and Eddington ratio. It provides quantitative constraints on the photospheric density and mass of a local LRD."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The publicly released spectral library and identified density-sensitive spectral diagnostics offer significant utility for the LRD community. The paper advances the optically thick atmosphere scenario and proposes observational tests for high-redshift LRDs, making it impactful for future studies."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The radiative transfer modeling appears detailed and tailored to LRD conditions, with explicit parameterization and careful interpretation of surface gravity as a proxy for photospheric density. Assumptions such as turbulent support and spherical geometry are clearly stated, though some inferred quantities depend on these model assumptions."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1006L..42A",
       "title": "{A Dust-free Hierarchically Nested Supermassive-star Model for James Webb Space Telescope Little Red Dots}",
       "abstract": "{Observations by the James Webb Space Telescope reveal a population of high-redshift objects, the little red dots. These sources exhibit optical reddening alongside blue ultraviolet continua, host broad Balmer lines indicative of active black holes, and lack detectable X-ray emission. Their cosmic abundance at early epochs exceeds standard Eddington-limited growth timescales. Prevailing models invoke specific dust geometries to reconcile these traits. We propose a dust-free physical framework. We evaluate the concept that the dust-poor subset of little red dots represents the observational manifestation of hierarchically nested supermassive stars. A primary radiation- dominated envelope traps a nuclear star cluster. Plunging stars drive a magnetic dynamo that inflates the envelope. This produces the red optical continuum. Unobscured infalling stars yield the blue ultraviolet excess. Trapped stellar debris sediments to form a high-density secondary core within this Compton-thick host. This nested topology thermalizes X-rays and powers the broad hydrogen {\\ensuremath{\\alpha}} features. The central seed accretes at the global radiation limit of the host envelope. This kinetic bypass shortens the assembly timescale from hundreds of millions of years to tens of millions of years.}",
@@ -9316,6 +9919,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260909274S",
+      "title": "{Overmassive No More: The Case for Little Red Dots Hosting Black Hole Seeds as Massive as Single Supermassive Stars}",
+      "abstract": "{Little Red Dots (LRDs) display singular properties unlike any known class of AGN or galaxies, motivating novel mass estimators for their central engines. Inspired by their similarities to stellar phenomena, here we interpret the LRD continuum as being produced by a pseudo-photosphere. We fit tailored stellar atmosphere models to host-subtracted LRD central engines (``black hole stars,'' BH*s) represented by stacks of $117$ objects. Typical BH* continuum spectra are well fit by models in a narrow range of temperatures ($T\\_{\\rm eff}\\approx4200-4800$ K), with bolometric luminosities $\\approx10^{43-45}$ erg s$^{-1}$, implying pseudo-photospheric radii $\\approx700-2000$ au. Based on these parameters, we explore four different approaches to deriving BH* masses: 1) using the surface gravity from atmosphere models; 2) appealing to the resemblance to super- Eddington phenomena; 3) approximating the escape velocity from the outflowing material; and 4) exploiting the lack of variability to bound the dynamical time. For the typical BH*, all of these methods yield remarkably consistent masses of $\\approx10^{4-5}\\,M\\_\\odot$, implying a highly super-Eddington luminosity of $L\\_{\\rm{bol}}/L\\_{\\rm{Edd}}\\sim5-50$. These mass estimates place BH*s within the scatter of the local scaling relation between black hole mass and host galaxy stellar mass, providing a self-consistent alternative to ``overmassive'' black holes that lie $2-3$ dex above it. Crucially, our derived masses are consistent with BH*s arising from single supermassive stars (SMSs), whose masses cannot exceed $\\approx10^{5-6}\\,M\\_\\odot$ due to general relativistic instabilities. Furthermore, for our derived $L\\_{\\rm bol}/L\\_{\\rm Edd}$, the sharp cutoff of the LRD luminosity function matches the maximum theoretical mass of an SMS. With LRDs, we may therefore be directly observing the birth of heavy black hole seeds.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Sun}, Wendy Q.'), Person('{Naidu}, Rohan P.'), Person('{Liu}, Hanpu'), Person('{de Graaff}, Anna'), Person('{Greene}, Jenny E.'), Person('{Matthee}, Jorryt'), Person('{Ashall}, Chris'), Person('{Chisholm}, John'), Person('{Eilers}, Anna-Christina'), Person('{Fei}, Qinyue'), Person('{Heintz}, Kasper E.'), Person('{Hiramatsu}, Daichi'), Person('{Kokorev}, Vasily'), Person('{Leja}, Joel'), Person('{Liu}, Zhaoran'), Person('{Natarajan}, Priyamvada'), Person('{Oesch}, Pascal A.'), Person('{Simcoe}, Robert A.'), Person('{Torralba}, Alberto'), Person('{Weibel}, Andrea')]",
+      "relevance_score": 8.5,
+      "justification": "This paper is highly relevant to LRD research, directly targeting the central engine mass problem and offering a physically motivated alternative to overmassive black holes. It combines a large stacked LRD sample, multi-method mass estimates, and broad implications for black hole seed formation, though the mass constraints remain indirect and model-dependent.",
+      "key_factors": [
+        "Directly addresses LRD central engine masses",
+        "Large sample of 117 stacked LRDs",
+        "Four independent mass estimation methods",
+        "Challenges overmassive black hole interpretation",
+        "Links LRDs to heavy black hole seed formation",
+        "Explains LRD luminosity function cutoff"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly and entirely focused on Little Red Dots, interpreting their central engines as 'black hole stars.' It directly addresses the LRD overmassive black hole problem and proposes a self-consistent formation scenario for their central engines."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "Uses host-subtracted stacked spectra of 117 LRDs and fits stellar atmosphere models to the continuum. The stacking approach and model-dependent spectral fitting are appropriate but do not provide direct spatial or dynamical constraints, limiting the observational robustness compared to high-resolution or time-resolved studies."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Derives a rich set of physical parameters including effective temperature, bolometric luminosity, pseudo-photospheric radius, black hole mass, and Eddington ratio. The consistency across four independent mass estimation methods strengthens the physical characterization, though masses remain indirect."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "Challenges the prevailing overmassive black hole interpretation of LRDs and proposes that they host heavy black hole seeds from single supermassive stars. If correct, this reframes LRD evolution, connects to black hole seed formation, and explains the LRD luminosity function cutoff."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "Employs multiple independent mass estimation methods with consistent results, which is a strength. However, the analysis relies heavily on the pseudo-photosphere and stellar atmosphere analogy, with model assumptions that are not directly validated by dynamical or reverberation measurements."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025MNRAS.544.3407K",
       "title": "{Black hole envelopes in Little Red Dots}",
       "abstract": "{Recent observations by the James Webb Space Telescope have uncovered a population of compact, red object () known as Little Red Dots (LRDs). The presence of broad Balmer emission lines implies active galactic nuclei powered by supermassive black holes (BHs), while LRDs exhibit unusually weak X-ray and radio emission and low variability, suggesting super-Eddington accretion that obscures the central engine. We suggest that such an extreme accretion disc inevitably drives strong outflows, which would disrupt the LRDs themselves unless confined within the nuclear region ─ posing a general feedback problem for overmassive BHs. To resolve this, we propose that the BH is embedded in a massive, optically thick envelope that gravitationally confines the outflow, making any outflow a no- go. This envelope, powered by accretion on to the BH, radiates at nearly the Eddington limit, and is sustained by an infall of the interstellar medium at a rate on the order of {\\ensuremath{\\sim}}1 . A photosphere emerges either within the envelope or in the infalling medium, with a characteristic temperature of 5000─, near the Hayashi limit. The resulting blackbody emission naturally explains the red optical continuum of the distinct V-shaped spectrum observed in most LRDs. Furthermore, the dynamical time-scale at the photosphere, {\\ensuremath{\\sim}}0.01 pc, is consistent with the observed year-scale variabilities. The nuclear structure and spectral features of LRDs are shaped by this envelope, which not only regulates feedback but also acts as a gas reservoir that sustains rapid BH growth in the early universe.}",
@@ -9391,6 +10035,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "The methodology is detailed, incorporating stellar continua, emission lines, AGN components, and dust attenuation with realistic photometric cuts. However, as a semi-analytic simulation, it inherits the limitations and assumptions of the L-GalaxiesBH model."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260926999L",
+      "title": "{The lifetimes and properties of Little Red Dots in the AMBRA simulation}",
+      "abstract": "{We identify and analyze the little red dots (LRDs) in the AMBRA cosmological hydrodynamic simulation, by producing mock observations of the galaxies and active galactic nuclei (AGN) between redshifts 5 and 8. We produce these mock observations with both a standard AGN emission model, and a ``gas- enshrouded'' model, and find that the presence of a gas- enshrouded AGN is instrumental to the reproduction of dim LRDs (F444W magnitude $>$ 26.0). We find a steeper decrease in LRD density between $z=5$ and $z=8$ within AMBRA than seen in observations, resulting in a relative underproduction of LRDs beyond $z\\sim6$ in AMBRA. With the addition of unresolved AGN variability, the decline with redshift flattens, and the LRD redshift evolution in AMBRA becomes broadly consistent with other theoretical datasets, and closer to that seen in observations. We find that the LRDs in AMBRA are pre-existing black hole--galaxy systems that are undergoing an LRD phase, selected primarily by the brightness of the AGN relative to its host. While the exact duration of these LRD phases is not possible to determine due to the unresolved nature of the AGN environment, we use the available time-series data to place limits on the lifetimes of the LRDs in AMBRA. We find that the vast majority of LRDs in AMBRA have lifetimes between $\\sim3$ and $\\sim 300$ Myr with LRD lifetime increasing with both black hole and host galaxy mass. The lower mass LRDs are more dependent on housing a gas-enshrouded AGN, and have shorter lifetimes ($\\rm \\sim30\\textasciitilde Myr$). The higher mass LRDs are less sensitive to their AGN environment, but require more compact host galaxies, and have longer lifetimes ($\\rm \\sim100\\textasciitilde Myr$).}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{LaChance}, Patrick'), Person('{Zhou}, Yihao'), Person('{Bhowmick}, Aklant Kumar'), Person('{Croft}, Rupert A. C.'), Person('{Di Matteo}, Tiziana'), Person('{Blecha}, Laura'), Person('{Pacucci}, Fabio'), Person('{Torrey}, Paul'), Person('{Bird}, Simeon')]",
+      "relevance_score": 8.5,
+      "justification": "This simulation study directly addresses LRD demographics and lifetimes, making it highly relevant to LRD research. It uses mock JWST photometry with gas-enshrouded and variable AGN models to compare against observed LRD redshift evolution, yielding physical constraints on lifetimes and host/AGN dependencies. Limitations in observational realism and unresolved subgrid AGN environments slightly reduce the overall score.",
+      "key_factors": [
+        "Simulation-based LRD population study",
+        "Gas-enshrouded AGN emission model",
+        "LRD lifetime estimates of ~3-300 Myr",
+        "Redshift evolution comparison with observations",
+        "Mass-dependent LRD lifetimes and host compactness"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly targets Little Red Dots as its primary object of study, identifying and analyzing LRDs in the AMBRA simulation with mock observations between z=5 and z=8, and focuses on their lifetimes and properties."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "Uses mock F444W photometry and compares LRD number density evolution to observed samples, testing standard vs gas-enshrouded AGN emission and unresolved AGN variability. However, it lacks real JWST/NIRSpec data and relies on simulated observations, limiting its observational technique score."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "Provides quantitative LRD lifetime estimates (~3-300 Myr), finds mass-dependent lifetimes, links lower-mass LRDs to gas-enshrouded AGN and higher-mass LRDs to compact hosts, and probes AGN-to-host brightness selection effects."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Offers simulation-based constraints on LRD lifetimes and redshift evolution, identifies underproduction of LRDs at z>6 unless AGN variability is included, and contributes to interpreting JWST LRD populations and AGN-galaxy coevolution."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "Employs cosmological hydrodynamic simulations, multiple AGN emission models, mock photometry, and time-series limits on lifetimes. The unresolved AGN environment prevents exact lifetime determination, but the approach is systematic and tests model dependencies."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -13054,6 +13738,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026A&A...714A.276M",
+      "title": "{Little red dots as obscured little blue dots: A super-Eddington unification model}",
+      "abstract": "{We investigated whether little red dots (LRDs) are the dust-reddened, high-inclination counterparts of compact, blue broad-line AGNs (``little blue dots``; LBDs) powered by super-Eddington accretion. We modeled the central engine as a geometrically thick, radiation-pressure supported accretion flow whose funnel produces strongly anisotropic, intrinsically blue ionizing continua. This is coupled to an equatorially concentrated broad- line region (BLR) and dusty reprocessing clouds with a modest covering factor. Using inclination-dependent spectral energy distributions (SEDs) as input to CLOUDY, we show that the extreme broad H{\\ensuremath{\\alpha}} equivalent widths (EWs) of JWST LRDs can be reproduced with global BLR covering factors of only C$\\_{BLR}$ ≃ 0.1, fully consistent with standard type 1 active galactic nuclei (AGNs) and far below unity. Large Balmer EWs arise because self-shadowing suppresses the high-inclination optical continuum while the BLR is illuminated by an ionizing- rich extreme ultraviolet (EUV) SED. Weak high-ionization lines (e.g., He II {\\ensuremath{\\lambda}}4686) follow from the orientation-dependent suppression of the hard extreme ultraviolet (XUV) and soft X-ray continuum toward equatorial directions, without requiring a fully enclosing gaseous ``cocoon.'' Applying a gray dust attenuation law with A$\\_{V}$ ≃ 3 along high-inclination (LRD-selected) sightlines, our fiducial model reproduces the V-shaped UV--optical continua of LRDs and the large Balmer decrements. Strong Balmer breaks arise only along the most obscured sightlines. A compact equatorial dust structure with a modest global covering factor intercepts and reradiates only a small fraction of the bolometric luminosity, yielding a modest hot-dust bump and far-infrared and submillimeter output consistent with current measurements and limits and implying small dust masses. This single-framework model links LRD and LBD observables through orientation, predicting correlated trends in H{\\ensuremath{\\alpha}} EW, Balmer decrement, Balmer break, high-ionization line strengths, and infrared emission.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Madau}, Piero'), Person('{Maiolino}, Roberto')]",
+      "relevance_score": 8.2,
+      "justification": "This is a highly LRD-focused theoretical study that proposes a super-Eddington, orientation-dependent unification model linking LRDs to little blue dots. It quantitatively addresses many observed LRD properties and makes testable predictions, though it lacks new observational data and relies on idealized modeling assumptions.",
+      "key_factors": [
+        "Direct LRD unification model",
+        "Super-Eddington accretion framework",
+        "CLOUDY photoionization modeling",
+        "Explains large H-alpha EWs and Balmer decrements",
+        "Predicts LRD-LBD orientation trends"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is entirely centered on Little Red Dots, proposing a super-Eddington orientation-based unification model that directly addresses the nature of LRDs and their relation to little blue dots. The title and abstract make LRDs the primary subject."
+        },
+        "observational_techniques": {
+          "score": 5.5,
+          "reasoning": "The paper does not present new JWST or other observational data. It relies on CLOUDY photoionization modeling and inclination-dependent SEDs compared against published LRD properties such as H-alpha EWs and UV-optical continua. Observational constraints are used, but no new observational techniques or data are introduced."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The model addresses key LRD physical properties: super-Eddington accretion, geometrically thick disks, anisotropic ionizing continua, BLR covering factors, Balmer EWs and decrements, high-ionization lines, dust attenuation, hot dust emission, and far-IR/submillimeter output. It provides a physically motivated framework linking these observables."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The proposed unification scheme could reconcile LRD and LBD populations through orientation, offering testable predictions for H-alpha EW, Balmer decrement, Balmer break, high-ionization line strengths, and infrared emission. This has the potential to influence LRD classification and AGN/starburst interpretations."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The use of CLOUDY with inclination-dependent SEDs and a gray dust attenuation law is a reasonable modeling approach, and the paper quantitatively reproduces several observed LRD features. However, the model is somewhat idealized, with specified covering factors and geometry, and lacks direct fitting to a large observational sample."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2025arXiv251109278W",
       "title": "{Little red dots as embryos of active galactic nuclei}",
       "abstract": "{As an unprecedented large population in the early universe, the JWST- discovered little red dots (LRDs) have garnered much attention for formation of massive black holes and galaxies, but their nature remains a mystery. The LRDs appearing as ``Chimeras'' like both active galactic nuclei (AGNs) and galaxies have stimulated renewed interest in the roadmap of central massive black hole (cMBH) formation in AGNs. In this paper, we suggest that the LRDs contain $M\\_{\\bullet}\\lesssim 10^6\\,M\\_{\\odot}$ cMBHs as demonstrated by the So{\\l}tan argument and there is a large population of stellar-mass black holes (sMBHs with total mass of $\\mathscr{M}\\_{m\\_{\\bullet}}$) embedded inside cMBH accretion disks (cMBH-disk) as motivated by anomalous reverberations of broad H$β$ line in local AGNs. This embryo structure of LRDs ($M\\_{\\bullet}<\\mathscr{M}\\_{m\\_{\\bullet}}$) is formed as a consequence of gravitational collapse of primordial clouds. In this Chimera, accretion onto sMBHs powers the rest- frame optical continuum of the LRDs but the UV continuum is jointly contributed by slim parts of the cMBH-disks and nuclear starbursts in the core of collapsing clouds governing the appearance of the observed V-shaped spectral energy distributions (SEDs). Outflowing clumped-envelopes are unavoidably formed by radiation pressure leading to absorption features of the Balmer lines. The present model works very well for LRDs' SEDs and avoids the issues of overly massive cMBHs. Evolution of LRDs is briefly discussed including gravitational waves.}",
@@ -14174,6 +14898,85 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261032430C",
+      "title": "{Local Analogs of Little Red Dots: Clues to the X-ray Weakness}",
+      "abstract": "{A major question about JWST's little red dots (LRDs) at $z\\sim4-8$ is the origin of their apparent X-ray weakness. Even deep Chandra stacks yield only tentative detections or broad-band limits and cannot distinguish among super-Eddington accretion, intrinsic X-ray weakness, and Compton-thick (CT) obscuration. Local analogs offer a powerful complementary route. At $z\\sim0.3$, similarly luminous sources require $\\sim10^{3-4}$ less exposure for comparable signal-to-noise, suffer less source confusion, and directly probe the diagnostic rest-frame soft X-rays. Here we present a pilot Einstein Probe/FXT study of six ``local little red dots'' (LLRDs), V-shaped broad-line green pea galaxies selected as low-redshift counterparts of LRDs. These sources show X-ray diversity: ``X-normal'' LLRDs resemble type 1 AGNs in X-ray luminosity and optical variability, whereas the ``X-weak'' stack lies $\\sim0.5-0.7$ dex below standard unobscured-quasar scaling relations while remaining compatible with the representative LRD stack and 95\\% of published individual limits. The X-weak LLRDs also lack detected optical variability and have redder optical continua than X-normal LLRDs, making their V-shaped SEDs closer to those of high- redshift LRDs. The detection of the X-weak stack at $\\sim3.3σ$ with the soft-X-ray-sensitive EP-FXT provides rest-frame $\\sim2-3$ keV constraints difficult to reconcile with a typical unobscured super-Eddington model or a local-AGN-like CT geometry examined here, although modified variants remain possible. The simplest alternative is a mildly X-ray-weak corona ($Δα\\_{\\mathrm{ox}}\\sim-0.1$ to $-0.2$) with Compton-thin absorption ($N\\_{\\mathrm{H}}\\sim10^{22-23}$ cm$^{-2}$), consistent with the independent Balmer decrement/break diagnostics. Together with growing samples of local LRD analogs, our results offer a practical path for testing the physical nature of LRD X-ray weakness.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chen}, Shi-Jiang'), Person('{Wang}, Jun-Xian'), Person('{Zheng}, Zhen-Ya'), Person('{Lin}, Ruqiu'), Person('{Ho}, Luis C.'), Person('{Cai}, Zhen-Yi'), Person('{Chen}, Chang-Hao'), Person('{Igo}, Zsofi'), Person('{Kang}, Jia-Lai'), Person('{Li}, Ruancun'), Person('{Liu}, Teng'), Person('{Ren}, Wenke'), Person('{Su}, Zhen-Bo')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is highly relevant to LRD research because it directly targets the origin of LRD X-ray weakness through local analogs, providing new soft X-ray constraints and a practical framework for testing accretion and obscuration scenarios. Its pilot sample and modest significance limit definitive conclusions, but the observational design and physical interpretation are strong and well-matched to open LRD questions.",
+      "key_factors": [
+        "Directly addresses LRD X-ray weakness",
+        "Local analog approach with Einstein Probe/FXT soft X-ray data",
+        "Comparison to Chandra LRD stacks and individual limits",
+        "Tests super-Eddington, intrinsic X-ray weakness, and Compton-thick scenarios",
+        "Pilot sample with 3.3σ stacked detection"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper is explicitly framed around explaining the X-ray weakness of JWST-selected little red dots (LRDs) at z~4-8, using local analogs selected as low-redshift counterparts. While it does not analyze high-z LRD samples directly, its central scientific question, sample selection, and interpretation are all tied to LRD physics."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "Uses Einstein Probe/FXT soft X-ray observations, which are well-suited to probing rest-frame 2-3 keV emission in z~0.3 analogs, combined with optical variability, Balmer decrement/break diagnostics, and comparisons to Chandra LRD stacks. The approach is complementary and thoughtfully designed for the X-ray weakness problem."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Addresses key LRD physical properties including X-ray weakness, super-Eddington accretion, intrinsic X-ray weakness, Compton-thick obscuration, optical continuum shape, and variability. It constrains a mildly X-ray-weak corona with Compton-thin absorption, though the pilot sample limits strong conclusions about the full LRD population."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Provides a practical local-analog path to test LRD X-ray weakness, with direct implications for interpreting deep Chandra stacks and distinguishing accretion/obscuration scenarios. The pilot nature and small sample limit immediate impact, but the methodology and first constraints are valuable."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The study is a pilot with only six sources and a stacked detection at ~3.3σ, so statistical power is modest. However, it carefully compares with published LRD stacks and limits, discusses model caveats, and uses independent diagnostics, showing appropriate rigor within the sample limitations."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1009..217R",
+      "title": "{A Radio-bright Local Little Red Dot Analog}",
+      "abstract": "{The James Webb Space Telescope revealed the existence in the early Universe (z > 4) of large populations of little red dots (LRDs), compact red luminous sources that host rapidly growing supermassive black holes (SMBHs) surrounded by coeval nuclear starbursts. LRDs have defining properties, one of which is the absence of radio detections. LRDs could be radio-undetected because of their large distances. A way to investigate the radio properties of LRDs is to search for radio emission in their local analogs, the local little red dot (LLRD) galaxies at z < 1 with analogous properties to LRDs. We report the radio continuum detection of the LLRD analog J204837.26-002437.2 (z = 0.4332, hereinafter J2048). This adds to the previous radio detection of two other LLRDs. However, with a flux density of 3.0 {\\ensuremath{\\pm}} 0.2 mJy at 3.0 GHz, J2048 is 2 orders of magnitude more radio luminous than the previous detections. The spectral index of {\\ensuremath{\\alpha}} = -0.39 {\\ensuremath{\\pm}} 0.04 is consistent with moderately optically thick synchrotron emission. The radio luminosity of J2048 is 1.2 {\\texttimes} {}10$^{41}$ erg s$^{-1}$, in the lower end of the range defined by radio-loud giant elliptical galaxies and quasars of L$\\_{R}$ = 10$^{41-46}$ erg s$^{-1}$. The expected radio luminosity of the SMBH associated with J2048 is estimated to be about an order of magnitude larger, suggesting that its radio luminosity could potentially be strongly dimmed. A cosmological (z > 4) LRD with radio luminosity similar to that of J2048 would be detectable using the Very Large Array with moderately long integrations.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person(\"{Rodr{\\\\'\\\\i}guez}, Luis F.\"), Person(\"{Mirabel}, I. F{\\\\'e}lix\"), Person(\"{Gonz{\\\\'a}lez-L{\\\\'o}pezlira}, Rosa A.\"), Person('{Loinard}, Laurent')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is highly relevant to LRD research because it directly investigates the radio non-detection property of LRDs through a radio-bright local analog, providing quantitative radio luminosities and spectral constraints. Its main impact is demonstrating that high-redshift LRDs could be detectable with current radio facilities, although it is a single-object local analog study rather than a direct high-z LRD sample.",
+      "key_factors": [
+        "Radio detection of local LRD analog J204837.26-002437.2",
+        "VLA 3 GHz flux density and spectral index measurement",
+        "Radio luminosity two orders of magnitude above previous LLRD detections",
+        "Implications for VLA detectability of high-redshift LRDs"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper directly targets Little Red Dots by studying a local analog galaxy explicitly selected for LRD-like properties, aiming to investigate the defining LRD characteristic of radio non-detection. Its focus is strongly tied to LRD research, though the object is at z=0.4332 rather than a high-redshift LRD."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Uses radio continuum observations, reporting a 3.0 GHz VLA detection with flux density 3.0 ± 0.2 mJy and a measured spectral index. This is appropriate for probing the radio properties of LRD analogs, but the study lacks direct JWST or multiwavelength high-z LRD observations."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Derives key physical quantities including radio luminosity of 1.2 × 10^41 erg/s, a synchrotron spectral index of -0.39, and compares the observed radio luminosity to the expected SMBH radio luminosity, suggesting possible dimming. It provides useful constraints on the radio nature of LRD analogs."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Challenges the idea that LRDs are radio-undetected by showing a radio-bright local analog, and demonstrates that similar radio luminosity at z > 4 would be detectable with the VLA. This has important implications for future radio surveys of high-redshift LRDs and for understanding their AGN/starburst nature."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The radio detection and uncertainty are clearly reported, and the spectral index interpretation is standard. However, the abstract describes a single object and does not detail the analog selection criteria, completeness, or potential contamination, limiting robustness."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ...999...30C",
       "title": "{A z ≃ 0.4 Galaxy Reflecting the High-redshift Little Red Dots: An Extended Starburst with an Overmassive Black Hole}",
       "abstract": "{One of the most remarkable discoveries of JWST is a population of compact, red sources at z > 4, commonly referred to as Little Red Dots (LRDs). Spectroscopic identifications reported that most LRDs are active galactic nuclei, which are preferentially found around z {\\ensuremath{\\sim}} 6 and could imply a key phase in the formation and growth of black holes (BHs) in the early Universe. Photometric surveys at lower redshift have recently been carried out to trace their evolution across cosmic time, and a small number of LRD-like galaxies have been spectroscopically identified at both Cosmic Noon and in the local Universe. Here we report the discovery of one of the lowest-z LRD-like galaxies, J204837.26-002437.2 (hereafter J2048) at z = 0.4330, using new Gemini-N/GMOS integral field unit observations combined with archival multiband photometric spectral energy distribution data. The GMOS data reveal extended blue emission from starburst with a star formation rate of 400 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{{\\ensuremath{-}}1}$, together with an extended, highly fast ionized outflow. This is the first spectroscopic confirmation of extended host emission and outflow in an LRD-like galaxy, providing a unique laboratory for understanding the nature of their high-redshift counterparts. Moreover, J2048 would host an extremely overmassive BH with a BH-to-stellar mass ratio of ≃60\\%, with the BH mass and host stellar mass estimated to be 10$^{10.2}$ and 10$^{10.4}$M$\\_{{\\ensuremath{\\odot}}}$, respectively. We discuss the origin and evolutionary fate of J2048, and the implications that such low-z analogs have for interpreting the properties of high-z LRDs.}",
@@ -14731,6 +15534,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Solid SED fitting methodology with extinction corrections and scattered light modeling. Standard but well-executed techniques. Could benefit from more advanced Bayesian analysis or radiative transfer modeling for AGN contribution."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260906239M",
+      "title": "{Connecting the little dots in polarized light}",
+      "abstract": "{Recent observations of the local Little Red Dot (LRD) analog SDSS\\raisebox{-0.5ex}\\textasciitildeJ1025+1402 have revealed that the optical continuum is polarized at the \\raisebox{-0.5ex}\\textasciitilde1.5\\% level, while broad Halpha has lower polarization (\\raisebox{-0.5ex}\\textasciitilde0.7\\%) and a different polarization angle. We explain these properties in a scenario in which LRDs are dust-obscured Little Blue Dots (LBDs) viewed at high inclination and powered by super-Eddington accretion. In this framework, electron scattering in the geometrically thick inner accretion flow produces intrinsic continuum polarization, while unpolarized emission from the outer thin disk dilutes the signal, particularly at optical wavelengths. A circumnuclear dust screen contributes dichroic polarization to both the continuum and broad-line emission. Broad Halpha lacks the intrinsic disk component and therefore has lower polarization and a different position angle. We show that this model quantitatively reproduces the observed polarization properties, although degeneracies between accretion rate and inclination remain. These results illustrate the potential of spectropolarimetry as a probe of accretion-flow geometry and orientation in the little-dot population, complementary to spectral-energy-distribution fitting and line diagnostics.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Madau}, Piero'), Person('{Maiolino}, Roberto'), Person(\"{D'Eugenio}, Francesco\")]",
+      "relevance_score": 8.1,
+      "justification": "This paper is highly relevant to LRD research because it directly addresses the physical nature and viewing geometry of little dots using spectropolarimetry of a local LRD analog. It offers a quantitative model linking LRDs to dust-obscured Little Blue Dots with super-Eddington accretion, though its impact is somewhat limited by reliance on existing observations and persisting model degeneracies.",
+      "key_factors": [
+        "Direct LRD focus via local analog SDSS J1025+1402",
+        "Spectropolarimetry as a new diagnostic of accretion geometry",
+        "Quantitative modeling of continuum and H-alpha polarization",
+        "Proposes LRD-LBD unification with super-Eddington accretion",
+        "Acknowledged degeneracy between accretion rate and inclination"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper directly targets Little Red Dots through a local LRD analog, proposing a physical unification with Little Blue Dots and addressing the nature of the little-dot population."
+        },
+        "observational_techniques": {
+          "score": 7.0,
+          "reasoning": "The work is built on spectropolarimetric observations of a local analog, but it is primarily a theoretical interpretation rather than presenting new observational data or large-sample JWST measurements."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "It quantitatively explores accretion-flow geometry, inclination, super-Eddington accretion, electron scattering, and dust dichroism, linking these to polarization observables."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The paper introduces spectropolarimetry as a complementary probe of LRD accretion geometry and orientation, with potential to inform the AGN versus starburst and obscured LBD debates."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The model reproduces observed continuum and broad H-alpha polarization properties, though degeneracies between accretion rate and inclination remain and are acknowledged."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16178,6 +17021,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026A&A...714L...2L",
+      "title": "{Black holes in red-sequence galaxies at z \\raisebox{-0.5ex}\\textasciitilde 0.7 - 2.5: Not a source of dark energy, but remnants of little red dots}",
+      "abstract": "{The nature of dark energy remains one of the most profound mysteries in modern cosmology. One intriguing proposal is that black holes (BHs) could be the astrophysical source of dark energy through a cosmological coupling mechanism, and strong evidence has been claimed via analyzing the growth of the black hole masses in the red-sequence elliptical galaxies at redshifts <=2.5. In this Letter, we show with a group of very high-redshift active galactic nuclei detected by the James Webb Space Telescope (JWST) in the red passively evolving galaxies that the possibility that BHs are the astrophysical source of dark energy has been rejected at a confidence level of 8.1 {\\ensuremath{\\sigma}}. Moreover, our analysis suggests that the little red dots recently discovered by JWST are consistent with being the progenitors of red-sequence elliptical galaxies hosting the relatively low-mass BHs at redshifts of \\raisebox{-0.5ex}\\textasciitilde0.7 - 2.5. This offers an alternative explanation without the need for black hole cosmological coupling.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Lei}, Lei'), Person('{Wang}, Ze-Fan'), Person('{Wang}, Yi-Ying'), Person('{Feng}, Lei'), Person('{Fan}, Yi-Zhong')]",
+      "relevance_score": 7.8,
+      "justification": "This paper is highly relevant to LRD research because it proposes an evolutionary link between JWST-discovered little red dots and red-sequence elliptical galaxies at intermediate redshifts. While its primary focus is testing black hole cosmological coupling, the strong rejection of that scenario and the LRD progenitor interpretation make it scientifically important for understanding LRD descendants and black hole growth.",
+      "key_factors": [
+        "JWST high-redshift AGN in red passive galaxies",
+        "8.1 sigma rejection of black hole dark energy coupling",
+        "Links LRDs to red-sequence elliptical galaxy progenitors",
+        "BH mass evolution across z~0.7-2.5",
+        "Alternative to cosmological coupling for LRD interpretation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.0,
+          "reasoning": "The paper directly proposes that little red dots are the progenitors of red-sequence elliptical galaxies hosting lower-mass black holes at z~0.7-2.5, making LRDs central to its evolutionary interpretation. However, the primary scientific test is of black hole cosmological coupling, not a dedicated characterization of an LRD sample."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "Uses JWST-detected high-redshift AGN in red passively evolving galaxies to trace black hole growth, leveraging JWST's sensitivity to high-z compact sources. It is not a dedicated LRD survey or detailed spectral analysis of LRDs, but the JWST AGN selection is directly relevant to LRD identification challenges."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "Connects black hole masses, host-galaxy red sequence evolution, and the LRD population. The claim that LRDs are progenitors of lower-mass BHs in red-sequence ellipticals informs LRD black hole-galaxy coevolution and stellar mass assembly."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "Reports an 8.1 sigma rejection of black holes as the source of dark energy and provides an alternative evolutionary pathway linking LRDs to lower-redshift red-sequence galaxies. This has broad implications for both dark energy models and the interpretation of JWST LRD populations."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The high statistical significance (8.1 sigma) suggests robust quantitative analysis, though the Letter format and abstract provide limited detail on sample selection, systematics, and uncertainties in the LRD-to-red-sequence connection."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026MNRAS.tmp..118K",
       "title": "{A possible pathway to UHZ1-type systems at z \\raisebox{-0.5ex}\\textasciitilde 10 by heterogeneous mass primordial black holes as dark matter}",
       "abstract": "{Recent space-based observations discovered several unusual objects, exhibiting similar properties, at redshifts z {\\ensuremath{\\gtrsim}} 10. Among them is the UHZ1 system at z = 10.1, containing \\raisebox{-0.5ex}\\textasciitilde{}10$^{8}$M$\\_{{ \\ensuremath{\\odot}}}$ in stars, with a similarly massive central black hole of \\raisebox{-0.5ex}\\textasciitilde10$^{7 - 8}$M$\\_{{\\ensuremath{\\odot}}}$. Here we propose a possible mechanism for forming such systems which hinges on the presence of primordial black holes (PBHs) covering a range of masses while contributing a significant fraction of the dark matter (DM). We evaluate the accurate expression for the small-scale power responsible for the collapse of the first halos in the presence of the PBH population. The extra power in the matter density field, produced by the granulation term, will cause an earlier collapse of DM halos, populated by PBHs of different masses. In these collapsed and virialized systems the PBHs will undergo 2-body relaxation, driving the more massive PBHs to the halo center under dynamical friction. We quantify this evolution for a distribution of PBH orbital parameters and halo properties. The analysis shows that PBHs can have appropriate mass functions capable of producing systems with parameters similar to what is observed for UHZ1. We suggest that the proposed mechanism could account for a subset of other systems newly discovered with the JWST at high redshifts, including the Little Red Dots.}",
@@ -16899,6 +17782,45 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260921337C",
+      "title": "{A large overdensity of LRD-like galaxies discovered by JWST in the SPT2349-56 protocluster at z=4.30}",
+      "abstract": "{We present 11 newly identified ultra-red galaxies selected with JWST/NIRCam in the core of the z=4.3 protocluster SPT2349-56. Although these sources are not yet spectroscopically confirmed, their extremely red colours (m200-m444 > 2.0 mag), strong spatial concentration, and number density - at least 2000 times that of comparable field populations - make a chance projected association unlikely. Their colours overlap those used to select the widely studied ``little red dot'' (LRD) population, although most of the sources are spatially resolved and are therefore better described as extended red dots (ERDs). The resolved morphologies disfavour continuum emission dominated by an unresolved active nucleus and imply a substantial stellar contribution. Deep ALMA observations put strong limits on obscured star formation, and the ERD population mostly lies significantly below the star-forming main sequence. One object, ERD1/Q1, is substantially brighter and more massive, lying far below the main sequence, making it a strong candidate for a massive quiescent galaxy. These JWST-selected red galaxies reveal a previously inaccessible population extending to lower luminosities and stellar masses than the Dusty Star Forming Galaxy (DSFG) population which characterizes the dense protocluster core. SPT2349-56 may therefore capture an early phase of cluster assembly in which extreme starbursts coexist with galaxies already transitioning toward the passive galaxies characteristic of mature cluster cores.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chapman}, Scott C.'), Person('{Phadke}, Kedar A.'), Person('{Sulzenauer}, Nikolaus'), Person('{Zhou}, Dazhi'), Person('{Akins}, Hollis'), Person('{Aravena}, Manuel'), Person('{Burgoyne}, James R.'), Person('{Casey}, Caitlin M.'), Person('{Foley}, Erin'), Person('{Fryer}, Leah'), Person('{Hill}, Ryley'), Person('{LeVar}, Nicholas'), Person('{Isla Llave}, Monica Natalia'), Person('{Malkan}, Matt'), Person('{Pillai}, Vismaya'), Person('{Rasakanya}, William'), Person('{Solimano}, Manuel'), Person('{Spilker}, Justin S.'), Person('{Torti}, Aurelie'), Person('{Vieira}, Joaquin D.'), Person('{Vito}, Fabio'), Person('{Vizgan}, David'), Person('{Wang}, George')]",
+      "relevance_score": 7.6,
+      "justification": "This paper is highly relevant to LRD research through its JWST/NIRCam selection of LRD-like ultra-red galaxies and its morphological argument that resolved ERDs disfavor an AGN-dominated continuum. Its protocluster overdensity and ALMA star-formation limits provide important environmental context for the LRD/ERD population, though the absence of spectroscopy limits definitive physical classification.",
+      "key_factors": [
+        "JWST/NIRCam ultra-red selection",
+        "Overdensity in z=4.3 protocluster",
+        "ALMA limits on obscured star formation",
+        "Resolved ERD morphology disfavors AGN"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.5,
+          "reasoning": "The paper explicitly targets ultra-red, LRD-like galaxies selected by colors overlapping LRD criteria and addresses the AGN vs stellar nature question. However, the sources are mostly spatially resolved and are reclassified as extended red dots (ERDs), making this a closely related but not canonical LRD study."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "Uses JWST/NIRCam multi-band photometry with extreme red color selection, spatial overdensity analysis, resolved morphology, and deep ALMA dust-continuum limits. Lacks NIRSpec spectroscopy, so redshifts and AGN emission-line diagnostics are not directly confirmed."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "Derives extreme red colors, strong number-density overdensity, ALMA-based limits on obscured star formation placing sources below the main sequence, and identifies a massive quiescent galaxy candidate. Physical interpretation is limited by photometric-only redshifts and absence of spectral features."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Reveals a previously inaccessible population of abundant red, likely stellar-dominated galaxies in a dense z=4.3 protocluster, informing LRD/ERD demographics, early cluster assembly, and the transition from starburst to passive populations."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The statistical argument against chance projection and the ALMA constraints are strong, and resolved morphology is used effectively to disfavor a dominant unobscured AGN. However, the lack of spectroscopic confirmation and reliance on photometric selection introduce significant uncertainty."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026MNRAS.tmp..180S",
       "title": "{The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor}",
       "abstract": "{We present a rest-ultraviolet to infrared spectral energy distribution (SED) analysis of 63 heavily reddened quasars (HRQs) at redshifts and with dust extinctions . Our analysis demonstrates that SEDs with red optical and blue UV continua are very common in HRQs, with >82percnt of the sample showing a UV-excess relative to the reddened quasar continuum. We model the SEDs by combining a reddened quasar and an unobscured scattered light component, though contributions from a star-forming host galaxy cannot be ruled out. The average scattering fraction is small (\\raisebox{-0.5ex}\\textasciitilde0.3percnt). Higher scattering fractions are ruled out by the (i - K) > 2.5 colour-cut used to select HRQs which pre-dates the discovery of the JWST ``Little Red Dot'' (LRD) population. Hence, LRDs generally have bluer UV continua. Nevertheless, four HRQs satisfy the LRD UV/optical continuum slope selections and are therefore massive, cosmic noon analogues of LRDs. Analysis of the near-infrared SEDs of HRQs reveals a deficit of hot dust relative to blue quasars, similar to what is observed in LRDs. This suggests HRQs trace a phase where strong AGN feedback processes eject dust from the inner torus. The UV scattering fraction of HRQs is weakly correlated with the amount of hot dust emission and anti- correlated with the line-of-sight extinction, . This is consistent with the hot dust acting as the scattering medium, and the line-of-sight extinction being dominated by dust on interstellar medium scales in the host galaxy.}",
@@ -17539,6 +18461,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026A&A...713A.308R",
+      "title": "{A quasi-star is born: Formation and evolution of accreting quasi-stars as a pathway to little red dots at nonzero metallicity}",
+      "abstract": "{Context. The recently discovered ``little red dots'' identified by the James Webb Space Telescope represent a population of compact high-redshift sources whose observed properties have motivated models involving black holes embedded within optically thick gaseous envelopes. Aims. To investigate the rest-frame optical emission of little red dots, we modeled the formation and evolution of quasi-stars, i.e., stellar envelopes supported by the accretion luminosity onto a central black hole, originating from rapidly accreting proto-stars reaching the supermassive star regime (> {}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$) and undergoing general relativistic instability. Methods. We computed stellar evolution models with net mass gain rates of 0.01, 0.1, and 1 M$\\_{{\\ensuremath{\\odot}}}$/yr and metallicities of Z = 0--0.01. For the mass gain rates >=0.1 M$\\_{{\\ensuremath{\\odot}}}$/yr, stars remain nearly fully convective with T$\\_{eff}$ \\raisebox{-0.5ex}\\textasciitilde 4000 --9000 K. Results. The general relativistic instability leading to central black hole formation occurs at M$\\_{★}$ \\raisebox{-0.5ex}\\textasciitilde 3.5 {\\texttimes} {}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$ (6.8 {\\texttimes} {}10$^{4}$ M$\\_{{\\ensuremath{\\odot}}}$) for Ṁ$\\_{acc}$ = 0.1 M$\\_{{\\ensuremath{\\odot}}}$/yr (1 M$\\_{{\\ensuremath{\\odot}}}$/yr) at luminosities of L \\raisebox{-0.5ex}\\textasciitilde {}10$^{9}$ L$\\_{{\\ensuremath{\\odot}}}$. The maximum lifetime of quasi-stars is estimated to be {}10$^{7}$--{}10$^{8}$ yr, under the assumption that the central black hole is capable of sustaining the surrounding envelope in a state of hydrostatic equilibrium until the envelope has been fully accreted (i.e., M$\\_{BH, max}$/M$\\_{QS}$ = 1). This estimate is \\raisebox{-0.5ex}\\textasciitilde100--1000 times longer than the quasi-star progenitor's lifetime. In an environment that allows for rapid accretion independent of metallicity, the formation, evolution, and properties of quasi-stars are found to also be independent of metallicity. Conclusions. Comparing the luminosities of our models with those of little red dots at z < 4.5 (L$\\_{bol}$ \\raisebox{-0.5ex}\\textasciitilde 10$^{9.5}$--10$^{11.5}$ L$\\_{{\\ensuremath{\\odot}}}$) yields quasi-star masses of 10$^{4.5}$--10$^{6.5}$ M$\\_{{\\ensuremath{\\odot}}}$. The observed minimum luminosity of \\raisebox{-0.5ex}\\textasciitilde10$^{9.5}$ L$\\_{{\\ensuremath{\\odot}}}$ implies accretion rates {\\ensuremath{\\gtrsim}}0.1 M$\\_{{\\ensuremath{\\odot}}}$/yr for little red dot progenitors. Our models offer a framework supporting quasi-stars as the source of little red dot optical emission and provide insights into their lifetimes, composition, and progenitor environment as well as into their minimum and maximum observed luminosities.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Roman-Garza}, J.'), Person('{Charbonnel}, C.'), Person('{Schaerer}, D.'), Person('{Fragos}, T.'), Person('{Cenci}, E.'), Person('{Marques-Chaves}, R.'), Person('{Oesch}, P. A.'), Person('{Xiao}, M.')]",
+      "relevance_score": 7.3,
+      "justification": "This paper is highly relevant to LRD research as it directly addresses the origin of little red dot optical emission through quasi-star formation and evolution. It provides detailed physical predictions and a theoretical framework, though it is limited by the absence of new observational data and relies on idealized assumptions. Overall it is a valuable theoretical contribution to the LRD interpretation debate.",
+      "key_factors": [
+        "Directly models LRDs as quasi-stars",
+        "Predicts LRD masses, luminosities, and accretion rates",
+        "Compares to observed LRDs at z < 4.5",
+        "Tests metallicity dependence",
+        "Theoretical rather than observational study"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper directly targets little red dots in both title and abstract, proposing quasi-stars as the source of LRD optical emission and explicitly comparing model luminosities to observed LRDs at z < 4.5."
+        },
+        "observational_techniques": {
+          "score": 3.0,
+          "reasoning": "This is a purely theoretical study with no new JWST or other observational data. It uses published LRD bolometric luminosities only as a comparison sample, so it lacks direct observational technique or data analysis."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The paper derives detailed physical properties of quasi-star models, including masses (10^4.5-10^6.5 Msun), luminosities (~10^9-10^11.5 Lsun), accretion rates (>=0.1 Msun/yr), effective temperatures, lifetimes, and metallicity dependence, providing concrete testable predictions."
+        },
+        "scientific_impact": {
+          "score": 7.5,
+          "reasoning": "It offers a coherent theoretical framework for the nature of LRDs, potentially advancing the AGN/starburst debate. The predicted minimum luminosity and accretion-rate threshold provide useful constraints for interpreting future LRD observations."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The stellar evolution modeling with varying mass gain rates and metallicities is systematic, but key assumptions such as hydrostatic equilibrium until full envelope accretion and maximum lifetime estimates introduce significant uncertainties that are not fully resolved."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024Conve2024....1P",
       "title": "{Tiny, compact galaxies are masters of disguise in the distant universe}",
       "abstract": "{Article for The Conversation describing the latest findings regarding JWST's Little Red Dots: a population of high-redshift, compact galaxies with remarkable observational properties.}",
@@ -17857,6 +18819,46 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260909078Z",
+      "title": "{Small-Scale Clustering of Primordial Black Holes: The Little Red Dot Mass Function and the High-Redshift Galaxy Tension}",
+      "abstract": "{Supermassive black holes (SMBHs) in ``little red dots'' (LRDs) discovered the James Webb Space Telescope (JWST) may result from runaway mergers of primordial black holes (PBHs) in clusters--- through long--short mode coupling on small scales in the early Universe. In this framework, we derive the SMBH mass function, together with the compactness and overmassive features of LRDs. We also estimate that the dense gas residing in PBH clusters is consistent with LRD observations. In addition, SMBHs formed from PBH clusters can help accelerate galaxy formation at high redshifts, thus alleviating tension with $Λ$CDM cosmology.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Borui'), Person('{Feng}, Wei-Xiang'), Person('{An}, Haipeng')]",
+      "relevance_score": 7.1,
+      "justification": "This paper is directly relevant to LRD research by proposing a PBH cluster origin for the SMBHs, compactness, and overmassive nature of LRDs, and by addressing the high-redshift tension. However, it is purely theoretical with no new observational data, and its PBH scenario remains speculative, limiting its immediate empirical impact.",
+      "key_factors": [
+        "Directly models LRD SMBH mass function",
+        "Explains LRD compactness and overmassive features",
+        "Primordial black hole cluster formation scenario",
+        "No new JWST/NIRSpec observational data",
+        "Addresses high-redshift ΛCDM tension"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper directly targets little red dots, aiming to explain their SMBH mass function, compactness, and overmassive features through primordial black hole cluster mergers."
+        },
+        "observational_techniques": {
+          "score": 3.0,
+          "reasoning": "This is a theoretical study with no new JWST/NIRSpec observations or data reduction. It only compares model estimates to existing LRD observations qualitatively."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The abstract promises derivation of the SMBH mass function, compactness, overmassive properties, and dense gas estimates relevant to LRD physical characteristics."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "If valid, the PBH cluster scenario could offer a mechanism for rapid SMBH assembly and alleviate high-redshift ΛCDM tension, but it remains a speculative alternative to conventional seeding models."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "The abstract indicates a clear theoretical framework using long-short mode coupling, but without detailed methodology or validation against a large LRD sample, rigor is only moderately assessable."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for theoretical context on LRD SMBH formation"
+    },
+    {
       "bibtex_key": "2025ApJ...995...26Z",
       "title": "{Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. I. Survey of Eddington Ratios}",
       "abstract": "{We summarize results from a survey of radiation-dominated black hole accretion flows across a wide range of mass accretion rates, as well as two values of black hole spin and initial magnetic field geometry. These models apply an algorithm targeting direct solutions to the radiation transport equation in full general relativity and have been enabled by access to modern exascale computing systems. Super-Eddington accretion flows form geometrically thick radiation-pressure-supported disks that drive powerful equatorial outflows. A narrow funnel-shaped photosphere in the inner region results in very low radiative efficiencies in this regime. The structure of near- and sub- Eddington accretion depends on whether there is net vertical magnetic flux at the midplane of the disk. With net flux, the disk forms a thin, dense layer at the midplane surrounded by a magnetically dominated corona, whereas without net flux, the disk remains magnetically dominated everywhere. Although none of our models achieve the magnetically arrested disk regime, those with net vertical flux and a rapidly spinning black hole still produce powerful relativistic jets. Our calculations adopt simple opacity models (with scalings appropriate to stellar-mass black hole accretion). We discuss the application of our results to observations of X-ray binaries and ultraluminous X-ray sources such as Cyg X-3 and SS433. We also speculate on the application of our super-Eddington models to the interpretation of little red dots recently discovered by JWST.}",
@@ -17895,6 +18897,46 @@
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM - provides cutting-edge theoretical framework for super-Eddington accretion that could be directly applicable to LRD interpretation, despite being speculative and focused on stellar-mass black holes."
+    },
+    {
+      "bibtex_key": "2026arXiv260916992I",
+      "title": "{Lyman-$α$ forest 1D flux power spectrum constraints on QSO-assisted reionization models}",
+      "abstract": "{Recent JWST observations have revealed a large population of faint Quasi-Stellar Objects (QSOs) at redshifts 4 < z < 6, including a highly reddened sub-population of Little Red Dots. We exploit the sensitivity of the Lyman-$α$ forest 1D flux power spectrum to thermal fluctuations in the Intergalactic Medium (IGM) to place statistical constraints on the spectral properties of the QSOs. By post-processing simulated Lyman-$α$ forest spectra from the Sherwood-Relics suite of Lyman-$α$ forest simulations with added HeII reionization by QSOs, in conjunction with published precision measurements of the Lyman-$α$ forest 1D flux power spectrum between 4.2 < z < 5.0, we find that the addition of temperature boosts of the IGM within the HeIII regions improves agreement with the measured power spectra. While the contribution of the Little Red Dot population to HeII reionization is consistent with both a mild temperature boost of $∆T\\_b=1\\times10^4$ K for soft spectra QSOs and $∆T\\_b=2\\times10^4$ K for hard spectra QSOs, a contribution from the larger population of faint QSOs found by JWST having $M\\_{\\rm UV} > -21.6$ is excluded at the 2$σ$ level if their spectra are sufficiently hard to boost the IGM temperature in HeIII regions by $∆T\\_b=2\\times10^4$ K or greater.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ir{\\\\v{s}}i{\\\\v{c}}}, Vid'), Person('{Meiksin}, Avery')]",
+      "relevance_score": 7.1,
+      "justification": "This paper is moderately-to-highly relevant to LRD research because it explicitly includes LRDs as a faint QSO sub-population and constrains their aggregate contribution to HeII reionization via Lyman-alpha forest flux power spectra. However, its primary focus is QSO-assisted reionization rather than detailed study of LRD physical properties or JWST observations of individual LRDs, limiting its core LRD relevance.",
+      "key_factors": [
+        "Little Red Dots included as reddened faint QSO sub-population",
+        "Uses Lyman-alpha forest 1D flux power spectrum to constrain IGM thermal fluctuations",
+        "Tests soft versus hard QSO spectra and temperature boost scenarios",
+        "Larger faint QSO population excluded at 2 sigma for hard spectra",
+        "Sherwood-Relics simulations with QSO HeII reionization"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 6.5,
+          "reasoning": "The paper explicitly includes Little Red Dots as a highly reddened sub-population of faint QSOs and tests their contribution to HeII reionization, but the primary focus is QSO-assisted reionization models using Lyman-alpha forest data rather than a dedicated study of LRD properties."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "Uses published high-precision Lyman-alpha forest 1D flux power spectrum measurements combined with the Sherwood-Relics simulation suite to constrain IGM thermal fluctuations. This is a powerful indirect observational technique, though it does not involve direct JWST observations of LRDs."
+        },
+        "physical_properties": {
+          "score": 6.5,
+          "reasoning": "The study constrains the aggregate spectral hardness and temperature boosts associated with QSO populations including LRDs, rather than measuring intrinsic LRD physical properties such as black hole masses, accretion rates, or host galaxy properties."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The results place statistical constraints on the role of LRDs and faint QSOs in HeII reionization, which is important for understanding their contribution to reionization and their typical ionizing spectra. However, the impact on broader LRD formation and evolution is indirect."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The approach of post-processing simulations with QSO-driven HeII reionization and comparing to precision Lyman-alpha forest measurements is rigorous, with clear statistical exclusion levels (2 sigma) and careful treatment of spectral hardness scenarios."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM: include for reionization context and constraints on the LRD contribution, but not an LRD-focused observational study."
     },
     {
       "bibtex_key": "2025ApJ...994..102C",
@@ -18417,6 +19459,45 @@
       "notebooklm_recommendation": "Moderate priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026OJAp....969444B",
+      "title": "{How similar are narrow-line Seyfert 1 galaxies and high-z type 1 AGN?}",
+      "abstract": "{The recent observations of highly accreting supermassive black holes (SMBH) at very high redshift (z>4) with the James Webb Space Telescope (JWST) allowed us to shed light for the very first time on the early evolutionary phases of active galactic nuclei (AGN). Perhaps unsurprisingly, several of the physical properties observed in these new objects, including those known as little red dots (LRDs), are closely reminiscent of the low- mass and high-Eddington AGN in the local Universe, and in particular of the class of narrow-line Seyfert 1 (NLS1) galaxies. However, some differences also emerged, likely due to the radically different evolutionary path and the environment where LRDs and NLS1s live. In this work, we review the multiwavelength properties of local NLS1s and briefly compare them with type 1 AGN found at high-z, showing that despite some differences, the study of NLS1s can be extremely useful to better understand the extreme accretion physics of high-z quasars and the early stages of AGN evolution. The goal of this review is to provide the high-z community a handbook to compare their new sources with those already known in the local Universe, and to give the low-z community a starting point to venture in the early phases of AGN evolution.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Berton}, Marco'), Person('{J{\\\\\"a}rvel{\\\\\"a}}, Emilia'), Person('{Tortosa}, Alessia'), Person('{Mazzucchelli}, Chiara')]",
+      "relevance_score": 6.5,
+      "justification": "This review is moderately relevant to LRD research because it explicitly places LRDs in a local NLS1 comparison framework and discusses accretion and black-hole growth physics, but it is a broad review without new observations or quantitative analysis, limiting its direct scientific impact.",
+      "key_factors": [
+        "Compares LRDs to local narrow-line Seyfert 1 galaxies",
+        "Reviews high accretion rates and Eddington ratios",
+        "No new JWST or multiwavelength data",
+        "Broad comparative review rather than LRD-focused study"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 6.5,
+          "reasoning": "The paper explicitly mentions little red dots and compares them with local narrow-line Seyfert 1 galaxies, but the review is framed broadly around NLS1–high-z type 1 AGN similarities, so LRDs are a notable but not exclusive focus."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "No new JWST or multiwavelength observations are presented; the paper synthesizes published observational properties rather than introducing or applying observational techniques."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The review discusses several LRD-relevant physical properties, including high accretion rates, Eddington ratios, black hole masses, early SMBH growth, and environmental differences compared with local AGN."
+        },
+        "scientific_impact": {
+          "score": 6.5,
+          "reasoning": "It provides a useful comparative framework and handbook for high-z and low-z AGN communities, which can inform LRD interpretation, but lacks new measurements or a definitive resolution of open questions."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "As a review, it is likely comprehensive and well-structured, but there is no independent quantitative methodology or reproducible analysis to evaluate rigorously."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1001..138Z",
       "title": "{Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. II. Super-Eddington Accretion}",
       "abstract": "{We present a comprehensive analysis of super-Eddington black hole accretion simulations that solve the GRMHD equations coupled with angle-discretized radiation transport. The simulations span a range of accretion rates, two black hole spins, and two magnetic field topologies, and include resolution studies as well as comparisons with nonradiative models. Super-Eddington accretion flows consistently develop geometrically thick disks supported by radiation pressure, regardless of magnetic field configuration. Radiation generated in the inner disk drives substantial outflows, forming conical funnel regions that limit photon escape and result in very low radiation efficiency. The accretion flows are highly turbulent, with thermal energy transport dominated by radiation advection rather than diffusion. Angular momentum is primarily carried outward by Maxwell stress, with turbulent Reynolds stress playing a subdominant role. Both strong and weak jets are produced. Strong jets arise from sufficient net vertical magnetic flux and rapid black hole spin, and they can effectively evacuate the funnel, enabling radiation to escape through strong geometric beaming. In contrast, weak jets fail to clear the funnel, which becomes obscured by radiation-driven outflows and leads to distinct observational signatures. Spiral structures are observed in the plunging region, behaving like density waves. These super- Eddington models are applicable to a variety of astronomical systems, including ultraluminous X-ray sources, little red dots, and black hole transients.}",
@@ -18856,6 +19937,46 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261015255F",
+      "title": "{Anisotropic Radiation in Super-Eddington Active Galactic Nuclei: The Responsivity of Broad-Line Regions to Continuum Variability}",
+      "abstract": "{Anisotropic ionizing radiation is a natural theoretical expectation for super-Eddington accretion in active galactic nuclei (AGNs), implying that the ionizing flux incident on the broad-line region (BLR) clouds differs from that measured along the observer's line of sight. Reverberation mapping studies have revealed systematically shortened time lags of the broad H$β$ emission line relative to continuum variations in super- Eddington AGNs, a phenomenon that can be naturally interpreted as a consequence of anisotropic ionizing continuum radiation. To further investigate this anisotropy, we perform a systematic analysis of the H$β$ line responsivity, defined as the ratio of the variability amplitude of H$β$ to that of the driving continuum, for both sub- and super-Eddington AGNs. By combining the effective responsivities measured relative to the driving continuum, after correcting for the continuum--emission-line delay, with photoionization calculations, we infer the ionizing radiation field received by their BLRs. We find that, in super- Eddington AGNs, the ionizing flux inferred from the H$β$ responsivity differs significantly from that observed along the line of sight, whereas the two are in closer agreement in sub- Eddington AGNs. These results provide compelling evidence for strong anisotropy of the incident ionizing radiation in super- Eddington AGNs. We conclude by discussing the broader implications of this anisotropy, including its potential relevance to the ``little red dots'' recently discovered by the James Webb Space Telescope.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Fang}, Feng-Na'), Person('{Du}, Pu'), Person('{Wang}, Jian-Min')]",
+      "relevance_score": 5.0,
+      "justification": "The paper provides useful theoretical context for super-Eddington accretion and anisotropic radiation, which may be relevant to Little Red Dots, but its primary focus is broad-line region reverberation mapping in AGNs rather than LRD-specific observations or properties. LRDs are only briefly mentioned as a potential implication, limiting its direct relevance.",
+      "key_factors": [
+        "Super-Eddington AGN accretion physics",
+        "Anisotropic ionizing radiation",
+        "H-beta reverberation mapping",
+        "Photoionization modeling",
+        "Only indirect relevance to Little Red Dots"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is not primarily about Little Red Dots; it focuses on anisotropic ionizing radiation in super-Eddington AGNs using H-beta reverberation mapping and photoionization modeling. LRDs are mentioned only briefly at the end as a potential implication, not as the main sample or central investigation."
+        },
+        "observational_techniques": {
+          "score": 4.0,
+          "reasoning": "The study uses ground-based reverberation mapping and photoionization calculations rather than JWST/NIRSpec observations or other LRD-specific observational techniques. While the methods are relevant to AGN variability studies, they are not the primary tools used to characterize LRDs."
+        },
+        "physical_properties": {
+          "score": 6.5,
+          "reasoning": "The paper addresses key physical properties relevant to LRD interpretation, including super-Eddington accretion, anisotropic ionizing radiation, and broad-line region responsivity. These processes may help explain LRD spectra and compactness, but the paper does not directly measure LRD physical properties."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "The results could indirectly inform LRD models by suggesting that anisotropic radiation affects observed line and continuum properties in super-Eddington systems. However, the paper's impact on LRD research remains speculative and is not demonstrated with LRD data."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The abstract describes a systematic comparison of sub- and super-Eddington AGNs, combining effective responsivities with photoionization calculations to infer ionizing radiation fields. This suggests a rigorous approach, though full methodological details are not available from the abstract alone."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM — include as theoretical background on anisotropic radiation and super-Eddington accretion, but not as a primary LRD observational source."
+    },
+    {
       "bibtex_key": "2026ApJ..1006...18W",
       "title": "{JADES: A Prominent Galaxy Overdensity Candidate within the First 500 Myr}",
       "abstract": "{We report a galaxy overdensity candidate at z ≍ 10.5 in the JWST Advanced Deep Extragalactic Survey. This overdensity contains 18 galaxies with consistent photometric redshifts within 8 comoving Mpc in projection. The galaxy number density is 4 times higher than the field expectation, accounting for one-third of comparably bright galaxies and nearly 50\\% of the total star formation rate (SFR) at 10 < z$\\_{phot}$ < 12 in the GOODS-S field. Galaxies in the overdensity more frequently have close companions or substructure, with one-third showing such features within 1 kpc at consistent photometric redshifts, implying enhanced interactions. Most galaxies have stellar masses of 0.6─3 {\\texttimes} {}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$, half- light radii of {\\ensuremath{\\sim}}200 pc, and SFRs of {\\ensuremath{\\sim}}5 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{{\\ensuremath{-}}1}$. Their stellar masses and SFRs are slightly higher than those of field galaxies, but remain broadly consistent with typical high-redshift scaling relations. Two compact objects show possible Balmer breaks, suggestive of evolved stellar populations or little red dots. We find tentative evidence for a spatially varying Ly{\\ensuremath{\\alpha}} transmission inferred photometrically, consistent with an emerging ionized bubble. This overdensity provides a rare opportunity for probing the environmental impact on galaxy evolution and the onset of cosmic reionization within the first 500 Myr.}",
@@ -19012,6 +20133,45 @@
         }
       },
       "notebooklm_recommendation": "Low priority for LRD-specific research"
+    },
+    {
+      "bibtex_key": "2026EPJP..141..990V",
+      "title": "{High-z galaxies with the JWST and the ELT: toward ever-finer detail}",
+      "abstract": "{The exploration of the early Universe is being transformed by the James Webb Space Telescope (JWST), which delivers unprecedented angular resolution at infrared wavelengths and opens a unique window redward of the K band (2 {\\textmu}m). Thanks to NIRCam, NIRISS, NIRSpec, and MIRI instruments, which provide both imaging and spectroscopy with exquisite efficiency, new classes of sources have emerged within the first years of operations. The first half-Gyr of cosmic time is now routinely probed, revealing massive blue/red galaxies and a population of Active Galactic Nuclei (AGN) appearing as ``little red dots'' together with a rest-frame near-infrared/optical view of sources across the reionization and post-reionization epochs. Angular resolution will remain pivotal in the 2030--2040s, when extreme adaptive optics (AO) facilities will be deployed on both (8--10) m (e.g., the VLT Multi-Conjugate Adaptive Optics (MCAO)-Assisted Visible Imager and Spectrograph, MAVIS) and on extremely large telescopes, like the 39 m ELT (e.g., Multi-conjugate adaptive Optics Relay For ELT Observation, MORFEO). Operating at the diffraction limit, these facilities will improve JWST s resolution, with ELT achieving a factor of ≃6 smaller Point- Spread-Function (PSF). An ELT diffraction-limited PSF (with a Full Width Half Maximum, FWHM {\\ensuremath{\\approx}} 8--12 mas) in the near infrared will resolve spatial scales 100 pc at any redshift (z {\\ensuremath{\\lesssim}}18), revealing abundant star- forming clumps with sufficient sensitivity. Leveraging gravitational lensing as a cosmic telescope, even with moderate magnification factors ({\\textmu}\\raisebox{-0.5ex}\\textasciitilde4--8), diffraction- limited 8 m and 39 m telescopes will probe physical scales {\\ensuremath{\\lesssim}}25 pc, enabling systematic studies of star formation down to star cluster scale at cosmological distances. Such observations are poised to become routine in the 2030--2040s.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Vanzella}, Eros')]",
+      "relevance_score": 3.8,
+      "justification": "This is a broad review of high-z galaxy observations and future ELT capabilities that only tangentially mentions Little Red Dots as an AGN population. It lacks dedicated LRD data, physical property measurements, or analysis, making it weakly relevant to LRD research specifically.",
+      "key_factors": [
+        "Mentions Little Red Dots only briefly as an AGN population",
+        "Broad high-z galaxy and future ELT/AO perspective",
+        "No dedicated LRD sample or quantitative measurements",
+        "Useful context for future spatially resolved LRD follow-up"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 2.5,
+          "reasoning": "The paper is a broad review of high-z galaxy research with JWST and future ELT facilities. It only briefly mentions Little Red Dots as a population of AGN, with no dedicated LRD sample, data, or analysis."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "The abstract discusses JWST instruments (NIRCam, NIRISS, NIRSpec, MIRI) and future diffraction-limited AO/ELT capabilities plus gravitational lensing, but these are presented generally for high-z sources rather than specifically for LRD observations."
+        },
+        "physical_properties": {
+          "score": 2.0,
+          "reasoning": "No quantitative LRD physical properties are presented. LRDs are mentioned only qualitatively as AGN appearing as little red dots, alongside massive blue/red galaxies, without SED fitting, BH masses, or other derived parameters."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "As a perspective/review, the paper may inform future high-z and LRD follow-up with ELT and AO facilities, but it provides no new LRD measurements and does not directly resolve key AGN versus starburst questions."
+        },
+        "methodological_rigor": {
+          "score": 6.0,
+          "reasoning": "The instrumentation and resolution descriptions are technically sound, with specific PSF and spatial scale estimates. However, there is no original LRD methodology, modeling, or observational validation."
+        }
+      },
+      "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
       "bibtex_key": "2026IJMPD..3540018A",
@@ -19249,13 +20409,52 @@
         }
       },
       "notebooklm_recommendation": "Low priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261032519M",
+      "title": "{Scalar-Field Singularities and Cyclic Cosmology in Brans-Dicke Theory}",
+      "abstract": "{We investigate a Brans-Dicke cosmological model with a scalar-field potential and derive an analytical solution for a power-law ansatz for the scalar field. The resulting cosmological evolution terminates in a scalar-field singularity at which the scalar field diverges and the effective gravitational coupling tends to zero, while the scale factor remains finite and the energy density and pressure diverge. We then explore a heuristic interpretation of this behaviour in which the rapid decrease of the effective gravitational coupling near the singularity could be associated with accelerated black-hole evaporation. We phenomenologically postulate a transition to a subsequent cosmological branch, although a smooth transition preserving the same scalar-field potential on both branches has not been obtained within the ansatz considered. The physical mechanism underlying such a transition therefore remains unknown. Finally, we discuss possible, highly speculative connections between this scenario and the Little Red Dots observed by the James Webb Space Telescope. These connections are not predictions of the present model but motivate further investigation of the possible implications of scalar-field singularities for cyclic cosmological scenarios.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Marosek}, Konrad'), Person('{Balcerzak}, Adam')]",
+      "relevance_score": 0.6,
+      "justification": "This is a theoretical Brans-Dicke cosmology paper whose only LRD relevance is a brief, speculative mention in the discussion. It contains no JWST data, no LRD sample analysis, and no quantitative predictions for Little Red Dots. As such, it is essentially irrelevant to LRD research as defined by observational and physical characterization of these sources.",
+      "key_factors": [
+        "No JWST observations",
+        "No LRD sample or data analysis",
+        "Purely theoretical Brans-Dicke cosmology",
+        "LRD connection is highly speculative and not a model prediction"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 0.5,
+          "reasoning": "The paper is a theoretical cosmology study of Brans-Dicke scalar-field singularities and cyclic cosmology. Little Red Dots are mentioned only in a highly speculative final paragraph, with no dedicated LRD analysis, sample, or model comparison."
+        },
+        "observational_techniques": {
+          "score": 0.0,
+          "reasoning": "No JWST or other observational data are used. The paper contains no observations, data reduction, or observational constraints related to Little Red Dots."
+        },
+        "physical_properties": {
+          "score": 0.5,
+          "reasoning": "It does not derive or constrain LRD physical properties such as masses, star formation rates, AGN fractions, or spectral features. The only connection is a speculative comment about black-hole evaporation in a scalar-field singularity scenario."
+        },
+        "scientific_impact": {
+          "score": 1.0,
+          "reasoning": "For LRD research specifically, the impact is negligible. The paper does not provide testable predictions, observational diagnostics, or quantitative constraints relevant to the LRD population."
+        },
+        "methodological_rigor": {
+          "score": 2.0,
+          "reasoning": "The analytical Brans-Dicke solution may be internally rigorous within its cosmological framework, but the LRD connection lacks a physical mechanism, is explicitly speculative, and no methodology is applied to LRD data or phenomenology."
+        }
+      },
+      "notebooklm_recommendation": "Not recommended for NotebookLM"
     }
   ],
   "statistics": {
-    "average_score": 8.261192468619235,
+    "average_score": 8.237303149606289,
     "median_score": 8.5,
-    "high_relevance_count": 449,
-    "moderate_relevance_count": 22,
-    "low_relevance_count": 7
+    "high_relevance_count": 475,
+    "moderate_relevance_count": 24,
+    "low_relevance_count": 9
   }
 }
