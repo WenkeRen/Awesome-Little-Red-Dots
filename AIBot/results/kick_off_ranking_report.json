@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T10:27:02.753435",
-  "total_papers": 192,
-  "successfully_scored": 192,
+  "generated_at": "2026-10-28T09:55:25.425214",
+  "total_papers": 193,
+  "successfully_scored": 193,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -4888,6 +4888,47 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM - provides essential observational context, data specifications, and methodology that underpins LRD research. Should be included as primary reference for FRESCO data and JWST high-z AGN detection techniques."
     },
     {
+      "bibtex_key": "2025NatAs...9.1134A",
+      "title": "{The first billion years according to JWST}",
+      "abstract": "{With stunning clarity, the JWST has revealed the Universe's first billion years. The scientific community is analysing a wealth of JWST imaging and spectroscopic data from that era, and is in the process of rewriting the astronomy textbooks. Here, as a result of the 2024 ISSI Breakthrough Workshop, we provide a snapshot of the great progress made towards understanding the initial chapters of our cosmic history 1.5 years into the JWST science mission. We present the current census of early galaxies, their luminosities, appearance, chemical composition, masses and formation histories as revealed by JWST. We relate the discovery of massive black holes in early galaxies and discuss their demographics and implications for their formations and growth. We conclude by describing the potential sources of reionization and our current understanding of how the Universe became fully ionized. Throughout the Perspective, we highlight discoveries and breakthroughs, topics and issues that are not yet understood, and questions that will be addressed in the coming years, as JWST continues its revolutionary observations of the early Universe.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Adamo}, Angela'), Person('{Atek}, Hakim'), Person('{Bagley}, Micaela B.'), Person('{Ba{\\\\textasciitilde n}ados}, Eduardo'), Person('{Barrow}, Kirk S. S.'), Person('{Berg}, Danielle A.'), Person('{Bezanson}, Rachel'), Person('{Brada{\\\\v{c}}}, Maru{\\\\v{s}}a'), Person('{Brammer}, Gabriel'), Person('{Carnall}, Adam C.'), Person('{Chisholm}, John'), Person('{Coe}, Dan'), Person('{Dayal}, Pratika'), Person('{Eisenstein}, Daniel J.'), Person('{Eldridge}, Jan J.'), Person('{Ferrara}, Andrea'), Person('{Fujimoto}, Seiji'), Person('{Graaff}, Anna de'), Person('{Habouzit}, Melanie'), Person('{Hutchison}, Taylor A.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Kassin}, Susan A.'), Person('{Kriek}, Mariska'), Person(\"{Labb{\\\\'e}}, Ivo\"), Person('{Maiolino}, Roberto'), Person('{Marques-Chaves}, Rui'), Person('{Maseda}, Michael V.'), Person('{Mason}, Charlotte'), Person('{Matthee}, Jorryt'), Person('{McQuinn}, Kristen B. W.'), Person('{Meynet}, Georges'), Person('{Naidu}, Rohan P.'), Person('{Oesch}, Pascal A.'), Person('{Pentericci}, Laura'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Rigby}, Jane R.'), Person('{Roberts-Borsani}, Guido'), Person('{Schaerer}, Daniel'), Person('{Shapley}, Alice E.'), Person('{Stark}, Daniel P.'), Person('{Stiavelli}, Massimo'), Person('{Strom}, Allison L.'), Person('{Vanzella}, Eros'), Person('{Wang}, Feige'), Person('{Wilkins}, Stephen M.'), Person('{Williams}, Christina C.'), Person('{Willott}, Chris J.'), Person('{Wylezalek}, Dominika'), Person('{Nota}, Antonella')]",
+      "relevance_score": 7.9,
+      "justification": "This review earns a high score because it is a widely cited, recent JWST synthesis that connects early massive black holes to the broader first-billion-years evolutionary context directly relevant to LRD research. It is not highly innovative methodologically, but its citable consensus value and strong coverage of AGN demographics make it a useful supporting reference.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Covers JWST census of first-billion-year galaxies and massive black holes",
+        "Provides evolutionary and reionization context for early AGN",
+        "Recent community synthesis from 2024 ISSI Breakthrough Workshop",
+        "Relevant to interpreting LRD demographics and growth"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 8.0,
+          "reasoning": "The paper provides a JWST-focused census of the first billion years including massive black holes in early galaxies, their demographics, and growth implications. While not exclusively about Little Red Dots, this is directly relevant to the AGN populations from which LRDs are drawn, and the review likely discusses compact red sources/overmassive black holes among early discoveries."
+        },
+        "citation_frequency": {
+          "score": 9.0,
+          "reasoning": "lrdIndex=10 indicates the paper has been cited in at least 10 LRD-specific papers, which is substantial for a recent review. This demonstrates strong uptake and citable utility within the LRD community."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "The paper offers a broad, community-synthesized snapshot of JWST results in the first billion years. It is valuable as a citable consensus reference, but it is a review rather than a unique theoretical or observational foundation, and much of its high-level content would be known to researchers."
+        },
+        "methodological_innovation": {
+          "score": 5.0,
+          "reasoning": "As an ISSI Breakthrough Workshop perspective, the paper presents no new data or methodology. Its value lies in synthesis and agenda-setting rather than novel techniques."
+        },
+        "evolutionary_context": {
+          "score": 9.0,
+          "reasoning": "The paper strongly addresses early galaxy formation, chemical composition, massive black hole demographics, and the sources of reionization. This evolutionary framework is essential for placing LRDs in the broader first-billion-years picture."
+        }
+      },
+      "notebooklm_recommendation": "Strong supporting review for NotebookLM, especially for providing broader first-billion-years and black-hole demographic context around LRD-specific papers."
+    },
+    {
       "bibtex_key": "2023ApJ...946L..12B",
       "title": "{CEERS Epoch 1 NIRCam Imaging: Reduction Methods and Simulations Enabling Early JWST Science Results}",
       "abstract": "{We present the data release and data reduction process for the Epoch 1 NIRCam observations for the Cosmic Evolution Early Release Science Survey (CEERS). These data consist of NIRCam imaging in six broadband filters (F115W, F150W, F200W, F277W, F356W and F444W) and one medium-band filter (F410M) over four pointings, obtained in parallel with primary CEERS MIRI observations. We reduced the NIRCam imaging with the JWST Calibration Pipeline, with custom modifications and reduction steps designed to address additional features and challenges with the data. Here we provide a detailed description of each step in our reduction and a discussion of future expected improvements. Our reduction process includes corrections for known prelaunch issues such as 1/f noise, as well as in-flight issues including snowballs, wisps, and astrometric alignment. Many of our custom reduction processes were first developed with prelaunch simulated NIRCam imaging over the full 10 CEERS NIRCam pointings. We present a description of the creation and reduction of this simulated data set in the Appendix. We provide mosaics of the real images in a public release, as well as our reduction scripts with detailed explanations to allow users to reproduce our final data products. These represent one of the first official public data sets released from the Directors Discretionary Early Release Science (DD-ERS) program.}",
@@ -7873,10 +7914,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.862760416666675,
+    "average_score": 7.862953367875658,
     "median_score": 8.1,
     "critical_count": 118,
-    "high_value_count": 67,
+    "high_value_count": 68,
     "moderate_value_count": 5,
     "low_priority_count": 2
   }
