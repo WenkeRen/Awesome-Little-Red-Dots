@@ -38,7 +38,7 @@ class DeepSeekRankingClient:
         self,
         api_key: Optional[str] = None,
         criteria_path: str = "AIBot/data/lrd_ranking_criteria.json",
-        model_name: str = "deepseek-v4-pro",
+        model_name: str = "deepseek-flash",
         max_retries: int = 3,
     ):
         """
@@ -47,7 +47,7 @@ class DeepSeekRankingClient:
         Args:
             api_key: DeepSeek API key (defaults to DS_API_KEY/DEEPSEEK_API_KEY env vars)
             criteria_path: Path to ranking criteria JSON file
-            model_name: DeepSeek model to use (default: deepseek-v4-pro)
+            model_name: DeepSeek model to use (default: deepseek-flash)
             max_retries: Maximum retry attempts for failed API calls
 
         Raises:
