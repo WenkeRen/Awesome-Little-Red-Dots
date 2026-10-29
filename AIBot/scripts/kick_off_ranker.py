@@ -455,7 +455,7 @@ def main():
         if args.backend == "volcengine":
             args.model = "deepseek-v4-pro-260425"
         elif args.backend == "deepseek":
-            args.model = "deepseek-v4-pro"
+            args.model = "deepseek-flash"
         else:  # gemini
             args.model = "gemini-2.5-flash"
 
