@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T06:28:47.783813",
-  "total_papers": 574,
-  "successfully_scored": 574,
+  "generated_at": "2026-11-04T06:18:04.768118",
+  "total_papers": 579,
+  "successfully_scored": 579,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -685,6 +685,47 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "Large sample, clear selection criteria, quantitative spectral modeling, and careful line-continuum correlation analysis are major strengths. Minor caveats include possible selection biases toward v-shaped continua and some interpretive reliance on the Hayashi-track analogy, but the methodology is overall robust."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261100202J",
+      "title": "{A Supermagnified Little Red Dot with a Resolved Host}",
+      "abstract": "{Little red dots (LRDs) are an intriguing new class of sources in the early universe discovered by the James Webb Space Telescope (JWST) characterized by V-shaped spectra and extremely compact sizes. Their underlying mechanisms still remain the subject of ongoing debate. We present JWST observations of a gravitationally lensed LRD nicknamed ``Best Friend'' at $z\\_{\\rm spec} = 8.297\\pm0.002$. Its high magnification factor of $μ= 36^{+8}\\_{-12}$ makes it the highest magnified LRD reported to date and unveils both the resolved structure of its host and a central engine less than 7 pc in size. The spectrum of the central engine, in which broad lines are not detected, possibly owing to the limited S/N and spectral resolution, is better interpreted as black hole activity rather than a dense star cluster. The latter cannot be fully excluded, but if true, the resulting lower limit on stellar density would be $>1.25^{+0.4}\\_{-0.3}\\cdot10^6 \\mathrm{M\\_{\\odot}/pc}^2$, which is around 2 orders of magnitude higher than stellar densities of typical clusters at high-z. By performing a spatially resolved analysis of NIRCam photometry and NIRSpec/PRISM spectroscopy, we find that the host stellar mass is $\\log(M\\_\\star/M\\_{\\odot}) = 7.3^{+0.2}\\_{-0.8}$. Best Friend demonstrates the power of lensing to reveal the morphologies of LRDs.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Jude{\\\\v{z}}}, Jon'), Person('{Tripodi}, Roberta'), Person('{Martis}, Nicholas S.'), Person('{Brada{\\\\v{c}}}, Maru{\\\\v{s}}a'), Person(\"{M{\\\\'e}rida}, Rosa M.\"), Person('{Willott}, Chris J.'), Person('{Desprez}, Guillaume'), Person('{Pirc Jev{\\\\v{s}}enak}, Vesna'), Person('{Asada}, Yoshihisa'), Person('{Rihtar{\\\\v{s}}i{\\\\v{c}}}, Gregor'), Person('{Yang}, Lilan'), Person('{Abraham}, Roberto'), Person('{Brammer}, Gabriel B.'), Person('{Estrada-Carpenter}, Viicente'), Person('{Matharu}, Jasleen'), Person('{Mowla}, Lamiya A.'), Person('{Muzzin}, Adam'), Person('{Noirot}, Ga{\\\\\"e}l'), Person('{Sarrouh}, Ghassan T. E.'), Person('{Sawicki}, Marcin'), Person('{Withers}, Sunna'), Person('{Antwi-Danso}, Jacqueline'), Person('{Felicioni}, Giordano'), Person('{Harshan}, Anishya'), Person('{Markov}, Vladan'), Person('{Merchant}, Maya'), Person('{Sok}, Visal')]",
+      "relevance_score": 9.3,
+      "justification": "This paper is a high-priority LRD study: it directly targets a lensed LRD at z=8.297 with JWST NIRCam and NIRSpec, resolves its host, and constrains the central engine on sub-7-pc scales. It strongly informs the LRD nature debate by testing black hole activity against a dense star cluster, with only modest caveats from single-object statistics and limited S/N.",
+      "key_factors": [
+        "Direct LRD target at z=8.297",
+        "JWST NIRCam and NIRSpec/PRISM observations",
+        "Highest-magnified LRD reported",
+        "Resolved host and central engine smaller than 7 pc",
+        "Black hole activity versus dense star cluster interpretation",
+        "Host stellar mass measurement"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is directly and centrally about a Little Red Dot, presenting JWST observations of a gravitationally lensed LRD at z=8.297 and addressing the nature of its central engine and host. LRD physics is the primary subject, not a secondary application."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "The study uses JWST NIRCam photometry and NIRSpec/PRISM spectroscopy, combined with strong gravitational lensing, to spatially resolve an LRD host and constrain a central engine smaller than 7 pc. These are state-of-the-art facilities and techniques highly relevant to LRD research."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper constrains key LRD physical properties, including host stellar mass, central-engine size, magnification, and the alternative interpretations of black hole activity versus a dense star cluster. It directly informs the LRD nature debate, though broad lines are not detected and some conclusions remain uncertain."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The object is the highest-magnified LRD reported to date, enabling resolved host studies and a sub-7-pc central-engine size measurement. This is highly relevant to LRD morphology and nature, but the impact is moderated by being a single-object case study with S/N limitations."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis combines lensing modeling, spatially resolved NIRCam photometry, and NIRSpec spectroscopy in a coherent way. However, magnification uncertainties are significant, broad lines are not detected, and the black-hole versus star-cluster interpretation is not fully conclusive."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -1534,6 +1575,46 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "The abstract claims the observed abundance pattern is not produced by ordinary massive stars at these redshifts and rules out ionization, gas geometry, and dust alternatives. The supermassive star model reproduces the data, but the abstract lacks detailed statistical or sample information, so full rigor is difficult to assess from the abstract alone."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261100195T",
+      "title": "{EMBER: A Little Red Dot Candidate at $z\\_{\\rm spec}=10.36$ in the Seed Black Hole Era}",
+      "abstract": "{Little red dots (LRDs) are a newly discovered population that may trace rapidly growing black holes (BHs) and provide a link between seed BHs and luminous active galactic nuclei (AGNs). However, no LRD had previously been spectroscopically confirmed at $z>10$, leaving this earliest phase observationally unexplored. Using JWST/NIRSpec spectroscopy from the EMBER program, we measure a spectroscopic redshift of $z\\_{\\rm spec}=10.361^{+0.003}\\_{-0.002}$ for \\textbackslashtarget, the highest-redshift LRD candidate known to date. The redshift is constrained by a prominent Ly$α$ break and multiple tentative emission lines, including C\\textbackslash,\\{\\textbackslashsc iv\\}\\textbackslash,$λ\\lambda1549,1551$ and [O\\textbackslash,\\{\\textbackslashsc iii\\}]\\textbackslash,$\\lambda4363$ detected at $S/N=3.9$ and $3.6$, respectively. Its extreme NIRCam-MIRI color of $m\\_{\\rm F444W}-m\\_{\\rm F770W}=1.82\\pm0.1$, characteristic V-shaped continuum with a turnover near the Balmer limit, and continuum slopes of $β\\_{\\rm UV}=-2.26^{+0.11}\\_{-0.11}$ and $β\\_{\\rm opt}=1.17^{+0.74}\\_{-0.70}$ all support its LRD nature. A possible iron complex at $λ\\_{\\rm rest}\\sim0.24$--$0.25\\,{\\rm μm}$ and a possibly high $\\log\\left([{\\rm O\\,III]\\,\\lambda4363/\\rm Hγ}\\right)=0.17^{+0.24}\\_{-0.22}$ further support an AGN-like interpretation, as seen in previously known LRDs. Tentative detection of Ly$α$ emission may indicate enhanced Ly$α$ transmission at $z\\sim10$. Our findings extend the observational frontier of BH growth into the seed-BH formation era, and upcoming MIRI spectroscopy will further establish the physical nature of the source.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Tanaka}, Takumi S.'), Person('{Akins}, Hollis B.'), Person('{Silverman}, John D.'), Person('{Casey}, Caitlin M.'), Person('{Treister}, Ezequiel'), Person('{Aravena}, Manuel'), Person('{Harikane}, Yuichi'), Person('{Trakhtenbrot}, Benny'), Person('{Inayoshi}, Kohei'), Person('{Shimasaku}, Kazuhiro'), Person('{Franco}, Maximilien'), Person('{Fujimoto}, Seiji'), Person('{Li}, Mingyu'), Person('{Umeda}, Hiroya'), Person('{Schindler}, Jan-Torge'), Person('{Inoue}, Akio K.'), Person('{Billand}, Jean-Baptiste'), Person('{Kakkad}, Darshan'), Person('{Ding}, Xuheng'), Person('{Finkelstein}, Steven L.'), Person('{Hirschmann}, Michaela'), Person('{Ghaffari}, Z.'), Person('{Battisti}, Andrew J.'), Person('{Moscardini}, Lauro'), Person('{Drakos}, Nicole E.'), Person('{Samir}, Rasha M.'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Fei}, Qinyue'), Person('{Zhuang}, Ming-Yang'), Person('{Ilbert}, Olivier'), Person('{Wang}, Wuji'), Person('{Arango-Toro}, Rafael C.'), Person('{Algera}, Hiddo S. B.'), Person('{Toni}, Greta'), Person('{Arita}, Junya'), Person('{Ito}, Kei'), Person('{Gozaliasl}, Ghassem'), Person('{Kocevski}, Dale D.'), Person('{Wu}, Yunjing'), Person('{Onoue}, Masafusa'), Person('{Huertas-Company}, Marc'), Person('{Zhang}, Yiyang'), Person('{Rhodes}, Jason'), Person('{Faisst}, Andreas L.'), Person('{Li}, Zihao'), Person('{Martin}, Crystal L.'), Person('{Ando}, Makoto'), Person('{Kokorev}, Vasily'), Person('{Newman}, Sophie L.'), Person('{Xu}, Can'), Person('{Matsui}, Suin'), Person('{Wang}, Jialai'), Person('{Flayhart}, Carter'), Person('{Hatamnia}, Hossein'), Person('{Khostovan}, Ali Ahmad'), Person('{Laishram}, Ronaldo'), Person('{Martinez III}, Felix'), Person('{Sanders}, David B.'), Person('{Toft}, Sune'), Person('{Valentino}, Francesco'), Person('{Zavala}, Jorge')]",
+      "relevance_score": 9.0,
+      "justification": "This paper is highly relevant to LRD research because it presents the highest-redshift LRD candidate known, spectroscopically observed with JWST/NIRSpec at z=10.36. It directly addresses seed black hole growth and AGN signatures in the early universe, though some line detections remain tentative and the result is based on a single source.",
+      "key_factors": [
+        "Highest-redshift LRD candidate at z_spec=10.36",
+        "JWST/NIRSpec spectroscopy from EMBER",
+        "NIRCam-MIRI V-shaped continuum and extreme color",
+        "Tentative AGN lines including C IV and [O III]4363",
+        "Connection to seed black hole era and early BH growth"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is directly centered on a Little Red Dot candidate at z_spec=10.36, explicitly addressing the highest-redshift LRD known and its connection to seed black holes and AGN. The title, abstract, and observational strategy are entirely LRD-focused."
+        },
+        "observational_techniques": {
+          "score": 9.5,
+          "reasoning": "The study uses JWST/NIRSpec spectroscopy from the EMBER program and NIRCam-MIRI photometry, including the F444W-F770W color. These are state-of-the-art facilities and techniques highly relevant to LRD confirmation and characterization."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper constrains redshift, UV/optical continuum slopes, V-shaped SED turnover, and tentative AGN emission lines including C IV and [O III]4363. The physical interpretation is strong but partly based on tentative line detections and a single source."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "If confirmed, this source extends spectroscopic LRD studies into the z>10 seed-black-hole era and provides a new observational frontier. The impact is high, though based on one object with some tentative features awaiting MIRI follow-up."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The redshift is supported by a prominent Ly-alpha break and multiple tentative lines, but key detections are at S/N ~3.6-3.9 and the analysis concerns a single object. The paper appropriately notes upcoming MIRI spectroscopy to establish the source's nature."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -21389,6 +21470,46 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv260906926Z",
+      "title": "{Little Red Dot Cosmology: A Matter-Era Baryon Acoustic Oscillations Probe of $Λ$CDM}",
+      "abstract": "{The discovery of Little Red Dots (LRDs) with JWST provides a new source population for cosmology in a largely unmapped period of cosmic history. LRDs are most numerous at $4\\lesssim z\\lesssim9$, thereby bridging existing low-redshift large-scale-structure measurements and the cosmic microwave background. In this epoch, the Universe is deep in the matter-dominated era, where dark energy is dynamically negligible and the expansion history is tightly predicted in $Λ$CDM, making these redshifts a clean test of the standard cosmological model. Recent measurements indicate that LRDs have number densities of $\\bar n\\sim10^{-4}$ $h^3$ Mpc$^{-3}$, a bias rising from $b\\sim 3$ to $\\sim8$ over this interval, and distinctive spectrophotometric signatures -- a remarkably favorable combination for baryon acoustic oscillation (BAO) measurements. Using a Fisher forecast with these fiducial inputs, we find that a wide-field spectroscopic survey of LRDs over a DESI-like (14,000 deg$^2$) footprint delivers a percent- level isotropic distance scale measurement of $D\\_V/r\\_d$ across four bins spanning $4\\lesssim z\\lesssim9$. LRDs are therefore a compelling target for future wide-field near- to mid-infrared spectroscopy aimed at mapping large-scale structure deep into the matter-dominated era.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zebrowski}, Jessica A.'), Person('{Naidu}, Rohan P.')]",
+      "relevance_score": 6.4,
+      "justification": "This is a relevant and creative paper that places LRDs at the center of a cosmological BAO forecast, but it does not directly address LRD physical properties, identification, or formation. Its value to LRD research is mainly as a future survey motivation and cosmological application rather than as a core LRD physics study.",
+      "key_factors": [
+        "LRDs used as BAO tracers",
+        "Fisher forecast for D_V/r_d across 4 < z < 9",
+        "Future wide-field near/mid-infrared spectroscopy",
+        "Aggregate LRD density and bias inputs",
+        "Cosmological focus rather than LRD physics"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.0,
+          "reasoning": "LRDs are the central source population, but the paper's primary objective is cosmological BAO forecasting rather than understanding LRD origins, demographics, or physical nature. The LRD connection is substantive but instrumental to the cosmology goal."
+        },
+        "observational_techniques": {
+          "score": 6.5,
+          "reasoning": "The paper discusses future wide-field near- to mid-infrared spectroscopic surveys and BAO measurement requirements for LRDs, but it does not present new JWST observations, LRD selection methods, or detailed observational characterization techniques."
+        },
+        "physical_properties": {
+          "score": 4.5,
+          "reasoning": "It relies on aggregate LRD properties such as number density, bias, and redshift range, and briefly mentions distinctive spectrophotometric signatures. However, it does not measure or model internal physical properties such as black hole masses, AGN/starburst nature, or spectral energy distributions."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The paper proposes a potentially impactful new cosmological use for LRDs and could motivate future wide-field LRD surveys. Its impact on LRD physics itself is indirect and depends on uncertain fiducial measurements and future survey feasibility."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The Fisher forecast approach is appropriate and transparent for a survey forecast, but the conclusions depend on uncertain LRD density and bias inputs, as well as assumed survey specifications and redshift-bin modeling."
+        }
+      },
+      "notebooklm_recommendation": "Moderate priority for NotebookLM; useful for the cosmological applications and future survey prospects of LRDs, but lower priority for LRD identification, physical characterization, or AGN/starburst debates."
+    },
+    {
       "bibtex_key": "2026ApJ..1001..138Z",
       "title": "{Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. II. Super-Eddington Accretion}",
       "abstract": "{We present a comprehensive analysis of super-Eddington black hole accretion simulations that solve the GRMHD equations coupled with angle-discretized radiation transport. The simulations span a range of accretion rates, two black hole spins, and two magnetic field topologies, and include resolution studies as well as comparisons with nonradiative models. Super-Eddington accretion flows consistently develop geometrically thick disks supported by radiation pressure, regardless of magnetic field configuration. Radiation generated in the inner disk drives substantial outflows, forming conical funnel regions that limit photon escape and result in very low radiation efficiency. The accretion flows are highly turbulent, with thermal energy transport dominated by radiation advection rather than diffusion. Angular momentum is primarily carried outward by Maxwell stress, with turbulent Reynolds stress playing a subdominant role. Both strong and weak jets are produced. Strong jets arise from sufficient net vertical magnetic flux and rapid black hole spin, and they can effectively evacuate the funnel, enabling radiation to escape through strong geometric beaming. In contrast, weak jets fail to clear the funnel, which becomes obscured by radiation-driven outflows and leads to distinct observational signatures. Spiral structures are observed in the plunging region, behaving like density waves. These super- Eddington models are applicable to a variety of astronomical systems, including ultraluminous X-ray sources, little red dots, and black hole transients.}",
@@ -21786,6 +21907,47 @@
         }
       },
       "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv260927130S",
+      "title": "{Search for High-Ionization Nebular Emission (SHINE). I. A Systematically Selected [Ne V] Sample at z > 3 with JWST/NIRSpec PRISM}",
+      "abstract": "{We conduct the first systematic Search for High-Ionization Nebular Emission (SHINE) using [Ne V]$\\lambda3426$ in JWST/NIRSpec PRISM spectroscopy at $z>3$. From more than 9,000 galaxies, we identify 25 [Ne V] emitters spanning $z=3.059$-$9.444$ and $\\log\\_{10}(L\\_{\\rm [Ne\\,V]}/erg\\,s^{-1})=40.70$-$42.86$. Their [Ne V] luminosities overlap with those of local [Ne V]-selected active galactic nuclei (AGNs) and exceed those of local metal- poor [Ne V] emitters, although such low-luminosity systems would fall below our sensitivity. The population is diverse, spanning compact and extended morphologies and a broad range of continuum properties and stellar masses, including very low-mass hosts. It includes sources with broad Balmer emission as well as others whose higher-resolution spectra do not require a broad component. The [Ne V] emitters overlap only partly with conventional AGN diagnostics: most do not satisfy conservative high-redshift AGN criteria based on strong rest-optical narrow- line ratios, and only a minority have adopted broad-line classifications. [Ne V] upper limits for independently selected broad-line AGNs and little red dots are too shallow to establish a population-wide [Ne V] deficit. Six sources have secure Chandra counterparts, showing that X-ray weakness is not universal among luminous [Ne V] emitters. Strong [Ne V]/[Ne III] emission is associated with redder ultraviolet slopes and stronger Balmer breaks, but not with UV luminosity, possibly linking strong high-ionization emission to recent changes in star formation. The observed incidence of luminous [Ne V] emission shows no significant evolution over $z>3$, despite an increasing robust [Ne III] detection fraction. The high [Ne V] luminosities and hard line ratios favor black-hole accretion as the dominant power source, establishing [Ne V] emission as a complementary probe of early black-hole growth.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Satyapal}, Shobita'), Person('{Doan}, Sara'), Person('{Schaerer}, Daniel'), Person('{Marques-Chaves}, Rui'), Person('{Sawarkar}, Anurag'), Person('{Matzko}, William'), Person('{Vazquez}, Camilo'), Person('{Daoutis}, C.'), Person('{Korber}, D.'), Person('{Morel}, I.'), Person('{Xia}, Mengyuan')]",
+      "relevance_score": 6.1,
+      "justification": "This is a strong high-redshift JWST/NIRSpec [Ne V] AGN study with direct technical and interpretive relevance to LRD research, but LRDs are only a secondary comparison population. It is useful as context for high-ionization AGN diagnostics and black-hole accretion in early galaxies rather than as a core LRD paper.",
+      "key_factors": [
+        "JWST/NIRSpec PRISM spectroscopy",
+        "Systematic [Ne V] search at z>3",
+        "More than 9,000 galaxies with 25 [Ne V] emitters",
+        "Black-hole accretion and AGN diagnostics",
+        "LRDs only as a comparison population",
+        "Chandra X-ray counterparts"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.5,
+          "reasoning": "The paper's primary sample is a systematically selected [Ne V] emitter population at z>3, not a Little Red Dot sample. LRDs appear only as a comparison population for [Ne V] upper limits, so the direct LRD focus is limited."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study uses JWST/NIRSpec PRISM spectroscopy to search for [Ne V] lambda 3426 in more than 9,000 galaxies at z=3.059-9.444. These techniques and diagnostics are highly relevant to LRD follow-up and AGN identification, though PRISM's lower spectral resolution is a caveat."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The paper probes high-ionization nebular emission, black-hole accretion, AGN line diagnostics, broad Balmer emission, X-ray counterparts, morphologies, and stellar masses. These properties are relevant to the LRD power-source debate, but the paper does not measure LRD physical properties directly."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "The work establishes [Ne V] as a complementary probe of early black-hole growth and tests conventional high-redshift AGN diagnostics. It informs LRD interpretation, especially regarding AGN activity and possible [Ne V] deficits, but its impact on the LRD field is largely contextual rather than central."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis is based on a large, systematically selected sample with uniform JWST spectroscopy, upper limits, and multiwavelength context including Chandra. However, shallow [Ne V] limits for LRDs and PRISM resolution limit population-wide conclusions relevant to LRDs."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM; include as contextual LRD/AGN diagnostic literature, not as a core LRD sample analysis."
     },
     {
       "bibtex_key": "2026arXiv260629607C",
@@ -22306,6 +22468,46 @@
         }
       },
       "notebooklm_recommendation": "Low-to-medium priority for LRD-focused NotebookLM; useful mainly for LRD candidate flags and wide-field context, not for detailed LRD science."
+    },
+    {
+      "bibtex_key": "2026arXiv260920022R",
+      "title": "{Rapid Dark Growth of Seed Black Holes in Self-Interacting Dark Matter}",
+      "abstract": "{The rapid emergence of massive black holes in the early Universe, possibly related to Little Red Dots, challenges conventional growth from light seeds. Dark-matter accretion offers a distinct route, and self-interacting dark matter (SIDM) makes it possible by behaving as a collisional fluid. We show that gas inflow can drive strong local contraction of an SIDM halo, assembling a dense reservoir around a pre-existing black-hole seed. The seed then enters a rapid dark-growth phase and can gain several orders of magnitude in mass within less than $1$ Myr before transitioning to slower accretion. We self-consistently follow this process by solving the spherical Euler equations with SIDM self-gravity, collisional heat transport, and an absorbing black-hole sink, rather than imposing an accretion history. The growth depends most strongly on halo mass, with weaker sensitivity to inflowing gas fraction, nuclear size, and seed mass. Gas-inflow-driven SIDM accretion therefore provides an efficient pathway for producing massive black holes in the early Universe.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Rong}, Yu'), Person('{Zhang}, Shuang-Nan'), Person('{Wang}, Jian-Min'), Person('{Wang}, Junxian')]",
+      "relevance_score": 4.1,
+      "justification": "This paper is a theoretical study of rapid seed black hole growth via self-interacting dark matter, with only a brief motivational mention of Little Red Dots. It offers potentially relevant context for early massive black hole formation, but it lacks direct LRD observations, LRD-specific predictions, and observational techniques, making it tangential to core LRD research.",
+      "key_factors": [
+        "Theoretical SIDM accretion model",
+        "Rapid seed black hole growth",
+        "Mentions LRDs only as motivation",
+        "No observational LRD data",
+        "Relevant to early massive black hole formation"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is not directly about Little Red Dots; LRDs are mentioned only once as a possible early-universe motivation. The primary focus is on self-interacting dark matter accretion and seed black hole growth, making the LRD connection indirect and speculative."
+        },
+        "observational_techniques": {
+          "score": 0.5,
+          "reasoning": "This is a purely theoretical/numerical study with no observational data, JWST spectroscopy, photometry, or LRD sample analysis. It does not employ or discuss observational techniques relevant to LRD characterization."
+        },
+        "physical_properties": {
+          "score": 6.0,
+          "reasoning": "The paper addresses black hole seed growth, rapid mass gain, halo mass dependence, gas inflow, and accretion physics that are relevant to interpreting massive black holes potentially associated with LRDs. However, it does not derive or compare LRD-specific physical properties such as BH masses, Eddington ratios, or spectral energy distributions."
+        },
+        "scientific_impact": {
+          "score": 4.5,
+          "reasoning": "If viable, SIDM-driven dark growth could provide an important pathway for producing massive early black holes and thus inform LRD formation scenarios. The impact is limited by the speculative SIDM framework and the lack of direct LRD predictions or observational tests."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The authors self-consistently solve spherical Euler equations with SIDM self-gravity, collisional heat transport, and an absorbing black-hole sink rather than imposing an accretion history. The approach is technically substantive, though it relies on idealized 1D spherical symmetry and SIDM assumptions."
+        }
+      },
+      "notebooklm_recommendation": "Low-to-moderate priority; useful as theoretical context for LRD black hole seed growth, but not core LRD literature."
     },
     {
       "bibtex_key": "2026ApJ..1009....9T",
@@ -23104,10 +23306,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.09259581881533,
+    "average_score": 8.082987910189978,
     "median_score": 8.4,
-    "high_relevance_count": 520,
-    "moderate_relevance_count": 35,
+    "high_relevance_count": 522,
+    "moderate_relevance_count": 38,
     "low_relevance_count": 19
   }
 }
