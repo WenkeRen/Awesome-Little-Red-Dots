@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-11-04T06:22:30.884016
+Generated: 2026-11-05T06:21:16.921718
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -30,78 +30,78 @@ LRD PAPERS (Top 200 by relevance score)
  17. 2512.02096  (score: 9.3, key: 2026NatAs..10.1372F)
  18. 2607.09647  (score: 9.3, key: 2026arXiv260709647I)
  19. 2604.09177  (score: 9.2, key: 2026MNRAS.550g1220I)
- 20. 2606.12355  (score: 9.2, key: 2026arXiv260612355M)
- 21. 2604.09399  (score: 9.2, key: 2026arXiv260409399S)
- 22. 2602.02702  (score: 9.2, key: 2026ApJ..1002L...4B)
- 23. 2604.04216  (score: 9.2, key: 2026arXiv260404216M)
- 24. 2610.34552  (score: 9.2, key: 2026arXiv261034552C)
- 25. 2503.11752  (score: 9.2, key: 2026MNRAS.547ag401D)
- 26. 2609.22623  (score: 9.2, key: 2026arXiv260922623W)
- 27. 2609.10803  (score: 9.2, key: 2026arXiv260910803G)
- 28. 2609.00112  (score: 9.2, key: 2026arXiv260900112K)
- 29. 2601.18864  (score: 9.2, key: 2026arXiv260118864S)
- 30. 2512.03281  (score: 9.2, key: 2026ApJ..1006..165B)
- 31. 2606.03522  (score: 9.1, key: 2026arXiv260603522A)
- 32. 2610.37564  (score: 9.1, key: 2026arXiv261037564T)
- 33. 2601.20929  (score: 9.1, key: 2026OJAp....962505S)
- 34. 2607.19057  (score: 9.1, key: 2026arXiv260719057J)
- 35. 2609.09271  (score: 9.1, key: 2026arXiv260909271K)
- 36. 2611.00195  (score: 9.0, key: 2026arXiv261100195T)
- 37. 2604.11677  (score: 9.0, key: 2026arXiv260411677B)
- 38. 2608.05267  (score: 9.0, key: 2026arXiv260805267S)
- 39. 2606.02773  (score: 9.0, key: 2026arXiv260602773Z)
- 40. 2606.09726  (score: 9.0, key: 2026arXiv260609726Y)
- 41. 2604.03370  (score: 9.0, key: 2026arXiv260403370J)
- 42. 2607.00084  (score: 9.0, key: 2026arXiv260700084K)
- 43. 2608.21522  (score: 9.0, key: 2026arXiv260821522B)
- 44. 2507.23774  (score: 9.0, key: 2026MNRAS.545f2235J)
- 45. 2605.14233  (score: 9.0, key: 2026arXiv260514233P)
- 46. 2606.26098  (score: 9.0, key: 2026arXiv260626098C)
- 47. 2605.27903  (score: 9.0, key: 2026arXiv260527903B)
- 48. 2507.17738  (score: 9.0, key: 2026ApJ..1006..205R)
- 49. 2509.05434  (score: 9.0, key: 2026ApJ...996..129G)
- 50. 2609.09265  (score: 9.0, key: 2026arXiv260909265C)
- 51. 2604.25991  (score: 9.0, key: 2026arXiv260425991L)
- 52. 2505.22567  (score: 8.9, key: 2026MNRAS.548f2109M)
- 53. 2609.25349  (score: 8.9, key: 2026arXiv260925349G)
- 54. 2604.03563  (score: 8.9, key: 2026arXiv260403563T)
- 55. 2407.20320  (score: 8.9, key: 2024ApJ...975..178K)
- 56. 2512.13957  (score: 8.9, key: 2025arXiv251213957L)
- 57. 2412.04557  (score: 8.9, key: 2024arXiv241204557L)
- 58. 2602.06024  (score: 8.9, key: 2026arXiv260206024W)
- 59. 2512.02117  (score: 8.9, key: 2026A&A...710A.226G)
- 60. 2510.25830  (score: 8.9, key: 2026NatAs.tmp..179Z)
- 61. 2609.07025  (score: 8.9, key: 2026arXiv260907025B)
- 62. 2609.11094  (score: 8.9, key: 2026arXiv260911094T)
- 63. 2404.03576  (score: 8.9, key: 2025ApJ...986..126K)
- 64. 2601.10573  (score: 8.9, key: 2026arXiv260110573A)
- 65. 2306.05448  (score: 8.9, key: 2024ApJ...963..129M)
- 66. 2505.02895  (score: 8.9, key: 2026ApJ...997..250Z)
- 67. 2509.20455  (score: 8.9, key: 2026MNRAS.546ag115J)
- 68. 2603.29652  (score: 8.9, key: 2026arXiv260329652M)
- 69. 2608.14534  (score: 8.9, key: 2026arXiv260814534K)
- 70. 2606.18342  (score: 8.9, key: 2026ApJ..1008L..55J)
- 71. 2403.02304  (score: 8.9, key: 2025ApJ...984..121W)
- 72. 2505.22600  (score: 8.9, key: 2025ApJ...994L..42C)
- 73. 2506.14870  (score: 8.9, key: 2026MNRAS.545f2117D)
- 74. 2503.00998  (score: 8.9, key: 2026ApJ...997..218A)
- 75. 2410.00949  (score: 8.9, key: 2025ApJ...980L..29A)
- 76. 2602.20247  (score: 8.9, key: 2026arXiv260220247P)
- 77. 2606.00258  (score: 8.9, key: 2026arXiv260600258D)
- 78. 2504.01852  (score: 8.9, key: 2025ApJ...994...86R)
- 79. 2606.06585  (score: 8.9, key: 2026arXiv260606585W)
- 80. 2608.10832  (score: 8.9, key: 2026arXiv260810832K)
- 81. 2404.13290  (score: 8.9, key: 2024ApJ...974L..26Y)
- 82. 2501.17925  (score: 8.9, key: 2025A&A...698A.317M)
+ 20. 2604.09399  (score: 9.2, key: 2026arXiv260409399S)
+ 21. 2602.02702  (score: 9.2, key: 2026ApJ..1002L...4B)
+ 22. 2610.34552  (score: 9.2, key: 2026arXiv261034552C)
+ 23. 2503.11752  (score: 9.2, key: 2026MNRAS.547ag401D)
+ 24. 2609.22623  (score: 9.2, key: 2026arXiv260922623W)
+ 25. 2609.10803  (score: 9.2, key: 2026arXiv260910803G)
+ 26. 2609.00112  (score: 9.2, key: 2026arXiv260900112K)
+ 27. 2601.18864  (score: 9.2, key: 2026arXiv260118864S)
+ 28. 2512.03281  (score: 9.2, key: 2026ApJ..1006..165B)
+ 29. 2606.03522  (score: 9.1, key: 2026arXiv260603522A)
+ 30. 2610.37564  (score: 9.1, key: 2026arXiv261037564T)
+ 31. 2601.20929  (score: 9.1, key: 2026OJAp....962505S)
+ 32. 2607.19057  (score: 9.1, key: 2026arXiv260719057J)
+ 33. 2609.09271  (score: 9.1, key: 2026arXiv260909271K)
+ 34. 2611.00195  (score: 9.0, key: 2026arXiv261100195T)
+ 35. 2608.05267  (score: 9.0, key: 2026arXiv260805267S)
+ 36. 2606.09726  (score: 9.0, key: 2026arXiv260609726Y)
+ 37. 2604.03370  (score: 9.0, key: 2026arXiv260403370J)
+ 38. 2607.00084  (score: 9.0, key: 2026arXiv260700084K)
+ 39. 2608.21522  (score: 9.0, key: 2026arXiv260821522B)
+ 40. 2606.12355  (score: 9.0, key: 2026A&A...714A.324M)
+ 41. 2507.23774  (score: 9.0, key: 2026MNRAS.545f2235J)
+ 42. 2605.14233  (score: 9.0, key: 2026arXiv260514233P)
+ 43. 2605.27903  (score: 9.0, key: 2026arXiv260527903B)
+ 44. 2507.17738  (score: 9.0, key: 2026ApJ..1006..205R)
+ 45. 2509.05434  (score: 9.0, key: 2026ApJ...996..129G)
+ 46. 2609.09265  (score: 9.0, key: 2026arXiv260909265C)
+ 47. 2605.05074  (score: 9.0, key: 2026A&A...715A..15M)
+ 48. 2604.25991  (score: 9.0, key: 2026arXiv260425991L)
+ 49. 2505.22567  (score: 8.9, key: 2026MNRAS.548f2109M)
+ 50. 2609.25349  (score: 8.9, key: 2026arXiv260925349G)
+ 51. 2604.03563  (score: 8.9, key: 2026arXiv260403563T)
+ 52. 2407.20320  (score: 8.9, key: 2024ApJ...975..178K)
+ 53. 2609.12049  (score: 8.9, key: 2026ApJ..1011L..29W)
+ 54. 2512.13957  (score: 8.9, key: 2025arXiv251213957L)
+ 55. 2412.04557  (score: 8.9, key: 2024arXiv241204557L)
+ 56. 2602.06024  (score: 8.9, key: 2026arXiv260206024W)
+ 57. 2512.02117  (score: 8.9, key: 2026A&A...710A.226G)
+ 58. 2510.25830  (score: 8.9, key: 2026NatAs.tmp..179Z)
+ 59. 2609.07025  (score: 8.9, key: 2026arXiv260907025B)
+ 60. 2609.11094  (score: 8.9, key: 2026arXiv260911094T)
+ 61. 2604.11677  (score: 8.9, key: 2026A&A...714A.327B)
+ 62. 2404.03576  (score: 8.9, key: 2025ApJ...986..126K)
+ 63. 2601.10573  (score: 8.9, key: 2026arXiv260110573A)
+ 64. 2306.05448  (score: 8.9, key: 2024ApJ...963..129M)
+ 65. 2505.02895  (score: 8.9, key: 2026ApJ...997..250Z)
+ 66. 2509.20455  (score: 8.9, key: 2026MNRAS.546ag115J)
+ 67. 2603.29652  (score: 8.9, key: 2026arXiv260329652M)
+ 68. 2608.14534  (score: 8.9, key: 2026arXiv260814534K)
+ 69. 2606.18342  (score: 8.9, key: 2026ApJ..1008L..55J)
+ 70. 2403.02304  (score: 8.9, key: 2025ApJ...984..121W)
+ 71. 2505.22600  (score: 8.9, key: 2025ApJ...994L..42C)
+ 72. 2506.14870  (score: 8.9, key: 2026MNRAS.545f2117D)
+ 73. 2503.00998  (score: 8.9, key: 2026ApJ...997..218A)
+ 74. 2410.00949  (score: 8.9, key: 2025ApJ...980L..29A)
+ 75. 2602.20247  (score: 8.9, key: 2026arXiv260220247P)
+ 76. 2606.00258  (score: 8.9, key: 2026arXiv260600258D)
+ 77. 2504.01852  (score: 8.9, key: 2025ApJ...994...86R)
+ 78. 2606.06585  (score: 8.9, key: 2026arXiv260606585W)
+ 79. 2608.10832  (score: 8.9, key: 2026arXiv260810832K)
+ 80. 2404.13290  (score: 8.9, key: 2024ApJ...974L..26Y)
+ 81. 2501.17925  (score: 8.9, key: 2025A&A...698A.317M)
+ 82. 2606.02773  (score: 8.9, key: 2026NatAs.tmp..229Z)
  83. 2311.07483  (score: 8.9, key: 2024ApJ...968...34W)
  84. 2604.08687  (score: 8.9, key: 2026arXiv260408687K)
  85. 2511.16082  (score: 8.9, key: 2026ApJ..1004...16B)
- 86. 2608.04101  (score: 8.8, key: 2026arXiv260804101P)
- 87. 2608.01647  (score: 8.8, key: 2026arXiv260801647S)
- 88. 2604.07138  (score: 8.8, key: 2026arXiv260407138R)
- 89. 2408.11890  (score: 8.8, key: 2024RNAAS...8..207G)
- 90. 2601.14368  (score: 8.8, key: 2026arXiv260114368P)
- 91. 2605.15263  (score: 8.8, key: 2026arXiv260515263S)
+ 86. 2606.26098  (score: 8.8, key: 2026ApJ..1009..220C)
+ 87. 2608.04101  (score: 8.8, key: 2026arXiv260804101P)
+ 88. 2608.01647  (score: 8.8, key: 2026arXiv260801647S)
+ 89. 2604.07138  (score: 8.8, key: 2026arXiv260407138R)
+ 90. 2408.11890  (score: 8.8, key: 2024RNAAS...8..207G)
+ 91. 2601.14368  (score: 8.8, key: 2026arXiv260114368P)
  92. 2503.16600  (score: 8.8, key: 2025A&A...701A.168D)
  93. 2503.02059  (score: 8.8, key: 2025ApJ...991L..10S)
  94. 2510.00101  (score: 8.8, key: 2025arXiv251000101D)
@@ -128,89 +128,89 @@ LRD PAPERS (Top 200 by relevance score)
 115. 2512.03239  (score: 8.8, key: 2026ApJ..1006L..14B)
 116. 2512.02093  (score: 8.8, key: 2026ApJ..1002....9L)
 117. 2504.08039  (score: 8.8, key: 2026ApJ...996...93L)
-118. 2509.02664  (score: 8.7, key: 2025ApJ...994...40P)
-119. 2506.12141  (score: 8.7, key: 2025A&A...703A..36L)
-120. 2609.13444  (score: 8.7, key: 2026arXiv260913444D)
-121. 2510.06362  (score: 8.7, key: 2026A&A...710A.136N)
-122. 2411.12005  (score: 8.7, key: 2025ApJ...992...26L)
-123. 2411.03424  (score: 8.7, key: 2025ApJ...995..118S)
-124. 2505.20393  (score: 8.7, key: 2026ApJ...999...31Z)
-125. 2411.02729  (score: 8.7, key: 2025ApJ...985..119Z)
-126. 2505.03183  (score: 8.7, key: 2025ApJ...989L..12C)
-127. 2506.05459  (score: 8.7, key: 2025A&A...702A..57H)
-128. 2306.07320  (score: 8.7, key: 2025ApJ...978...92L)
-129. 2508.00057  (score: 8.7, key: 2025ApJ...995...21T)
-130. 2308.10900  (score: 8.7, key: 2023ApJ...957L..27L)
-131. 2603.02317  (score: 8.7, key: 2026arXiv260302317L)
-132. 2407.10760  (score: 8.7, key: 2025ApJ...980...36L)
-133. 2601.00089  (score: 8.7, key: 2026FrASS..1379045V)
-134. 2606.30253  (score: 8.7, key: 2026arXiv260630253L)
-135. 2505.18873  (score: 8.7, key: 2025ApJ...990L..61C)
-136. 2509.03571  (score: 8.7, key: 2026ApJ...996....6S)
-137. 2505.09542  (score: 8.7, key: 2026A&A...705A.147T)
-138. 2606.00205  (score: 8.7, key: 2026arXiv260600205C)
+118. 2606.06575  (score: 8.7, key: 2026A&A...714A.463G)
+119. 2605.15263  (score: 8.7, key: 2026A&A...712A..61S)
+120. 2509.02664  (score: 8.7, key: 2025ApJ...994...40P)
+121. 2506.12141  (score: 8.7, key: 2025A&A...703A..36L)
+122. 2609.13444  (score: 8.7, key: 2026arXiv260913444D)
+123. 2510.06362  (score: 8.7, key: 2026A&A...710A.136N)
+124. 2411.12005  (score: 8.7, key: 2025ApJ...992...26L)
+125. 2411.03424  (score: 8.7, key: 2025ApJ...995..118S)
+126. 2505.20393  (score: 8.7, key: 2026ApJ...999...31Z)
+127. 2411.02729  (score: 8.7, key: 2025ApJ...985..119Z)
+128. 2505.03183  (score: 8.7, key: 2025ApJ...989L..12C)
+129. 2506.05459  (score: 8.7, key: 2025A&A...702A..57H)
+130. 2306.07320  (score: 8.7, key: 2025ApJ...978...92L)
+131. 2508.00057  (score: 8.7, key: 2025ApJ...995...21T)
+132. 2308.10900  (score: 8.7, key: 2023ApJ...957L..27L)
+133. 2407.10760  (score: 8.7, key: 2025ApJ...980...36L)
+134. 2601.00089  (score: 8.7, key: 2026FrASS..1379045V)
+135. 2606.30253  (score: 8.7, key: 2026arXiv260630253L)
+136. 2505.18873  (score: 8.7, key: 2025ApJ...990L..61C)
+137. 2509.03571  (score: 8.7, key: 2026ApJ...996....6S)
+138. 2505.09542  (score: 8.7, key: 2026A&A...705A.147T)
 139. 2505.20439  (score: 8.7, key: 2026OJAp....955493L)
-140. 2605.05074  (score: 8.7, key: 2026arXiv260505074M)
-141. 2410.03830  (score: 8.7, key: 2025ApJ...984..144T)
-142. 2607.07698  (score: 8.7, key: 2026arXiv260707698K)
-143. 2406.18207  (score: 8.7, key: 2025ApJ...989..160I)
-144. 2510.00103  (score: 8.7, key: 2026A&A...707A..75T)
-145. 2510.26990  (score: 8.7, key: 2025arXiv251026990S)
-146. 2406.10329  (score: 8.7, key: 2025ApJ...985..169D)
-147. 2603.01473  (score: 8.7, key: 2026ApJ..1005..150L)
-148. 2503.16596  (score: 8.7, key: 2026Natur.656..329N)
-149. 2312.03065  (score: 8.6, key: 2024A&A...691A..52K)
-150. 2404.19010  (score: 8.6, key: 2024ApJ...969L..18A)
-151. 2411.14383  (score: 8.6, key: 2025ApJ...992...71R)
-152. 2510.07376  (score: 8.6, key: 2025arXiv251007376J)
-153. 2507.20684  (score: 8.6, key: 2025ApJ...994L...6T)
-154. 2505.09669  (score: 8.6, key: 2025ApJ...989L..30S)
-155. 2507.08929  (score: 8.6, key: 2025MNRAS.544L.167B)
-156. 2603.22277  (score: 8.6, key: 2026arXiv260322277S)
-157. 2509.07100  (score: 8.6, key: 2025A&A...704A.313D)
-158. 2601.06015  (score: 8.6, key: 2026arXiv260106015Y)
-159. 2411.03184  (score: 8.6, key: 2025OJAp....8E...9J)
+140. 2410.03830  (score: 8.7, key: 2025ApJ...984..144T)
+141. 2607.07698  (score: 8.7, key: 2026arXiv260707698K)
+142. 2406.18207  (score: 8.7, key: 2025ApJ...989..160I)
+143. 2510.00103  (score: 8.7, key: 2026A&A...707A..75T)
+144. 2510.26990  (score: 8.7, key: 2025arXiv251026990S)
+145. 2406.10329  (score: 8.7, key: 2025ApJ...985..169D)
+146. 2603.01473  (score: 8.7, key: 2026ApJ..1005..150L)
+147. 2503.16596  (score: 8.7, key: 2026Natur.656..329N)
+148. 2312.03065  (score: 8.6, key: 2024A&A...691A..52K)
+149. 2404.19010  (score: 8.6, key: 2024ApJ...969L..18A)
+150. 2411.14383  (score: 8.6, key: 2025ApJ...992...71R)
+151. 2510.07376  (score: 8.6, key: 2025arXiv251007376J)
+152. 2507.20684  (score: 8.6, key: 2025ApJ...994L...6T)
+153. 2505.09669  (score: 8.6, key: 2025ApJ...989L..30S)
+154. 2507.08929  (score: 8.6, key: 2025MNRAS.544L.167B)
+155. 2603.22277  (score: 8.6, key: 2026arXiv260322277S)
+156. 2509.07100  (score: 8.6, key: 2025A&A...704A.313D)
+157. 2601.06015  (score: 8.6, key: 2026arXiv260106015Y)
+158. 2411.03184  (score: 8.6, key: 2025OJAp....8E...9J)
+159. 2608.23671  (score: 8.6, key: 2026ApJ..1010L...2P)
 160. 2410.00100  (score: 8.6, key: 2025ApJ...979..138H)
-161. 2412.04983  (score: 8.6, key: 2025NatCo..16.9830T)
-162. 2606.06575  (score: 8.6, key: 2026arXiv260606575G)
+161. 2601.22214  (score: 8.6, key: 2026A&A...713A.332B)
+162. 2412.04983  (score: 8.6, key: 2025NatCo..16.9830T)
 163. 2507.22014  (score: 8.6, key: 2026ApJ..1002....7Z)
 164. 2407.05094  (score: 8.6, key: 2024ApJ...975L...4C)
-165. 2602.22386  (score: 8.6, key: 2026arXiv260222386M)
-166. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
-167. 2407.15915  (score: 8.6, key: 2024ApJ...976...96P)
-168. 2601.04955  (score: 8.6, key: 2026Natur.657..621C)
-169. 2601.22213  (score: 8.6, key: 2026ApJ..1002L..13M)
-170. 2602.23310  (score: 8.6, key: 2026arXiv260223310D)
-171. 2610.17559  (score: 8.6, key: 2026arXiv261017559A)
-172. 2610.20697  (score: 8.6, key: 2026arXiv261020697S)
-173. 2606.04711  (score: 8.6, key: 2026arXiv260604711C)
-174. 2509.09607  (score: 8.6, key: 2025arXiv250909607L)
-175. 2408.10305  (score: 8.6, key: 2024ApJ...973L...2G)
-176. 2507.10659  (score: 8.6, key: 2026ApJ...997..364L)
-177. 2412.08396  (score: 8.6, key: 2025ApJ...980L..34L)
-178. 2505.04825  (score: 8.6, key: 2025ApJ...988...57M)
-179. 2601.17416  (score: 8.6, key: 2026MNRAS.546ag191S)
-180. 2608.25021  (score: 8.6, key: 2026arXiv260825021M)
-181. 2508.18358  (score: 8.5, key: 2026ApJ..1003...10W)
+165. 2408.12854  (score: 8.6, key: 2025A&A...695A..33V)
+166. 2407.15915  (score: 8.6, key: 2024ApJ...976...96P)
+167. 2601.04955  (score: 8.6, key: 2026Natur.657..621C)
+168. 2601.22213  (score: 8.6, key: 2026ApJ..1002L..13M)
+169. 2602.23310  (score: 8.6, key: 2026arXiv260223310D)
+170. 2610.17559  (score: 8.6, key: 2026arXiv261017559A)
+171. 2610.20697  (score: 8.6, key: 2026arXiv261020697S)
+172. 2606.04711  (score: 8.6, key: 2026arXiv260604711C)
+173. 2509.09607  (score: 8.6, key: 2025arXiv250909607L)
+174. 2408.10305  (score: 8.6, key: 2024ApJ...973L...2G)
+175. 2507.10659  (score: 8.6, key: 2026ApJ...997..364L)
+176. 2412.08396  (score: 8.6, key: 2025ApJ...980L..34L)
+177. 2505.04825  (score: 8.6, key: 2025ApJ...988...57M)
+178. 2601.17416  (score: 8.6, key: 2026MNRAS.546ag191S)
+179. 2608.25021  (score: 8.6, key: 2026arXiv260825021M)
+180. 2508.18358  (score: 8.5, key: 2026ApJ..1003...10W)
+181. 2603.02317  (score: 8.5, key: 2026ApJ..1010...88L)
 182. 2607.20617  (score: 8.5, key: 2026ApJ..1006L..42A)
 183. 2503.05537  (score: 8.5, key: 2025ApJ...988L..22I)
 184. 2412.05242  (score: 8.5, key: 2025ApJ...983L..26T)
 185. 2609.20913  (score: 8.5, key: 2026arXiv260920913T)
 186. 2507.04011  (score: 8.5, key: 2026A&A...706A..29B)
 187. 2510.06408  (score: 8.5, key: 2026A&A...707A.212M)
-188. 2608.23671  (score: 8.5, key: 2026arXiv260823671P)
-189. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
-190. 2609.09274  (score: 8.5, key: 2026arXiv260909274S)
-191. 2505.06965  (score: 8.5, key: 2025MNRAS.544.3407K)
-192. 2511.10725  (score: 8.5, key: 2026MNRAS.547ag478H)
-193. 2609.26999  (score: 8.5, key: 2026arXiv260926999L)
-194. 2603.01668  (score: 8.5, key: 2026arXiv260301668P)
-195. 2606.02539  (score: 8.5, key: 2026arXiv260602539I)
-196. 2512.17997  (score: 8.5, key: 2026ApJ..1000L...4C)
-197. 2602.14496  (score: 8.5, key: 2026arXiv260214496H)
-198. 2410.20663  (score: 8.5, key: 2024arXiv241020663H)
-199. 2410.06257  (score: 8.5, key: 2025ApJ...981..191M)
-200. 2602.12325  (score: 8.5, key: 2026arXiv260212325F)
+188. 2507.12618  (score: 8.5, key: 2026ApJ...998..124N)
+189. 2609.09274  (score: 8.5, key: 2026arXiv260909274S)
+190. 2505.06965  (score: 8.5, key: 2025MNRAS.544.3407K)
+191. 2511.10725  (score: 8.5, key: 2026MNRAS.547ag478H)
+192. 2609.26999  (score: 8.5, key: 2026arXiv260926999L)
+193. 2603.01668  (score: 8.5, key: 2026arXiv260301668P)
+194. 2606.02539  (score: 8.5, key: 2026arXiv260602539I)
+195. 2512.17997  (score: 8.5, key: 2026ApJ..1000L...4C)
+196. 2602.14496  (score: 8.5, key: 2026arXiv260214496H)
+197. 2410.20663  (score: 8.5, key: 2024arXiv241020663H)
+198. 2410.06257  (score: 8.5, key: 2025ApJ...981..191M)
+199. 2601.16772  (score: 8.5, key: 2026MNRAS.546ag089L)
+200. 2602.12548  (score: 8.5, key: 2026ApJ..1004..185P)
 
 ================================================================================
 KICK_OFF PAPERS (Top 50 by relevance score)
@@ -290,10 +290,8 @@ ARXIV IDs ONLY (for automated processing)
 2512.02096
 2607.09647
 2604.09177
-2606.12355
 2604.09399
 2602.02702
-2604.04216
 2610.34552
 2503.11752
 2609.22623
@@ -307,25 +305,25 @@ ARXIV IDs ONLY (for automated processing)
 2607.19057
 2609.09271
 2611.00195
-2604.11677
 2608.05267
-2606.02773
 2606.09726
 2604.03370
 2607.00084
 2608.21522
+2606.12355
 2507.23774
 2605.14233
-2606.26098
 2605.27903
 2507.17738
 2509.05434
 2609.09265
+2605.05074
 2604.25991
 2505.22567
 2609.25349
 2604.03563
 2407.20320
+2609.12049
 2512.13957
 2412.04557
 2602.06024
@@ -333,6 +331,7 @@ ARXIV IDs ONLY (for automated processing)
 2510.25830
 2609.07025
 2609.11094
+2604.11677
 2404.03576
 2601.10573
 2306.05448
@@ -353,15 +352,16 @@ ARXIV IDs ONLY (for automated processing)
 2608.10832
 2404.13290
 2501.17925
+2606.02773
 2311.07483
 2604.08687
 2511.16082
+2606.26098
 2608.04101
 2608.01647
 2604.07138
 2408.11890
 2601.14368
-2605.15263
 2503.16600
 2503.02059
 2510.00101
@@ -388,6 +388,8 @@ ARXIV IDs ONLY (for automated processing)
 2512.03239
 2512.02093
 2504.08039
+2606.06575
+2605.15263
 2509.02664
 2506.12141
 2609.13444
@@ -401,16 +403,13 @@ ARXIV IDs ONLY (for automated processing)
 2306.07320
 2508.00057
 2308.10900
-2603.02317
 2407.10760
 2601.00089
 2606.30253
 2505.18873
 2509.03571
 2505.09542
-2606.00205
 2505.20439
-2605.05074
 2410.03830
 2607.07698
 2406.18207
@@ -430,12 +429,12 @@ ARXIV IDs ONLY (for automated processing)
 2509.07100
 2601.06015
 2411.03184
+2608.23671
 2410.00100
+2601.22214
 2412.04983
-2606.06575
 2507.22014
 2407.05094
-2602.22386
 2408.12854
 2407.15915
 2601.04955
@@ -452,13 +451,13 @@ ARXIV IDs ONLY (for automated processing)
 2601.17416
 2608.25021
 2508.18358
+2603.02317
 2607.20617
 2503.05537
 2412.05242
 2609.20913
 2507.04011
 2510.06408
-2608.23671
 2507.12618
 2609.09274
 2505.06965
@@ -470,7 +469,8 @@ ARXIV IDs ONLY (for automated processing)
 2602.14496
 2410.20663
 2410.06257
-2602.12325
+2601.16772
+2602.12548
 2409.13047
 2403.03872
 2308.05735
@@ -538,20 +538,23 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [9.3] 2026MNRAS.tmp.1477D
     Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy
 
+[9.2] 2026arXiv260612355M
+    Between Degeneracy and Evolution: UV-to-optical Insights into the BH$^*$ Model in Little Red Dots
+
 [9.2] 2026ApJ..1005L..22A
     Origins of the UV Continuum and Balmer Emission Lines in Little Red Dots: Observational Validation of Dense Gas Envelope Models Enshrouding the Active Galactic Nucleus
 
-[9.0] 2026A&A...714A.324M
-    UV-to-optical insights into the black hole star model in little red dots
+[9.2] 2026arXiv260404216M
+    Wings of little dots: Exponential broad lines from a stratified BLR
 
-[9.0] 2026A&A...715A..15M
-    Little red dots as obscured little blue dots: Relative abundances, luminosities, and black hole masses
-
-[8.9] 2026ApJ..1011L..29W
-    Little Red Dots are Direct-collapse Black Hole-forming Galaxies
-
-[8.9] 2026A&A...714A.327B
+[9.0] 2026arXiv260411677B
     Do little red dots really form a distinct class of astronomical objects?
+
+[9.0] 2026arXiv260602773Z
+    Why Little Red Dots Disappear at z < 3: Evolution of Number Density and Halo Mass
+
+[9.0] 2026arXiv260626098C
+    A Population of Little Red Dot-like Quasars in SDSS
 
 [8.9] 2025arXiv251121820D
     Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy
@@ -568,9 +571,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.9] 2026arXiv260120929S
     Little Red Dot $-$ Host Galaxy $=$ Black Hole Star: A Gas-Enshrouded Heart at the Center of Every Little Red Dot
 
-[8.9] 2026NatAs.tmp..229Z
-    Reduced incidence of little red dots at z < 3 based on number density and halo mass evolution
-
 [8.9] 2025arXiv250902662M
     No Luminous Little Red Dots: A Sharp Cutoff in Their Luminosity Function
 
@@ -579,9 +579,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.9] 2026arXiv260409177I
     The Cliff: A Metal-Poor Little Red Dot Hosting an Overmassive Black Hole at $z = 3.55$
-
-[8.8] 2026ApJ..1009..220C
-    A Population of Little Red Dot-like Quasars in SDSS
 
 [8.8] 2025arXiv251202117G
     VENUS: When Red meets Blue -- A multiply imaged Little Red Dot with an apparent blue companion behind the galaxy cluster Abell 383
@@ -594,6 +591,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.8] 2026arXiv260215935C
     Little Red Dots as Globular Clusters in Formation
+
+[8.8] 2026arXiv260515263S
+    On the quenching of LRD X-ray emission by both Compton-thick gas and high accretion rates
 
 [8.8] 2026ApJ..1003..150R
     The Stellar Origin of ``V-shaped'' Spectral Energy Distributions in Ly{\ensuremath{\alpha}}-emitting Little Red Dots Revealed by JWST/MIRI
@@ -649,12 +649,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026arXiv260310162T
     The X-ray weakness of Little Red Dots and JWST-selected AGN: comparison with local AGN in different accretion regimes
 
-[8.7] 2026A&A...714A.463G
-    The quasi-star model for little red dots: Potential and challenges
-
-[8.7] 2026A&A...712A..61S
-    Quenching of X-ray emission in little red dots by both Compton-thick gas and high accretion rates
-
 [8.7] 2025arXiv250712618N
     Supermassive Stars Match the Spectral Signatures of JWST's Little Red Dots
 
@@ -673,6 +667,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2025arXiv250315597F
     SAPPHIRES: A Galaxy Over-Density in the Heart of Cosmic Reionization at $z=8.47$
 
+[8.7] 2026arXiv260302317L
+    Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots
+
 [8.7] 2026NatAs.tmp..184Z
     Extended components of little red dots in the rest-frame optical
 
@@ -682,11 +679,17 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2026NatAs.tmp...41Z
     The composite spectrum of little red dots from a standard inner disk and an unstable outer disk
 
+[8.7] 2026arXiv260600205C
+    Ultraviolet diversity of Little Red Dots as a probe for direct-collapse black hole ages
+
 [8.7] 2025arXiv251211665K
     Rapid sinking and efficient mergers of supermassive black holes in compact high-redshift galaxies
 
 [8.7] 2026MNRAS.tmp..450H
     Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
+
+[8.7] 2026arXiv260505074M
+    Little red dots as obscured little blue dots: relative abundances, luminosities, and black-hole masses
 
 [8.7] 2026arXiv260109778H
     The X-Ray Dot: Exotic Dust or a Late-Stage Little Red Dot?
@@ -694,14 +697,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2025arXiv251203239B
     (Re)solving the complex multi-scale morphology and V-shaped SED of a newly discovered strongly-lensed Little Red Dot in Abell 383
 
-[8.6] 2026ApJ..1010L...2P
-    More Numerous and Bluer: Companions of the Brightest Little Red Dots Differ from Control Galaxies at > 3{\ensuremath{\sigma}}, Hinting at Synchronized Black Hole Seed Formation
-
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
 
-[8.6] 2026A&A...713A.332B
-    The little blue and red dot Rosetta stones: Non-Gaussian broad lines, hot dust, and X-ray weakness
+[8.6] 2026arXiv260606575G
+    The quasi-star model for Little Red Dots: potential and challenges
+
+[8.6] 2026arXiv260222386M
+    Little Red Dots as Obscured Little Blue Dots: A Super-Eddington Unification Model
 
 [8.6] 2025arXiv250722014Z
     Little Red Dots as self-gravitating discs accreting on supermassive stars: Spectral appearance and formation pathway of the progenitors to direct collapse black holes
@@ -745,14 +748,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.6] 2025arXiv250921236W
     Limitations on Morphological Fitting for JWST ``Little Red Dots''
 
-[8.5] 2026ApJ..1010...88L
-    Synthetic Spectral Library of Optically Thick Atmospheres for Little Red Dots
-
 [8.5] 2026MNRAS.tmp...81L
     Improved measurements of the age of JWST galaxies at z = 6 - 10
 
 [8.5] 2026NatAs..10.1387Z
     Extended components of little red dots in the rest-frame optical
+
+[8.5] 2026arXiv260823671P
+    More Numerous and Bluer: Companions of the Brightest Little Red Dots Differ from Control Galaxies at $>3\&\#963;$, Hinting at Synchronized Black Hole Seed Formation
 
 [8.5] 2025arXiv250717738R
     Beyond the Dot: an LRD-like nucleus at the Heart of an IR-Bright Galaxy and its implications for high-redshift LRDs
@@ -763,14 +766,17 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.5] 2025arXiv250919422I
     Spectral Uniformity of Little Red Dots: A Natural Outcome of Coevolving Seed Black Holes and Nascent Starbursts
 
+[8.5] 2026arXiv260212325F
+    Direct pathway to the Early Supermassive Black Holes: A Red Super-Eddington Quasar in a Massive Starburst Host at $z=7.2$
+
 [8.5] 2026MNRAS.tmp.1137I
     The Cliff: A Metal-Poor Little Red Dot Hosting an Overmassive Black Hole at z = 3.55
 
+[8.5] 2026arXiv260612509S
+    TBD LBD: The nature of `little blue dots'
+
 [8.5] 2025arXiv250710659L
     The Discovery of Little Red Dots in the Local Universe: Signatures of Cool Gas Envelopes
-
-[8.5] 2026ApJ..1010...86F
-    Direct Pathway to the Early Supermassive Black Holes: A Red Super-Eddington Quasar in a Massive Starburst Host at z = 7.2
 
 [8.5] 2025ApJ...980L..29A
     Strong Rest-UV Emission Lines in a ``Little Red Dot'' Active Galactic Nucleus at z = 7: Early Supermassive Black Hole Growth alongside Compact Massive Star Formation?
@@ -778,11 +784,11 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.4] 2025arXiv250315323E
     Euclid Quick Data Release (Q1). Extending the quest for little red dots to z<4
 
-[8.4] 2026A&A...714A.186M
-    Wings of little dots: Exponential broad lines from a stratified broad-line region
-
 [8.4] 2025RNAAS...9..355G
     Radio Constraints Disfavor Little Red Dots as Scaled-down Super-Eddington Quasars
+
+[8.4] 2026arXiv260122214B
+    The Little Blue and Red Dots Rosetta Stones: Non-Gaussian broad lines, hot dust, and X-ray weakness
 
 [8.4] 2026arXiv260301473L
     Local Analogs of Little Red Dots: Optical Variability and Evidence for an AGN Origin
@@ -802,6 +808,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.4] 2025arXiv250704011B
     Investigating the Growth of Little Red Dot Descendants at z<4 with the JWST
 
+[8.4] 2024arXiv241214246T
+    Discovery of dual ``little red dots'' indicates excess clustering on kilo-parsec scales
+
 [8.4] 2025arXiv251110725H
     Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
 
@@ -811,17 +820,17 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.4] 2026arXiv260117416S
     The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor
 
-[8.3] 2026PASJ...78.1684T
-    Hidden in Pixels. I. Discovery of dual ``little red dots'' indicates excess clustering on kilo-parsec scales
-
 [8.3] 2025arXiv250520439L
     The Properties of Little Red Dot Galaxies in the ASTRID Simulation
 
-[8.3] 2026ApJ..1007L..13L
+[8.3] 2026arXiv260717448L
     Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots
 
 [8.3] 2026ApJ..1002...41W
     Born in the Dark: The Catastrophic Collapse of Fuzzy Dark Matter Solitons as the Origin of Little Red Dots
+
+[8.3] 2026arXiv260321714R
+    A quasi-star is born: formation and evolution of accreting quasi-stars as a metallicity-independent pathway to Little Red Dots
 
 [8.3] 2025arXiv250703230R
     Little Red Dots from Ultra-Strongly Self-Interacting Dark Matter
@@ -841,8 +850,17 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.2] 2025arXiv251021709K
     From nuclear star clusters to Little Red Dots: black hole growth, mergers, and tidal disruptions
 
-[8.2] 2026A&A...714A.276M
-    Little red dots as obscured little blue dots: A super-Eddington unification model
+[8.2] 2026arXiv260912049W
+    Little Red Dots are Direct-Collapse Black Hole-Forming Galaxies
+
+[8.2] 2026arXiv260621105Z
+    Little Red Dots as Supermassive Analogs of SS 433
+
+[8.2] 2026arXiv260529895S
+    Transient Signatures of Star-Envelope Collisions in Little Red Dots
+
+[8.2] 2025arXiv251107578D
+    From Feedback-Free Star Clusters to Little Red Dots via Compaction
 
 [8.2] 2025arXiv251219666D
     A cosmologist's take on Little Red Dots
@@ -853,14 +871,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.2] 2026arXiv260504685B
     Compact, AGN-hosting Dwarf Galaxies with ``Little Red Dots''-like SEDs in the Local Universe
 
+[8.2] 2025arXiv250619589L
+    Black Holes in the Red-sequence Elliptical Galaxies at Redshifts $\sim 0.7-2.5$: Not Dark Energy Source but Remanants of Little Red Dots
+
 [8.2] 2026RNAAS..10..122M
     A Deep Spectroscopic Study of a JWST-discovered, Faint, Broad-line AGN at z {\ensuremath{\sim}} 5
 
 [8.2] 2025arXiv251216365A
     The AGN nature of strong CIII emitters in the Early Universe with JWST
-
-[8.2] 2026ApJ..1009..217R
-    A Radio-bright Local Little Red Dot Analog
 
 [8.2] 2025arXiv250903576B
     How similar are narrow-line Seyfert 1 galaxies and high-z type 1 AGN?
@@ -874,29 +892,26 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.1] 2026arXiv260720617A
     A dust-free hierarchically nested supermassive-star model for James Webb Space Telescope Little Red Dots
 
-[8.1] 2026A&A...714A.465S
-    The nature of `little blue dots'
-
 [8.1] 2026ApJ..1004..241B
     A Redshift-based Red Selection of Dusty Star-forming Galaxies
 
 [8.0] 2026arXiv260419988N
     Pulsational mass loss from supermassive stars creates the compact shells of Little Red Dots
 
-[8.0] 2026A&A...713A.285M
-    Non-LTE radiative transfer models of very luminous sources and their applicability to little red dots, quasi-stars, and similar objects
-
 [8.0] 2025arXiv251108477I
     Supermassive Dark Stars and their remnants as a possible solution to three recent cosmic dawn puzzles
+
+[8.0] 2025arXiv251218000R
+    The Clustering of Little Red Dots from Ultra-Strongly Self-Interacting Dark Matter
 
 [8.0] 2026Mirro..11....8K
     BlueDOG at Cosmic Noon: A Possible Bridge to Little Red Dots
 
+[7.9] 2026arXiv260816200R
+    A Radio-Bright Local Little Red Dot Analog
+
 [7.9] 2025arXiv251214066Z
     Primordial Black Holes as Seeds for Extremely Overmassive AGN Observed by JWST
-
-[7.9] 2026PASJ..tmp..208S
-    Transient signatures of star-envelope collisions in little red dots
 
 [7.9] 2026arXiv260416539C
     Classifying Supermassive Black Hole Growth Regimes to Observables Across Cosmological Simulations with Forecasts for LSST
@@ -910,20 +925,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [7.8] 2026arXiv260215929K
     Supermassive black holes swallow stellar objects at high rates: from Little Red Dots to Black Hole Stars
 
-[7.8] 2026OJAp....972764C
-    Ultraviolet diversity of Little Red Dots as a probe for direct-collapse black hole ages
-
-[7.8] 2026MNRAS.552g1841R
-    The clustering of little red dots from ultra-strongly self-interacting dark matter
+[7.8] 2026arXiv260628296A
+    Memoirs of the curvaton: non-perturbative non-Gaussianity and supermassive primordial black holes
 
 [7.8] 2025arXiv251203331R
     Radio Detection of a Local Little Red Dot
 
 [7.8] 2025arXiv250919585S
     NEXUS: A Search for Nuclear Variability with the First Two JWST NIRCam Epochs
-
-[7.8] 2026A&A...714L...2L
-    Black holes in red-sequence galaxies at z \raisebox{-0.5ex}\textasciitilde 0.7 - 2.5: Not a source of dark energy, but remnants of little red dots
 
 [7.8] 2026MNRAS.tmp..118K
     A possible pathway to UHZ1-type systems at z \raisebox{-0.5ex}\textasciitilde 10 by heterogeneous mass primordial black holes as dark matter
@@ -943,11 +952,8 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [7.6] 2025NewSc.268....6W
     Black hole stars really do exist
 
-[7.6] 2026ApJ..1010..208D
-    From Feedback-free Star Clusters to Little Red Dots via Compaction
-
-[7.6] 2026ApJ..1011L..24H
-    Galaxy-Little Red Dot Strong Lenses: A Missing Population?
+[7.6] 2026arXiv260326872W
+    A cosmological framework for stellar collisions at high redshift in proto-globular clusters, nuclear star clusters, and Little Red Dots
 
 [7.6] 2026MNRAS.tmp..180S
     The rest ultraviolet to infrared spectral energy distributions of heavily reddened quasars are ``V-shaped'' and hot-dust poor
@@ -955,14 +961,14 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [7.6] 2026arXiv260115960W
     JADES: A Prominent Galaxy Overdensity Candidate within the First 500 Myr
 
+[7.5] 2026arXiv260512141M
+    Non-LTE atmosphere models of very luminous sources and their applicability to Little Red Dots, quasi-stars, and similar objects
+
 [7.5] 2025ApJ...992L..25L
     Modeling the ``Dark-matter Dominated'' Dwarf Galaxy Segue 1 with a Supermassive Black Hole
 
 [7.4] 2026arXiv260603375L
     Little Red Dot progenitors from Compact Starbursts: A Natural Path to Early AGN Formation
-
-[7.4] 2026ApJ..1010..232Z
-    Little Red Dots as Supermassive Counterparts of SS 433: A Hyper-Eddington Accretion Framework
 
 [7.4] 2026ApJ..1011..120R
     Exploring Collisionless Expansion as a Mechanism for the Evolution of Little Red Dots
@@ -972,9 +978,6 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [7.3] 2026arXiv260401684Z
     Smoluchowski Coagulation Equation and the Evolution of Primordial Black Hole Clusters
-
-[7.3] 2026A&A...713A.308R
-    A quasi-star is born: Formation and evolution of accreting quasi-stars as a pathway to little red dots at nonzero metallicity
 
 [7.3] 2024Conve2024....1P
     Tiny, compact galaxies are masters of disguise in the distant universe

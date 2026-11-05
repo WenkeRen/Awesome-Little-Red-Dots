@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T06:22:29.609089",
-  "total_papers": 247,
-  "successfully_scored": 247,
+  "generated_at": "2026-11-05T06:21:15.457472",
+  "total_papers": 249,
+  "successfully_scored": 249,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -8582,6 +8582,48 @@
       "notebooklm_recommendation": "Useful supplementary context for LRD seed-formation and high-z BH abundance discussions, but not a core LRD foundation."
     },
     {
+      "bibtex_key": "2024Sci...384.1488F",
+      "title": "{Simulations predict intermediate-mass black hole formation in globular clusters}",
+      "abstract": "{The formation process of intermediate-mass black holes (IMBHs), defined as those between 100 and {}10$^{5}$ solar masses (M$\\_{☉}$), is debated. One potential origin is the growth of less-massive black holes merging with stars and compact objects within globular clusters (GCs). However, previous simulations have indicated that this process only produces IMBHs under 500 M$\\_{☉}$ before gravitational wave recoil ejects them from the GC. We performed star-by-star simulations of GC formation, finding that high-density star formation in a GC{\\textquoteright}s parent giant molecular cloud can produce sufficient mergers of massive stars to overcome that mass threshold. We conclude that GCs can form with IMBHs more than {}10$^{3}$ M$\\_{☉}$, which is sufficiently massive to be retained within the GC even with the expected gravitational wave recoil.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Fujii}, Michiko S.'), Person('{Wang}, Long'), Person('{Tanikawa}, Ataru'), Person('{Hirai}, Yutaka'), Person('{Saitoh}, Takayuki R.')]",
+      "relevance_score": 6.3,
+      "justification": "This paper is a useful supporting reference for IMBH seed formation and retention in dense star clusters, which is relevant to some LRD black-hole seeding scenarios. However, it lacks direct LRD observations or modeling, and its LRD citation count of 11 reflects contextual rather than core LRD value.",
+      "key_factors": [
+        "lrdIndex=11",
+        "No direct LRD mention",
+        "IMBH formation in globular clusters",
+        "Gravitational-wave recoil retention threshold",
+        "Star-by-star globular cluster formation simulations",
+        "Relevant to black-hole seed and IMBH scenarios"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 5.0,
+          "reasoning": "The paper does not directly discuss Little Red Dots, JWST LRDs, or their observed properties. Its relevance is indirect: it supports the formation and retention of intermediate-mass black holes in dense star clusters, a possible seed channel for the overmassive black holes inferred in some high-redshift AGN/LRD interpretations. The lrdIndex=11 shows LRD researchers do cite it, but mostly as contextual support for IMBH/seed scenarios rather than as a direct LRD study."
+        },
+        "citation_frequency": {
+          "score": 6.5,
+          "reasoning": "An lrdIndex of 11 is above the kick-off threshold and indicates repeated citation by LRD researchers, but it is not among the most heavily cited foundational LRD papers. It likely serves as a supporting reference for IMBH formation, globular-cluster seed channels, or black-hole retention arguments."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "The paper provides a concrete simulation result: high-density star formation in a globular cluster's parent giant molecular cloud can drive enough massive-star mergers to produce IMBHs above 10^3 solar masses, overcoming the roughly 500 solar-mass limit previously imposed by gravitational-wave recoil. This is a useful foundational result for black-hole seed formation in dense stellar environments, relevant to LRD interpretations involving IMBH seeds or cluster-born black holes."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "The star-by-star simulation of globular cluster formation and early massive-star merger dynamics is methodologically notable and provides a physically motivated pathway to IMBH formation. However, the technique is not LRD-specific and does not introduce a new observational or analysis method for LRD studies."
+        },
+        "evolutionary_context": {
+          "score": 6.5,
+          "reasoning": "The paper contributes to the broader evolutionary context of black-hole seed formation, cluster retention, and early dense-star environments. This can inform scenarios in which high-redshift LRDs host rapidly grown or overmassive black holes, but it does not directly model high-redshift galaxy or LRD evolution."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for IMBH/globular-cluster seed channels in LRD interpretations, but not a core LRD-specific reference."
+    },
+    {
       "bibtex_key": "2024A&A...691A.240M",
       "title": "{ASTRODEEP-JWST: NIRCam-HST multi-band photometry and redshifts for half a million sources in six extragalactic deep fields}",
       "abstract": "{Aims. We present a set of photometric catalogues primarily aimed at providing the community with a comprehensive database for the study of galaxy populations in the high-redshift Universe. The set gathers data from eight JWST NIRCam observational programs, targeting the Abell 2744 (GLASS-JWST, UNCOVER, DDT2756, and GO3990), EGS (CEERS), COSMOS and UDS (PRIMER), and the GOODS North and South (JADES and NGDEEP) deep fields. This dataset covers a total area of ≃0.2 sq. degrees. Methods. We obtained photometric estimates by means of well-established techniques, including tailored improvements designed to enhance the performance on the specific dataset. We also included new measurements from HST archival data, spanning 16 bands from 0.44 to 4.44 {\\textmu}m. Results. A grand total of \\raisebox{-0.5ex}\\textasciitilde530 thousand sources were detected on stacks of NIRCam 3.56 and 4.44 {\\textmu}m mosaics. We assessed the photometric accuracy by comparing fluxes and colours against archival catalogues. We also provide photometric redshift estimates, statistically validated against a large set of robust spectroscopic data. Conclusions. The catalogues are publicly available on the ASTRODEEP website.}",
@@ -9570,6 +9612,47 @@
       "notebooklm_recommendation": "Include as supporting/contextual literature for high-z [O III] emitters and reionization-era galaxy evolution, but do not treat it as a core LRD reference."
     },
     {
+      "bibtex_key": "2026MNRAS.545f2110J",
+      "title": "{Connecting JWST discovered N/O-enhanced galaxies to globular clusters: evidence from chemical imprints}",
+      "abstract": "{Recent James Webb Space Telescope (JWST) observations have revealed a growing population of galaxies at with elevated nitrogen-to- oxygen ratios. These 'N/O-enhanced' galaxies (NOEGs) exhibit near to supersolar N/O at sub-solar O/H, clearly deviating from the well-established scaling relation between N/O and O/H observed in local galaxies. The origin of this abundance anomaly is unclear. Interestingly, local globular clusters also exhibit anomalous light-element abundances, whose origin remains debated. In this work, we compare the chemical abundance patterns of 22 known NOEGs at ─ primarily discovered with JWST ─ to those observed in local globular clusters. We find similarities in the abundances of C, N, O, Fe, and He between the two populations. The similar abundance patterns support the scenario in which globular cluster stars formed within proto- cluster environments ─ similar to those traced by NOEGs ─ that were self-enriched. Indeed, the enhancement in N/O in early galaxies appears to be only found in dense stellar environments with , as expected for the progenitors of globular clusters in the Milky Way, and similar to those of star clusters identified in strongly lensed high-redshift galaxies. Furthermore, we find a tentative positive correlation between N/O ratios and stellar mass among NOEGs. The apparent high occurrence rate of NOEGs at high redshift is consistent with the picture of cluster- dominated star formation during the early stages of galaxy evolution. Measuring chemical abundances across diverse stellar environments in high-redshift galaxies will be crucial for elucidating the connection between NOEGs and globular clusters.}",
+      "lrdIndex": 11,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Ji}, Xihan'), Person('{Belokurov}, Vasily'), Person('{Maiolino}, Roberto'), Person('{Monty}, Stephanie'), Person('{Isobe}, Yuki'), Person('{Kravtsov}, Andrey'), Person('{McClymont}, William'), Person('{{\\\\\"U}bler}, Hannah')]",
+      "relevance_score": 4.7,
+      "justification": "This paper is a moderate-value supporting reference for LRD research. It provides useful context on high-redshift N/O-enhanced galaxies, dense star-cluster formation, and possible globular-cluster progenitor environments, but it lacks a direct LRD connection and does not offer foundational AGN or LRD-specific methodology.",
+      "key_factors": [
+        "lrdIndex=11",
+        "No direct LRD mention",
+        "Links high-z NOEGs to globular cluster chemical imprints",
+        "Supports dense cluster-dominated star formation at high redshift",
+        "Indirect relevance to compact high-z systems and abundance anomalies"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 4.0,
+          "reasoning": "The paper does not directly discuss Little Red Dots. Its relevance to LRD research is indirect: it examines high-redshift N/O-enhanced galaxies and links them to dense, self-enriched proto-globular-cluster environments, which may be relevant if some LRDs are compact, dense star-forming systems or if LRD hosts show anomalous N/O. However, no explicit LRD connection is made."
+        },
+        "citation_frequency": {
+          "score": 6.0,
+          "reasoning": "lrdIndex=11 indicates that this paper has been cited by LRD researchers at a moderate level, enough to qualify as kick_off literature but not among the most frequently used LRD references. The citation count suggests it provides useful supporting context rather than a core LRD framework."
+        },
+        "foundational_value": {
+          "score": 4.5,
+          "reasoning": "The paper offers a useful empirical comparison between high-z NOEGs and local globular clusters, supporting a cluster-dominated early star-formation picture. This is relevant context for interpreting compact high-z systems and chemical abundance anomalies, but it is not foundational for standard AGN, accretion disk, or LRD-specific physics."
+        },
+        "methodological_innovation": {
+          "score": 3.5,
+          "reasoning": "The analysis is primarily a comparative abundance study using 22 known NOEGs and local globular cluster abundance patterns. It does not introduce a new observational technique or modeling framework that would be broadly transformative for LRD studies."
+        },
+        "evolutionary_context": {
+          "score": 5.5,
+          "reasoning": "The paper contributes to the high-redshift galaxy evolution context by arguing for dense, cluster-dominated star formation and proto-globular-cluster environments at early epochs. This context can inform interpretations of compact high-z objects, including possible stellar or cluster-related interpretations of some LRDs, but remains indirect."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for chemical abundance anomalies and dense star-cluster scenarios in high-redshift galaxies, but not a critical foundation for LRD-specific research."
+    },
+    {
       "bibtex_key": "2023ApJ...945...53V",
       "title": "{JWST/NIRCam Probes Young Star Clusters in the Reionization Era Sunrise Arc}",
       "abstract": "{Star cluster formation in the early universe and its contribution to reionization remains largely unconstrained to date. Here we present JWST/NIRCam imaging of the most highly magnified galaxy known at z {\\ensuremath{\\sim}} 6, the Sunrise arc. We identify six young massive star clusters (YMCs) with measured radii spanning from {\\ensuremath{\\sim}}20 down to {\\ensuremath{\\sim}}1 pc (corrected for lensing magnification), estimated stellar masses of {\\ensuremath{\\sim}}10$^{6─7}$ M $\\_{{\\ensuremath{\\odot}}}$, and ages of 1─30 Myr based on SED fitting to photometry measured in eight filters extending to rest frame 7000 {\\r{A}}. The resulting stellar mass surface densities are higher than 1000 M $\\_{{\\ensuremath{\\odot}}}$ pc$^{{\\ensuremath{-}}2}$ (up to a few {}10$^{5}$ M $\\_{{\\ensuremath{\\odot}}}$ pc$^{{\\ensuremath{-}}2}$), and their inferred dynamical ages qualify the majority of these systems as gravitationally bound stellar clusters. The star cluster ages map the progression of star formation along the arc, with two evolved systems ({\\ensuremath{\\gtrsim}}10 Myr old) followed by very young clusters. The youngest stellar clusters (<5 Myr) show evidence of prominent H{\\ensuremath{\\beta}}+[O III] emission based on photometry with equivalent widths larger than >1000 {\\r{A}} rest frame and are hosted in a 200 pc sized star-forming complex. Such a region dominates the ionizing photon production with a high efficiency log({\\ensuremath{\\xi}}ion[Hzerg{\\ensurema th{-}}1]){\\ensuremath{\\sim}}25.7. A significant fraction of the recently formed stellar mass of the galaxy (10\\%─30\\%) occurred in these YMCs. We speculate that such sources of ionizing radiation boost the ionizing photon production efficiency, which eventually carves ionized channels that might favor the escape of Lyman continuum radiation. The survival of some of the clusters would make them the progenitors of massive and relatively metal-poor globular clusters in the local universe.}",
@@ -10148,11 +10231,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.43663967611337,
+    "average_score": 7.4210843373494075,
     "median_score": 7.9,
     "critical_count": 119,
-    "high_value_count": 92,
-    "moderate_value_count": 33,
+    "high_value_count": 93,
+    "moderate_value_count": 34,
     "low_priority_count": 3
   }
 }

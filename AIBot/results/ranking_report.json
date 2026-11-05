@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T06:18:04.768118",
-  "total_papers": 579,
-  "successfully_scored": 579,
+  "generated_at": "2026-11-05T06:19:48.380140",
+  "total_papers": 581,
+  "successfully_scored": 581,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -14183,6 +14183,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261103801Z",
+      "title": "{Ly$α$ in Compact Broad-Line Emitters, Including Little Red Dots, Is More Closely Linked to the Host Galaxy than to the Broad-Line Nucleus}",
+      "abstract": "{JWST has found many faint broad-line AGN at $z>4$, but it is unclear whether the Ly$α$ we see from them comes from the accreting black hole or from its host galaxy. The answer matters for how these sources are interpreted and for how many ionizing photons they release. We use deep JWST/NIRSpec spectroscopy from the DIVER program to measure Ly$α$ in 12 compact broad-line emitters (CBEs) at $z=4.2$--5.5 in GOODS-N. CBEs include little red dots (LRDs), little blue dots, and other broad-line AGN. Six are detected in Ly$α$. Every source shows a broad-line region, yet Ly$α$ does not follow it: the sources with the strongest H$α$ relative to the UV include weak detections and nondetections, and every detected Ly$α$ line (FWHM $\\approx300$--1000\\raisebox{ -0.5ex}\\textasciitildekm\\raisebox{-0.5ex}\\textasciitildes$^{-1}$ ) is narrower than broad H$α$ (1100--3300\\raisebox{-0.5ex}\\texta sciitildekm\\raisebox{-0.5ex}\\textasciitildes$^{-1}$). Instead, Ly$α$ appears to track the host galaxy. We model the AGN- subtracted host with a dust-attenuated SED fit. Including the upper limits, the observed Ly$α$ follows the Ly$α$ production in this host model more closely than it follows H$α$/UV, in both equivalent width and luminosity. Every detection exceeds its host-model value by a factor of 1.5--18, leaving room for a nuclear contribution. The black hole is visible in these sources, but the Ly$α$ we observe is more closely tied to its host. The median effective Ly$α$ escape fraction of the detections is only 0.09, which suggests that ionizing escape from CBEs is typically modest and varies widely.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhu}, Yongda'), Person('{Ma}, Zheng'), Person('{Lin}, Xiaojing'), Person('{Zhang}, Junyu'), Person('{Lyu}, Jianwei'), Person('{Fan}, Xiaohui'), Person('{Egami}, Eiichi'), Person('{Bunker}, Andrew J.'), Person('{Cai}, Sijia'), Person('{Keating}, Laura C.'), Person('{Shields}, Joseph'), Person('{Ji}, Zhiyuan'), Person('{Jin}, Xiangyu'), Person('{Liu}, Weizhe'), Person('{Narisetty}, Suprabhas'), Person('{Rieke}, George H.'), Person('{Rieke}, Marcia J.'), Person('{Rinaldi}, Pierluigi'), Person('{Sun}, Fengwu')]",
+      "relevance_score": 8.3,
+      "justification": "This paper is highly relevant to LRD research because it directly examines Lyα emission in compact broad-line emitters that include Little Red Dots, using deep JWST/NIRSpec spectroscopy and AGN-subtracted host modeling. It provides useful constraints on whether Lyα traces the host galaxy rather than the broad-line nucleus and has implications for ionizing escape, though the small sample and modeling uncertainties keep it from being a definitive LRD study.",
+      "key_factors": [
+        "Explicitly includes Little Red Dots within compact broad-line emitters",
+        "Deep JWST/NIRSpec spectroscopy from DIVER",
+        "Lyα measurements in 12 CBEs at z=4.2–5.5",
+        "Comparison of Lyα to broad Hα and host-galaxy SED models",
+        "Lyα escape fraction constraints with implications for ionizing photons"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly addresses Little Red Dots as a subset of compact broad-line emitters and investigates the origin of Lyα in these sources. While the sample is broader than LRDs alone, the central question is highly relevant to LRD interpretation and ionizing-photon production."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "Uses deep JWST/NIRSpec spectroscopy from the DIVER program to measure Lyα and broad Hα in 12 compact broad-line emitters at z=4.2–5.5. The combination of broad-line measurements, Lyα detections/nondetections, and AGN-subtracted SED modeling is directly applicable to LRD studies."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "Constrains whether Lyα arises from the broad-line region or the host galaxy, compares Lyα with Hα/UV and host-model predictions, and estimates Lyα escape fractions. These properties are central to understanding LRD/CBE nature, black hole visibility, and ionizing escape."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "Addresses an important open question: whether Lyα from compact broad-line AGN/LRDs traces the black hole or the host. The result has implications for interpreting LRDs and for their contribution to reionization, though the modest sample limits broad statistical impact."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analysis uses deep spectroscopy, includes upper limits, and models the AGN-subtracted host with dust-attenuated SED fitting. However, the sample is small (12 sources, 6 Lyα detections), and Lyα radiative transfer and AGN-host decomposition remain challenging."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026arXiv260610160M",
       "title": "{Aether-SHELLQs: JWST integral-field spectroscopy of candidate obscured quasars at z \\raisebox{-0.5ex}\\textasciitilde 6}",
       "abstract": "{We present James Webb Space Telescope (JWST) NIRSpec integral field unit (IFU) observations of six galaxies at $z \\sim 6$, obtained as part of the Aether project (General Observers program 5645). The targets were originally identified by the Subaru High-$z$ Exploration of Low-Luminosity Quasars (SHELLQs) survey, as candidate obscured quasars with luminous ($rsim10^{43}$ erg s$^{-1}$) but narrow ($\\lesssim500$ km s$^{-1}$) Ly$α$ emission. Two objects exhibit a broad component in their Balmer lines (FWHM $>3000$ km s$^{-1}$), indicating the presence of active galactic nuclei (AGNs), while the remaining four show similar profiles in permitted and forbidden lines. Combining these data with similar SHELLQs objects reported previously, we find that the presence of broad lines is strongly correlated with Ly$α$ luminosity ($L\\_{\\rm Lyα}$); the inferred AGN fraction is $>$77 \\% and $<$15 \\% above and below $L\\_{\\rm Lyα} =10^{44}$ erg s$^{-1}$, respectively. Dust-extinction corrections inferred from the Balmer decrement would imply unrealistically high Ly$α$ luminosities, suggesting that the line-emitting gas consists of multiple zones. The IFU data reveal diverse spatial structures. The AGN hosts are compact, whereas the other galaxies show extended ionized gas on scales up to 10 kpc and star formation rates of 60 - 600 $M\\_\\odot$ yr$^{-1}$. One of the extended objects exhibits a signature of rotation, while most of the others show little ordered kinematics, with velocity widths (FWHM) up to 200 - 300 km s$^{-1}$. These objects populate the intermediate luminosity regime between classical luminous quasars and the low-luminosity AGNs discovered by JWST, including Little Red Dots, potentially linking the two populations.}",
@@ -20273,6 +20313,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261103819H",
+      "title": "{Towards Self-consistent Modeling of Quasi-Stars and their NLTE Spectra: Implications for Little Red Dots}",
+      "abstract": "{Quasi-stars, massive envelopes surrounding rapidly accreting black hole (BH) seeds, are promising candidates for explaining the rapid formation of supermassive black holes in the early Universe and may account for some of the JWST-discovered Little Red Dots (LRDs). We present a self-consistent framework combining stellar evolution calculations with non-local thermodynamic equilibrium (NLTE) spectral synthesis to test this connection. Our models drop the polytropic assumptions of previous work: the envelope is described entirely by mixing-length theory, with saturated convection and radiative energy setting the luminosity at an inner boundary a few hundred Schwarzschild radii from the BH. This removes the BH-mass limits of earlier models, and we follow the evolution up to BH-to-total mass ratios approaching unity. We then use TLUSTY to compute the first converged NLTE atmospheric models for the surface conditions and primordial hydrogen-helium composition expected in quasi-stars. Our models produce cool photospheres, prominent Balmer breaks, and Balmer and Paschen absorption features. NLTE effects substantially modify line strengths, increasing Balmer absorption depths by $\\sim 35-55\\%$ relative to LTE models, while having a minor effect on the continuum. Comparison with observed LRD spectral energy distributions shows broad agreement in continuum shape, although our models do not reproduce their commonly observed strong emission lines. Under the quasi-star interpretation, comparisons with individual LRDs suggest characteristic quasi- star masses of approximately $10^5-10^7 M\\_\\odot$. These results establish a physically motivated connection between quasi-star evolution and observable spectra, providing a framework for testing quasi-stars as progenitors of LRDs while identifying limitations of current atmospheric models.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Hassan}, Jake B.'), Person('{Perna}, Rosalba'), Person('{Begelman}, Mitchell C.'), Person('{Jiang}, Yan-Fei'), Person('{Cantiello}, Matteo'), Person('{Armitage}, Philip J.'), Person('{Ryu}, Taeho')]",
+      "relevance_score": 7.3,
+      "justification": "This paper is directly relevant to LRD theory because it tests quasi-stars as an LRD progenitor scenario and compares self-consistent NLTE spectra with LRD SEDs. It is methodologically strong and physically detailed, but its impact is tempered by the lack of new LRD observations and by the models' failure to reproduce strong LRD emission lines.",
+      "key_factors": [
+        "Quasi-star LRD progenitor scenario",
+        "NLTE TLUSTY spectral synthesis",
+        "Balmer break and absorption features",
+        "Self-consistent stellar evolution",
+        "Comparison to LRD SEDs",
+        "Does not reproduce strong emission lines"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 7.5,
+          "reasoning": "The paper explicitly evaluates quasi-stars as possible progenitors of Little Red Dots and compares model spectra to observed LRD SEDs, but its primary focus is quasi-star evolution and NLTE atmospheric modeling rather than the LRD population itself."
+        },
+        "observational_techniques": {
+          "score": 6.0,
+          "reasoning": "It applies NLTE spectral synthesis with TLUSTY and compares models to observed LRD SEDs, but does not present new observations or direct LRD spectroscopy; the observational component is limited to model-data comparison."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The work derives relevant physical properties including cool photospheres, prominent Balmer breaks, Balmer/Paschen absorption, NLTE-modified line strengths, and characteristic quasi-star masses of roughly 10^5-10^7 Msun, directly informing LRD interpretations."
+        },
+        "scientific_impact": {
+          "score": 7.0,
+          "reasoning": "It provides a physically motivated framework connecting quasi-star evolution to LRD observables and tests a major LRD progenitor scenario, though the models do not reproduce the commonly observed strong LRD emission lines, limiting immediate conclusiveness."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis combines self-consistent stellar evolution with NLTE spectral synthesis, removes previous polytropic assumptions, follows evolution to high BH-to-total mass ratios, and presents first converged NLTE quasi-star atmosphere models while clearly noting limitations."
+        }
+      },
+      "notebooklm_recommendation": "Medium-high priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1002...25I",
       "title": "{The Emergence of Little Red Dots from Binary Massive Black Holes}",
       "abstract": "{Little red dots (LRDs) are a newly identified class of broad-line active galactic nuclei (AGNs) with a distinctive V-shaped spectrum characterized by red optical and blue UV continuum emission. Their high abundance at redshifts of z {\\ensuremath{\\sim}} 6─8 and decline at lower redshifts suggest a transient origin. We propose that the spectral shape of LRDs originates from compact binary black hole systems, in which each black hole is surrounded by a mini-disk and embedded within a larger circumbinary disk. With a binary separation of {\\ensuremath{\\lesssim}}{}10$^{3}$ Schwarzschild radii, the Wien tail of a T ≃ 5000 K blackbody spectrum at the inner edge of the circumbinary disk produces the red optical emission, while the mini-disks power the UV continuum. Binary torques carve out a gap between the circumbinary disk and the mini-disks, setting the turnover wavelength of the V-shaped spectrum around the Balmer limit. This scenario naturally reproduces LRD spectra requiring only modest dust attenuation (A$\\_{V}$ {\\ensuremath{\\lesssim}} 1 mag), resolving overestimated luminosities for LRDs in previous studies and alleviating a tension with the so-called So{\\l}tan argument. This model predicts distinct spectral evolution as the binary orbit decays through binary disk interactions and gravitational-wave (GW) emission, linking early-stage ``proto-LRD'' binaries to the broader AGN population and late-stage ``LRD descendants'' to coalescing binaries detectable in GW experiments.}",
@@ -23306,9 +23387,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.082987910189978,
+    "average_score": 8.082013769363165,
     "median_score": 8.4,
-    "high_relevance_count": 522,
+    "high_relevance_count": 524,
     "moderate_relevance_count": 38,
     "low_relevance_count": 19
   }
