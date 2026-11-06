@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T06:21:15.457472",
-  "total_papers": 249,
-  "successfully_scored": 249,
+  "generated_at": "2026-11-06T06:18:53.594646",
+  "total_papers": 250,
+  "successfully_scored": 250,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -9859,6 +9859,47 @@
       "notebooklm_recommendation": "Useful supplementary context for high-z galaxy demographics and cosmic variance; not a critical foundation for LRD-specific research."
     },
     {
+      "bibtex_key": "2025ApJ...991..179P",
+      "title": "{The Rise of the Galactic Empire: Ultraviolet Luminosity Functions at z {\\ensuremath{\\sim}} 17 and z {\\ensuremath{\\sim}} 25 Estimated with the MIDIS+NGDEEP Ultra-deep JWST/NIRCam Data Set}",
+      "abstract": "{We present a sample of six F200W and three F277W dropout sources identified as 16 < z < 25 galaxy candidates using the deepest JWST/NIRCam data to date (5{\\ensuremath{\\sigma}} depths {\\ensuremath{\\sim}}31.5 mag at {\\ensuremath{\\geq}}2 {\\ensuremath{\\mu}}m), provided by the MIRI Deep Imaging Survey and the Next Generation Deep Extragalactic Exploratory Public survey. We estimate ultraviolet (UV) luminosity functions and densities at z {\\ensuremath{\\sim}} 17 and z {\\ensuremath{\\sim}} 25. The number density of galaxies with absolute magnitudes of {\\ensuremath{-}}19 < M$\\_{UV}$ < {\\ensuremath{-}}18 at z {\\ensuremath{\\sim}} 17 (z {\\ensuremath{\\sim}} 25) is a factor of 4 (25) smaller than at z {\\ensuremath{\\sim}} 12; the luminosity density presents a similar evolution. Compared to state-of-the- art galaxy simulations, we find the need for an enhanced UV- photon production at z = 17─25 in M$\\_{DM}$ = 10$^{8.5{\\ensuremath{-}}9.5}$ M$\\_{{\\ensuremath{\\odot}}}$ dark matter halos, provided by an increase in the star formation efficiency at early times and/or by intense compact starbursts with enhanced emissivity linked to strong burstiness, low or primordial gas metallicities, and/or a top-heavy initial mass function. There are a few robust theoretical predictions for the evolution of galaxies above z {\\ensuremath{\\sim}} 20 in the literature; however, the continuing rapid drop in the halo mass function would predict a more rapid evolution than we observe if photon production efficiencies remained constant. Our z > 16 candidates present mass-weighted ages around 30 Myr, and attenuations A(V) < 0.1 mag. Their average stellar mass is M$\\_{{\\ensuremath{\\star}}}$ {\\ensuremath{\\sim}} {}10$^{7}$ M$\\_{{\\ensuremath{\\odot}}}$, implying a stellar-to-baryon mass fraction around 10\\% if the emissivity increases with redshift, or significantly higher otherwise. Three candidates present very blue UV spectral slopes ({\\ensuremath{\\beta}} {\\ensuremath{\\sim}} {\\ensuremath{-}}3) compatible with Population III young ({\\ensuremath{\\lesssim}}10 Myr) stars and/or high escape fractions of ionizing photons; the rest have {\\ensuremath{\\beta}} {\\ensuremath{\\sim}} {\\ensuremath{-}}2.5 similar to the z = 10─12 samples.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{{\\\\\"O}stlin}, G{\\\\\"o}ran'), Person('{Costantin}, Luca'), Person('{Melinder}, Jens'), Person('{Finkelstein}, Steven L.'), Person('{Somerville}, Rachel S.'), Person('{Annunziatella}, Marianna'), Person(\"{{\\\\'A}lvarez-M{\\\\'a}rquez}, Javier\"), Person('{Colina}, Luis'), Person('{Dekel}, Avishai'), Person('{Ferguson}, Henry C.'), Person('{Li}, Zhaozhou'), Person('{Yung}, L. Y. Aaron'), Person('{Bagley}, Micaela B.'), Person('{Boogaard}, Leindert A.'), Person('{Burgarella}, Denis'), Person('{Calabr{\\\\`o}}, Antonello'), Person('{Caputi}, Karina I.'), Person('{Cheng}, Yingjie'), Person('{Dickinson}, Mark'), Person('{Eckart}, Andreas'), Person('{Giavalisco}, Mauro'), Person('{Gillman}, Steven'), Person('{Greve}, Thomas R.'), Person('{Hamed}, Mahmoud'), Person('{Hathi}, Nimish P.'), Person('{Hjorth}, Jens'), Person('{Huertas-Company}, Marc'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Koekemoer}, Anton M.'), Person('{Kokorev}, Vasily'), Person(\"{Labiano}, {\\\\'A}lvaro\"), Person('{Langeroodi}, Danial'), Person('{Leung}, Gene C. K.'), Person('{Natarajan}, Priyamvada'), Person('{Papovich}, Casey'), Person('{Peissker}, Florian'), Person('{Pentericci}, Laura'), Person('{Pirzkal}, Nor'), Person('{Rinaldi}, Pierluigi'), Person('{van der Werf}, Paul'), Person('{Walter}, Fabian')]",
+      "relevance_score": 4.6,
+      "justification": "This paper is a strong extreme-high-redshift galaxy evolution study, but it has little direct connection to Little Red Dots or AGN physics. Its lrdIndex=10 reflects moderate community use as contextual literature, while its unique value lies in ultra-deep JWST UV luminosity function measurements at z~17-25 rather than LRD-specific observables or methodology.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No direct LRD or AGN content",
+        "Extreme high-z UV luminosity functions at z~17 and z~25",
+        "Ultra-deep JWST/NIRCam MIDIS+NGDEEP dataset",
+        "Constraints on early star formation efficiency, metallicity, and possible Pop III"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 3.0,
+          "reasoning": "The paper does not mention Little Red Dots, AGN, or black hole accretion. Its connection to LRD research is indirect: it constrains the extreme high-redshift galaxy population and UV luminosity density, which can serve as boundary conditions or progenitor context, but it does not address LRD observables, spectral properties, or AGN physics."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 indicates this paper has been cited by LRD researchers a meaningful number of times. This is a moderate-to-high citation frequency for a kick-off paper, suggesting the community uses it as contextual support, though it is not among the most heavily cited LRD-specific references."
+        },
+        "foundational_value": {
+          "score": 4.0,
+          "reasoning": "The paper provides useful empirical constraints on UV luminosity functions at z~17 and z~25, including implications for star formation efficiency, metallicities, burstiness, and possibly Population III stars. However, these are not foundational for LRD research specifically; they are high-z galaxy evolution results that LRD researchers may cite for early-galaxy context rather than for LRD interpretation."
+        },
+        "methodological_innovation": {
+          "score": 4.5,
+          "reasoning": "The work uses exceptionally deep JWST/NIRCam data from MIDIS+NGDEEP and standard dropout selection to push UV luminosity function measurements to z>16. The dataset is impressive and unique, but the methodology is largely standard dropout/LF analysis rather than a new technique that would directly enable LRD studies."
+        },
+        "evolutionary_context": {
+          "score": 5.5,
+          "reasoning": "The paper offers valuable evolutionary context for the earliest galaxy populations: rapid decline in UV luminosity density, constraints on halo mass function evolution, enhanced photon production in low-mass halos, and possible Pop III signatures. This is relevant background for LRD researchers thinking about early galaxy and black hole coevolution, but it remains distant from LRD-specific redshift and AGN regimes."
+        }
+      },
+      "notebooklm_recommendation": "Peripheral contextual reference; useful for early-galaxy boundary conditions but not a critical foundation for LRD-focused NotebookLM."
+    },
+    {
       "bibtex_key": "2022ApJ...937L..30L",
       "title": "{Accelerating Early Massive Galaxy Formation with Primordial Black Holes}",
       "abstract": "{Recent observations with JWST have identified several bright galaxy candidates at z {\\ensuremath{\\gtrsim}} 10, some of which appear unusually massive (up to \\raisebox{-0.5ex}\\textasciitilde{}10$^{11}$ M $\\_{☉}$). Such early formation of massive galaxies is difficult to reconcile with standard {\\ensuremath{\\Lambda}}CDM predictions, demanding a very high star formation efficiency (SFE), possibly even in excess of the cosmic baryon mass budget in collapsed structures. With an idealized analysis based on linear perturbation theory and the Press-Schechter formalism, we show that the observed massive galaxy candidates can be explained with lower SFE than required in {\\ensuremath{\\Lambda}}CDM if structure formation is accelerated/seeded by massive ({\\ensuremath{\\gtrsim}}{}10$^{9}$ M $\\_{☉}$) primordial black holes (PBHs) that make a up a small fraction (\\raisebox{-0.5ex}\\textasciitilde10$^{-6}$-10$^{-3}$) of dark matter, considering existing empirical constraints on PBH parameters. We also discuss the potential observational signatures of PBH cosmologies in the JWST era. More work needs to be done to fully evaluate the viability of such PBH models to explain observations of the high-z Universe.}",
@@ -10231,11 +10272,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.4210843373494075,
+    "average_score": 7.4098000000000095,
     "median_score": 7.9,
     "critical_count": 119,
     "high_value_count": 93,
-    "moderate_value_count": 34,
+    "moderate_value_count": 35,
     "low_priority_count": 3
   }
 }

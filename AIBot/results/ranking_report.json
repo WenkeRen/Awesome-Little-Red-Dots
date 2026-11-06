@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T06:19:48.380140",
-  "total_papers": 581,
-  "successfully_scored": 581,
+  "generated_at": "2026-11-06T06:18:38.698741",
+  "total_papers": 584,
+  "successfully_scored": 584,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -1775,6 +1775,48 @@
         "methodological_rigor": {
           "score": 8.5,
           "reasoning": "The sample is compiled from multiple JWST programs, and the analysis carefully avoids contamination by host-galaxy emission. The use of Cloudy LOC modeling is appropriate, though the sample size is moderate and some model assumptions (e.g., fixed density) could be further tested."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261105349S",
+      "title": "{UV spectra of little red dots: Broad-line N/C, gas recycling and black hole masses}",
+      "abstract": "{Radiative-transfer models of supermassive black holes accreting inside dense gas cocoons reproduce the X-ray-to-near-infrared spectral energy distribution of ``little red dots'' (LRDs) using the code Sirocco. In the ultraviolet, these models also predict weak broad emission lines and a series of metal absorption lines, which deep spectroscopy from the JWST SPURS survey now detects in several LRDs. Here we use the models to interpret these features. We find that N and C ions of equal charge (3+ or 2+) occupy largely the same gas in the simulations, such that the combination of the broad N IV]/C IV and N III]/C III] flux ratios simultaneously constrains both the electron density and the N/C abundance ratio of the gas in the LRD proper. The nitrogen and carbon emission of SPURS-GN-2, an LRD at $z=7.19$, requires an order of magnitude nitrogen excess compared to the solar value, N/C $= 12^{+3}\\_{-2}$ (N/C)$\\_\\odot$, in the broad- line gas with electron density $\\log n\\_e = 9.7^{+0.3}\\_{-0.5}$ cm$^{-3}$. Thus, around half the broad-line CNO nuclei have passed through hydrogen burning. Because the ionised gas is replaced on a century timescale, sustaining this enrichment favours gas recycling. UV absorption lines test this independently. In two of the four LRDs, line blueshift velocities clearly increase with the photon energy required to ionise the absorber gas. In the models the absorption lines are spatially stratified, indicating that the gas is launched near the escape speed and slowed by gravity. In GN-2, where the measurement can be made, the inferred deceleration requires radiation pressure close to the Eddington limit of a $10^{6-7}$ M$\\_\\odot$ black hole. The lines are also typically strongly saturated, making inferences of direct abundance ratios misleading.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Sneppen}, Albert'), Person('{Watson}, Darach'), Person('{Ivey}, Lucy R.'), Person('{Heintz}, Kasper E.'), Person('{Cameron}, Alex J.'), Person('{Witstok}, Joris'), Person('{Rusakov}, Vadim'), Person('{Matthews}, James H.'), Person('{Damgaard}, Rasmus'), Person('{Nikopoulos}, Georgios'), Person('{Belokurov}, Vasily')]",
+      "relevance_score": 9.0,
+      "justification": "This paper is highly relevant to LRD research because it directly models and interprets JWST UV spectra of little red dots, deriving N/C abundances, gas densities, recycling, absorption kinematics, and black hole mass constraints. It combines detailed radiative-transfer modeling with SPURS spectroscopy and addresses central questions about LRD broad-line gas and black hole growth.",
+      "key_factors": [
+        "Direct LRD focus",
+        "JWST SPURS UV spectroscopy",
+        "Broad-line N/C abundance diagnostics",
+        "Electron density constraints",
+        "Gas recycling interpretation",
+        "Black hole mass and Eddington limit constraints",
+        "Radiative-transfer modeling with Sirocco"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on little red dots, interpreting JWST SPURS UV spectra of LRDs and modeling broad-line N/C ratios, gas recycling, absorption lines, and black hole masses. It is not a general high-redshift galaxy paper with incidental LRD relevance; LRDs are the primary subject."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The work uses deep JWST SPURS spectroscopy, including UV broad emission lines such as N IV]/C IV and N III]/C III] plus UV absorption lines in multiple LRDs. It connects these observations to radiative-transfer model predictions, making the observational diagnostic framework highly relevant to LRD spectroscopy."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper constrains key LRD physical properties: electron density, N/C abundance ratio, gas recycling timescale, absorber stratification, launch speeds, radiation pressure, Eddington limit, and black hole mass in the range 10^6-7 solar masses. These are central to understanding LRD nature and black hole growth."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The study addresses important open issues in LRD research, including broad-line gas enrichment, AGN-related ionization, black hole masses, and radiation-pressure-driven outflows. Its impact is high within LRD modeling, though it is more specialized than a broad survey or discovery paper."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis is grounded in Sirocco radiative-transfer models and uses multiple line ratios to break degeneracies between density and abundance. It also notes caveats such as saturated absorption lines making direct abundance inferences misleading, which strengthens the interpretation."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -13222,6 +13264,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261106026Z",
+      "title": "{Spectroscopy-informed Deep Learning Searches for Photometric Little Red Dots in JWST Surveys}",
+      "abstract": "{Little Red Dots (LRDs) are a population of compact, red sources discovered at high redshift with JWST that exhibit distinctive V-shaped spectral energy distributions (SEDs). Existing LRD samples are typically identified using a variety of color-based selection criteria, which can lead to differences in the populations recovered by different studies. We develop a cross- modal machine-learning framework that combines matched NIRCam imaging and NIRSpec/PRISM spectroscopy to transfer spectroscopic information into imaging-based representations, enabling LRD identification from JWST/NIRCam imaging alone. Applied to spectroscopically observed high-redshift galaxies previously classified as non-LRDs, our model identifies 35 new LRD candidates. The majority satisfy at least one independent LRD color selection criterion, and among the 13 candidates with medium- or high-resolution NIRSpec grating spectra, 10 exhibit broad H$α$ emission - a hallmark of LRDs. We further apply the classifier to public NIRCam imaging from the Dawn JWST Archive and two independent JWST surveys, yielding 357 and 23 additional LRD candidates, respectively. The candidates recovered by our method span a broader range of observed SED properties than those in existing samples, suggesting that current color- selected samples may not fully capture the diversity of LRD-like systems present in JWST surveys. Our findings highlight the value of spectroscopy-informed photometric classification as a powerful strategy for systematically mining large-area JWST imaging datasets and provide a practical framework for future studies of this emerging population.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Zhang}, Chenxuan'), Person('{Zhang}, Huanian'), Person('{Wu}, Qingwen')]",
+      "relevance_score": 8.3,
+      "justification": "This paper is highly relevant to LRD research because it directly addresses photometric LRD identification, selection completeness, and systematic mining of JWST imaging with spectroscopy-informed machine learning. It is methodologically promising and produces substantial new candidate samples, but it is primarily a selection/classification study rather than a detailed physical-property analysis.",
+      "key_factors": [
+        "Direct LRD candidate search and classification",
+        "JWST NIRCam imaging combined with NIRSpec spectroscopy",
+        "Cross-modal machine-learning framework",
+        "Broad H-alpha validation of candidates",
+        "Large candidate samples from public JWST imaging",
+        "Addresses incompleteness of color-selected LRD samples"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly and centrally focused on Little Red Dots: it develops a classifier to identify photometric LRD candidates, tests it on spectroscopically observed high-redshift galaxies, and evaluates whether existing color-selected LRD samples are incomplete."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The work leverages JWST NIRCam imaging together with NIRSpec/PRISM and medium/high-resolution NIRSpec grating spectra, and applies the classifier to public Dawn JWST Archive imaging and two independent JWST surveys. This is a strong, relevant observational/data-mining combination for LRD research."
+        },
+        "physical_properties": {
+          "score": 6.5,
+          "reasoning": "The paper uses broad H-alpha emission as an LRD hallmark and discusses broader SED diversity, but the abstract does not present detailed physical characterization such as black hole masses, stellar masses, or AGN-versus-starburst decomposition."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "It provides new LRD candidate samples and a practical framework for systematically mining large JWST imaging datasets. Its main impact is on LRD selection and sample completeness, though the candidates still require spectroscopic confirmation and the physical nature of LRDs is not resolved."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The cross-modal machine-learning approach is innovative and is validated against independent color selections and broad H-alpha detections. However, the abstract lacks details on completeness, contamination, false-positive rates, and potential training-set biases, so full rigor cannot be assessed from the abstract alone."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1000...59M",
       "title": "{Counting Little Red Dots at z < 4 with Ground-based Surveys and Spectroscopic Follow-up}",
       "abstract": "{Little red dots (LRDs) are a population of red, compact objects discovered by JWST at z > 4. At 4 < z < 8, they are roughly 100 times more abundant than UV-selected quasars. However, their number density is uncertain at z < 4 due to the small sky coverage and limited blue wavelength coverage of JWST. We present our ground-based search for LRDs at 2 {\\ensuremath{\\lesssim}} z {\\ensuremath{\\lesssim}} 4, combining ultradeep Hyper Suprime-Cam photometry and various (near-)infrared surveys within a total area of {\\ensuremath{\\sim}}3.1 deg$^{2}$. We find that for LRDs with M$\\_{5500}$ < {\\ensuremath{-}}22.5, their number density declines from {\\ensuremath{\\sim}}10$^{{\\ensuremath{-}}4.5}$ cMpc$^{{\\ensuremath{-}}3}$ at z > 4 to {\\ensuremath{\\sim}}10$^{{\\ensuremath{-}}5.3}$ cMpc$^{{\\ensuremath{-}}3}$ at 2.7 < z < 3.7 and {\\ensuremath{\\sim}}10$^{{\\ensuremath{-}}5.7}$ cMpc$^{{\\ensuremath{-}}3}$ at 1.7 < z < 2.7. We also present the Magellan/FIRE spectrum of our first followed-up candidate, DEEP23-z2LRD1 at z$\\_{spec}$ = 2.26, as a proof of concept for our sample selection. Similar to high-redshift LRDs, the spectrum of DEEP23-z2LRD1 exhibits broad H{\\ensuremath{\\alpha}} emission with FWHM ≍ 2400 km s$^{{\\ensuremath{-}}1}$ and with nearly symmetric narrow H{\\ensuremath{\\alpha}} absorption. Additionally, DEEP23-z2LRD1 has extremely narrow [O III] lines with FWHM ≍ 140 km s$^{{\\ensuremath{-}}1}$, suggesting the presence of an accreting black hole in a low-mass host galaxy. Limited by the angular resolution of ground-based surveys, we emphasize that spectroscopic follow-ups are required to characterize the contamination fraction of this sample and pin down LRD number density at z < 4.}",
@@ -23188,6 +23271,46 @@
       "notebooklm_recommendation": "Low priority for NotebookLM; include only as context for LRD contamination or photometric selection methods."
     },
     {
+      "bibtex_key": "2026arXiv261103812S",
+      "title": "{The STARfall pathway: forging intermediate-mass black holes through stellar collisions in dense star clusters}",
+      "abstract": "{Intermediate-mass black holes (IMBHs, $10^2 < m\\_{\\rm BH}/\\mathrm{M}\\_{\\odot} < 10^5$) are elusive objects bridging the gap between stellar-mass and supermassive black holes, whose origin remains uncertain. They may form from the collapse of very massive stars (VMSs, $m\\_*\\geq150\\,\\mathrm{M}\\_{\\odot}$) assembled through repeated stellar collisions in compact and fast evolving star clusters. We investigate the formation of VMSs and IMBH seeds via repeated mergers and collisions as a function of cluster initial conditions, assessing the implications for globular clusters and dense high-redshift system. We develop STARfall, a semi-analytic tool that follows the evolution of a massive stellar binary via binary-single interactions, mergers, collisions, and stellar evolution, while consistently accounting for the host cluster evolution. Our results show that clusters with central densities above $10^6\\,\\mathrm{M}\\_{\\odot}\\,\\mathrm{pc}^{-3}$ can undergo a catastrophic sequence of stellar collisions, or ``starastrophe'', within $3$ Myr. Through this process, VMSs rapidly grow in mass and collapse into IMBHs with masses of up to $10^3-10^4\\,\\mathrm{M}\\_{\\odot}$, despite the effects of intense stellar winds. Applying our models to observed systems, we find that compact clusters in the Cosmic Gems Arc and Milky Way globular clusters could have hosted VMSs that collapsed into IMBHs in this mass range. Despite their longer core-collapse timescales, the inferred central densities of Little Red Dots may also support IMBH formation in the same mass interval. Our models show that VMS assembly requires two essential ingredients: short core-collapse times and large central densities. Compared to observed systems, our models suggest that clusters in the Cosmic Gems Arcs and several Galactic globular clusters could have nurtured VMSs that directly collapsed to IMBHs with masses $10^3-10^4\\,\\text{M}\\_{\\odot}$.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Simonato}, Filippo'), Person('{Arca Sedda}, Manuel'), Person('{Ryu}, Taeho'), Person('{Klencki}, Jakub'), Person('{Iorio}, Giuliano'), Person('{Rastello}, Sara'), Person('{Paiella}, Lavinia'), Person('{Ugolini}, Cristiano'), Person('{Mestichelli}, Benedetta'), Person('{Branchesi}, Marica'), Person('{Askar}, Abbas'), Person('{Berczik}, Peter'), Person('{Costa}, Guglielmo'), Person('{Giersz}, Mirek'), Person('{Kamlah}, Albrecht W. H.'), Person('{Spurzem}, Rainer'), Person('{Torniamenti}, Stefano'), Person('{Vergara}, Marcelo C.')]",
+      "relevance_score": 2.5,
+      "justification": "This paper is a theoretical study of IMBH formation through stellar collisions in dense star clusters, with only a brief and speculative mention that LRD central densities may permit similar IMBH formation. It provides no direct LRD observations, modeling, or population constraints, so its relevance to LRD research is peripheral.",
+      "key_factors": [
+        "Only brief speculative mention of Little Red Dots",
+        "No JWST or other LRD observational data",
+        "Theoretical IMBH formation in dense star clusters",
+        "IMBH mass range potentially relevant to LRD black hole seeds",
+        "No LRD SED, size, or AGN/starburst analysis"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 1.5,
+          "reasoning": "The paper is primarily about intermediate-mass black hole formation via stellar collisions in dense star clusters. Little Red Dots are mentioned only briefly as a possible environment where inferred central densities might support IMBH formation; LRDs are not the central subject or a major analysis target."
+        },
+        "observational_techniques": {
+          "score": 1.0,
+          "reasoning": "The work is a semi-analytic theoretical modeling study and does not use JWST or other observational data specifically for LRDs. It contains no LRD photometric, spectroscopic, variability, or morphological analysis techniques."
+        },
+        "physical_properties": {
+          "score": 4.0,
+          "reasoning": "The paper models IMBH masses of 10^3-10^4 Msun and dense cluster conditions that could be relevant to LRD black hole seed and AGN interpretations. However, it does not address key LRD physical properties such as SED shape, compact sizes, Balmer breaks, AGN versus starburst diagnostics, or black hole accretion signatures."
+        },
+        "scientific_impact": {
+          "score": 2.5,
+          "reasoning": "The results may provide indirect theoretical context for IMBH seeds in dense high-redshift systems, including a speculative connection to LRDs. It does not directly constrain the LRD population or resolve major LRD debates, so its immediate impact on LRD research is limited."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "The STARfall semi-analytic framework appears well suited to modeling binary-single interactions, stellar collisions, mergers, stellar evolution, and host cluster evolution. The methodology is rigorous for the star-cluster IMBH problem, but it is not designed for or validated against LRD observations."
+        }
+      },
+      "notebooklm_recommendation": "Low priority; peripheral context only"
+    },
+    {
       "bibtex_key": "2026arXiv261019838C",
       "title": "{A heterogeneous set of unusual quasars selected from astrometry and broad-band photometry}",
       "abstract": "{The aim of this study is to explore methods for how to identify new quasars with different properties with regard to reddening, redshift, the presence of broad absorption lines from outflows, or other rare properties affecting the broad-band colours. We use Gaia-based astrometric pre-selection to study only sources that have zero parallax and zero proper motion within errors. We subsequently match these sources with information from wide-area photometric surveys and build colour-colour diagrams. Based on these diagrams we select targets for follow-up spectroscopy. In the subsequent analysis we also apply observations from SPHEREx to firmly establish redshifts. We secure spectroscopic observations for 24 sources. Of these, three are found to be stars and the remaining 21 are classified as quasars spanning a redshift range from z=0.139 to z=3.732. The majority of the sources located away from the normal quasar locus in colour- colour diagrams are found to be broad-absorption-line quasars. A single source, the lowest redshift source at z=0.139, is reminiscent of the so-called Little Red Dots found at high redshifts with JWST. Using the simple procedure followed here it is possible to locate previously undiscovered quasars with interesting properties, in particular Broad Absorption Line quasars and quasars with unusual extinction.}",
@@ -23387,10 +23510,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.082013769363165,
+    "average_score": 8.074400684931504,
     "median_score": 8.4,
-    "high_relevance_count": 524,
+    "high_relevance_count": 526,
     "moderate_relevance_count": 38,
-    "low_relevance_count": 19
+    "low_relevance_count": 20
   }
 }
