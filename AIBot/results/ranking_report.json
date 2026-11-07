@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T06:18:38.698741",
-  "total_papers": 584,
-  "successfully_scored": 584,
+  "generated_at": "2026-11-07T06:17:31.146272",
+  "total_papers": 586,
+  "successfully_scored": 586,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -16870,6 +16870,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261107006P",
+      "title": "{Black Hole Seeds and Little Red Dots: Connecting Formation and Growth with a JWST Multi-Cycle Treasury Program}",
+      "abstract": "{JWST has revealed an abundant population of faint active galactic nuclei and a new class of compact, high-redshift sources known as Little Red Dots (LRDs), whose physical nature remains debated, with accreting massive black holes among the leading explanations. The emerging demographics of early black holes, with their high inferred number densities and, in some systems, the apparent excess of black hole mass relative to stellar mass, challenge simple scenarios of black hole seeding and growth. Despite these observational breakthroughs, the origin of early massive black holes remains uncertain, because ``black holes have no memory'': current samples cannot separate the imprint of seeding from subsequent growth. This white paper identifies the multi-cycle JWST observations needed to revolutionize our understanding of early black hole growth by: (i) distinguishing seeding pathways, (ii) constraining early black hole growth mechanisms, (iii) resolving the physical nature of broad-line emitters and LRDs, and (iv) testing black hole-galaxy co- evolution. These tasks require uniformly selected samples extending to low black hole and host-galaxy masses, allowing self-consistent measurements of black hole mass functions, Eddington-ratio distributions, and host properties. Grating spectroscopy, deep MIRI imaging, and variability analysis through repeated observations of the same fields would provide complementary tests of black hole formation and growth, their connection to host-galaxy evolution, and the nature of newly discovered populations of LRDs. In this white paper, we argue that these joint tests require a coordinated JWST Multi-Cycle Treasury program; such a program could provide the depth, uniformity, and time baseline needed to place substantially stronger, complementary constraints on early black hole formation, growth, and their connection to galaxy evolution.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Pacucci}, Fabio'), Person('{Schneider}, Raffaella'), Person('{Katz}, Harley'), Person('{Robertson}, Brant E.'), Person('{Somerville}, Rachel S.'), Person(\"{Abdurro'uf}\"), Person('{Aditya}, K.'), Person('{Afonso}, Jose M.'), Person('{Arita}, Junya'), Person('{Barro}, Guillermo'), Person('{Basu}, Arghyadeep'), Person('{Begley}, Ryan'), Person('{Bose}, Sownak'), Person('{Bradac}, Marusa'), Person('{Bryan}, Greg L.'), Person('{Cain}, Christopher'), Person('{Caleno}, Riccardo'), Person('{Cameron}, Alex J.'), Person('{Carniani}, Stefano'), Person('{Choi}, Hyunseop'), Person('{Choustikov}, Nicholas'), Person('{Curtis-Lake}, Emma'), Person(\"{D'Angelo}, Alessia\"), Person('{Dave}, Romeel'), Person('{Davies}, Rebecca L.'), Person('{Davis}, Kelcey'), Person('{Donnan}, Callum T.'), Person('{Duan}, Qiao'), Person('{Dubois}, Yohan'), Person('{Faisst}, Andreas L.'), Person('{Farcy}, Marion'), Person('{Finkelstein}, Steven L.'), Person('{Gillman}, Steven'), Person('{Graziani}, Luca'), Person('{Gupta}, Ansh R.'), Person('{Gutcke}, Thales A.'), Person('{Haehnelt}, Martin G.'), Person('{Hathi}, Nimish P.'), Person('{Hatziminaoglou}, Evanthia'), Person('{Heintz}, Kasper E.'), Person('{Hirschmann}, Michaela'), Person('{Ivey}, Lucy R.'), Person('{Iyer}, Kartheik'), Person('{Jeon}, Junehyoung'), Person('{Jones}, Brenda L.'), Person('{Juodzbalis}, Ignas'), Person('{Koekemoer}, Anton M.'), Person('{Jespersen}, Christian Kragh'), Person('{Langeroodi}, Danial'), Person('{Lapi}, Andrea'), Person('{Latif}, Muhammad A.'), Person('{Liu}, Yuankang'), Person('{Lovell}, Christopher C.'), Person('{Nagamine}, Kentaro'), Person('{Natarajan}, Priyamvada'), Person('{Pan}, Zhiwei'), Person('{Pascalau}, Robert'), Person(\"{P{\\\\'e}rez-Gonz{\\\\'a}lez}, Pablo G.\"), Person('{Pizzati}, Elia'), Person('{Regos}, Eniko'), Person('{Rinaldi}, Pierluigi'), Person('{Roberts}, Daniel'), Person('{Schleicher}, Dominik R. G.'), Person('{Shankar}, Francesco'), Person('{Shen}, Xuejian'), Person('{Stanton}, Thomas M.'), Person('{Sun}, Guochao'), Person('{Sun}, Yang'), Person('{Trinca}, Alessandro'), Person('{Trump}, Jonathan R.'), Person('{Turner}, Jack C.'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Valiante}, Rosa'), Person('{van Donkelaar}, Floor'), Person('{Vijayan}, Aswin P.'), Person('{Vito}, Fabio'), Person('{Wang}, Tao'), Person('{Wilkins}, Stephen'), Person('{Wise}, John H.'), Person('{Witstok}, Joris'), Person('{Wu}, Zihao'), Person('{Yung}, L. Y. Aaron'), Person('{Zana}, Tommaso'), Person('{Zhang}, Huanian'), Person('{Zhang}, Saiyang'), Person('{Zhuang}, Ming-Yang')]",
+      "relevance_score": 8.1,
+      "justification": "This white paper is highly relevant to LRD research because it explicitly identifies LRDs as a key population and proposes JWST spectroscopy, MIRI imaging, and variability observations to resolve their nature and connection to early black hole seeding and growth. Its impact is strategic rather than empirical, as it outlines a future Multi-Cycle Treasury program rather than presenting new data, which limits its methodological rigor score.",
+      "key_factors": [
+        "Explicit LRD focus in title and abstract",
+        "JWST Multi-Cycle Treasury program proposal",
+        "Black hole mass, Eddington ratio, and host-galaxy measurements",
+        "Grating spectroscopy, MIRI imaging, and variability",
+        "White paper without new data or empirical analysis"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly names Little Red Dots in its title and abstract, treats LRDs as a central newly discovered population, and includes resolving their physical nature as one of four major science goals. However, the paper is broader than LRDs alone, framing them within early black hole seeding and growth."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "The white paper proposes highly relevant JWST techniques for LRD research, including grating spectroscopy, deep MIRI imaging, and repeated variability observations. These are directly applicable to characterizing LRD broad lines, black hole masses, host properties, and accretion variability, though the paper does not present new observations."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper directly targets key LRD physical properties: black hole mass functions, Eddington-ratio distributions, host-galaxy masses, broad-line emitter nature, and black hole-galaxy co-evolution. These are among the most important observables for understanding whether LRDs host accreting massive black holes."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "A coordinated JWST Multi-Cycle Treasury program of the kind proposed would have high strategic impact on LRD research by enabling uniform, deep, time-domain measurements. The impact is currently prospective rather than realized because the paper is a white paper outlining future observations rather than reporting results."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "The paper provides a coherent observational rationale and identifies the needed sample uniformity, depth, and time baseline, but as a white paper it does not include new data, detailed analysis methods, or quantitative results. Its rigor is therefore limited to programmatic and strategic argumentation rather than empirical methodology."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026A&A...714A.465S",
       "title": "{The nature of `little blue dots'}",
       "abstract": "{Previous SIROCCO radiative-transfer models of gas-cocooned active galactic nuclei (AGNs) predicted lower-column counterparts to little red dots (LRDs): compact, X-ray-weak sources with bluer continuum slopes and Balmer jumps rather than Balmer breaks. The recently identified population of little blue dots (LBDs) closely resembles this predicted phase. Here we explore these lower-column-density cocoons in which nebular recombination emission remains visible while strong Balmer-continuum absorption is avoided. We find that a sequence of increasing column density connects more classical AGN spectra, Balmer-jump LBD-like spectra at N$\\_{H}$ \\raisebox{-0.5ex}\\textasciitilde few {\\texttimes} {}10$^{24}$ cm$^{-2}$, and Balmer-break LRD-like spectra at higher columns. Along this sequence, electron scattering produces exponential line wings and suppresses X-ray emission before strong Balmer absorption features emerge. The models predict that LBDs should share X-ray weakness and exponential line wings with LRDs, while being distinguished by Balmer jumps in emission, weak or absent absorption features, potential He II {\\ensuremath{\\lambda}}4686 emission, lower H{\\ensuremath{\\alpha}} luminosities, and narrower H{\\ensuremath{\\alpha}} lines. We compare with spectra of eight LBDs and find that significant Balmer-jump signatures are common. We therefore suggest that LBDs are lower-column analogues of LRDs within a common gas-cocooned AGN sequence.}",
@@ -22514,6 +22554,46 @@
       "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261107070C",
+      "title": "{On the importance of medium-resolution continuum spectroscopy for JWST's extragalactic legacy}",
+      "abstract": "{We argue for a significant investment of JWST time into an extremely deep medium-resolution NIRSpec MSA survey targeting a large, representative sample of high-redshift $(z>1.5)$ galaxies, specifically intended to obtain high-SNR continuum detections. This is only possible with JWST, and no planned future instrumentation has similar capabilities, meaning that obtaining such observations with JWST must be urgently prioritised. The vast majority of existing archival NIRSpec observations are not deep enough for continuum science, being focused on the detection of emission lines. Deeper continuum data opens up the ability to constrain a much wider range of key galaxy physical parameters, including stellar population ages and metallicities, stellar kinematics and neutral gas physical properties, inflows and outflows. Such measurements will provide crucial insight into quenching physics, galaxy dynamical masses, merger histories, pristine early star-formation, reionization and the physics of Little Red Dots, as well as enabling all of the emission-line science that can be achieved with shallower observations. To facilitate future survey planning, we present an empirically derived relationship between rest-optical continuum SNR in JWST NIRSpec medium-resolution data, rest- optical apparent magnitude and exposure time, which we show to be independent of redshift (and hence the grating used). We then provide a 1000-hour sketch survey plan based on achieving the continuum SNR $=20$/pixel necessary to constrain key physical properties and scaling relations for a large galaxy sample at $z>1.5$. We finally discuss NIRSpec sky subtraction strategies, which are of critical importance for continuum SNR.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Carnall}, Adam C.'), Person('{Leung}, Ho-Hin'), Person('{Stevenson}, Struan D.'), Person('{Taylor}, Elizabeth'), Person(\"{Abdurro'uf}\"), Person('{Antonogiannaki}, Stella'), Person('{Arellano-Cordova}, Karla Z.'), Person('{Baker}, William M.'), Person('{Barro}, Guillermo'), Person('{Basu}, Arghyadeep'), Person('{Begley}, Ryan'), Person('{Belli}, Sirio'), Person('{Berg}, Danielle A.'), Person('{Beverage}, Aliza G.'), Person('{Bezanson}, Rachel'), Person('{Bhattacharya}, Souradeep'), Person('{Bondestam}, Cecilia'), Person('{Bunker}, Andrew J.'), Person('{Burnham}, Emilie'), Person('{Cameron}, Alex J.'), Person('{Cheng}, Chloe M.'), Person('{Cheng}, Yingjie'), Person('{Cooper}, M. C.'), Person('{Cox}, Isa G.'), Person('{Cullen}, Fergus'), Person('{Curtis-Lake}, Emma'), Person('{Dave}, Romeel'), Person('{Davies}, Rebecca L.'), Person('{Dessauges-Zavadsky}, Miroslava'), Person('{Dickinson}, Mark'), Person('{Donnan}, Callum T.'), Person('{Duan}, Qiao'), Person('{Duncan}, Kenneth J.'), Person('{Dunlop}, James S.'), Person('{Faisst}, Andreas L.'), Person('{Finkelstein}, Steven L.'), Person('{Flury}, Sophia'), Person('{Gallazzi}, Anna R.'), Person('{Gargiulo}, Adriana'), Person('{Gillman}, Steven'), Person('{Glazebrook}, Karl'), Person('{Gupta}, Ansh R.'), Person('{Hathi}, Nimish P.'), Person('{Heintz}, Kasper E.'), Person('{Holst}, Isaac J. B.'), Person('{Ito}, Kei'), Person('{Jespersen}, Christian Kragh'), Person('{Kartaltepe}, Jeyhan S.'), Person('{Koekemoer}, Anton M.'), Person('{Kriek}, Mariska'), Person('{Langeroodi}, Danial'), Person('{Leja}, Joel'), Person('{Liang}, Yongming'), Person('{Liu}, Yuankang'), Person('{McLeod}, Derek J.'), Person('{McLure}, Ross'), Person('{Nakazato}, Yurina'), Person('{Nanayakkara}, Themiya'), Person('{Noirot}, Gael'), Person('{Ormerod}, Katherine'), Person('{Pan}, Richard'), Person('{Park}, Minjung'), Person('{Pascalau}, Robert'), Person('{Perez-Gonzalez}, Pablo G.'), Person('{Regos}, Eniko'), Person('{Rinaldi}, Pierluigi'), Person('{Rowland}, Lucie E.'), Person('{Rowlands}, Kate'), Person('{Sanders}, Ryan L.'), Person('{Sarzi}, Marc'), Person('{Shapley}, Alice E.'), Person('{Skarbinski}, Maya'), Person('{Slob}, Martje'), Person('{Stanton}, Thomas M.'), Person('{Sun}, Yang'), Person('{Terp}, Chamilla'), Person('{Valentino}, Francesco'), Person('{van der Wel}, Arjen'), Person('{Vink}, Jorick S.'), Person('{Wang}, Bingjie'), Person('{Wild}, Vivienne'), Person('{Wilkins}, Stephen M.'), Person('{Wu}, Po-Feng'), Person('{Zibetti}, Stefano')]",
+      "relevance_score": 4.8,
+      "justification": "This paper is relevant to LRD research mainly through its NIRSpec medium-resolution continuum survey strategy, SNR scaling relation, and sky-subtraction discussion, which could support future LRD continuum observations. However, LRDs are only a minor mention in a broad galaxy-evolution white paper, so it is not a core LRD reference.",
+      "key_factors": [
+        "NIRSpec medium-resolution continuum spectroscopy",
+        "SNR-exposure-magnitude relation",
+        "Sky-subtraction strategies",
+        "LRDs mentioned only as one science case",
+        "Not LRD-specific"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 2.5,
+          "reasoning": "The paper is a broad JWST/NIRSpec survey-strategy white paper, not an LRD-focused study. Little Red Dots are mentioned only briefly as one of many science cases enabled by deeper continuum spectroscopy, with no dedicated LRD sample, analysis, or discussion."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "The paper provides highly relevant NIRSpec MSA medium-resolution continuum spectroscopy strategy, including SNR-exposure-magnitude relations, survey planning, and sky-subtraction considerations. These techniques are directly applicable to future LRD continuum observations, though the paper does not tailor them specifically to LRDs."
+        },
+        "physical_properties": {
+          "score": 5.0,
+          "reasoning": "The proposed observations would constrain general galaxy physical properties such as stellar ages, metallicities, kinematics, neutral gas, and inflows/outflows. These could indirectly help interpret LRD host galaxies, but the paper does not address LRD-specific physical properties or diagnostics."
+        },
+        "scientific_impact": {
+          "score": 4.0,
+          "reasoning": "The white paper is likely impactful for high-redshift galaxy spectroscopy and JWST survey planning, but its impact on LRD research is indirect. It may enable better continuum measurements for LRDs if adopted, but it is not a key LRD reference on its own."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The paper presents an empirically derived SNR-magnitude-exposure relation and a detailed 1000-hour survey sketch, and discusses sky-subtraction strategies. The methodology appears useful and practical, though it is a planning/white-paper analysis rather than a data-driven LRD study."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM; useful for NIRSpec continuum survey planning and LRD follow-up strategy, but not a core LRD reference."
+    },
+    {
       "bibtex_key": "2026arXiv260601870T",
       "title": "{Mass and Spin Growth of Very Massive Stars in Star Clusters Potentially Associated with Little Red Dots}",
       "abstract": "{Using gravitational $N$-body simulations, we investigate the evolution of mass and spin for very massive stars (VMSs) in dense star clusters, which may be potentially associated with Little Red Dots (LRDs). Our results show that VMS masses can reach $10^3$--$10^4\\,M\\_\\odot$, depending on the initial conditions of the host clusters. Notably, the VMS mass increases by up to a factor of three when accounting for the bloated state at the Hayashi track induced by stellar collisions, provided that this state is maintained at accretion rates exceeding $3 \\times 10^{-2}\\,M\\_\\odot\\,{\\rm yr}^{-1}$. In all cases, the spin of the VMS, when normalized to the dimensionless black hole (BH) spin parameter, exceeds $10$. While our model may overestimate VMS masses and spins due to the omission of post-main-sequence evolution and the loss of mass and angular momentum during collisions, we nonetheless demonstrate that VMSs formed in dense star clusters can be highly spinning. Such a rapidly spinning VMS is expected to collapse into an intermediate-mass BH surrounded by a massive accretion disk. This BH-disk system could trigger powerful explosions and emit burst gravitational waves, similar to those observed in GW190521 and GW231123, for which the remnant BH masses are estimated to be $rsim 100\\,M\\_\\odot$.}",
@@ -23510,10 +23590,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.074400684931504,
+    "average_score": 8.068856655290105,
     "median_score": 8.4,
-    "high_relevance_count": 526,
-    "moderate_relevance_count": 38,
+    "high_relevance_count": 527,
+    "moderate_relevance_count": 39,
     "low_relevance_count": 20
   }
 }
