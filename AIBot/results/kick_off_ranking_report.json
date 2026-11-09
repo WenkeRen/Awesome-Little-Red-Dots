@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07T06:17:33.037930",
-  "total_papers": 250,
-  "successfully_scored": 250,
+  "generated_at": "2026-11-09T06:22:09.517415",
+  "total_papers": 252,
+  "successfully_scored": 252,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -8130,6 +8130,48 @@
       "notebooklm_recommendation": "Useful supporting reference for X-ray catalog methodology and AGN constraints in LRD studies; include as a data/methods reference, not as a core LRD theory paper."
     },
     {
+      "bibtex_key": "2025ApJ...988..110J",
+      "title": "{The Emerging Black Hole Mass Function in the High-redshift Universe}",
+      "abstract": "{Observations with the James Webb Space Telescope (JWST) have identified an abundant population of supermassive black holes (SMBHs) already in place during the first few hundred million years of cosmic history. Most of them appear overmassive relative to the stellar mass in their host systems, challenging models of early black hole seeding and growth. Multiple pathways exist to explain their formation, including heavy seeds formed from direct collapse/supermassive stars or sustained super-Eddington accretion onto light stellar remnant seeds. We use the semianalytical code Ancient Stars and Local Observables by Tracing Halos to predict the emerging SMBH mass function under physically motivated models for both light- and heavy-seed formation, to be compared with upcoming ultradeep JWST surveys. We find that both pathways can reproduce observations at z {\\ensuremath{\\sim}} 5─6, but have distinct features at higher redshifts of z {\\ensuremath{\\sim}} 10. Specifically, JWST observations have the potential to constrain the fraction of efficiently accreting (super-Eddington) SMBHs, as well as the existence and prevalence of heavy seeds, in particular through ultradeep observations of blank fields and/or gravitational lensing surveys. Such observations will provide key insights to understand the process of SMBH formation and evolution during the emergence of the first galaxies. We further emphasize the great promise of possible SMBH detections at z {\\ensuremath{\\gtrsim}} 15 with future JWST observations to break the degeneracy between light- and heavy-seed models.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Jeon}, Junehyoung'), Person('{Liu}, Boyuan'), Person('{Taylor}, Anthony J.'), Person('{Kokorev}, Vasily'), Person('{Chisholm}, John'), Person('{Kocevski}, Dale D.'), Person('{Finkelstein}, Steven L.'), Person('{Bromm}, Volker')]",
+      "relevance_score": 6.7,
+      "justification": "This is a solid theoretical reference for high-redshift SMBH seeding, overmassive black holes, and mass-function predictions, all of which are relevant to interpreting LRDs. However, it is not LRD-specific and offers limited direct observational or methodological connection to LRD research, so it serves as useful supporting context rather than a core LRD paper.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No explicit LRD discussion",
+        "SMBH seed-model framework",
+        "Overmassive BH demographics context",
+        "High-z mass-function predictions",
+        "Super-Eddington accretion relevance"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.0,
+          "reasoning": "The paper does not explicitly discuss Little Red Dots, but it directly informs the overmassive SMBH population, seed models, and super-Eddington accretion scenarios often invoked to interpret LRD AGN candidates. Its value is contextual rather than LRD-specific."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "An lrdIndex of 10 indicates moderate recognition by the LRD community as supporting theoretical context, but it is not among the most heavily cited core LRD papers."
+        },
+        "foundational_value": {
+          "score": 7.0,
+          "reasoning": "It provides semianalytical predictions for the high-redshift SMBH mass function under light- and heavy-seed models, offering a useful baseline for interpreting LRD number densities and black-hole/stellar-mass ratios."
+        },
+        "methodological_innovation": {
+          "score": 5.5,
+          "reasoning": "The A-SLOTH semianalytical modeling and light/heavy seed comparison are useful but not methodologically novel for LRD observers; the paper is primarily a theoretical forecasting study rather than an observational or LRD-specific technique paper."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "It gives strong high-redshift SMBH formation and evolution context, distinguishing seed pathways at z~10 and emphasizing z>15 tests, which is relevant for placing LRDs within early black-hole growth scenarios."
+        }
+      },
+      "notebooklm_recommendation": "Moderately useful supporting literature for NotebookLM; include for SMBH seeding and mass-function context when interpreting overmassive LRD AGN candidates, but not as a core LRD evidence paper."
+    },
+    {
       "bibtex_key": "2026ApJ..1003..244F",
       "title": "{A GLIMPSE of Intermediate Mass Black Holes in the Epoch of Reionization: Witnessing the Descendants of Direct Collapse?}",
       "abstract": "{JWST has revealed an abundance of supermassive black holes (BHs) in the early Universe, and yet the lowest mass seed BHs that gave rise to these populations remain elusive. Here, we present a systematic search for broad-line active galactic nuclei (AGNs) in some of the faintest high-z galaxies surveyed yet by combining ultra-deep JWST/NIRSpec G395M spectroscopy with the strong lensing aid in AS1063. By employing the profile of the [O III]{\\ensuremath{\\lambda}}5007 emission lines as a template for narrow-line components and carefully cross-validating with mock observations, we identify a sample of 10 broad-line AGNs at 4.5 < z < 7.0 (eight secure, two tentative). The inferred BH masses from the broad H{\\ensuremath{\\alpha}} line explore the intermediate BH mass regime down to {\\ensuremath{\\sim}}10$^{5.5}$ M$\\_{{\\ensuremath{\\odot}}}$. The stellar mass (M$\\_{*}$) is estimated with a galaxy+AGN composite model, and we find the BH to stellar mass ratio spans down to M$\\_{BH}$/M$\\_{*}$ {\\ensuremath{\\lesssim}} 0.1\\%, unveiling populations on the empirical M$\\_{BH}$─M$\\_{*}$ relation observed in the local Universe. We also derive the BH mass function and investigate its low-mass end at this epoch. While we confirm the agreement of our results with previous studies at M$\\_{BH}$ {\\ensuremath{\\gtrsim}} 10$^{6.5}$M$\\_{{\\ensuremath{\\odot}}}$, we find the mass range of {\\ensuremath{\\sim}}10$^{5.5}$ M$\\_{{\\ensuremath{\\odot}}}$ features an enhanced abundance with respect to the extrapolated best-fit Schechter function. Comparison with theoretical models suggests that a possible origin for this enhanced abundance is the direct-collapse BH formation, supporting the scenario that the direct collapse of massive gas clouds is a significant pathway for the earliest supermassive BHs.}",
@@ -8994,6 +9036,49 @@
         }
       },
       "notebooklm_recommendation": "Useful supporting reference for quasar comparison samples and BH mass/luminosity context; not a core LRD foundation paper."
+    },
+    {
+      "bibtex_key": "2026ApJ..1003..112B",
+      "title": "{A Fleeting GLIMPSE of N/O Enrichment at Cosmic Dawn: Evidence for Wolf Rayet N Stars in a z = 6.1 Galaxy}",
+      "abstract": "{We present the discovery of extreme nitrogen enrichment by Wolf Rayet nitrogen (WN) stars in the metal-poor ({\\ensuremath{\\sim}}10\\%Z$\\_{{\\ensuremath{\\odot}}}$), lensed, compact (R$\\_{eff}$ {\\ensuremath{\\sim}} 20 pc) galaxy RXCJ2248 at z = 6.1, revealed by unprecedentedly deep JWST/NIRSpec medium- resolution spectroscopy from the GLIMPSE-D Survey. The exquisite signal-to-noise ratio reveals multiple high-ionization nebular lines and broad Balmer and [O III] components (FWHM {\\ensuremath{\\sim}}700─3000 km s$^{{\\ensuremath{-}}1}$). We detect broadened He II {\\ensuremath{\\lambda}}1640 and {\\ensuremath{\\lambda}}4687 (FWHM {\\ensuremath{\\sim}} 530 km s$^{{\\ensuremath{-}}1}$) and strong N III {\\ensuremath{\\lambda}}4642 emission consistent with a population of WN stars, making RXCJ2248 the most distant galaxy with confirmed Wolf Rayet (WR) features to date. We measure the multiphase nebular density across five ions, the direct-method metallicity (12+log(O/H)=7.753{\\ensuremath{\\pm}}0.025), and a nonuniform elemental enrichment pattern of extreme N/O enhancement (log(N/O)={\\ensuremath{-}}0.391{\\ensuremath{\\pm}}0.037 from N$^{+}$, N$^{+2}$, and N$^{+3}$) but suppressed C/O relative to empirical C/N trends. We show that this abundance pattern can be explained by enrichment from a dual-burst with a low WR carbon/WN ratio, as expected at low metallicities. Crucially, these signatures can only arise during a brief, rare evolutionary window shortly after a burst ({\\ensuremath{\\sim}}3─6 Myr), when WN stars dominate chemical feedback but before dilution by later yields (e.g., supernovae). The observed frequency of strong N emitters at high{\\ensuremath{-}}z implies a {\\ensuremath{\\sim}}50 Myr burst duty cycle, suggesting that N/O outliers may represent a brief but ubiquitous phase in the evolution of highly star-forming early galaxies. The WN detection in RXCJ2248, therefore, provides the first direct evidence of WR-driven nitrogen enrichment in the first billion years of the Universe and a novel timing argument for the bursty star formation cycles that shaped galaxies at cosmic dawn.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Berg}, Danielle A.'), Person('{Naidu}, Rohan P.'), Person('{Chisholm}, John'), Person('{Atek}, Hakim'), Person('{Fujimoto}, Seiji'), Person('{Kokorev}, Vasily'), Person('{Furtak}, Lukas J.'), Person('{Kobayashi}, Chiaki'), Person('{Schaerer}, Daniel'), Person('{Adamo}, Angela'), Person('{Fei}, Qinyue'), Person('{Korber}, Damien'), Person('{Matthee}, Jorryt'), Person('{Marques-Chaves}, Rui'), Person('{Martinez}, Zorayda'), Person('{McQuinn}, Kristen. B. W.'), Person('{Mu{\\\\textasciitilde n}oz}, Julian B.'), Person('{Oesch}, Pascal A.'), Person('{Saldana-Lopez}, Alberto'), Person('{Stark}, Daniel P.'), Person('{Stephenson}, Mabel G.'), Person('{Hsiao}, Tiger Yu-Yang')]",
+      "relevance_score": 5.7,
+      "justification": "This is a valuable high-redshift stellar-enrichment paper with unique Wolf-Rayet and N/O results, and its JWST/NIRSpec analysis is relevant to interpreting compact high-z spectra. However, its connection to LRDs is indirect, and it is not a foundational LRD or AGN reference. The moderate lrdIndex=10 reflects supporting contextual value rather than core importance.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No direct LRD focus",
+        "First confirmed Wolf-Rayet galaxy at z=6.1",
+        "Extreme N/O enrichment and WN-star signatures",
+        "Broad He II/Balmer/[O III] components relevant to AGN-vs-stellar interpretation",
+        "Bursty star formation duty cycle at cosmic dawn",
+        "Deep JWST/NIRSpec medium-resolution spectroscopy"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 4.5,
+          "reasoning": "The paper is not directly about Little Red Dots and does not mention LRDs. Its relevance is indirect: it demonstrates that WR stars in a compact, metal-poor z=6.1 galaxy can produce broad He II, Balmer, and [O III] components plus extreme N/O enrichment, which is useful for interpreting LRD spectra and distinguishing stellar-wind/burst signatures from AGN broad-line emission. The lrdIndex=10 shows LRD researchers do cite it, but the connection is contextual rather than central."
+        },
+        "citation_frequency": {
+          "score": 6.5,
+          "reasoning": "lrdIndex=10 indicates moderate uptake by the LRD community. It is not a heavily cited foundational LRD reference, but 10 citations from LRD papers suggest it is used as supporting evidence for nitrogen enrichment, Wolf-Rayet features, broad stellar components, or bursty star formation at high redshift."
+        },
+        "foundational_value": {
+          "score": 5.0,
+          "reasoning": "The paper provides a unique observational result: the most distant confirmed Wolf-Rayet galaxy at z=6.1 and a timing argument for WN-dominated chemical feedback. However, it is not foundational for LRD/AGN physics or black hole evolution. Its value is as a high-z stellar enrichment and burst-cycle reference rather than a core LRD framework paper."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "The work uses deep JWST/NIRSpec medium-resolution spectroscopy to detect broad He II and high-ionization nebular lines, measure multiphase densities across five ions, and derive direct-method metallicity and N/O. These techniques are relevant to LRD spectral analysis, especially for separating broad stellar-wind components from AGN signatures, though the methods are not fundamentally new."
+        },
+        "evolutionary_context": {
+          "score": 6.5,
+          "reasoning": "The paper contributes a useful evolutionary context for cosmic-dawn galaxies: a brief WN-dominated phase after a burst and a ~50 Myr burst duty cycle can produce extreme N/O outliers. This is relevant to LRD host-galaxy evolution and bursty star formation interpretations, but it is not specifically framed around LRD or AGN evolutionary pathways."
+        }
+      },
+      "notebooklm_recommendation": "Useful supplementary context for N/O enrichment, Wolf-Rayet signatures, broad stellar components, and bursty star formation at high redshift; not a core LRD or AGN foundation reference."
     },
     {
       "bibtex_key": "2025NatAs...9..458M",
@@ -10272,11 +10357,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.4098000000000095,
+    "average_score": 7.400198412698423,
     "median_score": 7.9,
     "critical_count": 119,
-    "high_value_count": 93,
-    "moderate_value_count": 35,
+    "high_value_count": 94,
+    "moderate_value_count": 36,
     "low_priority_count": 3
   }
 }

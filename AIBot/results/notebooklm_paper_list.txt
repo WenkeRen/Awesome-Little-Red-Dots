@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-11-07T06:17:34.209384
+Generated: 2026-11-09T06:22:10.486643
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -559,6 +559,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.9] 2025arXiv251121820D
     Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy
 
+[8.9] 2026A&A...715A..57K
+    GLIMPSED: Direct evidence for a fast active galactic nucleus-driven outflow from a z = 6.64 little red dot host galaxy
+
 [8.9] 2026MNRAS.tmp..360D
     BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04
 
@@ -600,6 +603,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.8] 2025arXiv250604350Z
     JWST Insights into Narrow-line Little Red Dots
+
+[8.8] 2026A&A...715A.133M
+    Testing the black hole star model: A UV-to-optical spectral fitting of The Cliff
 
 [8.8] 2025arXiv250820177R
     MEGA: Spectrophotometric SED Fitting of Little Red Dots Detected in JWST MIRI
@@ -700,6 +706,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk
 
+[8.6] 2026OJAp....973389L
+    From ASTRID to BRAHMA - The role of overmassive black holes in little red dots in cosmological simulations
+
 [8.6] 2026arXiv260606575G
     The quasi-star model for Little Red Dots: potential and challenges
 
@@ -781,6 +790,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.5] 2025ApJ...980L..29A
     Strong Rest-UV Emission Lines in a ``Little Red Dot'' Active Galactic Nucleus at z = 7: Early Supermassive Black Hole Growth alongside Compact Massive Star Formation?
 
+[8.4] 2026A&A...715L...3A
+    A radio counterpart of the local little red dot J092359+415736
+
 [8.4] 2025arXiv250315323E
     Euclid Quick Data Release (Q1). Extending the quest for little red dots to z<4
 
@@ -813,6 +825,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.4] 2025arXiv251110725H
     Back to basics: Little Red Dots as galaxies and dust-obscured AGNs in a synthetic NIRCam sky simulated with L-GalaxiesBH
+
+[8.4] 2026MNRAS.tmp.1921S
+    The LUMINA Project: The Demographics of Active Galactic Nuclei from Quasars to Little Red Dots at z {\ensuremath{\geq}} 3
 
 [8.4] 2026arXiv260313736Z
     Blackbody Quasar and Radio Source (BBQSORS): A Candidate of Transitional Little Red Dots with a $T\sim10^4\ K$ Blackbody Spectrum
