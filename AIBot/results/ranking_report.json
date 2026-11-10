@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T06:19:20.302193",
-  "total_papers": 591,
-  "successfully_scored": 591,
+  "generated_at": "2026-11-10T06:17:24.111674",
+  "total_papers": 592,
+  "successfully_scored": 592,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -5431,6 +5431,46 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Demonstrates careful uncertainty quantification (e.g., σ_n = 22^{+5}_{-6} km/s), robust multi-component modeling, comparison of independent diagnostics, and utilization of high SNR data. Analysis appears thorough, though abstract provides limited discussion of potential systematic errors or alternative modeling approaches."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261109397I",
+      "title": "{Where the red rise stops: JWST/MIRI reveals a near-infrared turnover in the Little Red Dot Abell2744-QSO1}",
+      "abstract": "{Little Red Dots (LRDs) are compact sources with a blue rest-frame UV, a steep red optical continuum and, often, broad hydrogen lines. They have been interpreted as dense stellar systems, dust- reddened active galactic nuclei, or black holes embedded in dense, dust-poor gas, scenarios that are hard to tell apart in the rest-frame UV and optical. We present JWST/MIRI F770W and F1000W imaging of the triply lensed Abell2744-QSO1 at z=7.04, probing rest-frame 0.96 and 1.24um. QSO1 is unresolved, and its steep optical rise stops near rest-frame 1um. Up to 1.24um, a T\\raisebox{-0.5ex}\\textasciitilde4450K blackbody, or a hotter one reddened by dust, describes the continuum, with no sign of the hot dust seen in most type-1 quasars. Our statistically preferred SED fits produce the red continuum with (3-4)x10\\^9 Msun of stars, over 100 times the dynamical limit on the host mass, and are therefore disfavoured. An accretion disc in a dense gas cocoon respects this limit but over-predicts the 1.24um flux by 5 sigma. Super-Eddington accretion models with a thermalising envelope reproduce the turnover, but only for a black hole \\raisebox{-0.5ex}\\textasciitilde2.5dex less massive than the dynamical estimate. For a dust-reddened accretion disc (A\\_V \\raisebox{-0.5ex}\\textasciitilde 2 mag), dust at \\raisebox{-0.5ex}\\textasciitilde1200K can re-emit at most \\raisebox{-0.5ex}\\textasciitilde2 per cent of the absorbed luminosity, and most of it would have to emerge at \\raisebox{-0.5ex}\\textasciitilde70-600K, unless the dust covers only a small fraction of the sky. The dynamics favour an accretion-powered source, but our data cannot distinguish dust reddening from processing by dense gas. MIRI imaging at >18um could separate these scenarios.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Iani}, E.'), Person('{Rinaldi}, P.'), Person('{Torralba}, A.'), Person('{Matthee}, J.'), Person(\"{D'Eugenio}, F.\"), Person('{Gupta}, A.'), Person('{Mascia}, S.'), Person('{Di Cesare}, C.'), Person('{Oestlin}, G.'), Person('{Kotiwale}, G.'), Person('{Catone}, M.'), Person('{Rodighiero}, G.')]",
+      "relevance_score": 8.8,
+      "justification": "This paper is highly relevant to LRD research because it directly targets an LRD with JWST/MIRI and tests the leading physical interpretations of the red continuum. Its main limitation is that it studies a single lensed object and relies on SED/model inference, but it provides important new rest-frame near-infrared constraints on the LRD turnover.",
+      "key_factors": [
+        "Direct LRD target Abell2744-QSO1 at z=7.04",
+        "JWST/MIRI F770W and F1000W imaging",
+        "Rest-frame near-infrared turnover near 1 micron",
+        "Tests stellar, dust-reddened AGN, and dense-gas scenarios",
+        "Black hole mass, dynamical limit, and accretion-model constraints"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly focused on Little Red Dots, targeting the triply lensed LRD Abell2744-QSO1 at z=7.04 and addressing the nature of its red continuum and possible turnover. This is a direct, central contribution to LRD research."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study uses JWST/MIRI F770W and F1000W imaging to probe rest-frame 0.96 and 1.24 micron emission, directly relevant to LRD SEDs. Lensing aids depth, though the work is imaging-based rather than spectroscopic."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The abstract discusses black hole mass estimates, dynamical limits, stellar mass, accretion-disc models, dust reddening, Eddington/super-Eddington accretion, and dense-gas cocoon scenarios, all central to interpreting LRD physical properties."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The paper addresses the key LRD debate over stellar, dust-reddened AGN, and dense-gas/black-hole interpretations. Its impact is high for a single-object study, though broader statistical impact would require a larger sample."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis combines JWST/MIRI photometry, SED fitting, lensing constraints, dynamical mass limits, and explicit caveats about degeneracies. The abstract suggests a careful but model-dependent interpretation, with follow-up MIRI >18 micron imaging proposed to break degeneracies."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -23794,9 +23834,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.07351945854484,
+    "average_score": 8.074746621621628,
     "median_score": 8.4,
-    "high_relevance_count": 532,
+    "high_relevance_count": 533,
     "moderate_relevance_count": 39,
     "low_relevance_count": 20
   }

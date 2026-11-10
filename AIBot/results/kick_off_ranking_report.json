@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T06:22:09.517415",
-  "total_papers": 252,
-  "successfully_scored": 252,
+  "generated_at": "2026-11-10T06:18:52.163554",
+  "total_papers": 254,
+  "successfully_scored": 254,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -7758,6 +7758,48 @@
       "notebooklm_recommendation": "Useful supporting literature for NotebookLM: include for N-rich high-redshift spectra, GN-z11 AGN/proto-GC interpretations, and early black-hole-seed context, but not as a core LRD-specific foundation."
     },
     {
+      "bibtex_key": "2026MNRAS.545f1979G",
+      "title": "{JADES reveals a large population of low-mass black holes at high redshift}",
+      "abstract": "{James Webb Space Telescope (JWST) has revealed a large population of active galactic nuclei (AGNs) in the distant Universe, which are challenging our understanding of early massive black hole (BH) seeding and growth. We expand the exploration of this population to lower luminosities by stacking 600 NIRSpec grating spectra from the JWST Advanced Deep Extragalactic Survey (JADES) at , in bins of redshift, [O III]5007 luminosity and equivalent width, UV luminosity, and stellar mass. In multiple stacks, we detect a broad component of H without a counterpart in [O III], implying that it is not due to outflows but traces the broad-line region of a large population of low-luminosity AGNs not detected in individual spectra. The detection, in some stacks, of high [O III]4363/H , typical of AGNs, further confirms the detection of a large population of AGNs. We infer that the stacks probe BHs with masses of a few times accreting at rates 0.02─0.1, i.e. a low-mass and dormant parameter space poorly explored by previous studies on individual targets. We identify populations of BHs that fall within the scatter of the local scaling relation, indicating that there is a population of high-z BHs that are not overmassive relative to their host galaxies. Yet, on average, the stacks are still overmassive relative the local relation, with some of them 1─2 dex above it. We infer that the BH mass function at is consistent with models in which BHs evolve through short bursts of super-Eddington accretion.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Geris}, Sophia'), Person('{Maiolino}, Roberto'), Person('{Isobe}, Yuki'), Person('{Scholtz}, Jan'), Person(\"{D'Eugenio}, Francesco\"), Person('{Ji}, Xihan'), Person('{Juod{\\\\v{z}}balis}, Ignas'), Person('{Simmonds}, Charlotte'), Person('{Dayal}, Pratika'), Person('{Trinca}, Alessandro'), Person('{Schneider}, Raffaella'), Person('{Arribas}, Santiago'), Person('{Bhatawdekar}, Rachana'), Person('{Bunker}, Andrew J.'), Person('{Carniani}, Stefano'), Person(\"{Charlot}, St{\\\\'e}phane\"), Person('{Chevallard}, Jacopo'), Person('{Curtis-Lake}, Emma'), Person('{Johnson}, Benjamin D.'), Person('{Parlanti}, Eleonora'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person('{Tacchella}, Sandro'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Venturi}, Giacomo'), Person('{Williams}, Christina C.'), Person('{Witstok}, Joris')]",
+      "relevance_score": 7.0,
+      "justification": "This is a useful supporting paper for LRD research because it establishes a stacked population of low-luminosity, low-mass broad-Hα AGNs at high redshift and constrains BH scaling relations and super-Eddington growth scenarios. However, it lacks a direct LRD analysis or explicit LRD discussion, and its lrdIndex=10 reflects moderate rather than foundational uptake by the LRD community.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No direct LRD mention",
+        "Stacking of 600 JADES NIRSpec spectra",
+        "Low-mass AGN demographics at high redshift",
+        "Broad Hα without [O III] outflow counterpart",
+        "BH scaling relations and super-Eddington growth context"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "The paper does not explicitly discuss Little Red Dots, but it directly informs key LRD debates by identifying a large population of low-luminosity, low-mass broad-Hα AGNs at high redshift. Its results on broad Hα without an [O III] counterpart, low Eddington ratios, and BH scaling relations are relevant to interpreting LRDs as faint/dormant AGNs, though the connection is indirect."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "The lrdIndex of 10 indicates moderate uptake by LRD researchers. It clears the kick_off threshold and is meaningfully cited, but it is not among the most heavily cited foundational LRD papers."
+        },
+        "foundational_value": {
+          "score": 6.5,
+          "reasoning": "The paper provides useful demographic evidence for low-mass BHs and a BH mass function at high redshift, including short super-Eddington accretion bursts. This is valuable context for LRD evolutionary models, but it is not a foundational LRD-specific observational or theoretical paper."
+        },
+        "methodological_innovation": {
+          "score": 7.0,
+          "reasoning": "Stacking 600 JADES NIRSpec grating spectra to detect broad Hα from individually undetected low-luminosity AGNs is a useful and relatively novel methodology. The technique is relevant for LRD studies seeking to uncover faint AGN signatures in stacked or low-S/N data, though spectral stacking itself is not new."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "The paper strongly contributes to high-redshift BH growth context by showing a population of low-mass BHs with low accretion rates, some within local scaling relations and some overmassive, and by favoring super-Eddington burst growth. These scenarios are directly relevant to LRD interpretations involving early BH seeding, growth, and BH-host coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Moderately useful supplementary context; include for low-mass BH demographics, broad-Hα AGN selection, and super-Eddington growth scenarios, but not as a core LRD reference."
+    },
+    {
       "bibtex_key": "2025A&A...696A..48D",
       "title": "{Estimating masses of supermassive black holes in active galactic nuclei from the H{\\ensuremath{\\alpha}} emission line}",
       "abstract": "{Aims. The goal of this project is to construct an estimator for the masses of supermassive black holes in active galactic nuclei (AGNs) based on the broad H{\\ensuremath{\\alpha}} emission line. Methods. We made use of published reverberation mapping data. We remeasured all H{\\ensuremath{\\alpha}} time lags from the original data as we find that reverberation measurements are often improved by detrending the light curves. Results. We produced mass estimators that require only the H{\\ensuremath{\\alpha}} luminosity and the width of the H{\\ensuremath{\\alpha}} emission line as characterized by either the full width at half maximum or the line dispersion. Conclusions. It is possible, on the basis of a single spectrum covering the H{\\ensuremath{\\alpha}} emission line, to estimate the mass of the central supermassive black hole in AGNs with all three parameters believed to affect mass measurement ─ luminosity, line width, and Eddington ratio ─ taken into account. The typical formal accuracy in such estimates is of order 0.2─0.3 dex relative to the reverberation-based masses.}",
@@ -8416,6 +8458,47 @@
         }
       },
       "notebooklm_recommendation": "Moderate-priority supporting literature for SMS and heavy-seed interpretations of LRDs; useful for contextualizing metal-enriched black hole seed formation, but not a core LRD reference."
+    },
+    {
+      "bibtex_key": "2025A&A...702A..50M",
+      "title": "{GA-NIFS and EIGER: A merging quasar host at z = 7 with an overmassive black hole}",
+      "abstract": "{The James Webb Space Telescope is revolutionising our ability to understand the host galaxies and local environments of high-z quasars. Here we obtain a comprehensive understanding of the host galaxy of the z = 7.08 quasar J1120+0641 by combining NIRSpec integral field spectroscopy with NIRCam photometry of the host continuum emission. Our emission-line maps reveal that this quasar host is undergoing a merger with a bright companion galaxy. The quasar host and the companion have similar dynamical masses of {\\ensuremath{\\sim}}{}10$^{10}$ M$\\_{{\\ensuremath{\\odot}}}$, suggesting that this is a major galaxy interaction. Through detailed quasar subtraction and SED fitting using the NIRCam data, we obtained an estimate of the host stellar mass of M$\\_{*}$ = (3.0$\\_{{\\ensuremath{-}}1.4}$$^{+2.5}$) {\\texttimes} {}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$, with M$\\_{{\\ensuremath{*}}}$ = (2.7$\\_{{\\ensuremath{-}}0.5}$$^{+0.5}$) {\\texttimes} {}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$ for the companion galaxy. Using the H{\\ensuremath{\\beta}} Balmer line, we estimated a virial black hole mass of M$\\_{BH}$ = (1.9$\\_{{\\ensuremath{-}}1.1}$$^{+2.9}$) {\\texttimes} {}10$^{9}$ M$\\_{{\\ensuremath{\\odot}}}$. Thus, J1120+0641 has an extreme black hole─stellar mass ratio of M$\\_{BH}$/M$\\_{*}$ = 0.63$\\_{{\\ensuremath{-}}0.31}$$^{+0.54}$, which is {\\ensuremath{\\sim}}3 dex larger than expected by the local scaling relations between black hole and stellar mass. J1120+0641 is powered by an overmassive black hole with the highest reported black hole─stellar mass ratio in a quasar host that is currently undergoing a major merger. These new insights highlight the power of JWST for measuring and understanding these extreme first quasars.}",
+      "lrdIndex": 9,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Marshall}, Madeline A.'), Person('{Yue}, Minghao'), Person('{Eilers}, Anna-Christina'), Person('{Scholtz}, Jan'), Person('{Perna}, Michele'), Person('{Willott}, Chris J.'), Person('{Maiolino}, Roberto'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Arribas}, Santiago'), Person('{Bunker}, Andrew J.'), Person('{Charlot}, Stephane'), Person(\"{Rodr{\\\\'\\\\i}guez Del Pino}, Bruno\"), Person('{B{\\\\\"o}ker}, Torsten'), Person('{Carniani}, Stefano'), Person('{Circosta}, Chiara'), Person('{Cresci}, Giovanni'), Person(\"{D'Eugenio}, Francesco\"), Person('{Jones}, Gareth C.'), Person('{Venturi}, Giacomo'), Person('{Bordoloi}, Rongmon'), Person('{Kashino}, Daichi'), Person('{Mackenzie}, Ruari'), Person('{Matthee}, Jorryt'), Person('{Naidu}, Rohan'), Person('{Simcoe}, Robert A.')]",
+      "relevance_score": 6.5,
+      "justification": "This paper is valuable supporting literature for LRD research because it provides a clear z=7 example of an overmassive black hole in a merging quasar host, directly relevant to LRD interpretations involving extreme BH-stellar mass ratios and early mergers. However, it is not an LRD-specific study and its methods and conclusions are largely established, limiting its unique foundational value.",
+      "key_factors": [
+        "lrdIndex=9",
+        "Extreme M_BH/M_* ~ 0.63 at z=7.08",
+        "Major merger in a high-z quasar host",
+        "JWST NIRSpec IFU + NIRCam quasar subtraction",
+        "Indirect support for overmassive-BH LRD scenarios"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.0,
+          "reasoning": "The paper does not directly study Little Red Dots, but its extreme overmassive black hole (M_BH/M_* ~ 0.63) in a z=7 quasar host and evidence for a major merger are highly relevant to LRD interpretations involving overmassive BHs and early BH-galaxy coevolution. It provides an empirical anchor for similar extreme systems, though it lacks LRD-specific observables such as compact dust-reddened morphology or Balmer-break diagnostics."
+        },
+        "citation_frequency": {
+          "score": 6.5,
+          "reasoning": "lrdIndex=9 indicates moderate uptake by LRD researchers. It is cited enough to be part of the supporting kick_off literature, but not among the most heavily referenced LRD-defining papers."
+        },
+        "foundational_value": {
+          "score": 6.5,
+          "reasoning": "The paper supplies a concrete high-z measurement of an extreme BH-stellar mass ratio and a major merger in a quasar host. This is useful supporting evidence for LRD scenarios invoking overmassive BHs and mergers, but it is not a foundational LRD paper and does not establish LRD phenomenology."
+        },
+        "methodological_innovation": {
+          "score": 6.5,
+          "reasoning": "The combination of NIRSpec integral field spectroscopy, NIRCam photometry, quasar subtraction, dynamical mass estimates, H-beta virial BH mass, and SED fitting is technically strong and useful for LRD host studies. However, the methods are largely established rather than methodologically novel."
+        },
+        "evolutionary_context": {
+          "score": 7.5,
+          "reasoning": "The z=7.08 quasar host with an overmassive BH and a major merger provides important evolutionary context for early BH growth, BH-galaxy coevolution, and possible pathways linking high-z AGN to overmassive LRD-like systems. It strengthens the case that extreme BH-to-stellar mass ratios appear in the early universe."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for overmassive BHs and mergers at high redshift; not a critical LRD-defining foundation."
     },
     {
       "bibtex_key": "2023ApJ...951L...5Y",
@@ -10357,10 +10440,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.400198412698423,
+    "average_score": 7.39507874015749,
     "median_score": 7.9,
     "critical_count": 119,
-    "high_value_count": 94,
+    "high_value_count": 96,
     "moderate_value_count": 36,
     "low_priority_count": 3
   }
