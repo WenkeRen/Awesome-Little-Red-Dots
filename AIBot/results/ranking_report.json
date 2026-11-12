@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T06:17:43.151697",
-  "total_papers": 592,
-  "successfully_scored": 592,
+  "generated_at": "2026-11-12T06:19:27.432926",
+  "total_papers": 593,
+  "successfully_scored": 593,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -20680,6 +20680,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261112861B",
+      "title": "{Little Red Dots from Primordial Black Holes: Non-Gaussianity and Accretion Evade $μ$-Distortion Constraints}",
+      "abstract": "{Recent JWST observations of ``Little Red Dots'' (LRDs) at $z rsim 4$ suggest the existence of early supermassive black holes (SMBHs) with masses $rsim 10^6\\,M\\_\\odot$. Their rapid emergence challenges conventional seeding and growth scenarios based on accretion and mergers of Population III stellar remnants, motivating renewed interest in primordial black holes (PBHs) formed from primordial perturbations. Explaining such massive seeds requires power spectrum enhancements that are constrained by cosmic microwave background (CMB) spectral distortions. In this work we perform the first comprehensive Bayesian exploration of non-Gaussian primordial perturbations capable of producing SMBH seeds while remaining consistent with CMB spectral distortion constraints, and examine the role of accretion history in constraining these models. We perform a suite of Markov chain Monte Carlo analyses of power spectrum enhancements (lognormal and cut-power-law) with varying local non-Gaussianity and accretion histories, satisfying the COBE/FIRAS $μ$-distortion constraint with and without the requirement that the model produces SMBH seeds. We find that both models can seed LRDs and evade $μ$-distortion bounds for $|f\\_{\\rm NL}|= O(1)$ and peak amplitude $A= O(10^{-3})$, when standard Eddington-limited accretion is also incorporated. Interestingly, the results exhibit a preference for both positive and negative values of $f\\_{\\rm NL}$. The preference for negative $f\\_{\\rm NL}$ is strongly dependent on the accretion history, and is removed if the black holes have a small duty cycle, $f\\_{\\rm duty}\\lesssim 0.1$. These results demonstrate that the JWST high-$z$ LRD population can be seeded by primordial perturbations while remaining compatible with CMB data, and highlight the importance of next-generation CMB spectral distortion missions to test this hypothesis.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Balaji}, Shyam'), Person('{Cyr}, Bryce'), Person('{Geller}, Sarah R.'), Person('{Kaiser}, David I.'), Person('{Lorenzoni}, Dario L.'), Person('{McDonough}, Evan'), Person('{Qin}, Wenzer')]",
+      "relevance_score": 7.3,
+      "justification": "This paper is highly relevant to the theoretical question of LRD origins, especially primordial black hole seeding and accretion constraints, and it uses rigorous Bayesian methods with CMB mu-distortion limits. However, it does not use direct JWST LRD observations or detailed LRD spectral/photometric modeling, which lowers its relevance for observational LRD technique and property studies.",
+      "key_factors": [
+        "Explicit LRD and primordial black hole seeding focus",
+        "CMB mu-distortion constraints on primordial perturbations",
+        "Bayesian MCMC analysis of non-Gaussianity and accretion histories",
+        "SMBH seed masses and duty-cycle dependence",
+        "No direct JWST LRD data or spectral modeling"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper explicitly targets Little Red Dots and their possible primordial black hole seeding, making LRDs central to the motivation and conclusions. However, it treats LRDs as a population-level motivation rather than analyzing individual LRD observables."
+        },
+        "observational_techniques": {
+          "score": 4.5,
+          "reasoning": "The work relies on CMB spectral distortion constraints (COBE/FIRAS) and theoretical MCMC modeling rather than direct JWST LRD imaging or spectroscopy. It references JWST observations but does not employ LRD observational data or techniques."
+        },
+        "physical_properties": {
+          "score": 7.5,
+          "reasoning": "The paper addresses key physical properties relevant to LRDs, including SMBH seed masses around 10^6 solar masses, accretion histories, Eddington-limited accretion, duty cycles, and primordial non-Gaussianity. It does not model LRD spectral energy distributions or detailed photometric properties."
+        },
+        "scientific_impact": {
+          "score": 7.5,
+          "reasoning": "The study provides a theoretically important pathway for explaining LRD SMBH seeds while satisfying CMB mu-distortion bounds, and it highlights prospects for next-generation CMB missions. Its impact is primarily theoretical and indirect for observational LRD research."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The paper performs a comprehensive Bayesian MCMC exploration of non-Gaussian power spectrum enhancements, varying accretion histories and duty cycles, and applies CMB spectral distortion constraints. The methodology is well matched to the theoretical question."
+        }
+      },
+      "notebooklm_recommendation": "Medium-high priority for NotebookLM; valuable for theoretical LRD seeding and PBH context, but not a primary observational LRD paper."
+    },
+    {
       "bibtex_key": "2026arXiv261103819H",
       "title": "{Towards Self-consistent Modeling of Quasi-Stars and their NLTE Spectra: Implications for Little Red Dots}",
       "abstract": "{Quasi-stars, massive envelopes surrounding rapidly accreting black hole (BH) seeds, are promising candidates for explaining the rapid formation of supermassive black holes in the early Universe and may account for some of the JWST-discovered Little Red Dots (LRDs). We present a self-consistent framework combining stellar evolution calculations with non-local thermodynamic equilibrium (NLTE) spectral synthesis to test this connection. Our models drop the polytropic assumptions of previous work: the envelope is described entirely by mixing-length theory, with saturated convection and radiative energy setting the luminosity at an inner boundary a few hundred Schwarzschild radii from the BH. This removes the BH-mass limits of earlier models, and we follow the evolution up to BH-to-total mass ratios approaching unity. We then use TLUSTY to compute the first converged NLTE atmospheric models for the surface conditions and primordial hydrogen-helium composition expected in quasi-stars. Our models produce cool photospheres, prominent Balmer breaks, and Balmer and Paschen absorption features. NLTE effects substantially modify line strengths, increasing Balmer absorption depths by $\\sim 35-55\\%$ relative to LTE models, while having a minor effect on the continuum. Comparison with observed LRD spectral energy distributions shows broad agreement in continuum shape, although our models do not reproduce their commonly observed strong emission lines. Under the quasi-star interpretation, comparisons with individual LRDs suggest characteristic quasi- star masses of approximately $10^5-10^7 M\\_\\odot$. These results establish a physically motivated connection between quasi-star evolution and observable spectra, providing a framework for testing quasi-stars as progenitors of LRDs while identifying limitations of current atmospheric models.}",
@@ -23834,9 +23874,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.07474662162163,
+    "average_score": 8.073440134907258,
     "median_score": 8.4,
-    "high_relevance_count": 533,
+    "high_relevance_count": 534,
     "moderate_relevance_count": 39,
     "low_relevance_count": 20
   }
