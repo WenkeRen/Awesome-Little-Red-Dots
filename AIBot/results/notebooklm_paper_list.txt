@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-11-12T06:19:31.549209
+Generated: 2026-11-16T06:18:51.187358
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -661,6 +661,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [8.7] 2025arXiv251006362N
     Evidence of violation of Case B recombination in Little Red Dots
 
+[8.7] 2026ApJ..1012....4K
+    ATLAS. III. Dust around Little Red Dots: Hydrogen Line Ratios beyond Dust-free Non-Case B Models
+
 [8.7] 2026MNRAS.tmp..112J
     BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50
 
@@ -702,6 +705,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.7] 2025arXiv251203239B
     (Re)solving the complex multi-scale morphology and V-shaped SED of a newly discovered strongly-lensed Little Red Dot in Abell 383
+
+[8.6] 2026MNRAS.tmp.1966J
+    An (in)complete NIRSpec census of Balmer absorption in Type 1 AGN - radiation-driven outflows in little red dots, quasars and variable stars
 
 [8.6] 2025arXiv250512719Z
     The Composite Spectrum of the Little Red Dots from an Inner Standard Disk and an Outer Gravitationally Unstable Disk

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T06:19:27.432926",
-  "total_papers": 593,
-  "successfully_scored": 593,
+  "generated_at": "2026-11-16T06:18:47.416571",
+  "total_papers": 597,
+  "successfully_scored": 597,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -6806,6 +6806,48 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1012....4K",
+      "title": "{ATLAS. III. Dust around Little Red Dots: Hydrogen Line Ratios beyond Dust-free Non-Case B Models}",
+      "abstract": "{We investigate broad hydrogen line ratios in little red dots (LRDs) using five high-redshift (z > 2) sources from James Webb Space Telescope (JWST) Near Infrared Spectrograph (NIRSpec) medium/high-resolution spectra in the DAWN JWST Archive (DJA) and 15 low-redshift sources (z = 0.1--0.9) from the literature, all with broad H{\\ensuremath{\\beta}} detected at >5{\\ensuremath{\\sigma}}. After carefully measuring the broad- line fluxes while accounting for absorption features and neighboring emission lines, we find that the broad H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} ratios are very high, ranging from 6 to 30, well above the Case B recombination value. Using plane-parallel CLOUDY photoionization models with the total line emission from both sides of the slab, we investigate the physical origin of the broad hydrogen line ratios beyond Case B, jointly modeling the Balmer and Paschen line ratios for the subset of one high-z and two low-z LRDs with detected broad Paschen lines. We find that one low-z LRD is reproduced by a high gas number density (log(nH/cm-3)\\raisebox{-0.5ex}\\textasciitilde10--11) on the broad-line H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}}--Pa{\\ens uremath{\\beta}}/Pa{\\ensuremath{\\gamma}} plane, whereas the remaining two LRDs additionally require substantial dust extinction of E(B - V) {\\ensuremath{\\gtrsim}} 0.2, even after accounting for non-Case B effects. Since the narrow H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} ratios do not indicate such large dust extinction, these results demonstrate that the obscuring dust is spatially associated with the broad- line region. Even without Paschen-line measurements, two and eight LRDs in the high- and low-redshift samples, respectively, exhibit H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} > 13, which cannot be reproduced by the non-Case B models, suggesting that dust obscuration might be common among LRDs, occurring in at least about half of the population. Such dust may represent a lower-column-density counterpart of the dusty torus in active galactic nuclei, reconciling the weak hot-dust emission.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Kiyota}, Tomokazu'), Person('{Ouchi}, Masami'), Person('{Yanagisawa}, Hiroto'), Person('{Ando}, Makoto'), Person('{Harikane}, Yuichi'), Person('{Kageura}, Yuta'), Person('{Nakane}, Minami'), Person('{Nakazato}, Yurina'), Person('{Ono}, Yoshiaki'), Person('{Takeda}, Yui')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research because it directly investigates broad hydrogen line ratios, non-Case B effects, and dust obscuration in LRDs using JWST NIRSpec data and photoionization modeling. It provides important constraints on broad-line region density and dust geometry, with implications for the weak hot-dust emission in LRDs, though the high-redshift sample is small.",
+      "key_factors": [
+        "Directly focused on Little Red Dots",
+        "JWST NIRSpec medium/high-resolution spectra",
+        "Broad Hα/Hβ and Paschen line ratio measurements",
+        "CLOUDY non-Case B photoionization modeling",
+        "Dust spatially associated with the broad-line region",
+        "Suggests dust obscuration common in ~half of LRDs",
+        "Small high-redshift sample limits statistical strength"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly and centrally about Little Red Dots, specifically broad hydrogen line ratios, dust obscuration, and physical conditions in LRD broad-line regions. It uses LRD samples at both high and low redshift and explicitly interprets results in the context of the LRD population and AGN-like dust structures."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The study relies on JWST NIRSpec medium/high-resolution spectra from the DAWN JWST Archive for five z > 2 LRDs, with broad Hβ detected at >5σ, and compares to 15 low-redshift literature sources. It measures broad Hα/Hβ and Paschen line ratios, carefully accounting for absorption and neighboring emission lines."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper constrains key LRD physical properties: broad-line gas density, non-Case B recombination effects, dust extinction spatially associated with the broad-line region, and a possible lower-column-density counterpart to the AGN dusty torus. These are central to understanding LRD emission mechanisms and dust geometry."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The results address the origin of high Hα/Hβ ratios in LRDs and suggest dust obscuration may be common in at least about half of the population, helping reconcile weak hot-dust emission. Impact is somewhat limited by the small high-redshift sample (five sources) and the even smaller Paschen-line subset, but the implications for LRD dust and broad-line region models are significant."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis uses careful broad-line flux measurements and plane-parallel CLOUDY photoionization models, jointly modeling Balmer and Paschen ratios where available. Limitations include the small high-z sample, reliance on low-z literature sources, and model-dependent assumptions, but the methodology is appropriate and well motivated."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026MNRAS.tmp..112J",
       "title": "{BlackTHUNDER: Shedding light on a dormant and extreme little red dot at z = 8.50}",
       "abstract": "{Recent photometric surveys with JWST have revealed a significant population of mysterious objects with red colours, compact morphologies, frequent signs of active galactic nucleus (AGN) activity, and negligible X-ray emission. These 'Little Red Dots' (LRDs) have been explored through spectral and photometric studies, but their nature is still under debate. As part of the BlackTHUNDER survey, we have observed UNCOVER\\_20466, one of the most distant LRDs known (z = 8.5), with the JWST/NIRSpec IFU. Previous JWST/NIRCam and JWST/NIRSpec MSA observations of this source revealed its LRD nature, as well as the presence of an AGN. Using our NIRSpec IFU data, we confirm that UNCOVER\\_20466 is an LRD (based on spectral slopes and compactness) that contains an overmassive black hole. However, our observed Balmer decrements do not suggest strong dust attenuation, resulting in a lower -based bolometric luminosity and {\\ensuremath{\\lambda}}$\\_{Edd}$ () than previously found. This source lies on local relations between M$\\_{BH}$ - {\\ensuremath{\\sigma}}$\\_{*}$ and M$\\_{BH}$ - M$\\_{dyn}$, suggesting that this could be a progenitor of the core of a lower-redshift galaxy. We explore the possible evolution of this source, finding evidence for substantial black hole accretion in the past and a likely origin as a heavy seed at high redshift (\\raisebox{-0.5ex}\\textasciitilde{}10$^{3}$ M$\\_{{\\ensuremath{\\odot}}}$). emission is strongly detected, implying . The extremely high / ratio is indicative of not only AGN photoionization and heating, but also extremely high densities (), suggesting that this black hole at such high redshift may be forming in an ultra-dense protogalaxy.}",
@@ -8378,6 +8420,47 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "Demonstrates strong consistency through multiple independent techniques (continuum fitting, emission line modeling, Balmer decrement, morphological decomposition) that converge on a coherent physical picture with properly quantified uncertainties."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026MNRAS.tmp.1966J",
+      "title": "{An (in)complete NIRSpec census of Balmer absorption in Type 1 AGN - radiation-driven outflows in little red dots, quasars and variable stars}",
+      "abstract": "{A notable achievement of the first generation of JWST surveys was the discovery of an abundance of faint high-redshift (z > 4) broad- line active galactic nuclei (AGN) in the L$\\_{bol}$ < {}10$^{45}$ erg s$^{-1}$ regime, previously only accessible at z < 1. The high prevalence of absorption features in their broad hydrogen lines is one of the peculiarities of a significant fraction of this new population. In this paper, we conduct a broad census of Balmer absorption in a sample of 47 Type-1 AGN spanning 2 < z < 7. Accounting for incompleteness of JWST spectroscopic data, we estimate that \\% of Little Red Dots (LRDs) have absorption in H{\\ensuremath{\\alpha}} while the incidence rate is <25 \\% (at 2{\\ensuremath{\\sigma}}) in Little Blue Dots (LBDs). Additionally, R1000 JWST/NIRSpec data is strongly resolution limited, implying an inability to disentangle Doppler broadening in the absorption from optical depth effects. This is alleviated with R2700 observations, although some degeneracies remain. We find a significant correlation between the velocity of the Balmer absorption and the [OIII]5007 narrow line luminosity, suggesting a common driving mechanism. We do not find any other significant correlations (and do not confirm previously claimed correlations) between Balmer absorption and other spectral properties of LRDs (except for the expected correlation between H{\\ensuremath{\\alpha}} and H{\\ensuremath{\\beta}} absorption velocities). Comparing LRDs, quasars and stellar H{\\ensuremath{\\alpha}} absorbers, we establish that absorption in both LRDs and broad absorption line quasars is consistent with radiatively driven outflows, echoing the physics of variable stars yet occurring at vastly different scales.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Juodz̭balis}, Ignas'), Person('{Ji}, Xihan'), Person(\"{D'Eugenio}, Francesco\"), Person('{Scholtz}, Jan'), Person('{Maiolino}, Roberto'), Person('{Stoffers}, Amanda'), Person('{Marconi}, Alessandro'), Person('{Bertola}, Elena'), Person('{Bunker}, Andrew J.'), Person('{Carniani}, Stefano'), Person('{Cresci}, Giovanni'), Person('{Curtis-Lake}, Emma'), Person('{Ma}, Zheng'), Person('{Marconcini}, Cosimo'), Person('{Parlanti}, Eleonora'), Person('{Rinaldi}, Pierluigi'), Person('{Robertson}, Brant'), Person('{{\\\\\"U}bler}, Hannah'), Person('{Venturi}, Giacomo'), Person('{Zhang}, Junyu')]",
+      "relevance_score": 8.6,
+      "justification": "This paper is highly relevant to LRD research because it directly measures Balmer absorption incidence in LRDs and interprets the absorption as radiatively driven outflows using JWST/NIRSpec spectroscopy. Its sample of 47 Type 1 AGN and comparison with LBDs, quasars, and stellar absorbers provide important physical context, though the incomplete census and spectral degeneracies keep it below the highest possible relevance score.",
+      "key_factors": [
+        "Direct LRD Hα absorption census",
+        "JWST/NIRSpec R1000 and R2700 spectroscopy",
+        "47 Type 1 AGN at 2 < z < 7",
+        "Radiatively driven outflow interpretation",
+        "LRD versus LBD absorption incidence comparison",
+        "Resolution and incompleteness caveats"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper directly targets Little Red Dots, explicitly estimating the incidence of Hα absorption in LRDs and comparing them with Little Blue Dots, quasars, and stellar Hα absorbers. Its central goal is to characterize Balmer absorption and radiatively driven outflows in LRDs, making LRD physics a primary focus rather than a peripheral application."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The study uses JWST/NIRSpec spectroscopy, including R1000 and R2700 data, for a sample of 47 Type 1 AGN spanning 2 < z < 7. It explicitly discusses resolution limitations and the improved ability of R2700 observations to disentangle Doppler broadening from optical-depth effects, which is highly relevant to LRD spectral analyses."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper investigates Balmer absorption, outflow kinematics, and a correlation between absorption velocity and [OIII]5007 narrow-line luminosity. It connects LRD absorption to radiatively driven outflows and compares the physics with broad absorption line quasars and variable stars, providing useful constraints on LRD/AGN spectral properties."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The work addresses a key open question in LRD research: the origin of broad hydrogen absorption and whether it signals outflows. However, the census is described as incomplete, the sample is modest, and several correlations are not confirmed, so the immediate impact is strong but not transformative."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The analysis accounts for JWST spectroscopic incompleteness and carefully discusses spectral-resolution limitations and remaining degeneracies. Nevertheless, the incomplete census, modest sample size, and unresolved degeneracies in some measurements limit the robustness of the conclusions compared with a complete, higher-resolution survey."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -22638,6 +22721,46 @@
       "notebooklm_recommendation": "Low priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026MNRAS.tmp.1981C",
+      "title": "{A two-phase model of galaxy formation: IV. Seeding and growing supermassive black holes in dark matter halos}",
+      "abstract": "{We present a theoretical framework for seeding and growing supermassive black holes (SMBHs) in dark matter halos along their assembly histories. Seeds are bred out of Pop-III stars formed during the first collapse of pristine gas in mini-halos that have reached the H$\\_{2}$-cooling limit, modulated by UV radiation from star formation and dynamical heating from fast halo assembly. Such breeding persists until the enrichment of the intergalactic medium (IGM) enables Pop-II stars to form. Post-seeding growth of black holes (BHs) is driven by distinct channels, starting with episodic super-Eddington accretion associated with nuclear bursts induced by global disturbances of galaxies, followed by sustained sub-Eddington accretion via capturing sub-clouds formed in self-gravitating gas clouds (SGCs) in halos of fast assembly, and ending with merger-dominated, quiescent growth. We implement the model in subhalo merger trees to build a coherent framework to follow SMBH-galaxy-halo co-evolution across the whole history and structural hierarchy. BH seeds are bred with a broad mass spectrum of -{}10$^{5}$ M$\\_{{\\ensuremath{\\odot}}}$ at z ≍ 20-30 in mini-halos with masses of {}10$^{5}$-{}10$^{8}$ M$\\_{{\\ensuremath{\\odot}}}$. Nuclear bursts provide the key condition for seeds to grow into SMBHs. The -M$\\_{*}$ relation is a multi-piece, redshift-dependent function shaped by the interplay among different growth channels. Our model predictions are broadly consistent with existing observations; in particular, a population of BHs reminiscent of 'little red dots' (LRDs) discovered by JWST naturally results from the seeding and growing processes. Potential future tests of the model are discussed.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chen}, Yangyao'), Person('{Mo}, Houjun'), Person('{Wang}, Huiyuan')]",
+      "relevance_score": 5.6,
+      "justification": "This paper is relevant to LRD research because it presents a theoretical framework in which an LRD-like black hole population arises naturally from SMBH seeding and growth. However, it is not an LRD-focused or observational study, so its direct relevance is moderate and mainly useful for theoretical context.",
+      "key_factors": [
+        "Theoretical SMBH seeding and growth model",
+        "Predicts an LRD-like population as a natural outcome",
+        "Subhalo merger-tree implementation",
+        "SMBH-galaxy-halo co-evolution framework",
+        "No direct JWST or LRD observational analysis"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 5.0,
+          "reasoning": "The paper is primarily a general theoretical model for SMBH seeding and growth in dark matter halos. LRDs are mentioned as a natural consequence of the model, but they are not the central subject or primary target of the work."
+        },
+        "observational_techniques": {
+          "score": 2.5,
+          "reasoning": "This is a purely theoretical/modeling paper with no direct observational analysis, JWST data reduction, or new observational methodology. It only compares model predictions broadly with existing observations, including JWST-discovered LRDs."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The paper provides a detailed physical framework for SMBH seed masses, accretion growth channels, halo assembly, and the BH mass-stellar mass relation across redshift. These are highly relevant to interpreting LRD black hole properties, though the paper does not directly model LRD-specific observables such as compactness, colors, or variability."
+        },
+        "scientific_impact": {
+          "score": 6.0,
+          "reasoning": "The model offers a broad co-evolution framework and claims that an LRD-like population emerges naturally, which could be impactful for theoretical interpretation. However, the LRD connection is a secondary prediction rather than a focused result."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The framework is implemented in subhalo merger trees and includes multiple growth channels with clear physical motivations. From the abstract alone, the methodology appears coherent and well-structured, though detailed validation and assumptions cannot be fully assessed."
+        }
+      },
+      "notebooklm_recommendation": "Moderate priority for NotebookLM; useful for theoretical context on LRD black hole seeding and growth, but not a primary LRD observational reference."
+    },
+    {
       "bibtex_key": "2026arXiv260111704D",
       "title": "{Hedorah, the first yellow supergiant Kaiju star candidate at $z\\approx3$ revealed by behind AS1063}",
       "abstract": "{We present a new free-form lens model for the $z=0.348$ galaxy cluster AS1063, based on previously spectroscopically confirmed lensed galaxies and new images from the GLIMPSE program. We use the ultra-deep data to identify new counterimages for previously confirmed (spectroscopically) lensed systems. We use the full set of spectroscopically confirmed systems to derive a new lens model, which is later used to confirm many of the previous lensed system candidates and discover new lensed system candidates in the images. We compute the geometric redshifts, time delays, and magnification for all counterimages (confirmed and not confirmed). Among the new systems we find a peculiar multiply lensed galaxy with a strong emission line at $\\approx 4\\, μ$m that likely corresponds to H$-β$ and/or OIII at $z\\approx 7.5$. This galaxy could be a little-red-dot or an extreme emission line galaxy. We also identify a yellow supergiant lensed star candidate at $z\\approx 3.1$. This star shows some similarities with previous Kaiju stars and we nickname it ``Hedorah'', in honor of the famous yellow-eyed Kaiju. Previous lensed stars at $z>0.1$ are either blue supergiants or red supergiants, making Hedorah the first yellow supergiant discovered beyond $z=0.1$ and confirming that, despite their rarity, they can also be found at these redshifts. Since many Cepheid stars are yellow supergiants, we consider the possibility that Hedorah could also be the first Cepheid discovered at cosmological distances, but we conclude that Hedorah is more likely a hypergiant yellow star approaching the end of its life. Alternatively, Hedorah could be a small group of stars, although this is less likely based on Hedorah's peculiar colors and additionally may require the more exotic fuzzy dark matter to help explain the lack of counterimage.}",
@@ -22757,6 +22880,47 @@
         }
       },
       "notebooklm_recommendation": "Moderate priority for NotebookLM; useful for theoretical context on possible LRD formation channels, but not a primary observational or LRD-property reference."
+    },
+    {
+      "bibtex_key": "2026ApJ..1012...50F",
+      "title": "{Anisotropic Radiation in Super-Eddington Active Galactic Nuclei: The Responsivity of Broad-line Regions to Continuum Variability}",
+      "abstract": "{Anisotropic ionizing radiation is a natural theoretical expectation for super-Eddington accretion in active galactic nuclei (AGNs), implying that the ionizing flux incident on the broad-line region (BLR) clouds differs from that measured along the observer's line of sight. Reverberation mapping studies have revealed systematically shortened time lags of the broad H{\\ensuremath{\\beta}} emission line relative to continuum variations in super-Eddington AGNs, a phenomenon that can be naturally interpreted as a consequence of anisotropic ionizing continuum radiation. To further investigate this anisotropy, we perform a systematic analysis of the H{\\ensuremath{\\beta}} line responsivity, defined as the ratio of the variability amplitude of H{\\ensuremath{\\beta}} to that of the driving continuum, for both sub- and super-Eddington AGNs. By combining the effective responsivities measured relative to the driving continuum, after correcting for the continuum--emission-line delay, with photoionization calculations, we infer the ionizing radiation field received by their BLRs. We find that, in super-Eddington AGNs, the ionizing flux inferred from the H{\\ensuremath{\\beta}} responsivity differs significantly from that observed along the line of sight, whereas the two are in closer agreement in sub- Eddington AGNs. These results provide compelling evidence for strong anisotropy of the incident ionizing radiation in super- Eddington AGNs. We conclude by discussing the broader implications of this anisotropy, including its potential relevance to the ``little red dots'' recently discovered by the James Webb Space Telescope.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Fang}, Feng-Na'), Person('{Du}, Pu'), Person('{Wang}, Jian-Min')]",
+      "relevance_score": 5.0,
+      "justification": "This paper is only indirectly relevant to LRD research. It provides useful AGN physics context for super-Eddington accretion and anisotropic broad-line emission, but it does not analyze LRDs directly and mentions them only as a broader implication.",
+      "key_factors": [
+        "Super-Eddington AGN accretion",
+        "Anisotropic ionizing radiation",
+        "Broad-line region responsivity",
+        "Hβ reverberation mapping",
+        "Potential implications for LRDs",
+        "No direct LRD sample or JWST LRD data"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 4.0,
+          "reasoning": "The paper is not centrally about Little Red Dots; LRDs are mentioned only in the concluding implications. Its primary focus is super-Eddington AGN broad-line region responsivity and anisotropic ionizing radiation."
+        },
+        "observational_techniques": {
+          "score": 3.5,
+          "reasoning": "The analysis uses reverberation mapping, Hβ responsivity, and photoionization calculations rather than JWST LRD spectroscopy or imaging. The techniques are relevant to broad-line AGN physics but are not directly LRD-focused."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The paper addresses super-Eddington accretion, anisotropic ionizing continua, and BLR emission, all of which are highly relevant to physical models and broad-line/BH-mass interpretations of LRDs."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "The results could indirectly inform LRD interpretation by affecting estimates of ionizing flux, broad-line responsivity, and Eddington ratios, but the paper does not directly resolve LRD observational puzzles."
+        },
+        "methodological_rigor": {
+          "score": 6.5,
+          "reasoning": "The abstract describes a systematic responsivity analysis combined with photoionization modeling, which is a reasonable AGN methodology. However, the abstract does not provide sample sizes, selection details, or statistical tests, limiting assessment of rigor."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM; useful as AGN interpretation context for LRDs but not a core LRD paper."
     },
     {
       "bibtex_key": "2026arXiv261015255F",
@@ -23874,10 +24038,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.073440134907258,
+    "average_score": 8.066080402010058,
     "median_score": 8.4,
-    "high_relevance_count": 534,
-    "moderate_relevance_count": 39,
+    "high_relevance_count": 536,
+    "moderate_relevance_count": 41,
     "low_relevance_count": 20
   }
 }
