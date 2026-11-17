@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T06:18:47.416571",
-  "total_papers": 597,
-  "successfully_scored": 597,
+  "generated_at": "2026-11-17T06:17:18.946986",
+  "total_papers": 598,
+  "successfully_scored": 598,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -7736,6 +7736,47 @@
         "methodological_rigor": {
           "score": 8.0,
           "reasoning": "The study uses a reasonable sample of 28 spectroscopically-confirmed LRDs, provides quantitative modeling with error estimates, considers alternative scenarios, and presents a physically-motivated model. However, more detail on sample selection and potential biases would strengthen the methodology."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261118153D",
+      "title": "{Constraining Accretion Regimes of Little Red Dots from Their Variability}",
+      "abstract": "{The ``little red dots'' (LRDs) are photometrically and spectroscopically non-variable on rest-frame baselines of months, with a $5.9σ$ deficit relative to ordinary active galactic nuclei (AGNs). If we consider LRDs to be accreting black holes, this non-varying could be a clue about the nature of the accretion. Here, we present a general semi-analytic model of variability from super- Eddington (slim) accretion disks. We consider three mechanisms that play crucial roles in the observed variability, viz., advective attenuation, photospheric averaging, and photon diffusion filter. With this, above $\\mdot \\sim$ a few, the fractional rms collapses steeply with $\\mdot$. Comparing with JWST monitoring constraints, we find that the non-detection of LRD variability requires $\\mdot rsim 30$ for $M\\_{\\rm BH}\\sim10^{7}\\,M\\_\\odot$ on a 0.5\\textbackslash,yr rest-frame baseline; a Monte Carlo forward model of the TWINKLE non- detections of 18 LRDs sharpens this to $\\mdotrsim60$ at 95\\textbackslash\\% confidence. On current baselines, these non- detections remain formally degenerate with a frozen sub- Eddington disk ($\\mdot\\lesssim0.1$). Longer monitoring will separate the two regimes as the frozen-disk variability grows with baseline, while the super-Eddington collapse does not. The same framework predicts strongly suppressed X-ray variability, testable with future X-ray observatories.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Dihingia}, Indu K.')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research because it directly models the accretion regimes responsible for LRD variability and compares predictions with JWST and TWINKLE constraints. Its focused theoretical treatment of super-Eddington disks and clear observational tests make it valuable for understanding LRD black hole accretion.",
+      "key_factors": [
+        "Explicit LRD variability focus",
+        "Super-Eddington slim disk modeling",
+        "JWST monitoring constraints",
+        "TWINKLE non-detections of 18 LRDs",
+        "Black hole mass and Eddington ratio constraints",
+        "Testable X-ray variability predictions"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is explicitly focused on Little Red Dots and directly addresses their accretion nature and observed non-variability, making LRDs the central subject rather than a peripheral application."
+        },
+        "observational_techniques": {
+          "score": 8.0,
+          "reasoning": "The work compares its model against JWST monitoring constraints and a TWINKLE non-detection sample of 18 LRDs, but it is primarily theoretical and does not introduce new observations or a novel observational survey."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "It models super-Eddington slim accretion disks and key variability mechanisms, constrains black hole masses and Eddington ratios, and predicts suppressed X-ray variability, all of which are central physical properties of LRD accretion."
+        },
+        "scientific_impact": {
+          "score": 8.5,
+          "reasoning": "The paper provides a framework to interpret LRD non-variability and highlights a degeneracy between super-Eddington and frozen sub-Eddington accretion, with testable predictions for longer monitoring and future X-ray observatories."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The semi-analytic variability model incorporates advective attenuation, photospheric averaging, and photon diffusion filtering, and uses a Monte Carlo forward model to sharpen constraints, though the conclusions remain model-dependent."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -24038,9 +24079,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.066080402010058,
+    "average_score": 8.067140468227432,
     "median_score": 8.4,
-    "high_relevance_count": 536,
+    "high_relevance_count": 537,
     "moderate_relevance_count": 41,
     "low_relevance_count": 20
   }
