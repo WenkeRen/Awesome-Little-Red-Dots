@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T06:17:18.946986",
-  "total_papers": 598,
-  "successfully_scored": 598,
+  "generated_at": "2026-11-19T06:19:05.556797",
+  "total_papers": 601,
+  "successfully_scored": 601,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -12024,6 +12024,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261122316M",
+      "title": "{Lord/Egg of the LRDs: One geometry for its many faces}",
+      "abstract": "{Little red dots (LRDs) combine V-shaped ultraviolet-optical continua, broad Balmer emission, and weak X-rays. The nearby analog SDSS J102530.29+140207.3, known as Lord/Egg, offers detailed spectroscopy and polarimetry. We test one active galactic nucleus (AGN) geometry by fitting its ultraviolet-to-infrared continuum with an inclination-dependent accretion-disk spectral energy distribution (SED), young stars, and a clumpy dusty screen. The same SED is used in Cloudy calculations of a radially stratified, virialized broad-line region (BLR). The fit favors log10(M\\_BH/M\\_sun) about 7.4, highly super-Eddington accretion, inclination above 70 degrees, and line-of-sight cloud extinction of about 3 mag. It also predicts a 2 keV luminosity below the Chandra limit. A BLR whose density rises from 10\\^9 to 10\\^11 cm\\^-3 near the sublimation radius reproduces the broad H-alpha profile without a separate intermediate-width Gaussian. For cloud columns near 10\\^23 cm\\^-2, it also matches the different Balmer-line widths, exponential-like wings, and Balmer decrement without electron scattering. The redshifted H-beta-H- delta absorber lacks an H-alpha counterpart, requiring velocity- coherent H-alpha re-emission into the absorption trough. Cool outer clumps explain K I and saturated Na I absorption, while the geometry recovers the continuum and H-alpha polarization and their position-angle offset. Ca II triplet absorption requires localized, non-radiatively heated, warm dust-poor zones near the sublimation front. He I absorption traces a fast, about 500 km s\\^-1, low-column ionized BLR skin. All projected absorber velocities remain below the local escape speeds, consistent with a bound failed BLR wind. Thus, a dusty, high-inclination accretion system can explain Lord/Egg within one connected geometry.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Madau}, Piero'), Person('{Maiolino}, Roberto'), Person('{Ji}, Xihan'), Person('{Lin}, Xiaojing'), Person('{Fan}, Xiaohui')]",
+      "relevance_score": 8.4,
+      "justification": "This paper is highly relevant to LRD research because it directly tests a unified AGN geometry for the LRD phenomenon using the nearby analog Lord/Egg and a rich set of spectroscopic, polarimetric, and multiwavelength constraints. Its detailed modeling of the BLR, dust, absorption, and accretion properties provides strong physical insight, though the single-object nature and model dependence limit its immediate population-level impact.",
+      "key_factors": [
+        "Direct LRD analog study",
+        "Unified AGN geometry for LRD features",
+        "Spectroscopy and polarimetry",
+        "Black hole mass and super-Eddington accretion",
+        "Stratified BLR and dusty absorber modeling",
+        "Explains weak X-rays and Balmer line properties"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on Little Red Dots, using the nearby analog Lord/Egg to test a unified AGN geometry for LRD spectral features including V-shaped continua, broad Balmer emission, weak X-rays, polarization, and absorption. The title and abstract explicitly frame the work as an LRD geometry study."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study leverages detailed spectroscopy and polarimetry across UV-to-IR wavelengths, plus X-ray limits, to constrain the source. It combines continuum SED fitting with Cloudy calculations of the broad-line region and absorber properties, though the abstract does not indicate a large statistical sample."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper derives key physical properties: black hole mass around 10^7.4 Msun, highly super-Eddington accretion, high inclination above 70 degrees, line-of-sight extinction near 3 mag, stratified BLR densities, Balmer decrement behavior, and a bound failed BLR wind. These are central to understanding LRD physics."
+        },
+        "scientific_impact": {
+          "score": 7.8,
+          "reasoning": "The work has strong impact for LRD interpretation by proposing a single connected geometry that explains many disparate observables, including broad lines, polarization, X-ray weakness, and absorbers. However, it is based on one nearby analog, so population-wide implications remain model-dependent and require further confirmation."
+        },
+        "methodological_rigor": {
+          "score": 8.0,
+          "reasoning": "The methodology is sophisticated, combining inclination-dependent accretion-disk SEDs, young stellar components, dusty screens, and Cloudy BLR modeling to fit multiple observables self-consistently. The abstract suggests a coherent model but does not provide details on statistical uncertainties, parameter degeneracies, or sample validation."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026A&A...715L...3A",
       "title": "{A radio counterpart of the local little red dot J092359+415736}",
       "abstract": "{Context. Little red dots (LRDs) are compact red sources at z {\\ensuremath{\\gtrsim}} 4. Broad lines suggest accreting black holes, yet radio and X-ray measurements are usually weak. Local LRDs permit multi-frequency, multi-epoch radio studies inaccessible at high redshift. Aims. We aim to determine whether archival radio images contain a counterpart to the local LRD J092359+415736 at z {\\ensuremath{\\approx}} 0.323, to quantify its long-term radio variability, and to identify the plausible physical origin of the radio emission. Methods. We measured the flux density at the optical position in FIRST, LoTSS, RACS, VAST, and VLASS products covering 0.144--3.0 GHz and 1994--2024, and assessed long-term variability across the three-decade baseline. Results. A compact 144 MHz counterpart is detected at 42{\\ensuremath{\\sigma}} in LoTSS, coincident with the Gaia position, and is recovered in FIRST, RACS, VAST, and VLASS. The LoTSS and ASKAP measurements give {\\ensuremath{\\alpha}} ≃ -0.30 {\\ensuremath{\\pm}} 0.11. The source exhibits multi-timescale radio variability: FIRST at 1.4 GHz (1994) is a factor of \\raisebox{-0.5ex}\\textasciitilde2.6 below the ASKAP measurements at similar frequencies (2021--2024) and below the extrapolated LoTSS--ASKAP spectrum, indicating long-term brightening over 26 yr, while the 3 GHz flux density rises by 2.3{\\ensuremath{\\sigma}} between VLASS epochs 2.2 and 3.2, suggesting shorter-term variability. A star-formation-only origin would require a rate of ≃200 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{-1}$, compared with an unobscured H{\\ensuremath{\\alpha}} upper limit of 3.3 M$\\_{{\\ensuremath{\\odot}}}$ yr$^{-1}$, and hence an extreme, heavily obscured starburst. Ordinary single radio supernova and tidal disruption events are strongly disfavoured by the luminosity and 30-yr recovery history, while refractive interstellar scintillation, if responsible, itself requires an ultracompact nuclear emitter. Conclusions. The persistent radio counterpart of J092359+415736 is best explained by accretion onto its central black hole. Among the three radio- detected local LRDs, it is intermediate in luminosity and the only one with reported multi-year variability, adding a temporal dimension to the emerging radio diversity of the class.}",
@@ -22602,6 +22643,46 @@
       "notebooklm_recommendation": "Medium priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261122487M",
+      "title": "{Dual and Binary AGN at Cosmic Dawn: The need for a JWST Program to resolve the merger channel of Early Black Hole Growth}",
+      "abstract": "{The discovery with JWST of accreting black holes (BHs) at z=4-9 in numbers far exceeding pre-JWST expectations, many of them overmassive relative to their hosts and linked to the enigmatic Little Red Dots (LRDs), raises the question of how early BHs form and grow. Hierarchical assembly predicts that galaxy mergers drive gas to galactic nuclei and bring BHs together, leaving a direct observational signature: dual AGN at tens of kpc separations and sub-kpc to few-kpc ``duets'' in post-merger galaxies, which are the progenitors of the low-frequency GW sources targeted by pulsar timing arrays and LISA. JWST has opened the window to study these systems at z>3. However, these early discoveries are very limited number and come from heterogeneous, largely serendipitous samples, so these systems can hardly be used for robust statistical studies. Within the Genesis initiative We propose a uniformly selected census of dual AGN and their hosts from cosmic noon to cosmic dawn, as a science case for the Genesis initiative. Our tiered strategy uses the survey imaging and spectroscopy for candidate selection at no extra cost, followed by NIRSpec IFU confirmation, multi- band NIRCam (and MIRI/ALMA) host characterisation, and multi- epoch revisits. Confirming and characterising about 100 pairs requires of order 1000 hr, well beyond the ceiling of standard TAC programs, and demands multi-cycle continuity. The census will deliver pair fractions as functions of redshift, separation and luminosity, BH masses and mass ratios, host properties and environments, and the empirical anchor needed to turn merger models into realistic LISA rate forecasts.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Mannucci}, Filippo'), Person('{Ceci}, Matteo'), Person('{Grogin}, Norman A.'), Person('{Koekemoer}, Anton M.'), Person('{Latif}, Muhammad A.'), Person('{Marconi}, Alessandro'), Person('{Reg{\\\\H{o}}s}, Enik{\\\\H{o}}'), Person('{Schneider}, Raffaella'), Person('{Scialpi}, Martina'), Person('{Tozzi}, Giulia'), Person('{Trinca}, Alessandro'), Person('{Venturi}, Giacomo'), Person('{Vittoria Zanchettin}, Maria'), Person('{Zhang}, Huanian')]",
+      "relevance_score": 6.0,
+      "justification": "This is a relevant contextual and observational-strategy paper for early black hole growth and the merger channel potentially connected to LRDs, but it is not a core LRD study. Its JWST techniques and BH/host measurements are useful, while its direct LRD specificity and immediate scientific impact on LRD research are moderate.",
+      "key_factors": [
+        "LRDs linked to overmassive early black holes",
+        "Dual and binary AGN census at z > 3",
+        "JWST NIRSpec IFU, NIRCam, MIRI, and ALMA strategy",
+        "Merger channel for early black hole growth",
+        "No LRD-specific observations or results"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 4.0,
+          "reasoning": "LRDs are explicitly mentioned as a linked population and motivation, but the paper's central science is a dual/binary AGN census at cosmic dawn, not LRD identification, characterization, or demographics. It is relevant to LRD origins via the merger channel, but LRD focus is secondary."
+        },
+        "observational_techniques": {
+          "score": 7.5,
+          "reasoning": "The proposed JWST NIRSpec IFU confirmation, multi-band NIRCam imaging, MIRI/ALMA host characterization, and multi-epoch revisits are highly relevant techniques for studying AGN and host properties in LRD-related systems, though the program is not LRD-specific."
+        },
+        "physical_properties": {
+          "score": 6.0,
+          "reasoning": "The census would deliver BH masses, mass ratios, pair fractions, host properties, and environments, which are important for interpreting overmassive early BHs and possible LRD scenarios. However, LRD-specific physical properties are not the primary target."
+        },
+        "scientific_impact": {
+          "score": 6.5,
+          "reasoning": "The paper has strong potential impact on early BH growth, merger-driven assembly, and LISA/PTA forecasts. Its direct impact on LRD research is moderate, mainly by testing whether mergers can explain the overmassive BH population associated with LRDs."
+        },
+        "methodological_rigor": {
+          "score": 6.0,
+          "reasoning": "The tiered selection and confirmation strategy is sensible and feasible in principle, but the abstract describes a proposed program rather than completed analysis. Details on selection functions, contamination control, and confirmation thresholds are limited in the abstract."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM - include as a contextual/observational strategy paper for early black hole merger scenarios, not as a core LRD reference."
+    },
+    {
       "bibtex_key": "2026arXiv260911879D",
       "title": "{Learning JWST. I. A Foundation Model for New Population Discoveries and Morphology-Aware Photometric Redshift Measurements in the JADES Survey}",
       "abstract": "{We present FM-JADES-v1, a self-supervised foundation model for James Webb Space Telescope (\\{\\textbackslashem JWST\\}) deep-field science, trained with 482,444 objects from the \\{\\textbackslashem JWST\\} Advanced Deep Extragalactic Survey (JADES) Data Release 5 using multi-band imaging and the photometric catalog. The shared embedding space is trained without class labels. We demonstrate that FM-JADES-v1 can serve as a powerful tool for object discovery and improving property measurements using two experiments, blind active discovery and few-band photometric redshift. For blind object discovery, FM- JADES-v1 identifies rare object populations such as high- redshift galaxies and Little Red Dots (LRDs) without any prior population labels or population-specific selection criteria. These rare populations emerge as isolated islands in the embedding space, which can be identified without prior astrophysical knowledge. For few-band photometric redshift, FM- JADES-v1's learned embeddings achieve $σ\\_{\\rm NMAD}=0.157$ in a strictly controlled three-band (F115W/F200W/F356W) photo-$z$ benchmark, compared to $σ\\_{\\rm NMAD}= 0.44$ for template fitting. These results demonstrate the potential of self- supervised multi-modal representations as scalable discovery spaces for large astronomical surveys. Applied to ongoing and future wide-field surveys from JWST, Roman, Euclid, and Rubin/LSST, this framework could enable systematic searches for rare populations, as well as enabling multiple downstream tasks such as improving astrophysical property measurements.}",
@@ -22840,6 +22921,46 @@
         }
       },
       "notebooklm_recommendation": "Medium priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261121838J",
+      "title": "{Super-Eddington Accretion onto Compact Objects: Theory Meets Observation}",
+      "abstract": "{We review candidate super-Eddington populations together with semi- analytic models and radiation magnetohydrodynamic simulations, with the following conclusions: $\\bullet$ Likely super-Eddington sources over a range of black hole mass show similar properties, including outflow on a range of scales, hard X-ray weakness, decreased emission from jets, and suppressed optical/UV variability. $\\bullet$ Theoretical treatment of super-Eddington accretion predicts similar behavior across a range of methods and initial conditions, although interesting differences remain, particularly in the importance of magnetic fields. Numerical simulations produce a puffed-up inner disk with a funnel that grows narrower at higher mass accretion rate. Radiative efficiency declines with accretion rate in thermal-pressure-- supported disks. $\\bullet$ Ubiquitous outflow is likely an important ingredient in galaxy feedback at high Eddington ratios, as wind mechanical power increases with accretion rate and can rival jet power. Wind kinetic power depends far less on uncertain black hole spin and magnetic fields. $\\bullet$ Observational classes of objects can be sorted in a two- dimensional parameter space of Eddington ratio and orientation. Observations down the funnel observe rapid X-ray variability, while observations through the wind will see suppressed X-ray emission. At the highest Eddington ratios, we envision a regime where the photosphere extends to $r > 10^6 \\, r\\_g$, and the observer sees only thermalized emission covering most of the sky, speculatively corresponding to super-soft sources and Little Red Dots.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Jiang}, Yan-Fei'), Person('{Greene}, Jenny E.')]",
+      "relevance_score": 5.2,
+      "justification": "This paper is relevant to LRD research primarily as theoretical context for super-Eddington accretion, outflows, and orientation-dependent emission. However, LRDs are only speculatively mentioned at the end, and the paper does not provide LRD-specific observations, samples, or JWST analyses, limiting its direct relevance.",
+      "key_factors": [
+        "Super-Eddington accretion theory",
+        "Outflows and radiative efficiency",
+        "Eddington ratio and orientation framework",
+        "Speculative LRD connection",
+        "No LRD-specific data or JWST observations"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 3.0,
+          "reasoning": "The paper is a broad review of super-Eddington accretion onto compact objects. Little Red Dots are mentioned only in the final speculative sentence as a possible high-Eddington-ratio photospheric regime, so LRDs are not a primary focus."
+        },
+        "observational_techniques": {
+          "score": 5.0,
+          "reasoning": "The abstract discusses X-ray variability, hard X-ray weakness, suppressed optical/UV variability, outflows, and orientation-dependent observations. These are relevant diagnostics for LRD accretion models, but the paper does not present JWST/NIRSpec or LRD-specific observational techniques."
+        },
+        "physical_properties": {
+          "score": 7.0,
+          "reasoning": "The review provides substantial relevant physics for LRD interpretation: super-Eddington accretion, funnel geometry, outflows, declining radiative efficiency, Eddington ratio/orientation parameter space, and a speculative photosphere extending to r > 10^6 r_g."
+        },
+        "scientific_impact": {
+          "score": 5.0,
+          "reasoning": "The paper is a useful theoretical synthesis that could inform LRD accretion scenarios, especially super-Eddington models, but its impact on the LRD field is indirect and speculative rather than based on direct LRD observations."
+        },
+        "methodological_rigor": {
+          "score": 7.0,
+          "reasoning": "The review compares semi-analytic models and radiation magnetohydrodynamic simulations across super-Eddington regimes. It appears methodologically rigorous for accretion theory, though it is not an LRD-focused observational or statistical analysis."
+        }
+      },
+      "notebooklm_recommendation": "Medium priority for NotebookLM: include as theoretical context for super-Eddington LRD scenarios, but not as a core LRD observational paper."
     },
     {
       "bibtex_key": "2025arXiv250917484R",
@@ -24079,10 +24200,10 @@
     }
   ],
   "statistics": {
-    "average_score": 8.067140468227432,
+    "average_score": 8.059484193011654,
     "median_score": 8.4,
-    "high_relevance_count": 537,
-    "moderate_relevance_count": 41,
+    "high_relevance_count": 538,
+    "moderate_relevance_count": 43,
     "low_relevance_count": 20
   }
 }
