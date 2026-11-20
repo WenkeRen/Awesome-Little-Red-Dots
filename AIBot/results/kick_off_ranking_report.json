@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T06:19:07.331467",
-  "total_papers": 254,
-  "successfully_scored": 254,
+  "generated_at": "2026-11-20T06:19:00.196603",
+  "total_papers": 255,
+  "successfully_scored": 255,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -7188,6 +7188,47 @@
       "notebooklm_recommendation": "Moderately useful as theoretical context on PBH seeding and overmassive black holes; best paired with direct LRD observational papers rather than used as a standalone LRD foundation."
     },
     {
+      "bibtex_key": "2024OJAp....7E..72R",
+      "title": "{Massive Black Hole Seeds}",
+      "abstract": "{The pathway(s) to seeding the massive black holes (MBHs) that exist at the heart of galaxies in the present and distant Universe remains an unsolved problem. Here we categorise, describe and quantitatively discuss the formation pathways of both light and heavy seeds. We emphasise that the most recent computational models suggest that rather than a bimodal-like mass spectrum between light and heavy seeds with light at one end and heavy at the other that instead a continuum exists. Light seeds being more ubiquitous and the heavier seeds becoming less and less abundant due the rarer environmental conditions required for their formation. We therefore examine the different mechanisms that give rise to different seed mass spectrums. We show how and why the mechanisms that produce the heaviest seeds are also among the rarest events in the Universe and are hence extremely unlikely to be the seeds for the vast majority of the MBH population. We quantify, within the limits of the current large uncertainties in the seeding processes, the expected number densities of the seed mass spectrum. We argue that light seeds must be at least 103 to 105 times more numerous than heavy seeds to explain the MBH population as a whole. Based on our current understanding of the seed population this makes heavy seeds ( ) a significantly more likely pathway given that heavy seeds have an abundance pattern than is close to and likely in excess of 10‒4 compared to light seeds. Finally, we examine the current state-of-the-art in numerical calculations and recent observations and plot a path forward for near-future advances in both domains.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Regan}, John'), Person('{Volonteri}, Marta')]",
+      "relevance_score": 7.3,
+      "justification": "This is a strong supporting reference for LRD seed-mass interpretations because it quantitatively synthesizes light- versus heavy-seed pathways and emphasizes the rarity of heavy seeds. Its LRD connection is indirect and its methodology is not LRD-specific, but it provides useful evolutionary and abundance context that LRD researchers cite when evaluating whether early black holes require exotic seeding channels.",
+      "key_factors": [
+        "lrdIndex=10",
+        "Quantitative light- vs heavy-seed framework",
+        "Seed mass spectrum and number-density constraints",
+        "Context for overmassive/high-z black hole interpretations",
+        "No direct LRD or JWST LRD analysis"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 7.0,
+          "reasoning": "The paper provides a seed-formation framework directly relevant to interpreting LRDs as possible light- or heavy-seed black holes, including seed mass spectra and number-density arguments. However, it does not analyze LRDs, JWST LRD samples, or LRD-specific observables, so its connection is contextual rather than direct."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 indicates recurring citation by LRD researchers, enough to qualify as supporting literature, but it is not among the most heavily cited LRD-adjacent papers. This suggests useful background value rather than a uniquely indispensable LRD reference."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "The paper offers a quantitative synthesis of light- and heavy-seed formation pathways, argues for a seed continuum rather than a simple bimodality, and estimates relative number densities. This is valuable beyond textbook AGN physics because it gives LRD researchers a compact framework for assessing whether LRD black holes require rare heavy seeds or more ubiquitous light seeds."
+        },
+        "methodological_innovation": {
+          "score": 5.5,
+          "reasoning": "The work is primarily a theoretical/review synthesis rather than a source of new LRD-specific methodology or observational techniques. Its value lies in comparative quantitative estimates and conceptual framing, not in novel analysis methods that LRD studies would directly adopt."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "The paper places massive black hole seeding within a broad cosmic-evolution context, connecting formation pathways, environmental rarity, and expected number densities to the observed MBH population. This is useful for LRD interpretations that invoke early black hole growth and BH-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for LRD seed-mass and black-hole-abundance interpretations, but not a core LRD observational or methodological reference."
+    },
+    {
       "bibtex_key": "2023PASP..135f8001G",
       "title": "{The James Webb Space Telescope Mission}",
       "abstract": "{Twenty-six years ago a small committee report, building on earlier studies, expounded a compelling and poetic vision for the future of astronomy, calling for an infrared-optimized space telescope with an aperture of at least 4 m. With the support of their governments in the US, Europe, and Canada, 20,000 people realized that vision as the 6.5 m James Webb Space Telescope. A generation of astronomers will celebrate their accomplishments for the life of the mission, potentially as long as 20 yr, and beyond. This report and the scientific discoveries that follow are extended thank-you notes to the 20,000 team members. The telescope is working perfectly, with much better image quality than expected. In this and accompanying papers, we give a brief history, describe the observatory, outline its objectives and current observing program, and discuss the inventions and people who made it possible. We cite detailed reports on the design and the measured performance on orbit.}",
@@ -10440,10 +10481,10 @@
     }
   ],
   "statistics": {
-    "average_score": 7.39507874015749,
+    "average_score": 7.394705882352951,
     "median_score": 7.9,
     "critical_count": 119,
-    "high_value_count": 96,
+    "high_value_count": 97,
     "moderate_value_count": 36,
     "low_priority_count": 3
   }
