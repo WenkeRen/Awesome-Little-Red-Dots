@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T06:19:00.196603",
-  "total_papers": 255,
-  "successfully_scored": 255,
+  "generated_at": "2026-11-21T06:22:03.478293",
+  "total_papers": 257,
+  "successfully_scored": 257,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -6569,6 +6569,48 @@
       "notebooklm_recommendation": "Critical foundation for NotebookLM"
     },
     {
+      "bibtex_key": "2025JCAP...04..040Z",
+      "title": "{Primordial black holes as supermassive black hole seeds}",
+      "abstract": "{The presence of supermassive black holes (SMBHs, M $\\_{{\\ensuremath{\\bullet}}}$ {\\ensuremath{\\sim}} 10$^{6-10}$ M $\\_{{\\ensuremath{\\odot}}}$) in the first cosmic Gyr (z {\\ensuremath{\\gtrsim}} 6) challenges current models of BH formation and evolution. We propose a novel mechanism for the formation of early SMBH seeds based on primordial black holes (PBHs). We assume a non-Gaussian primordial power spectrum as expected in inflationary models; these scenarios predict that PBHs are initially clustered and preferentially formed in the high-{\\ensuremath{\\sigma}} fluctuations of the large-scale density field, out of which dark matter (DM) halos are originated. Our model accounts for (i) PBH accretion and feedback, (ii) DM halo growth, and (iii) gas dynamical friction. PBHs lose angular momentum due to gas dynamical friction, sink into a dense core, where BH binaries form and undergo a runaway merger, eventually leading to the formation of a single, massive seed. This mechanism starts at z {\\ensuremath{\\sim}} 20-40 in rare halos (M$\\_{h}$ {\\ensuremath{\\sim}} {}10$^{7}$ M $\\_{{\\ensuremath{\\odot}}}$ corresponding to {\\ensuremath{\\sim}} 5-7{\\ensuremath{\\sigma}} fluctuations), and provides massive ({\\ensuremath{\\sim}} 10$^{4-5}$ M $\\_{{\\ensuremath{\\odot}}}$) seeds by z {\\ensuremath{\\sim}} 10-30. We derive a physically- motivated seeding prescription that provides the mass of the seed, M $\\_{seed}$(z) = 3.1 {\\texttimes} {}10$^{5}$ M $\\_{{\\ensuremath{\\odot}}}$[(1 + z)/10]$^{-1.2}$, and seeded halo, M$\\_{h}$ (z) = 2 {\\texttimes} {}10$^{9}$ M $\\_{{\\ensuremath{\\odot}}}$[(1 + z)/10]$^{-2}$ e $^{-0.05z }$ as a function of redshift. This seeding mechanism requires that only a small fraction of DM is constituted by PBHs, namely f $\\_{PBH}$ {\\ensuremath{\\sim}} 3 {\\texttimes} 10$^{-6}$. We find that z {\\ensuremath{\\sim}} 6 - 7 quasars can be explained with 6 {\\texttimes} {}10$^{4}$ M $\\_{{\\ensuremath{\\odot}}}$ seeds planted at z {\\ensuremath{\\sim}} 32, and growing at sub- Eddington rates, <{\\ensuremath{\\lambda}}$\\_{E}$> {\\ensuremath{\\sim}} 0.55. The same scenario reproduces the BH mass of GNz11 at z = 10.6, while UHZ1 (z = 10.1) and GHZ9 (z = 10) data favour instead slightly later (z {\\ensuremath{\\sim}} 20-25), more massive ({}10$^{5}$ M $\\_{{\\ensuremath{\\odot}}}$), and efficiently accreting (<{\\ensuremath{\\lambda}}$\\_{E}$> ≃ 0.9) seeds. During the runaway phase of the proposed seed formation process, PBH-PBH mergers are expected to copiously emit gravitational waves. These predictions can be tested through future Einstein Telescope observations and used to constrain inflationary models.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Ziparo}, F.'), Person('{Gallerani}, S.'), Person('{Ferrara}, A.')]",
+      "relevance_score": 7.5,
+      "justification": "This is a valuable supporting paper for LRD research because it supplies an exotic but quantitatively developed heavy-seed scenario and a seeding prescription relevant to overmassive high-z black holes. Its direct LRD connection is indirect and the PBH channel is not standard, but its lrdIndex=10 and connections to GNz11/UHZ1/GHZ9 make it useful for evolutionary context rather than core LRD phenomenology.",
+      "key_factors": [
+        "lrdIndex=10 indicates moderate LRD-community use",
+        "No explicit LRD modeling, but relevant to high-z overmassive BH seeds",
+        "Alternative PBH-based heavy-seed formation channel",
+        "Quantitative M_seed(z) and seeded-halo prescriptions",
+        "Connects to GNz11, UHZ1, GHZ9 and high-z quasar growth",
+        "Gravitational-wave predictions as future test"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 6.5,
+          "reasoning": "The paper does not explicitly model or discuss Little Red Dots, but it directly addresses the formation of massive high-z black hole seeds and compares to JWST high-z AGN such as GNz11, UHZ1, and GHZ9. Its lrdIndex=10 shows the LRD community uses it as supporting evidence for heavy-seed/overmassive-BH scenarios, though it is not a core LRD phenomenology paper."
+        },
+        "citation_frequency": {
+          "score": 7.5,
+          "reasoning": "lrdIndex=10 indicates moderate-to-strong citation by LRD researchers. It clears the kick_off threshold but is not among the most heavily cited LRD-specific works, consistent with a supporting seed-formation reference rather than a foundational LRD paper."
+        },
+        "foundational_value": {
+          "score": 8.0,
+          "reasoning": "Provides a physically motivated alternative seeding channel via clustered primordial black holes, including a redshift-dependent seed mass and seeded halo prescription. This is useful context for debates about whether LRDs and early SMBHs require heavy seeds, light-seed growth, or exotic formation channels."
+        },
+        "methodological_innovation": {
+          "score": 8.0,
+          "reasoning": "Combines PBH accretion and feedback, DM halo growth, gas dynamical friction, angular-momentum loss, binary formation, and runaway mergers into a coherent seeding model. The derived M_seed(z) and M_h(z) prescriptions and gravitational-wave predictions give the model reusable quantitative outputs beyond standard AGN disk theory."
+        },
+        "evolutionary_context": {
+          "score": 8.0,
+          "reasoning": "Places early SMBH formation in a z~20-40 halo context and connects it to z~6-10 quasar and JWST AGN observations. This is relevant evolutionary scaffolding for interpreting overmassive high-z black holes, even though the paper is not LRD-specific."
+        }
+      },
+      "notebooklm_recommendation": "Include as supporting literature for heavy-seed and overmassive high-z black hole scenarios; pair with direct LRD papers because this work provides seed-formation context rather than LRD-specific observations or modeling."
+    },
+    {
       "bibtex_key": "2024A&A...684A..87D",
       "title": "{Ionised gas kinematics and dynamical masses of z {\\ensuremath{\\gtrsim}} 6 galaxies from JADES/NIRSpec high-resolution spectroscopy}",
       "abstract": "{We explore the kinematic gas properties of six 5.5 < z < 7.4 galaxies in the JWST Advanced Deep Extragalactic Survey (JADES), using high- resolution JWST/NIRSpec multi-object spectroscopy of the rest- frame optical emission lines [OIII] and H{\\ensuremath{\\alpha}}. The objects are small and of low stellar mass ({\\ensuremath{\\sim}}1 kpc; M$\\_{*}$ {\\ensuremath{\\sim}} 10$^{7 {\\ensuremath{-}} 9}$ M$\\_{{\\ensuremath{\\odot}}}$), less massive than any galaxy studied kinematically at z > 1 thus far. The cold gas masses implied by the observed star formation rates are about ten times higher than the stellar masses. We find that their ionised gas is spatially resolved by JWST, with evidence for broadened lines and spatial velocity gradients. Using a simple thin-disc model, we fit these data with a novel forward- modelling software that accounts for the complex geometry, point spread function, and pixellation of the NIRSpec instrument. We find the sample to include both rotation- and dispersion- dominated structures, as we detect velocity gradients of v(r$\\_{e}$){\\ensuremath{\\sim}}100 {\\ensuremath{-}} 150 km s$^{{\\ensuremath{-}}1}$, and we find velocity dispersions of {\\ensuremath{\\sigma}}$\\_{0}$ {\\ensuremath{\\sim}} 30 {\\ensuremath{-}} 70 km s$^{{\\ensuremath{-}}1}$ that are comparable to those at cosmic noon. The dynamical masses implied by these models (M$\\_{dyn}$ {\\ensuremath{\\sim}} 10$^{9 {\\ensuremath{-}} 10}$ M$\\_{{\\ensuremath{\\odot}}}$) are higher than the stellar masses by up to a factor 40, and they are higher than the total baryonic mass (gas + stars) by a factor of {\\ensuremath{\\sim}}3. Qualitatively, this result is robust even if the observed velocity gradients reflect ongoing mergers rather than rotating discs. Unless the observed emission line kinematics is dominated by outflows, this implies that the centres of these galaxies are dominated by dark matter or that star formation is three times less efficient, leading to higher inferred gas masses.}",
@@ -9494,6 +9536,48 @@
       "notebooklm_recommendation": "Useful supporting context for black hole seed and growth discussions, but not a core LRD reference; cite for high-z seed-model constraints rather than direct LRD evidence."
     },
     {
+      "bibtex_key": "2024MNRAS.530.2935D",
+      "title": "{{\\ensuremath{\\Lambda}}CDM not dead yet: massive high-z Balmer break galaxies are less common than previously reported}",
+      "abstract": "{Early JWST observations that targeted so-called double-break sources (attributed to Lyman and Balmer breaks at z > 7), reported a previously unknown population of very massive, evolved high- redshift galaxies. This surprising discovery led to a flurry of attempts to explain these objects' unexpected existence including invoking alternatives to the standard {\\ensuremath{\\Lambda}} cold dark matter ({\\ensuremath{\\Lambda}}CDM) cosmological paradigm. To test these early results, we adopted the same double-break candidate galaxy selection criteria to search for such objects in the JWST images of the CAnadian Near Infrared Imager and Slitless Spectrograph (NIRISS) Unbiased Cluster Survey (CANUCS), and found a sample of 19 sources over five independent CANUCS fields that cover a total effective area of \\raisebox{-0.5ex}\\textasciitilde60 arcmin$^{2}$ at z \\raisebox{-0.5ex}\\textasciitilde 8. However, (1) our spectral energy distribution fits do not yield exceptionally high-stellar masses for our candidates, while (2) spectroscopy of five of the candidates shows that while all five are at high redshifts, their red colours are due to high- equivalent width emission lines in star-forming galaxies rather than Balmer breaks in massive, evolved systems. Additionally, (3) field-to-field variance leads to differences of \\raisebox{-0.5ex}\\textasciitilde1.5 dex in the maximum stellar masses measured in the different fields, suggesting that the early single-field JWST observations may have suffered from cosmic variance and/or sample bias. Finally, (4) we show that the presence of even a single massive outlier can dominate conclusions from small samples such as those in early JWST observations. In conclusion, we find that the double-break sources in CANUCS are not sufficiently massive or numerous to warrant questioning the standard {\\ensuremath{\\Lambda}}CDM paradigm.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2024",
+      "authors": "[Person('{Desprez}, Guillaume'), Person('{Martis}, Nicholas S.'), Person('{Asada}, Yoshihisa'), Person('{Sawicki}, Marcin'), Person('{Willott}, Chris J.'), Person('{Muzzin}, Adam'), Person('{Abraham}, Roberto G.'), Person('{Brada{\\\\v{c}}}, Maru{\\\\v{s}}a'), Person('{Brammer}, Gabe'), Person('{Estrada-Carpenter}, Vicente'), Person('{Iyer}, Kartheik G.'), Person('{Matharu}, Jasleen'), Person('{Mowla}, Lamiya'), Person('{Noirot}, Ga{\\\\\"e}l'), Person('{Sarrouh}, Ghassan T. E.'), Person('{Strait}, Victoria'), Person('{Gledhill}, Rachel'), Person('{Rihtar{\\\\v{s}}i{\\\\v{c}}}, Gregor')]",
+      "relevance_score": 5.4,
+      "justification": "This paper is a useful supporting and cautionary reference for LRD research because it shows that high-z red colors attributed to Balmer breaks can instead arise from strong emission lines, and that small samples can be dominated by cosmic variance and outliers. It is not directly about LRDs or AGN and does not provide a foundational LRD framework, but its empirical lessons about SED interpretation and high-z sample validation are relevant enough to explain repeated citations by LRD researchers.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No explicit LRD/AGN content",
+        "Emission lines can mimic Balmer breaks in high-z red sources",
+        "Cautionary SED-fitting and stellar-mass interpretation",
+        "Cosmic variance and small-sample bias",
+        "JWST CANUCS/NIRISS spectroscopy"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 5.0,
+          "reasoning": "The paper does not explicitly discuss Little Red Dots or AGN, so it is not a direct LRD reference. However, it is relevant because it tests the nature of high-z red, double-break sources and shows that high-equivalent-width emission lines in star-forming galaxies can mimic Balmer breaks. This is directly useful for interpreting LRD SEDs, red colors, and stellar-mass estimates, where similar degeneracies are common."
+        },
+        "citation_frequency": {
+          "score": 6.5,
+          "reasoning": "lrdIndex=10 indicates that LRD researchers cite this work repeatedly enough to qualify as supporting literature, but it is not among the most heavily cited foundational LRD papers. The citation pattern likely reflects its value as a cautionary methodological reference for high-z red-source selection and SED fitting."
+        },
+        "foundational_value": {
+          "score": 4.5,
+          "reasoning": "This is not a foundational LRD paper. Its main value is corrective: it demonstrates that some high-z red candidates are not massive evolved galaxies but emission-line-dominated systems, and that small samples can be strongly affected by cosmic variance. LRD researchers already know basic Balmer-break and SED concepts, so the unique contribution is the empirical warning about selection and mass overestimation."
+        },
+        "methodological_innovation": {
+          "score": 6.0,
+          "reasoning": "The paper applies double-break selection to CANUCS/NIRISS imaging over five fields, fits SEDs, and follows up five candidates spectroscopically. The methodology is not novel in itself, but the combination of spectroscopy, field-to-field variance analysis, and small-sample outlier tests provides a useful template for validating high-z red-source samples, including LRD-like objects."
+        },
+        "evolutionary_context": {
+          "score": 5.5,
+          "reasoning": "The paper addresses the abundance and inferred masses of high-z galaxies and whether they require deviations from ΛCDM. For LRD research, this provides useful context on cosmic variance, sample bias, and the risk of overinterpreting small samples of red high-z sources, but it does not develop a black-hole or LRD-specific evolutionary framework."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting/cautionary context for LRD SED interpretation and high-z sample validation, but not a critical foundational LRD paper."
+    },
+    {
       "bibtex_key": "2023MNRAS.520.2180C",
       "title": "{Star formation at the smallest scales: a JWST study of the clump populations in SMACS0723}",
       "abstract": "{We present the clump populations detected in 18 lensed galaxies at redshifts 1--8.5 within the lensing cluster field SMACS0723. The recent JWST Early Release Observations of this poorly known region of the sky have revealed numerous point-like sources within and surrounding their host galaxies, undetected in the shallower Hubble Space Telescope images. We use JWST multi-and photometry and the lensing model of this galaxy cluster to estimate the intrinsic sizes and magnitudes of the stellar clumps. We derive optical restframe effective radii from <10 to hundreds pc and masses ranging from \\raisebox{-0.5ex}\\textasciitilde{}10$^{5}$ to {}10$^{9}$ M $\\_{☉}$, overlapping with massive star clusters in the local universe. Clump ages range from 1 Myr to 1 Gyr. We compare the crossing time to the age of the clumps and determine that between 45 and 60 per cent of the detected clumps are consistent with being gravitationally bound. On average, the dearth of Gyr old clumps suggests that the dissolution time scales are shorter than 1 Gyr. We see a significant increase in the luminosity (mass) surface density of the clumps with redshift. Clumps in reionization era galaxies have stellar densities higher than star clusters in the local universe. We zoom in into single galaxies at redshift <6 and find for two galaxies, the Sparkler and the Firework, that their star clusters/clumps show distinctive colour distributions and location surrounding their host galaxy that are compatible with being accredited or formed during merger events. The ages of some of the compact clusters are between 1 and 4 Gyr, e.g. globular cluster precursors formed around 9--12 Gyr ago. Our study, conducted on a small sample of galaxies, shows the potential of JWST observations for understanding the conditions under which star clusters form in rapidly evolving galaxies.}",
@@ -10481,11 +10565,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.394705882352951,
-    "median_score": 7.9,
+    "average_score": 7.387354085603122,
+    "median_score": 7.8,
     "critical_count": 119,
-    "high_value_count": 97,
-    "moderate_value_count": 36,
+    "high_value_count": 98,
+    "moderate_value_count": 37,
     "low_priority_count": 3
   }
 }
