@@ -2,7 +2,7 @@
 NOTEBOOKLM PAPER LIST
 ================================================================================
 
-Generated: 2026-11-21T06:22:04.467776
+Generated: 2026-11-23T06:20:13.384904
 Total papers: 250
   - LRD papers: 200
   - Kick_off papers: 50
@@ -538,6 +538,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 [9.3] 2026MNRAS.tmp.1477D
     Little Red Dots host Black Hole Stars: A unified family of gas-reddened AGN revealed by JWST/NIRSpec spectroscopy
 
+[9.3] 2026ApJ..1012...75L
+    (LRDs)$^{2}$: The Low-ReDshift Little Red Dots Survey. II. DESI DR1 Sample
+
 [9.2] 2026arXiv260612355M
     Between Degeneracy and Evolution: UV-to-optical Insights into the BH$^*$ Model in Little Red Dots
 
@@ -897,6 +900,9 @@ They were excluded from NotebookLM list but may be worth adding manually.
 
 [8.2] 2025arXiv251216365A
     The AGN nature of strong CIII emitters in the Early Universe with JWST
+
+[8.2] 2026ApJ..1012L...7C
+    Local Analogs of Little Red Dots: Clues to the X-Ray Weakness
 
 [8.2] 2025arXiv250903576B
     How similar are narrow-line Seyfert 1 galaxies and high-z type 1 AGN?

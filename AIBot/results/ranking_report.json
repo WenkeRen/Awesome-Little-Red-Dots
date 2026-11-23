@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T06:21:36.667354",
-  "total_papers": 603,
-  "successfully_scored": 603,
+  "generated_at": "2026-11-23T06:18:51.551055",
+  "total_papers": 605,
+  "successfully_scored": 605,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -767,6 +767,47 @@
         "methodological_rigor": {
           "score": 9.0,
           "reasoning": "Uses state-of-the-art FIRE cosmological simulations with detailed physics, 3D dust radiative transfer, and synthetic data cubes. The analysis is thorough, identifying both successes and limitations of the stellar-only model, and the conclusions are well-supported."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026ApJ..1012...75L",
+      "title": "{(LRDs)$^{2}$: The Low-ReDshift Little Red Dots Survey. II. DESI DR1 Sample}",
+      "abstract": "{JWST has revealed a substantial population of ``Little Red Dots'' (LRDs) at z > 4, challenging conventional active galactic muclei (AGN) frameworks. However, the low-redshift regime remains largely unexplored. In the second paper of the (LRDs)$^{2}$ series, we present a systematic selection from DESI DR1 and identify 27 LRDs at z = 0.2--0.9, yielding a number density lower limit of 7.5 {\\texttimes} 10$^{-10}$ cMpc$^{-3}$. We conducted near-IR spectroscopic follow-up observations for 21 of them, revealing their full spectral energy distribution (SED) shapes and emission lines. These low-z LRDs share the hallmark properties of their high-z counterparts: compact morphology, V-shaped UV- optical continua, broad Balmer emission with extreme decrements (median H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} \\raisebox{-0.5ex}\\textasciitilde 15), frequent Balmer absorption (70\\%), and blackbody-like optical-to-near-IR continua. All have low metallicity, occupy the same regions in the BPT diagram as high-z LRDs, and have softer ionizing spectra than typical AGNs. The consistency between low-z and high-z LRD properties indicates the same physical processes at work. The correlation between broad-line Balmer luminosity and L$\\_{5100}$ deviates from that of local type-1 AGNs, limiting the direct application of local BH mass calibrations. Ionized [O III] outflows are ubiquitous (78\\%). One LRD at z = 0.196, J1717+3807, shows robust long-term variability in the i and Wide-field Infrared Survey Explorer (WISE) bands. The optical-to-near-IR continua of LRDs reveal a wide range of temperatures \\raisebox{-0.5ex}\\textasciitilde2000--4700 K (peak 0.6--1.4 {\\ensuremath{\\mu}}m), with a subset showing cooler and larger envelopes than those at high z. Low-z LRDs serve not only as proximate laboratories for probing the nature of LRDs, but also trace the cosmic evolution of this population from the cosmic dawn to the present day.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Lin}, Xiaojing'), Person('{Fan}, Xiaohui'), Person('{Cai}, Zheng'), Person('{Liu}, Yichen'), Person('{Sun}, Fengwu'), Person('{Bian}, Fuyan'), Person('{Li}, Mingyu'), Person('{Mao}, Junjie'), Person('{Greene}, Jenny E.'), Person('{Liu}, Hanpu'), Person('{Li}, Jiaxuan'), Person('{Liu}, Weizhe'), Person('{Ma}, Yilun'), Person('{Sun}, Zechang'), Person('{Zhang}, Zijian')]",
+      "relevance_score": 9.3,
+      "justification": "This is a highly relevant LRD paper: it directly discovers and characterizes a low-redshift LRD sample, compares it comprehensively with high-z LRDs, and addresses key physical and evolutionary questions. Its main limitation for LRD ranking is the modest sample and reliance on DESI/near-IR rather than JWST, but its core relevance and scientific scope are excellent.",
+      "key_factors": [
+        "Directly focused on Little Red Dots",
+        "Low-redshift LRD survey with 27 objects",
+        "Near-IR spectroscopic follow-up of 21 LRDs",
+        "Comprehensive comparison to high-z LRD properties",
+        "Black hole mass calibration and AGN/starburst implications",
+        "Outflows, variability, and SED temperature measurements"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 10.0,
+          "reasoning": "The paper is entirely dedicated to Little Red Dots, presenting a low-redshift LRD survey, a new sample of 27 LRDs, and direct comparisons to high-z LRDs. LRD identification, characterization, and cosmic evolution are the central aims."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "The study combines DESI DR1 selection with near-IR spectroscopic follow-up for 21 objects, enabling full SED and emission-line analysis. It also uses WISE and optical variability data. The techniques are highly relevant, though the abstract does not emphasize JWST follow-up."
+        },
+        "physical_properties": {
+          "score": 9.5,
+          "reasoning": "The paper characterizes compact morphology, V-shaped UV-optical continua, broad Balmer emission, extreme Balmer decrements, Balmer absorption, blackbody-like near-IR continua, low metallicity, BPT locations, ionizing spectra, outflows, variability, and continuum temperatures. This is a comprehensive physical-property assessment directly tied to LRD nature."
+        },
+        "scientific_impact": {
+          "score": 9.0,
+          "reasoning": "By establishing a low-redshift LRD population with properties matching high-z LRDs, the paper provides local laboratories for understanding LRD physics and traces their cosmic evolution. It also cautions against applying local type-1 AGN BH mass calibrations directly to LRDs."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The abstract describes systematic DESI DR1 selection, a number-density lower limit, spectroscopic follow-up for most sources, and multi-band variability analysis. The sample size is modest and methodological details are not fully visible in the abstract, but the approach appears robust."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -16517,6 +16558,47 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026ApJ..1012L...7C",
+      "title": "{Local Analogs of Little Red Dots: Clues to the X-Ray Weakness}",
+      "abstract": "{A major question about JWST's little red dots (LRDs) at z \\raisebox{-0.5ex}\\textasciitilde 4-8 is the origin of their apparent X-ray weakness. Even deep Chandra stacks yield only tentative detections or broadband limits and cannot distinguish among super-Eddington accretion, intrinsic X-ray weakness, and Compton-thick (CT) obscuration. Local analogs offer a powerful complementary route. At z \\raisebox{-0.5ex}\\textasciitilde 0.3, similarly luminous sources require \\raisebox{-0.5ex}\\textasciitilde10$^{3-4}$ less exposure for comparable signal-to-noise, suffer less source confusion, and directly probe the diagnostic rest-frame soft X-rays. Here we present a pilot Einstein Probe/FXT study of six ``local little red dots`` (LLRDs), V-shaped broad-line green pea galaxies selected as low-redshift counterparts of LRDs. These sources show X-ray diversity: ``X-normal'' LLRDs resemble type 1 active galactic nuclei (AGNs) in X-ray luminosity and optical variability, whereas ``X-weak'' stack lies \\raisebox{-0.5ex}\\textasciitilde0.5--0.7 dex below standard unobscured-quasar scaling relations while remaining compatible with the representative LRD stack and 95\\% of published individual limits. The X-weak LLRDs also lack detected optical variability and have redder optical continua than X-normal LLRDs, making their V-shaped SEDs closer to those of high- redshift LRDs. The detection of the X-weak stack at \\raisebox{-0.5ex}\\textasciitilde3.3{\\ensuremath{\\sigma}} with the soft-X-ray-sensitive EP-FXT provides rest-frame \\raisebox{-0.5ex}\\textasciitilde2-3 keV constraints difficult to reconcile with a typical unobscured super-Eddington model or a local-AGN-like CT geometry examined here, although modified variants remain possible. The simplest alternative is a mildly X-ray-weak corona ({\\ensuremath{\\Delta}}{\\ensuremath{\\alpha}}$\\_{ox}$ \\raisebox{-0.5ex}\\textasciitilde -0.1 to -0.2) with Compton-thin absorption (N$\\_{H}$ \\raisebox{-0.5ex}\\textasciitilde 10$^{22-23}$ cm$^{-2}$), consistent with the independent Balmer decrement/break diagnostics. Together with growing samples of local LRD analogs, our results offer a practical path for testing the physical nature of LRD X-ray weakness.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Chen}, Shi-Jiang'), Person('{Wang}, Jun-Xian'), Person('{Zheng}, Zhen-Ya'), Person('{Lin}, Ruqiu'), Person('{Ho}, Luis C.'), Person('{Cai}, Zhen-Yi'), Person('{Chen}, Chang-Hao'), Person('{Igo}, Zsofi'), Person('{Kang}, Jia-Lai'), Person('{Li}, Ruancun'), Person('{Liu}, Teng'), Person('{Ren}, Wenke'), Person('{Su}, Zhen-Bo')]",
+      "relevance_score": 8.2,
+      "justification": "This paper is highly relevant to LRD research because it directly investigates the origin of LRD X-ray weakness using local V-shaped broad-line analogs and soft X-ray observations. It provides useful constraints on super-Eddington, obscuration, and X-ray-weak corona scenarios, though the small pilot sample and local-analog assumption limit its immediate impact.",
+      "key_factors": [
+        "Directly addresses LRD X-ray weakness",
+        "Uses local LRD analogs at z~0.3",
+        "Einstein Probe/FXT soft X-ray constraints",
+        "Tests super-Eddington and Compton-thick scenarios",
+        "Links X-ray properties to optical variability and SED shape",
+        "Small pilot sample of six sources"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 8.5,
+          "reasoning": "The paper directly targets a central open question in LRD research: the origin of their X-ray weakness. It does so through local low-redshift analogs rather than high-redshift LRDs themselves, which slightly reduces direct core focus but still provides highly relevant constraints on LRD physics."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study uses Einstein Probe/FXT soft X-ray observations, optical variability, and Balmer decrement/break diagnostics to probe X-ray weakness and obscuration. These techniques are highly complementary to JWST and Chandra studies of high-redshift LRDs, though the paper is a small pilot program rather than a large survey."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper addresses key physical explanations for LRD X-ray weakness, including super-Eddington accretion, intrinsic X-ray weakness, Compton-thick and Compton-thin obscuration, and coronal weakness. It links X-ray properties to optical SED shape and variability, making the physical discussion directly relevant to LRD models."
+        },
+        "scientific_impact": {
+          "score": 7.8,
+          "reasoning": "The results provide a practical path for testing LRD X-ray weakness using local analogs and report a tentative 3.3-sigma soft X-ray detection with model constraints. Impact is somewhat limited by the small pilot sample of six sources and the analog-based approach, but the conclusions are timely and useful for the LRD community."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analysis appears carefully framed, using stacking, comparison to quasar scaling relations, variability, and independent Balmer diagnostics. However, the small sample, pilot nature, and reliance on local LRD analogs introduce caveats that temper the methodological strength."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2024arXiv240913441F",
       "title": "{Searching For JWST's Little Red Dots}",
       "abstract": "{Recent observations by the James Webb Space Telescope (JWST) have revealed a previously hidden population of extremely bright and compact objects between redshifts of $z \\sim 4$ and $z \\sim 10$. Given their extreme red colouring in the observed frame these galaxies have been dubbed Little Red Dots (LRDs). The aim of this project was to identify LRDs using photometric data from previously uninvestigated JWST datasets and to estimate their AGN fractions by fitting the spectral energy distribution of each galaxy against well calibrated templates using CIGALE. We identified a list of potential LRDs using a single colour cut of F444W-F277W $>$1.5 mag and by applying a morphological analysis. We used EAZY to estimate the (photometric) redshift and CIGALE to estimate the AGN fraction of each LRD. Overall, we identified 14 LRDs, applying accurate SED fits to 11 of them. We found that 7 of them had a high AGN fraction (with the AGN component generating more than 50\\textbackslash\\% of the observed flux), a further two LRDs had AGN contribution in excess of approximately 40\\textbackslash\\%. In total nine LRDs (our of 14) are likely to have a supermassive black hole in their centre. Interestingly, the three LRDs which could not be well fit by CIGALE displayed extremely high photometric redshifts ($z\\_{phot} rsim 11$) and require further analysis (and may also host a supermassive black hole in their centre).}",
@@ -24280,9 +24362,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.062189054726376,
+    "average_score": 8.064462809917362,
     "median_score": 8.4,
-    "high_relevance_count": 540,
+    "high_relevance_count": 542,
     "moderate_relevance_count": 43,
     "low_relevance_count": 20
   }

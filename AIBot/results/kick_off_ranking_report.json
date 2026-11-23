@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T06:22:03.478293",
-  "total_papers": 257,
-  "successfully_scored": 257,
+  "generated_at": "2026-11-23T06:20:12.491695",
+  "total_papers": 260,
+  "successfully_scored": 260,
   "papers": [
     {
       "bibtex_key": "2026NatAs..10..868L",
@@ -8748,6 +8748,47 @@
       "notebooklm_recommendation": "Recommended as supporting context for massive BH seed formation channels in high-z dense clusters, but not as a core LRD-specific reference."
     },
     {
+      "bibtex_key": "2025ApJ...980..242S",
+      "title": "{The AURORA Survey: A New Era of Emission-line Diagrams with JWST/NIRSpec}",
+      "abstract": "{We present results on the emission-line properties of z = 1.4─7.5 star- forming galaxies in the Assembly of Ultradeep Rest-optical Observations Revealing Astrophysics (AURORA) Cycle 1 JWST/NIRSpec program. Based on its depth, continuous wavelength coverage from 1 to 5 {\\ensuremath{\\mu}}m, and medium spectral resolution (R {\\ensuremath{\\sim}} 1000), AURORA includes detections of a large suite of nebular emission lines spanning a broad range in rest-frame wavelength. We investigate the locations of AURORA galaxies in multiple different emission-line diagrams, including traditional BPT diagrams of [O III]{\\ensuremath{\\lambda}}5007/H{\\ensuremath{\\beta}} versus [N II]{\\ensuremath{\\lambda}}6583/H{\\ensuremath{\\alpha}}, [S II]{\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}6717, 6731/H{\\ensuremath{\\alpha}}, and [O I]{\\ensuremath{\\lambda}}6300/H{\\ensuremath{\\alpha}}, and the ionization─metallicity diagram of [O III]{\\ensuremath{\\lambda}}5007/[O II]{\\ensuremath{\\lambda}}3727 (O$\\_{32}$) versus ([O III]{\\ensuremath{\\lambda}}5007+[O II]{\\ensuremath{\\lambda}}3727)/H{\\ensuremath{\\beta}} (R$\\_{23}$). We also consider a bluer rest-frame ionization─metallicity diagram introduced recently to characterize z > 10 galaxies, [Ne III]{\\ensuremath{\\lambda}}3869/[O II]{\\ensuremath{\\lambda}}3727 versus ([Ne III]{\\ensuremath{\\lambda}}3869+[O II]{\\ensuremath{\\lambda}}3727)/H{\\ensuremath{\\delta}}, as well as longer-wavelength diagnostic diagrams extending into the rest-frame near-IR: [O III]{\\ensuremath{\\lambda}}5007/H{\\ensuremath{\\beta}} versus [S III]{\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}9069, 9532/[S II]{\\ensuremath{\\lambda}}{\\ensuremath{\\lambda}}6717, 6731 (S$\\_{32}$), and He I{\\ensuremath{\\lambda}}1.083 {\\ensuremath{\\mu}}m/Pa{\\ensuremath{\\gamma}} and [S III]{\\ensuremath{\\lambda}}9532/Pa{\\ensuremath{\\gamma}} versus [Fe II]{\\ensuremath{\\lambda}}1.257{\\ensuremath{\\mu}}m/Pa{\\ensure math{\\beta}}. With a significant boost in signal-to-noise ratio and large, representative samples of individual galaxy detections, the AURORA emission-line diagrams presented here definitively confirm a physical picture in which chemically young, {\\ensuremath{\\alpha}}-enhanced, massive stars photoionize the interstellar medium (ISM) in distant galaxies with a harder ionizing spectrum at fixed nebular metallicity than in their z {\\ensuremath{\\sim}} 0 counterparts. We also uncover previously unseen evolution prior to z {\\ensuremath{\\sim}} 2 in the [O III]{\\ensuremath{\\lambda}}5007/H{\\ensuremath{\\beta}} versus [N II]{\\ensuremath{\\lambda}}6583/H{\\ensuremath{\\alpha}} diagram, which motivates deep NIRSpec observations at even higher redshift. Finally, we present the first statistical sample of rest-frame near-IR emission-line diagnostics in star-forming galaxies at high redshift. In order to truly interpret rest- frame near-IR line ratios including [Fe II]{\\ensuremath{\\lambda}}1.257 {\\ensuremath{\\mu}}m, we must obtain better constraints on dust depletion in the high-redshift ISM.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Shapley}, Alice E.'), Person('{Sanders}, Ryan L.'), Person('{Topping}, Michael W.'), Person('{Reddy}, Naveen A.'), Person('{Berg}, Danielle A.'), Person('{Bouwens}, Rychard J.'), Person('{Brammer}, Gabriel'), Person('{Carnall}, Adam C.'), Person('{Cullen}, Fergus'), Person(\"{Dav{\\\\'e}}, Romeel\"), Person('{Dunlop}, James S.'), Person('{Ellis}, Richard S.'), Person('{F{\\\\\"o}rster Schreiber}, N. M.'), Person('{Furlanetto}, Steven R.'), Person('{Glazebrook}, Karl'), Person('{Illingworth}, Garth D.'), Person('{Jones}, Tucker'), Person('{Kriek}, Mariska'), Person('{McLeod}, Derek J.'), Person('{McLure}, Ross J.'), Person('{Narayanan}, Desika'), Person('{Oesch}, Pascal'), Person('{Pahl}, Anthony J.'), Person('{Pettini}, Max'), Person('{Schaerer}, Daniel'), Person('{Stark}, Daniel P.'), Person('{Steidel}, Charles C.'), Person('{Tang}, Mengtao'), Person('{Clarke}, Leonardo'), Person('{Donnan}, Callum T.'), Person('{Kehoe}, Emily')]",
+      "relevance_score": 6.4,
+      "justification": "AURORA is a strong JWST/NIRSpec emission-line diagnostic paper with useful high-z star-forming galaxy baselines, but it is not directly about Little Red Dots, AGN, or black hole evolution. Its lrdIndex=10 reflects supporting value for interpreting high-z line ratios and distinguishing ionization sources, not foundational LRD-specific insight.",
+      "key_factors": [
+        "lrdIndex=10",
+        "No direct LRD or AGN content",
+        "High-z JWST/NIRSpec emission-line diagnostics",
+        "BPT and ionization-metallicity baseline for AGN-vs-star-formation separation",
+        "First statistical rest-frame near-IR line diagnostics at high redshift"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 4.5,
+          "reasoning": "The AURORA paper does not directly discuss Little Red Dots, AGN, or black hole growth. Its value to LRD research is indirect: it provides high-redshift star-forming galaxy emission-line baselines and BPT/ionization-metallicity diagnostics that are essential for distinguishing AGN-like ionization from star formation in compact high-z systems. However, LRD-specific interpretation would require additional AGN/LRD papers."
+        },
+        "citation_frequency": {
+          "score": 7.0,
+          "reasoning": "lrdIndex=10 indicates moderate but meaningful citation by LRD researchers. It is not a core LRD reference, but it is frequently enough cited to be a recognized supporting paper for high-z emission-line diagnostics and JWST/NIRSpec methodology."
+        },
+        "foundational_value": {
+          "score": 6.5,
+          "reasoning": "The paper provides a large, representative JWST/NIRSpec sample of z=1.4-7.5 star-forming galaxies with multiple emission-line diagrams. For LRD work, this is useful as a calibration baseline for photoionization, metallicity, and AGN-vs-star-formation separation, but it does not establish LRD-specific physics or black hole demographics."
+        },
+        "methodological_innovation": {
+          "score": 7.5,
+          "reasoning": "AURORA's continuous 1-5 micron medium-resolution NIRSpec spectroscopy and first statistical rest-frame near-IR emission-line diagnostics are methodologically valuable. The inclusion of [S III], He I, Pa-gamma, [Fe II], and dust-depletion caveats provides a useful template for interpreting high-z line ratios, though the methods are not uniquely LRD-focused."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "The paper places high-z galaxies in an evolutionary context by confirming harder ionizing spectra, alpha-enhancement, and chemically young massive-star populations at fixed metallicity, plus evolution in BPT diagrams prior to z~2. This helps frame LRD host/ISM conditions, but it addresses star-forming galaxy evolution rather than black hole-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for high-z emission-line diagnostics and AGN/star-formation separation, but not a core LRD reference."
+    },
+    {
       "bibtex_key": "2026PhRvL.137k1004Q",
       "title": "{Not-Quite-Primordial Black Holes}",
       "abstract": "{We propose a new mechanism for the formation of seeds of supermassive black holes at early cosmic epochs. Our scenario explores density fluctuations that are enhanced relative to {\\ensuremath{\\Lambda}}CDM expectations, but with amplitudes that are not large enough to form primordial black holes, and that can still lead to collapsed dark matter halos at very early times. For halos forming prior to 1+z{\\ensuremath{\\approx}}200, the cosmic microwave background (CMB) is energetic enough to suppress the formation of molecular hydrogen, hence preventing cooling and fragmentation, as a consequence of which baryons falling into the potential well of the halo may undergo ``direct collapse'' into a black hole. We show, using a few illustrative models, how this mechanism may account for the abundance of high-redshift black holes inferred from observations by the James Webb Space Telescope while remaining consistent with limits from CMB spectral distortions. Limits on the primordial power spectrum are also derived by requiring that the universe not reionize too early.}",
@@ -9495,6 +9536,48 @@
       "notebooklm_recommendation": "Supplementary context: useful for distinguishing LRDs from dust-obscured high-z galaxies and for red-source selection caveats, but not a core LRD foundation."
     },
     {
+      "bibtex_key": "2025MNRAS.540.2176C",
+      "title": "{The JWST EXCELS survey: an extremely metal-poor galaxy at z = 8.271 hosting an unusual population of massive stars}",
+      "abstract": "{We present an analysis of the rest-frame optical ( {\\r{A}}) spectrum of a star-forming galaxy at (EXCELS-63107) from JWST/NIRSpec medium-resolution observations taken as part of the Early eXtragalactic Continuum and Emission Line Science (EXCELS) survey. The galaxy (EXCELS-63107) is compact, with a size consistent with local star-forming cluster complexes (), and exhibits an extremely steep UV continuum slope measured from JWST/NIRCam photometry (). The JWST/NIRSpec G395M spectrum of EXCELS-63107 is notable for its strong [O III] auroral-line emission relative to the [O III] forbidden line. Via a detailed emission-line and photoionization-modelling analysis, we find that the observed properties of EXCELS-63107 are consistent with the presence of an ionizing source with an effective temperature of heating ionized gas with a density of to a volume-averaged electron temperature of . Crucially, we find that stellar population models assuming a standard initial mass function (IMF) are not capable of producing the required heating. We determine an oxygen abundance of ( per cent of solar) which is one of the lowest directly constrained oxygen abundances measured in any galaxy to date, and lower than is typical for galaxies with the same stellar mass. The extremely low metallicity of EXCELS-63107 places it in a regime in which theoretical models expect a transition to a top-heavy IMF, and we speculate that a excess of stars is one plausible explanation for its observed properties. However, more exotic scenarios, such as Pop III star formation within a mildly enriched halo, are also consistent with the observations.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2025",
+      "authors": "[Person('{Cullen}, F.'), Person('{Carnall}, A. C.'), Person('{Scholte}, D.'), Person('{McLeod}, D. J.'), Person('{McLure}, R. J.'), Person(\"{Arellano-C{\\\\'o}rdova}, K. Z.\"), Person('{Stanton}, T. M.'), Person('{Donnan}, C. T.'), Person('{Dunlop}, J. S.'), Person('{Shapley}, A. E.'), Person('{Barrufet}, L.'), Person('{Begley}, R.'), Person('{Bondestam}, C.'), Person('{Cirasuolo}, M.'), Person('{Leung}, H.-H.'), Person('{Pollock}, C. L.'), Person('{Stevenson}, S.')]",
+      "relevance_score": 5.6,
+      "justification": "This paper is a useful supporting reference for high-z, extremely metal-poor galaxies and for stellar/IMF-based interpretations of unusual ionizing sources, but it is not directly about LRDs, AGN, or black hole growth. Its moderate lrdIndex=10 reflects contextual citation rather than core LRD importance, and much of its content is adjacent to, rather than central to, LRD research.",
+      "key_factors": [
+        "lrdIndex=10 indicates moderate LRD-community citation",
+        "No direct LRD or AGN analysis",
+        "Extremely low metallicity at z=8.271",
+        "Top-heavy IMF and Pop III scenarios as alternative ionizing sources",
+        "JWST/NIRSpec medium-resolution emission-line and photoionization modeling",
+        "Relevant to high-z galaxy evolution and non-AGN interpretations"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 4.5,
+          "reasoning": "The paper does not directly study Little Red Dots, AGN, or black hole growth. Its relevance is indirect: it presents an extremely metal-poor z=8.27 galaxy whose emission properties may require a top-heavy IMF or Pop III-like ionizing source, which can inform alternative stellar explanations for compact high-z sources and low-metallicity environments potentially relevant to LRD interpretations."
+        },
+        "citation_frequency": {
+          "score": 6.0,
+          "reasoning": "An lrdIndex of 10 indicates moderate citation by LRD researchers. This is enough to mark it as supporting literature, but it is not a high-frequency core reference, suggesting it is used as context for metallicity, IMF, or photoionization rather than as a foundational LRD paper."
+        },
+        "foundational_value": {
+          "score": 5.0,
+          "reasoning": "The paper provides a useful empirical anchor for extremely low oxygen abundance at z~8.3 and for discussing top-heavy IMF/Pop III scenarios. However, it does not establish or directly constrain LRD demographics, spectral properties, or AGN physics, so its foundational value for LRD research is limited."
+        },
+        "methodological_innovation": {
+          "score": 5.5,
+          "reasoning": "The analysis uses JWST/NIRSpec medium-resolution spectroscopy, [O III] auroral-line diagnostics, and photoionization modeling to infer an unusually hot ionizing source. These are valuable but relatively standard techniques; the novelty lies mainly in the extreme object and its interpretation rather than in a new method that would transform LRD studies."
+        },
+        "evolutionary_context": {
+          "score": 7.0,
+          "reasoning": "The paper strongly contributes to high-z galaxy evolution context by characterizing a very metal-poor galaxy at z=8.271, near the epoch of early enrichment, and by discussing IMF transitions and possible Pop III star formation. This is relevant background for interpreting unusual high-z compact sources, including LRDs, but it is not specific to black hole-galaxy coevolution."
+        }
+      },
+      "notebooklm_recommendation": "Useful supporting context for alternative stellar/IMF explanations and extreme low-metallicity high-z galaxies, but not a core LRD reference. Best used as background when discussing non-AGN ionizing sources, top-heavy IMFs, or metallicity effects in compact high-z systems."
+    },
+    {
       "bibtex_key": "2022MNRAS.509.1885P",
       "title": "{The search for the farthest quasar: consequences for black hole growth and seed models}",
       "abstract": "{The quest for high-redshift quasars has led to a series of record- breaking sources, with the current record holder at z = 7.642. Here, we show how future detections of z > 8 quasars impact the constraints on the parameters for black hole growth and seed models. Using broad flat priors on the growth parameters (Eddington ratio $\\, {f\\_{\\rm Edd}}$, duty cycle ${\\cal D}$, seed mass M$\\_{{\\ensuremath{\\bullet}},seed}$, and radiative efficiency ϵ), we show that the large uncertainties in their determination decrease by a factor \\raisebox{-0.5ex}\\textasciitilde5 when a quasar's detection redshift goes from z = 9 to z = 12. In this high-redshift regime, ϵ tends to the lowest value allowed, and the distribution for M$\\_{{\\ensuremath{\\bullet}},seed}$ peaks well inside the heavy seed domain. Remarkably, two quasars detected at z > 7 with low accretion rates (J1243+0100 and J0313-1806) already tighten the available parameter space, requiring $M\\_{\\rm \\bullet , seed} 10^{3.5} \\, {\\rm M\\_\\odot }$ and ϵ < 0.1. The radiative efficiency is a crucial unknown, with factor \\raisebox{-0.5ex}\\textasciitilde2 changes able to modify the predicted mass by \\raisebox{-0.5ex}\\textasciitilde3 orders of magnitude already at z \\raisebox{-0.5ex}\\textasciitilde 9. The competing roles of inefficient accretion (decreasing ϵ) and black hole spin-up (increasing ϵ) significantly impact growth models. Finally, we suggest that yields currently predicted by upcoming quasar surveys (e.g. Euclid) will be instrumental for determining the most-likely seed mass regime. For example, assuming thin-disc accretion, a detection of a quasar with $M\\_\\bullet \\sim 10^{10} \\, {\\rm M\\_\\odot }$ by z \\raisebox{-0.5ex}\\textasciitilde 9-10 would exclude the entire parameter space available for light seeds and dramatically reduce the one for heavy seeds.}",
@@ -10193,6 +10276,47 @@
       "notebooklm_recommendation": "Peripheral contextual reference; useful for early-galaxy boundary conditions but not a critical foundation for LRD-focused NotebookLM."
     },
     {
+      "bibtex_key": "2023LRR....26....2A",
+      "title": "{Astrophysics with the Laser Interferometer Space Antenna}",
+      "abstract": "{The Laser Interferometer Space Antenna (LISA) will be a transformative experiment for gravitational wave astronomy, and, as such, it will offer unique opportunities to address many key astrophysical questions in a completely novel way. The synergy with ground-based and space-born instruments in the electromagnetic domain, by enabling multi-messenger observations, will add further to the discovery potential of LISA. The next decade is crucial to prepare the astrophysical community for LISA's first observations. This review outlines the extensive landscape of astrophysical theory, numerical simulations, and astronomical observations that are instrumental for modeling and interpreting the upcoming LISA datastream. To this aim, the current knowledge in three main source classes for LISA is reviewed; ultra-compact stellar-mass binaries, massive black hole binaries, and extreme or interme-diate mass ratio inspirals. The relevant astrophysical processes and the established modeling techniques are summarized. Likewise, open issues and gaps in our understanding of these sources are highlighted, along with an indication of how LISA could help making progress in the different areas. New research avenues that LISA itself, or its joint exploitation with upcoming studies in the electromagnetic domain, will enable, are also illustrated. Improvements in modeling and analysis approaches, such as the combination of numerical simulations and modern data science techniques, are discussed. This review is intended to be a starting point for using LISA as a new discovery tool for understanding our Universe.}",
+      "lrdIndex": 10,
+      "existing_tags": "",
+      "year": "2023",
+      "authors": "[Person('{Amaro-Seoane}, Pau'), Person('{Andrews}, Jeff'), Person('{Arca Sedda}, Manuel'), Person('{Askar}, Abbas'), Person('{Baghi}, Quentin'), Person('{Balasov}, Razvan'), Person('{Bartos}, Imre'), Person('{Bavera}, Simone S.'), Person('{Bellovary}, Jillian'), Person('{Berry}, Christopher P. L.'), Person('{Berti}, Emanuele'), Person('{Bianchi}, Stefano'), Person('{Blecha}, Laura'), Person(\"{Blondin}, St{\\\\'e}phane\"), Person(\"{Bogdanovi{\\\\'c}}, Tamara\"), Person('{Boissier}, Samuel'), Person('{Bonetti}, Matteo'), Person('{Bonoli}, Silvia'), Person('{Bortolas}, Elisa'), Person('{Breivik}, Katelyn'), Person('{Capelo}, Pedro R.'), Person('{Caramete}, Laurentiu'), Person('{Cattorini}, Federico'), Person('{Charisi}, Maria'), Person('{Chaty}, Sylvain'), Person('{Chen}, Xian'), Person(\"{Chru{\\\\'s}li{\\\\'n}ska}, Martyna\"), Person('{Chua}, Alvin J. K.'), Person('{Church}, Ross'), Person('{Colpi}, Monica'), Person(\"{D'Orazio}, Daniel\"), Person('{Danielski}, Camilla'), Person('{Davies}, Melvyn B.'), Person('{Dayal}, Pratika'), Person('{De Rosa}, Alessandra'), Person('{Derdzinski}, Andrea'), Person('{Destounis}, Kyriakos'), Person('{Dotti}, Massimo'), Person('{Du{\\\\c{t}}an}, Ioana'), Person('{Dvorkin}, Irina'), Person('{Fabj}, Gaia'), Person('{Foglizzo}, Thierry'), Person('{Ford}, Saavik'), Person('{Fouvry}, Jean-Baptiste'), Person('{Franchini}, Alessia'), Person('{Fragos}, Tassos'), Person('{Fryer}, Chris'), Person('{Gaspari}, Massimo'), Person('{Gerosa}, Davide'), Person('{Graziani}, Luca'), Person('{Groot}, Paul'), Person('{Habouzit}, Melanie'), Person('{Haggard}, Daryl'), Person('{Haiman}, Zoltan'), Person('{Han}, Wen-Biao'), Person('{Istrate}, Alina'), Person('{Johansson}, Peter H.'), Person('{Khan}, Fazeel Mahmood'), Person('{Kimpson}, Tomas'), Person('{Kokkotas}, Kostas'), Person('{Kong}, Albert'), Person('{Korol}, Valeriya'), Person('{Kremer}, Kyle'), Person('{Kupfer}, Thomas'), Person('{Lamberts}, Astrid'), Person('{Larson}, Shane'), Person('{Lau}, Mike'), Person('{Liu}, Dongliang'), Person('{Lloyd-Ronning}, Nicole'), Person('{Lodato}, Giuseppe'), Person('{Lupi}, Alessandro'), Person('{Ma}, Chung-Pei'), Person('{Maccarone}, Tomas'), Person('{Mandel}, Ilya'), Person('{Mangiagli}, Alberto'), Person('{Mapelli}, Michela'), Person(\"{Mathis}, St{\\\\'e}phane\"), Person('{Mayer}, Lucio'), Person('{McGee}, Sean'), Person('{McKernan}, Berry'), Person('{Miller}, M. Coleman'), Person('{Mota}, David F.'), Person('{Mumpower}, Matthew'), Person('{Nasim}, Syeda S.'), Person('{Nelemans}, Gijs'), Person('{Noble}, Scott'), Person('{Pacucci}, Fabio'), Person('{Panessa}, Francesca'), Person('{Paschalidis}, Vasileios'), Person('{Pfister}, Hugo'), Person('{Porquet}, Delphine'), Person('{Quenby}, John'), Person('{Ricarte}, Angelo'), Person('{R{\\\\\"o}pke}, Friedrich K.'), Person('{Regan}, John'), Person('{Rosswog}, Stephan'), Person('{Ruiter}, Ashley'), Person('{Ruiz}, Milton'), Person('{Runnoe}, Jessie'), Person('{Schneider}, Raffaella'), Person('{Schnittman}, Jeremy'), Person('{Secunda}, Amy'), Person('{Sesana}, Alberto'), Person('{Seto}, Naoki'), Person('{Shao}, Lijing'), Person('{Shapiro}, Stuart'), Person('{Sopuerta}, Carlos'), Person('{Stone}, Nicholas C.'), Person('{Suvorov}, Arthur'), Person('{Tamanini}, Nicola'), Person('{Tamfal}, Tomas'), Person('{Tauris}, Thomas'), Person('{Temmink}, Karel'), Person('{Tomsick}, John'), Person('{Toonen}, Silvia'), Person('{Torres-Orjuela}, Alejandro'), Person('{Toscani}, Martina'), Person('{Tsokaros}, Antonios'), Person('{Unal}, Caner'), Person(\"{V{\\\\'a}zquez-Aceves}, Ver{\\\\'o}nica\"), Person('{Valiante}, Rosa'), Person('{van Putten}, Maurice'), Person('{van Roestel}, Jan'), Person('{Vignali}, Christian'), Person('{Volonteri}, Marta'), Person('{Wu}, Kinwah'), Person('{Younsi}, Ziri'), Person('{Yu}, Shenghua'), Person('{Zane}, Silvia'), Person('{Zwick}, Lorenz'), Person('{Antonini}, Fabio'), Person('{Baibhav}, Vishal'), Person('{Barausse}, Enrico'), Person('{Bonilla Rivera}, Alexander'), Person('{Branchesi}, Marica'), Person('{Branduardi-Raymont}, Graziella'), Person('{Burdge}, Kevin'), Person('{Chakraborty}, Srija'), Person('{Cuadra}, Jorge'), Person('{Dage}, Kristen'), Person('{Davis}, Benjamin'), Person('{de Mink}, Selma E.'), Person('{Decarli}, Roberto'), Person('{Doneva}, Daniela'), Person('{Escoffier}, Stephanie'), Person('{Gandhi}, Poshak'), Person('{Haardt}, Francesco'), Person('{Lousto}, Carlos O.'), Person('{Nissanke}, Samaya'), Person('{Nordhaus}, Jason'), Person(\"{O'Shaughnessy}, Richard\"), Person('{Portegies Zwart}, Simon'), Person('{Pound}, Adam'), Person('{Schussler}, Fabian'), Person('{Sergijenko}, Olga'), Person('{Spallicci}, Alessandro'), Person('{Vernieri}, Daniele'), Person(\"{Vigna-G{\\\\'o}mez}, Alejandro\")]",
+      "relevance_score": 4.6,
+      "justification": "The LISA astrophysics review is a broad, high-quality reference with moderate LRD-community citation frequency (lrdIndex=10), but it has no direct LRD content and only indirect relevance through massive black hole seeds, mergers, and multi-messenger constraints. It is useful supplementary context for future BH-evolution and GW connections, not a core LRD paper.",
+      "key_factors": [
+        "lrdIndex=10, moderate LRD citation frequency",
+        "No direct LRD discussion or analysis",
+        "Provides LISA/MBH merger and BH seed context",
+        "Useful for future GW-EM synergy, not current LRD phenomenology",
+        "Much LISA background is textbook-level for specialists"
+      ],
+      "category_scores": {
+        "direct_lrd_connection": {
+          "score": 3.0,
+          "reasoning": "The review is not about Little Red Dots and contains no direct LRD analysis or interpretation. Its relevance is indirect: LISA's massive black hole binary, seed, and high-redshift merger science can inform how LRD AGN/BH growth might be connected to the gravitational-wave landscape, but this connection must be inferred by the reader."
+        },
+        "citation_frequency": {
+          "score": 6.0,
+          "reasoning": "lrdIndex=10 indicates moderate citation by LRD researchers. This is above the kick_off threshold and shows niche utility, likely for future LISA constraints on BH seeds/mergers or multi-messenger context, but it is far below the citation frequency of core LRD observational or theoretical papers."
+        },
+        "foundational_value": {
+          "score": 5.0,
+          "reasoning": "This is a comprehensive LISA astrophysics review that provides useful background on massive black hole binaries, seed formation, merger rates, and multi-messenger follow-up. However, much of the LISA and standard AGN/BH physics is already familiar to LRD researchers, and the paper does not provide LRD-specific foundational results."
+        },
+        "methodological_innovation": {
+          "score": 4.0,
+          "reasoning": "The paper reviews LISA modeling, numerical simulations, and modern data-science approaches, but it offers little direct methodological value for LRD selection, SED fitting, spectroscopy, or AGN identification. Its methods are relevant mainly for future GW/EM synergy studies rather than current LRD analysis."
+        },
+        "evolutionary_context": {
+          "score": 6.5,
+          "reasoning": "The review gives strong evolutionary context for massive black hole binaries, BH seed scenarios, merger demographics, and high-redshift BH growth. This is relevant for placing LRD black holes within broader black-hole/galaxy coevolution and future gravitational-wave constraints, though the connection to LRDs remains indirect."
+        }
+      },
+      "notebooklm_recommendation": "Supplementary context for LISA and massive black hole merger/seed evolution; not a core LRD reference."
+    },
+    {
       "bibtex_key": "2022ApJ...937L..30L",
       "title": "{Accelerating Early Massive Galaxy Formation with Primordial Black Holes}",
       "abstract": "{Recent observations with JWST have identified several bright galaxy candidates at z {\\ensuremath{\\gtrsim}} 10, some of which appear unusually massive (up to \\raisebox{-0.5ex}\\textasciitilde{}10$^{11}$ M $\\_{☉}$). Such early formation of massive galaxies is difficult to reconcile with standard {\\ensuremath{\\Lambda}}CDM predictions, demanding a very high star formation efficiency (SFE), possibly even in excess of the cosmic baryon mass budget in collapsed structures. With an idealized analysis based on linear perturbation theory and the Press-Schechter formalism, we show that the observed massive galaxy candidates can be explained with lower SFE than required in {\\ensuremath{\\Lambda}}CDM if structure formation is accelerated/seeded by massive ({\\ensuremath{\\gtrsim}}{}10$^{9}$ M $\\_{☉}$) primordial black holes (PBHs) that make a up a small fraction (\\raisebox{-0.5ex}\\textasciitilde10$^{-6}$-10$^{-3}$) of dark matter, considering existing empirical constraints on PBH parameters. We also discuss the potential observational signatures of PBH cosmologies in the JWST era. More work needs to be done to fully evaluate the viability of such PBH models to explain observations of the high-z Universe.}",
@@ -10565,11 +10689,11 @@
     }
   ],
   "statistics": {
-    "average_score": 7.387354085603122,
+    "average_score": 7.365961538461548,
     "median_score": 7.8,
     "critical_count": 119,
-    "high_value_count": 98,
-    "moderate_value_count": 37,
+    "high_value_count": 99,
+    "moderate_value_count": 39,
     "low_priority_count": 3
   }
 }
