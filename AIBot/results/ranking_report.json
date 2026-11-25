@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T06:20:30.042682",
-  "total_papers": 611,
-  "successfully_scored": 611,
+  "generated_at": "2026-11-25T06:19:31.050969",
+  "total_papers": 612,
+  "successfully_scored": 612,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -7660,6 +7660,46 @@
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM - This paper provides a foundational theoretical framework that directly addresses the core mysteries of LRDs and should be central to any synthesis of the current state of LRD research."
+    },
+    {
+      "bibtex_key": "2026arXiv261128209W",
+      "title": "{Quasi-hostless LRDs with intrinsically red, faint UV continua}",
+      "abstract": "{High-redshift objects characterised by very weak UV relative to their strong, red rest-optical continua, with broad Balmer lines, appear to represent little red dots (LRDs) in their purest form: sources dominated by emission from their central engine (CE), sometimes dubbed black hole stars (BH*s). Previous work has selected BH*-dominated objects, where a BH* template dominates the rest-optical emission; this remains agnostic to the rest-UV. We therefore select low FUV-to-optical continuum ratio ($L\\_{\\rm 1500}/L\\_{5100}<0.03$) objects resembling MoM-BH* and The Cliff, from a spectroscopic sample of 132 LRDs at $2\\lesssim z\\lesssim9$. This identifies three LRDs that we newly classify as BH*-like objects, more than doubling the existing sample: two at $z>6$ and one at $z\\sim3$. The UV slope reddens as the NUV- ($L\\_{\\rm 3500}$) and FUV-to-optical ratios fall, with $β\\_{\\rm UV}$ rising from $-1.8$ at $L\\_{\\rm 1500}/L\\_{5100}\\sim 0.5$ to $-0.5$ at $L\\_{\\rm 1500}/L\\_{5100}<0.03$, beyond values typically seen at these redshifts. As the UV-to-optical ratio weakens, gas-enshrouded BH emission appears to dominate, leading to the quasi-hostless regime: a weak, red UV continuum emerges alongside extreme Balmer decrements and weak forbidden line emission. This reddening could be reproduced by a simple model of a blackbody and hydrogen nebular emission leaking through a high column density screen of neutral hydrogen in the $n=2$ level ($N\\_{\\rm H,\\,n=2}\\approx10^{17}\\,{\\rm cm^{-2}}$), combined with a relatively weak host galaxy, although alternative CE scenarios may also reproduce this reddening. The host galaxy's growing FUV contribution in this model results in a testable UV morphological evolution with wavelength. This work identifies a family of quasi-hostless LRDs that share a common, intrinsically red, rest-UV continuum originating from their central engine.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Witten}, Callum'), Person('{Weibel}, Andrea'), Person('{Oesch}, Pascal A.'), Person('{Naidu}, Rohan P.'), Person('{Matthee}, Jorryt'), Person('{Covelo-Paz}, Alba'), Person('{Meyer}, Romain A.'), Person('{Sneppen}, Albert'), Person('{Fairfield}, Parker'), Person('{de Graaff}, Anna'), Person('{Williams}, Christina C.'), Person('{Ji}, Zhiyuan'), Person('{Dayal}, Pratika'), Person('{Fudamoto}, Yoshinobu'), Person('{Illingworth}, Garth'), Person('{Carvajal-Bohorquez}, Cristian')]",
+      "relevance_score": 8.7,
+      "justification": "This paper is highly relevant to LRD research because it directly identifies and interprets a subpopulation of quasi-hostless, BH*-like LRDs using a large spectroscopic parent sample. It provides new candidates, spectral trends, and a physically motivated reddening scenario with testable UV morphology predictions, though the small number of new objects and model degeneracies limit the impact and rigor scores.",
+      "key_factors": [
+        "Directly targets BH*-dominated and quasi-hostless LRDs",
+        "Uses a spectroscopic sample of 132 LRDs at 2 < z < 9",
+        "Identifies three new BH*-like LRDs, more than doubling the sample",
+        "Connects red UV continua to central-engine emission and neutral-hydrogen screening",
+        "Proposes testable wavelength-dependent UV morphology"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly and centrally about little red dots, specifically BH*-dominated or quasi-hostless LRDs. It selects from a spectroscopic sample of 132 LRDs at 2 < z < 9, identifies three new BH*-like objects, and frames the work as a classification and physical interpretation of a distinct LRD subpopulation."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The analysis relies on rest-UV to rest-optical spectroscopic diagnostics, including FUV-to-optical continuum ratios, UV slopes, broad Balmer lines, Balmer decrements, and forbidden-line strengths. The use of a large LRD spectroscopic parent sample strengthens the observational basis, though the abstract does not detail instrument-specific data reduction or selection completeness."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper addresses key LRD physical properties: central-engine versus host-galaxy dominance, intrinsically red UV continua, extreme Balmer decrements, weak forbidden lines, and a possible high-column neutral hydrogen screen in the n=2 level. It also proposes testable UV morphological evolution, linking spectral and structural predictions."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The work more than doubles the known sample of BH*-like LRD candidates and defines a quasi-hostless LRD family with common red UV characteristics. The impact is significant for LRD classification and central-engine interpretations, but the newly identified sample is small and alternative central-engine scenarios remain possible."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The selection is grounded in a sizable spectroscopic LRD sample and uses clear ratio-based criteria. However, the abstract provides limited information on selection biases, completeness, measurement uncertainties, and degeneracies among the proposed neutral-hydrogen screen model and alternative central-engine explanations."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
       "bibtex_key": "2026FrASS..1379045V",
@@ -24606,9 +24646,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.058428805237321,
+    "average_score": 8.059477124183013,
     "median_score": 8.4,
-    "high_relevance_count": 547,
+    "high_relevance_count": 548,
     "moderate_relevance_count": 43,
     "low_relevance_count": 21
   }
