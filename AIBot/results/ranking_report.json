@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T06:19:31.050969",
-  "total_papers": 612,
-  "successfully_scored": 612,
+  "generated_at": "2026-11-28T06:20:23.104639",
+  "total_papers": 615,
+  "successfully_scored": 615,
   "papers": [
     {
       "bibtex_key": "2026Natur.653.1017J",
@@ -6969,6 +6969,46 @@
       "notebooklm_recommendation": "High priority for NotebookLM"
     },
     {
+      "bibtex_key": "2026arXiv261129615W",
+      "title": "{Velocity-Window Dependence of the Broad H$α$ Width-Luminosity Relation in Little Red Dots}",
+      "abstract": "{Broad Balmer emission lines probe black hole masses and nuclear kinematics in high-redshift active galactic nuclei (AGNs). In JWST ``little red dots'' (LRDs), integrated broad-H$α$ widths span a remarkably narrow range at fixed line luminosity, raising the question of whether this tightness persists once outer-wing emission is included. Holding each object and its broad-H$α$ luminosity fixed, we measure the finite-window line dispersion $σ(V)$, the flux-weighted second-moment width within $\\pm V$, from $V = 1500$ to $4500\\textasciitilde \\mathrm{km\\,s^{-1}}$ in JWST/NIRSpec spectra and Sloan Digital Sky Survey (SDSS) Type-1 AGNs. Across 20 high signal-to-noise LRDs, the observed scatter in $\\log\\_{10}σ(V)$ at fixed $L\\_{\\mathrm{H}α}$ rises from 0.036 to 0.084 dex between $V = 2500$ and $4500\\textasciitilde \\mathrm{km\\,s^{-1}}$, a paired increase of 0.048 dex with a 95\\% bootstrap interval of 0.026-0.064 dex, compared with 0.020 dex across 167 broader SDSS AGNs. Injecting synthetic profiles into the empirical noise of the same 20 spectra shows that single-Gaussian and core-plus- wing models both accommodate this rise, leaving intrinsic wing diversity, truncation, and wing noise unseparated. In the clearest dual-line spectrum, RUBIES-EGS-55604, H$β$ strengthens relative to H$α$ from line center to wing under two spectral decompositions of the same grating spectrum. Alongside integrated widths in JWST, SDSS, and 334 Euclid DR1 AGNs, these results show that the observed tightness of the H$α$ scaling depends on the velocities included in $σ(V)$, requiring mass and kinematic models to match both transition and velocity interval.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Haoyu')]",
+      "relevance_score": 8.7,
+      "justification": "The paper is highly relevant to LRD research because it directly analyzes JWST/NIRSpec broad Hα in a sample of 20 LRDs and tests the velocity-window dependence of the Hα width-luminosity relation used for BH mass and kinematic inference. Its methodology is strong and comparative, though the impact is focused on refining LRD broad-line mass modeling rather than broadly characterizing the LRD population.",
+      "key_factors": [
+        "Direct 20-object JWST/NIRSpec LRD sample",
+        "Broad Hα width-luminosity relation",
+        "Finite velocity-window line dispersion",
+        "BH mass and kinematic modeling implications",
+        "SDSS and Euclid AGN comparison"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is centered on JWST little red dots, analyzing broad Hα in 20 high-S/N LRD spectra and explicitly testing the LRD Hα width-luminosity relation. The LRD sample and question are the primary subject."
+        },
+        "observational_techniques": {
+          "score": 9.0,
+          "reasoning": "It uses JWST/NIRSpec spectra for LRDs, with SDSS Type-1 AGN and Euclid DR1 AGN comparisons. The finite-window line-dispersion measurements and dual-line decomposition are directly applicable to LRD observational methodology."
+        },
+        "physical_properties": {
+          "score": 8.5,
+          "reasoning": "The paper addresses broad-line kinematics, BH mass proxies, Hα/Hβ profile differences, and velocity-resolved line dispersion. It does not derive independent dynamical BH masses but strongly informs LRD BH mass estimates."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "It is important for interpreting LRD broad-line widths and BH mass scaling relations, especially whether integrated widths are biased by velocity window. The impact is specialized but high value for the LRD mass-modeling community."
+        },
+        "methodological_rigor": {
+          "score": 8.5,
+          "reasoning": "The analysis uses paired finite-window dispersion measurements, bootstrap intervals, synthetic profile injection, and two spectral decompositions. It appropriately acknowledges degeneracy among wing diversity, truncation, and noise."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
       "bibtex_key": "2026ApJ..1012....4K",
       "title": "{ATLAS. III. Dust around Little Red Dots: Hydrogen Line Ratios beyond Dust-free Non-Case B Models}",
       "abstract": "{We investigate broad hydrogen line ratios in little red dots (LRDs) using five high-redshift (z > 2) sources from James Webb Space Telescope (JWST) Near Infrared Spectrograph (NIRSpec) medium/high-resolution spectra in the DAWN JWST Archive (DJA) and 15 low-redshift sources (z = 0.1--0.9) from the literature, all with broad H{\\ensuremath{\\beta}} detected at >5{\\ensuremath{\\sigma}}. After carefully measuring the broad- line fluxes while accounting for absorption features and neighboring emission lines, we find that the broad H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} ratios are very high, ranging from 6 to 30, well above the Case B recombination value. Using plane-parallel CLOUDY photoionization models with the total line emission from both sides of the slab, we investigate the physical origin of the broad hydrogen line ratios beyond Case B, jointly modeling the Balmer and Paschen line ratios for the subset of one high-z and two low-z LRDs with detected broad Paschen lines. We find that one low-z LRD is reproduced by a high gas number density (log(nH/cm-3)\\raisebox{-0.5ex}\\textasciitilde10--11) on the broad-line H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}}--Pa{\\ens uremath{\\beta}}/Pa{\\ensuremath{\\gamma}} plane, whereas the remaining two LRDs additionally require substantial dust extinction of E(B - V) {\\ensuremath{\\gtrsim}} 0.2, even after accounting for non-Case B effects. Since the narrow H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} ratios do not indicate such large dust extinction, these results demonstrate that the obscuring dust is spatially associated with the broad- line region. Even without Paschen-line measurements, two and eight LRDs in the high- and low-redshift samples, respectively, exhibit H{\\ensuremath{\\alpha}}/H{\\ensuremath{\\beta}} > 13, which cannot be reproduced by the non-Case B models, suggesting that dust obscuration might be common among LRDs, occurring in at least about half of the population. Such dust may represent a lower-column-density counterpart of the dusty torus in active galactic nuclei, reconciling the weak hot-dust emission.}",
@@ -8869,6 +8909,46 @@
         "methodological_rigor": {
           "score": 7.5,
           "reasoning": "Applies sophisticated photoionization modeling to interpret complex line ratios and excitation mechanisms, demonstrating careful physical interpretation. The methodology appears robust for single-object spectroscopic analysis, though the abstract provides limited information on systematic uncertainties, data reduction details, or broader sample context that would strengthen reproducibility."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261133798L",
+      "title": "{Less massive black holes in faint hosts: SED fitting of Little Red Dots within the Black Hole Star scenario}",
+      "abstract": "{The James Webb Space Telescope (JWST) has revealed a population of compact sources known as ``little red dots`` (LRDs), characterized by a distinctive V-shaped spectral energy distribution (SED) from UV to optical wavelengths. The physical nature of these sources remains debated. The ``black hole star'' (BH*) scenario, wherein a super-Eddington accreting black hole is embedded in a dense gaseous envelope, has been proposed to explain them. We assemble a sample of 22 LRDs at $4.0 \\lesssim z \\lesssim 9.5$ from the ASTRODEEP-JWST database. We construct a composite ``host galaxy + BH*'' model using the \\textbackslashtexttt\\{Cloudy\\} photoionization code, and perform SED fitting with \\textbackslashtextsc\\{BayeSED3\\}. Our modeling reproduces the observed V-shaped features: the UV continuum blueward of the Balmer break is well reproduced by stellar emission within this decomposition, while the optical regime is dominated by the BH* component. Our fits reveal that LRDs are black holes hosted by faint, low-mass galaxies with median stellar and black hole masses of $M\\_* = 10^{8.7}\\,M\\_\\odot$ and $M\\_{\\rm BH} = 10^{6.4}\\,M\\_\\odot$, respectively. These black holes are moderately overmassive relative to local scaling relations but less extreme than broad-line estimates. The median bolometric luminosity $L\\_{\\rm BH^*} \\sim 10^{44.9}\\,\\rm erg\\,s^{-1}$ mitigates the reported number density tension from 1--2 orders of magnitude to a factor of a few. The host galaxies lie near the high-redshift star-forming main sequence, and stellar extinction correlates positively with star formation rate (SFR). The BH* scenario provides a self-consistent paradigm for LRDs, offering insights into the rapid growth of supermassive black hole seeds and their co-evolution with host galaxies during the cosmic dawn.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Liu}, Haitong'), Person('{Fan}, Lulu'), Person('{Han}, Yunkun'), Person('{Luo}, Yibin')]",
+      "relevance_score": 8.6,
+      "justification": "This paper is highly relevant to LRD research because it directly models a sample of 22 LRDs and tests the black hole star scenario with JWST photometry and photoionization SED fitting. It delivers important physical-property constraints and addresses black hole overmassiveness and number-density tensions, though its conclusions depend on model assumptions and lack new spectroscopy.",
+      "key_factors": [
+        "Direct LRD sample of 22 objects at z~4-9.5",
+        "BH* scenario tested with Cloudy + BayeSED3 SED fitting",
+        "Black hole and stellar mass estimates",
+        "Number-density tension alleviation",
+        "Host-galaxy star formation and extinction trends"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.5,
+          "reasoning": "The paper is directly centered on Little Red Dots: it assembles a sample of 22 LRDs at z~4-9.5, models their V-shaped SEDs, and tests the black hole star scenario. LRD phenomenology and physical interpretation are the primary subject."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study uses JWST/ASTRODEEP-JWST photometry and SED fitting with BayeSED3 plus Cloudy photoionization modeling. It does not present new spectroscopy, but it effectively leverages existing JWST broadband data and a composite host+BH* model."
+        },
+        "physical_properties": {
+          "score": 9.0,
+          "reasoning": "The paper derives stellar masses, black hole masses, bolometric luminosities, SFRs, extinction, and host-galaxy positions relative to the star-forming main sequence. It also discusses overmassive black holes, scaling relations, and number-density tension, covering key LRD physical properties."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The work provides a self-consistent interpretation of LRDs within the BH* scenario and argues that less extreme BH masses alleviate number-density tensions. Its impact is high for LRD demographics and black hole seed growth, though conclusions remain model-dependent."
+        },
+        "methodological_rigor": {
+          "score": 7.8,
+          "reasoning": "The methodology is appropriate: a Cloudy-based host+BH* composite model fitted with BayeSED3 to a 22-object sample. However, reliance on SED fitting and model assumptions introduces degeneracies, and the lack of new spectroscopic confirmation limits robustness."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -14594,6 +14674,47 @@
         "methodological_rigor": {
           "score": 7.0,
           "reasoning": "Utilizes spectroscopically confirmed sample and standard analysis frameworks, but abstract provides limited detail on SED fitting methods, AGN identification criteria, and systematic uncertainty quantification."
+        }
+      },
+      "notebooklm_recommendation": "High priority for NotebookLM"
+    },
+    {
+      "bibtex_key": "2026arXiv261134144W",
+      "title": "{Radio Emission From Low-redshift Little Red Dots}",
+      "abstract": "{High-redshift Little Red Dots (LRDs) are radio faint in existing survey and deep-field samples. Nearby LRD analogues allow the radio emission and spectra of individual sources to be measured, which is not possible at $z\\sim6$. Our sample comprises 44 low- redshift LRDs ($0.101 \\leq z \\leq 0.882$) . Eight objects are radio-detected: five at 144\\textbackslash,MHz with LoTSS, six at 3\\textbackslash,GHz with VLASS at $\\geq3σ$, and J1047 through its published VLA data. The rest-frame 144\\textbackslash,MHz luminosities of the LoTSS detections span $1.8\\times10^{30}$ to $3.6\\times10^{31}\\,\\mathrm{erg\\,s^{-1}\\,Hz^{-1}}$. The LoTSS-- VLASS spectral indices range from $-0.27\\pm0.04$ (J2048) to $-0.78\\pm0.11$ (J1200). J1051 lacks 144\\textbackslash,MHz coverage and has $α\\_{0.9 \\rm GHz}^{\\rm 3 GHz} \\simeq-0.93$. J1047 has a clear deficit at 144 MHz relative to its optically thin GHz spectrum, consistent with a turnover whose position and physical mechanism are not uniquely constrained by the archival data. The higher detection fraction among the Green Pea sample largely reflects their lower redshift: in this subsample LoTSS reaches luminosities roughly an order of magnitude fainter than in the more distant DESI gold sample. If their escaping spectra and radio luminosities are held fixed and extrapolated as power laws, the five LoTSS detections would have observed-frame 144 MHz flux densities of $\\sim0.7$--$32\\,μ\\mathrm{Jy}$. Low- redshift LRDs span more than an order of magnitude in radio luminosity among the detections, and more than two orders of magnitude when the J1047 upper limit is included. They also show several distinct spectral shapes, so the optically defined LRD class encompasses diverse radio properties. Current detection statistics are strongly shaped by redshift and survey sensitivity. The source-by-source luminosity limits provide a reference for interpreting future LRD samples.}",
+      "existing_tags": "",
+      "year": "2026",
+      "authors": "[Person('{Wang}, Ailing'), Person('{An}, Tao'), Person('{Lin}, Ruqiu')]",
+      "relevance_score": 8.3,
+      "justification": "This paper is highly relevant to LRD research because it directly characterizes radio emission from 44 low-redshift LRD analogues and provides radio luminosities, spectral shapes, and high-redshift extrapolations. It will be valuable for interpreting current radio faintness of high-z LRDs and for designing future follow-up, though its impact is limited by modest radio detection statistics and archival data constraints.",
+      "key_factors": [
+        "44 low-redshift LRD analogues",
+        "LoTSS, VLASS, and VLA radio data",
+        "Rest-frame 144 MHz luminosities",
+        "Radio spectral indices and J1047 turnover",
+        "High-z 144 MHz flux extrapolations",
+        "Survey sensitivity and redshift effects"
+      ],
+      "category_scores": {
+        "core_lrd_focus": {
+          "score": 9.0,
+          "reasoning": "The paper directly targets Little Red Dots, specifically low-redshift analogues, to understand radio emission from the LRD population. It is centrally about LRD properties and interpretation, though it does not study z~6 LRDs directly."
+        },
+        "observational_techniques": {
+          "score": 8.5,
+          "reasoning": "The study uses relevant radio facilities including LoTSS at 144 MHz, VLASS at 3 GHz, and published VLA data. These are important for LRD multiwavelength follow-up, but the work is radio-focused rather than using JWST or optical/IR LRD diagnostics."
+        },
+        "physical_properties": {
+          "score": 8.0,
+          "reasoning": "The paper measures rest-frame 144 MHz luminosities, radio spectral indices, and a possible turnover in J1047. It shows that the optically defined LRD class has diverse radio properties, which is physically important for understanding emission mechanisms."
+        },
+        "scientific_impact": {
+          "score": 8.0,
+          "reasoning": "The results provide source-by-source radio luminosity limits and extrapolations to high-redshift observed-frame 144 MHz flux densities of ~0.7-32 μJy. This is useful for planning and interpreting future LRD radio observations and for assessing survey sensitivity effects."
+        },
+        "methodological_rigor": {
+          "score": 7.5,
+          "reasoning": "The analysis uses a sample of 44 low-redshift LRDs and combines multiple radio surveys with careful spectral-index measurements and upper limits. However, only eight objects are radio-detected and the turnover interpretation is not uniquely constrained by archival data."
         }
       },
       "notebooklm_recommendation": "High priority for NotebookLM"
@@ -24646,9 +24767,9 @@
     }
   ],
   "statistics": {
-    "average_score": 8.059477124183013,
+    "average_score": 8.061788617886187,
     "median_score": 8.4,
-    "high_relevance_count": 548,
+    "high_relevance_count": 551,
     "moderate_relevance_count": 43,
     "low_relevance_count": 21
   }
